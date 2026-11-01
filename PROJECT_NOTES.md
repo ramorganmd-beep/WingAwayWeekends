@@ -30,7 +30,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
   - Weekend (page default): 2, **3** or 3½ hours
   - Longer stay: 3, 3½ or **4½** hours
   Changing trip length resets flight time to that trip's default.
-- Interest checkboxes: Romance, Boutique stays, Spa, Dining, Wine, History, Outdoors and Golf.
+- Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) and Charleston (Patriots Point / USS Yorktown); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
 - Savannah links to its guide. The other nine cards display “Guide coming soon.”
