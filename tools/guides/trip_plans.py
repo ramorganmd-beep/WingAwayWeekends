@@ -24,8 +24,8 @@ PLANS = {
         'day': [('Arrive', 'Land at KCHS mid-morning and ride to Patriots Point.'),
                 ('Midday', 'Explore the USS Yorktown and its aircraft, then lunch downtown.'),
                 ('Afternoon', 'A walk past Rainbow Row to the Battery, then back to the FBO.')],
-        'extra': [('Morning', 'Ride out to Middleton Place for its gardens along the Ashley River.'),
-                  ('Afternoon', 'The Gibbes Museum, then a brewery stop at Edmund’s Oast.'),
+        'extra': [('Morning', 'A slow morning on Lower King for antiques and galleries.'),
+                  ('Afternoon', 'Fort Sumter by ferry from Liberty Square, then a brewery stop at Edmund’s Oast.'),
                   ('Evening', 'Dinner at Halls Chophouse.')]},
     'asheville': {
         'day': [('Arrive', 'Land at KAVL early and pick up a car.'),
