@@ -24,7 +24,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 ### Discovery homepage
 
 - Responsive hero and destination-card grid, with layouts for desktop, tablet and mobile.
-- Departure airport input; calculations currently support KMYR only. Other entries show an explanatory empty state.
+- Departure airport input (default KMYR) covering 695 public airports in NC, SC, GA, FL, VA, TN and AL, with suggestions as you type. It accepts K-codes (KCHS), codes without the K (CHS) and 3-character FAA IDs (2J9). Airports outside the region show a “coming soon” message. A destination is hidden if it is the home airport or within 40 NM of it.
 - Trip length sets the maximum estimated flight-time options (default in bold):
   - Day trip: 1, **1½** or 2 hours
   - Weekend (page default): 2, **3** or 3½ hours
@@ -80,6 +80,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 - Destination records, interest tags, photograph mappings, distance calculation and DOM rendering are embedded in the discovery HTML.
 - Shared `style.css` plus page-specific inline styles.
 - Local WebP/JPEG assets and JSON attribution records; Wikimedia Commons supplies the source imagery and file-specific license evidence.
+- `docs/airports-southeast.js` holds airport codes, names and coordinates generated from OurAirports (public domain): land airports with a K-prefixed ICAO code or a 3-character FAA ID, which leaves out most private strips.
 - GitHub Pages hosts the static site from `docs/` on `main`. `docs/.nojekyll` makes Pages serve the files as-is.
 - Source is managed in Git on GitHub. The ChatGPT `.openai/hosting.json` manifest was not carried over and is no longer needed.
 - Python/Pillow were used as development tools for image resizing/conversion and archive checks. They are not browser runtime dependencies.
@@ -99,6 +100,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 | `licenses/replacement-imageinfo-evidence.json` | File-specific evidence for the four replacements |
 | `docs/index.html` | Discovery homepage, destination data, filters and rendering logic |
 | `docs/style.css` | Shared site styling |
+| `docs/airports-southeast.js` | Southeast departure airports (OurAirports data) |
 | `docs/savannah/index.html` | Savannah destination guide |
 | `docs/savannah.jpg` | Hero/guide photograph |
 | `docs/charleston/index.html` | Charleston destination guide (draft) |
@@ -113,7 +115,7 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
 2. **Two developed guides.** Savannah and Charleston have guides; eight cards remain editorial summaries.
-3. **Departure airport is limited to KMYR.** The editable field does not support arbitrary airports yet.
+3. **Departure airports cover the Southeast only.** NC, SC, GA, FL, VA, TN and AL as of November 1, 2026. Expanding means regenerating `docs/airports-southeast.js` with more states. Destination guides still show KMYR-based route snapshots.
 4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
 6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: Longer stay offers 4½ hours, which includes Key West.
@@ -134,4 +136,4 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 ## History of these notes
 
-Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, the Charleston guide was drafted and the Savannah guide was refreshed.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, Southeast departure airports were added, the Charleston guide was drafted and the Savannah guide was refreshed.
