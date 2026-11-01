@@ -6,7 +6,7 @@ Updated: November 1, 2026 (after migration from ChatGPT to Claude and GitHub Pag
 
 WingAway Weekends helps general aviation pilots and their travel companions discover worthwhile short getaways. The experience connects an appealing destination with practical arrival, lodging, dining and activity information, with an initial emphasis on couples.
 
-The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current site contains ten destination cards and three developed guides: Savannah, Charleston and Asheville. Automatic recommendations for every airport are outside the current MVP.
+The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current site contains ten destination cards and four developed guides: Savannah, Charleston, Asheville and Pinehurst. Automatic recommendations for every airport are outside the current MVP.
 
 The design uses navy, cream and gold, an aspirational destination hero photograph, the headline “Where will your wings take you this weekend?”, prominent airport and flight-time controls, and destination cards. ForeFlight remains the pilot’s operational flight-planning tool; WingAway provides destination discovery rather than weather, routing or dispatch decisions.
 
@@ -34,7 +34,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 - Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
-- Savannah, Charleston and Asheville link to their guides. The other seven cards display “Guide coming soon.”
+- Savannah, Charleston, Asheville and Pinehurst link to their guides. The other six cards display “Guide coming soon.”
 
 | Destination | Arrival airport | Photograph in latest review source |
 | --- | --- | --- |
@@ -70,6 +70,10 @@ Research was done through web search only; the research environment could not op
 ### Asheville guide (draft, added November 1, 2026)
 
 `docs/asheville/` uses the same format. KAVL has one FBO (Signature, 40 Lindbergh Lane, 828-687-7110); the airport is removing some GA hangars for a terminal expansion, so the guide tells pilots to confirm transient parking. The guide recommends a rental car. Picks: Omni Grove Park Inn, The Inn on Biltmore Estate and Kimpton Hotel Arras; Cúrate, Chai Pani and Corner Kitchen; Biltmore Estate and winery; the Western North Carolina Air Museum in Hendersonville (free, limited days); the Blue Ridge Parkway; downtown and the River Arts District; the Grove Park Inn spa; Sierra Nevada in Mills River; and the Asheville Tourists. The guide notes Hurricane Helene recovery: some restaurants (for example Rhubarb) closed permanently, so only places with recent evidence of being open were chosen. Same caveat as Charleston: links were written from known domains but not opened, so click-check them.
+
+### Pinehurst guide (draft, added November 1, 2026)
+
+`docs/pinehurst/` uses the same format. KSOP (Moore County Airport) has one county-run FBO, 910-692-3212, with transient tiedowns, hangars and courtesy cars listed. Ground transport needs arranging ahead because rideshare is scarce. Picks: The Carolina, The Holly Inn and Mid Pines Inn; Villaggio (Friday), Elliotts on Linden (Saturday) and Pinehurst Brewing Co. (lunch); Pinehurst No. 2 (resort guests), The Cradle and Thistle Dhu, the village, downtown Southern Pines, Mid Pines and Pine Needles; The Spa at Pinehurst; The Deuce; Southern Pines Brewing and Railhouse; and the U.S. Open (next in 2029). Several picks have no website link because official addresses could not be confirmed.
 
 ### Photography and review tools
 
@@ -110,6 +114,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 | `docs/savannah.jpg` | Hero/guide photograph |
 | `docs/charleston/index.html` | Charleston destination guide (draft) |
 | `docs/asheville/index.html` | Asheville destination guide (draft) |
+| `docs/pinehurst/index.html` | Pinehurst destination guide (draft) |
 | `docs/sitemap.xml`, `docs/robots.txt` | Search-engine sitemap and crawl rules (review pages excluded). Add new guide URLs to the sitemap. |
 | `docs/assets/destinations/` | 48 destination images (WebP + JPEG, 480/960 and some 1600px) |
 | `docs/photo-credits.json` | Attribution records served by the website |
@@ -121,7 +126,7 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 ## Open issues and limitations
 
 1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
-2. **Three developed guides.** Savannah, Charleston and Asheville have guides; seven cards remain editorial summaries.
+2. **Four developed guides.** Savannah, Charleston, Asheville and Pinehurst have guides; six cards remain editorial summaries.
 3. **Departure airports cover the Southeast only.** NC, SC, GA, FL, VA, TN and AL as of November 1, 2026. Expanding means regenerating `docs/airports-southeast.js` with more states. Destination guides still show KMYR-based route snapshots.
 4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
@@ -136,7 +141,7 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 ## Recommended next steps
 
 1. Click-check the Charleston and Asheville guide links and review the picks with Ross and Diana.
-1a. Finish Google Search Console setup (domain verification through Cloudflare, then submit `https://wingawayweekends.com/sitemap.xml`).
+1a. Google Search Console is verified (Domain property) and indexing was requested November 1, 2026. Check the Sitemaps report occasionally.
 2. Choose the next full guide only after the first two are reviewed, without expanding beyond the curated MVP prematurely.
 3. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
 4. Consider sharing destination data between `index.html` and `photo-review.html` to stop the two drifting apart.
@@ -144,4 +149,4 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 ## History of these notes
 
-Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, Southeast departure airports were added, the site moved to wingawayweekends.com on Cloudflare Pages, the Asheville guide and search-engine files were added, the Charleston guide was drafted and the Savannah guide was refreshed.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, Southeast departure airports were added, the site moved to wingawayweekends.com on Cloudflare Pages, the Asheville and Pinehurst guides and search-engine files were added, Google Search Console was verified and the sitemap submitted, the Charleston guide was drafted and the Savannah guide was refreshed.
