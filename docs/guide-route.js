@@ -2,6 +2,24 @@
 // Home airport comes from ?from=CODE (set by the homepage cards) or the last
 // airport used on the homepage (localStorage). Falls back to the page's
 // built-in KMYR figures when nothing is known.
+// Trip length (Weekend / Day trip / Longer stay) from ?trip=... or the
+// homepage's last choice: relabels the route box and shows the matching plan.
+(function () {
+  var trip = '';
+  try { trip = new URLSearchParams(location.search).get('trip') || ''; } catch (e) {}
+  if (!trip) { try { trip = localStorage.getItem('wingaway-trip') || ''; } catch (e) {} }
+  if (trip !== 'Day trip' && trip !== 'Longer stay') return;
+  var style = document.querySelector('[data-style]');
+  if (style) {
+    var small = document.createElement('small');
+    small.textContent = '· ' + style.dataset.transport;
+    style.textContent = (trip === 'Day trip' ? 'Day trip' : 'Three nights +') + ' ';
+    style.append(small);
+  }
+  var plan = document.querySelector('.trip-plan[data-trip="' + trip + '"]');
+  if (plan) plan.hidden = false;
+})();
+
 (function () {
   var box = document.querySelector('.snapshot[data-dest]');
   var airports = window.WINGAWAY_AIRPORTS;
