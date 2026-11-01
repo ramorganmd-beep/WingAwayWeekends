@@ -30,6 +30,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 - Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
+- Every guide has a “Luxury alternatives” row under Where to stay (added November 1, 2026; picks in `tools/guides/luxury.py`, Charleston’s in its build script).
 - All ten cards link to their guides. The whole card is clickable (a stretched link over the card, with a hover lift and keyboard focus ring), not just “Explore destination”.
 - Guide links carry the home airport (`?from=KPDK`), and the homepage remembers the last airport used (browser storage). Each guide’s route box then shows the distance and time from that airport, or “Drive instead” within 40 NM. Visitors who never entered an airport see the KMYR figures.
 - Trip length also carries into the guides (`&trip=` on card links, and the homepage remembers the last choice). Longer stay relabels the route box “Three nights +” and shows a “With an extra day” plan after the itinerary; Day trip relabels it “Day trip” and shows a “Just for the day” plan above the itinerary. Weekend shows the standard two-night guide.
@@ -88,7 +89,7 @@ Research was done through web search only; the research environment could not op
 
 ### Guide tools
 
-`tools/guides/` (not published) holds the scripts that generate the guide pages: `guide_helpers.py` (shared markup and page template) and `build_<guide>.py` for every guide except Savannah, which is hand-written HTML. After rebuilding a guide, run `python3 tools/guides/personalize.py docs/<guide>/index.html` and then `python3 tools/guides/trip_plans.py docs/<guide>/index.html` to restore the home-airport route box and the trip-length plans. Day-trip and extra-day content for every guide lives in `trip_plans.py`; add an entry there when a new guide is built. Edit the build script rather than the generated HTML, so later rebuilds keep the change.
+`tools/guides/` (not published) holds the scripts that generate the guide pages: `guide_helpers.py` (shared markup and page template) and `build_<guide>.py` for every guide except Savannah, which is hand-written HTML. After rebuilding a guide, run `python3 tools/guides/personalize.py docs/<guide>/index.html` then `python3 tools/guides/trip_plans.py docs/<guide>/index.html`, then `python3 tools/guides/luxury.py docs/<guide>/index.html` to restore the home-airport route box, the trip-length plans and the “Luxury alternatives” row (Charleston’s luxury row is in its build script instead). Day-trip and extra-day content for every guide lives in `trip_plans.py`; add an entry there when a new guide is built. Edit the build script rather than the generated HTML, so later rebuilds keep the change.
 
 ### Photography and review tools
 
