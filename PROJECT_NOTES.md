@@ -6,7 +6,7 @@ Updated: November 1, 2026 (after migration from ChatGPT to Claude and GitHub Pag
 
 WingAway Weekends helps general aviation pilots and their travel companions discover worthwhile short getaways. The experience connects an appealing destination with practical arrival, lodging, dining and activity information, with an initial emphasis on couples.
 
-The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current site contains ten destination cards and one developed guide, Savannah. Automatic recommendations for every airport are outside the current MVP.
+The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current site contains ten destination cards and two developed guides, Savannah and Charleston. Automatic recommendations for every airport are outside the current MVP.
 
 The design uses navy, cream and gold, an aspirational destination hero photograph, the headline “Where will your wings take you this weekend?”, prominent airport and flight-time controls, and destination cards. ForeFlight remains the pilot’s operational flight-planning tool; WingAway provides destination discovery rather than weather, routing or dispatch decisions.
 
@@ -30,10 +30,10 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
   - Weekend (page default): 2, **3** or 3½ hours
   - Longer stay: 3, 3½ or **4½** hours
   Changing trip length resets flight time to that trip's default.
-- Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) and Charleston (Patriots Point / USS Yorktown); other destinations need review before tagging.
+- Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
-- Savannah links to its guide. The other nine cards display “Guide coming soon.”
+- Savannah and Charleston link to their guides. The other eight cards display “Guide coming soon.”
 
 | Destination | Arrival airport | Photograph in latest review source |
 | --- | --- | --- |
@@ -58,7 +58,13 @@ Key West estimates about 4 hours (label “~4 hr 2 min”), so it appears only w
 
 ### Savannah guide
 
-The developed guide covers FBO comparisons, arrival/ground transport, hotels, restaurants, attractions and boat outings, spa options, shopping, wine, breweries, sports/events links, a suggested weekend itinerary and practical booking considerations. It contains official-source links and explanatory notes, but no live pricing, availability or booking functionality. It was preserved through the photo updates.
+The developed guide covers FBO comparisons, arrival/ground transport, hotels, restaurants, attractions and boat outings, spa options, shopping, wine, breweries, sports/events links, a suggested weekend itinerary and practical booking considerations. It contains official-source links and explanatory notes, but no live pricing, availability or booking functionality. Refreshed November 1, 2026: the October 2026 trip dates became a sample Friday–Sunday itinerary; stale spa prices were removed; a note was added that Spa Bleu may be weekday-only, so Saturday appointments need confirming; the unverifiable “Savannah Underground” item was removed; Savannah Steel was updated (UPSHOT League, first season summer 2026); and the flight-time snapshot now uses the discovery page’s model (~1 hr 15 min).
+
+### Charleston guide (draft, added November 1, 2026)
+
+`docs/charleston/` follows the Savannah guide’s structure and styling: KCHS arrival with Atlantic Aviation and Signature, three stays (Zero George, Wentworth Mansion, The Vendue), FIG / Leon’s Oyster Shop / Husk, Patriots Point and the USS Yorktown as the pilot’s highlight, Fort Sumter, the Battery and Rainbow Row, Gibbes Museum, Middleton Place, Schooner Pride sunset sail, The Spa at The Charleston Place, King Street shopping, wine bars, breweries, RiverDogs / Stingrays / Battery and a sample Friday–Sunday itinerary. The hero uses the existing Rainbow Row card photo (CC0).
+
+Research was done through web search only; the research environment could not open venue websites. Facts confirmed in search results include Patriots Point admission contents and hours, the Fort Sumter ferry departure points and duration, Atlantic Aviation’s CHS address and phone, the Charleston Place spa address and phone, and Schooner Pride’s departure point and sail length. **These official links were written from known domains but not opened, so click-check them:** figcharleston.com, leonsoystershop.com, huskrestaurant.com, hallschophouse.com, gibbesmuseum.org, middletonplace.org, croghansjewelbox.com, graftchs.com, edmundsoast.com, thevendue.com, zerogeorge.com, wentworthmansion.com, charleston.com/schooner-pride, the Signature CHS page and the Belmond spa page. Signature’s address and phone are omitted because directory listings conflict.
 
 ### Photography and review tools
 
@@ -95,6 +101,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 | `docs/style.css` | Shared site styling |
 | `docs/savannah/index.html` | Savannah destination guide |
 | `docs/savannah.jpg` | Hero/guide photograph |
+| `docs/charleston/index.html` | Charleston destination guide (draft) |
 | `docs/assets/destinations/` | 48 destination images (WebP + JPEG, 480/960 and some 1600px) |
 | `docs/photo-credits.json` | Attribution records served by the website |
 | `docs/photo-review.html` | All-ten visual review (bypasses filters) |
@@ -105,12 +112,12 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 ## Open issues and limitations
 
 1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
-2. **Only one developed guide.** Nine cards remain editorial summaries with no detailed guide.
+2. **Two developed guides.** Savannah and Charleston have guides; eight cards remain editorial summaries.
 3. **Departure airport is limited to KMYR.** The editable field does not support arbitrary airports yet.
 4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
 6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: Longer stay offers 4½ hours, which includes Key West.
-7. **Savannah content needs refresh.** The guide includes October 2026 trip dates, older verification dates and example spa pricing. It needs editorial revalidation before broader use.
+7. ~~Savannah content needs refresh.~~ Refreshed November 1, 2026. The Charleston draft’s links still need a click-check (see the Charleston guide section).
 8. **Pinehurst imagery is archival.** The chosen sharp golf photograph dates to 2010 and should not be treated as a current course-layout reference.
 9. **Review and homepage code are duplicated.** A future cleanup could share destination data and rendering to reduce drift, while preserving the simple static architecture.
 10. **No live planning or commerce.** Weather, NOTAMs, fuel prices, hotel rates, events availability, reservations, ticket purchases and operational flight plans are not supplied.
@@ -119,12 +126,12 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 ## Recommended next steps
 
-1. Refresh the Savannah guide’s dates, prices and source checks.
-2. Choose and build the next full guide without expanding beyond the curated MVP prematurely.
+1. Click-check the Charleston guide’s links and review its picks with Ross and Diana.
+2. Choose the next full guide only after the first two are reviewed, without expanding beyond the curated MVP prematurely.
 3. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
 4. Consider sharing destination data between `index.html` and `photo-review.html` to stop the two drifting apart.
 5. Keep this document current as decisions are made.
 
 ## History of these notes
 
-Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, and trip length was activated.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, the Charleston guide was drafted and the Savannah guide was refreshed.
