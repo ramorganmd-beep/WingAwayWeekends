@@ -62,6 +62,27 @@ PLANS = {
         'extra': [('Morning', 'Rent a car for a Blue Ridge drive: waterfalls, overlooks and small towns under an hour away.'),
                   ('Afternoon', 'Unity Park and The Commons food hall, or a Greenville Drive game in season.'),
                   ('Evening', 'A show at the Peace Center.')]},
+    'charlottesville': {
+        'day': [('Arrive', 'Land at KCHO early and pick up a car.'),
+                ('Midday', 'Monticello with a timed entry, then lunch at a nearby winery.'),
+                ('Afternoon', 'A stroll on the Downtown Mall, then back to the airport. Leave tastings to the passenger.')],
+        'extra': [('Morning', 'Drive to Skyline Drive or the Blue Ridge Parkway for overlooks.'),
+                  ('Afternoon', 'Barboursville Vineyards and its Jefferson-designed ruins, with lunch at the winery.'),
+                  ('Evening', 'A relaxed dinner at your estate hotel.')]},
+    'nashville': {
+        'day': [('A long day', 'At about three hours each way from KMYR, Nashville is a stretch for a day trip; it works better from closer airports.'),
+                ('Midday', 'Ryman Auditorium tour and lunch downtown.'),
+                ('Afternoon', 'Country Music Hall of Fame, then back to KJWN with daylight to spare.')],
+        'extra': [('Morning', 'Brunch and a wander through The Gulch or 12 South.'),
+                  ('Afternoon', 'A tour of a historic home or a distillery outside town (you’ll want a car).'),
+                  ('Evening', 'A quieter listening room for songwriters, then dinner at The Optimist.')]},
+    'key-west': {
+        'day': [('Not a day trip', 'At about four hours each way from KMYR, Key West is not a day trip from most of the Southeast.'),
+                ('If you are closer', 'From south Florida airports: lunch at First Flight, then a bike loop through Old Town.'),
+                ('Afternoon', 'Hemingway Home, then back to the FBO well before it closes.')],
+        'extra': [('Morning', 'A snorkel or sail trip on the reef, or a lazy beach morning at Casa Marina.'),
+                  ('Afternoon', 'Bike to the Southernmost Point and Fort Zachary Taylor’s beach.'),
+                  ('Evening', 'A sunset sail, then a casual dinner in Old Town.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
