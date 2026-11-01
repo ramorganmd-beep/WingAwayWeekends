@@ -1,5 +1,7 @@
 # WingAway Weekends — Four photo replacements
 
+> Historical note: this describes the ChatGPT package as received. The website files formerly in `dist/` now live in `docs/` and are published with GitHub Pages. Photos were approved on November 1, 2026.
+
 UNPUBLISHED. Actual website files modified from WingAwayWeekends_Photos_Fixed_Review.zip.
 
 Open photo-review.html (or dist/photo-review.html) after extracting the complete ZIP to review all ten cards. Open dist/index.html for the actual discovery page and original filters. A static server is optional for these buildless pages.
