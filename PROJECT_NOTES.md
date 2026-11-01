@@ -13,7 +13,8 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 ## Current source and publication status
 
 - **Source of truth:** this GitHub repository, `ramorganmd-beep/WingAwayWeekends` (public). The project moved from ChatGPT to Claude on November 1, 2026. Older ChatGPT ZIPs and chats are history, not competing baselines.
-- **Live site:** https://ramorganmd-beep.github.io/WingAwayWeekends/ — GitHub Pages, publishing the `docs/` folder of the `main` branch. Any change merged into `main` goes live within a minute or two.
+- **Live site:** https://wingawayweekends.com (also www.wingawayweekends.com) — Cloudflare Pages project `wingawayweekends`, connected to this repository: production branch `main`, no build command, output directory `docs`. Any change merged into `main` goes live within a minute or two. The domain is registered with Cloudflare; both custom domains were activated November 1, 2026. Test address: https://wingawayweekends.pages.dev.
+- **Backup host:** GitHub Pages (https://ramorganmd-beep.github.io/WingAwayWeekends/) also publishes `docs/` from `main`, unless it has been turned off in the repository settings.
 - **Workflow:** Claude makes changes on a separate branch and pushes it; the user reviews and merges the pull request on GitHub.
 - The ten-photo set, including the four replacements (Asheville, Key West, Pinehurst, Greenville), was **approved and published** on November 1, 2026.
 - The site is public; the ChatGPT-hosted access gate no longer applies. Review pages (`photo-review.html`, `mobile-review.html`) are marked `noindex`.
@@ -81,7 +82,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 - Shared `style.css` plus page-specific inline styles.
 - Local WebP/JPEG assets and JSON attribution records; Wikimedia Commons supplies the source imagery and file-specific license evidence.
 - `docs/airports-southeast.js` holds airport codes, names and coordinates generated from OurAirports (public domain): land airports with a K-prefixed ICAO code or a 3-character FAA ID, which leaves out most private strips.
-- GitHub Pages hosts the static site from `docs/` on `main`. `docs/.nojekyll` makes Pages serve the files as-is.
+- Cloudflare Pages hosts the static site from `docs/` on `main` (no build step). GitHub Pages can serve the same folder as a backup; `docs/.nojekyll` makes it serve the files as-is.
 - Source is managed in Git on GitHub. The ChatGPT `.openai/hosting.json` manifest was not carried over and is no longer needed.
 - Python/Pillow were used as development tools for image resizing/conversion and archive checks. They are not browser runtime dependencies.
 - No application backend, database, user accounts, payments, saved trips, live aviation data, booking API or ForeFlight integration is implemented. The hosting access gate is separate from application functionality.
@@ -136,4 +137,4 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 ## History of these notes
 
-Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, Southeast departure airports were added, the Charleston guide was drafted and the Savannah guide was refreshed.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, trip length was activated, Asheville was tagged for aviation museums, Southeast departure airports were added, the site moved to wingawayweekends.com on Cloudflare Pages, the Charleston guide was drafted and the Savannah guide was refreshed.

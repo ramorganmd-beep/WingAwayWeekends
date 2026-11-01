@@ -2,9 +2,11 @@
 
 Curated weekend getaways for general aviation pilots and their travel companions.
 
+Live at **https://wingawayweekends.com** (Cloudflare Pages, deployed automatically from `docs/` on `main`).
+
 ## Where things are
 
-- `docs/` — the website (plain HTML, CSS and JavaScript; no build step). GitHub Pages publishes this folder.
+- `docs/` — the website (plain HTML, CSS and JavaScript; no build step). Cloudflare Pages publishes this folder.
   - `docs/index.html` — discovery homepage, destination data and filters
   - `docs/savannah/` — Savannah destination guide
   - `docs/photo-review.html` — all ten destination cards, for review
