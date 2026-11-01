@@ -46,7 +46,7 @@ Full original metadata is in `licenses/commons-imageinfo-evidence.json`; machine
 - Original image: https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG
 - License: Public domain (author’s dedication; anyone may use it for any purpose without conditions)
 - Requirements: None; attribution provided as a courtesy.
-- Changes: Cropped tightly to the Bay Street storefronts, removing the roadway, most parked cars and a traffic signal (crop box 420,120–1940,1260 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cars were removed by cropping only: no AI generation, retouching or color alteration.
+- Changes: Cropped to the Bay Street storefronts, removing most of the roadway and a traffic signal (crop box 360,110–2133,1440 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cropping only: no AI generation, retouching or color alteration.
 - Replaced: the earlier marsh photo (Farrargirl, CC BY-SA 4.0), November 1, 2026.
 
 ## St. Augustine

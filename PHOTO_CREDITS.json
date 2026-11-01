@@ -177,7 +177,7 @@
     "commercial_reuse_verified": true,
     "verification_date": "2026-11-01",
     "requirements": "Public domain dedication by the author (applies worldwide; where not legally possible, the author grants anyone the right to use the work for any purpose without conditions). Attribution not required but provided.",
-    "changes": "Cropped tightly to the Bay Street storefronts, removing the roadway, most parked cars and a traffic signal (crop box 420,120–1940,1260 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cars were removed by cropping only: no AI generation, retouching or color alteration.",
+    "changes": "Cropped to the Bay Street storefronts, removing most of the roadway and a traffic signal (crop box 360,110–2133,1440 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cropping only: no AI generation, retouching or color alteration.",
     "alt": "Historic storefronts along Bay Street in downtown Beaufort, South Carolina",
     "date_taken": "2009-12-16",
     "files": [
@@ -185,29 +185,29 @@
         "path": "docs/assets/destinations/beaufort-bay-street-480.webp",
         "width": 480,
         "height": 360,
-        "bytes": 28440,
-        "sha256": "c4241a7f116da74cfc3908a31af0f6033421a7717a8aed4e95f7c1cf7b40c7c0"
+        "bytes": 33512,
+        "sha256": "4cac55ced80c2e39fe01de02c1ea2fab5dbfbd6fe1bd157c4e781548c5775fe4"
       },
       {
         "path": "docs/assets/destinations/beaufort-bay-street-480.jpg",
         "width": 480,
         "height": 360,
-        "bytes": 41007,
-        "sha256": "13d415fab98f4c74daa107e2fbc5d204e95f1aef2b9ff4f9c38fffc854694a7c"
+        "bytes": 45940,
+        "sha256": "4eae6353c775852259decf7fbae895fd69904d166a3b9b43b801523a69d0a327"
       },
       {
         "path": "docs/assets/destinations/beaufort-bay-street-960.webp",
         "width": 960,
         "height": 720,
-        "bytes": 71954,
-        "sha256": "7aa375836eed9900570f72ebee02ce28a381a47fe05fa5aec2cbc41fc7329187"
+        "bytes": 87082,
+        "sha256": "1e85c0df2322ed437b0d7cad63279d52f0a07d8ab5cbbecd7bc5f53e28c4aa90"
       },
       {
         "path": "docs/assets/destinations/beaufort-bay-street-960.jpg",
         "width": 960,
         "height": 720,
-        "bytes": 123075,
-        "sha256": "625911babf25ddafa3c7b4b41c54370767d9804b0643898a2f9d35e7c91b9ed0"
+        "bytes": 139893,
+        "sha256": "71ae8e22d851c1adf72d6451a3f069c6c61df3af008944ad5fd058dfde6a4598"
       }
     ],
     "replaced": "Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg (Farrargirl, CC BY-SA 4.0), replaced November 1, 2026 at the owner’s request for a downtown photo."

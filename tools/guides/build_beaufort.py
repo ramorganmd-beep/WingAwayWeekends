@@ -13,7 +13,7 @@ P = [page_start(
     intro='Antebellum homes under live oaks, a waterfront park made for slow evenings and salt marsh in every direction. Beaufort is small, quiet and easy, and the airport is just across the river from town.',
     pills=['Waterfront', 'Historic inns', 'Marsh & beach'],
     photo='beaufort-bay-street', widths=[480, 960], alt='Historic storefronts along Bay Street in downtown Beaufort, South Carolina', img_w=960, img_h=720,
-    caption='Bay Street · Downtown Beaufort at golden hour', img_style='object-position:50% 78%', airport='KARW', nm=115, flight_time='~1 hr 1 <small>min</small>',
+    caption='Bay Street · Downtown Beaufort at golden hour', img_style='object-position:50% 65%', airport='KARW', nm=115, flight_time='~1 hr 1 <small>min</small>',
     style='Courtesy car + walks', nav=NAV)]
 
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then cross the river.',
