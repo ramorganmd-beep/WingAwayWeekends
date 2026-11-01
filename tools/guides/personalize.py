@@ -31,6 +31,6 @@ for path in map(Path, sys.argv[1:]):
     s = s.replace('<span>ILLUSTRATIVE FLIGHT TIME</span><strong>', '<span>ILLUSTRATIVE FLIGHT TIME</span><strong data-time>', 1)
     i = s.index('<p class="estimate">')
     s = s[:i] + '<p class="estimate" id="route-note" hidden></p>' + s[i:]
-    s = s.replace('</body>', '<script src="../airports-southeast.js"></script><script src="../guide-route.js"></script></body>', 1)
+    s = s.replace('</body>', '<script src="../airports-southeast.js"></script><script src="../aircraft.js"></script><script src="../guide-route.js"></script></body>', 1)
     path.write_text(s)
     print('personalized:', path, dest)
