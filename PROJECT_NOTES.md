@@ -26,11 +26,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 
 - Responsive hero and destination-card grid, with layouts for desktop, tablet and mobile.
 - Departure airport input (default KMYR) covering 695 public airports in NC, SC, GA, FL, VA, TN and AL, with suggestions as you type. It accepts K-codes (KCHS), codes without the K (CHS) and 3-character FAA IDs (2J9). Airports outside the region show a “coming soon” message. A destination is hidden if it is the home airport or within 40 NM of it.
-- Trip length sets the maximum estimated flight-time options (default in bold):
-  - Day trip: 1, **1½** or 2 hours
-  - Weekend (page default): 2, **3** or 3½ hours
-  - Longer stay: 3, 3½ or **4½** hours
-  Changing trip length resets flight time to that trip's default.
+- Maximum estimated flight time offers 1 to 4½ hours in half-hour steps for every trip length (changed November 1, 2026 at the owner’s request). Trip length only sets the starting value: Day trip 1½ hours, Weekend 3 hours (page default), Longer stay 4½ hours. Changing trip length resets flight time to that default.
 - Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
@@ -57,7 +53,7 @@ The estimate is great-circle distance in nautical miles divided by 150 knots, pl
 
 Nashville uses John C. Tune (KJWN), as requested. Its estimate is about 3.046 hours (label “~3 hr 3 min”): excluded at 2 and 3 hours, included at 3½ hours. The earlier request to include Nashville at 3 hours was superseded by the decision to use KJWN and keep the strict cutoff.
 
-Key West estimates about 4 hours (label “~4 hr 2 min”), so it appears only with Longer stay at 4½ hours.
+Key West estimates about 4 hours (label “~4 hr 2 min”), so it appears from KMYR only when flight time is set to 4½ hours.
 
 ### Savannah guide
 
@@ -152,7 +148,7 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 3. **Departure airports cover the Southeast only.** NC, SC, GA, FL, VA, TN and AL as of November 1, 2026. Expanding means regenerating `docs/airports-southeast.js` with more states. Destination guides still show KMYR-based route snapshots.
 4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
-6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: Longer stay offers 4½ hours, which includes Key West.
+6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: every trip length now offers up to 4½ hours, which includes Key West.
 7. ~~Savannah content needs refresh.~~ Refreshed November 1, 2026. The Charleston draft’s links still need a click-check (see the Charleston guide section).
 8. **Pinehurst imagery is archival.** The chosen sharp golf photograph dates to 2010 and should not be treated as a current course-layout reference.
 9. **Review and homepage code are duplicated.** A future cleanup could share destination data and rendering to reduce drift, while preserving the simple static architecture.
