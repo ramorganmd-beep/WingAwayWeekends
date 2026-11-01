@@ -67,8 +67,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
          'The city’s landmark luxury hotel on Meeting Street, steps from King Street and the City Market, with the full-service spa featured below. Ideal if you want the spa on site.') +
     card('Marion Square · Rooftop', 'Hotel Bennett',
          'A polished luxury hotel overlooking Marion Square on upper King Street, with a rooftop bar, a spa and an elegant champagne bar. Great for a King Street shopping weekend.') +
-    card('Mid-century chic', 'The Dewberry',
-         'A stylish mid-century-modern hotel facing Marion Square, known for its Living Room bar and a spa that is a favorite with couples.') +
+    card('Harborfront · New in 2026', 'The Cooper',
+         'Charleston’s first luxury waterfront hotel, opened in spring 2026 on Concord Street beside Waterfront Park and the Pineapple Fountain. Harbor views, a full-service spa, three restaurants and its own marina with sunset yacht cruises. A top-end splurge.') +
     '</div></section>')
 
 # 03 Eat
