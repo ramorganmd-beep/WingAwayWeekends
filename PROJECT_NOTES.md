@@ -30,7 +30,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 - Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
-- All ten cards link to their guides.
+- All ten cards link to their guides. The whole card is clickable (a stretched link over the card, with a hover lift and keyboard focus ring), not just “Explore destination”.
 - Guide links carry the home airport (`?from=KPDK`), and the homepage remembers the last airport used (browser storage). Each guide’s route box then shows the distance and time from that airport, or “Drive instead” within 40 NM. Visitors who never entered an airport see the KMYR figures.
 - Trip length also carries into the guides (`&trip=` on card links, and the homepage remembers the last choice). Longer stay relabels the route box “Three nights +” and shows a “With an extra day” plan after the itinerary; Day trip relabels it “Day trip” and shows a “Just for the day” plan above the itinerary. Weekend shows the standard two-night guide.
 
@@ -83,7 +83,7 @@ Research was done through web search only; the research environment could not op
 ### Charlottesville, Nashville and Key West guides (drafts, added November 1, 2026)
 
 - **Charlottesville (`docs/charlottesville/`):** KCHO, Signature (phone listings conflict, so none is shown). Rental car needed. Picks: Keswick Hall, Boar’s Head Resort and Oakhurst Inn; The Alley Light, Oakhart Social and C&O; Monticello, UVA, the Downtown Mall and the Blue Ridge; Barboursville and King Family Vineyards; Foxfield Races.
-- **Nashville (`docs/nashville/`):** KJWN, Contour Flight Support (615-350-5000; tower listed 7 AM–9 PM; Atlantic Aviation building a second FBO). Picks: The Hermitage Hotel, Omni Nashville (Mokara Spa) and Germantown Inn; Rolf & Daughters, Locust and The Optimist; the Ryman, the Opry, the Country Music Hall of Fame, Broadway and Germantown; the Predators.
+- **Nashville (`docs/nashville/`):** KJWN, Contour Flight Support (615-350-5000; tower listed 7 AM–9 PM; Atlantic Aviation building a second FBO). Picks: The Hermitage Hotel, Omni Nashville (Mokara Spa) and Germantown Inn; Boqueria (Friday), Locust (Saturday) and Rolf & Daughters as the alternative (changed at the owner’s request); Broadway honky-tonks first, then the Ryman, the Opry, the Country Music Hall of Fame and Germantown; the Predators.
 - **Key West (`docs/key-west/`):** KEYW, Signature only (305-296-5422). The guide warns about high fuel and parking fees, the 9 PM closing fee, overwater flying, nearby military airspace and the need for a fuel stop. Picks: The Marquesa, Casa Marina, H2O Suites or Almond Tree; Latitudes, Hot Tin Roof and First Flight (Pan Am’s first ticket office, 301 Whitehead St.); the Dry Tortugas seaplane, Mallory Square and Old Town. Its day-trip plan says plainly that Key West is not a day trip from most of the Southeast.
 
 ### Guide tools

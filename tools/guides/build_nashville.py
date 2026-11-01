@@ -38,26 +38,26 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One easy lunch.',
     'Nashville’s best reservations go fast. Book the special dinner as soon as you know your dates.') +
     '<div class="grid three">' +
-    card('Friday dinner · Germantown', 'Rolf & Daughters',
-         'Seasonal, pasta-focused cooking in a warm Germantown room. Save room for dessert and a drink.') +
+    card('Friday dinner · Downtown', 'Boqueria',
+         'Barcelona-style tapas, paella and sangria at Fifth + Broadway, a short walk from the Ryman and the honky-tonks. Reservations and walk-ins; call <a href="tel:+16152457160">615-245-7160</a>.') +
     card('Saturday dinner · Special occasion', 'Locust',
          'A small restaurant named among North America’s 50 Best and one of the city’s toughest reservations. Book the moment reservations open.') +
-    card('Alternative dinner · Seafood', 'The Optimist',
-         'A big, lively seafood restaurant. An easier reservation if Locust is full.') +
+    card('Alternative dinner · Germantown', 'Rolf & Daughters',
+         'Seasonal, pasta-focused cooking in a warm Germantown room. Swap it in for either night; The Optimist, a lively seafood restaurant, is another easy alternative.') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Music & sights', 'Hear it where it happened.',
     'Choose one big show and leave the rest of the music to chance.') +
     '<div class="explore-list">' +
-    explore(1, 'Ryman Auditorium',
+    explore(1, 'Broadway honky-tonks',
+            'The classic Nashville night: live bands from late morning to late night along Lower Broadway, no cover at most places. Hop between a few, then find a quieter listening room if you want to hear songwriters up close.') +
+    explore(2, 'Ryman Auditorium',
             'The “Mother Church of Country Music” and home of the Opry from 1943 to 1974. Take the daytime tour, with a 2026 Opry 100 exhibit, or see a concert or an “Opry at the Ryman” show at night.',
             'https://www.ryman.com/', 'Shows & tours') +
-    explore(2, 'Grand Ole Opry',
+    explore(3, 'Grand Ole Opry',
             'The live radio show at the Grand Ole Opry House, with several artists per night. Book tickets ahead and check whether your date is at the Opry House or the Ryman.') +
-    explore(3, 'Country Music Hall of Fame and Museum',
+    explore(4, 'Country Music Hall of Fame and Museum',
             'Downtown, beside the Omni. Allow a few hours even if you are not a country fan.') +
-    explore(4, 'Broadway honky-tonks',
-            'Live music from late morning to late night on Lower Broadway. Fun for an hour; quieter listening rooms are worth seeking out too.') +
     explore(5, 'Germantown stroll',
             'Historic brick streets, cafés and restaurants just north of downtown. The calm counterpoint to Broadway.') +
     '</div>')
@@ -84,14 +84,14 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
     '<div class="days">' +
     day('FRI', 'Arrive & unwind', [
         ('Midday arrival', 'Land at KJWN, subject to weather and your actual flight plan, and ride downtown.'),
-        ('Afternoon', 'Ryman Auditorium tour, then a quick look at Broadway.'),
-        ('Evening', 'Dinner at Rolf & Daughters and a walk around Germantown.')]) +
+        ('Afternoon', 'Ryman Auditorium tour.'),
+        ('Evening', 'Dinner at Boqueria, then the honky-tonks on Lower Broadway.')]) +
     day('SAT', 'Music City', [
         ('Morning', 'Country Music Hall of Fame and Museum.'),
         ('Afternoon', 'Couples treatment at Mokara Spa, or rest before the evening.'),
         ('Evening', 'Dinner at Locust, then the Grand Ole Opry or a Ryman concert.')]) +
     day('SUN', 'An easy departure', [
-        ('Morning', 'A slow brunch in Germantown or The Gulch.'),
+        ('Morning', 'A slow brunch and a stroll through Germantown.'),
         ('Before leaving', 'Ride back to KJWN with ample time for aircraft preparation.'),
         ('Fly home', 'A long leg: plan fuel, weather and daylight carefully.')]) +
     '</div></section>')
