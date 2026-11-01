@@ -78,6 +78,7 @@ Research was done through web search only; the research environment could not op
 
 ### Beaufort, St. Augustine and Greenville guides (drafts, added November 1, 2026)
 
+- **Beaufort photo (November 1, 2026):** the marsh photo was replaced with “Bay Street Downtown Beaufort.JPG” (public domain, 2009), cropped tightly to remove the roadway and parked cars (cropping only, no retouching). The homepage card and guide hero use `object-position: 50% 78%` so the storefronts show in wide frames; set per photo with `"pos"` in `destinationPhotos` and `img_style` in the guide builder. License evidence: `licenses/beaufort-bay-street-evidence.json`.
 - **Beaufort (`docs/beaufort/`):** KARW is now named Beaufort Executive Airport and runs its own FBO (843-255-2972, courtesy car, shorter weekend hours). Picks: Anchorage 1770, The Rhett House Inn and The Beaufort Inn; Saltus River Grill, Ribaut Social Club and Plums; the historic district and waterfront park, carriage tours, Hunting Island, the Penn Center, the Spanish Moss Trail and the Parris Island Museum (base access rules apply). No spa or brewery picks were verified.
 - **St. Augustine (`docs/st-augustine/`):** KSGJ, Atlantic Aviation (904-824-1995) plus self-serve fuel. Picks: Casa Monica (and its spa), The Collector and St. Francis Inn; Collage, The Ice Plant Bar and The Columbia; Castillo de San Marcos, the lighthouse, Flagler College, St. George Street and a Matanzas Bay sunset; San Sebastian Winery and the St. Augustine Distillery; Nights of Lights.
 - **Greenville (`docs/greenville/`):** KGMU, Vantage Aviation (formerly Greenville Jet Center, 864-232-7100). Picks: Grand Bohemian Lodge, The Westin Poinsett and Hotel Hartness; Jianna, Scoundrel (Michelin star) and Soby’s; Falls Park, the Swamp Rabbit Trail, Unity Park and Main Street; the Greenville Drive, the Peace Center and Fall for Greenville. No spa section.
@@ -130,7 +131,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 | `docs/guide-route.js` | Personalizes each guide’s route box for the visitor’s home airport |
 | `tools/guides/` | Guide build scripts (not published) |
 | `docs/sitemap.xml`, `docs/robots.txt` | Search-engine sitemap and crawl rules (review pages excluded). Add new guide URLs to the sitemap. |
-| `docs/assets/destinations/` | 48 destination images (WebP + JPEG, 480/960 and some 1600px) |
+| `docs/assets/destinations/` | Destination images (WebP + JPEG, 480/960 and some 1600px) |
 | `docs/photo-credits.json` | Attribution records served by the website |
 | `docs/photo-review.html` | All-ten visual review (bypasses filters) |
 | `docs/mobile-review.html` | Narrow iframe for mobile layout inspection |

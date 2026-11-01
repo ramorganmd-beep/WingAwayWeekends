@@ -40,7 +40,7 @@ SECTIONS = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('expl
 
 
 def page_start(*, slug, name, state, number, description, lede, intro, pills, photo, widths, alt, img_w, img_h,
-               caption, airport, nm, flight_time, style, estimate_extra='', nav=None):
+               caption, airport, nm, flight_time, style, estimate_extra='', nav=None, img_style=''):
     """Shared page head, hero, trip snapshot and section menu for a destination guide."""
     def srcset(ext):
         return ', '.join(f'../assets/destinations/{photo}-{w}.{ext} {w}w' for w in widths)
@@ -57,7 +57,7 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
             f'<p class="lede">{lede}</p><p>{intro}</p><div class="pills">{pills_html}</div>'
             f'<div class="hero-actions"><a class="button" href="#itinerary">See the weekend itinerary</a><a href="#flight" class="secondary">Flight & arrival details</a></div></div>'
             f'<figure><picture><source type="image/webp" srcset="{srcset("webp")}" sizes="(max-width:800px) 100vw, 50vw">'
-            f'<img src="../assets/destinations/{photo}-960.jpg" srcset="{srcset("jpg")}" sizes="(max-width:800px) 100vw, 50vw" alt="{alt}" width="{img_w}" height="{img_h}"></picture>'
+            f'<img src="../assets/destinations/{photo}-960.jpg" srcset="{srcset("jpg")}" sizes="(max-width:800px) 100vw, 50vw" alt="{alt}" width="{img_w}" height="{img_h}"{f' style="{img_style}"' if img_style else ''}></picture>'
             f'<figcaption>{caption}</figcaption></figure></div>\n'
             f'<div class="snapshot" aria-label="Trip snapshot"><div><span>YOUR ROUTE</span><strong>KMYR <span class="route-line">to</span> {airport}</strong></div>'
             f'<div><span>STRAIGHT-LINE DISTANCE</span><strong>~{nm} <small>NM</small></strong></div>'

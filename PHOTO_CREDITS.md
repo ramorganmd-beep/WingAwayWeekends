@@ -40,13 +40,14 @@ Full original metadata is in `licenses/commons-imageinfo-evidence.json`; machine
 
 ## Beaufort
 
-- Title: Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg
-- Photographer: Farrargirl
-- Source: https://commons.wikimedia.org/wiki/File:Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort,_South_Carolina.jpg
-- Original image: https://upload.wikimedia.org/wikipedia/commons/1/15/Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort%2C_South_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original
-- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
-- Requirements: Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 4.0; ShareAlike applies to the photo adaptations.
-- Changes: Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.
+- Title: Bay Street Downtown Beaufort.JPG (taken December 16, 2009)
+- Photographer: Cdamgen (credited on Commons as BeaufortTiger), English Wikipedia
+- Source: https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG
+- Original image: https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG
+- License: Public domain (author’s dedication; anyone may use it for any purpose without conditions)
+- Requirements: None; attribution provided as a courtesy.
+- Changes: Cropped tightly to the Bay Street storefronts, removing the roadway, most parked cars and a traffic signal (crop box 420,120–1940,1260 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cars were removed by cropping only: no AI generation, retouching or color alteration.
+- Replaced: the earlier marsh photo (Farrargirl, CC BY-SA 4.0), November 1, 2026.
 
 ## St. Augustine
 

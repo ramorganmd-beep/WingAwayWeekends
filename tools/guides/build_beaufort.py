@@ -12,8 +12,8 @@ P = [page_start(
     lede='A short flight. Lowcountry time.',
     intro='Antebellum homes under live oaks, a waterfront park made for slow evenings and salt marsh in every direction. Beaufort is small, quiet and easy, and the airport is just across the river from town.',
     pills=['Waterfront', 'Historic inns', 'Marsh & beach'],
-    photo='beaufort', widths=[480, 960], alt='Salt marsh and Intracoastal Waterway in Beaufort, South Carolina', img_w=960, img_h=720,
-    caption='The marsh along the Intracoastal Waterway', airport='KARW', nm=115, flight_time='~1 hr 1 <small>min</small>',
+    photo='beaufort-bay-street', widths=[480, 960], alt='Historic storefronts along Bay Street in downtown Beaufort, South Carolina', img_w=960, img_h=720,
+    caption='Bay Street · Downtown Beaufort at golden hour', img_style='object-position:50% 78%', airport='KARW', nm=115, flight_time='~1 hr 1 <small>min</small>',
     style='Courtesy car + walks', nav=NAV)]
 
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then cross the river.',
@@ -116,7 +116,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
     '</section>')
 
 P.append(page_end(number=5, place='Beaufort, South Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
-    credit_html='Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina, by Farrargirl, <a href="https://commons.wikimedia.org/wiki/File:Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort,_South_Carolina.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Resized for display; adaptations shared under the same license.'))
+    credit_html='Bay Street Downtown Beaufort.JPG by Cdamgen (BeaufortTiger), English Wikipedia, <a href="https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG">Wikimedia Commons</a>, public domain. Cropped and resized for display.'))
 
 with open(OUT, 'w') as f:
     f.write('\n'.join(P))
