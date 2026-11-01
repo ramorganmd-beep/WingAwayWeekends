@@ -1,26 +1,23 @@
 # WingAway Weekends — Project Notes
 
-Updated: November 1, 2026.
+Updated: November 1, 2026 (after migration from ChatGPT to Claude and GitHub Pages).
 
 ## Goals and agreed direction
 
 WingAway Weekends helps general aviation pilots and their travel companions discover worthwhile short getaways. The experience connects an appealing destination with practical arrival, lodging, dining and activity information, with an initial emphasis on couples.
 
-The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current source contains ten destination cards and one developed guide, Savannah. Automatic recommendations for every airport are outside the current MVP.
+The agreed MVP is a curated discovery homepage with 5–10 handpicked destinations from KMYR and only 1–2 developed guides. The current site contains ten destination cards and one developed guide, Savannah. Automatic recommendations for every airport are outside the current MVP.
 
 The design uses navy, cream and gold, an aspirational destination hero photograph, the headline “Where will your wings take you this weekend?”, prominent airport and flight-time controls, and destination cards. ForeFlight remains the pilot’s operational flight-planning tool; WingAway provides destination discovery rather than weather, routing or dispatch decisions.
 
 ## Current source and publication status
 
-- Latest completed review package in this conversation: `WingAwayWeekends_Four_Photos_Replaced.zip`.
-- Package link: https://chatgpt.com/library?file_id=libfile_da2559eb2d9081918c21a22800cb2818&account_id=personal
-- This package was made from the user-supplied `WingAwayWeekends_Photos_Fixed_Review.zip` and contains actual modified website files.
-- Existing website: https://wingaway-savannah.ramorganmd.chatgpt.site
-- Hosting project ID: `appgprj_6abe9d437ef8819196353f64245055a8`.
-- Hosting configuration: static files served from `dist`.
-- Last deployment confirmed in this conversation: version 7, containing the discovery homepage and Nashville using KJWN. Hosting state has not been rechecked for this notes document.
-- The ten-photo work and subsequent four-photo replacements were prepared for review and have **not been published**. The latest review ZIP is ahead of the last confirmed live version.
-- Keep the existing project ID, website address, sharing access and Savannah guide. Do not create another site. Publication requires a new user instruction because the latest requested work explicitly said not to publish.
+- **Source of truth:** this GitHub repository, `ramorganmd-beep/WingAwayWeekends` (public). The project moved from ChatGPT to Claude on November 1, 2026. Older ChatGPT ZIPs and chats are history, not competing baselines.
+- **Live site:** https://ramorganmd-beep.github.io/WingAwayWeekends/ — GitHub Pages, publishing the `docs/` folder of the `main` branch. Any change merged into `main` goes live within a minute or two.
+- **Workflow:** Claude makes changes on a separate branch and pushes it; the user reviews and merges the pull request on GitHub.
+- The ten-photo set, including the four replacements (Asheville, Key West, Pinehurst, Greenville), was **approved and published** on November 1, 2026.
+- The site is public; the ChatGPT-hosted access gate no longer applies. Review pages (`photo-review.html`, `mobile-review.html`) are marked `noindex`.
+- **Former hosting (retired):** ChatGPT Sites at https://wingaway-savannah.ramorganmd.chatgpt.site (project `appgprj_6abe9d437ef8819196353f64245055a8`, last confirmed version 7). It no longer receives updates and can be left or deleted.
 
 ## Features built
 
@@ -50,11 +47,11 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 
 ### Flight-time behavior
 
-The estimate is great-circle distance in nautical miles divided by 150 knots, plus 0.25 hour. It has no wind, route, terrain, altitude, aircraft-specific climb/descent or ATC adjustment. Filtering uses the unrounded estimate; card labels round to one decimal place.
+The estimate is great-circle distance in nautical miles divided by 150 knots, plus 0.25 hour. It has no wind, route, terrain, altitude, aircraft-specific climb/descent or ATC adjustment. Filtering uses the unrounded estimate. Card labels show hours and minutes, rounded *up* to the next minute (for example “~3 hr 3 min”), so a label never looks inside a cutoff that excludes the destination.
 
-Nashville uses John C. Tune (KJWN), as requested. Its estimate is about 3.046 hours: excluded at 2 and 3 hours, included at 3½ hours. The earlier request to include Nashville at 3 hours was superseded by the decision to use KJWN and keep the strict cutoff.
+Nashville uses John C. Tune (KJWN), as requested. Its estimate is about 3.046 hours (label “~3 hr 3 min”): excluded at 2 and 3 hours, included at 3½ hours. The earlier request to include Nashville at 3 hours was superseded by the decision to use KJWN and keep the strict cutoff.
 
-Key West estimates about 4 hours and therefore does not appear under any current maximum-time option. It remains in the destination data and appears on the all-ten photo-review page.
+Key West estimates about 4 hours (label “~4 hr 2 min”) and therefore does not appear under any current maximum-time option. It remains in the destination data and appears on the all-ten photo-review page.
 
 ### Savannah guide
 
@@ -74,59 +71,58 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 - Destination records, interest tags, photograph mappings, distance calculation and DOM rendering are embedded in the discovery HTML.
 - Shared `style.css` plus page-specific inline styles.
 - Local WebP/JPEG assets and JSON attribution records; Wikimedia Commons supplies the source imagery and file-specific license evidence.
-- ChatGPT Sites hosts the existing static site. `.openai/hosting.json` retains its identity and document-root configuration.
-- The existing hosted source workflow uses Git and deployment archives. The latest review ZIP is a portable source snapshot, not a Git checkout, and has not been pushed or deployed.
+- GitHub Pages hosts the static site from `docs/` on `main`. `docs/.nojekyll` makes Pages serve the files as-is.
+- Source is managed in Git on GitHub. The ChatGPT `.openai/hosting.json` manifest was not carried over and is no longer needed.
 - Python/Pillow were used as development tools for image resizing/conversion and archive checks. They are not browser runtime dependencies.
 - No application backend, database, user accounts, payments, saved trips, live aviation data, booking API or ForeFlight integration is implemented. The hosting access gate is separate from application functionality.
 
-## File structure of the latest review ZIP
+## File structure
 
 | Path | Purpose |
 | --- | --- |
-| `.openai/hosting.json` | Existing project ID and static directory configuration |
-| `README.md` | Package status, opening instructions and scope |
-| `VALIDATION.md` | Checks documented for the replacement package |
-| `photo-review.html` | Convenience entry point redirecting to the review inside `dist` |
+| `README.md` | Repository overview and local preview instructions |
+| `PROJECT_NOTES.md` | This document |
+| `PACKAGE_HISTORY.md` | README of the final ChatGPT package, kept for history |
+| `VALIDATION.md` | Checks documented for the four-photo replacement package |
 | `PHOTO_CREDITS.md` | Human-readable sources, photographers, licenses and requirements |
 | `PHOTO_CREDITS.json` | Detailed attribution and image-file records |
-| `licenses/commons-imageinfo-evidence.json` | Earlier Commons evidence, retained for provenance and the six unchanged photos |
-| `licenses/replacement-imageinfo-evidence.json` | Current file-specific evidence for the four replacements |
-| `dist/index.html` | Actual discovery homepage, data, filters and rendering logic |
-| `dist/style.css` | Shared site styling |
-| `dist/savannah/index.html` | Existing Savannah destination guide |
-| `dist/savannah.jpg` | Existing hero/guide photograph, preserved |
-| `dist/assets/destinations/` | 48 image files: six destinations × four variants, plus four replacements × six variants |
-| `dist/photo-credits.json` | Attribution records accessible from the website |
-| `dist/photo-review.html` | All-ten visual review with updated photographs and credits |
-| `dist/mobile-review.html` | Narrow iframe for mobile layout inspection |
+| `licenses/commons-imageinfo-evidence.json` | Commons evidence for the six original photos |
+| `licenses/replacement-imageinfo-evidence.json` | File-specific evidence for the four replacements |
+| `docs/index.html` | Discovery homepage, destination data, filters and rendering logic |
+| `docs/style.css` | Shared site styling |
+| `docs/savannah/index.html` | Savannah destination guide |
+| `docs/savannah.jpg` | Hero/guide photograph |
+| `docs/assets/destinations/` | 48 destination images (WebP + JPEG, 480/960 and some 1600px) |
+| `docs/photo-credits.json` | Attribution records served by the website |
+| `docs/photo-review.html` | All-ten visual review (bypasses filters) |
+| `docs/mobile-review.html` | Narrow iframe for mobile layout inspection |
 
-Extract the whole ZIP before opening `photo-review.html`; the pages depend on the adjacent asset folders. The local preview works best on a desktop browser or static server. iPhone file previews may not execute the complete HTML experience reliably.
+To preview locally, open `docs/index.html` in a browser or run `python3 -m http.server -d docs`.
 
 ## Open issues and limitations
 
-1. **Latest photos are not live.** Review and publication are still outstanding.
+1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
 2. **Only one developed guide.** Nine cards remain editorial summaries with no detailed guide.
 3. **Departure airport is limited to KMYR.** The editable field does not support arbitrary airports yet.
 4. **Trip length is inactive.** It is displayed but has no effect on matching.
-5. **Time labels can obscure cutoff behavior.** Nashville displays approximately “3 hr” while being excluded at the strict 3-hour cutoff. A minutes-based label or clearer rounding would help without changing the agreed filter.
+5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
 6. **Key West is beyond the selector range.** Decide whether to offer a longer flight-time option or keep it solely for later expansion; do not silently alter the current limits.
 7. **Savannah content needs refresh.** The guide includes October 2026 trip dates, older verification dates and example spa pricing. It needs editorial revalidation before broader use.
 8. **Pinehurst imagery is archival.** The chosen sharp golf photograph dates to 2010 and should not be treated as a current course-layout reference.
 9. **Review and homepage code are duplicated.** A future cleanup could share destination data and rendering to reduce drift, while preserving the simple static architecture.
 10. **No live planning or commerce.** Weather, NOTAMs, fuel prices, hotel rates, events availability, reservations, ticket purchases and operational flight plans are not supplied.
-11. **Photo approval remains pending.** Browser inspection confirmed that all ten images loaded. Local image links, JavaScript syntax, unchanged feature logic and preservation checks passed; comprehensive accessibility and cross-device testing is not documented for the latest package.
-12. **Prior deployment mismatch.** An earlier archive accidentally retained the Savannah guide as the root page. That was corrected in version 5 and the published root/guide routes were directly verified. Future publication should inspect the actual deployment archive and verify the live homepage, not rely solely on a successful deployment status.
+11. **Photos approved; testing is limited.** Browser inspection confirmed that all ten images loaded. Local image links, JavaScript syntax, unchanged feature logic and preservation checks passed; comprehensive accessibility and cross-device testing is not documented for the latest package.
+12. **Verify after publishing.** Under ChatGPT hosting, an earlier archive once served the Savannah guide as the home page. After each merge, check the live homepage and `/savannah/` rather than assuming the deploy worked.
 
 ## Recommended next steps
 
-1. Review the latest ZIP’s all-ten photo preview and approve or request specific visual changes.
-2. Resolve the flight-time label and Key West range questions; decide whether to activate or simplify trip-length selection.
-3. Refresh the Savannah guide’s dates, prices and source checks. Choose the next full guide without expanding beyond the curated MVP prematurely.
-4. Once the user authorizes publication, open the existing project’s current source, reconcile the approved review files with any newer work, preserve its manifest/access settings, check the deployment archive, then publish to the same address.
-5. Verify the live discovery headline, all image files, Nashville cutoff behavior, interest filtering and `/savannah/` after publication.
-6. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
-7. Maintain one current source package and this project summary. Treat older ZIPs and chats as history, not competing implementation baselines.
+1. Resolve the Key West range question; decide whether to activate or simplify trip-length selection.
+2. Refresh the Savannah guide’s dates, prices and source checks.
+3. Choose and build the next full guide without expanding beyond the curated MVP prematurely.
+4. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
+5. Consider sharing destination data between `index.html` and `photo-review.html` to stop the two drifting apart.
+6. Keep this document current as decisions are made.
 
-## Evidence used for these notes
+## History of these notes
 
-The current local copy of `WingAwayWeekends_Four_Photos_Replaced.zip`, its README/validation records, actual discovery HTML, Savannah guide, hosting configuration, photo-credit records and file listing were inspected. Its Library identity was confirmed against the saved package. Project decisions and deployment history come from this conversation. This notes task does not modify or publish the website.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, and the flight-time labels were changed.
