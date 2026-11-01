@@ -1,0 +1,448 @@
+{
+  "Asheville": {
+    "pageid": 192877202,
+    "ns": 6,
+    "title": "File:Biltmore House front facade Asheville North Carolina - May 2026.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 28354869,
+        "width": 13000,
+        "height": 7090,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/1920px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 873,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/3840px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/1920px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 873,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/3840px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=192877202",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2026-05-27 13:50:45",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Biltmore House front facade Asheville North Carolina - May 2026",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "National Historic Landmarks in North Carolina|Richard Morris Hunt|Biltmore Estate|Houses on the National Register of Historic Places in North Carolina|Self-published work|Creative Commons Attribution 4.0 missing SDC copyright license|Creative Commons Attribution missing SDC copyright status|Self-published work missing SDC copyright license|Main facade of the Biltmore Estate",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Front facade of Biltmore House at Biltmore Estate in Asheville, North Carolina, United States. The 250-room Chateauesque mansion was designed by architect Richard Morris Hunt for George Washington Vanderbilt II and completed in 1895. Modeled after French Renaissance ch\u00e2teaux of the Loire Valley, it is the largest privately owned house in the United States. View from the Esplanade looking west, with the central fountain in the foreground and the all\u00e9es of London plane trees flanking the lawn. The grounds were designed by Frederick Law Olmsted. Biltmore Estate is a National Historic Landmark.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2026-05-25 16:39:24",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:WillThomas\" title=\"User:WillThomas\">WillThomas</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "Key West": {
+    "pageid": 133109625,
+    "ns": 6,
+    "title": "File:KeyWestFL Duval St 20230125.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 8867654,
+        "width": 4608,
+        "height": 3305,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/1920px-KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1148,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/3840px-KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/1920px-KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1148,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/3840px-KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/d/da/KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:KeyWestFL_Duval_St_20230125.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=133109625",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2023-06-14 23:01:36",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "KeyWestFL Duval St 20230125",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Duval Street, Key West|Self-published work|Files with coordinates missing SDC location of creation",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "24.551245",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-81.799373",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Duval Street, just north of Truman Avenue, Key West, Florida, January 2023",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2023-01-25 11:26:53",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Arminnius\" title=\"User:Arminnius\">Niranjan Arminius</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "Pinehurst": {
+    "pageid": 90141303,
+    "ns": 6,
+    "title": "File:Pinehurst No. Four 4 Golf Course (4599708312).jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 2950905,
+        "width": 3456,
+        "height": 2592,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg/1920px-Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1200,
+        "responsiveUrls": {
+          "2": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg/1920px-Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1200,
+          "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pinehurst_No._Four_4_Golf_Course_(4599708312).jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=90141303",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2020-05-13 02:50:09",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Pinehurst No. Four 4 Golf Course (4599708312)",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Pinehurst Resort|Images with extracted images|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "GPSLatitude": {
+            "value": "35.188862",
+            "source": "commons-desc-page"
+          },
+          "GPSLongitude": {
+            "value": "-79.460523",
+            "source": "commons-desc-page"
+          },
+          "GPSMapDatum": {
+            "value": "WGS-84",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Read my <b>&lt;a href=\"<a rel=\"nofollow\" class=\"external free\" href=\"http://www.danperry.com/blog/pinehurst-4-golf-course-review/\">http://www.danperry.com/blog/pinehurst-4-golf-course-review/</a>\" rel=\"noreferrer nofollow\"&gt;Pinehurst #4 Golf Course Review&lt;/a&gt;</b>.",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2010-05-10 16:36",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/golf_pictures/4599708312/\">Pinehurst No. Four 4 Golf Course</a>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/71018547@N00\">Dan Perry</a> from Atlanta, USA",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY 2.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution 2.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by/2.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-2.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  },
+  "Greenville": {
+    "pageid": 150853830,
+    "ns": 6,
+    "title": "File:Greenville - Liberty Bridge at Falls Park.jpg",
+    "imagerepository": "local",
+    "imageinfo": [
+      {
+        "size": 20872666,
+        "width": 6048,
+        "height": 4024,
+        "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/1920px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+        "thumbwidth": 1600,
+        "thumbheight": 1065,
+        "responsiveUrls": {
+          "2": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/3840px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        },
+        "thumbattribs": {
+          "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/1920px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "decoding": "async",
+          "loading": "lazy",
+          "width": 1600,
+          "height": 1065,
+          "srcset": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/3840px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail 2x"
+        },
+        "url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+        "descriptionurl": "https://commons.wikimedia.org/wiki/File:Greenville_-_Liberty_Bridge_at_Falls_Park.jpg",
+        "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=150853830",
+        "extmetadata": {
+          "DateTime": {
+            "value": "2024-07-26 18:25:47",
+            "source": "mediawiki-metadata",
+            "hidden": ""
+          },
+          "ObjectName": {
+            "value": "Greenville - Liberty Bridge at Falls Park",
+            "source": "mediawiki-metadata"
+          },
+          "CommonsMetadataExtension": {
+            "value": 1.2,
+            "source": "extension",
+            "hidden": ""
+          },
+          "Categories": {
+            "value": "Liberty Bridge at Falls Park on the Reedy|Self-published work|Greenville, South Carolina in the 2020s",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "Assessments": {
+            "value": "",
+            "source": "commons-categories",
+            "hidden": ""
+          },
+          "ImageDescription": {
+            "value": "Liberty Bridge at Falls Park on the Reedy, Greenville, South Carolina",
+            "source": "commons-desc-page"
+          },
+          "DateTimeOriginal": {
+            "value": "2024-02-14",
+            "source": "commons-desc-page"
+          },
+          "Credit": {
+            "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+            "source": "commons-desc-page"
+          },
+          "Artist": {
+            "value": "<a href=\"//commons.wikimedia.org/wiki/User:Indies1\" title=\"User:Indies1\">P. Hughes</a>",
+            "source": "commons-desc-page"
+          },
+          "LicenseShortName": {
+            "value": "CC BY-SA 4.0",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "UsageTerms": {
+            "value": "Creative Commons Attribution-Share Alike 4.0",
+            "source": "commons-desc-page"
+          },
+          "AttributionRequired": {
+            "value": "true",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "LicenseUrl": {
+            "value": "https://creativecommons.org/licenses/by-sa/4.0",
+            "source": "commons-desc-page"
+          },
+          "Copyrighted": {
+            "value": "True",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "Restrictions": {
+            "value": "",
+            "source": "commons-desc-page",
+            "hidden": ""
+          },
+          "License": {
+            "value": "cc-by-sa-4.0",
+            "source": "commons-templates",
+            "hidden": ""
+          }
+        }
+      }
+    ]
+  }
+}
