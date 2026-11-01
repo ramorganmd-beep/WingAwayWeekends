@@ -65,18 +65,18 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
     '</div></section>')
 
 # 03 Eat
-parts.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners, a long lunch and brunch.',
+parts.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners, a happy hour and brunch.',
     'Charleston’s best tables book up, especially Friday and Saturday. Reserve your anchor dinner first.') +
     '<div class="grid four">' +
     card('Friday dinner · Reserve ahead', 'FIG',
          'A long-running Charleston favorite for seasonal, ingredient-driven cooking, on Meeting Street. Make it your anchor reservation and keep the first afternoon flexible in case the flight runs late.',
          'https://www.figcharleston.com/') +
-    card('Friday lunch · Small & special', 'Chez Nous',
-         'A tiny restaurant in a cottage at 6 Payne Court, with a handwritten menu that changes every day: two starters, two mains and two desserts, French- and Spanish-leaning. Only a handful of tables, so call <a href="tel:+18435793060">843-579-3060</a> to book. Listed hours are lunch and dinner Tuesday–Sunday; confirm for your date.',
-         'https://www.cheznouschs.com/') +
-    card('Saturday dinner · Oysters & seafood', 'Rappahannock Oyster Bar',
-         'From the Virginia family that farms Rappahannock River oysters: a lively raw bar and seafood restaurant at 701 East Bay Street, open daily 11 AM–10 PM. A relaxed counterpoint to Friday. Reservations through OpenTable; call <a href="tel:+18435764693">843-576-4693</a> with questions.',
+    card('Afternoon happy hour · Oysters', 'Rappahannock Oyster Bar',
+         'From the Virginia family that farms Rappahannock River oysters: a lively raw bar at 701 East Bay Street, open daily from 11 AM. Perfect for oysters and a drink before the sunset sail. Check current happy-hour times; call <a href="tel:+18435764693">843-576-4693</a>.',
          'https://www.rroysters.com/restaurants/rappoysterbarchs') +
+    card('Saturday dinner · Late & intimate', 'Chez Nous',
+         'A tiny restaurant in a cottage at 6 Payne Court, with a handwritten menu that changes every day: two starters, two mains and two desserts, French- and Spanish-leaning. Book a later table after the sail. Only a handful of tables, so call <a href="tel:+18435793060">843-579-3060</a> early. Listed dinner hours run Tuesday–Sunday; confirm for your date.',
+         'https://www.cheznouschs.com/') +
     card('Sunday brunch · Southern classic', 'Husk',
          'Southern cooking in a restored Victorian house on Queen Street, close to the historic core. Confirm brunch days and hours for your date before planning around it.',
          'https://www.huskrestaurant.com/') +
@@ -173,12 +173,12 @@ parts.append('<section id="itinerary">' + head('09', 'Suggested itinerary', 'Fri
     '<div class="days">' +
     day('FRI', 'Arrive & unwind', [
         ('Late-morning arrival', 'Land at KCHS, subject to the actual flight plan, and ride downtown. Ask your hotel to hold luggage if the room is not ready.'),
-        ('Afternoon', 'Lunch at Chez Nous if booked, then a slow walk down King Street and through the City Market. Check in when your room is ready.'),
+        ('Afternoon', 'Lunch downtown, then a slow walk down King Street and through the City Market. Check in when your room is ready.'),
         ('Evening', 'Dinner at FIG if reserved. A nightcap at The Vendue’s rooftop if the weather is good.')]) +
     day('SAT', 'Carrier deck & harbor', [
         ('Morning', 'Ride to Patriots Point when it opens. Explore the USS Yorktown and its aircraft, then take the Fort Sumter ferry from Patriots Point if you want to add the fort.'),
         ('Afternoon', 'Back downtown: Waterfront Park, Rainbow Row and the Battery. Optional couples massage at <a href="#spa">The Charleston Place</a> instead, if timing allows.'),
-        ('Evening', 'Schooner Pride sunset sail, then dinner at Rappahannock Oyster Bar, a short ride up East Bay Street from Aquarium Wharf.')]) +
+        ('Evening', 'Happy hour at Rappahannock Oyster Bar, the Schooner Pride sunset sail from nearby Aquarium Wharf, then a later dinner at Chez Nous.')]) +
     day('SUN', 'An easy departure', [
         ('Morning', 'Brunch at Husk, if open, and a last walk through the historic district or the Gibbes Museum.'),
         ('Before leaving', 'Check out and return to the FBO with ample time for aircraft preparation.'),
