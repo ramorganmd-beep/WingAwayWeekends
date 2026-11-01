@@ -25,11 +25,14 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 
 - Responsive hero and destination-card grid, with layouts for desktop, tablet and mobile.
 - Departure airport input; calculations currently support KMYR only. Other entries show an explanatory empty state.
-- Maximum estimated flight-time options: 2, 3 and 3½ hours.
+- Trip length sets the maximum estimated flight-time options (default in bold):
+  - Day trip: 1, **1½** or 2 hours
+  - Weekend (page default): 2, **3** or 3½ hours
+  - Longer stay: 3, 3½ or **4½** hours
+  Changing trip length resets flight time to that trip's default.
 - Interest checkboxes: Romance, Boutique stays, Spa, Dining, Wine, History, Outdoors and Golf.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
-- A trip-length selector offers Weekend, Day trip and Longer stay, but does not change results yet.
 - Savannah links to its guide. The other nine cards display “Guide coming soon.”
 
 | Destination | Arrival airport | Photograph in latest review source |
@@ -51,7 +54,7 @@ The estimate is great-circle distance in nautical miles divided by 150 knots, pl
 
 Nashville uses John C. Tune (KJWN), as requested. Its estimate is about 3.046 hours (label “~3 hr 3 min”): excluded at 2 and 3 hours, included at 3½ hours. The earlier request to include Nashville at 3 hours was superseded by the decision to use KJWN and keep the strict cutoff.
 
-Key West estimates about 4 hours (label “~4 hr 2 min”) and therefore does not appear under any current maximum-time option. It remains in the destination data and appears on the all-ten photo-review page.
+Key West estimates about 4 hours (label “~4 hr 2 min”), so it appears only with Longer stay at 4½ hours.
 
 ### Savannah guide
 
@@ -104,9 +107,9 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
 2. **Only one developed guide.** Nine cards remain editorial summaries with no detailed guide.
 3. **Departure airport is limited to KMYR.** The editable field does not support arbitrary airports yet.
-4. **Trip length is inactive.** It is displayed but has no effect on matching.
+4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
-6. **Key West is beyond the selector range.** Decide whether to offer a longer flight-time option or keep it solely for later expansion; do not silently alter the current limits.
+6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: Longer stay offers 4½ hours, which includes Key West.
 7. **Savannah content needs refresh.** The guide includes October 2026 trip dates, older verification dates and example spa pricing. It needs editorial revalidation before broader use.
 8. **Pinehurst imagery is archival.** The chosen sharp golf photograph dates to 2010 and should not be treated as a current course-layout reference.
 9. **Review and homepage code are duplicated.** A future cleanup could share destination data and rendering to reduce drift, while preserving the simple static architecture.
@@ -116,13 +119,12 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 ## Recommended next steps
 
-1. Resolve the Key West range question; decide whether to activate or simplify trip-length selection.
-2. Refresh the Savannah guide’s dates, prices and source checks.
-3. Choose and build the next full guide without expanding beyond the curated MVP prematurely.
-4. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
-5. Consider sharing destination data between `index.html` and `photo-review.html` to stop the two drifting apart.
-6. Keep this document current as decisions are made.
+1. Refresh the Savannah guide’s dates, prices and source checks.
+2. Choose and build the next full guide without expanding beyond the curated MVP prematurely.
+3. Test the experience with Ross, Diana and a small pilot/couples group; use their feedback to judge destination appeal and ease of choosing a getaway.
+4. Consider sharing destination data between `index.html` and `photo-review.html` to stop the two drifting apart.
+5. Keep this document current as decisions are made.
 
 ## History of these notes
 
-Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, and the flight-time labels were changed.
+Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Photos_Replaced.zip` and the conversation history there. Revised in Claude on November 1, 2026, after the files moved to GitHub, the site was tested in a browser and published on GitHub Pages, the flight-time labels were changed, and trip length was activated.
