@@ -98,6 +98,9 @@ parts.append('<section id="explore">' + head('04', 'Things to do', 'Walk the old
             'https://www.nps.gov/fosu/faqs.htm', 'National Park Service visitor FAQ') +
     explore(5, 'A foodie walking tour',
             'About two and a half hours of tastings and stories with a local guide, a great first-day introduction to the city’s food. Bulldog Tours’ Savor the Flavors (starting near the City Market) and Charleston Culinary Tours’ downtown walk are two well-reviewed options. Book ahead and check current prices and times.') +
+    explore(6, 'Evening carriage ride',
+            'Clip-clop through the old walled city as the gas lamps come on. Palmetto Carriage Works and Old South Carriage Co. both run early-evening tours (listed around 5:30–8 PM), including private rides for two and a haunted-history option. Evening tours often sell out, so book ahead; carriages pause in extreme heat.',
+            'https://palmettocarriage.com/', 'Palmetto Carriage Works') +
     '</div><h3 class="subhead">One water outing is enough</h3><div class="grid three">' +
     card('Sunset sail · Tall ship', 'Schooner Pride',
          'A two-hour sail on an 84-foot, three-masted schooner from Aquarium Wharf, timed for sunset, past Fort Sumter, the Yorktown and the Ravenel Bridge. Lightly narrated; drinks available on board. Confirm the current schedule and price.',
@@ -172,7 +175,7 @@ parts.append('<section id="itinerary">' + head('09', 'Suggested itinerary', 'Fri
     day('FRI', 'Arrive & unwind', [
         ('Late-morning arrival', 'Land at KCHS, subject to the actual flight plan, and ride downtown. Ask your hotel to hold luggage if the room is not ready.'),
         ('Afternoon', 'A foodie walking tour, which doubles as lunch, then an unhurried King Street shopping afternoon. Check in when your room is ready.'),
-        ('Evening', 'Dinner at FIG if reserved. A nightcap at The Vendue’s rooftop if the weather is good.')]) +
+        ('Evening', 'An early-evening carriage ride through the old city, then dinner at FIG if reserved. A nightcap at The Vendue’s rooftop if the weather is good.')]) +
     day('SAT', 'Carrier deck & harbor', [
         ('Morning', 'Ride to Patriots Point when it opens. Explore the USS Yorktown and its aircraft, then take the Fort Sumter ferry from Patriots Point if you want to add the fort.'),
         ('Afternoon', 'Back downtown: Waterfront Park, Rainbow Row and the Battery. Optional couples massage at <a href="#spa">The Charleston Place</a> instead, if timing allows.'),
