@@ -167,52 +167,50 @@
   },
   {
     "destination": "Beaufort",
-    "title": "Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg",
-    "photographer": "Farrargirl",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Farrargirl\" title=\"User:Farrargirl\">Farrargirl</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort,_South_Carolina.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/15/Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort%2C_South_Carolina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort%2C_South_Carolina.jpg/1280px-Marshlands_along_the_Intracoastal_Waterway_in_city_of_Beaufort%2C_South_Carolina.jpg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "title": "Bay Street Downtown Beaufort.JPG",
+    "photographer": "Cdamgen (credited on Commons as BeaufortTiger), English Wikipedia",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG",
+    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
+    "downloaded_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
+    "license": "Public domain",
+    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
     "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 4.0; ShareAlike applies to the photo adaptations.",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Salt marsh and Intracoastal Waterway in Beaufort, South Carolina",
+    "verification_date": "2026-11-01",
+    "requirements": "Public domain dedication by the author (applies worldwide; where not legally possible, the author grants anyone the right to use the work for any purpose without conditions). Attribution not required but provided.",
+    "changes": "Cropped to the Bay Street storefronts, removing most of the roadway and a traffic signal (crop box 360,110–2133,1440 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cropping only: no AI generation, retouching or color alteration.",
+    "alt": "Historic storefronts along Bay Street in downtown Beaufort, South Carolina",
+    "date_taken": "2009-12-16",
     "files": [
       {
-        "path": "dist/assets/destinations/beaufort-480.webp",
+        "path": "docs/assets/destinations/beaufort-bay-street-480.webp",
         "width": 480,
         "height": 360,
-        "bytes": 22198,
-        "sha256": "305e5ce480f972e1e49ec8a8a96439816ed020ddf6b752abf0936b1fbf143cd8"
+        "bytes": 33512,
+        "sha256": "4cac55ced80c2e39fe01de02c1ea2fab5dbfbd6fe1bd157c4e781548c5775fe4"
       },
       {
-        "path": "dist/assets/destinations/beaufort-480.jpg",
+        "path": "docs/assets/destinations/beaufort-bay-street-480.jpg",
         "width": 480,
         "height": 360,
-        "bytes": 33019,
-        "sha256": "b45bd5511f0d3b83cad032e3e8fb94706ff2f3caf4d407631cd40835d7420d67"
+        "bytes": 45940,
+        "sha256": "4eae6353c775852259decf7fbae895fd69904d166a3b9b43b801523a69d0a327"
       },
       {
-        "path": "dist/assets/destinations/beaufort-960.webp",
+        "path": "docs/assets/destinations/beaufort-bay-street-960.webp",
         "width": 960,
         "height": 720,
-        "bytes": 111566,
-        "sha256": "fbb2178d726327692ba4d091af20acf8b882ffb0bebb7ad3fefa0abdcbde99e5"
+        "bytes": 87082,
+        "sha256": "1e85c0df2322ed437b0d7cad63279d52f0a07d8ab5cbbecd7bc5f53e28c4aa90"
       },
       {
-        "path": "dist/assets/destinations/beaufort-960.jpg",
+        "path": "docs/assets/destinations/beaufort-bay-street-960.jpg",
         "width": 960,
         "height": 720,
-        "bytes": 152291,
-        "sha256": "7e35fd81c19e319802c4b6d6b7e8212c429542506274fc691677caa25c459421"
+        "bytes": 139893,
+        "sha256": "71ae8e22d851c1adf72d6451a3f069c6c61df3af008944ad5fd058dfde6a4598"
       }
-    ]
+    ],
+    "replaced": "Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg (Farrargirl, CC BY-SA 4.0), replaced November 1, 2026 at the owner’s request for a downtown photo."
   },
   {
     "destination": "St. Augustine",
