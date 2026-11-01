@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /photo-review.html
+Disallow: /mobile-review.html
+
+Sitemap: https://wingawayweekends.com/sitemap.xml
