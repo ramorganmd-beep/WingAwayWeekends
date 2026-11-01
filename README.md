@@ -10,6 +10,7 @@ Live at **https://wingawayweekends.com** (Cloudflare Pages, deployed automatical
   - `docs/index.html` — discovery homepage, destination data and filters
   - `docs/savannah/` — Savannah destination guide
   - `docs/photo-review.html` — all ten destination cards, for review
+- `tools/guides/` — scripts that generate the destination guide pages (not published)
 - `PROJECT_NOTES.md` — goals, decisions, features and open issues
 - `PHOTO_CREDITS.md`, `PHOTO_CREDITS.json`, `licenses/` — photo attribution and license evidence
 - `PACKAGE_HISTORY.md`, `VALIDATION.md` — history of the package migrated from ChatGPT
