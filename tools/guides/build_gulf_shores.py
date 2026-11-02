@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['gulf-shores']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='gulf-shores', name='Gulf Shores', state='Alabama', number=16,
+    slug='gulf-shores', name='Gulf Shores', state='Alabama', number=16, reviewed=REVIEWED,
     description='A curated two-night Gulf Shores and Orange Beach getaway for GA pilots and their partners, from KMYR to KJKA. Sugar-white beaches, Gulf seafood, Gulf State Park and the National Naval Aviation Museum.',
     lede='White sand, Gulf seafood, naval aviation.',
     intro='Alabama’s small stretch of coast has some of the whitest sand on the Gulf. Land minutes from the beach, bike the trails of Gulf State Park, eat shrimp straight off the boats, and save a morning for the National Naval Aviation Museum, an easy drive away in Pensacola.',
@@ -61,7 +62,7 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Beach, trails an
     'Choose one outing a day and leave plenty of time for the beach.') +
     '<div class="explore-list">' +
     explore(1, 'National Naval Aviation Museum',
-            'One of the world’s great aviation museums, at NAS Pensacola about an hour east, with more than 150 aircraft and Blue Angels history. Base access rules for visitors have changed in recent years; check the museum’s current entry requirements before you go.',
+            'One of the world’s great aviation museums, at NAS Pensacola about an hour east, with more than 150 aircraft and Blue Angels history. Base access rules for visitors have changed in recent years; check the museum’s current entry requirements before you go. Save time for the <a href="https://navalaviationmuseum.org/things-to-do/giant-screen-theater/" target="_blank" rel="noopener">Giant Screen Theater</a>, which shows flight films on a huge screen.',
             'https://www.navalaviationmuseum.org/', 'Museum information') +
     explore(2, 'Gulf State Park',
             'Two miles of beach, a fishing pier and the Backcountry Trail, more than 25 miles of paved paths through dunes and pine forest. Rent bikes and ride for an hour or two.') +
@@ -112,7 +113,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=16, place='Gulf Shores, Alabama', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=16, place='Gulf Shores, Alabama', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
