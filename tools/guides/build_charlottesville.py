@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('wine', 'Wine'), ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='charlottesville', name='Charlottesville', state='Virginia', number=8,
+    slug='charlottesville', name='Charlottesville', state='Virginia', number=8, reviewed=REVIEWED,
     description='A curated two-night Charlottesville getaway for GA pilots and their partners, from KMYR to KCHO. Virginia wine country, Monticello, estate hotels and the Downtown Mall.',
     lede='Wine country, with Jefferson for company.',
     intro='Rolling vineyards under the Blue Ridge, Thomas Jefferson’s Monticello and university, and a lively pedestrian Downtown Mall. Charlottesville is a weekend of long lunches, tastings and country drives.',
@@ -122,7 +123,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates, tastings and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=8, place='Charlottesville, Virginia', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=8, place='Charlottesville, Virginia', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html='Downtown Mall, Charlottesville, Virginia, by Alex Proimos from Sydney, Australia, <a href="https://commons.wikimedia.org/wiki/File:Downtown_Mall,_Charlottesville,_Virginia_(5867535213).jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>. Resized for display.'))
 
 with open(OUT, 'w') as f:

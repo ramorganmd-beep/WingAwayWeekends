@@ -53,7 +53,8 @@ LUXURY = {
          'A romantic historic manor on about 100 acres outside town, with fine dining and a quiet country setting.',
          'https://www.the-clifton.com/'),
         ('Near UVA · Kimpton', 'Kimpton The Forum Hotel',
-         'A polished, newer boutique hotel beside the University of Virginia, with a restaurant and bar. Choose it to stay in town, close to dinner.')],
+         'A polished, newer boutique hotel beside the University of Virginia, with a restaurant and bar. Choose it to stay in town, close to dinner.',
+         'https://www.forumhotelcharlottesville.com/')],
     'nashville': [
         ('Riverfront · Five-star', 'Four Seasons Hotel Nashville',
          'A tower on the Cumberland River downtown with skyline views, a spa and polished service.',
