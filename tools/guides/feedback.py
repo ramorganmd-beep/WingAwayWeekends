@@ -2,7 +2,7 @@
 
 Usage: python3 tools/guides/feedback.py docs/index.html docs/*/index.html
 
-Idempotent. Guides get a link in the footer and a line in the "Draft for
+Idempotent. Every page also gets a "Fly to lunch" link in the header. Guides get a link in the footer and a line in the "Draft for
 review" note; the homepage gets a footer link. Each mailto link carries a
 subject naming the page. Run after (re)building a guide.
 """
@@ -19,8 +19,22 @@ def mailto(subject):
     return f'mailto:{EMAIL}?subject=' + urllib.parse.quote(subject)
 
 
+HOME_NOTE = '<span style="font-size:.8rem">Destination discovery · Beta</span>'
+HOME_LINK = ('<span class="home-right" style="display:flex;align-items:center;gap:18px"><a class="header-link" href="fly-to-lunch/" '
+             'style="font-size:.85rem;font-weight:700;color:#efbd70">Fly to lunch</a>' + HOME_NOTE + '</span>')
+GUIDE_NOTE = re.compile(r'(<span class="header-note">.*?</span></span>)(?=</header>)')
+GUIDE_LINK = '<span class="header-right"><a class="header-link" href="../fly-to-lunch/">Fly to lunch</a>'
+
+
 for path in map(Path, sys.argv[1:]):
     s = MARK.sub('', path.read_text())
+    if 'class="header-link"' not in s:
+        if path.parent.name == 'docs':
+            assert s.count(HOME_NOTE) == 1, path
+            s = s.replace(HOME_NOTE, HOME_LINK)
+        else:
+            s, n = GUIDE_NOTE.subn(lambda m: GUIDE_LINK + m.group(1) + '</span>', s, count=1)
+            assert n == 1, path
     if path.parent.name == 'docs':  # homepage
         link = mailto('WingAway Weekends feedback')
         a = 'WingAway Weekends · A short flight. A slower weekend.'

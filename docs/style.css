@@ -2,3 +2,6 @@
 #spa.couples{display:block}#spa.couples h3{margin:8px 0 4px}#spa.couples p{max-width:760px;margin-top:12px}#spa.couples>a{display:inline-block;margin-top:14px}
 .trip-plan{margin:0 0 22px;padding:22px 24px;background:white;border:1px solid #dbe3e9;border-left:3px solid #ba7d2f}.trip-plan h3{margin:6px 0 0}.trip-plan ol{list-style:none;padding:0;margin:14px 0 0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.trip-plan strong{font-size:14px}.trip-plan li p{font-size:16px;color:#526471;margin:5px 0 0}.days+.trip-plan{margin:22px 0 0}
 @media(max-width:800px){.trip-plan ol{grid-template-columns:1fr;gap:10px}}
+
+.header-right{display:flex;align-items:center;gap:22px}.header-link{font-size:14px;font-weight:700;color:#8a571c;text-decoration:none;white-space:nowrap}.header-link:hover{text-decoration:underline}
+@media(max-width:760px){.header-right .header-note{display:none}}
