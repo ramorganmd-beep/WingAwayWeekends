@@ -55,7 +55,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
     'Three different stays, rather than three versions of the same hotel. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Historic warehouse · Suites', 'The Ansonborough',
-         'Formerly the Ansonborough Inn: a converted historic warehouse at 21 Hasell Street, reopened in 2024 after a top-to-bottom renovation. Roomy suites, a short walk from the City Market, King Street and the waterfront. Call <a href="tel:+18437231655">843-723-1655</a> or book through its website; confirm room type and parking.') +
+         'Formerly the Ansonborough Inn: a converted historic warehouse at 21 Hasell Street, reopened in 2024 after a top-to-bottom renovation. Roomy suites, a short walk from the City Market, King Street and the waterfront. Call <a href="tel:+18437231655">843-723-1655</a> or book on its website; confirm room type and parking.',
+         'https://www.theansonborough.com/') +
     card('Grand mansion · Romantic splurge', 'Wentworth Mansion',
          'An 1886 mansion turned inn, with period rooms, a cupola view over the city and on-site dining. It sits on the upper part of the peninsula, so plan a short ride or longer walk to the waterfront.',
          'https://www.wentworthmansion.com/') +
