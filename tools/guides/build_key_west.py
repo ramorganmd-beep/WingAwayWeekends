@@ -28,29 +28,36 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Adults-only guesthouses are Key West’s sweet spot for couples. Rates and availability need travel dates; winter is peak season.') +
     '<div class="grid three">' +
     card('Adults-only guesthouse', 'The Marquesa',
-         'Restored historic houses around pools and gardens in Old Town, with its own restaurant, Hot Tin Roof. Quiet, romantic and walkable.') +
+         'Restored historic houses around pools and gardens in Old Town, with its own restaurant, Hot Tin Roof. Quiet, romantic and walkable.',
+         'https://marquesa.com/') +
     card('Grand hotel · On the beach', 'Casa Marina',
-         'A historic 1920s grand hotel on its own beach, now part of Hilton’s Curio Collection. Choose it for beach time and a classic resort feel.') +
-    card('Small & adults-only', 'H2O Suites or Almond Tree Inn',
-         'Two other adults-only boutique options often recommended for couples. Compare rooms and location for your dates.') +
+         'A historic 1920s grand hotel on its own beach, now part of Hilton’s Curio Collection. Choose it for beach time and a classic resort feel.',
+         'https://casamarinaresort.com/') +
+    card('Small & adults-only', 'H2O Suites',
+         'An adults-only boutique hotel of suites, many with private plunge pools or hot tubs, a short walk from Duval Street. A romantic, quieter base.',
+         'https://www.h2osuites.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners by the water.',
     'Sunset tables book up. Reserve the special dinner first.') +
     '<div class="grid three">' +
     card('The romantic dinner', 'Latitudes, Sunset Key',
-         'Oceanfront dining on a small island a short boat ride from Old Town. Often called the most romantic table in Key West; the launch is part of the evening.') +
+         'Oceanfront dining on a small island a short boat ride from Old Town. Often called the most romantic table in Key West; the launch is part of the evening.',
+         'https://www.opalcollection.com/restaurants/latitudes/') +
     card('In Old Town', 'Hot Tin Roof',
-         'The Marquesa’s restaurant, a favorite for a polished, relaxed dinner within walking distance of Duval Street.') +
+         'The Marquesa’s restaurant, a favorite for a polished, relaxed dinner within walking distance of Duval Street.',
+         'https://www.oceankey.com/dine/hot-tin-roof-restaurant/') +
     card('Aviation history · Casual', 'First Flight Island Restaurant & Brewery',
-         'At 301 Whitehead Street, in the building where Pan American Airways sold its first tickets in 1927. Lunch with a story.') +
+         'At 301 Whitehead Street, in the building where Pan American Airways sold its first tickets in 1927. Lunch with a story.',
+         'https://firstflightkw.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Sunsets, seaplanes and stories.',
     'Choose one big outing and let island time do the rest.') +
     '<div class="explore-list">' +
     explore(1, 'Seaplane to the Dry Tortugas',
-            'Fly about 70 miles west by floatplane to Fort Jefferson in Dry Tortugas National Park. Key West Seaplane Adventures is the only seaplane operator. Book well ahead; the ferry is the slower alternative.') +
+            'Fly about 70 miles west by floatplane to Fort Jefferson in Dry Tortugas National Park. Key West Seaplane Adventures is the only seaplane operator. Book well ahead; the ferry is the slower alternative.',
+            'https://keywestseaplaneadventure.com/', 'Book the seaplane') +
     explore(2, 'Pan Am’s first office',
             'Pan American Airways began Key West–Havana mail flights in October 1927. Stop at 301 Whitehead Street, now a restaurant, to see where it all began.') +
     explore(3, 'Sunset at Mallory Square',
