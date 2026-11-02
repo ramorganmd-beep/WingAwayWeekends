@@ -787,5 +787,50 @@
         "sha256": "176364d47b08306821e777fb1961df2fce61cf80a0474fe2807e0645ac65fb19"
       }
     ]
+  },
+  {
+    "destination": "Great Smoky Mountains",
+    "title": "Fall Color on Rich Mountain Road Overlook",
+    "photographer": "Sam Hobbs, National Park Service (Great Smoky Mountains National Park)",
+    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172",
+    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/b5e5b8e9-f4fd-4e74-8af5-269c69bfb172/original.jpg",
+    "license": "Public domain",
+    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the photographer and National Park Service as a courtesy.",
+    "changes": "Downloaded from NPS NPGallery (hi-res proxy), center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "Brilliant red and orange fall foliage above a valley ringed by mountains, seen from Rich Mountain Road near Cades Cove",
+    "date_taken": null,
+    "files": [
+      {
+        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 62480,
+        "sha256": "aba43dbd8f938e54d7c6f589290feada0ca7f92f066d6e1d85acde6ad0512bec"
+      },
+      {
+        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 64493,
+        "sha256": "612635dacd908b7cbaa6d08a0b040ab883ccb133bd7c636f1be27a89e8cd1d62"
+      },
+      {
+        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 243764,
+        "sha256": "1eb316e3570f7df77a0873dd22dabaffd96d4eed5572085eeb04ce573463e920"
+      },
+      {
+        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 252308,
+        "sha256": "593245dcf5b59d2913bbcb5179fc3f782ef47dc4eb253ad9f39080f967ddaf26"
+      }
+    ]
   }
 ]
