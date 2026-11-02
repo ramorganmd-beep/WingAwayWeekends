@@ -62,7 +62,7 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Beach, trails an
     'Choose one outing a day and leave plenty of time for the beach.') +
     '<div class="explore-list">' +
     explore(1, 'National Naval Aviation Museum',
-            'One of the world’s great aviation museums, at NAS Pensacola about an hour east, with more than 150 aircraft and Blue Angels history. Base access rules for visitors have changed in recent years; check the museum’s current entry requirements before you go.',
+            'One of the world’s great aviation museums, at NAS Pensacola about an hour east, with more than 150 aircraft and Blue Angels history. Base access rules for visitors have changed in recent years; check the museum’s current entry requirements before you go. Save time for the <a href="https://navalaviationmuseum.org/things-to-do/giant-screen-theater/" target="_blank" rel="noopener">Giant Screen Theater</a>, which shows flight films on a huge screen.',
             'https://www.navalaviationmuseum.org/', 'Museum information') +
     explore(2, 'Gulf State Park',
             'Two miles of beach, a fishing pier and the Backcountry Trail, more than 25 miles of paved paths through dunes and pine forest. Rent bikes and ride for an hour or two.') +
