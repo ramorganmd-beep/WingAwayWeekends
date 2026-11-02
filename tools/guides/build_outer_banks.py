@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['outer-banks']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='outer-banks', name='Outer Banks', state='North Carolina', number=11,
+    slug='outer-banks', name='Outer Banks', state='North Carolina', number=11, reviewed=REVIEWED,
     description='A curated two-night Outer Banks getaway for GA pilots and their partners, from KMYR to KMQI. The Wright Brothers National Memorial, Jockey’s Ridge, Manteo’s waterfront and wild beaches.',
     lede='Fly to where flight began.',
     intro='On December 17, 1903, the Wright brothers flew here for the first time. Today the Outer Banks pairs that pilgrimage with wide, quiet beaches, the East Coast’s tallest dunes and Manteo’s small-town waterfront.',
@@ -113,7 +114,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates, show tickets and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=11, place='Outer Banks, North Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=11, place='Outer Banks, North Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:

@@ -30,23 +30,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A grand oceanfront resort, a big resort with everything, or a beach inn near town. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Oceanfront · Splurge', 'The Ritz-Carlton, Amelia Island',
-         'A polished oceanfront resort with a spa, golf and its seafood restaurant, Coast. The most indulgent choice.') +
+         'A polished oceanfront resort with a spa, golf and its seafood restaurant, Coast. The most indulgent choice.',
+         'https://www.ritzcarlton.com/en/hotels/jaxam-the-ritz-carlton-amelia-island/overview/') +
     card('Resort · Spa & golf', 'Omni Amelia Island Resort & Spa',
          'A large oceanfront resort with a spa, golf and more than ten restaurants. Easy if you want everything on site.',
          'https://www.omnihotels.com/hotels/amelia-island') +
     card('Beach inn · Near town', 'Elizabeth Pointe Lodge',
-         'A shingle-style inn right on the beach, a short ride from downtown. Quiet and romantic. Confirm room type and dining.') +
+         'A shingle-style inn right on the beach, a short ride from downtown. Quiet and romantic. Confirm room type and dining.',
+         'https://www.elizabethpointe.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long lunch.',
     'Downtown Fernandina has excellent small restaurants. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · Fine dining', 'David’s Restaurant & Lounge',
-         'Often called the island’s finest dining, at 802 Ash Street downtown, with a cocktail lounge that sometimes has live music.') +
+         'Often called the island’s finest dining, at 802 Ash Street downtown, with a cocktail lounge that sometimes has live music.',
+         'https://ameliaislanddavids.com/') +
     card('Saturday dinner · Tapas', 'España Restaurant & Tapas',
-         'Spanish and Portuguese dishes at 22 South 4th Street, a short walk from Centre Street. Reservations suggested on weekends.') +
+         'Spanish and Portuguese dishes at 22 South 4th Street, a short walk from Centre Street. Reservations suggested on weekends.',
+         'https://www.espanaamelia.com/') +
     card('Alternative · Highly rated', 'Burlingame',
-         'A small, much-praised restaurant at 20 South 5th Street. Swap it in for either night.') +
+         'A small, much-praised restaurant at 20 South 5th Street. Swap it in for either night.',
+         'https://burlingamerestaurant.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Seaport, fort and beach.',
@@ -57,14 +62,16 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Seaport, fort an
     explore(2, 'Fort Clinch State Park',
             'A 19th-century brick fort at the north end of the island, with beaches, trails and live oaks.') +
     explore(3, 'Horseback riding on the beach',
-            'Guided beach rides are a memorable couples outing. Book ahead and check age, weight and season rules.') +
+            'Guided beach rides are a memorable couples outing. Book ahead and check age, weight and season rules.',
+            'https://ameliaislandhorsebackriding.com/', 'Book a beach ride') +
     explore(4, 'Sunset on the Amelia River',
             'Watch the shrimp boats come in from the downtown harbor, or take a sunset river cruise.') +
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>A resort spa · Time for two</h3>'
     '<p>The Ritz-Carlton and Omni resorts both have full-service spas, a short drive from downtown.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.ritzcarlton.com/en/hotels/jaxam-the-ritz-carlton-amelia-island/spa/" target="_blank" rel="noopener">Ritz-Carlton spa</a> · <a href="https://www.omnihotels.com/hotels/amelia-island/spa" target="_blank" rel="noopener">Omni spa</a></div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the event is the reason to fly.',
     'This prototype links to the destination calendar. It does not yet match events to your travel dates.') +
