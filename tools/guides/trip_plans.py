@@ -118,6 +118,27 @@ PLANS = {
         'extra': [('Morning', 'Amicalola Falls and its staircase trail.'),
                   ('Afternoon', 'A gold-mine tour and a little panning.'),
                   ('Evening', 'Sunset with a glass at Wolf Mountain, then dinner on the square.')]},
+    'gulf-shores': {
+        'day': [('Arrive', 'Land at KJKA mid-morning and borrow a crew car.'),
+                ('Midday', 'Fried shrimp and gumbo at Doc’s Seafood Shack in Orange Beach.'),
+                ('Afternoon', 'An hour on the beach at Gulf State Park, then fly home before the afternoon storms.')],
+        'extra': [('Morning', 'A long morning at the National Naval Aviation Museum in Pensacola.'),
+                  ('Afternoon', 'Fort Morgan and its quiet beaches.'),
+                  ('Evening', 'Live music at the Flora-Bama or dinner at The Wharf.')]},
+    'chattanooga': {
+        'day': [('Arrive', 'Land at KCHA mid-morning and head downtown.'),
+                ('Midday', 'The Incline Railway up Lookout Mountain and lunch at the top.'),
+                ('Afternoon', 'A walk across the Walnut Street Bridge, then back to the FBO.')],
+        'extra': [('Morning', 'The Tennessee Aquarium.'),
+                  ('Afternoon', 'Ruby Falls, or a drive up Signal Mountain for the views.'),
+                  ('Evening', 'The tasting menu at Calliope.')]},
+    'smoky-mountains': {
+        'day': [('Arrive', 'Land at KGKT early and pick up the rental car.'),
+                ('Midday', 'A short waterfall walk at Laurel Falls and a picnic in the park.'),
+                ('Afternoon', 'Browse the arts and crafts loop, then fly out before mountain afternoon weather.')],
+        'extra': [('Morning', 'The Alum Cave trail, or Grotto Falls.'),
+                  ('Afternoon', 'Dollywood, or a long lunch at Blackberry Farm.'),
+                  ('Evening', 'Sunset from Newfound Gap, if the road is open.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

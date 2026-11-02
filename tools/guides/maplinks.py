@@ -19,6 +19,7 @@ TOWN = {
     'greenville': 'Greenville, SC', 'charlottesville': 'Charlottesville, VA', 'nashville': 'Nashville, TN',
     'key-west': 'Key West, FL', 'outer-banks': 'Outer Banks, NC', 'amelia-island': 'Fernandina Beach, FL',
     'yadkin-valley': 'Elkin, NC', 'hunt-country': 'Middleburg, VA', 'dahlonega': 'Dahlonega, GA',
+    'gulf-shores': 'Gulf Shores, AL', 'chattanooga': 'Chattanooga, TN', 'smoky-mountains': 'Gatlinburg, TN',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -53,8 +54,19 @@ QUERY = {
     'The Inn at Little Washington': 'The Inn at Little Washington, Washington, VA',
     'Salamander suites': 'Salamander Middleburg, VA',
     'The Conservatory at Goodstone': 'Goodstone Inn & Restaurant, Middleburg, VA',
+    'Turquoise Place': 'Turquoise Place, Orange Beach, AL',
+    'Turquoise Place suites': 'Turquoise Place, Orange Beach, AL',
+    'Perdido Beach Resort': 'Perdido Beach Resort, Orange Beach, AL',
+    'Voyagers': 'Voyagers, Perdido Beach Resort, Orange Beach, AL',
+    'Perch': 'Perch, The Lodge at Gulf State Park, Gulf Shores, AL',
+    'Doc’s Seafood Shack & Oyster Bar': 'Doc’s Seafood Shack & Oyster Bar, Orange Beach, AL',
+    'The Edwin suites': 'The Edwin Hotel, Chattanooga, TN',
+    'Dancing Bear Lodge': 'Dancing Bear Lodge, Townsend, TN',
+    'Dancing Bear Appalachian Bistro': 'Dancing Bear Appalachian Bistro, Townsend, TN',
+    'Blackberry Farm': 'Blackberry Farm, Walland, TN',
+    'Blackberry Mountain': 'Blackberry Mountain, Walland, TN',
 }
-SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals'}
+SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
