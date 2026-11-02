@@ -30,22 +30,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your view o
     'A historic inn on the water, a resort with mountain trails, or a lake house of your own. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Historic · 1927', 'Lake Lure Inn & Spa',
-         'The grand old hotel of the gorge, across the road from the lake. New owners plan renovations through 2026–27 while it stays open; confirm which rooms and services are available.') +
+         'The grand old hotel of the gorge, across the road from the lake. New owners plan renovations through 2026–27 while it stays open; confirm which rooms and services are available.',
+         'https://lakelurenc.com/') +
     card('Resort · Lake & golf', 'Rumbling Bald on Lake Lure',
-         'A large resort on the lake’s north shore with a lakeside restaurant, golf, a wellness center and rental homes and condos.') +
+         'A large resort on the lake’s north shore with a lakeside restaurant, golf, a wellness center and rental homes and condos.',
+         'https://rumblingbald.com/stay/') +
     card('Private · Lake house', 'Lake Lure vacation rentals',
-         'A lakefront house with a dock and hot tub is the classic way to stay. Ask whether boats and the dock are usable under current lake rules.') +
+         'A lakefront house with a dock and hot tub is the classic way to stay. Ask whether boats and the dock are usable under current lake rules.',
+         'https://www.hometogo.com/f/lake-lure/cabin/', 'Browse lake cabins') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Lakeside and unhurried.',
     'Dining here is casual. Hours are still settling after the storm; call ahead and reserve where you can.') +
     '<div class="grid three">' +
     card('Friday dinner · On the lake', 'Legends on the Lake',
-         'Rumbling Bald’s lakeside restaurant, with pizza, burgers, salads and steaks and a view of the water.') +
+         'Rumbling Bald’s lakeside restaurant, with pizza, burgers, salads and steaks and a view of the water.',
+         'https://rumblingbald.com/amenities/#section-dining-at-rumbling-bald') +
     card('Saturday dinner · Historic inn', 'The Veranda at Lake Lure Inn',
-         'Dinner at the 1927 inn, with a drink first in the Moose & Goose Lounge. Confirm hours during renovations.') +
+         'Dinner at the 1927 inn, with a drink first in the Moose & Goose Lounge. Confirm hours during renovations.',
+         'https://lakelurenc.com/dining/') +
     card('Alternative · Italian', 'La Strada at Lake Lure',
-         'A relaxed Italian restaurant near the lake. A good second-night option.') +
+         'A relaxed Italian restaurant near the lake. A good second-night option.',
+         'https://lastradaatlakelure.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Up the rock, out on the water.',
@@ -55,7 +61,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Up the rock, out
             'Climb to the top of Chimney Rock for the view straight down Hickory Nut Gorge to the lake, and walk to Hickory Nut Falls, seen in The Last of the Mohicans. Some trails may still be closed; check before you go.',
             'https://www.ncparks.gov/state-parks/chimney-rock-state-park', 'Park information') +
     explore(2, 'A boat on Lake Lure',
-            'A lake tour or a rented boat is the best way to see the gorge from the water. The lake reopened in 2026 with some temporary rules, including no-wake areas; ask what is running.') +
+            'A lake tour or a rented boat is the best way to see the gorge from the water. The lake reopened in 2026 with some temporary rules, including no-wake areas; ask what is running. Lake Lure Adventure Company offers rentals and guided outings on the water; check what is running for your dates.',
+            'https://lakelureadventurecompany.com/', 'Lake Lure Adventure Company') +
     explore(3, 'Lake Lure Beach',
             'The town beach reopened for Memorial Day 2026. Pack a picnic and spend an afternoon by the water in summer.') +
     explore(4, 'Rumbling Bald and Bat Cave hikes',
