@@ -32,22 +32,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Stay on the water 
     'This is lake-house country rather than resort country. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Private · Lakefront', 'Lake Keowee vacation rentals',
-         'The best stay here is a lake house with its own dock, many with hot tubs and screened porches. Book early for summer and fall weekends.') +
+         'The best stay here is a lake house with its own dock, many with hot tubs and screened porches. Book early for summer and fall weekends.',
+         'https://www.keoweevacationrentals.com/about-us/', 'Keowee Vacation Rentals') +
     card('State park · Jocassee', 'Devils Fork State Park villas',
-         'Lakeside villas and cabins in the state park on Lake Jocassee, steps from the boat ramp. Simple, and very popular; reserve far ahead.') +
+         'Lakeside villas and cabins in the state park on Lake Jocassee, steps from the boat ramp. Simple, and very popular; reserve far ahead.',
+         'https://southcarolinaparks.com/devils-fork/lodging') +
     card('Hotel · On Lake Keowee', 'Fairfield Inn & Suites Seneca Clemson',
-         'A dependable hotel with a deck and pool overlooking Lake Keowee. Easy if you want a hotel close to the airport and restaurants.') +
+         'A dependable hotel with a deck and pool overlooking Lake Keowee. Easy if you want a hotel close to the airport and restaurants.',
+         'https://www.marriott.com/en-us/hotels/gspff-fairfield-inn-and-suites-seneca-clemson-univ-area/overview/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Lakeside and relaxed.',
     'Dining is casual. Reserve on weekends, especially during Clemson football season.') +
     '<div class="grid three">' +
     card('Friday dinner · Lake views', 'The Lighthouse Restaurant',
-         'Lake Keowee’s best-known restaurant, with a second-floor dining room and panoramic lake and mountain views. Go for sunset.') +
+         'Lake Keowee’s best-known restaurant, with a second-floor dining room and panoramic lake and mountain views. Go for sunset.',
+         'https://lighthousekeowee.com/menus/') +
     card('Lunch · By the marina', 'Tiki Hut Lakeside Grill',
-         'An island-style bar and grill beside Keowee Marina. Arrive by car or by boat.') +
+         'An island-style bar and grill beside Keowee Marina. Arrive by car or by boat.',
+         'https://www.clubtikihut.com/index.htm') +
     card('Saturday dinner · Steaks & seafood', 'Copper River Grill',
-         'Steaks, seafood and classic American dishes in a relaxed setting. An easy second night.') +
+         'Steaks, seafood and classic American dishes in a relaxed setting. An easy second night.',
+         'https://www.copperrivergrill.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Waterfalls, boats and big views.',
@@ -56,12 +62,16 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Waterfalls, boat
     explore(1, 'A waterfall boat tour on Lake Jocassee',
             'Guided pontoon tours from Devils Fork State Park visit waterfalls that drop straight into the lake, with stops to swim in summer. Book ahead; tours fill on weekends.') +
     explore(2, 'Rent a pontoon or kayaks',
-            'Rental companies deliver pontoons, canoes and kayaks to the Devils Fork dock. The water is famously clear and cold.') +
-    explore(3, 'Whitewater Falls',
+            'Rental companies deliver pontoons, canoes and kayaks to the Devils Fork dock on Jocassee, and Sunset on Keowee rents boats on Lake Keowee. The water is famously clear and cold.',
+            'https://www.sunsetonkeowee.com/rentals', 'Sunset on Keowee boat rentals') +
+    explore(3, 'A tiki boat cruise on Keowee',
+            'Keowee Tiki Kruizin runs relaxed cruises on a floating tiki bar boat around Lake Keowee. Fun for an afternoon or a sunset; book ahead.',
+            'https://www.keoweetikikruizin.com/', 'Keowee Tiki Kruizin') +
+    explore(4, 'Whitewater Falls',
             'Among the highest waterfalls in the eastern United States, just over the North Carolina line, about 45 minutes away. A short paved walk to the overlook.') +
-    explore(4, 'Table Rock State Park',
+    explore(5, 'Table Rock State Park',
             'A granite mountain with a demanding trail to the top and wide views of the lakes and the Upstate. Allow most of a day for the summit.') +
-    explore(5, 'Clemson',
+    explore(6, 'Clemson',
             'The South Carolina Botanical Garden and the university campus make an easy morning near the airport.') +
     '</div></section>')
 
