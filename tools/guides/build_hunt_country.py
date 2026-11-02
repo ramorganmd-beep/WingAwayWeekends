@@ -21,8 +21,8 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Two good doors to horse country.',
     'KJYO, Leesburg Executive, is about 25 minutes from Middleburg. It sits inside the Washington, DC SFRA, so many pilots will prefer KHWY, Warrenton-Fauquier, just outside it.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBOs</h3>' +
-    fbo('Kuhn Jet Center', 'Leesburg Executive (KJYO) · Full-service fuel', '703-665-3000') +
-    fbo('Warrenton-Fauquier Airport FBO', 'Warrenton-Fauquier (KHWY) · Full-service 100LL and Jet A', '540-422-8285') +
+    fbo('Kuhn Jet Center · KJYO', '1001 Sycolin Road, Leesburg, VA 20175', '703-665-3000') +
+    fbo('Warrenton-Fauquier Airport FBO · KHWY', '1533 Iris Trail, Midland, VA 22728', '540-422-8285') +
     '<p class="note"><strong>Washington, DC SFRA:</strong> KJYO lies inside the Special Flight Rules Area. You need the FAA’s SFRA training, a filed SFRA flight plan, a discrete transponder code and two-way radio contact, and you must follow the published Leesburg procedures. If that is not for you, fly to KHWY (about 300 NM, ~2 hr 15 min at 150 kt), outside the SFRA and about 25 minutes from Middleburg.</p>'
     '<p class="note">Kuhn Jet Center lists free courtesy cars for local use and fueling from early morning into the evening. Warrenton-Fauquier lists a courtesy car and daytime hours (about 8–5), with a fee for after-hours service. Ask both about two-night parking and fees. No live fuel price is shown.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Book a driver for tasting day.</h3><p>Wineries are spread across back roads, 15–30 minutes apart. Rent a car for the weekend (courtesy cars are for short local trips), and hire a private wine-tour driver for the tasting day.</p></aside></div></section>')

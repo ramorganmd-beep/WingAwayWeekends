@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land by the lake, drive into the hills.',
     'KGVL, Lee Gilmer Memorial in Gainesville, is about 30–35 minutes from Dahlonega by car, near Lake Lanier.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Champion Aviation Services', 'Lee Gilmer Memorial · Phillips 66', '770-532-4136') +
+    fbo('Champion Aviation Services', '1137 Aviation Way, Gainesville, GA 30501', '770-532-4136') +
     '<p class="note">Recent pilot reports say there is no courtesy car, so arrange a rental car before you go and confirm pickup at the airport. A second operator on the field, Lanier Flight Center, also sells fuel. Ask about two-night parking and fees. No live fuel price is shown.</p>'
     '<p class="note">The North Georgia mountains rise to the north. Review terrain, the sectional and current NOTAMs, and expect afternoon storms in summer.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Walk the square; ride to the wineries.</h3><p>The square is walkable, with several tasting rooms on it. The vineyards are 10–20 minutes out on winding mountain roads, so book a wine-tour driver for the tasting day.</p></aside></div></section>')

@@ -19,7 +19,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Plan this one carefully.',
     'KEYW, Key West International, is a towered airline airport at the end of the Keys, with restricted and military airspace nearby (Naval Air Station Key West).') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>One FBO</h3>' +
-    fbo('Signature Aviation', 'The only FBO at KEYW', '305-296-5422') +
+    fbo('Signature Aviation', '3471 S. Roosevelt Blvd., Key West, FL 33040', '305-296-5422') +
     '<p class="note">Signature is the only FBO, and Key West is among the more expensive stops in this collection. Recent pilot reports describe 100LL above $11 a gallon, overnight parking around $125 a night for a single-engine aircraft and a hefty fee for departures after the FBO closes at 9 PM. Confirm every fee before you go; no live price is shown.</p>'
     '<p class="note">Review restricted and warning areas, NAS Key West traffic, overwater equipment (life vests, raft) and any special procedures for flights along the Keys. A fuel stop on the mainland is the norm.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Taxi in. Walk or bike.</h3><p>Old Town is about 10 minutes by taxi. Once there, walk or rent bikes; parking is scarce and a car is rarely needed.</p></aside></div></section>')

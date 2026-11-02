@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land at Clemson.',
     'KCEU, Oconee County Regional, sits beside Lake Hartwell near Clemson, about 20 minutes from Lake Keowee and 40 from Lake Jocassee.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Oconee County Regional Airport', 'Clemson · Titan fuel, self-serve and full-serve', '864-882-2959') +
+    fbo('Oconee County Regional Airport', '365 Airport Road, Seneca, SC 29678', '864-882-2959') +
     '<p class="note">The county FBO lists a crew car, and Hertz and Enterprise rent cars at the airport six days a week; reserve ahead. Ask about two-night parking and fees. On Clemson football weekends the area fills up. No live fuel price is shown.</p>'
     '<p class="note">The Blue Ridge escarpment rises to the north. Review terrain, the sectional and current NOTAMs, and watch for afternoon mountain storms in summer.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>A car, then a boat.</h3><p>Rent a car for the weekend. For the lakes, rent a pontoon, or join a guided boat tour from Devils Fork State Park, the only public access to Lake Jocassee.</p></aside></div></section>')

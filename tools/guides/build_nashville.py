@@ -20,7 +20,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land at Tune, not BNA.',
     'KJWN, John C. Tune Airport, is Nashville’s general aviation reliever, west of downtown and far easier than the airline airport.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Contour Flight Support', '110 Tune Airport Drive · listed 24 hours', '615-350-5000') +
+    fbo('Contour Flight Support', '110 Tune Airport Drive, Nashville, TN 37209 · listed 24 hours', '615-350-5000') +
     '<p class="note">Full-service and self-serve 100LL and Jet A are listed. The control tower is listed as operating 7 AM–9 PM, so check procedures for late arrivals. Ask about facility fees, two-night parking and waivers with fuel. Atlantic Aviation won a bid to build a second FBO here; check whether it has opened. No live price is shown.</p>'
     '<p class="note">Nashville’s Class C airspace (BNA) sits to the southeast; review the sectional and arrival procedures.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Rideshare everywhere.</h3><p>Downtown is about 15 minutes away. Rideshare is the easy option; parking downtown is expensive and you won’t want to drive after a night of music.</p><p>Downtown, Germantown and The Gulch are each a short ride apart.</p></aside></div></section>')

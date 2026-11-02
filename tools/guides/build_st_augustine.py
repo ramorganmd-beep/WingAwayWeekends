@@ -19,7 +19,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then head for the old city.',
     'KSGJ, Northeast Florida Regional Airport, is a towered field about 15–20 minutes north of the historic district.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>Full service or self-serve</h3>' +
-    fbo('Atlantic Aviation', 'Full-service FBO', '904-824-1995', 'https://www.atlanticaviation.com/location/SGJ') +
+    fbo('Atlantic Aviation', '4900 US Highway 1 North, Suite 100, St. Augustine, FL 32095', '904-824-1995', 'https://www.atlanticaviation.com/location/SGJ') +
     '<p class="note">Atlantic Aviation is the FBO. Directory listings also show self-serve 100LL on the field. Ask Atlantic about facility fees, two-night parking, waivers with fuel and after-hours fees. Prices vary widely between listings, so call ahead; no live price is shown.</p>'
     '<p class="note">The airport authority can be reached at 904-209-0090.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Ride in. Walk the old city.</h3><p>Rideshare or a taxi to the historic district takes about 15–20 minutes. Once there, everything in this guide is walkable or a short trolley ride.</p><p>Parking downtown is tight, so a rental car is only worth it if you plan to visit the beaches.</p></aside></div></section>')

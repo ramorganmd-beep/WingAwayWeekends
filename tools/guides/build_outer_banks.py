@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land on Roanoke Island.',
     'KMQI, Dare County Regional Airport, sits beside Manteo on Roanoke Island, with full services and room to park for the weekend.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The airport FBO</h3>' +
-    fbo('Dare County Regional Airport', 'Manteo · 100LL self-serve and full-serve', '252-475-5575') +
+    fbo('Dare County Regional Airport', '410 Airport Road, Manteo, NC 27954', '252-475-5575') +
     '<p class="note">The county-run FBO lists self-serve and full-serve 100LL, a courtesy car, crew cars and rental cars, plus a pilot lounge and showers. Ask about two-night parking, fees and after-hours access. CTAF/UNICOM 122.8. No live fuel price is shown.</p>'
     '<p class="note">Military restricted areas lie over the mainland west of Roanoke Island. Review the sectional and current NOTAMs, and expect strong coastal winds.</p>'
     '<p class="note"><strong>Bucket-list hop:</strong> First Flight Airport (KFFA) is a 3,000-foot strip inside the Wright Brothers National Memorial, about 15 minutes away by air. No fuel, VFR only, deer on the runway and a ditch off Runway 21. Older listings show a 24-hour parking limit; confirm current rules with the National Park Service and the Chart Supplement. Keep the airplane based at KMQI and make it a short visit.</p></div>'

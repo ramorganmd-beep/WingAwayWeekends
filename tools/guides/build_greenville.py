@@ -19,7 +19,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then walk to dinner.',
     'KGMU, Greenville Downtown Airport, is a towered field just a few miles from Main Street. It is one of the closest-in airports in this collection.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The main FBO</h3>' +
-    fbo('Vantage Aviation', 'Formerly Greenville Jet Center · Titan fuel', '864-232-7100') +
+    fbo('Vantage Aviation', '100 Tower Drive, Greenville, SC 29607', '864-232-7100') +
     '<p class="note">Full-service and self-serve 100LL are listed. Ask about handling fees, two-night parking, waivers with fuel and after-hours access. Directory prices vary, so call ahead; no live price is shown.</p>'
     '<p class="note">GMU is busy with business jets and training traffic. Review the airport diagram, tower procedures and the Greenville-Spartanburg (GSP) Class C airspace nearby.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Rideshare in. Walk everywhere.</h3><p>Main Street is about 10 minutes from the airport by rideshare. Downtown, Falls Park and most restaurants are walkable, and the Swamp Rabbit Trail starts in town.</p><p>A car is only needed for side trips into the mountains.</p></aside></div></section>')

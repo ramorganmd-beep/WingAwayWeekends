@@ -14,7 +14,7 @@ P.append(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta na
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then settle in.',
     'KSOP, Moore County Airport, serves Pinehurst and Southern Pines. It is a relaxed, uncontrolled field a short drive from the village.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>One FBO</h3>'
-    '<div class="fbo"><div><strong>Moore County Airport FBO</strong><p>Full-service 100LL and Jet A</p></div><a href="tel:+19106923212">910-692-3212</a></div>'
+    '<div class="fbo"><div><strong>Moore County Airport FBO</strong><p>7825 Aviation Drive, Carthage, NC 28327</p></div><a href="tel:+19106923212">910-692-3212</a></div>'
     '<p class="note">The airport’s own FBO lists transient tiedowns and hangars, and crew or courtesy cars. Call ahead about two-night parking, hangar space if you want it, fees and after-hours arrangements. Directory fuel prices conflict, so no price is shown. CTAF/UNICOM 123.05.</p>'
     '<p class="note">Big golf weekends and championships bring a lot of traffic. Arrange parking early if your dates coincide with an event.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Short hops, few rideshares.</h3><p>The village and downtown Southern Pines are each a short drive from the airport, but rideshare cars can be scarce in a small town. Arrange a rental car, a local taxi or a resort transfer before you fly; ask your hotel what it offers.</p><p>Once in the village, everything is walkable.</p></aside></div></section>')

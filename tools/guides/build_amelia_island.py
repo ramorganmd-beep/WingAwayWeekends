@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then roll into town.',
     'KFHB, Fernandina Beach Municipal, is a non-towered field just south of downtown, a few minutes from Centre Street.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Bent Wing Flight Services', 'Avfuel · Fernandina Beach Municipal', '904-849-4321') +
+    fbo('Bent Wing Flight Services', '680 Airport Road, Fernandina Beach, FL 32034', '904-849-4321') +
     '<p class="note">Bent Wing lists full-service and self-serve 100LL, Jet A and a crew car. Pilots report a small crew-car fee that may be waived with fuel; ask about the current policy, facility fees and two-night parking. No live fuel price is shown.</p>'
     '<p class="note">Rental cars generally come from Jacksonville International (JAX); confirm delivery in advance rather than counting on it. Jacksonville’s airspace lies to the south; review the sectional.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Short hops, then on foot.</h3><p>Downtown is a few minutes from the airport. Use the crew car or a taxi, then walk the historic district.</p><p>The resorts are 15–20 minutes south on the island; arrange a ride or rental if you stay there.</p></aside></div></section>')
