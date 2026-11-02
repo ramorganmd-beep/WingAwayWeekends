@@ -100,5 +100,44 @@
     "caption": "Layered ridges of the Smokies (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
     "placeholder": true
+  },
+  "lake-lure": {
+    "slug": "lake-lure-gorge",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a mountain lake in a forested gorge",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake Lure in Hickory Nut Gorge (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "lake-keowee": {
+    "slug": "lake-jocassee",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a clear blue-green mountain lake",
+    "w": 960,
+    "h": 720,
+    "caption": "Blue-green Lake Jocassee (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "lake-lanier": {
+    "slug": "lake-lanier",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide lake below rolling hills",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake Lanier (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
   }
 }

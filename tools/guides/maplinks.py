@@ -20,6 +20,7 @@ TOWN = {
     'key-west': 'Key West, FL', 'outer-banks': 'Outer Banks, NC', 'amelia-island': 'Fernandina Beach, FL',
     'yadkin-valley': 'Elkin, NC', 'hunt-country': 'Middleburg, VA', 'dahlonega': 'Dahlonega, GA',
     'gulf-shores': 'Gulf Shores, AL', 'chattanooga': 'Chattanooga, TN', 'smoky-mountains': 'Gatlinburg, TN',
+    'lake-lure': 'Lake Lure, NC', 'lake-keowee': 'Seneca, SC', 'lake-lanier': 'Gainesville, GA',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -65,8 +66,12 @@ QUERY = {
     'Dancing Bear Appalachian Bistro': 'Dancing Bear Appalachian Bistro, Townsend, TN',
     'Blackberry Farm': 'Blackberry Farm, Walland, TN',
     'Blackberry Mountain': 'Blackberry Mountain, Walland, TN',
+    'Devils Fork State Park villas': 'Devils Fork State Park, Salem, SC',
+    'The Lighthouse Restaurant': 'The Lighthouse Restaurant, Lake Keowee, Seneca, SC',
+    'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
+    'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove'}
+SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove', 'Lake Lure vacation rentals', 'Lake Keowee vacation rentals', 'Lake Lanier vacation rentals'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
