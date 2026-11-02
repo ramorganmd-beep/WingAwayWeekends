@@ -47,7 +47,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Dinner at the vineya
          'An intimate dining room with vineyard views and Pilot Mountain beyond. Dinner Thursday–Sunday; reservations required.',
          'https://www.jolovineyards.com/dine/dining-spaces/') +
     card('Friday dinner · Wine bar & kitchen', 'Wisdom Table',
-         'An intimate downtown Elkin restaurant with a wine tasting menu that changes weekly, a good introduction to the valley’s wines. Dinner Wednesday–Saturday; reserve ahead.') +
+         'An intimate downtown Elkin restaurant with a wine tasting menu that changes weekly, a good introduction to the valley’s wines. Dinner Wednesday–Saturday; reserve ahead.',
+         'https://www.wisdomtable.com/') +
     card('Lunch · Casual', 'Elkin Creek Vineyard',
          'Wood-fired pizza and a glass by the creek. For a beer instead, Angry Troll Brewing in downtown Elkin has good food too.',
          'https://www.elkincreekvineyard.com/') +
