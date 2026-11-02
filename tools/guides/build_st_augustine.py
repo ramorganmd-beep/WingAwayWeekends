@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('wine', 'Wine & spirits'), ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='st-augustine', name='St. Augustine', state='Florida', number=6,
+    slug='st-augustine', name='St. Augustine', state='Florida', number=6, reviewed=REVIEWED,
     description='A curated two-night St. Augustine getaway for GA pilots and their partners, from KMYR to KSGJ. A Spanish fort, Gilded Age hotels, bayfront dining and a winery downtown.',
     lede='The oldest city. A long weekend’s worth of stories.',
     intro='Coquina walls, narrow Spanish streets, Henry Flagler’s grand hotels and sunsets over Matanzas Bay. St. Augustine is the longest flight in this collection from KMYR and one of the most rewarding.',
@@ -127,7 +128,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Hotel rates, tours and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=6, place='St. Augustine, Florida',
+P.append(page_end(number=6, place='St. Augustine, Florida', reviewed=REVIEWED,
     credit_html='St. Aug from lighthouse west01 by Ebyabe, <a href="https://commons.wikimedia.org/wiki/File:St._Aug_from_lighthouse_west01.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>. Resized for display; adaptations shared under the same license.'))
 
 with open(OUT, 'w') as f:
