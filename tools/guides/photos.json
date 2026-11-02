@@ -115,17 +115,16 @@
     "placeholder": true
   },
   "lake-keowee": {
-    "slug": "lake-jocassee",
+    "slug": "lake-keowee-morning",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a clear blue-green mountain lake",
+    "alt": "Morning mist over Lake Keowee in fall, with a boathouse and docks below a wooded shore",
     "w": 960,
     "h": 720,
-    "caption": "Blue-green Lake Jocassee (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "Morning mist on Lake Keowee",
+    "credit_html": "Lake Keowee (reservoir) in South Carolina.jpg by Andy Montgomery, <a href=\"https://commons.wikimedia.org/wiki/File:Lake_Keowee_(reservoir)_in_South_Carolina.jpg\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>. Cropped and resized for display; adaptations shared under the same license."
   },
   "lake-lanier": {
     "slug": "lake-lanier",

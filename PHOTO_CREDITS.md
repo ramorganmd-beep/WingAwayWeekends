@@ -142,3 +142,12 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
 - Requirements: Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 4.0.
 - Changes: Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Lake Keowee & Jocassee
+
+- Title: Lake Keowee (reservoir) in South Carolina.jpg
+- Photographer: Andy Montgomery
+- Source: https://commons.wikimedia.org/wiki/File:Lake_Keowee_(reservoir)_in_South_Carolina.jpg
+- License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
+- Requirements: Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 2.0.
+- Changes: Supplied by the site owner as a screenshot of the Commons original together with a screenshot of the Commons attribution box (Andy Montgomery, CC BY-SA 2.0, via Wikimedia Commons); Commons downloads were rate-limited. Cropped from a panorama to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
