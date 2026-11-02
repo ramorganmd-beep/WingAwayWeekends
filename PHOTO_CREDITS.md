@@ -151,3 +151,19 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0
 - Requirements: Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 2.0.
 - Changes: Downloaded from Wikimedia Commons as the 3840px rendition of the 5634 × 2203 original, cropped from the panorama to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Harpers Ferry
+
+- Title: View from Jefferson Rock
+- Photographer: National Park Service (Harpers Ferry National Historical Park)
+- Source: https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96
+- License: Public domain (U.S. National Park Service; NPGallery lists Constraint “Public domain”, Granting rights “Full”)
+- Changes: Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Chattanooga
+
+- Title: Garrity’s Battery in Point Park at sunset
+- Photographer: National Park Service (Chickamauga and Chattanooga National Military Park)
+- Source: https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099
+- License: Public domain (U.S. National Park Service; NPGallery lists Constraint “Public domain”, Granting rights “Full”)
+- Changes: Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.

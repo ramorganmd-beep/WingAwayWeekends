@@ -697,5 +697,95 @@
         "sha256": "f48c9775bc256d8eccb642276871d8aa907518f90c3da250e97e6bb01e5b9020"
       }
     ]
+  },
+  {
+    "destination": "Harpers Ferry",
+    "title": "View from Jefferson Rock",
+    "photographer": "National Park Service (Harpers Ferry National Historical Park)",
+    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96",
+    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/292273c6-1dd8-b71c-070a-31508b250a96/original.jpg",
+    "license": "Public domain",
+    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
+    "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "St. Peter’s Church steeple above the Shenandoah and Potomac rivers at Harpers Ferry, with wooded ridges beyond",
+    "date_taken": "2010-07-16",
+    "files": [
+      {
+        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 42430,
+        "sha256": "18852411c5a2643118584e6781f79beb9a056f5faa7025af9e2e441b70fad74c"
+      },
+      {
+        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 46209,
+        "sha256": "5b03a1205c3d535601be438aee672cd6f366d1edefe4fefb55364e292681d55c"
+      },
+      {
+        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 152342,
+        "sha256": "d2dd20d5e5a39a9451f728aa817ac038f33d98ebccb63d82e4d0f0a2fbe59c85"
+      },
+      {
+        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 173898,
+        "sha256": "224c42e9da5a84a459bfe65e45ed353f4f638c80db0c91263015506e72899a8c"
+      }
+    ]
+  },
+  {
+    "destination": "Chattanooga",
+    "title": "Garrity’s Battery in Point Park at sunset",
+    "photographer": "National Park Service (Chickamauga and Chattanooga National Military Park)",
+    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099",
+    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/50b11a9f-90b0-4039-8744-0a27e67d6099/original.jpg",
+    "license": "Public domain",
+    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
+    "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "Two Civil War cannons on the edge of Lookout Mountain overlooking Chattanooga and the Tennessee River at sunset",
+    "date_taken": null,
+    "files": [
+      {
+        "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 43882,
+        "sha256": "572886f4f9618dab04b98261d19b6ed46c8be286e90b26a049b39d33032a3dec"
+      },
+      {
+        "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 49033,
+        "sha256": "75d096029121167e4e54938c4c25dbf18fafe01d646c01fe20e648b9765e5ef7"
+      },
+      {
+        "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 146236,
+        "sha256": "9d3cc7f2e7680db08c5f431e63fb80b7d9704ab688ee145e7d53b1688637fd80"
+      },
+      {
+        "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 173556,
+        "sha256": "176364d47b08306821e777fb1961df2fce61cf80a0474fe2807e0645ac65fb19"
+      }
+    ]
   }
 ]
