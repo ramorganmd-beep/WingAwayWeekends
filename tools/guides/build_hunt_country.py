@@ -31,39 +31,51 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A resort with a spa, a historic tavern inn in town, or a country estate. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Resort · Spa & equestrian', 'Salamander Middleburg',
-         'A polished resort on 340 acres at the edge of Middleburg, with a full spa, an equestrian center, a cooking studio and several restaurants. The indulgent choice.') +
+         'A polished resort on 340 acres at the edge of Middleburg, with a full spa, an equestrian center, a cooking studio and several restaurants. The indulgent choice.',
+         'https://www.salamanderresort.com/') +
     card('Historic inn · In town', 'The Red Fox Inn & Tavern',
-         'One of America’s oldest inns, dating to the 1700s, on Middleburg’s main street. Walk to the shops and to dinner downstairs.') +
+         'One of America’s oldest inns, dating to the 1700s, on Middleburg’s main street. Walk to the shops and to dinner downstairs.',
+         'https://redfox.com/') +
     card('Country estate · Romantic', 'Goodstone Inn & Restaurant',
-         'An estate inn on a large property of rolling fields and woods just outside Middleburg, with cottages, walking trails and its own restaurants.') +
+         'An estate inn on a large property of rolling fields and woods just outside Middleburg, with cottages, walking trails and its own restaurants.',
+         'https://www.goodstone.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long lunch.',
     'Hunt country dining is small and special. Reserve weekend dinners well ahead.') +
     '<div class="grid three">' +
     card('Friday dinner · Historic tavern', 'The Red Fox Inn & Tavern',
-         'Candlelit rooms with low beams and a fireplace, and a seasonal menu that diners rate highly. Book ahead.') +
+         'Candlelit rooms with low beams and a fireplace, and a seasonal menu that diners rate highly. Book ahead.',
+         'https://redfox.com/tavern/') +
     card('Saturday dinner · Fine dining', 'The Conservatory at Goodstone',
-         'Contemporary American cooking with seasonal ingredients in a glass conservatory overlooking the estate. Check current dinner days.') +
+         'Contemporary American cooking with seasonal ingredients in a glass conservatory overlooking the estate. Check current dinner days.',
+         'https://www.goodstone.com/dining') +
     card('Splurge · About 45 minutes', 'The Inn at Little Washington',
-         'One of America’s most celebrated restaurants, with three Michelin stars, in the village of Washington, Virginia. A once-in-a-lifetime dinner; book months ahead and plan a driver.') +
+         'One of America’s most celebrated restaurants, with three Michelin stars, in the village of Washington, Virginia. A once-in-a-lifetime dinner; book months ahead and plan a driver.',
+         'https://www.theinnatlittlewashington.com/dine') +
     '</div></section>')
 
 P.append('<section id="wine">' + head('04', 'Wineries', 'Virginia’s best, close together.',
     'The Middleburg AVA and the Loudoun wine clusters hold dozens of wineries. Choose three for a relaxed day.') +
     '<div class="grid three">' +
     card('Middleburg · Bordeaux style', 'Boxwood Estate Winery',
-         'Elegant Bordeaux-style blends in a modern tasting room set among horse farms. A polished, grown-up first stop.') +
+         'Elegant Bordeaux-style blends in a modern tasting room set among horse farms. A polished, grown-up first stop.',
+         'https://boxwoodestate.com/') +
     card('Middleburg · Award-winning', 'Cana Vineyards & Winery',
-         'One of the most decorated wineries in the Middleburg AVA, with a hilltop tasting room and wide views.') +
+         'One of the most decorated wineries in the Middleburg AVA, with a hilltop tasting room and wide views.',
+         'https://canavineyards.com/') +
     card('Middleburg · Boutique', 'Greenhill Winery & Vineyards',
-         'A boutique estate making 100% Virginia wines, with a refined tasting room and a pond-side lawn.') +
+         'A boutique estate making 100% Virginia wines, with a refined tasting room and a pond-side lawn.',
+         'https://experiencegreenhill.com/') +
     card('Aldie · Views', '50 West Vineyards',
-         'Sweeping Blue Ridge views and a lively terrace on the Route 50 corridor. Good for an afternoon glass.') +
+         'Sweeping Blue Ridge views and a lively terrace on the Route 50 corridor. Good for an afternoon glass.',
+         'https://www.50westvineyards.com/') +
     card('Middleburg · Virginia’s own grape', 'Chrysalis Vineyards',
-         'Home to one of the largest plantings of Norton, the native American grape, plus Albariño and other Spanish varieties.') +
+         'Home to one of the largest plantings of Norton, the native American grape, plus Albariño and other Spanish varieties.',
+         'https://www.chrysaliswine.com/') +
     card('Rectortown · Small farm winery', 'Slater Run Vineyards',
-         'A small family farm winery with a relaxed tasting room and pastoral views, a few miles from Middleburg.') +
+         'A small family farm winery with a relaxed tasting room and pastoral views, a few miles from Middleburg.',
+         'https://www.slaterrun.com/') +
     '</div>' + wine_and_flying('Many Loudoun wineries limit group sizes, require reservations on weekends or are adults-only; check before you go.') + '</section>')
 
 P.append('<section id="explore">' + head('05', 'Things to do', 'Horse country, history and one great hangar.',
@@ -75,14 +87,16 @@ P.append('<section id="explore">' + head('05', 'Things to do', 'Horse country, h
     explore(2, 'Middleburg’s main street',
             'Stone buildings, boutiques, tack shops, galleries and cafés in one of Virginia’s prettiest small towns.') +
     explore(3, 'National Sporting Library & Museum',
-            'Art and books on horses, hunting and the sporting life, in Middleburg. Small, beautiful and very hunt country.') +
+            'Art and books on horses, hunting and the sporting life, in Middleburg. Small, beautiful and very hunt country.',
+            'https://nationalsporting.org/', 'Visit the museum') +
     explore(4, 'Historic Leesburg',
             'Brick sidewalks, restaurants and shops in a colonial-era town center, near KJYO. Morven Park’s mansion and gardens are on the edge of town.') +
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The spa at Salamander · Time for two</h3>'
     '<p>Salamander Middleburg’s full-service spa has couples treatments, pools and relaxation rooms. A good way to spend the afternoon while the pilot stays off the wine.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.salamanderresort.com/spa/overview" target="_blank" rel="noopener">Spa details</a></div></section>')
 
 P.append('<section id="events">' + head('06', 'What’s happening', 'Sometimes the event is the reason to fly.',
     'This prototype links to the regional calendar. It does not yet match events to your travel dates.') +

@@ -97,9 +97,11 @@ LUXURY = {
          'https://www.airbnb.com/rooms/872256673641256276', 'See an example rental')],
     'hunt-country': [
         ('Three Michelin stars · About 45 minutes', 'The Inn at Little Washington',
-         'Opulent rooms above one of America’s great restaurants. Pair dinner and a night here for the ultimate splurge.'),
+         'Opulent rooms above one of America’s great restaurants. Pair dinner and a night here for the ultimate splurge.',
+         'https://www.theinnatlittlewashington.com/'),
         ('Upgrade · Salamander', 'Salamander suites',
-         'Salamander is already the area’s luxury standard. For a step up, ask about its suites, with more space and views over the estate.')],
+         'Salamander is already the area’s luxury standard. For a step up, ask about its suites, with more space and views over the estate.',
+         'https://www.salamanderresort.com/rooms/suites')],
     'dahlonega': [
         ('Bed & breakfast · Spa', 'Mountain Laurel Creek Inn & Spa',
          'A small, highly rated inn in the woods outside town with its own spa and multi-course breakfasts. Quiet and romantic.')],
