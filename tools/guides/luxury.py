@@ -36,9 +36,8 @@ LUXURY = {
          'A long-running golf lodge on a Donald Ross course in Southern Pines. Not grand luxury, but warm, polished and golf-first.')],
     'beaufort': [
         ('Ultra-luxury · About 45 minutes', 'Montage Palmetto Bluff',
-         'A destination resort on the May River near Bluffton, with a spa, golf and riverside cottages. A splurge worth the drive; plan a car.'),
-        ('Hilton Head · About an hour', 'The Inn & Club at Harbour Town',
-         'An intimate luxury inn at Sea Pines on Hilton Head Island, next to the famous Harbour Town golf course and lighthouse.')],
+         'A destination resort on the May River near Bluffton, with a spa, golf and riverside cottages. A splurge worth the drive; plan a car.',
+         'https://www.montage.com/palmettobluff/')],
     'st-augustine': [
         ('Oceanfront · About 30 minutes north', 'Ponte Vedra Inn & Club',
          'A classic oceanfront resort in Ponte Vedra Beach with a spa, golf and beach club. Choose it for beach time; drive into the old city for the sights.'),
