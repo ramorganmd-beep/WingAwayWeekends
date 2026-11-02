@@ -28,22 +28,30 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Three different stays. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('On Falls Park · Lodge style', 'Grand Bohemian Lodge',
-         'A lodge-style hotel right beside Falls Park and the Reedy River, ranked among South Carolina’s best hotels for 2026. Wake up to the sound of the falls.') +
+         'A lodge-style hotel right beside Falls Park and the Reedy River, ranked among South Carolina’s best hotels for 2026. Wake up to the sound of the falls.',
+         'https://www.grandbohemiangreenville.com/') +
     card('Historic Main Street', 'The Westin Poinsett',
-         'A grand 1925 hotel on Main Street with soaring ceilings and marble details, restored with Old World glamour. The classic downtown choice.') +
+         'A grand 1925 hotel on Main Street with soaring ceilings and marble details, restored with Old World glamour. The classic downtown choice.',
+         'https://www.marriott.com/en-us/hotels/gspwi-the-westin-poinsett-greenville/overview/') +
     card('Estate hotel · Splurge', 'Hotel Hartness',
-         'A newer luxury hotel set on a large green estate a short drive from downtown, also ranked among the state’s best for 2026. Choose it for quiet and space.') +
+         'A newer luxury hotel set on a large green estate a short drive from downtown, also ranked among the state’s best for 2026. Choose it for quiet and space.',
+         'https://hotelhartness.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long brunch.',
     'Greenville’s restaurant scene now has Michelin recognition. Reserve the special dinner well ahead.') +
-    '<div class="grid three">' +
+    '<div class="grid four">' +
     card('Friday dinner · Italian', 'Jianna',
-         'Handmade pasta and an oyster bar overlooking Main Street, recognized by Michelin. Lively and polished; ask for a window or balcony table.') +
+         'Handmade pasta and an oyster bar overlooking Main Street, recognized by Michelin. Lively and polished; ask for a window or balcony table.',
+         'https://jiannagreenville.com/') +
     card('Saturday dinner · Michelin star', 'Scoundrel',
          'Chef Joe Cash’s restaurant, awarded a Michelin star. The special-occasion dinner of the weekend. Book as early as reservations open.') +
     card('Sunday brunch · Southern', 'Soby’s',
-         'A downtown institution since 1997 for Southern cooking, with a wine list that won a Wine Spectator Grand Award in 2025. Confirm brunch hours.') +
+         'A downtown institution since 1997 for Southern cooking, with a wine list that won a Wine Spectator Grand Award in 2025. Confirm brunch hours.',
+         'https://sobys.com/') +
+    card('Alternative dinner · Steakhouse', 'Cork & Cleaver',
+         'A newer West End steakhouse at Markley Station, opened in 2026, known for house dry-aged steaks and a deep wine and spirits list. A short walk from Unity Park and Falls Park.',
+         'https://www.corkandcleaversteakhouse.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'A waterfall downtown.',
@@ -52,7 +60,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'A waterfall down
     explore(1, 'Falls Park & Liberty Bridge',
             'Reedy River Falls in the middle of the city, with gardens and a curved pedestrian suspension bridge. Early morning and evening are the quietest and most beautiful times.') +
     explore(2, 'Swamp Rabbit Trail',
-            'A paved greenway of more than 20 miles along the Reedy River, from downtown toward Travelers Rest. Rent bikes in town and ride to lunch.') +
+            'A paved greenway of more than 20 miles along the Reedy River, from downtown toward Travelers Rest. Rent comfort bikes or cruisers at Bike The Rabbit on North Main Street, a short walk from the trail, and ride to lunch in Travelers Rest. For e-bikes, Pedego Greenville at Hampton Station sits right beside the trail.',
+            'https://www.google.com/maps/search/?api=1&query=Bike%20The%20Rabbit%2C%20233%20N%20Main%20St%2C%20Greenville%2C%20SC', 'Bike The Rabbit on the map') +
     explore(3, 'Unity Park & The Commons',
             'A large riverside park on the trail, with a food hall nearby for a casual lunch.') +
     explore(4, 'Main Street',

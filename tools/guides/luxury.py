@@ -47,7 +47,8 @@ LUXURY = {
          'https://www.pontevedra.com/stay/lodge')],
     'greenville': [
         ('Travelers Rest · Countryside', 'Hotel Domestique',
-         'A small, European-style luxury hotel in the foothills near Travelers Rest, about 30 minutes from downtown, with mountain views and a quiet setting. Pair it with a ride on the Swamp Rabbit Trail.')],
+         'A small, European-style luxury hotel in the foothills near Travelers Rest, about 30 minutes from downtown, with mountain views and a quiet setting. Pair it with a ride on the Swamp Rabbit Trail.',
+         'https://hoteldomestique.com/')],
     'charlottesville': [
         ('Manor house · 100 acres', 'The Clifton',
          'A romantic historic manor on about 100 acres outside town, with fine dining and a quiet country setting.',
