@@ -75,8 +75,8 @@ P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & r
     '<p>Optional Saturday afternoon, before dinner.</p>'
     '<a href="https://www.casamonica.com/" target="_blank" rel="noopener">Spa details</a></div></section>')
 
-P.append('<section id="wine">' + head('05', 'Wine & spirits', 'A glass, and no hurry.',
-    'Two downtown tasting stops, both walkable from the historic district.') +
+P.append('<section id="wine">' + head('05', 'Wine, spirits & cocktails', 'A glass, and no hurry.',
+    'Two downtown tasting stops and a cocktail lounge across the bridge.') +
     '<div class="grid three">' +
     card('King Street · Winery', 'San Sebastian Winery',
          'A working winery at 157 King Street with tours and tastings of Florida wines, plus a rooftop bar. Check tour times and the rooftop’s hours.',
@@ -84,6 +84,9 @@ P.append('<section id="wine">' + head('05', 'Wine & spirits', 'A glass, and no h
     card('Distillery · Tours', 'St. Augustine Distillery',
          'Craft spirits made in the restored ice plant, with distillery tours and tastings. Tours fill up on weekends; book ahead.',
          'https://www.staugustinedistillery.com/') +
+    card('Cocktails · Anastasia Island', 'Odd Birds Cocktail Lounge',
+         'An inventive cocktail lounge with a speakeasy feel, just over the Bridge of Lions and a short walk from Llama. Perfect for a drink before or after Saturday dinner. For a downtown alternative, try Forgotten Tonic on Aviles Street.',
+         'https://www.visitstaugustine.com/restaurant/odd-birds', 'Hours & details') +
     '</div></section>')
 
 P.append('<section id="events">' + head('06', 'What’s happening', 'Sometimes the event is the reason to fly.',
@@ -109,7 +112,7 @@ P.append('<section id="itinerary">' + head('07', 'Suggested itinerary', 'Friday 
     day('SAT', 'Fort, hotels & bay', [
         ('Morning', 'Castillo de San Marcos when it opens, then a Flagler College tour.'),
         ('Afternoon', 'San Sebastian Winery tasting, or a couples treatment at Casa Monica. Late afternoon: the lighthouse climb.'),
-        ('Evening', 'Sunset on Matanzas Bay, then dinner at Llama.')]) +
+        ('Evening', 'Sunset on Matanzas Bay, cocktails at Odd Birds, then dinner at Llama.')]) +
     day('SUN', 'An easy departure', [
         ('Morning', 'Breakfast and a quiet walk through Lincolnville or along the bayfront.'),
         ('Before leaving', 'Check out and allow ample time at the FBO.'),
