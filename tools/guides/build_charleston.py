@@ -45,8 +45,8 @@ parts.append('<section id="flight">' + head('01', 'Aviation & getting around', '
     'KCHS is the selected arrival airport. It is a joint civil–military field shared with Joint Base Charleston; general aviation is on the east side. Compare the total FBO cost before choosing.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>Two FBOs to compare</h3>'
     '<div class="fbo"><div><strong>Atlantic Aviation</strong><p>6060 S. Aviation Ave., Suite 99</p></div><a href="tel:+18437467600">843-746-7600</a><a href="https://www.atlanticaviation.com/location/CHS" target="_blank" rel="noopener">FBO details</a></div>'
-    '<div class="fbo"><div><strong>Signature Aviation</strong><p>Address and phone: confirm on the FBO page</p></div><a href="https://www.signatureaviation.com/locations/CHS" target="_blank" rel="noopener">FBO details</a></div>'
-    '<p class="note">Ask each for 100LL pricing, handling or facility fees, two-night parking, minimum fuel for fee waivers and after-hours arrangements. No live fuel price or parking quote is shown. Directory listings disagree on Signature’s address, phone and hours, so use its own page. Expect military traffic and follow current NOTAMs and the Chart Supplement.</p>'
+    '<div class="fbo"><div><strong>Signature Aviation</strong><p>5875 S. Aviation Ave.</p></div><a href="tel:+18434149200">843-414-9200</a><a href="https://www.signatureaviation.com/locations/CHS" target="_blank" rel="noopener">FBO details</a></div>'
+    '<p class="note">Ask each for 100LL pricing, handling or facility fees, two-night parking, minimum fuel for fee waivers and after-hours arrangements. No live fuel price or parking quote is shown. Expect military traffic and follow current NOTAMs and the Chart Supplement.</p>'
     '<p class="note"><strong>Alternative:</strong> Charleston Executive (KJZI) on Johns Island is quieter and closer to Kiawah, but a longer ride to the historic district.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Uber in. Walk the peninsula.</h3><p>The historic district is roughly 12 miles from the airport, typically a 20–30 minute ride depending on traffic. Confirm rideshare pickup at your FBO entrance.</p><p>Once downtown, most of this guide is walkable. Patriots Point is across the harbor in Mount Pleasant: a short ride, or the Fort Sumter ferry links it with downtown’s Liberty Square.</p></aside></div></section>')
 
@@ -55,7 +55,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
     'Three different stays, rather than three versions of the same hotel. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Historic warehouse · Suites', 'The Ansonborough',
-         'Formerly the Ansonborough Inn: a converted historic warehouse at 21 Hasell Street, reopened in 2024 after a top-to-bottom renovation. Roomy suites, a short walk from the City Market, King Street and the waterfront. Call <a href="tel:+18437231655">843-723-1655</a> or book through its website; confirm room type and parking.') +
+         'Formerly the Ansonborough Inn: a converted historic warehouse at 21 Hasell Street, reopened in 2024 after a top-to-bottom renovation. Roomy suites, a short walk from the City Market, King Street and the waterfront. Call <a href="tel:+18437231655">843-723-1655</a> or book on its website; confirm room type and parking.',
+         'https://www.theansonborough.com/') +
     card('Grand mansion · Romantic splurge', 'Wentworth Mansion',
          'An 1886 mansion turned inn, with period rooms, a cupola view over the city and on-site dining. It sits on the upper part of the peninsula, so plan a short ride or longer walk to the waterfront.',
          'https://www.wentworthmansion.com/') +
@@ -69,7 +70,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
     card('Marion Square · Rooftop', 'Hotel Bennett',
          'A polished luxury hotel overlooking Marion Square on upper King Street, with a rooftop bar, a spa and an elegant champagne bar. Great for a King Street shopping weekend.') +
     card('Harborfront · New in 2026', 'The Cooper',
-         'Charleston’s first luxury waterfront hotel, opened in spring 2026 on Concord Street beside Waterfront Park and the Pineapple Fountain. Harbor views, a full-service spa, three restaurants and its own marina with sunset yacht cruises. A top-end splurge.') +
+         'Charleston’s first luxury waterfront hotel, opened in spring 2026 on Concord Street beside Waterfront Park and the Pineapple Fountain. Harbor views, a full-service spa, three restaurants and its own marina with sunset yacht cruises. A top-end splurge.',
+         'https://www.thecooper.com/') +
     '</div></section>')
 
 # 03 Eat
@@ -145,8 +147,9 @@ parts.append('<section id="wine">' + head('06', 'Wine & wine experiences', 'A gl
     card('Upper King · Wine shop & bar', 'Graft Wine Shop',
          'A wine shop and bar at 700B King Street, with a relaxed, music-forward feel. Good for a glass on a King Street shopping afternoon.',
          'https://www.google.com/maps/search/?api=1&query=Graft%20Wine%20Shop%2C%20700%20King%20St%2C%20Charleston%2C%20SC', 'Website & map') +
-    card('Westside · Neighborhood wine bar', 'Bar Rollins',
-         'A self-described “wine dive bar” at 194 Jackson Street, with listed hours of 4–10 PM Thursday through Monday. Confirm before going.') +
+    card('Lower King · Wine & cheese bar', 'Bin 152',
+         'An intimate wine and cheese bar on lower King Street, one of the city’s most respected wine lists (a star in the 2025 World’s Best Wine List Awards). Perfect for a quiet glass after dinner.',
+         'https://www.google.com/maps/search/?api=1&query=Bin%20152%2C%20King%20St%2C%20Charleston%2C%20SC', 'Website & map') +
     card('French Quarter · Rooftop', 'The Rooftop at The Vendue',
          'An easy sunset glass with harbor views, especially if you stay at The Vendue. Check hours and weather; rooftops can close early or for events.',
          'https://www.thevendue.com/') +
