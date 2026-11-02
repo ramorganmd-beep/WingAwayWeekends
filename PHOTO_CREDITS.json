@@ -562,5 +562,95 @@
         "sha256": "c46290467dfd7a03f78b114a7be5ed0db16be214a5b4ac93394fb584832a1857"
       }
     ]
+  },
+  {
+    "destination": "Outer Banks",
+    "title": "Wright Brothers National Memorial at Kill Devil Hill (16591932859).jpg",
+    "photographer": "NASA on The Commons",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_(16591932859).jpg",
+    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_%2816591932859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "No known copyright restrictions (Flickr Commons, NASA on The Commons)",
+    "license_url": "https://www.flickr.com/commons/usage/",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "No known copyright restrictions; credit provided as a courtesy.",
+    "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "The granite boulder marking the Wright brothers’ first takeoff, with the Wright Monument on Kill Devil Hill beyond",
+    "date_taken": "2013-06-18",
+    "files": [
+      {
+        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 34388,
+        "sha256": "44c5dbe85795b2248d2b83cd9fad2d3ae51ae62bb6d539b67a4144b3d140f230"
+      },
+      {
+        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 41853,
+        "sha256": "58bdb7885038a3663df979c9ba3bfa35e1a61909b279d913838d68b5e71fbd81"
+      },
+      {
+        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 100522,
+        "sha256": "ce0388eee85f75c1591589c9d4619897fcc66c6f666e3a937dd991792f95538d"
+      },
+      {
+        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 136669,
+        "sha256": "93b0fc53b3c60bf300781717edba33f0b0e99cd6a2445bcc2dd3eeb399514cc5"
+      }
+    ]
+  },
+  {
+    "destination": "Amelia Island",
+    "title": "Centre Street Businesses.jpg",
+    "photographer": "Upstateherd",
+    "source_page_url": "https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg",
+    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Centre_Street_Businesses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 4.0.",
+    "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "Historic 1890 storefronts with navy awnings on Centre Street in Fernandina Beach, Amelia Island",
+    "date_taken": "2019-05-25",
+    "files": [
+      {
+        "path": "docs/assets/destinations/amelia-centre-street-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 27660,
+        "sha256": "ec9dfd78626076377c0e97a7feabdcb4c243f4495b59c2060ecbcc501b3b1a69"
+      },
+      {
+        "path": "docs/assets/destinations/amelia-centre-street-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 38911,
+        "sha256": "0699638498c071369e8eda9bdd315b7644e51b51f29b1a5e67edf4ed5e0c4553"
+      },
+      {
+        "path": "docs/assets/destinations/amelia-centre-street-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 85798,
+        "sha256": "797a6fb774fa2025b4ff964a60b31e90435ed851234a614946fd54cdc0d63614"
+      },
+      {
+        "path": "docs/assets/destinations/amelia-centre-street-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 131400,
+        "sha256": "5a47dcf5ed6f72af26deb3b4841e6918fc6bf85164967d5f0955b963392381f7"
+      }
+    ]
   }
 ]
