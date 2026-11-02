@@ -83,6 +83,20 @@ PLANS = {
         'extra': [('Morning', 'A snorkel or sail trip on the reef, or a lazy beach morning at Casa Marina.'),
                   ('Afternoon', 'Bike to the Southernmost Point and Fort Zachary Taylor’s beach.'),
                   ('Evening', 'A sunset sail, then a casual dinner in Old Town.')]},
+    'outer-banks': {
+        'day': [('Arrive', 'Land at KMQI mid-morning and take the courtesy car or a rental.'),
+                ('Midday', 'Wright Brothers National Memorial, then lunch on the Manteo waterfront.'),
+                ('Afternoon', 'A short climb at Jockey’s Ridge, then fly home before the afternoon winds build.')],
+        'extra': [('Morning', 'Drive south through Cape Hatteras National Seashore toward the Cape Hatteras Lighthouse.'),
+                  ('Afternoon', 'Beach time, or the North Carolina Aquarium on Roanoke Island.'),
+                  ('Evening', 'In summer, The Lost Colony outdoor drama; otherwise a quiet dinner in Duck.')]},
+    'amelia-island': {
+        'day': [('Arrive', 'Land at KFHB mid-morning and borrow the crew car.'),
+                ('Midday', 'Lunch downtown and a stroll up Centre Street to the harbor.'),
+                ('Afternoon', 'Fort Clinch and a walk on the beach, then back to the FBO.')],
+        'extra': [('Morning', 'A guided horseback ride on the beach.'),
+                  ('Afternoon', 'A long spa afternoon at one of the oceanfront resorts.'),
+                  ('Evening', 'A sunset river cruise, then dinner at Burlingame.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

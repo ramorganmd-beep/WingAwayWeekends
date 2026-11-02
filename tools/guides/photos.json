@@ -1,0 +1,26 @@
+{
+  "outer-banks": {
+    "slug": "outer-banks-kill-devil-hill",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "The granite boulder marking the Wright brothers’ first takeoff, with the Wright Monument on Kill Devil Hill beyond",
+    "w": 960,
+    "h": 720,
+    "caption": "The first-flight boulder and the Wright Monument",
+    "credit_html": "Wright Brothers National Memorial at Kill Devil Hill, NASA on The Commons, <a href=\"https://commons.wikimedia.org/wiki/File:Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_(16591932859).jpg\">Wikimedia Commons</a>, no known copyright restrictions. Cropped and resized for display."
+  },
+  "amelia-island": {
+    "slug": "amelia-centre-street",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Historic 1890 storefronts with navy awnings on Centre Street in Fernandina Beach, Amelia Island",
+    "w": 960,
+    "h": 720,
+    "caption": "Centre Street, historic Fernandina Beach",
+    "credit_html": "Centre Street Businesses by Upstateherd, <a href=\"https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Cropped and resized for display; adaptations shared under the same license."
+  }
+}

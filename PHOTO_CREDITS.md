@@ -124,3 +124,21 @@ Full original metadata is in `licenses/commons-imageinfo-evidence.json`; machine
 ## Four-photo replacement evidence
 
 The current four replacement records are in `licenses/replacement-imageinfo-evidence.json`. The earlier `commons-imageinfo-evidence.json` is retained as historical evidence for the other six photos. Pinehurst is an archival photograph from 2010; it is not a representation of the course’s current layout. No selected replacement has an unverified copyright license.
+
+## Outer Banks
+
+- Title: Wright Brothers National Memorial at Kill Devil Hill (16591932859).jpg (2013-06-18)
+- Photographer: NASA on The Commons
+- Source: https://commons.wikimedia.org/wiki/File:Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_(16591932859).jpg
+- License: No known copyright restrictions (Flickr Commons, NASA on The Commons) — https://www.flickr.com/commons/usage/
+- Requirements: No known copyright restrictions; credit provided as a courtesy.
+- Changes: Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Amelia Island
+
+- Title: Centre Street Businesses.jpg (2019-05-25)
+- Photographer: Upstateherd
+- Source: https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Requirements: Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 4.0.
+- Changes: Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.

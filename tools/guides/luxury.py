@@ -62,6 +62,16 @@ LUXURY = {
          'A waterfront resort at the end of Duval Street with a private beach and spa, steps from Mallory Square.'),
         ('Old Town · Garden oasis', 'The Gardens Hotel',
          'A small luxury hotel set in lush tropical gardens in Old Town, often rated among the island’s best.')],
+    'outer-banks': [
+        ('Oceanfront · Rent a house', 'Luxury beach homes',
+         'The Outer Banks’ real luxury is a private oceanfront house in Duck, Corolla or Nags Head, often with a pool and hot tub. Book through a local rental agency; many require week-long stays in summer, with shorter stays off-season.'),
+        ('Upgrade · Duck', 'Sanderling soundfront suites',
+         'The Sanderling is already the area’s top resort. For a step up, ask about its soundfront suites and spa packages.')],
+    'amelia-island': [
+        ('Upgrade · Oceanfront', 'Club level at The Ritz-Carlton',
+         'The Ritz-Carlton’s club level adds a private lounge with food and drinks throughout the day, on top of the oceanfront setting and spa.'),
+        ('More space · Resort villas', 'Omni oceanfront villas',
+         'Omni Amelia Island’s villas and suites give you room to spread out, with the resort’s spa, golf and restaurants close by.')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)
