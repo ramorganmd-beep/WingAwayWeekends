@@ -18,11 +18,13 @@ P = [page_start(
     caption=PHOTO['caption'], airport='KCEU', nm=205, flight_time='~1 hr 37 <small>min</small>',
     style='Rental car + boat', nav=NAV)]
 
-P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land at Clemson.',
-    'KCEU, Oconee County Regional, sits beside Lake Hartwell near Clemson, about 20 minutes from Lake Keowee and 40 from Lake Jocassee.') +
-    '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Oconee County Regional Airport', '365 Airport Road, Seneca, SC 29678', '864-882-2959') +
-    '<p class="note">The county FBO lists a crew car, and Hertz and Enterprise rent cars at the airport six days a week; reserve ahead. Ask about two-night parking and fees. On Clemson football weekends the area fills up. No live fuel price is shown.</p>'
+P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Two good airports.',
+    'KCEU, Oconee County Regional near Clemson, is about 20 minutes from Lake Keowee and 40 from Lake Jocassee. KLQK, Pickens County, is the alternative, about 25 minutes from Keowee’s east shore and 35–40 from Jocassee.') +
+    '<div class="arrival-grid"><div class="arrival-main"><h3>The FBOs</h3>' +
+    fbo('Oconee County Regional Airport · KCEU', '365 Airport Road, Seneca, SC 29678', '864-882-2959') +
+    fbo('Pickens County Airport · KLQK', '240 Airport Road, Liberty, SC 29657', '864-843-5803') +
+    '<p class="note">The county FBO lists a crew car, and Hertz and Enterprise rent cars at the airport six days a week; reserve ahead. Ask about two-night parking and fees. On Clemson football weekends the area fills up.</p>'
+    '<p class="note"><strong>Pickens County (KLQK):</strong> the county FBO lists Titan 100LL and Jet A, self-serve and full-serve, and a courtesy car, with staff on site about 8–5 daily; after-hours service costs extra. Ask about two-night parking and a rental car. No live fuel price is shown.</p>'
     '<p class="note">The Blue Ridge escarpment rises to the north. Review terrain, the sectional and current NOTAMs, and watch for afternoon mountain storms in summer.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>A car, then a boat.</h3><p>Rent a car for the weekend. For the lakes, rent a pontoon, or join a guided boat tour from Devils Fork State Park, the only public access to Lake Jocassee.</p></aside></div></section>')
 
@@ -79,7 +81,7 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
     'A sample Friday–Sunday weekend: a sunset dinner, a day on Jocassee and a waterfall. No bookings or availability confirmed.') +
     '<div class="days">' +
     day('FRI', 'Arrive & unwind', [
-        ('Late-morning arrival', 'Land at KCEU, subject to weather and your actual flight plan, and pick up the rental car.'),
+        ('Late-morning arrival', 'Land at KCEU or KLQK, subject to weather and your actual flight plan, and pick up the car.'),
         ('Afternoon', 'Check in on Lake Keowee and get down to the dock.'),
         ('Evening', 'Sunset dinner at The Lighthouse.')]) +
     day('SAT', 'Lake Jocassee', [
