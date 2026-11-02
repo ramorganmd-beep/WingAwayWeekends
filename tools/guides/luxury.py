@@ -124,6 +124,9 @@ LUXURY = {
          'One of America’s most celebrated country hotels, in the foothills near Townsend, known for its food, wine and service. About 25 minutes from KTYS. A once-in-a-lifetime splurge.'),
         ('Mountaintop · Walland', 'Blackberry Mountain',
          'Blackberry Farm’s sister resort on a mountain preserve, with stone cottages, hiking and wellness at its heart.')],
+    'harpers-ferry': [
+        ('Country inn · Charles Town', 'Hillbrook Inn',
+         'A romantic country inn and spa outside Charles Town, about 20 minutes away, home to the Redbook restaurant. The area’s splurge.')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)

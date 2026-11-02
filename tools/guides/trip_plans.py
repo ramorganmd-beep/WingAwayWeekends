@@ -160,6 +160,13 @@ PLANS = {
         'extra': [('Morning', 'A drive to Dahlonega and its Gold Museum.'),
                   ('Afternoon', 'A winery tasting for the non-pilot.'),
                   ('Evening', 'Dinner at Cotto Modern Italian.')]},
+    'harpers-ferry': {
+        'day': [('Arrive', 'Land at KMRB mid-morning and pick up the crew car or a rental.'),
+                ('Midday', 'The lower town and the national historical park, with lunch in town.'),
+                ('Afternoon', 'A short walk to Jefferson Rock for the view, then back to the FBO.')],
+        'extra': [('Morning', 'A bike ride on the C&O Canal towpath.'),
+                  ('Afternoon', 'Antietam National Battlefield, or tubing on the river in summer.'),
+                  ('Evening', 'Dinner and a stroll in Shepherdstown.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
