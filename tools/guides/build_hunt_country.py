@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know, wine_and_flying  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['hunt-country']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('wine', 'Wine'), ('explore', 'Explore'),
        ('spa', 'Spa'), ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='hunt-country', name='Virginia Hunt Country', state='Virginia', number=14,
+    slug='hunt-country', name='Virginia Hunt Country', state='Virginia', number=14, reviewed=REVIEWED,
     description='A curated two-night Virginia Hunt Country wine weekend for GA pilots and their partners, from KMYR to KJYO Leesburg. Middleburg, Loudoun wineries, horse country inns and the Udvar-Hazy Center.',
     lede='Stone walls, horse farms and serious wine.',
     intro='West of Washington, the rolling Piedmont around Middleburg is fox-hunting and steeplechase country, with more than 50 wineries in Loudoun County alone. Stay at a historic inn or a horse-country resort, taste some of Virginia’s best wines, and save an hour for the Space Shuttle at the Udvar-Hazy Center.',
@@ -135,7 +136,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Wine & flying', 'Taste on the non-flying day and keep the evening before departure dry.')]) +
     '</section>')
 
-P.append(page_end(number=14, place='Virginia Hunt Country', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=14, place='Virginia Hunt Country', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
