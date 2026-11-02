@@ -63,17 +63,17 @@
     "placeholder": true
   },
   "gulf-shores": {
-    "slug": "gulf-shores-beach",
+    "slug": "https://images.unsplash.com/photo-1686080187913-7c119bc567ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a white-sand beach and the Gulf of Mexico",
+    "alt": "Wide sugar-white beach along the Gulf at Orange Beach, Alabama",
     "w": 960,
     "h": 720,
-    "caption": "Sugar-white sand on the Gulf (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "The beach at Orange Beach",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@stevenvanelk?utm_source=wingaway_weekends&utm_medium=referral\">Steven Van Elk</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-long-stretch-of-beach-next-to-the-ocean-PBJ2jQsdszk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License.",
+    "remote": "unsplash"
   },
   "chattanooga": {
     "slug": "chattanooga-point-park-sunset",
@@ -100,17 +100,17 @@
     "credit_html": "Fall Color on Rich Mountain Road Overlook, photo by Sam Hobbs, National Park Service (Great Smoky Mountains National Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   },
   "lake-lure": {
-    "slug": "lake-lure-gorge",
+    "slug": "https://images.unsplash.com/photo-1694056510901-3f0809c62d33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a mountain lake in a forested gorge",
+    "alt": "The view from Chimney Rock down Hickory Nut Gorge",
     "w": 960,
     "h": 720,
-    "caption": "Lake Lure in Hickory Nut Gorge (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "The view from Chimney Rock",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@hasqr1?utm_source=wingaway_weekends&utm_medium=referral\">haseeb riaz</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-valley-from-a-high-cliff-_crHUWnIqK8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License.",
+    "remote": "unsplash"
   },
   "lake-keowee": {
     "slug": "lake-keowee-morning",
@@ -125,17 +125,17 @@
     "credit_html": "Lake Keowee (reservoir) in South Carolina.jpg by Andy Montgomery, <a href=\"https://commons.wikimedia.org/wiki/File:Lake_Keowee_(reservoir)_in_South_Carolina.jpg\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>. Cropped and resized for display; adaptations shared under the same license."
   },
   "lake-lanier": {
-    "slug": "lake-lanier",
+    "slug": "https://images.unsplash.com/photo-1690809107122-692c0bad5c10?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide lake below rolling hills",
+    "alt": "Lake Lanier’s shoreline with wooded hills beyond",
     "w": 960,
     "h": 720,
-    "caption": "Lake Lanier (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "Lake Lanier",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jsnapshots?utm_source=wingaway_weekends&utm_medium=referral\">Jo Anaya</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-dirt-k-CTlprz6OM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License.",
+    "remote": "unsplash"
   },
   "harpers-ferry": {
     "slug": "harpers-ferry-jefferson-rock",

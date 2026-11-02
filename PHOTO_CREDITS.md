@@ -175,3 +175,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172
 - License: Public domain (U.S. National Park Service; NPGallery lists Constraint “Public domain”, Granting rights “Full”)
 - Changes: Downloaded from NPS NPGallery (hi-res proxy), center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Gulf Shores
+
+- Photo by Steven Van Elk on Unsplash — https://unsplash.com/photos/a-long-stretch-of-beach-next-to-the-ocean-PBJ2jQsdszk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag/description: Orange Beach, AL, USA
+
+## Lake Lure
+
+- Photo by haseeb riaz on Unsplash — https://unsplash.com/photos/a-view-of-a-valley-from-a-high-cliff-_crHUWnIqK8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag/description: Chimney rock
+
+## Lake Lanier
+
+- Photo by Jo Anaya on Unsplash — https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-dirt-k-CTlprz6OM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag/description: Lake Lanier, Georgia, USA
