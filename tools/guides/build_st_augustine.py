@@ -44,8 +44,9 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One lon
     card('Friday dinner · Intimate', 'Collage',
          'A small, romantic restaurant known for globally inspired cooking and live piano. The classic St. Augustine date night. Reserve well ahead.',
          'https://collagestaug.com/') +
-    card('Saturday dinner · Lively', 'The Ice Plant Bar',
-         'A restored 1920s ice plant with craft cocktails and a farm-to-table menu, in the same building as the St. Augustine Distillery. Fun and buzzy rather than quiet.') +
+    card('Saturday dinner · Peruvian', 'Llama',
+         'A tiny, much-loved Peruvian restaurant on Anastasia Island, near the lighthouse, with about ten tables and a chef from Lima. Ceviche and lomo saltado are favorites. Book well ahead; closed some weekdays.',
+         'https://www.opentable.com/r/llama-restaurant-saint-augustine', 'Reservations') +
     card('Lunch · Spanish-Cuban', 'The Columbia',
          'A long-running Spanish and Cuban restaurant on St. George Street. A leisurely lunch between sights; try the 1905 salad.',
          'https://www.columbiarestaurant.com/historic-district-st-augustine') +
@@ -81,7 +82,7 @@ P.append('<section id="wine">' + head('05', 'Wine & spirits', 'A glass, and no h
          'A working winery at 157 King Street with tours and tastings of Florida wines, plus a rooftop bar. Check tour times and the rooftop’s hours.',
          'https://www.sansebastianwinery.com/') +
     card('Distillery · Tours', 'St. Augustine Distillery',
-         'Craft spirits made in the restored ice plant, with distillery tours and tastings. Pair it with dinner upstairs at the Ice Plant Bar.',
+         'Craft spirits made in the restored ice plant, with distillery tours and tastings. Tours fill up on weekends; book ahead.',
          'https://www.staugustinedistillery.com/') +
     '</div></section>')
 
@@ -108,7 +109,7 @@ P.append('<section id="itinerary">' + head('07', 'Suggested itinerary', 'Friday 
     day('SAT', 'Fort, hotels & bay', [
         ('Morning', 'Castillo de San Marcos when it opens, then a Flagler College tour.'),
         ('Afternoon', 'San Sebastian Winery tasting, or a couples treatment at Casa Monica. Late afternoon: the lighthouse climb.'),
-        ('Evening', 'Sunset on Matanzas Bay, then dinner at the Ice Plant Bar.')]) +
+        ('Evening', 'Sunset on Matanzas Bay, then dinner at Llama.')]) +
     day('SUN', 'An easy departure', [
         ('Morning', 'Breakfast and a quiet walk through Lincolnville or along the bayfront.'),
         ('Before leaving', 'Check out and allow ample time at the FBO.'),
