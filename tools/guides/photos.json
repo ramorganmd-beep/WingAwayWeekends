@@ -22,5 +22,44 @@
     "h": 720,
     "caption": "Centre Street, historic Fernandina Beach",
     "credit_html": "Centre Street Businesses by Upstateherd, <a href=\"https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg\">Wikimedia Commons</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>. Cropped and resized for display; adaptations shared under the same license."
+  },
+  "yadkin-valley": {
+    "slug": "yadkin-valley-vineyard",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of vineyard rows below the Blue Ridge foothills",
+    "w": 960,
+    "h": 720,
+    "caption": "Vineyard country below the Blue Ridge (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "hunt-country": {
+    "slug": "hunt-country-vineyard",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of vineyard rows in rolling Virginia hills",
+    "w": 960,
+    "h": 720,
+    "caption": "Rolling hunt-country hills (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "dahlonega": {
+    "slug": "dahlonega-vineyard",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of vineyard rows in the North Georgia mountains",
+    "w": 960,
+    "h": 720,
+    "caption": "North Georgia mountain vineyards (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
   }
 }

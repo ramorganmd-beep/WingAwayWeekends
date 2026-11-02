@@ -18,6 +18,7 @@ TOWN = {
     'pinehurst': 'Pinehurst, NC', 'beaufort': 'Beaufort, SC', 'st-augustine': 'St. Augustine, FL',
     'greenville': 'Greenville, SC', 'charlottesville': 'Charlottesville, VA', 'nashville': 'Nashville, TN',
     'key-west': 'Key West, FL', 'outer-banks': 'Outer Banks, NC', 'amelia-island': 'Fernandina Beach, FL',
+    'yadkin-valley': 'Elkin, NC', 'hunt-country': 'Middleburg, VA', 'dahlonega': 'Dahlonega, GA',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -44,8 +45,16 @@ QUERY = {
     'Club level at The Ritz-Carlton': 'The Ritz-Carlton, Amelia Island, FL',
     'Omni oceanfront villas': 'Omni Amelia Island Resort, FL',
     'Elizabeth Pointe Lodge': 'Elizabeth Pointe Lodge, Fernandina Beach, FL',
+    'The Rockford Inn': 'The Rockford Inn, Dobson, NC',
+    'Hampton Inn & Suites at Shelton Vineyards': 'Hampton Inn & Suites Dobson, NC',
+    'JOLO Winery & Vineyards': 'JOLO Winery & Vineyards, Pilot Mountain, NC',
+    'Harvest Grill at Shelton Vineyards': 'Harvest Grill, Shelton Vineyards, Dobson, NC',
+    'Grassy Creek Klondike Cabins': 'Grassy Creek Vineyard & Winery, State Road, NC',
+    'The Inn at Little Washington': 'The Inn at Little Washington, Washington, VA',
+    'Salamander suites': 'Salamander Middleburg, VA',
+    'The Conservatory at Goodstone': 'Goodstone Inn & Restaurant, Middleburg, VA',
 }
-SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn'}
+SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
