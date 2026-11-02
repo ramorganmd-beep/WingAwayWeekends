@@ -57,7 +57,8 @@ LUXURY = {
          'A grand 1900 railway station turned hotel, with a vaulted lobby and stained glass. Walkable to The Gulch and downtown.',
          'https://www.unionstationhotelnashville.com/'),
         ('The Gulch · Rooftop', 'Thompson Nashville',
-         'A stylish hotel in The Gulch with a rooftop bar and strong restaurants downstairs.')],
+         'A stylish hotel in The Gulch with a rooftop bar and strong restaurants downstairs.',
+         'https://www.hyatt.com/hotel/tennessee/thompson-nashville/bnath')],
     'key-west': [
         ('Private island', 'Sunset Key Cottages',
          'Cottages on a private island a short launch ride from Old Town, home to Latitudes. The ultimate Key West splurge.'),
