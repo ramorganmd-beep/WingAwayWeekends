@@ -42,7 +42,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One eas
     'Nashville’s best reservations go fast. Book the special dinner as soon as you know your dates.') +
     '<div class="grid three">' +
     card('Friday dinner · Downtown', 'Boqueria',
-         'Barcelona-style tapas, paella and sangria at Fifth + Broadway, a short walk from the Ryman and the honky-tonks. Reservations and walk-ins; call <a href="tel:+16152457160">615-245-7160</a>.') +
+         'Barcelona-style tapas, paella and sangria at Fifth + Broadway, a short walk from the Ryman and the honky-tonks. Reservations and walk-ins; call <a href="tel:+16152457160">615-245-7160</a>.',
+         'https://boqueriarestaurant.com/location/nsh-fifth-broadway/') +
     card('Saturday dinner · Special occasion', 'Locust',
          'A small restaurant named among North America’s 50 Best and one of the city’s toughest reservations. Book the moment reservations open.') +
     card('Alternative dinner · Germantown', 'Rolf & Daughters',
