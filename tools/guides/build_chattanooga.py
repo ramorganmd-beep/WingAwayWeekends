@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['chattanooga']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='chattanooga', name='Chattanooga', state='Tennessee', number=17,
+    slug='chattanooga', name='Chattanooga', state='Tennessee', number=17, reviewed=REVIEWED,
     description='A curated two-night Chattanooga getaway for GA pilots and their partners, from KMYR to KCHA. A walkable riverfront, Lookout Mountain, the Tennessee Aquarium and excellent dining.',
     lede='A river city with a mountain view.',
     intro='Chattanooga wraps around a bend of the Tennessee River below Lookout Mountain. Walk the riverfront and the pedestrian Walnut Street Bridge, ride the steep Incline Railway to the top of the mountain, and finish with dinner at some of the best restaurants in the state.',
@@ -110,7 +111,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=17, place='Chattanooga, Tennessee', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=17, place='Chattanooga, Tennessee', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
