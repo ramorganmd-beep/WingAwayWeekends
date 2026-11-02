@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['lake-lure']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='lake-lure', name='Lake Lure', state='North Carolina', number=19,
+    slug='lake-lure', name='Lake Lure', state='North Carolina', number=19, reviewed=REVIEWED,
     description='A curated two-night Lake Lure and Chimney Rock getaway for GA pilots and their partners, from KMYR to KFQD. A mountain lake in Hickory Nut Gorge, Chimney Rock State Park and a historic 1927 inn.',
     lede='A mountain lake, back after the storm.',
     intro='Lake Lure fills a steep, forested gorge below Chimney Rock, the setting for Dirty Dancing and The Last of the Mohicans. Hurricane Helene hit the gorge hard in 2024; the lake reopened in May 2026 and Chimney Rock State Park in 2025. Visiting now is a lovely weekend and real support for a community still rebuilding.',
@@ -106,7 +107,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('FBO hours', 'The airport keeps daytime hours. Plan arrivals and departures accordingly.')]) +
     '</section>')
 
-P.append(page_end(number=19, place='Lake Lure, North Carolina', note='Researched while the gorge is still recovering from Hurricane Helene. Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=19, place='Lake Lure, North Carolina', reviewed=REVIEWED, note='Researched while the gorge is still recovering from Hurricane Helene. Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:

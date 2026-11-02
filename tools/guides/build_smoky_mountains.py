@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['smoky-mountains']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='smoky-mountains', name='Great Smoky Mountains', state='Tennessee', number=18,
+    slug='smoky-mountains', name='Great Smoky Mountains', state='Tennessee', number=18, reviewed=REVIEWED,
     description='A curated two-night Great Smoky Mountains getaway for GA pilots and their partners, from KMYR to KGKT. Mountain inns, Cades Cove, waterfall hikes and Blackberry Farm.',
     lede='Blue ridges, mountain inns and quiet trails.',
     intro='America’s most visited national park is a short drive from the runway in Sevierville. Stay at a quiet inn near Gatlinburg or on the peaceful Townsend side, hike to a waterfall, drive the Cades Cove loop at dawn, and splurge, if you like, on one of the country’s most celebrated country hotels.',
@@ -30,22 +31,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your side o
     'Gatlinburg is lively and close to the main park road; Townsend, the “peaceful side,” is quieter and near Cades Cove. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Near Gatlinburg · Quiet inn', 'Buckhorn Inn',
-         'A long-established country inn on a hillside outside Gatlinburg, close to the park but away from the crowds. Breakfast and mountain views.') +
+         'A long-established country inn on a hillside outside Gatlinburg, close to the park but away from the crowds. Breakfast and mountain views.',
+         'https://www.buckhorninn.com/') +
     card('Gatlinburg · Creekside', 'Old Creek Lodge',
-         'Rooms with private balconies over a mountain stream, a short walk from downtown Gatlinburg. Ask for a king suite with a fireplace.') +
+         'Rooms with private balconies over a mountain stream, a short walk from downtown Gatlinburg. Ask for a king suite with a fireplace.',
+         'https://www.oldcreeklodgegatlinburg.com/') +
     card('Townsend · Lodge & cabins', 'Dancing Bear Lodge',
-         'A romantic lodge and cabins, many with hot tubs, on the quiet side of the Smokies, with its own Appalachian bistro.') +
+         'A romantic lodge and cabins, many with hot tubs, on the quiet side of the Smokies, with its own Appalachian bistro.',
+         'https://dancingbearlodge.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One picnic.',
     'Mountain dining is casual. Reserve where you can, and pack a picnic for the park.') +
     '<div class="grid three">' +
     card('Friday dinner · Steakhouse', 'The Peddler Steakhouse',
-         'A long-running Gatlinburg favorite in a log building beside the river, where you choose your steak cut at the table.') +
+         'A long-running Gatlinburg favorite in a log building beside the river, where you choose your steak cut at the table.',
+         'https://peddlergatlinburg.com/') +
     card('Saturday dinner · Appalachian', 'Dancing Bear Appalachian Bistro',
-         'Seasonal mountain cooking at Dancing Bear Lodge in Townsend. Reserve ahead.') +
+         'Seasonal mountain cooking at Dancing Bear Lodge in Townsend. Reserve ahead.',
+         'https://dancingbearlodge.com/dining/') +
     card('Lunch · In the park', 'A picnic in Cades Cove',
-         'Pick up sandwiches in town and eat in the meadows of Cades Cove or beside a stream. Many couples say it is the best meal of the weekend.') +
+         'Pick up subs and sandwiches at J.O.E. and Pop’s Sub Shoppe in Gatlinburg, then eat in the meadows of Cades Cove or beside a stream. Many couples say it is the best meal of the weekend.',
+         'https://www.joeandpops.com/', 'J.O.E. and Pop’s Sub Shoppe') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Into the park.',
@@ -101,7 +108,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Mountain flying', 'High terrain, haze and quick-building storms. Fly in the morning and keep a backup day.')]) +
     '</section>')
 
-P.append(page_end(number=18, place='Great Smoky Mountains, Tennessee', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=18, place='Great Smoky Mountains, Tennessee', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
