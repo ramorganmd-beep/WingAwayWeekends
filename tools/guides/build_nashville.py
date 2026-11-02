@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
-NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Music & sights'), ('spa', 'Spa'),
+NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Music & sights'), ('spa', 'Spa'), ('shopping', 'Shop'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
     slug='nashville', name='Nashville', state='Tennessee', number=9,
@@ -66,7 +66,20 @@ P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & r
     '<p>Couples massages, steam rooms and relaxation lounges downtown. A good Saturday-afternoon reset before a night out.</p>'
     '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
 
-P.append('<section id="events">' + head('05', 'Sports & what’s happening', 'Sometimes the event is the reason to fly.',
+P.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring home a little Music City.',
+    'Most of it is walkable from Broadway: boots, gig posters, records and Nashville-made goods.') +
+    '<div class="grid four">' +
+    card('Across from Bridgestone Arena', 'Fifth + Broadway',
+         'The downtown shopping and dining block on Broadway, with apparel and lifestyle shops that lean toward Nashville brands, plus Boqueria for Friday dinner. Store lineups change, so check the directory.') +
+    card('Lower Broadway', 'Boot shops',
+         'Cowboy boots are the classic Nashville souvenir, and several boot stores line Lower Broadway, some with multi-pair deals. Try on plenty, and compare quality before you buy.') +
+    card('Letterpress posters', 'Hatch Show Print',
+         'The legendary letterpress poster shop, with its store at the Country Music Hall of Fame. Pair it with your museum visit and bring home a gig poster.') +
+    card('Historic arcade', 'The Arcade',
+         'A 1903 glass-roofed shopping arcade between Fourth and Fifth Avenues, home to small galleries and shops. A quiet browse a few blocks off Broadway.') +
+    '</div><p class="note">Record lovers: Third Man Records, Jack White’s label and shop, is a short ride away near The Gulch.</p></section>')
+
+P.append('<section id="events">' + head('06', 'Sports & what’s happening', 'Sometimes the event is the reason to fly.',
     'This prototype links to current calendars. It does not yet match events to your travel dates.') +
     '<div class="grid three">' +
     card('Year-round', 'Concerts at the Ryman',
@@ -79,7 +92,7 @@ P.append('<section id="events">' + head('05', 'Sports & what’s happening', 'So
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the destination calendar when choosing a weekend, and confirm dates and tickets with the organizer.</p></div>'
     '<a class="button" href="https://www.visitmusiccity.com/" target="_blank" rel="noopener">Browse Nashville events</a></div></section>')
 
-P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday in. Sunday home.',
+P.append('<section id="itinerary">' + head('07', 'Suggested itinerary', 'Friday in. Sunday home.',
     'A sample Friday–Sunday weekend: the Ryman, a show, two standout dinners and a quiet Sunday. No bookings or availability confirmed.') +
     '<div class="days">' +
     day('FRI', 'Arrive & unwind', [
@@ -87,7 +100,7 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
         ('Afternoon', 'Ryman Auditorium tour.'),
         ('Evening', 'Dinner at Boqueria, then the honky-tonks on Lower Broadway.')]) +
     day('SAT', 'Music City', [
-        ('Morning', 'Country Music Hall of Fame and Museum.'),
+        ('Morning', 'Country Music Hall of Fame and Museum, with Hatch Show Print’s shop, then browse Fifth + Broadway and the boot shops.'),
         ('Afternoon', 'Couples treatment at Mokara Spa, or rest before the evening.'),
         ('Evening', 'Dinner at Locust, then the Grand Ole Opry or a Ryman concert.')]) +
     day('SUN', 'An easy departure', [
@@ -96,7 +109,7 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
         ('Fly home', 'A long leg: plan fuel, weather and daylight carefully.')]) +
     '</div></section>')
 
-P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend easy to change.',
+P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend easy to change.',
     'These details make the difference between an appealing list and a usable getaway.') +
     know([('Book in this order', 'Show tickets first, then hotel, Locust and the spa.'),
           ('A longer flight', 'About three hours from KMYR. Consider a fuel stop and a backup day for weather.'),
