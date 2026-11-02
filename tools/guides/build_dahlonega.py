@@ -50,7 +50,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One rel
          'New Orleans-style Cajun and Creole cooking, with a porch overlooking the square. Ask for a porch table.',
          'https://www.thebourbonstreetgrille.com/') +
     card('Lunch · On the square', 'Spirits Tavern',
-         'A lively spot on the square known for some of the best burgers in town and creative cocktails. For a Southern breakfast or lunch instead, try Foothill Grill.') +
+         'A lively spot on the square known for some of the best burgers in town and creative cocktails. For a Southern breakfast or lunch instead, try Foothill Grill.',
+         'https://www.spirits-tavern.com/') +
     '</div></section>')
 
 P.append('<section id="wine">' + head('04', 'Wineries', 'Georgia wine country.',
