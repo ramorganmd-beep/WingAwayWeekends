@@ -121,9 +121,11 @@ LUXURY = {
          'A restored Victorian mansion turned bed and breakfast in a quiet historic neighborhood near downtown. Intimate and romantic.')],
     'smoky-mountains': [
         ('Ultra-luxury · Walland', 'Blackberry Farm',
-         'One of America’s most celebrated country hotels, in the foothills near Townsend, known for its food, wine and service. About 25 minutes from KTYS. A once-in-a-lifetime splurge.'),
+         'One of America’s most celebrated country hotels, in the foothills near Townsend, known for its food, wine and service. About 25 minutes from KTYS. A once-in-a-lifetime splurge.',
+         'https://www.blackberryfarm.com/'),
         ('Mountaintop · Walland', 'Blackberry Mountain',
-         'Blackberry Farm’s sister resort on a mountain preserve, with stone cottages, hiking and wellness at its heart.')],
+         'Blackberry Farm’s sister resort on a mountain preserve, with stone cottages, hiking and wellness at its heart.',
+         'https://www.blackberrymountain.com/')],
     'harpers-ferry': [
         ('Country inn · Charles Town', 'Hillbrook Inn',
          'A romantic country inn and spa outside Charles Town, about 20 minutes away, home to the Redbook restaurant. The area’s splurge.',
