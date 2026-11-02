@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['lake-keowee']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='lake-keowee', name='Lake Keowee & Jocassee', state='South Carolina', number=20,
+    slug='lake-keowee', name='Lake Keowee & Jocassee', state='South Carolina', number=20, reviewed=REVIEWED,
     description='A curated two-night Lake Keowee and Lake Jocassee getaway for GA pilots and their partners, from KMYR to KCEU Clemson. Clear mountain lakes, waterfalls you reach by boat and Blue Ridge hiking.',
     lede='Clear water and waterfalls you reach by boat.',
     intro='In South Carolina’s Upstate, two linked lakes sit at the foot of the Blue Ridge. Lake Keowee is broad and sunny, with lakeside restaurants. Lake Jocassee, above it, is deep, clear and blue-green, ringed by protected forest, with waterfalls tumbling straight into the lake. Rent a boat, find a waterfall and slow right down.',
@@ -112,7 +113,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates, tours and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=20, place='Lake Keowee & Jocassee, South Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=20, place='Lake Keowee & Jocassee, South Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
