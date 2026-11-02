@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['smoky-mountains']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='smoky-mountains', name='Great Smoky Mountains', state='Tennessee', number=18,
+    slug='smoky-mountains', name='Great Smoky Mountains', state='Tennessee', number=18, reviewed=REVIEWED,
     description='A curated two-night Great Smoky Mountains getaway for GA pilots and their partners, from KMYR to KGKT. Mountain inns, Cades Cove, waterfall hikes and Blackberry Farm.',
     lede='Blue ridges, mountain inns and quiet trails.',
     intro='America’s most visited national park is a short drive from the runway in Sevierville. Stay at a quiet inn near Gatlinburg or on the peaceful Townsend side, hike to a waterfall, drive the Cades Cove loop at dawn, and splurge, if you like, on one of the country’s most celebrated country hotels.',
@@ -107,7 +108,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Mountain flying', 'High terrain, haze and quick-building storms. Fly in the morning and keep a backup day.')]) +
     '</section>')
 
-P.append(page_end(number=18, place='Great Smoky Mountains, Tennessee', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=18, place='Great Smoky Mountains, Tennessee', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
