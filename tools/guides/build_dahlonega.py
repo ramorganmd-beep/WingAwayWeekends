@@ -30,37 +30,48 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Stay on the square to walk to dinner, or at a vineyard resort in the hills. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('On the square · Boutique', 'Hall House Hotel',
-         'A small boutique hotel right on Dahlonega’s historic square. Walk to tasting rooms, shops and dinner.') +
+         'A small boutique hotel right on Dahlonega’s historic square. Walk to tasting rooms, shops and dinner.',
+         'https://www.hallhousehotel.com/') +
     card('Downtown · Hotel & villas', 'The Dahlonega Square Hotel',
-         'Rooms and villas a short walk from the square, with a porch-and-garden feel.') +
+         'Rooms and villas a short walk from the square, with a porch-and-garden feel.',
+         'https://www.dahlonegasquarehotel.com/') +
     card('Vineyard resort · In the hills', 'Dahlonega Resort and Vineyard',
-         'A resort with its own vineyard, restaurant and bar a few minutes outside town. Choose it to wake up to mountain views.') +
+         'A resort with its own vineyard, restaurant and bar a few minutes outside town. Choose it to wake up to mountain views.',
+         'https://www.dahlonegasresort.com/') +
     '</div></section>')
 
-P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long lunch.',
+P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One relaxed lunch.',
     'The square has no chain restaurants. Reserve weekend dinners, and eat a little early; the square quiets down late.') +
     '<div class="grid three">' +
     card('Saturday dinner · Winery fine dining', 'Montaluce Winery & Restaurant',
-         'A Tuscan-style winery estate in the hills with a polished restaurant and vineyard views. The special-occasion dinner.') +
+         'A Tuscan-style winery estate in the hills with a polished restaurant and vineyard views. The special-occasion dinner.',
+         'https://www.montaluce.com/restaurant') +
     card('Friday dinner · On the square', 'Bourbon Street Grille',
-         'New Orleans-style Cajun and Creole cooking, with a porch overlooking the square. Ask for a porch table.') +
-    card('Lunch · Southern', 'Crimson Moon',
-         'Southern cooking in one of the oldest commercial buildings on the square, with live music some evenings.') +
+         'New Orleans-style Cajun and Creole cooking, with a porch overlooking the square. Ask for a porch table.',
+         'https://www.thebourbonstreetgrille.com/') +
+    card('Lunch · On the square', 'Spirits Tavern',
+         'A lively spot on the square known for some of the best burgers in town and creative cocktails. For a Southern breakfast or lunch instead, try Foothill Grill.',
+         'https://www.spirits-tavern.com/') +
     '</div></section>')
 
 P.append('<section id="wine">' + head('04', 'Wineries', 'Georgia wine country.',
     'More than a dozen wineries surround Dahlonega, with more tasting rooms right on the square.') +
     '<div class="grid three">' +
     card('Mountain views · Sunday brunch', 'Wolf Mountain Vineyards',
-         'A hilltop winery with sweeping views, sparkling and still wines, and a popular weekend brunch. Book ahead.') +
+         'A hilltop winery with sweeping views, sparkling and still wines, and a popular weekend brunch. Book ahead.',
+         'https://www.wolfmountainvineyards.com/') +
     card('Tuscan estate · Dining', 'Montaluce Winery',
-         'Tasting with dinner, or on its own, at the estate’s piazza-style terrace.') +
+         'Tasting with dinner, or on its own, at the estate’s piazza-style terrace.',
+         'https://www.montaluce.com/') +
     card('Award-winning · Relaxed', 'Frogtown Cellars',
-         'One of North Georgia’s most awarded wineries, with a big deck over the vines.') +
+         'One of North Georgia’s most awarded wineries, with a big deck over the vines.',
+         'https://frogtown.com/') +
     card('Small estate · Views', 'Kaya Vineyards',
-         'A winery and vineyard with a hilltop tasting room and wide mountain views.') +
+         'A winery and vineyard with a hilltop tasting room and wide mountain views.',
+         'https://www.kayavineyards.com/') +
     card('Family farm · Rustic', 'Cavender Creek Vineyards',
-         'A small family winery in an old barn-style tasting room, relaxed and friendly.') +
+         'A small family winery in an old barn-style tasting room, relaxed and friendly.',
+         'https://www.cavendercreekvineyards.com/') +
     card('On the square · Walk-in', 'Downtown tasting rooms',
          'Several wineries pour on the square, including Accent Cellars. An easy tasting with no driving at all.') +
     '</div>' + wine_and_flying('Many wineries take reservations on weekends; check before you go.') + '</section>')
@@ -80,7 +91,8 @@ P.append('<section id="explore">' + head('05', 'Things to do', 'Gold, waterfalls
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>A mountain-inn spa · Time for two</h3>'
     '<p>Mountain Laurel Creek Inn & Spa, a small bed and breakfast just outside town, offers spa treatments. A quiet afternoon for the pilot while others taste.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-inn guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-inn guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.mountainlaurelcreek.com/oasis-spa-dahlonega-ga" target="_blank" rel="noopener">Spa details</a></div></section>')
 
 P.append('<section id="events">' + head('06', 'What’s happening', 'Sometimes the event is the reason to fly.',
     'This prototype links to the town calendar. It does not yet match events to your travel dates.') +
