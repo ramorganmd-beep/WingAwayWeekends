@@ -27,7 +27,7 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
          'https://www.pinehurst.com/accommodations/the-carolina-hotel/') +
     card('In the village · The original', 'The Holly Inn',
          'The resort’s first hotel, in the middle of the Village of Pinehurst. Smaller and cozier than The Carolina, with shops and restaurants outside the door. Resort amenities are a short walk or shuttle away.',
-         'https://www.pinehurst.com/') +
+         'https://www.pinehurst.com/accommodations/the-holly-inn/') +
     card('Classic Donald Ross · Southern Pines', 'Mid Pines Inn & Golf Club',
          'A 1920s inn beside a Donald Ross course from 1921, with a quieter, old-school feel. Pairs well with a Southern Pines dinner. Check room style and golf packages.',
          'https://midpinesinn.com/') +
@@ -52,7 +52,7 @@ P.append('<section id="explore">' + head('04', 'Golf & things to do', 'Play a le
     '<div class="explore-list">' +
     explore(1, 'Pinehurst No. 2',
             'Donald Ross’s masterpiece and a regular U.S. Open venue. Tee times are essentially reserved for resort guests, so book it with your stay. Expect a premium green fee; ask about caddies, who make the round.',
-            'https://www.pinehurst.com/', 'Pinehurst Resort golf') +
+            'https://www.pinehurst.com/news/the-pinehurst-no-2-restoration-a-hole-by-hole-tour/', 'Hole-by-hole tour of No. 2') +
     explore(2, 'The Cradle & Thistle Dhu',
             'The Cradle is a fun nine-hole short course, and Thistle Dhu is a large putting course: both perfect for a partner who does not play 18 holes. Book The Cradle through the resort’s Starting Tower (<a href="tel:+19102358960">910-235-8960</a>); confirm how far ahead you can book.',
             'https://www.pinehurst.com/golf/courses/cradle-short-course/', 'The Cradle details') +
@@ -86,7 +86,8 @@ P.append('<section id="wine">' + head('06', 'Wine & drinks', 'A glass, and no hu
     'For this weekend, the best drinks come with a view of the golf.') +
     '<div class="grid three">' +
     card('Overlooking No. 2', 'The Deuce',
-         'The bar and restaurant in the resort clubhouse, looking out over the 18th green of No. 2. Ideal for a glass while golfers finish their rounds. Confirm hours.') +
+         'The bar and restaurant in the resort clubhouse, looking out over the 18th green of No. 2. Ideal for a glass while golfers finish their rounds. Confirm hours.',
+         'https://www.pinehurst.com/dining/the-deuce/') +
     card('Dinner pairing', 'Elliotts on Linden',
          'Let Saturday’s anchor dinner double as your wine stop, and ask the staff for a pairing.',
          'https://www.elliottsonlinden.com/') +
