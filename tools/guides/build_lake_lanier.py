@@ -32,8 +32,8 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     card('Lake resort · Lanier Islands', 'Lanier Islands Legacy Lodge',
          'A lodge on the islands at the south end of the lake, with lake views, a pool, golf, a spa and Sidney’s restaurant. The easy, all-in-one choice.',
          'https://www.lanierislands.com/lake_lanier_accommodations/legacy-lodge/') +
-    card('Private · Lakefront', 'Lake Lanier vacation rentals',
-         'A lake house with a private dock, closer to Gainesville. Book early for summer weekends, and ask about the dock and boat rules.',
+    card('Private · Lakefront', 'Lanier Islands lake houses',
+         'Private lake houses on the resort islands, with room to spread out and the resort’s pools, spa and restaurants close by. Book early for summer weekends.',
          'https://www.lanierislands.com/lake_lanier_accommodations/georgia_lake_houses/', 'Lanier Islands lake houses') +
     card('In the hills · Wine country', 'Dahlonega, 30 minutes north',
          'Combine the lake with wine country: stay on Dahlonega’s square and drive down for a day on the water. See our Dahlonega guide.',
