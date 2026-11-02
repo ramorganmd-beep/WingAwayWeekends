@@ -88,17 +88,16 @@
     "credit_html": "Garrity’s Battery in Point Park at sunset, National Park Service (Chickamauga and Chattanooga National Military Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   },
   "smoky-mountains": {
-    "slug": "smoky-mountains-ridges",
+    "slug": "smoky-mountains-rich-mountain",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges in haze",
+    "alt": "Brilliant red and orange fall foliage above a valley ringed by mountains, seen from Rich Mountain Road near Cades Cove",
     "w": 960,
     "h": 720,
-    "caption": "Layered ridges of the Smokies (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "Fall color from Rich Mountain Road, above Cades Cove",
+    "credit_html": "Fall Color on Rich Mountain Road Overlook, photo by Sam Hobbs, National Park Service (Great Smoky Mountains National Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   },
   "lake-lure": {
     "slug": "lake-lure-gorge",

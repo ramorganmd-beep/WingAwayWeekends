@@ -167,3 +167,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099
 - License: Public domain (U.S. National Park Service; NPGallery lists Constraint “Public domain”, Granting rights “Full”)
 - Changes: Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
+
+## Great Smoky Mountains
+
+- Title: Fall Color on Rich Mountain Road Overlook
+- Photographer: Sam Hobbs, National Park Service (Great Smoky Mountains National Park)
+- Source: https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172
+- License: Public domain (U.S. National Park Service; NPGallery lists Constraint “Public domain”, Granting rights “Full”)
+- Changes: Downloaded from NPS NPGallery (hi-res proxy), center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.
