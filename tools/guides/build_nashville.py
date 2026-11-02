@@ -28,22 +28,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Three different stays. Rates and availability need travel dates; book six to eight weeks ahead for weekends.') +
     '<div class="grid three">' +
     card('Historic grand hotel', 'The Hermitage Hotel',
-         'One of Nashville’s oldest and most beautiful hotels, with a grand lobby and old-school service. Walkable to the Ryman and downtown.') +
+         'One of Nashville’s oldest and most beautiful hotels, with a grand lobby and old-school service. Walkable to the Ryman and downtown.',
+         'https://www.thehermitagehotel.com/') +
     card('Downtown · Spa', 'Omni Nashville',
-         'Connected to the Country Music Hall of Fame, with the Mokara Spa and its couples treatments. Easy for a music-and-spa weekend.') +
+         'Connected to the Country Music Hall of Fame, with the Mokara Spa and its couples treatments. Easy for a music-and-spa weekend.',
+         'https://www.omnihotels.com/hotels/nashville') +
     card('Quiet & walkable', 'Germantown Inn',
-         'A small inn in Germantown, the city’s most walkable neighborhood for dinner and a slow evening, away from the Broadway crowds.') +
+         'A small inn in Germantown, the city’s most walkable neighborhood for dinner and a slow evening, away from the Broadway crowds.',
+         'https://germantowninn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One easy lunch.',
     'Nashville’s best reservations go fast. Book the special dinner as soon as you know your dates.') +
     '<div class="grid three">' +
     card('Friday dinner · Downtown', 'Boqueria',
-         'Barcelona-style tapas, paella and sangria at Fifth + Broadway, a short walk from the Ryman and the honky-tonks. Reservations and walk-ins; call <a href="tel:+16152457160">615-245-7160</a>.') +
+         'Barcelona-style tapas, paella and sangria at Fifth + Broadway, a short walk from the Ryman and the honky-tonks. Reservations and walk-ins; call <a href="tel:+16152457160">615-245-7160</a>.',
+         'https://boqueriarestaurant.com/location/nsh-fifth-broadway/') +
     card('Saturday dinner · Special occasion', 'Locust',
-         'A small restaurant named among North America’s 50 Best and one of the city’s toughest reservations. Book the moment reservations open.') +
+         'A small restaurant named among North America’s 50 Best and one of the city’s toughest reservations. Book the moment reservations open.',
+         'https://www.locustnashville.com/') +
     card('Alternative dinner · Germantown', 'Rolf & Daughters',
-         'Seasonal, pasta-focused cooking in a warm Germantown room. Swap it in for either night; The Optimist, a lively seafood restaurant, is another easy alternative.') +
+         'Seasonal, pasta-focused cooking in a warm Germantown room. Swap it in for either night; The Optimist, a lively seafood restaurant, is another easy alternative.',
+         'https://www.rolfanddaughters.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Music & sights', 'Hear it where it happened.',
@@ -67,7 +73,8 @@ P.append('<section id="explore">' + head('04', 'Music & sights', 'Hear it where 
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>Mokara Spa at Omni Nashville · Time for two</h3>'
     '<p>Couples massages, steam rooms and relaxation lounges downtown. A good Saturday-afternoon reset before a night out.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.omnihotels.com/hotels/nashville/spa" target="_blank" rel="noopener">Mokara Spa details</a></div></section>')
 
 P.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring home a little Music City.',
     'Most of it is walkable from Broadway: boots, gig posters, records and Nashville-made goods.') +

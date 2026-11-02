@@ -2,7 +2,8 @@
 
 Usage: python3 tools/guides/luxury.py docs/*/index.html
 
-Idempotent: removes a previously inserted row and re-adds it. Charleston's
+Idempotent: removes a previously inserted row and re-adds it. Entries are
+(tag, name, description[, official URL]). Charleston's
 row lives in build_charleston.py instead, so it is skipped here. Run after
 building a guide (with personalize.py and trip_plans.py).
 """
@@ -50,9 +51,11 @@ LUXURY = {
          'A boutique art hotel near the Downtown Mall, with a gallery and rooftop bar. Choose it to be in town for dinner.')],
     'nashville': [
         ('Riverfront · Five-star', 'Four Seasons Hotel Nashville',
-         'A tower on the Cumberland River downtown with skyline views, a spa and polished service.'),
+         'A tower on the Cumberland River downtown with skyline views, a spa and polished service.',
+         'https://www.fourseasons.com/nashville/'),
         ('Historic · Train station', 'Union Station Hotel',
-         'A grand 1900 railway station turned hotel, with a vaulted lobby and stained glass. Walkable to The Gulch and downtown.'),
+         'A grand 1900 railway station turned hotel, with a vaulted lobby and stained glass. Walkable to The Gulch and downtown.',
+         'https://www.unionstationhotelnashville.com/'),
         ('The Gulch · Rooftop', 'Thompson Nashville',
          'A stylish hotel in The Gulch with a rooftop bar and strong restaurants downstairs.')],
     'key-west': [
@@ -105,8 +108,10 @@ LUXURY = {
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)
 
 
-def card(tag, name, body):
-    return f'<article class="card"><div class="tag">{tag}</div><h3>{name}</h3><p>{body}</p></article>'
+def card(tag, name, body, href=None):
+    link = (f'<a class="textlink" href="{href}" target="_blank" rel="noopener">Official details'
+            f'<span class="sr"> for {name}</span></a>') if href else ''
+    return f'<article class="card"><div class="tag">{tag}</div><h3>{name}</h3><p>{body}</p>{link}</article>'
 
 
 for path in map(Path, sys.argv[1:]):
