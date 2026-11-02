@@ -24,24 +24,27 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     '<div class="grid three">' +
     card('Grand resort hotel · The flagship', 'The Carolina',
          'Pinehurst Resort’s landmark hotel, with wide verandas, formal dining and the spa next door. The best choice if golf on No. 2 is part of the plan. Ask what golf and spa access your package includes.',
-         'https://www.pinehurst.com/') +
+         'https://www.pinehurst.com/accommodations/the-carolina-hotel/') +
     card('In the village · The original', 'The Holly Inn',
          'The resort’s first hotel, in the middle of the Village of Pinehurst. Smaller and cozier than The Carolina, with shops and restaurants outside the door. Resort amenities are a short walk or shuttle away.',
          'https://www.pinehurst.com/') +
     card('Classic Donald Ross · Southern Pines', 'Mid Pines Inn & Golf Club',
-         'A 1920s inn beside a Donald Ross course from 1921, with a quieter, old-school feel. Pairs well with a Southern Pines dinner. Check room style and golf packages.') +
+         'A 1920s inn beside a Donald Ross course from 1921, with a quieter, old-school feel. Pairs well with a Southern Pines dinner. Check room style and golf packages.',
+         'https://midpinesinn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One relaxed lunch.',
     'Pinehurst and Southern Pines are small, so popular tables fill on golf weekends. Reserve dinners early.') +
     '<div class="grid three">' +
     card('Friday dinner · In the village', 'Villaggio Ristorante',
-         'An Italian restaurant and bar in the Magnolia Inn in the Village of Pinehurst. Consistently well reviewed for date nights, and walkable from The Holly Inn. Reserve ahead.') +
+         'An Italian restaurant and bar in the Magnolia Inn in the Village of Pinehurst. Consistently well reviewed for date nights, and walkable from The Holly Inn. Reserve ahead.',
+         'https://www.pinehurst.com/dining/villaggio/') +
     card('Saturday dinner · Southern Pines', 'Elliotts on Linden',
-         'A highly rated American restaurant in Southern Pines, known for polished service and seasonal cooking. Worth the short drive for your anchor dinner.') +
+         'A highly rated American restaurant in Southern Pines, known for polished service and seasonal cooking. Worth the short drive for your anchor dinner.',
+         'https://www.elliottsonlinden.com/') +
     card('Casual lunch · In the village', 'Pinehurst Brewing Co.',
          'Beer brewed on site and barbecue in the village’s restored 1895 steam plant. An easy lunch after golf or a morning walk. Check the beer garden’s seasonal hours.',
-         'https://www.pinehurst.com/dining/pinehurst-brewing-company') +
+         'https://www.pinehurstbrewing.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Golf & things to do', 'Play a legend. Or don’t.',
@@ -51,7 +54,8 @@ P.append('<section id="explore">' + head('04', 'Golf & things to do', 'Play a le
             'Donald Ross’s masterpiece and a regular U.S. Open venue. Tee times are essentially reserved for resort guests, so book it with your stay. Expect a premium green fee; ask about caddies, who make the round.',
             'https://www.pinehurst.com/', 'Pinehurst Resort golf') +
     explore(2, 'The Cradle & Thistle Dhu',
-            'The Cradle is a fun nine-hole short course, and Thistle Dhu is a large putting course: both perfect for a partner who does not play 18 holes. Book The Cradle through the resort’s Starting Tower (<a href="tel:+19102358960">910-235-8960</a>); confirm how far ahead you can book.') +
+            'The Cradle is a fun nine-hole short course, and Thistle Dhu is a large putting course: both perfect for a partner who does not play 18 holes. Book The Cradle through the resort’s Starting Tower (<a href="tel:+19102358960">910-235-8960</a>); confirm how far ahead you can book.',
+            'https://www.pinehurst.com/golf/courses/cradle-short-course/', 'The Cradle details') +
     explore(3, 'Village of Pinehurst',
             'A planned New England-style village from the 1890s, with tree-lined lanes, historic cottages and shops. Walk it in the morning, or ask the resort about a carriage ride.') +
     explore(4, 'Downtown Southern Pines',
@@ -64,7 +68,7 @@ P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & r
     '<p>Pinehurst Resort’s full-service spa, next to The Carolina, with couples massages and relaxation areas. A natural plan for the non-golfer while the other plays No. 2, or a shared treatment after golf.</p>'
     '<p><strong>Booking:</strong> Ask about couples treatments, spa access for non-resort guests, current pricing, gratuity and the cancellation policy. Weekend appointments fill early. No prices are shown here because they change, and no appointment has been booked.</p>'
     '<p>Optional Saturday morning during the golf round, or Sunday before flying home.</p>'
-    '<a href="https://www.pinehurst.com/" target="_blank" rel="noopener">Spa details at Pinehurst Resort</a></div></section>')
+    '<a href="https://www.pinehurst.com/spa/east-wing-treatments/" target="_blank" rel="noopener">Spa treatments at Pinehurst Resort</a></div></section>')
 
 P.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring home something with a story.',
     'Two compact, walkable areas: the Village of Pinehurst and downtown Southern Pines.') +
@@ -72,7 +76,8 @@ P.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring h
     card('Historic village', 'Village of Pinehurst shops',
          'Boutiques, gift shops and golf apparel in a few walkable blocks around the village green. An easy browse before lunch.') +
     card('Main street', 'Downtown Southern Pines',
-         'Independent clothing, home, book and gift shops along Broad Street. Pair it with Saturday dinner in town.') +
+         'Independent clothing, home, book and gift shops along Broad Street. Pair it with Saturday dinner in town.',
+         'https://southernpines.biz/members/3-shop') +
     card('For the golfer', 'Pinehurst Resort golf shops',
          'Logo shirts, caps and Putter Boy keepsakes from the Home of American Golf. Probably the most-requested souvenir of the weekend.') +
     '</div></section>')
@@ -83,7 +88,8 @@ P.append('<section id="wine">' + head('06', 'Wine & drinks', 'A glass, and no hu
     card('Overlooking No. 2', 'The Deuce',
          'The bar and restaurant in the resort clubhouse, looking out over the 18th green of No. 2. Ideal for a glass while golfers finish their rounds. Confirm hours.') +
     card('Dinner pairing', 'Elliotts on Linden',
-         'Let Saturday’s anchor dinner double as your wine stop, and ask the staff for a pairing.') +
+         'Let Saturday’s anchor dinner double as your wine stop, and ask the staff for a pairing.',
+         'https://www.elliottsonlinden.com/') +
     '</div></section>')
 
 P.append('<section id="breweries">' + head('07', 'Breweries & craft drinks', 'Make room for a local pour.',
@@ -91,11 +97,10 @@ P.append('<section id="breweries">' + head('07', 'Breweries & craft drinks', 'Ma
     '<div class="grid three">' +
     card('Village of Pinehurst', 'Pinehurst Brewing Co.',
          'In the historic steam plant, with barbecue alongside. The easiest choice if you are staying at the resort.',
-         'https://www.pinehurst.com/dining/pinehurst-brewing-company') +
-    card('Southern Pines · Veteran-founded', 'Southern Pines Brewing Co.',
-         'Founded by three former Green Berets from nearby Fort Bragg; known for its Duck Hook and Man of Law beers. Check taproom hours.') +
+         'https://www.pinehurstbrewing.com/') +
     card('Aberdeen · The original', 'Railhouse Brewery',
-         'The area’s first microbrewery, with a taproom pouring small-batch beers. A short drive from Pinehurst.') +
+         'The area’s first microbrewery, with a taproom pouring small-batch beers. A short drive from Pinehurst.',
+         'https://railhousebrewery.com/') +
     '</div></section>')
 
 P.append('<section id="events">' + head('08', 'Sports & what’s happening', 'Sometimes the event is the reason to fly.',

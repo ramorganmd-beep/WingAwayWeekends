@@ -30,10 +30,12 @@ LUXURY = {
          'A small, highly rated boutique hotel downtown with apartment-style suites.',
          'https://windsorasheville.com/')],
     'pinehurst': [
-        ('Upgrade · The Carolina', 'Carolina suites',
-         'The Carolina is already the area’s luxury standard. For a step up, ask about its suites, or a resort villa or cottage for more space.'),
+        ('Upgrade · Suites', 'The Carolina Hotel',
+         'The Carolina is already the area’s luxury standard. For a step up, ask about its suites, or a resort villa or cottage for more space.',
+         'https://www.pinehurst.com/accommodations/the-carolina-hotel/'),
         ('Nearby · Classic', 'Pine Needles Lodge',
-         'A long-running golf lodge on a Donald Ross course in Southern Pines. Not grand luxury, but warm, polished and golf-first.')],
+         'A long-running golf lodge on a Donald Ross course in Southern Pines. Not grand luxury, but warm, polished and golf-first.',
+         'https://pineneedleslodge.com/')],
     'beaufort': [
         ('Ultra-luxury · About 45 minutes', 'Montage Palmetto Bluff',
          'A destination resort on the May River near Bluffton, with a spa, golf and riverside cottages. A splurge worth the drive; plan a car.',
