@@ -35,7 +35,7 @@ ICON = ("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0
 
 parts = []
 parts.append(f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40"><meta name="description" content="A curated two-night Charleston getaway for GA pilots and their partners, from KMYR to KCHS. Hotels, dining, Patriots Point, the harbor and a flexible weekend itinerary."><title>Charleston Couples Getaway | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/charleston/"><link rel="icon" type="image/svg+xml" href="{ICON}"><link rel="stylesheet" href="../style.css"></head><body>
-<a class="skip" href="#main">Skip to destination</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-note">Destination prototype <span>02</span></span></header>
+<a class="skip" href="#main">Skip to destination</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-note">Destination guide <span>02</span></span></header>
 <main id="main"><div class="destination"><div class="intro"><span class="eyebrow">South Carolina · Couples · Two nights</span><h1>Charleston</h1><p class="lede">A short flight. A whole other pace.</p><p>Cobblestones, pastel row houses and some of the South’s best restaurants, with a harbor full of history and an aircraft carrier to explore. Stay on the peninsula and let the weekend unfold on foot.</p><div class="pills"><span>Historic streets</span><span>Dining</span><span>Harbor & aviation history</span></div><div class="hero-actions"><a class="button" href="#itinerary">See the weekend itinerary</a><a href="#flight" class="secondary">Flight & arrival details</a></div></div><figure><picture><source type="image/webp" srcset="../assets/destinations/charleston-480.webp 480w, ../assets/destinations/charleston-960.webp 960w" sizes="(max-width:800px) 100vw, 50vw"><img src="../assets/destinations/charleston-960.jpg" srcset="../assets/destinations/charleston-480.jpg 480w, ../assets/destinations/charleston-960.jpg 960w" sizes="(max-width:800px) 100vw, 50vw" alt="Pastel historic houses on Rainbow Row in Charleston" width="960" height="720"></picture><figcaption>Rainbow Row · An easy walk from the Battery</figcaption></figure></div>
 <div class="snapshot" aria-label="Trip snapshot"><div><span>YOUR ROUTE</span><strong>KMYR <span class="route-line">to</span> KCHS</strong></div><div><span>STRAIGHT-LINE DISTANCE</span><strong>~73 <small>NM</small></strong></div><div><span>ILLUSTRATIVE FLIGHT TIME</span><strong>~45 <small>min</small></strong></div><div><span>WEEKEND STYLE</span><strong>Two nights <small>· Uber + walks</small></strong></div></div><p class="estimate">Time illustration: direct distance at 150 KTAS plus 15 minutes for departure and arrival, matching the discovery page. Use ForeFlight for your actual flight plan.</p>
 <nav class="jump" aria-label="Destination sections"><a href="#flight">Fly & arrive</a><a href="#stay">Stay</a><a href="#eat">Eat</a><a href="#explore">Explore</a><a href="#spa">Spa</a><a href="#shopping">Shop</a><a href="#wine">Wine</a><a href="#breweries">Breweries</a><a href="#events">Sports & events</a><a href="#itinerary">Itinerary</a></nav>''')
@@ -169,7 +169,7 @@ parts.append('<section id="breweries">' + head('07', 'Breweries & craft drinks',
 
 # 08 Events
 parts.append('<section id="events">' + head('08', 'Sports & what’s happening', 'Sometimes the event is the reason to fly.',
-    'This prototype links to current schedules. It does not yet match games or events to your travel dates.') +
+    'Links go to current schedules. Check them against your travel dates before booking.') +
     '<div class="grid three">' +
     card('Minor league baseball · April–September', 'Charleston RiverDogs',
          'A relaxed evening at Joseph P. Riley Jr. Park (“The Joe”), on the Ashley River side of the peninsula. Check the home schedule before booking.',
@@ -211,10 +211,10 @@ parts.append('<section id="know">' + head('10', 'Good to know', 'Keep the weeken
     '<article><h3>Dates come next</h3><p>Hotel prices, tickets, hours and rideshare fares are date-dependent. No availability or live price is implied here.</p></article>'
     '</div></section>')
 
-parts.append('<div class="prototype-note"><span class="eyebrow">Testing / Destination 02</span><h3>Draft for review.</h3>'
-    '<p>Research-based selections, not personal-visit endorsements. Researched November 1, 2026. Several official links could not be opened during research; check each one, and confirm hours, prices and availability directly before booking.</p>'
+parts.append('<div class="prototype-note reviewed"><span class="eyebrow">Reviewed · Destination 02</span><h3>Reviewed November 2, 2026.</h3>'
+    '<p>Picks and links reviewed by WingAway Weekends. Hours, prices, menus and availability change often, so confirm directly with each place before booking.</p>'
     '<p class="note">WingAway Weekends helps you discover the destination. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div></main>'
-    '<footer><a class="brand" href="#main">WingAway Weekends</a><p>Charleston, South Carolina · Couples prototype</p><details><summary>Photo credit</summary>'
+    '<footer><a class="brand" href="#main">WingAway Weekends</a><p>Charleston, South Carolina · Couples guide</p><details><summary>Photo credit</summary>'
     '<p>Rainbow Row Charleston July 2024 by Thomson200, <a href="https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston_July_2024_1.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0</a>. Resized for display.</p></details></footer></body></html>')
 
 with open(OUT, 'w') as f:
