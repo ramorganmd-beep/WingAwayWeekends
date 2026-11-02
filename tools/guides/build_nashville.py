@@ -31,7 +31,8 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
          'One of Nashville’s oldest and most beautiful hotels, with a grand lobby and old-school service. Walkable to the Ryman and downtown.',
          'https://www.thehermitagehotel.com/') +
     card('Downtown · Spa', 'Omni Nashville',
-         'Connected to the Country Music Hall of Fame, with the Mokara Spa and its couples treatments. Easy for a music-and-spa weekend.') +
+         'Connected to the Country Music Hall of Fame, with the Mokara Spa and its couples treatments. Easy for a music-and-spa weekend.',
+         'https://www.omnihotels.com/hotels/nashville') +
     card('Quiet & walkable', 'Germantown Inn',
          'A small inn in Germantown, the city’s most walkable neighborhood for dinner and a slow evening, away from the Broadway crowds.') +
     '</div></section>')
