@@ -99,7 +99,7 @@ PLANS = {
                   ('Evening', 'A sunset river cruise, then dinner at Burlingame.')]},
     'yadkin-valley': {
         'day': [('Arrive', 'Land at KZEF mid-morning and pick up the courtesy car or a rental.'),
-                ('Midday', 'Lunch and a tasting for the non-pilot at Shelton Vineyards.'),
+                ('Midday', 'Lunch and a tasting for the non-pilot at Elkin Creek Vineyard.'),
                 ('Afternoon', 'A glass on the terrace at Raffaldini for the non-pilot, then back to the FBO before it closes.')],
         'extra': [('Morning', 'Hike to the overlooks at Pilot Mountain or Stone Mountain State Park.'),
                   ('Afternoon', 'Downtown Elkin, or a side trip to Mount Airy.'),

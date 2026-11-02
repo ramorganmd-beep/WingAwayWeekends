@@ -3,7 +3,7 @@
 Usage: python3 tools/guides/luxury.py docs/*/index.html
 
 Idempotent: removes a previously inserted row and re-adds it. Entries are
-(tag, name, description[, official URL]). Charleston's
+(tag, name, description[, URL[, link text]]). Charleston's
 row lives in build_charleston.py instead, so it is skipped here. Run after
 building a guide (with personalize.py and trip_plans.py).
 """
@@ -90,9 +90,11 @@ LUXURY = {
          'https://www.omnihotels.com/hotels/villas-amelia-island')],
     'yadkin-valley': [
         ('Winery cabins · Historic', 'Grassy Creek Klondike Cabins',
-         'Restored historic cabins at Grassy Creek Vineyard & Winery near Elkin, with the tasting room a short walk away.'),
+         'Restored historic cabins at Grassy Creek Vineyard & Winery near Elkin, with the tasting room a short walk away.',
+         'https://www.theklondikecabins.com/'),
         ('More space · Rental', 'Vineyard cottage rentals',
-         'The valley’s most indulgent stays are private cottages and farmhouses near the wineries. Look for one with a porch and a view of the vines.')],
+         'The valley’s most indulgent stays are private cottages and farmhouses near the wineries. Look for one with a porch and a view of the vines.',
+         'https://www.airbnb.com/rooms/872256673641256276', 'See an example rental')],
     'hunt-country': [
         ('Three Michelin stars · About 45 minutes', 'The Inn at Little Washington',
          'Opulent rooms above one of America’s great restaurants. Pair dinner and a night here for the ultimate splurge.'),
@@ -121,8 +123,8 @@ LUXURY = {
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)
 
 
-def card(tag, name, body, href=None):
-    link = (f'<a class="textlink" href="{href}" target="_blank" rel="noopener">Official details'
+def card(tag, name, body, href=None, link_text='Official details'):
+    link = (f'<a class="textlink" href="{href}" target="_blank" rel="noopener">{link_text}'
             f'<span class="sr"> for {name}</span></a>') if href else ''
     return f'<article class="card"><div class="tag">{tag}</div><h3>{name}</h3><p>{body}</p>{link}</article>'
 
