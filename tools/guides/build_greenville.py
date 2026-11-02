@@ -45,7 +45,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One lon
          'Handmade pasta and an oyster bar overlooking Main Street, recognized by Michelin. Lively and polished; ask for a window or balcony table.',
          'https://jiannagreenville.com/') +
     card('Saturday dinner · Michelin star', 'Scoundrel',
-         'Chef Joe Cash’s restaurant, awarded a Michelin star. The special-occasion dinner of the weekend. Book as early as reservations open.') +
+         'Chef Joe Cash’s restaurant, awarded a Michelin star. The special-occasion dinner of the weekend. Book as early as reservations open.',
+         'https://www.scoundrelgvl.com/') +
     card('Sunday brunch · Southern', 'Soby’s',
          'A downtown institution since 1997 for Southern cooking, with a wine list that won a Wine Spectator Grand Award in 2025. Confirm brunch hours.',
          'https://sobys.com/') +
@@ -65,7 +66,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'A waterfall down
     explore(3, 'Unity Park & The Commons',
             'A large riverside park on the trail, with a food hall nearby for a casual lunch.') +
     explore(4, 'Main Street',
-            'Tree-lined, walkable and full of patios, galleries and shops. Look for the small bronze mice hidden along the street.') +
+            'Tree-lined, walkable and full of patios, galleries and shops, from local boutiques to the classic Mast General Store. A free trolley runs the length of Main Street. Look for the small bronze mice hidden along the street. Use the visitor bureau’s interactive map to plan a shopping walk.',
+            'https://www.visitgreenvillesc.com/mapexplorer/', 'Downtown walking map') +
     explore(5, 'Blue Ridge day trip',
             'With a car, the mountains are under an hour away: waterfalls, overlooks and small towns. Save it for a longer stay.') +
     '</div></section>')
