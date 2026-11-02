@@ -21,6 +21,7 @@ TOWN = {
     'yadkin-valley': 'Elkin, NC', 'hunt-country': 'Middleburg, VA', 'dahlonega': 'Dahlonega, GA',
     'gulf-shores': 'Gulf Shores, AL', 'chattanooga': 'Chattanooga, TN', 'smoky-mountains': 'Gatlinburg, TN',
     'lake-lure': 'Lake Lure, NC', 'lake-keowee': 'Seneca, SC', 'lake-lanier': 'Gainesville, GA',
+    'harpers-ferry': 'Harpers Ferry, WV',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -49,6 +50,10 @@ QUERY = {
     'JOLO Winery & Vineyards': 'JOLO Winery & Vineyards, Pilot Mountain, NC',
     'Wisdom Table': 'Wisdom Table, 101 E Main St, Elkin, NC',
     'Spirits Tavern': 'Spirits Tavern, Dahlonega, GA',
+    'The Bavarian Inn': 'Bavarian Inn, Shepherdstown, WV',
+    'Redbook at Hillbrook Inn': 'Hillbrook Inn, Charles Town, WV',
+    'Hillbrook Inn': 'Hillbrook Inn, Charles Town, WV',
+    'Snallygasters Cafe & Wine Bar': 'Snallygasters, Harpers Ferry, WV',
     'Grassy Creek Klondike Cabins': 'Grassy Creek Vineyard & Winery, State Road, NC',
     'The Inn at Little Washington': 'The Inn at Little Washington, Washington, VA',
     'Salamander suites': 'Salamander Middleburg, VA',

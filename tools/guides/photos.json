@@ -138,5 +138,18 @@
     "caption": "Lake Lanier (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
     "placeholder": true
+  },
+  "harpers-ferry": {
+    "slug": "harpers-ferry-rivers",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of rivers meeting below wooded ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Where the Potomac and Shenandoah meet (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
   }
 }
