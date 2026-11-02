@@ -21,56 +21,68 @@ P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
     fbo('Signature Aviation', '100 Aviation Drive, Suite 100, Charlottesville, VA 22911', '434-978-1474', 'https://www.signatureaviation.com/locations/CHO') +
     '<p class="note">Signature is the FBO. The number shown is its listed FBO line; the airport’s general number is 434-973-8342. Ask about 100LL pricing, facility fees, two-night parking, waivers with fuel and after-hours access. No live price is shown.</p></div>'
-    '<aside><span class="eyebrow">Getting around</span><h3>A car is essential.</h3><p>Wineries, Monticello and the estate hotels are spread across the countryside. Arrange a rental car before you fly.</p><p>Plan a designated driver, or book a winery tour with a driver for tasting days.</p></aside></div></section>')
+    '<aside><span class="eyebrow">Getting around</span><h3>A car is essential.</h3><p>Wineries, Monticello and the estate hotels are spread across the countryside. Arrange a rental car before you fly.</p><p>For tasting days, book a designated driver: <a href="https://blueridgedrivers.com/" target="_blank" rel="noopener">Blue Ridge Drivers</a> runs local wine, beer and cider tours.</p></aside></div></section>')
 
 P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind of weekend.',
     'Three different stays: a country estate, a resort with a spa and an inn near the university.') +
     '<div class="grid three">' +
     card('Country estate · Splurge', 'Keswick Hall',
-         'A luxury estate hotel in the countryside east of town, with fine dining, a bar, golf and grounds made for a romantic stroll.') +
+         'A luxury estate hotel in the countryside east of town, with fine dining, a bar, golf and grounds made for a romantic stroll.',
+         'https://www.keswick.com/') +
     card('Resort · Spa & golf', 'Boar’s Head Resort',
-         'A resort near the university with a spa, golf course and several restaurants. Easy for a spa-and-wine weekend.') +
+         'A resort near the university with a spa, golf course and several restaurants. Easy for a spa-and-wine weekend.',
+         'https://www.boarsheadresort.com/') +
     card('Boutique inn · Near UVA', 'Oakhurst Inn',
-         'A well-reviewed boutique inn near the university and the Rotunda, close to restaurants. Choose it if you want to be in town.') +
+         'A well-reviewed boutique inn near the university and the Rotunda, close to restaurants. Choose it if you want to be in town.',
+         'https://www.oakhurstinn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long winery lunch.',
     'Charlottesville’s best tables fill quickly on weekends. Reserve dinners ahead.') +
     '<div class="grid three">' +
     card('Friday dinner · Speakeasy feel', 'The Alley Light',
-         'A small, atmospheric restaurant and bar on Second Street off the Downtown Mall. An easy, romantic first night.') +
+         'A small, atmospheric restaurant and bar on Second Street off the Downtown Mall. An easy, romantic first night.',
+         'https://alleylight.com/') +
     card('Saturday dinner · Date night', 'Oakhart Social',
-         'A popular date-night spot that fills up fast. Reserve well ahead.') +
+         'A popular date-night spot that fills up fast. Reserve well ahead.',
+         'https://www.oakhartsocial.com/dinner-menu') +
     card('Lunch · Classic', 'C&O Restaurant',
-         'A warm, intimate long-time favorite near the Downtown Mall with a varied menu. Or have lunch at a winery.') +
+         'A warm, intimate long-time favorite near the Downtown Mall with a varied menu. Or have lunch at a winery.',
+         'https://www.candorestaurant.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'History, mountains and the Mall.',
     'Mix one history stop with wine and a country drive.') +
     '<div class="explore-list">' +
     explore(1, 'Monticello',
-            'Thomas Jefferson’s mountaintop home and gardens, just outside town. Book timed tickets ahead and allow at least half a day.') +
+            'Thomas Jefferson’s mountaintop home and gardens, just outside town. Book timed tickets ahead and allow at least half a day.',
+            'https://www.monticello.org/visit/tickets-tours', 'Tickets & tours') +
     explore(2, 'University of Virginia',
             'Jefferson’s Academical Village and the Rotunda, a UNESCO World Heritage Site with Monticello. Lovely for a walk.') +
     explore(3, 'The Downtown Mall',
-            'A tree-lined brick pedestrian street with shops, galleries, cafés and outdoor tables. The heart of the evening.') +
+            'A tree-lined brick pedestrian street with shops, galleries, cafés and outdoor tables. The heart of the evening.',
+            'https://www.visitcharlottesville.org/directory/charlottesville-historic-downtown-mall/', 'Downtown Mall guide') +
     explore(4, 'Blue Ridge drive',
             'Skyline Drive and the Blue Ridge Parkway meet about 30 minutes west, with overlooks and fall color. Check road status.') +
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>A resort spa · Time for two</h3>'
     '<p>Boar’s Head Resort and Keswick Hall both have spas. A couples treatment pairs well with an afternoon of tastings.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.boarsheadresort.com/spa" target="_blank" rel="noopener">Boar’s Head spa</a> · <a href="https://www.keswick.com/spa/" target="_blank" rel="noopener">Keswick Hall spa</a></div></section>')
 
 P.append('<section id="wine">' + head('05', 'Wine', 'Taste your way through the countryside.',
-    'The Monticello Wine Trail has dozens of wineries. Pick two or three a day and leave room for a long lunch.') +
+    'Charlottesville’s wine country has dozens of wineries. Pick two or three a day and leave room for a long lunch.') +
     '<div class="grid three">' +
     card('Historic estate', 'Barboursville Vineyards',
-         'One of Virginia’s most historic wineries, with the ruins of a Jefferson-designed mansion on the grounds and a restaurant. About 40 minutes northeast.') +
+         'One of Virginia’s most historic wineries, with the ruins of a Jefferson-designed mansion on the grounds and a restaurant. About 40 minutes northeast.',
+         'https://www.bbvwine.com/') +
     card('Mountain views', 'King Family Vineyards',
-         'A popular Crozet winery with Blue Ridge views, known for polo on summer Sundays. Check tasting reservations and the polo schedule.') +
-    card('Plan a route', 'Monticello Wine Trail',
-         'Many wineries cluster around Charlottesville. Use the trail map to plan a short route and book tastings ahead on weekends.') +
+         'A popular Crozet winery with Blue Ridge views, known for polo on summer Sundays. Check tasting reservations and the polo schedule.',
+         'https://kingfamilyvineyards.com/') +
+    card('Sparkling wine · Hilltop views', 'Trump Winery',
+         'A large estate just south of Monticello, best known for its sparkling wines, with a hilltop tasting room and wide views of the Blue Ridge foothills. Check tasting reservations on weekends.',
+         'https://trumpwinery.com/') +
     '</div></section>')
 
 P.append('<section id="events">' + head('06', 'What’s happening', 'Sometimes the event is the reason to fly.',

@@ -50,9 +50,10 @@ LUXURY = {
          'A small, European-style luxury hotel in the foothills near Travelers Rest, about 30 minutes from downtown, with mountain views and a quiet setting. Pair it with a ride on the Swamp Rabbit Trail.')],
     'charlottesville': [
         ('Manor house · 100 acres', 'The Clifton',
-         'A romantic historic manor on about 100 acres outside town, with fine dining and a quiet country setting.'),
-        ('Downtown · Art hotel', 'Quirk Hotel',
-         'A boutique art hotel near the Downtown Mall, with a gallery and rooftop bar. Choose it to be in town for dinner.')],
+         'A romantic historic manor on about 100 acres outside town, with fine dining and a quiet country setting.',
+         'https://www.the-clifton.com/'),
+        ('Near UVA · Kimpton', 'Kimpton The Forum Hotel',
+         'A polished, newer boutique hotel beside the University of Virginia, with a restaurant and bar. Choose it to stay in town, close to dinner.')],
     'nashville': [
         ('Riverfront · Five-star', 'Four Seasons Hotel Nashville',
          'A tower on the Cumberland River downtown with skyline views, a spa and polished service.',
