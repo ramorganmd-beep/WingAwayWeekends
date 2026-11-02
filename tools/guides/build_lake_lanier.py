@@ -30,9 +30,11 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A lake resort, or a lake house of your own. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Lake resort · Lanier Islands', 'Lanier Islands Legacy Lodge',
-         'A lodge on the islands at the south end of the lake, with lake views, a pool, golf, a spa and Sidney’s restaurant. The easy, all-in-one choice.') +
+         'A lodge on the islands at the south end of the lake, with lake views, a pool, golf, a spa and Sidney’s restaurant. The easy, all-in-one choice.',
+         'https://www.lanierislands.com/lake_lanier_accommodations/legacy-lodge/') +
     card('Private · Lakefront', 'Lake Lanier vacation rentals',
-         'A lake house with a private dock, closer to Gainesville. Book early for summer weekends, and ask about the dock and boat rules.') +
+         'A lake house with a private dock, closer to Gainesville. Book early for summer weekends, and ask about the dock and boat rules.',
+         'https://www.lanierislands.com/lake_lanier_accommodations/georgia_lake_houses/', 'Lanier Islands lake houses') +
     card('In the hills · Wine country', 'Dahlonega, 30 minutes north',
          'Combine the lake with wine country: stay on Dahlonega’s square and drive down for a day on the water. See our Dahlonega guide.',
          '../dahlonega/', 'Dahlonega guide') +
@@ -42,18 +44,22 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Downtown dinners, la
     'Downtown Gainesville has the best restaurants; the resort has the views. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · Downtown', 'Luna’s Restaurant',
-         'A special-occasion favorite on Gainesville’s square, with a piano lounge for a drink and live music before dinner.') +
+         'A special-occasion favorite on Gainesville’s square, with a piano lounge for a drink and live music before dinner.',
+         'https://www.lunas.com/') +
     card('Saturday dinner · Steakhouse', 'CHR Steak',
-         'An upscale, modern steakhouse downtown, led by its chef-owner. The dressed-up night.') +
+         'An upscale, modern steakhouse downtown, led by its chef-owner. The dressed-up night.',
+         'https://www.chrsteak.com/') +
     card('Lunch · Lake views', 'Sidney’s at Legacy Lodge',
-         'Seasonal cooking with a view over the lake at Lanier Islands. For Italian downtown instead, try Cotto Modern Italian.') +
+         'Seasonal cooking with a view over the lake at Lanier Islands. For Italian downtown instead, try Cotto Modern Italian.',
+         'https://www.lanierislands.com/lake_lanier_restaurants/sidneys/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Mostly, the water.',
     'Spend one day on the lake and one exploring.') +
     '<div class="explore-list">' +
     explore(1, 'A day on a pontoon',
-            'Rent a pontoon and find a quiet cove for a swim and a picnic. Hundreds of miles of wooded shoreline make it easy to escape the crowds.') +
+            'Rent a pontoon and find a quiet cove for a swim and a picnic. Hundreds of miles of wooded shoreline make it easy to escape the crowds. Lanier Luxury Boat Rentals is one well-reviewed option.',
+            'https://lanierluxuryboatrentals.com/', 'Lanier Luxury Boat Rentals') +
     explore(2, 'Lanier Islands',
             'The resort islands at the lake’s south end have a beach, golf, a spa and boat rentals. Easy for an afternoon even if you stay elsewhere.') +
     explore(3, 'Lake Lanier Olympic Park',
@@ -71,7 +77,8 @@ P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes t
     card('May–September', 'Lake season',
          'Warm water and long days on the lake. Summer weekends are very busy; go early or choose a weekday.') +
     card('November–January', 'Magical Nights of Lights',
-         'Lanier Islands’ drive-through holiday light show, a long-running North Georgia tradition. Check dates and tickets.') +
+         'Lanier Islands’ drive-through holiday light show, a long-running North Georgia tradition. Check dates and tickets.',
+         'https://www.lanierislands.com/holiday-events/magical-nights-of-lights/') +
     card('Spring & fall', 'Best seasons',
          'Mild weather and a quieter lake. Fall color peaks in late October.') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the lake visitor site when choosing a weekend, and confirm dates and tickets with the organizer.</p></div>'
