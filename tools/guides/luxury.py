@@ -83,9 +83,11 @@ LUXURY = {
          'https://www.thesanderling.com/')],
     'amelia-island': [
         ('Upgrade · Oceanfront', 'Club level at The Ritz-Carlton',
-         'The Ritz-Carlton’s club level adds a private lounge with food and drinks throughout the day, on top of the oceanfront setting and spa.'),
+         'The Ritz-Carlton’s club level adds a private lounge with food and drinks throughout the day, on top of the oceanfront setting and spa.',
+         'https://www.ritzcarlton.com/en/about-the-ritz-carlton/experience/club-level/'),
         ('More space · Resort villas', 'Omni oceanfront villas',
-         'Omni Amelia Island’s villas and suites give you room to spread out, with the resort’s spa, golf and restaurants close by.')],
+         'Omni Amelia Island’s villas and suites give you room to spread out, with the resort’s spa, golf and restaurants close by.',
+         'https://www.omnihotels.com/hotels/villas-amelia-island')],
     'yadkin-valley': [
         ('Winery cabins · Historic', 'Grassy Creek Klondike Cabins',
          'Restored historic cabins at Grassy Creek Vineyard & Winery near Elkin, with the tasting room a short walk away.'),
