@@ -31,22 +31,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Stay in Manteo for an easy small-town base close to the airport, or in Duck for a resort on the sound.') +
     '<div class="grid three">' +
     card('Manteo · Romantic inn', 'The White Doe Inn',
-         'A Victorian bed and breakfast in the middle of Manteo, walkable to the waterfront and restaurants. The classic romantic choice.') +
+         'A Victorian bed and breakfast in the middle of Manteo, walkable to the waterfront and restaurants. The classic romantic choice.',
+         'https://www.whitedoeinn.com/') +
     card('Manteo · On the water', 'Tranquil House Inn',
-         'A waterfront inn on Shallowbag Bay with its own restaurant, 1587. Minutes from the airport.') +
+         'A waterfront inn on Shallowbag Bay with its own restaurant, 1587. Minutes from the airport.',
+         'https://www.tranquilhouseinn.com/') +
     card('Duck · Resort & spa', 'The Sanderling Resort',
-         'A soundfront resort in Duck with a spa, beach access and sunset views. Choose it for a more indulgent weekend; about 35 minutes from the airport.') +
+         'A soundfront resort in Duck with a spa, beach access and sunset views. Choose it for a more indulgent weekend; about 35 minutes from the airport.',
+         'https://www.thesanderling.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One relaxed lunch.',
     'Seafood is the point. Reserve weekend dinners, especially in summer.') +
     '<div class="grid three">' +
     card('Friday dinner · Manteo', '1587 Restaurant & Lounge',
-         'Fresh seafood, cocktails and an intimate room at the Tranquil House Inn, overlooking the water. An easy first night close to the airport.') +
+         'Fresh seafood, cocktails and an intimate room at the Tranquil House Inn, overlooking the water. An easy first night close to the airport.',
+         'https://www.tranquilhouseinn.com/food-drink-1587-lounge') +
     card('Saturday dinner · Duck', 'Blue Point',
-         'One of the Outer Banks’ best-known upscale restaurants, on the sound in Duck. Time it for sunset.') +
+         'One of the Outer Banks’ best-known upscale restaurants, on the sound in Duck. Time it for sunset.',
+         'https://www.thebluepoint.com/') +
     card('Lunch · Manteo waterfront', 'Salt & Cypress Kitchen',
-         'A newer waterfront restaurant in Manteo. For an Outer Banks classic instead, try Owens’ Restaurant in Nags Head.') +
+         'A newer waterfront restaurant in Manteo. For an Outer Banks classic instead, try Owens’ Restaurant in Nags Head.',
+         'https://www.saltandcypressobx.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Stand where it happened.',
@@ -67,7 +73,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Stand where it h
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The spa at The Sanderling · Time for two</h3>'
     '<p>The Sanderling Resort in Duck has a full-service spa. A couples treatment pairs well with dinner at Blue Point nearby.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-resort guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.thesanderling.com/spa/" target="_blank" rel="noopener">Spa details</a></div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the date is the reason to fly.',
     'This prototype links to the destination calendar. It does not yet match events to your travel dates.') +

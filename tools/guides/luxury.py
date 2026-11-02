@@ -79,7 +79,8 @@ LUXURY = {
         ('Oceanfront · Rent a house', 'Luxury beach homes',
          'The Outer Banks’ real luxury is a private oceanfront house in Duck, Corolla or Nags Head, often with a pool and hot tub. Book through a local rental agency; many require week-long stays in summer, with shorter stays off-season.'),
         ('Upgrade · Duck', 'Sanderling soundfront suites',
-         'The Sanderling is already the area’s top resort. For a step up, ask about its soundfront suites and spa packages.')],
+         'The Sanderling is already the area’s top resort. For a step up, ask about its soundfront suites and spa packages.',
+         'https://www.thesanderling.com/')],
     'amelia-island': [
         ('Upgrade · Oceanfront', 'Club level at The Ritz-Carlton',
          'The Ritz-Carlton’s club level adds a private lounge with food and drinks throughout the day, on top of the oceanfront setting and spa.'),
