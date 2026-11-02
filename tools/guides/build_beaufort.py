@@ -42,11 +42,14 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One eas
     'A small town with a strong seafood scene. Reserve the anchor dinners, especially in spring and fall.') +
     '<div class="grid three">' +
     card('Friday dinner · On the water', 'Saltus River Grill',
-         'Beaufort’s best-known restaurant: contemporary seafood with views of the river and the swing bridge. Ask for a table near the windows or on the terrace at sunset.') +
+         'Beaufort’s best-known restaurant: contemporary seafood with views of the river and the swing bridge. Ask for a table near the windows or on the terrace at sunset.',
+         'https://saltusrivergrill.com/') +
     card('Saturday dinner · European-Lowcountry', 'Ribaut Social Club',
-         'The restaurant at Anchorage 1770, with a European sensibility and a Lowcountry table. Quieter and more intimate than Friday. Reserve ahead.') +
+         'The restaurant at Anchorage 1770, with a European sensibility and a Lowcountry table. Quieter and more intimate than Friday. Reserve ahead.',
+         'https://anchorage1770.com/rsc/') +
     card('Lunch · Bay Street', 'Plums',
-         'A casual, long-running Bay Street spot backing onto the waterfront park. Easy for lunch between walks. For a dressier alternative, try Wren Bistro & Bar.') +
+         'A casual, long-running Bay Street spot backing onto the waterfront park. Easy for lunch between walks. For a dressier alternative, try Wren Bistro & Bar.',
+         'https://plumsrestaurant.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Under the oaks. Out on the marsh.',
