@@ -64,7 +64,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
          'https://www.thevendue.com/') +
     '</div><h3 class="subhead">Luxury alternatives</h3><div class="grid three">' +
     card('Grand hotel · Spa', 'The Charleston Place',
-         'The city’s landmark luxury hotel on Meeting Street, steps from King Street and the City Market, with the full-service spa featured below. Ideal if you want the spa on site.') +
+         'The city’s landmark luxury hotel on Meeting Street, steps from King Street and the City Market, with the full-service spa featured below. Ideal if you want the spa on site.',
+         'https://www.charlestonplace.com/') +
     card('Marion Square · Rooftop', 'Hotel Bennett',
          'A polished luxury hotel overlooking Marion Square on upper King Street, with a rooftop bar, a spa and an elegant champagne bar. Great for a King Street shopping weekend.') +
     card('Harborfront · New in 2026', 'The Cooper',
@@ -77,7 +78,7 @@ parts.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners, a h
     '<div class="grid four">' +
     card('Friday dinner · Reserve ahead', 'FIG',
          'A long-running Charleston favorite for seasonal, ingredient-driven cooking, on Meeting Street. Make it your anchor reservation and keep the first afternoon flexible in case the flight runs late.',
-         'https://www.figcharleston.com/') +
+         'https://www.eatatfig.com/') +
     card('Afternoon happy hour · Oysters', 'Rappahannock Oyster Bar',
          'From the Virginia family that farms Rappahannock River oysters: a lively raw bar at 701 East Bay Street, open daily from 11 AM. Perfect for oysters and a drink before the sunset sail. Check current happy-hour times; call <a href="tel:+18435764693">843-576-4693</a>.',
          'https://www.rroysters.com/restaurants/rappoysterbarchs') +
@@ -104,7 +105,8 @@ parts.append('<section id="explore">' + head('04', 'Things to do', 'Walk the old
             'Where the Civil War began, reached only by the park’s official ferry, Fort Sumter Tours. Boats leave from Liberty Square downtown and from Patriots Point; the round trip takes about 2¼ hours, including roughly an hour at the fort. Leaving from Patriots Point pairs naturally with the Yorktown. Weather and tides can affect departures.',
             'https://www.nps.gov/fosu/faqs.htm', 'National Park Service visitor FAQ') +
     explore(5, 'A foodie walking tour',
-            'About two and a half hours of tastings and stories with a local guide, a great first-day introduction to the city’s food. Bulldog Tours’ Savor the Flavors (starting near the City Market) and Charleston Culinary Tours’ downtown walk are two well-reviewed options. Book ahead and check current prices and times.') +
+            'About two and a half hours of tastings and stories with a local guide, a great first-day introduction to the city’s food. Our pick is Bulldog Tours, a long-running, well-reviewed Charleston company whose food tour covers grits, she-crab soup and barbecue. Book ahead and check current prices and times.',
+            'https://bulldogtours.com/tours/food', 'Bulldog Tours food walking tour') +
     explore(6, 'Evening carriage ride',
             'Clip-clop through the old walled city as the gas lamps come on. Palmetto Carriage Works and Old South Carriage Co. both run early-evening tours (listed around 5:30–8 PM), including private rides for two and a haunted-history option. Evening tours often sell out, so book ahead; carriages pause in extreme heat.',
             'https://palmettocarriage.com/', 'Palmetto Carriage Works') +
@@ -119,9 +121,9 @@ parts.append('<section id="explore">' + head('04', 'Things to do', 'Walk the old
 
 parts.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The Spa at The Charleston Place · Time for two</h3>'
     '<p>A full-service hotel spa at 205 Meeting Street, in the middle of the historic district, with couples treatment rooms and a relaxation lounge. Treatments are open to visitors as well as hotel guests.</p>'
-    '<p><strong>Booking:</strong> Call <a href="tel:+18439378522">843-937-8522</a> to ask about couples massages, current pricing, gratuity, cancellation policy and Saturday availability. No prices are shown here because they change; no appointment has been booked.</p>'
+    '<p><strong>Booking:</strong> Call <a href="tel:+18437514019">843-751-4019</a> to ask about couples massages, current pricing, gratuity, cancellation policy and Saturday availability. No prices are shown here because they change; no appointment has been booked.</p>'
     '<p>Optional Saturday afternoon, between Patriots Point and dinner, if timing allows.</p>'
-    '<a href="https://www.belmond.com/hotels/north-america/usa/sc/charleston/belmond-charleston-place/spa" target="_blank" rel="noopener">Spa details</a></div></section>')
+    '<a href="https://www.charlestonplace.com/spa-wellness" target="_blank" rel="noopener">Spa details</a></div></section>')
 
 # 05 Shopping
 parts.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring home something with a story.',
@@ -142,7 +144,7 @@ parts.append('<section id="wine">' + head('06', 'Wine & wine experiences', 'A gl
     '<div class="grid three">' +
     card('Upper King · Wine shop & bar', 'Graft Wine Shop',
          'A wine shop and bar at 700B King Street, with a relaxed, music-forward feel. Good for a glass on a King Street shopping afternoon.',
-         'https://www.graftchs.com/') +
+         'https://www.google.com/maps/search/?api=1&query=Graft%20Wine%20Shop%2C%20700%20King%20St%2C%20Charleston%2C%20SC', 'Website & map') +
     card('Westside · Neighborhood wine bar', 'Bar Rollins',
          'A self-described “wine dive bar” at 194 Jackson Street, with listed hours of 4–10 PM Thursday through Monday. Confirm before going.') +
     card('French Quarter · Rooftop', 'The Rooftop at The Vendue',
@@ -158,7 +160,8 @@ parts.append('<section id="breweries">' + head('07', 'Breweries & craft drinks',
          'Brewery and restaurant at 1081 Morrison Drive, with a separate taproom on upper King Street. The best choice if you want food with your beer.',
          'https://www.edmundsoast.com/') +
     card('Brewery district · Rooftop', 'Revelry Brewing Co.',
-         'A casual brewery at 10 Conroy Street, known for its rooftop. Check taproom hours and any event closures.') +
+         'A casual brewery at 10 Conroy Street, known for its rooftop with sunset views of the skyline and the Ravenel Bridge. Check taproom hours and any event closures.',
+         'https://www.google.com/maps/search/?api=1&query=Revelry%20Brewing%20Co%2C%2010%20Conroy%20St%2C%20Charleston%2C%20SC', 'Website & map') +
     '</div></section>')
 
 # 08 Events
@@ -169,9 +172,11 @@ parts.append('<section id="events">' + head('08', 'Sports & what’s happening',
          'A relaxed evening at Joseph P. Riley Jr. Park (“The Joe”), on the Ashley River side of the peninsula. Check the home schedule before booking.',
          'https://www.milb.com/charleston/schedule', 'Schedule & ticket information') +
     card('Pro hockey · Fall–spring', 'South Carolina Stingrays',
-         'ECHL hockey at the North Charleston Coliseum, closer to the airport than to downtown. Check the team’s home schedule for your dates.') +
-    card('Pro soccer · Patriots Point', 'Charleston Battery',
-         'USL Championship soccer at Patriots Point in Mount Pleasant; pairs with a Yorktown visit on a match day. Check the current season schedule.') +
+         'ECHL hockey at the North Charleston Coliseum, closer to the airport than to downtown. Check the team’s home schedule for your dates.',
+         'https://www.stingrayshockey.com/', 'Schedule & tickets') +
+    card('Pro soccer · Spring–fall · Mount Pleasant', 'Charleston Battery soccer',
+         'Not the waterfront park: the Charleston Battery is the city’s professional soccer team (USL Championship), playing at Patriots Point Soccer Complex in Mount Pleasant. A match pairs well with a Yorktown visit on the same side of the harbor.',
+         'https://www.charlestonbattery.com/', 'Schedule & tickets') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the destination calendar when choosing a weekend; spring festival season and holiday weekends fill hotels quickly.</p></div>'
     '<a class="button" href="https://www.charlestoncvb.com/" target="_blank" rel="noopener">Browse Charleston events</a></div></section>')
 
