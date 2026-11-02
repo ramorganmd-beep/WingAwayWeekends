@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land a few minutes from the sand.',
     'KJKA, Jack Edwards National in Gulf Shores, sits just north of the beach and Gulf State Park.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Gulf Air Center', 'Jack Edwards National · 100LL and Jet A', '251-968-5200') +
+    fbo('Gulf Air Center', '3190 Airport Drive, Gulf Shores, AL 36542', '251-968-5200') +
     '<p class="note">Gulf Air Center lists crew cars and rental cars; pilots also report rental delivery to the FBO from local agencies. Ask about two-night parking, fees and after-hours fuel. No live fuel price is shown.</p>'
     '<p class="note">Busy military training airspace surrounds the Pensacola and Mobile areas, and NAS Pensacola is close by. Review the sectional, restricted areas and current NOTAMs, and expect summer thunderstorms most afternoons.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>You’ll want a car.</h3><p>Gulf Shores and Orange Beach stretch along about 30 miles of coast. Use a crew car for short trips or rent a car for the weekend. Pensacola’s aviation museum is about an hour east.</p></aside></div></section>')

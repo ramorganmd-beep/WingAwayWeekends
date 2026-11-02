@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land in the foothills, drive up the gorge.',
     'KFQD, Rutherford County Airport (Marchman Field), is about 25–30 minutes from Lake Lure by car.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Rutherford County Airport', 'Marchman Field · Full-service fuel', '828-287-0800') +
+    fbo('Rutherford County Airport', '110 Marchman Field Drive, Rutherfordton, NC 28139', '828-287-0800') +
     '<p class="note">The county lists full-service fuel and a courtesy car during regular hours (about 9–6 daily); directories also list 828-755-7261 for the FBO. The courtesy car suits a short trip; for a two-night stay, arrange a rental car ahead. Ask about parking and fees. No live fuel price is shown.</p>'
     '<p class="note">The Blue Ridge escarpment rises sharply to the west. Review terrain, the sectional and current NOTAMs, and watch for mountain weather and low clouds in the gorge.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>You’ll want a car.</h3><p>The airport, the lake and Chimney Rock are spread along US 64 and 74A. Some roads and businesses in the gorge are still being repaired; check current conditions before you drive.</p></aside></div></section>')

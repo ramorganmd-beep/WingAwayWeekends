@@ -19,8 +19,8 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then head for the vineyards.',
     'KCHO, Charlottesville-Albemarle Airport, is a towered field about 15 minutes north of town.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Signature Aviation', 'Charlottesville-Albemarle Airport', None, 'https://www.signatureaviation.com/locations/CHO') +
-    '<p class="note">Signature is the FBO; directory listings give different phone numbers, so use its own page. Ask about 100LL pricing, facility fees, two-night parking, waivers with fuel and after-hours access. No live price is shown.</p></div>'
+    fbo('Signature Aviation', '100 Aviation Drive, Suite 100, Charlottesville, VA 22911', '434-978-1474', 'https://www.signatureaviation.com/locations/CHO') +
+    '<p class="note">Signature is the FBO. The number shown is its listed FBO line; the airport’s general number is 434-973-8342. Ask about 100LL pricing, facility fees, two-night parking, waivers with fuel and after-hours access. No live price is shown.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>A car is essential.</h3><p>Wineries, Monticello and the estate hotels are spread across the countryside. Arrange a rental car before you fly.</p><p>Plan a designated driver, or book a winery tour with a driver for tasting days.</p></aside></div></section>')
 
 P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind of weekend.',

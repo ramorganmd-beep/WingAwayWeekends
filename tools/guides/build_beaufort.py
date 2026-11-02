@@ -20,7 +20,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land, then cross the river.',
     'KARW, Beaufort Executive Airport (formerly Beaufort County Airport), is on Lady’s Island, a few minutes across the bridge from downtown.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The airport FBO</h3>' +
-    fbo('Beaufort Executive Airport', 'Lady’s Island · Phillips 66 fuel', '843-255-2972', 'https://www.beaufortcountyairport.com/') +
+    fbo('Beaufort Executive Airport', '39 Airport Circle, Beaufort, SC 29907', '843-255-2972', 'https://www.beaufortcountyairport.com/') +
     '<p class="note">The airport runs its own FBO, with 100LL, transient parking, a courtesy car and rental cars listed. Listed hours are roughly 8 AM–5:30 PM weekdays and 9 AM–4 PM Saturday, so call about Sunday departures and after-hours access. Ask about the nightly transient fee and any waiver with fuel. No live fuel price is shown.</p>'
     '<p class="note">Marine Corps Air Station Beaufort is nearby. Review the sectional, restricted areas and current NOTAMs, and expect military traffic. Check runway length and obstacles in the Chart Supplement.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Short hops, then on foot.</h3><p>Downtown is about 10 minutes from the field. Ask about the courtesy car for short trips, or arrange a rental car if you plan to visit Hunting Island or the Penn Center.</p><p>The historic district and waterfront are best explored on foot.</p></aside></div></section>')

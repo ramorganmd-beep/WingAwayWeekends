@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land just outside town.',
     'KZEF, Elkin Municipal, is a non-towered field beside the Yadkin River, a few minutes from downtown Elkin.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Yadkin Valley Aviation', 'Elkin Municipal · Self-serve 100LL and Jet A', '336-366-3433') +
+    fbo('Yadkin Valley Aviation', '1598 C.C. Camp Road, Elkin, NC 28621', '336-366-3433') +
     '<p class="note">Yadkin Valley Aviation lists self-serve 100LL and Jet A and a courtesy car, with staff on site during the day (about 8–5). Pilots report a small tie-down fee and an after-hours call-out fee. A rental car can be arranged with notice; call ahead. CTAF 123.05. No live fuel price is shown.</p>'
     '<p class="note">Pilot Mountain and the Blue Ridge rise to the north and west. Review terrain, the sectional and current NOTAMs, and watch for afternoon mountain weather in summer.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Let someone else drive the wine roads.</h3><p>Wineries are spread out, 10–30 minutes apart. Use a car for town and dinner, and book the Elkin Vine Line wine shuttle (Friday–Sunday from the downtown visitor center) or a private driver for the tasting day.</p></aside></div></section>')

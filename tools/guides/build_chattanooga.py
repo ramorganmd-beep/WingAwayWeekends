@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land about 15 minutes from downtown.',
     'KCHA, Chattanooga Metropolitan (Lovell Field), is a towered airport east of downtown with one full-service FBO.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Wilson Air Center', 'Chattanooga Metropolitan · Full-service fuel', '423-855-2299') +
+    fbo('Wilson Air Center', '932 Jubilee Drive, Chattanooga, TN 37421', '423-855-2299') +
     '<p class="note">Directories list a courtesy car or shuttle van and rental cars at Wilson Air Center. Arrange ground transport ahead; there is no rideshare pickup on the general aviation ramp. Ask about two-night parking and fees. No live fuel price is shown.</p>'
     '<p class="note">KCHA sits in Class C airspace among ridges, with Lookout Mountain and Signal Mountain nearby. Review terrain, the sectional and current NOTAMs.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Walk the riverfront.</h3><p>Downtown, the North Shore and the Southside are walkable, and a free electric shuttle runs through downtown. Rent a car, or use a taxi, for Lookout Mountain.</p></aside></div></section>')

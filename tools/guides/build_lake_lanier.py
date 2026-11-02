@@ -21,7 +21,7 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land beside the lake.',
     'KGVL, Lee Gilmer Memorial in Gainesville, sits near the lake’s north end, minutes from downtown Gainesville and about 30 minutes from Lanier Islands.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('Champion Aviation Services', 'Lee Gilmer Memorial · Phillips 66', '770-532-4136') +
+    fbo('Champion Aviation Services', '1137 Aviation Way, Gainesville, GA 30501', '770-532-4136') +
     '<p class="note">Recent pilot reports say there is no courtesy car, so reserve a rental car and confirm pickup at the airport. A second operator on the field, Lanier Flight Center, also sells fuel. Ask about two-night parking and fees. No live fuel price is shown.</p>'
     '<p class="note">Atlanta’s Class B airspace lies to the southwest. Review the sectional and current NOTAMs, and expect afternoon storms in summer.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Car on land, pontoon on the lake.</h3><p>Rent a car for the weekend. For the lake, rent a pontoon by the hour or day; several companies deliver to docks or rent from Lanier Islands.</p></aside></div></section>')
