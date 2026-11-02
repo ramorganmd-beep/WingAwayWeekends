@@ -72,6 +72,19 @@ LUXURY = {
          'The Ritz-Carlton’s club level adds a private lounge with food and drinks throughout the day, on top of the oceanfront setting and spa.'),
         ('More space · Resort villas', 'Omni oceanfront villas',
          'Omni Amelia Island’s villas and suites give you room to spread out, with the resort’s spa, golf and restaurants close by.')],
+    'yadkin-valley': [
+        ('Winery cabins · Historic', 'Grassy Creek Klondike Cabins',
+         'Restored historic cabins at Grassy Creek Vineyard & Winery near Elkin, with the tasting room a short walk away.'),
+        ('More space · Rental', 'Vineyard cottage rentals',
+         'The valley’s most indulgent stays are private cottages and farmhouses near the wineries. Look for one with a porch and a view of the vines.')],
+    'hunt-country': [
+        ('Three Michelin stars · About 45 minutes', 'The Inn at Little Washington',
+         'Opulent rooms above one of America’s great restaurants. Pair dinner and a night here for the ultimate splurge.'),
+        ('Upgrade · Salamander', 'Salamander suites',
+         'Salamander is already the area’s luxury standard. For a step up, ask about its suites, with more space and views over the estate.')],
+    'dahlonega': [
+        ('Bed & breakfast · Spa', 'Mountain Laurel Creek Inn & Spa',
+         'A small, highly rated inn in the woods outside town with its own spa and multi-course breakfasts. Quiet and romantic.')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)

@@ -83,3 +83,12 @@ def fbo(name, line, phone=None, href=None):
 
 def know(items):
     return '<div class="know-grid">' + ''.join(f'<article><h3>{h}</h3><p>{p}</p></article>' for h, p in items) + '</div>'
+
+
+def wine_and_flying(extra=''):
+    """Reminder for wine-country guides about drinking and flying."""
+    return ('<div class="couples wine-fly"><span class="eyebrow">Pilot note / Wine & flying</span><h3>Taste on the non-flying day.</h3>'
+            '<p>FAA rules (14 CFR 91.17) require at least 8 hours from bottle to throttle, a blood alcohol below 0.04% and no lingering effects. '
+            'Many pilots use 12–24 hours as a personal minimum, since a hangover can impair you long after the legal limit is met. '
+            'Plan the tasting day for the middle of the weekend, keep the evening before departure dry, and let a driver or shuttle handle the roads. '
+            f'If the pilot wants a full tasting day, add a third night. {extra}</p></div>')

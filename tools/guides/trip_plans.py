@@ -97,6 +97,27 @@ PLANS = {
         'extra': [('Morning', 'A guided horseback ride on the beach.'),
                   ('Afternoon', 'A long spa afternoon at one of the oceanfront resorts.'),
                   ('Evening', 'A sunset river cruise, then dinner at Burlingame.')]},
+    'yadkin-valley': {
+        'day': [('Arrive', 'Land at KZEF mid-morning and pick up the courtesy car or a rental.'),
+                ('Midday', 'Lunch and a tasting for the non-pilot at Shelton Vineyards.'),
+                ('Afternoon', 'A glass on the terrace at Raffaldini for the non-pilot, then back to the FBO before it closes.')],
+        'extra': [('Morning', 'Hike to the overlooks at Pilot Mountain or Stone Mountain State Park.'),
+                  ('Afternoon', 'Downtown Elkin, or a side trip to Mount Airy.'),
+                  ('Evening', 'Live music at the Reeves Theater.')]},
+    'hunt-country': {
+        'day': [('Arrive', 'Land at KJYO (SFRA procedures) or KHWY mid-morning and pick up a car.'),
+                ('Midday', 'The Udvar-Hazy Center: the Space Shuttle, the SR-71 and more.'),
+                ('Afternoon', 'Lunch and a stroll in Middleburg, with a tasting for the non-pilot, then fly home.')],
+        'extra': [('Morning', 'Historic Leesburg and Morven Park.'),
+                  ('Afternoon', 'A couples spa afternoon at Salamander.'),
+                  ('Evening', 'A splurge dinner at The Inn at Little Washington, with a driver.')]},
+    'dahlonega': {
+        'day': [('Arrive', 'Land at KGVL mid-morning and pick up the rental car.'),
+                ('Midday', 'Lunch on the square and the Gold Museum.'),
+                ('Afternoon', 'A tasting-room stop on the square for the non-pilot, then the drive back to the FBO.')],
+        'extra': [('Morning', 'Amicalola Falls and its staircase trail.'),
+                  ('Afternoon', 'A gold-mine tour and a little panning.'),
+                  ('Evening', 'Sunset with a glass at Wolf Mountain, then dinner on the square.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

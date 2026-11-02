@@ -60,6 +60,9 @@ P.append('<section id="explore">' + head('04', 'Music & sights', 'Hear it where 
             'Downtown, beside the Omni. Allow a few hours even if you are not a country fan.') +
     explore(5, 'Germantown stroll',
             'Historic brick streets, cafés and restaurants just north of downtown. The calm counterpoint to Broadway.') +
+    explore(6, 'Arrington Vineyards (wine side trip)',
+            'A hillside winery co-founded by Kix Brooks, about 25 miles south in the Williamson County countryside, named Southeast Winery of the Year for 2026. Bring a picnic; weekends from April to November add live music on the lawn. Taste on the non-flying day, and plan a driver.',
+            'https://www.arringtonvineyards.com/', 'Winery information') +
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>Mokara Spa at Omni Nashville · Time for two</h3>'
