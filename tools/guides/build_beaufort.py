@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('shopping', 'Shop'), ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='beaufort', name='Beaufort', state='South Carolina', number=5,
+    slug='beaufort', name='Beaufort', state='South Carolina', number=5, reviewed=REVIEWED,
     description='A curated two-night Beaufort getaway for GA pilots and their partners, from KMYR to KARW. Lowcountry inns, waterfront dining, Hunting Island and an unhurried pace.',
     lede='A short flight. Lowcountry time.',
     intro='Antebellum homes under live oaks, a waterfront park made for slow evenings and salt marsh in every direction. Beaufort is small, quiet and easy, and the airport is just across the river from town.',
@@ -120,7 +121,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Inn rates, tours and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=5, place='Beaufort, South Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=5, place='Beaufort, South Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html='Bay Street Downtown Beaufort.JPG by Cdamgen (BeaufortTiger), English Wikipedia, <a href="https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG">Wikimedia Commons</a>, public domain. Cropped and resized for display.'))
 
 with open(OUT, 'w') as f:
