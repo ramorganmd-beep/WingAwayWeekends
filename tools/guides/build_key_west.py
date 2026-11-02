@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='key-west', name='Key West', state='Florida', number=10,
+    slug='key-west', name='Key West', state='Florida', number=10, reviewed=REVIEWED,
     description='A curated getaway to Key West for GA pilots and their partners, from KMYR to KEYW. Sunset at Mallory Square, adults-only guesthouses, Pan Am’s first office and a seaplane to the Dry Tortugas.',
     lede='The end of the road. The start of Pan Am.',
     intro='Palm-lined streets, Victorian guesthouses, sunsets over the Gulf and the town where Pan American Airways sold its first tickets. Key West is the longest flight in this collection, so it shines as a longer stay.',
@@ -103,7 +104,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the trip easy 
           ('Dates come next', 'Rates, fees and tour availability are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=10, place='Key West, Florida', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=10, place='Key West, Florida', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html='KeyWestFL Duval St 20230125 by Niranjan Arminius, <a href="https://commons.wikimedia.org/wiki/File:KeyWestFL_Duval_St_20230125.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Resized for display; adaptations shared under the same license.'))
 
 with open(OUT, 'w') as f:
