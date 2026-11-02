@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know, wine_and_flying  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['yadkin-valley']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('wine', 'Wine'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='yadkin-valley', name='Yadkin Valley', state='North Carolina', number=13,
+    slug='yadkin-valley', name='Yadkin Valley', state='North Carolina', number=13, reviewed=REVIEWED,
     description='A curated two-night Yadkin Valley wine weekend for GA pilots and their partners, from KMYR to KZEF Elkin. Estate wineries, vineyard dinners and the Blue Ridge foothills.',
     lede='North Carolina wine country, one runway away.',
     intro='Elkin sits in the middle of the Yadkin Valley, the state’s first wine region, with dozens of wineries scattered across the foothills below the Blue Ridge. Land a few minutes from town, taste at estate vineyards with mountain views, and end the day with dinner among the vines.',
@@ -128,7 +129,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Tasting hours and restaurant days change by season. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=13, place='Yadkin Valley, North Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=13, place='Yadkin Valley, North Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
