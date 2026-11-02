@@ -43,7 +43,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One eas
          'Colorful Indian street food from a restaurant group that was a 2026 James Beard finalist. Relaxed and fun after a long Biltmore day. Check whether it takes reservations or is walk-in for your night.',
          'https://chaipani.com/') +
     card('Sunday brunch · Biltmore Village', 'Corner Kitchen',
-         'A Biltmore Village favorite that came back after Helene flooding and won a national small-business recovery award in 2026. Convenient on the way back to the airport. Confirm brunch hours.') +
+         'A Biltmore Village favorite that came back after Helene flooding and won a national small-business recovery award in 2026. Convenient on the way back to the airport. Confirm brunch hours.',
+         'https://thecornerkitchen.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'One great house. A lot of sky.',
@@ -99,6 +100,9 @@ P.append('<section id="breweries">' + head('07', 'Breweries & craft drinks', 'Ma
     card('Downtown · South Slope', 'South Slope breweries',
          'A cluster of taprooms on the south side of downtown, walkable from many restaurants. Check current openings on the visitor bureau’s site.',
          'https://www.exploreasheville.com/', 'Explore Asheville') +
+    card('Downtown · Pizza & pints', 'Asheville Brewing',
+         'A long-running local brewery and pizza kitchen downtown, known for its Ninja Porter and a relaxed, family-friendly feel. A good casual lunch or early dinner.',
+         'https://www.ashevillebrewing.com/location/downtown/') +
     '</div></section>')
 
 P.append('<section id="events">' + head('08', 'Sports & what’s happening', 'Sometimes the season is the reason to fly.',

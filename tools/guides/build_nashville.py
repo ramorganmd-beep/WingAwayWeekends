@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Music & sights'), ('spa', 'Spa'), ('shopping', 'Shop'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='nashville', name='Nashville', state='Tennessee', number=9,
+    slug='nashville', name='Nashville', state='Tennessee', number=9, reviewed=REVIEWED,
     description='A curated two-night Nashville getaway for GA pilots and their partners, from KMYR to KJWN. The Ryman, the Opry, Germantown dining and Music City nights.',
     lede='Fly in for the music. Stay for dinner.',
     intro='The Ryman Auditorium, the Grand Ole Opry, honky-tonks on Broadway and one of the South’s most exciting restaurant scenes. John C. Tune Airport puts you about 15 minutes from downtown.',
@@ -127,7 +128,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Hotel rates, show tickets and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=9, place='Nashville, Tennessee', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=9, place='Nashville, Tennessee', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html='Nashville from Cumberland River September 2026 002 by King of Hearts, <a href="https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_002.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Resized for display; adaptations shared under the same license.'))
 
 with open(OUT, 'w') as f:

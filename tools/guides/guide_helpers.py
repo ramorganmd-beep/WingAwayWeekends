@@ -40,7 +40,7 @@ SECTIONS = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('expl
 
 
 def page_start(*, slug, name, state, number, description, lede, intro, pills, photo, widths, alt, img_w, img_h,
-               caption, airport, nm, flight_time, style, estimate_extra='', nav=None, img_style=''):
+               caption, airport, nm, flight_time, style, estimate_extra='', nav=None, img_style='', reviewed=None):
     """Shared page head, hero, trip snapshot and section menu for a destination guide."""
     def srcset(ext):
         return ', '.join(f'../assets/destinations/{photo}-{w}.{ext} {w}w' for w in widths)
@@ -52,7 +52,7 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
             f'<title>{name} Couples Getaway | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/{slug}/">'
             f'<link rel="icon" type="image/svg+xml" href="{ICON}"><link rel="stylesheet" href="../style.css"></head><body>\n'
             f'<a class="skip" href="#main">Skip to destination</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a>'
-            f'<span class="header-note">Destination prototype <span>{number:02d}</span></span></header>\n'
+            f'<span class="header-note">{"Destination guide" if reviewed else "Destination prototype"} <span>{number:02d}</span></span></header>\n'
             f'<main id="main"><div class="destination"><div class="intro"><span class="eyebrow">{state} · Couples · Two nights</span><h1>{name}</h1>'
             f'<p class="lede">{lede}</p><p>{intro}</p><div class="pills">{pills_html}</div>'
             f'<div class="hero-actions"><a class="button" href="#itinerary">See the weekend itinerary</a><a href="#flight" class="secondary">Flight & arrival details</a></div></div>'
@@ -67,11 +67,19 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
             f'<nav class="jump" aria-label="Destination sections">{nav_html}</nav>')
 
 
-def page_end(*, number, place, credit_html, note='Several official links could not be opened during research; check each one, and confirm hours, prices and availability directly before booking.'):
-    return (f'<div class="prototype-note"><span class="eyebrow">Testing / Destination {number:02d}</span><h3>Draft for review.</h3>'
-            f'<p>Research-based selections, not personal-visit endorsements. Researched November 1, 2026. {note}</p>'
-            '<p class="note">WingAway Weekends helps you discover the destination. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div></main>'
-            f'<footer><a class="brand" href="#main">WingAway Weekends</a><p>{place} · Couples prototype</p><details><summary>Photo credit</summary>'
+def page_end(*, number, place, credit_html, note='Several official links could not be opened during research; check each one, and confirm hours, prices and availability directly before booking.', reviewed=None):
+    """Closing review note and footer. Pass reviewed='Month D, YYYY' once the owner has reviewed the guide."""
+    safety = ('<p class="note">WingAway Weekends helps you discover the destination. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div></main>')
+    if reviewed:
+        box = (f'<div class="prototype-note reviewed"><span class="eyebrow">Reviewed · Destination {number:02d}</span><h3>Reviewed {reviewed}.</h3>'
+               '<p>Picks and links reviewed by WingAway Weekends. Hours, prices, menus and availability change often, so confirm directly with each place before booking.</p>')
+        label = 'Couples guide'
+    else:
+        box = (f'<div class="prototype-note"><span class="eyebrow">Testing / Destination {number:02d}</span><h3>Draft for review.</h3>'
+               f'<p>Research-based selections, not personal-visit endorsements. Researched November 1, 2026. {note}</p>')
+        label = 'Couples prototype'
+    return (box + safety +
+            f'<footer><a class="brand" href="#main">WingAway Weekends</a><p>{place} · {label}</p><details><summary>Photo credit</summary>'
             f'<p>{credit_html}</p></details></footer></body></html>')
 
 
