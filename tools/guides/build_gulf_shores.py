@@ -30,22 +30,31 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your stretc
     'A state-park lodge, a high-rise with a private balcony over the Gulf, or a classic beach resort. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Beachfront · State park', 'The Lodge at Gulf State Park',
-         'A beachfront Hilton inside Gulf State Park, with trails out the back door, a pool and Perch restaurant. The easiest romantic base.') +
+         'A beachfront Hilton inside Gulf State Park, with trails out the back door, a pool and Perch restaurant. The easiest romantic base.',
+         'https://lodgeatgulfstatepark.com/') +
     card('Orange Beach · Condo resort', 'Turquoise Place',
-         'Gulf-front condominium suites with big balconies, many with private hot tubs, in Orange Beach. Choose it for space and views.') +
+         'Gulf-front condominium suites with big balconies, many with private hot tubs, in Orange Beach. Choose it for space and views.',
+         'https://turquoiseplace.spectrumresorts.com/') +
     card('Orange Beach · Classic resort', 'Perdido Beach Resort',
-         'A long-running beachfront resort with Voyagers, the area’s best-known fine-dining room, downstairs.') +
+         'A long-running beachfront resort with Voyagers, the area’s best-known fine-dining room, downstairs.',
+         'https://www.perdidobeachresort.com/') +
     '</div></section>')
 
-P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One seafood lunch.',
+P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. Two great lunches.',
     'Gulf shrimp and oysters are the point. Reserve weekend dinners, especially in summer.') +
-    '<div class="grid three">' +
+    '<div class="grid four">' +
     card('Friday dinner · Fine dining', 'Voyagers',
-         'Upscale Gulf-front dining at Perdido Beach Resort in Orange Beach. The special-occasion choice.') +
+         'Upscale Gulf-front dining at Perdido Beach Resort in Orange Beach. The special-occasion choice.',
+         'https://voyagersrestaurant.com/') +
     card('Saturday dinner · Gulf views', 'Perch',
-         'Seasonal coastal cooking with Gulf views at The Lodge at Gulf State Park. Refined but relaxed; time it for sunset.') +
+         'Seasonal coastal cooking with Gulf views at The Lodge at Gulf State Park. Refined but relaxed; time it for sunset.',
+         'https://perchgsp.com/') +
     card('Lunch · Local classic', 'Doc’s Seafood Shack & Oyster Bar',
-         'An Orange Beach institution since 1983, famous for fried shrimp and gumbo. For a waterfront afternoon instead, try Lulu’s on the Intracoastal or Wolf Bay Lodge.') +
+         'An Orange Beach institution since 1983, famous for fried shrimp and gumbo. For a waterfront afternoon instead, try Lulu’s on the Intracoastal or Wolf Bay Lodge.',
+         'https://www.docsseafoodshack.com/') +
+    card('Fun lunch · Foley', 'Lambert’s Cafe',
+         'Home of the “throwed rolls,” tossed hot across the dining room to your table, with big Southern plates. A memorable, casual lunch about 15 minutes inland in Foley.',
+         'https://throwedrolls.com/foley-al') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Beach, trails and a world-class hangar.',
@@ -59,9 +68,11 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Beach, trails an
     explore(3, 'Fort Morgan',
             'A brick fort at the tip of the peninsula, about 40 minutes west, where the Battle of Mobile Bay was fought in 1864. Quiet beaches nearby.') +
     explore(4, 'A sunset or dolphin cruise',
-            'Cruises leave from Orange Beach and Perdido Pass. Dolphins are common in the bays and passes.') +
+            'Cruises leave from Orange Beach and Perdido Pass. Dolphins are common in the bays and passes.',
+            'https://surfsupdolphincruise.com/', 'Surf’s Up Dolphin Cruise') +
     explore(5, 'The Wharf & the Flora-Bama',
-            'The Wharf in Orange Beach has waterfront shops, restaurants and a Ferris wheel. The Flora-Bama, a famous beach bar on the state line, has live music day and night.') +
+            'The Wharf in Orange Beach has waterfront shops, restaurants and a Ferris wheel. The Flora-Bama, a famous beach bar on the state line, has live music day and night.',
+            'https://www.florabama.com/', 'The Flora-Bama') +
     '</div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the event is the reason to fly.',

@@ -110,10 +110,9 @@ LUXURY = {
          'A small, highly rated inn in the woods outside town with its own spa and multi-course breakfasts. Quiet and romantic.',
          'https://www.mountainlaurelcreek.com/')],
     'gulf-shores': [
-        ('Upgrade · Gulf-front suites', 'Turquoise Place suites',
-         'Turquoise Place’s largest suites add wraparound Gulf views and private balcony hot tubs. Ideal for a slow, indulgent weekend.'),
         ('Private · Beach house', 'Gulf-front beach homes',
-         'A private beach house in Orange Beach or Fort Morgan, often with a pool. Book through a local rental agency; summer stays may require a week.')],
+         'A private beach house in Orange Beach or Fort Morgan, often with a pool. Book through a local rental agency; summer stays may require a week.',
+         'https://www.beachlifevacation.com/', 'Beach Life Vacations')],
     'chattanooga': [
         ('Upgrade · River views', 'The Edwin suites',
          'The Edwin is already the city’s romantic choice. For a step up, ask for a river-view suite overlooking the Walnut Street Bridge.',
