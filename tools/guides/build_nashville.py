@@ -73,7 +73,8 @@ P.append('<section id="explore">' + head('04', 'Music & sights', 'Hear it where 
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>Mokara Spa at Omni Nashville · Time for two</h3>'
     '<p>Couples massages, steam rooms and relaxation lounges downtown. A good Saturday-afternoon reset before a night out.</p>'
-    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
+    '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p>'
+    '<a href="https://www.omnihotels.com/hotels/nashville/spa" target="_blank" rel="noopener">Mokara Spa details</a></div></section>')
 
 P.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bring home a little Music City.',
     'Most of it is walkable from Broadway: boots, gig posters, records and Nashville-made goods.') +
