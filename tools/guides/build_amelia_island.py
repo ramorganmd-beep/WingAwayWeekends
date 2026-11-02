@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['amelia-island']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='amelia-island', name='Amelia Island', state='Florida', number=12,
+    slug='amelia-island', name='Amelia Island', state='Florida', number=12, reviewed=REVIEWED,
     description='A curated two-night Amelia Island getaway for GA pilots and their partners, from KMYR to KFHB. Historic Fernandina Beach, quiet beaches, resort spas and Fort Clinch.',
     lede='Land in town. Walk to dinner.',
     intro='Fernandina Beach’s Victorian seaport is minutes from the runway: brick storefronts on Centre Street, shrimp boats at sunset, and wide, quiet beaches lined with dunes. Add a resort spa and it is an easy romantic weekend.',
@@ -110,7 +111,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Rates and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=12, place='Amelia Island, Florida', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=12, place='Amelia Island, Florida', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
