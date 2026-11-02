@@ -34,20 +34,25 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
          'Rooms in a pair of buildings about 200 years old in Harpers Ferry’s historic lower town. Everything is walkable, including the trails and the rivers.',
          'https://thetownsinn.com/') +
     card('Shepherdstown · On the river', 'The Bavarian Inn',
-         'A long-running inn on the bluffs above the Potomac in Shepherdstown, with river-view rooms and its own restaurant. A comfortable, romantic base.') +
+         'A long-running inn on the bluffs above the Potomac in Shepherdstown, with river-view rooms and its own restaurant. A comfortable, romantic base.',
+         'https://www.bavarianinnwv.com/') +
     card('Bed & breakfast · Intimate', 'Lily Garden Bed & Breakfast',
-         'A small bed and breakfast often recommended for couples. Confirm rooms, breakfast and how far it is from the lower town.') +
+         'A small bed and breakfast often recommended for couples. Confirm rooms, breakfast and how far it is from the lower town.',
+         'https://lilygardenbnb.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One river-town lunch.',
     'The best special-occasion dinner is in the countryside nearby. Reserve weekend dinners ahead.') +
     '<div class="grid three">' +
     card('Friday dinner · Gastropub', 'The Rabbit Hole',
-         'A cozy, rustic gastropub in Harpers Ferry with a locally inspired menu. An easy first night after the flight.') +
+         'A cozy, rustic gastropub in Harpers Ferry with a locally inspired menu. An easy first night after the flight.',
+         'https://rabbitholewv.com/') +
     card('Saturday dinner · Fine dining', 'Redbook at Hillbrook Inn',
-         'A romantic fine-dining room at the Hillbrook Inn near Charles Town, about 20 minutes away. Business casual attire is expected; reserve well ahead.') +
+         'A romantic fine-dining room at the Hillbrook Inn near Charles Town, about 20 minutes away. Business casual attire is expected; reserve well ahead.',
+         'https://www.hillbrookinn.com/charles-town-wv-restaurant.html') +
     card('Lunch · Wine bar', 'Snallygasters Cafe & Wine Bar',
-         'A relaxed café and wine bar, good for lunch or a glass after a hike. For farm-to-table cooking instead, try Kelley Farm Kitchen in Bolivar.') +
+         'A relaxed café and wine bar, good for lunch or a glass after a hike. For farm-to-table cooking instead, try Kelley Farm Kitchen in Bolivar.',
+         'https://www.snallygasterscafe.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'History, rivers and big views.',
@@ -61,7 +66,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'History, rivers 
     explore(3, 'C&O Canal towpath',
             'A flat, shaded path along the Potomac on the Maryland side, reached by the footbridge from town. Walk a few miles or rent bikes and ride.') +
     explore(4, 'Tubing and paddling',
-            'In summer, outfitters run tubing and rafting trips on the Shenandoah and Potomac. Book ahead and check river levels.') +
+            'In summer, River & Trail Outfitters runs tubing, rafting and canoe trips on the Shenandoah and Potomac, and rents bikes for the C&O Canal towpath. Book ahead and check river levels.',
+            'https://www.rivertrail.com/', 'River & Trail Outfitters') +
     explore(5, 'Shepherdstown & Antietam',
             'Shepherdstown has shops, restaurants and an easy small-town evening. Antietam National Battlefield, site of the bloodiest single day of the Civil War, is about 15 minutes beyond it.') +
     '</div></section>')
