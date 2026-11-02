@@ -26,7 +26,7 @@ The design uses navy, cream and gold, an aspirational destination hero photograp
 
 - Responsive hero and destination-card grid, with layouts for desktop, tablet and mobile.
 - Departure airport input (default KMYR) covering 695 public airports in NC, SC, GA, FL, VA, TN and AL, with suggestions as you type. It accepts K-codes (KCHS), codes without the K (CHS) and 3-character FAA IDs (2J9). Airports outside the region show a “coming soon” message. A destination is hidden if it is the home airport or within 40 NM of it.
-- Maximum estimated flight time offers 1 to 4½ hours in half-hour steps for every trip length (changed November 1, 2026 at the owner’s request). Trip length only sets the starting value: Day trip 1½ hours, Weekend 3 hours (page default), Longer stay 4½ hours. Changing trip length resets flight time to that default.
+- Maximum estimated flight time offers 1 to 4½ hours in half-hour steps plus “Any distance” (shows all twelve, added November 2, 2026) for every trip length (changed November 1, 2026 at the owner’s request). Trip length only sets the starting value: Day trip 1½ hours, Weekend 3 hours (page default), Longer stay 4½ hours. Changing trip length resets flight time to that default.
 - Interest checkboxes, in this order: Boutique stays, Dining, Wine, Spa, Romance, History, Outdoors, Hiking, Golf and Aviation museums. Aviation museums is currently tagged on Savannah (Mighty Eighth Air Force Museum) Charleston (Patriots Point / USS Yorktown) and Asheville (Western North Carolina Air Museum, Hendersonville); other destinations need review before tagging.
 - Multiple selected interests use AND matching: a destination must have every selected tag.
 - Live result count and an empty-state message when nothing matches.
