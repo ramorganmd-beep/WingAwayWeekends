@@ -34,7 +34,8 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
          'Connected to the Country Music Hall of Fame, with the Mokara Spa and its couples treatments. Easy for a music-and-spa weekend.',
          'https://www.omnihotels.com/hotels/nashville') +
     card('Quiet & walkable', 'Germantown Inn',
-         'A small inn in Germantown, the city’s most walkable neighborhood for dinner and a slow evening, away from the Broadway crowds.') +
+         'A small inn in Germantown, the city’s most walkable neighborhood for dinner and a slow evening, away from the Broadway crowds.',
+         'https://germantowninn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One easy lunch.',
