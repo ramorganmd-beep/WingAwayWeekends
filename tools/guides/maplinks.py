@@ -69,7 +69,7 @@ QUERY = {
     'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
     'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Luxury beach homes', 'H2O Suites or Almond Tree Inn', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove', 'Lake Lure vacation rentals', 'Lake Keowee vacation rentals', 'Lake Lanier vacation rentals'}
+SKIP = {'Luxury beach homes', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove', 'Lake Lure vacation rentals', 'Lake Keowee vacation rentals', 'Lake Lanier vacation rentals'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 

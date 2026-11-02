@@ -70,11 +70,14 @@ LUXURY = {
          'https://www.hyatt.com/hotel/tennessee/thompson-nashville/bnath')],
     'key-west': [
         ('Private island', 'Sunset Key Cottages',
-         'Cottages on a private island a short launch ride from Old Town, home to Latitudes. The ultimate Key West splurge.'),
+         'Cottages on a private island a short launch ride from Old Town, home to Latitudes. The ultimate Key West splurge.',
+         'https://www.opalcollection.com/sunset-key-cottages/'),
         ('Old Town · On the water', 'Pier House Resort & Spa',
-         'A waterfront resort at the end of Duval Street with a private beach and spa, steps from Mallory Square.'),
+         'A waterfront resort at the end of Duval Street with a private beach and spa, steps from Mallory Square.',
+         'https://www.pierhouse.com/'),
         ('Old Town · Garden oasis', 'The Gardens Hotel',
-         'A small luxury hotel set in lush tropical gardens in Old Town, often rated among the island’s best.')],
+         'A small luxury hotel set in lush tropical gardens in Old Town, often rated among the island’s best.',
+         'https://www.gardenshotel.com/')],
     'outer-banks': [
         ('Oceanfront · Rent a house', 'Luxury beach homes',
          'The Outer Banks’ real luxury is a private oceanfront house in Duck, Corolla or Nags Head, often with a pool and hot tub. Book through a local rental agency; many require week-long stays in summer, with shorter stays off-season.'),

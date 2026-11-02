@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know, wine_and_flying  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['dahlonega']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('wine', 'Wine'), ('explore', 'Explore'),
        ('spa', 'Spa'), ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='dahlonega', name='Dahlonega', state='Georgia', number=15,
+    slug='dahlonega', name='Dahlonega', state='Georgia', number=15, reviewed=REVIEWED,
     description='A curated two-night Dahlonega wine weekend for GA pilots and their partners, from KMYR to KGVL Gainesville. North Georgia mountain wineries, a gold-rush town square and waterfalls.',
     lede='Gold-rush town. Mountain wineries.',
     intro='America’s first major gold rush began here in 1828. Today Dahlonega’s historic square is lined with tasting rooms, shops and restaurants, and the surrounding mountains hold some of Georgia’s best wineries. Add a waterfall hike and it is an easy, romantic weekend.',
@@ -131,7 +132,7 @@ P.append('<section id="know">' + head('08', 'Good to know', 'Keep the weekend ea
           ('Wine & flying', 'Taste on the non-flying day and keep the evening before departure dry.')]) +
     '</section>')
 
-P.append(page_end(number=15, place='Dahlonega, Georgia', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=15, place='Dahlonega, Georgia', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
