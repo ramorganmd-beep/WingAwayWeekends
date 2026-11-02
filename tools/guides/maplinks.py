@@ -31,7 +31,6 @@ QUERY = {
     'Elliotts on Linden': 'Elliotts on Linden, Southern Pines, NC',
     'Mid Pines Inn & Golf Club': 'Mid Pines Inn & Golf Club, Southern Pines, NC',
     'Pine Needles Lodge': 'Pine Needles Lodge & Golf Club, Southern Pines, NC',
-    'Carolina suites': 'The Carolina Hotel, Pinehurst Resort, Pinehurst, NC',
     'The Sanderling Resort': 'The Sanderling Resort, Duck, NC',
     'Sanderling soundfront suites': 'The Sanderling Resort, Duck, NC',
     'Blue Point': 'The Blue Point, Duck, NC',
