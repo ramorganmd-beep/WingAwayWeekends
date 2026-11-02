@@ -54,7 +54,8 @@ LUXURY = {
          'A tower on the Cumberland River downtown with skyline views, a spa and polished service.',
          'https://www.fourseasons.com/nashville/'),
         ('Historic · Train station', 'Union Station Hotel',
-         'A grand 1900 railway station turned hotel, with a vaulted lobby and stained glass. Walkable to The Gulch and downtown.'),
+         'A grand 1900 railway station turned hotel, with a vaulted lobby and stained glass. Walkable to The Gulch and downtown.',
+         'https://www.unionstationhotelnashville.com/'),
         ('The Gulch · Rooftop', 'Thompson Nashville',
          'A stylish hotel in The Gulch with a rooftop bar and strong restaurants downstairs.')],
     'key-west': [
