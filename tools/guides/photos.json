@@ -76,17 +76,16 @@
     "placeholder": true
   },
   "chattanooga": {
-    "slug": "chattanooga-river",
+    "slug": "chattanooga-point-park-sunset",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a river city with a long bridge below a mountain ridge",
+    "alt": "Two Civil War cannons on the edge of Lookout Mountain overlooking Chattanooga and the Tennessee River at sunset",
     "w": 960,
     "h": 720,
-    "caption": "The Tennessee River below Lookout Mountain (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "Point Park on Lookout Mountain at sunset",
+    "credit_html": "Garrity’s Battery in Point Park at sunset, National Park Service (Chickamauga and Chattanooga National Military Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   },
   "smoky-mountains": {
     "slug": "smoky-mountains-ridges",
@@ -140,16 +139,15 @@
     "placeholder": true
   },
   "harpers-ferry": {
-    "slug": "harpers-ferry-rivers",
+    "slug": "harpers-ferry-jefferson-rock",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of rivers meeting below wooded ridges",
+    "alt": "St. Peter’s Church steeple above the Shenandoah and Potomac rivers at Harpers Ferry, with wooded ridges beyond",
     "w": 960,
     "h": 720,
-    "caption": "Where the Potomac and Shenandoah meet (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
-    "placeholder": true
+    "caption": "The view from Jefferson Rock",
+    "credit_html": "View from Jefferson Rock, National Park Service (Harpers Ferry National Historical Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   }
 }
