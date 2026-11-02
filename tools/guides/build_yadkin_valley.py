@@ -30,39 +30,48 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Sleep among the vi
     'Small inns and winery cabins rather than big resorts. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Winery cabins · Creekside', 'Elkin Creek Vineyard cabins',
-         'A handful of cabins beside Elkin Creek at a small family winery minutes from town. The most romantic choice: wake up at the vineyard.') +
+         'A handful of cabins beside Elkin Creek at a small family winery minutes from town. The most romantic choice: wake up at the vineyard.',
+         'https://www.elkincreekvineyard.com/cabins') +
     card('Historic inn · Dobson', 'The Rockford Inn',
-         'An 1848 farmhouse with heart-pine floors near the Dobson wineries. Recent listings describe it as a guest house rather than a full bed and breakfast; confirm what is included.') +
-    card('Practical · At a winery', 'Hampton Inn & Suites at Shelton Vineyards',
-         'A dependable hotel on the Shelton Vineyards grounds in Dobson, with its own wine bar. Easy if you want a hotel and a short walk to tasting and dinner.') +
+         'An 1848 farmhouse with heart-pine floors near the Dobson wineries. Recent listings describe it as a guest house rather than a full bed and breakfast; confirm what is included.',
+         'https://rockfordinn.com/') +
+    card('Practical · Dobson', 'Hampton Inn & Suites Dobson',
+         'A dependable hotel in Dobson, central to the wineries, with its own wine bar. Easy if you simply want a comfortable hotel.',
+         'https://www.hilton.com/en/hotels/hvnobhx-hampton-shelton/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Dinner at the vineyard.',
     'Some of the best tables are at the wineries. Reserve weekend dinners well ahead.') +
     '<div class="grid three">' +
     card('Saturday dinner · Fine dining', 'JOLO Winery & Vineyards',
-         'An intimate dining room with vineyard views and Pilot Mountain beyond. Dinner Thursday–Sunday; reservations required.') +
-    card('Friday dinner · Estate grill', 'Harvest Grill at Shelton Vineyards',
-         'Seasonal, farm-to-table cooking at one of the region’s largest family-owned estate wineries. A relaxed first night.') +
+         'An intimate dining room with vineyard views and Pilot Mountain beyond. Dinner Thursday–Sunday; reservations required.',
+         'https://www.jolovineyards.com/dine/dining-spaces/') +
+    card('Friday dinner · Wine bar & kitchen', 'Wisdom Table',
+         'An intimate downtown Elkin restaurant with a wine tasting menu that changes weekly, a good introduction to the valley’s wines. Dinner Wednesday–Saturday; reserve ahead.',
+         'https://www.wisdomtable.com/') +
     card('Lunch · Casual', 'Elkin Creek Vineyard',
-         'Wood-fired pizza and a glass by the creek. For a beer instead, Angry Troll Brewing in downtown Elkin has good food too.') +
+         'Wood-fired pizza and a glass by the creek. For a beer instead, Angry Troll Brewing in downtown Elkin has good food too.',
+         'https://www.elkincreekvineyard.com/') +
     '</div></section>')
 
 P.append('<section id="wine">' + head('04', 'Wineries', 'Pick three, not six.',
     'More than 20 wineries lie within a short drive of Elkin. Three tastings, with lunch between them, is a full and pleasant day.') +
     '<div class="grid three">' +
-    card('Dobson · Flagship estate', 'Shelton Vineyards',
-         'One of the largest family-owned estate wineries in the Southeast, with tours, tastings and the Harvest Grill. A good first stop.') +
     card('Ronda · Italian varietals', 'Raffaldini Vineyards',
-         'A Tuscan-style villa on a hilltop with Blue Ridge views and Italian-style wines, including appassimento reds. The prettiest terrace in the valley.') +
+         'A Tuscan-style villa on a hilltop with Blue Ridge views and Italian-style wines, including appassimento reds. The prettiest terrace in the valley.',
+         'https://www.raffaldini.com/') +
     card('Pilot Mountain · Small estate', 'JOLO Winery & Vineyards',
-         'Small-lot wines and a polished tasting room in the shadow of Pilot Mountain. Pair a tasting with dinner.') +
+         'Small-lot wines and a polished tasting room in the shadow of Pilot Mountain. Pair a tasting with dinner.',
+         'https://www.jolovineyards.com/') +
     card('Elkin area · Big reds', 'Jones von Drehle Vineyards',
-         'A hillside estate known for structured reds such as Cabernet Sauvignon, with sweeping views from the deck.') +
+         'A hillside estate known for structured reds such as Cabernet Sauvignon, with sweeping views from the deck.',
+         'https://www.jonesvondrehle.com/') +
     card('Elkin · Creekside', 'Elkin Creek Vineyard',
-         'A small family winery with a creekside setting, pizza and cabins. Easy and unhurried.') +
+         'A small family winery with a creekside setting, pizza and cabins. Easy and unhurried.',
+         'https://www.elkincreekvineyard.com/') +
     card('Elkin · Organic', 'Carolina Heritage Vineyard & Winery',
-         'One of the region’s certified-organic vineyards, close to town and a little different from the rest.') +
+         'One of the region’s certified-organic vineyards, close to town and a little different from the rest.',
+         'https://www.yadkinvalleync.com/attractions/carolina-heritage-vineyards/') +
     '</div>' + wine_and_flying('The Elkin Vine Line shuttle runs Friday–Sunday; check its current schedule and book seats.') +
     '<p class="note" style="margin-top:14px">Tasting hours and reservation rules change by season; many wineries require reservations for groups or on weekends. Confirm before you go.</p></section>')
 
@@ -85,7 +94,8 @@ P.append('<section id="events">' + head('06', 'What’s happening', 'Sometimes t
     'This prototype links to the regional calendar. It does not yet match events to your travel dates.') +
     '<div class="grid three">' +
     card('May', 'Yadkin Valley Wine Festival',
-         'A one-day festival in Elkin Municipal Park with wineries from across the valley. Fun and busy; book lodging early.') +
+         'A one-day festival in Elkin Municipal Park with wineries from across the valley. Fun and busy; book lodging early.',
+         'https://yadkinvalleywinefestival.com/') +
     card('August–October', 'Harvest season',
          'Grapes come in and the wineries are at their liveliest. Fall color follows in October.') +
     card('Year-round', 'Live music',
@@ -99,7 +109,7 @@ P.append('<section id="itinerary">' + head('07', 'Suggested itinerary', 'Friday 
     day('FRI', 'Arrive & unwind', [
         ('Late-morning arrival', 'Land at KZEF, subject to weather and your actual flight plan, and pick up the car.'),
         ('Afternoon', 'Lunch at Elkin Creek Vineyard and check in. The non-pilot can enjoy a glass.'),
-        ('Evening', 'Dinner at the Harvest Grill at Shelton Vineyards.')]) +
+        ('Evening', 'Dinner at Wisdom Table in downtown Elkin.')]) +
     day('SAT', 'Wine country day', [
         ('Late morning', 'Ride the Vine Line or a private driver to Raffaldini for a tasting on the terrace.'),
         ('Afternoon', 'Jones von Drehle, then one more stop. Water and lunch between tastings.'),
