@@ -28,12 +28,14 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'Beaufort is a town of inns rather than big hotels. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Boutique waterfront inn', 'Anchorage 1770',
-         'A restored 18th-century house on the Bay Street waterfront, with its own restaurant, the Ribaut Social Club. The most romantic choice; ask for a water-view room.') +
+         'A restored 18th-century house on the Bay Street waterfront, with its own restaurant, the Ribaut Social Club. The most romantic choice; ask for a water-view room.',
+         'https://anchorage1770.com/') +
     card('Historic district · Classic inn', 'The Rhett House Inn',
          'An antebellum inn with wide verandas, a short walk from the waterfront. Classic Lowcountry charm and a good base for exploring on foot.',
          'https://rhetthouseinn.com/') +
     card('In town · Historic', 'The Beaufort Inn',
-         'A well-reviewed historic inn in the heart of downtown, close to restaurants and the waterfront park. Confirm room type and parking.') +
+         'A well-reviewed historic inn in the heart of downtown, close to restaurants and the waterfront park. Confirm room type and parking.',
+         'https://www.beaufortinn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One easy lunch.',

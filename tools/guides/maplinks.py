@@ -25,7 +25,6 @@ TOWN = {
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
     'Montage Palmetto Bluff': 'Montage Palmetto Bluff, Bluffton, SC',
-    'The Inn & Club at Harbour Town': 'The Inn & Club at Harbour Town, Hilton Head Island, SC',
     'Ponte Vedra Inn & Club': 'Ponte Vedra Inn & Club, Ponte Vedra Beach, FL',
     'The Lodge & Club at Ponte Vedra Beach': 'The Lodge & Club at Ponte Vedra Beach, FL',
     'Hotel Domestique': 'Hotel Domestique, Travelers Rest, SC',
