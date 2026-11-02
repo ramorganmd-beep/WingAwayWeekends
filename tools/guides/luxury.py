@@ -85,6 +85,21 @@ LUXURY = {
     'dahlonega': [
         ('Bed & breakfast · Spa', 'Mountain Laurel Creek Inn & Spa',
          'A small, highly rated inn in the woods outside town with its own spa and multi-course breakfasts. Quiet and romantic.')],
+    'gulf-shores': [
+        ('Upgrade · Gulf-front suites', 'Turquoise Place suites',
+         'Turquoise Place’s largest suites add wraparound Gulf views and private balcony hot tubs. Ideal for a slow, indulgent weekend.'),
+        ('Private · Beach house', 'Gulf-front beach homes',
+         'A private beach house in Orange Beach or Fort Morgan, often with a pool. Book through a local rental agency; summer stays may require a week.')],
+    'chattanooga': [
+        ('Upgrade · River views', 'The Edwin suites',
+         'The Edwin is already the city’s romantic choice. For a step up, ask for a river-view suite overlooking the Walnut Street Bridge.'),
+        ('Historic inn · Fort Wood', 'Mayor’s Mansion Inn',
+         'A restored Victorian mansion turned bed and breakfast in a quiet historic neighborhood near downtown. Intimate and romantic.')],
+    'smoky-mountains': [
+        ('Ultra-luxury · Walland', 'Blackberry Farm',
+         'One of America’s most celebrated country hotels, in the foothills near Townsend, known for its food, wine and service. About 25 minutes from KTYS. A once-in-a-lifetime splurge.'),
+        ('Mountaintop · Walland', 'Blackberry Mountain',
+         'Blackberry Farm’s sister resort on a mountain preserve, with stone cottages, hiking and wellness at its heart.')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)

@@ -61,5 +61,44 @@
     "caption": "North Georgia mountain vineyards (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
     "placeholder": true
+  },
+  "gulf-shores": {
+    "slug": "gulf-shores-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a white-sand beach and the Gulf of Mexico",
+    "w": 960,
+    "h": 720,
+    "caption": "Sugar-white sand on the Gulf (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "chattanooga": {
+    "slug": "chattanooga-river",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a river city with a long bridge below a mountain ridge",
+    "w": 960,
+    "h": 720,
+    "caption": "The Tennessee River below Lookout Mountain (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
+  },
+  "smoky-mountains": {
+    "slug": "smoky-mountains-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges in haze",
+    "w": 960,
+    "h": 720,
+    "caption": "Layered ridges of the Smokies (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a licensed photo is chosen.",
+    "placeholder": true
   }
 }
