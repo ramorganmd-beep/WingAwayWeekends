@@ -21,11 +21,14 @@ LUXURY = {
          'A modern riverfront hotel with a rooftop bar, an easy walk to River Street and the historic district.')],
     'asheville': [
         ('Biltmore Village · Lodge style', 'Grand Bohemian Hotel Asheville',
-         'A lodge-style luxury hotel at the entrance to Biltmore Village, steps from the estate gates. Ideal for a Biltmore-centered weekend.'),
+         'A lodge-style luxury hotel at the entrance to Biltmore Village, steps from the estate gates. Ideal for a Biltmore-centered weekend.',
+         'https://www.grandbohemianasheville.com/'),
         ('Downtown · Curio Collection', 'The Foundry Hotel',
-         'A boutique hotel in a restored steel foundry downtown, with polished rooms and a short walk to dinner.'),
+         'A boutique hotel in a restored steel foundry downtown, with polished rooms and a short walk to dinner.',
+         'https://www.foundryasheville.com/'),
         ('Downtown · Small & stylish', 'The Windsor Boutique Hotel',
-         'A small, highly rated boutique hotel downtown with apartment-style suites.')],
+         'A small, highly rated boutique hotel downtown with apartment-style suites.',
+         'https://windsorasheville.com/')],
     'pinehurst': [
         ('Upgrade · The Carolina', 'Carolina suites',
          'The Carolina is already the area’s luxury standard. For a step up, ask about its suites, or a resort villa or cottage for more space.'),
