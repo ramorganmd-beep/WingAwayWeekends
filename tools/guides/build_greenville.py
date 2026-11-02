@@ -4,10 +4,11 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('wine', 'Drinks'),
        ('events', 'Sports & events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='greenville', name='Greenville', state='South Carolina', number=7,
+    slug='greenville', name='Greenville', state='South Carolina', number=7, reviewed=REVIEWED,
     description='A curated two-night Greenville getaway for GA pilots and their partners, from KMYR to KGMU. Falls Park, a walkable Main Street, Michelin-recognized dining and the Swamp Rabbit Trail.',
     lede='Land downtown. Leave the car behind.',
     intro='A waterfall in the middle of the city, a tree-lined Main Street full of restaurants and the Blue Ridge on the horizon. Greenville Downtown Airport is minutes from it all.',
@@ -121,7 +122,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Dates come next', 'Hotel rates, tickets and restaurant hours are date-dependent. No availability or live price is implied here.')]) +
     '</section>')
 
-P.append(page_end(number=7, place='Greenville, South Carolina', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=7, place='Greenville, South Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html='Greenville - Liberty Bridge at Falls Park by P. Hughes, <a href="https://commons.wikimedia.org/wiki/File:Greenville_-_Liberty_Bridge_at_Falls_Park.jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>. Resized for display; adaptations shared under the same license.'))
 
 with open(OUT, 'w') as f:
