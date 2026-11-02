@@ -40,9 +40,11 @@ LUXURY = {
          'https://www.montage.com/palmettobluff/')],
     'st-augustine': [
         ('Oceanfront · About 30 minutes north', 'Ponte Vedra Inn & Club',
-         'A classic oceanfront resort in Ponte Vedra Beach with a spa, golf and beach club. Choose it for beach time; drive into the old city for the sights.'),
+         'A classic oceanfront resort in Ponte Vedra Beach with a spa, golf and beach club. Choose it for beach time; drive into the old city for the sights.',
+         'https://www.pontevedra.com/'),
         ('Oceanfront · Quieter', 'The Lodge & Club at Ponte Vedra Beach',
-         'The smaller sister property, with oceanfront rooms and a relaxed feel.')],
+         'The smaller sister property, with oceanfront rooms and a relaxed feel.',
+         'https://www.pontevedra.com/stay/lodge')],
     'greenville': [
         ('Travelers Rest · Countryside', 'Hotel Domestique',
          'A small, European-style luxury hotel in the foothills near Travelers Rest, about 30 minutes from downtown, with mountain views and a quiet setting. Pair it with a ride on the Swamp Rabbit Trail.')],
