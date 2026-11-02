@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['lake-lanier']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='lake-lanier', name='Lake Lanier', state='Georgia', number=21,
+    slug='lake-lanier', name='Lake Lanier', state='Georgia', number=21, reviewed=REVIEWED,
     description='A curated two-night Lake Lanier getaway for GA pilots and their partners, from KMYR to KGVL Gainesville. A lake resort, a day on the water, downtown Gainesville dinners and an easy wine-country side trip.',
     lede='A day on the water, a dinner downtown.',
     intro='Lake Lanier spreads across the North Georgia foothills with hundreds of miles of shoreline. Land in Gainesville beside the lake, spend a day on a pontoon, have dinner on Gainesville’s historic square, and, if you like, add a wine afternoon in Dahlonega, half an hour away.',
@@ -109,7 +110,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Boating safety', 'Wear life jackets and keep a sober skipper; the lake is busy and storms build quickly.')]) +
     '</section>')
 
-P.append(page_end(number=21, place='Lake Lanier, Georgia', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=21, place='Lake Lanier, Georgia', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:
