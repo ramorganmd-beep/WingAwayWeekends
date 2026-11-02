@@ -59,7 +59,6 @@ QUERY = {
     'Salamander suites': 'Salamander Middleburg, VA',
     'The Conservatory at Goodstone': 'Goodstone Inn & Restaurant, Middleburg, VA',
     'Turquoise Place': 'Turquoise Place, Orange Beach, AL',
-    'Turquoise Place suites': 'Turquoise Place, Orange Beach, AL',
     'Perdido Beach Resort': 'Perdido Beach Resort, Orange Beach, AL',
     'Voyagers': 'Voyagers, Perdido Beach Resort, Orange Beach, AL',
     'Perch': 'Perch, The Lodge at Gulf State Park, Gulf Shores, AL',
@@ -74,7 +73,7 @@ QUERY = {
     'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
     'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Luxury beach homes', 'Vineyard cottage rentals', 'Gulf-front beach homes', 'A picnic in Cades Cove'}
+SKIP = {'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
