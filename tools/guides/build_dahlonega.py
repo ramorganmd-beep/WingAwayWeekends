@@ -40,7 +40,7 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
          'https://www.dahlonegasresort.com/') +
     '</div></section>')
 
-P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners on the square and in the vines.',
+P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One relaxed lunch.',
     'The square has no chain restaurants. Reserve weekend dinners, and eat a little early; the square quiets down late.') +
     '<div class="grid three">' +
     card('Saturday dinner · Winery fine dining', 'Montaluce Winery & Restaurant',
@@ -49,6 +49,8 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners on the s
     card('Friday dinner · On the square', 'Bourbon Street Grille',
          'New Orleans-style Cajun and Creole cooking, with a porch overlooking the square. Ask for a porch table.',
          'https://www.thebourbonstreetgrille.com/') +
+    card('Lunch · On the square', 'Spirits Tavern',
+         'A lively spot on the square known for some of the best burgers in town and creative cocktails. For a Southern breakfast or lunch instead, try Foothill Grill.') +
     '</div></section>')
 
 P.append('<section id="wine">' + head('04', 'Wineries', 'Georgia wine country.',
