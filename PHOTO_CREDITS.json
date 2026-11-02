@@ -652,5 +652,50 @@
         "sha256": "5a47dcf5ed6f72af26deb3b4841e6918fc6bf85164967d5f0955b963392381f7"
       }
     ]
+  },
+  {
+    "destination": "Lake Keowee & Jocassee",
+    "title": "Lake Keowee photograph (Commons file title to be recorded)",
+    "photographer": "Andy Montgomery",
+    "source_page_url": "https://commons.wikimedia.org/w/index.php?search=Andy+Montgomery+Keowee&title=Special:MediaSearch&type=image",
+    "original_image_url": null,
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-02",
+    "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 2.0.",
+    "changes": "Supplied by the site owner as a screenshot of the Commons original together with a screenshot of the Commons attribution box (Andy Montgomery, CC BY-SA 2.0, via Wikimedia Commons); Commons downloads were rate-limited. Cropped from a panorama to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+    "alt": "Morning mist over Lake Keowee in fall, with a boathouse and docks below a wooded shore",
+    "date_taken": null,
+    "files": [
+      {
+        "path": "docs/assets/destinations/lake-keowee-morning-480.webp",
+        "width": 480,
+        "height": 360,
+        "bytes": 46950,
+        "sha256": "8bc035a44c05197ea20d05f48c845a07836e9bd7bcf342798ddc6e5e846825af"
+      },
+      {
+        "path": "docs/assets/destinations/lake-keowee-morning-480.jpg",
+        "width": 480,
+        "height": 360,
+        "bytes": 52434,
+        "sha256": "be57bba44665800fa0a0a79cb7faba75dca3b47b78a2a93a122acaa67a48e106"
+      },
+      {
+        "path": "docs/assets/destinations/lake-keowee-morning-960.webp",
+        "width": 960,
+        "height": 720,
+        "bytes": 135976,
+        "sha256": "0655ba206218a6abbae0fe9b63347bf116974c7bc28b907533a1f79d6b2b16de"
+      },
+      {
+        "path": "docs/assets/destinations/lake-keowee-morning-960.jpg",
+        "width": 960,
+        "height": 720,
+        "bytes": 162113,
+        "sha256": "d04e078d769027ea167ea0f1f82faa5fd67cd0be28c0686542bd1f26c199eeeb"
+      }
+    ]
   }
 ]
