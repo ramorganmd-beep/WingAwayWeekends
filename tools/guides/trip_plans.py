@@ -139,6 +139,27 @@ PLANS = {
         'extra': [('Morning', 'The Alum Cave trail, or Grotto Falls.'),
                   ('Afternoon', 'Dollywood, or a long lunch at Blackberry Farm.'),
                   ('Evening', 'Sunset from Newfound Gap, if the road is open.')]},
+    'lake-lure': {
+        'day': [('Arrive', 'Land at KFQD mid-morning and borrow the courtesy car or pick up a rental.'),
+                ('Midday', 'Lunch by the lake at Rumbling Bald.'),
+                ('Afternoon', 'A look out over the gorge at Chimney Rock, then back to the FBO before it closes.')],
+        'extra': [('Morning', 'A longer hike at Rumbling Bald or Bat Cave.'),
+                  ('Afternoon', 'A boat on the lake, or an afternoon at the beach.'),
+                  ('Evening', 'Dinner at La Strada.')]},
+    'lake-keowee': {
+        'day': [('Arrive', 'Land at KCEU mid-morning and pick up a rental car.'),
+                ('Midday', 'Lunch at the Tiki Hut by Keowee Marina.'),
+                ('Afternoon', 'A short pontoon cruise on Lake Keowee, then fly home.')],
+        'extra': [('Morning', 'The summit trail at Table Rock State Park.'),
+                  ('Afternoon', 'Kayaks on Lake Jocassee, or Whitewater Falls.'),
+                  ('Evening', 'A second sunset at The Lighthouse.')]},
+    'lake-lanier': {
+        'day': [('Arrive', 'Land at KGVL mid-morning and pick up a rental car.'),
+                ('Midday', 'A few hours on a rented pontoon.'),
+                ('Afternoon', 'A late lunch on Gainesville’s square, then back to the FBO.')],
+        'extra': [('Morning', 'A drive to Dahlonega and its Gold Museum.'),
+                  ('Afternoon', 'A winery tasting for the non-pilot.'),
+                  ('Evening', 'Dinner at Cotto Modern Italian.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
