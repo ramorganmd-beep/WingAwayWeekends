@@ -5,11 +5,12 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
+REVIEWED = 'November 2, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['lake-lanier']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
 P = [page_start(
-    slug='lake-lanier', name='Lake Lanier', state='Georgia', number=21,
+    slug='lake-lanier', name='Lake Lanier', state='Georgia', number=21, reviewed=REVIEWED,
     description='A curated two-night Lake Lanier getaway for GA pilots and their partners, from KMYR to KGVL Gainesville. A lake resort, a day on the water, downtown Gainesville dinners and an easy wine-country side trip.',
     lede='A day on the water, a dinner downtown.',
     intro='Lake Lanier spreads across the North Georgia foothills with hundreds of miles of shoreline. Land in Gainesville beside the lake, spend a day on a pontoon, have dinner on Gainesville’s historic square, and, if you like, add a wine afternoon in Dahlonega, half an hour away.',
@@ -30,9 +31,11 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A lake resort, or a lake house of your own. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Lake resort · Lanier Islands', 'Lanier Islands Legacy Lodge',
-         'A lodge on the islands at the south end of the lake, with lake views, a pool, golf, a spa and Sidney’s restaurant. The easy, all-in-one choice.') +
-    card('Private · Lakefront', 'Lake Lanier vacation rentals',
-         'A lake house with a private dock, closer to Gainesville. Book early for summer weekends, and ask about the dock and boat rules.') +
+         'A lodge on the islands at the south end of the lake, with lake views, a pool, golf, a spa and Sidney’s restaurant. The easy, all-in-one choice.',
+         'https://www.lanierislands.com/lake_lanier_accommodations/legacy-lodge/') +
+    card('Private · Lakefront', 'Lanier Islands lake houses',
+         'Private lake houses on the resort islands, with room to spread out and the resort’s pools, spa and restaurants close by. Book early for summer weekends.',
+         'https://www.lanierislands.com/lake_lanier_accommodations/georgia_lake_houses/', 'Lanier Islands lake houses') +
     card('In the hills · Wine country', 'Dahlonega, 30 minutes north',
          'Combine the lake with wine country: stay on Dahlonega’s square and drive down for a day on the water. See our Dahlonega guide.',
          '../dahlonega/', 'Dahlonega guide') +
@@ -42,18 +45,22 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Downtown dinners, la
     'Downtown Gainesville has the best restaurants; the resort has the views. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · Downtown', 'Luna’s Restaurant',
-         'A special-occasion favorite on Gainesville’s square, with a piano lounge for a drink and live music before dinner.') +
+         'A special-occasion favorite on Gainesville’s square, with a piano lounge for a drink and live music before dinner.',
+         'https://www.lunas.com/') +
     card('Saturday dinner · Steakhouse', 'CHR Steak',
-         'An upscale, modern steakhouse downtown, led by its chef-owner. The dressed-up night.') +
+         'An upscale, modern steakhouse downtown, led by its chef-owner. The dressed-up night.',
+         'https://www.chrsteak.com/') +
     card('Lunch · Lake views', 'Sidney’s at Legacy Lodge',
-         'Seasonal cooking with a view over the lake at Lanier Islands. For Italian downtown instead, try Cotto Modern Italian.') +
+         'Seasonal cooking with a view over the lake at Lanier Islands. For Italian downtown instead, try Cotto Modern Italian.',
+         'https://www.lanierislands.com/lake_lanier_restaurants/sidneys/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Mostly, the water.',
     'Spend one day on the lake and one exploring.') +
     '<div class="explore-list">' +
     explore(1, 'A day on a pontoon',
-            'Rent a pontoon and find a quiet cove for a swim and a picnic. Hundreds of miles of wooded shoreline make it easy to escape the crowds.') +
+            'Rent a pontoon and find a quiet cove for a swim and a picnic. Hundreds of miles of wooded shoreline make it easy to escape the crowds. Lanier Luxury Boat Rentals is one well-reviewed option.',
+            'https://lanierluxuryboatrentals.com/', 'Lanier Luxury Boat Rentals') +
     explore(2, 'Lanier Islands',
             'The resort islands at the lake’s south end have a beach, golf, a spa and boat rentals. Easy for an afternoon even if you stay elsewhere.') +
     explore(3, 'Lake Lanier Olympic Park',
@@ -71,7 +78,8 @@ P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes t
     card('May–September', 'Lake season',
          'Warm water and long days on the lake. Summer weekends are very busy; go early or choose a weekday.') +
     card('November–January', 'Magical Nights of Lights',
-         'Lanier Islands’ drive-through holiday light show, a long-running North Georgia tradition. Check dates and tickets.') +
+         'Lanier Islands’ drive-through holiday light show, a long-running North Georgia tradition. Check dates and tickets.',
+         'https://www.lanierislands.com/holiday-events/magical-nights-of-lights/') +
     card('Spring & fall', 'Best seasons',
          'Mild weather and a quieter lake. Fall color peaks in late October.') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the lake visitor site when choosing a weekend, and confirm dates and tickets with the organizer.</p></div>'
@@ -102,7 +110,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Boating safety', 'Wear life jackets and keep a sober skipper; the lake is busy and storms build quickly.')]) +
     '</section>')
 
-P.append(page_end(number=21, place='Lake Lanier, Georgia', note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=21, place='Lake Lanier, Georgia', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:

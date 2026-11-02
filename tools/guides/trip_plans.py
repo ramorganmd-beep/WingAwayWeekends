@@ -147,7 +147,7 @@ PLANS = {
                   ('Afternoon', 'A boat on the lake, or an afternoon at the beach.'),
                   ('Evening', 'Dinner at La Strada.')]},
     'lake-keowee': {
-        'day': [('Arrive', 'Land at KCEU mid-morning and pick up a rental car.'),
+        'day': [('Arrive', 'Land at KCEU or KLQK mid-morning and pick up a car.'),
                 ('Midday', 'Lunch at the Tiki Hut by Keowee Marina.'),
                 ('Afternoon', 'A short pontoon cruise on Lake Keowee, then fly home.')],
         'extra': [('Morning', 'The summit trail at Table Rock State Park.'),
