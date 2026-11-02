@@ -30,22 +30,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A riverfront hotel, a grand historic one, or a stylish small one. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Riverfront · Autograph Collection', 'The Edwin Hotel',
-         'A boutique hotel on the river between the Aquarium and the Hunter Museum, with a rooftop bar and views of the Walnut Street Bridge. The romantic choice.') +
+         'A boutique hotel on the river between the Aquarium and the Hunter Museum, with a rooftop bar and views of the Walnut Street Bridge. The romantic choice.',
+         'https://www.theedwinhotel.com/') +
     card('Historic · Downtown', 'The Read House',
-         'A grand downtown hotel with roots in the 1870s, restored with Jazz Age glamour and an excellent bar. Walk to dinner.') +
+         'A grand downtown hotel with roots in the 1870s, restored with Jazz Age glamour and an excellent bar. Walk to dinner.',
+         'https://www.thereadhousehotel.com/') +
     card('Design hotel · Intimate', 'The Dwell Hotel',
-         'A small, colorful boutique hotel in a restored historic building, with a cocktail bar and a retro-modern feel.') +
+         'A small, colorful boutique hotel in a restored historic building, with a cocktail bar and a retro-modern feel.',
+         'https://thedwellhotel.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long lunch.',
     'Chattanooga punches well above its size for food. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · Seafood', 'Easy Bistro & Bar',
-         'A polished downtown bistro known for seafood, oysters and a lively bar. An easy, festive first night.') +
+         'A polished downtown bistro known for seafood, oysters and a lively bar. An easy, festive first night.',
+         'https://www.easybistro.com/') +
     card('Saturday dinner · Southern fine dining', 'St. John’s Restaurant',
-         'Seasonal Southern fine dining in a formal downtown room, with an award-winning wine list. The special-occasion dinner.') +
+         'Seasonal Southern fine dining in a formal downtown room, with an award-winning wine list. The special-occasion dinner.',
+         'https://www.stjohnsrestaurant.com/') +
     card('Alternative · Tasting menu', 'Calliope',
-         'An inventive Levantine-inspired tasting menu, one of the city’s most talked-about tables. Book well ahead.') +
+         'An inventive Levantine-inspired tasting menu, one of the city’s most talked-about tables. Book well ahead.',
+         'https://www.callioperestaurant.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'River, mountain and a little nostalgia.',
@@ -56,22 +62,26 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'River, mountain 
     explore(2, 'Walnut Street Bridge & the North Shore',
             'A long pedestrian bridge across the Tennessee River to Coolidge Park, shops and cafés. Best at sunset.') +
     explore(3, 'Tennessee Aquarium',
-            'Two buildings on the riverfront, following the water from the Appalachian mountains to the sea. Allow two to three hours.') +
+            'Two buildings on the riverfront, following the water from the Appalachian mountains to the sea. Allow two to three hours.',
+            'https://tnaqua.org/', 'Aquarium tickets') +
     explore(4, 'Bluff View Art District & Hunter Museum',
             'American art in a museum on a bluff over the river, with a sculpture garden, cafés and a walking path nearby.') +
     explore(5, 'The Chattanooga Choo Choo',
-            'The restored 1909 Terminal Station on the Southside, with gardens, restaurants and the classic train. Fun for a stroll and a drink.') +
+            'The restored 1909 Terminal Station on the Southside, with gardens, restaurants and the classic train. Fun for a stroll and a drink.',
+            'https://choochoo.com/', 'Chattanooga Choo Choo') +
     '</div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the event is the reason to fly.',
     'This prototype links to the city calendar. It does not yet match events to your travel dates.') +
     '<div class="grid three">' +
     card('June', 'Riverbend Festival',
-         'Chattanooga’s big riverfront music festival. Fun and crowded; book lodging early.') +
+         'Chattanooga’s big riverfront music festival. Fun and crowded; book lodging early.',
+         'https://www.riverbendfestival.com/') +
     card('October', 'Fall color',
          'The ridges around the city turn in mid-to-late October. The views from Lookout Mountain are at their best.') +
     card('November–January', 'Rock City lights',
-         'Rock City’s holiday light show on top of Lookout Mountain. Timed tickets often sell out.') +
+         'Rock City’s holiday light show on top of Lookout Mountain. Timed tickets often sell out.',
+         'https://www.seerockcity.com/enchanted-garden-of-lights/') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the city calendar when choosing a weekend, and confirm dates and tickets with the organizer.</p></div>'
     '<a class="button" href="https://www.chattanoogafun.com/" target="_blank" rel="noopener">Browse Chattanooga events</a></div></section>')
 

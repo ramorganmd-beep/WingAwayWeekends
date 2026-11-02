@@ -116,9 +116,11 @@ LUXURY = {
          'A private beach house in Orange Beach or Fort Morgan, often with a pool. Book through a local rental agency; summer stays may require a week.')],
     'chattanooga': [
         ('Upgrade · River views', 'The Edwin suites',
-         'The Edwin is already the city’s romantic choice. For a step up, ask for a river-view suite overlooking the Walnut Street Bridge.'),
+         'The Edwin is already the city’s romantic choice. For a step up, ask for a river-view suite overlooking the Walnut Street Bridge.',
+         'https://www.theedwinhotel.com/hotel-rooms-downtown-chattanooga'),
         ('Historic inn · Fort Wood', 'Mayor’s Mansion Inn',
-         'A restored Victorian mansion turned bed and breakfast in a quiet historic neighborhood near downtown. Intimate and romantic.')],
+         'A restored Victorian mansion turned bed and breakfast in a quiet historic neighborhood near downtown. Intimate and romantic.',
+         'https://mayorsmansioninn.com/')],
     'smoky-mountains': [
         ('Ultra-luxury · Walland', 'Blackberry Farm',
          'One of America’s most celebrated country hotels, in the foothills near Townsend, known for its food, wine and service. About 25 minutes from KTYS. A once-in-a-lifetime splurge.',
