@@ -1030,5 +1030,150 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Bardstown & Bourbon Country",
+ "state": "Kentucky",
+ "airport": "KBRY",
+ "lat": 37.8143,
+ "lon": -85.4996,
+ "desc": "The Bourbon Capital of the World: distillery tours, a 1779 tavern, Maker’s Mark and My Old Kentucky Home.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "bardstown/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Dayton",
+ "state": "Ohio",
+ "airport": "KMGY",
+ "lat": 39.589,
+ "lon": -84.2249,
+ "desc": "The National Museum of the U.S. Air Force, the Wright brothers’ workshops and flying field, and Yellow Springs.",
+ "tags": [
+  "Aviation museums",
+  "History",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "dayton/",
+ "stateCode": "OH",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Mackinac Island",
+ "state": "Michigan",
+ "airport": "KMCD",
+ "lat": 45.8649,
+ "lon": -84.6373,
+ "desc": "A car-free island of horse-drawn carriages, the Grand Hotel’s porch, a historic fort, bikes and fudge.",
+ "tags": [
+  "Stays",
+  "History",
+  "Outdoors",
+  "Scenic views",
+  "Lake",
+  "Dining"
+ ],
+ "guide": "mackinac/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "French Lick",
+ "state": "Indiana",
+ "airport": "KFRH",
+ "lat": 38.5062,
+ "lon": -86.6369,
+ "desc": "Two restored historic spa hotels, West Baden’s famous dome, Pete Dye golf and mineral spas.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Golf",
+  "History",
+  "Dining"
+ ],
+ "guide": "french-lick/",
+ "stateCode": "IN",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Galena",
+ "state": "Illinois",
+ "airport": "KDBQ",
+ "lat": 42.402,
+ "lon": -90.7095,
+ "desc": "A 19th-century river town of brick shops, Grant’s home, rolling hills, wineries and the Mississippi.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Wine",
+  "Scenic views",
+  "Spa"
+ ],
+ "guide": "galena/",
+ "stateCode": "IL",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Door County",
+ "state": "Wisconsin",
+ "airport": "KSUE",
+ "lat": 44.8437,
+ "lon": -87.4215,
+ "desc": "Harbor villages, cherry orchards, lighthouses, a fish boil and goats on a restaurant roof.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Outdoors",
+  "Scenic views",
+  "Lake",
+  "Hiking"
+ ],
+ "guide": "door-county/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
 }
 ];

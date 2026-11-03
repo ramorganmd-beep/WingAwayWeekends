@@ -29,6 +29,8 @@ TOWN = {
     'stowe': 'Stowe, VT', 'saratoga': 'Saratoga Springs, NY', 'gettysburg': 'Gettysburg, PA',
     'lancaster': 'Lancaster, PA', 'hudson-valley': 'Rhinebeck, NY', 'mystic': 'Mystic, CT', 'portsmouth': 'Portsmouth, NH',
     'kennebunkport': 'Kennebunkport, ME', 'berkshires': 'Lenox, MA', 'lake-placid': 'Lake Placid, NY', 'marthas-vineyard': 'Edgartown, MA',
+    'bardstown': 'Bardstown, KY', 'dayton': 'Dayton, OH', 'mackinac': 'Mackinac Island, MI', 'french-lick': 'French Lick, IN',
+    'galena': 'Galena, IL', 'door-county': 'Fish Creek, WI',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -99,7 +101,7 @@ QUERY = {
     'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
     'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Stonington Borough', 'Greenbrier cottages & estate homes', 'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
+SKIP = {'Downtown Bardstown', 'Main Street cafés', 'Fudge on Main Street', 'Stonington Borough', 'Greenbrier cottages & estate homes', 'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 

@@ -275,3 +275,14 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - With batch 2 all eight Northeast states have at least one guide. Next region: Midwest.
 - Saratoga photo: Library of Congress "Race Course, Saratoga, N.Y." (Detroit Publishing Co., 1905 postcard, no known restrictions) as saratoga-race-course-1905, postcard border trimmed. Owner picks pending apply: Newport 8 (Unsplash -zle9Sv7QQo tall ship, replaces The Breakers), Bar Harbor 3 (Unsplash hTig1fjrMe8 docks), Stowe 3 (Commons "Stowe VT Community Church (51626887231).jpg", CC BY 2.0).
 - Owner approved all 14 Northeast guides ("northeast region lg", Nov 3, 2026): REVIEWED set in every builder. Published now (photos in place): Newport, Nantucket, Gettysburg, Saratoga Springs. The other 10 stay "draft": true until their photos are applied; when a photo lands, remove the draft flag and add the guide to sitemap.xml.
+
+### Midwest region (started November 3, 2026)
+- Owner decision: Midwest = KY, OH, MI, IN, IL, WI.
+- **Batch 1 (drafts, numbers 44–49, placeholder illustrations):**
+  - Bardstown & Bourbon Country KY (`bardstown`, KBRY; family false): Samuels Field Aviation, 1924 Boston Road, Bardstown, KY 40004, 502-348-7858 (unattended Sundays). Talbott Tavern & Inn, Bourbon Manor, Bardstown Bourbon Co.; Old Talbott Tavern, Bottle & Bond. Bottle-to-throttle note; hire a driver.
+  - Dayton OH (`dayton`, KMGY): First Flight Aviation, 10600 Springboro Pike, Miamisburg, OH 45342, 937-885-5580. National Museum of the USAF, Dayton Aviation Heritage NHP, Huffman Prairie, Carillon Park (Wright Flyer III), Yellow Springs. AC Hotel Dayton, Mills Park Hotel; Lily's Bistro, Salar, Young's Jersey Dairy.
+  - Mackinac Island MI (`mackinac`, KMCD): state-park airport, 906-847-3231, not a full-service FBO; 3,500 ft runway. Grand Hotel, Chippewa Hotel, Mission Point; Pink Pony, Grand Hotel Main Dining Room.
+  - French Lick IN (`french-lick`, KFRH): French Lick Municipal, 9764 W. County Road 375 S., 812-936-2222; resort shuttle. West Baden Springs, French Lick Springs, RidgeView Cottages; 1875: The Steakhouse, Sinclair's.
+  - Galena IL (`galena`, KDBQ in Iowa, ~30 min): Dubuque Jet Center, 11000 Airport Road, Dubuque, IA 52003, 563-589-4136. DeSoto House, Eagle Ridge; Fritz & Frites, One Eleven Main.
+  - Door County WI (`door-county`, KSUE): Tailwind Flight Center, 3538 Park Drive, Sturgeon Bay, WI 54235, 920-746-2581. White Gull Inn, Eagle Harbor Inn, Whistling Swan; White Gull fish boil, Wild Tomato, Al Johnson's.
+- Batch 2 planned: Lexington KY, Put-in-Bay OH, Traverse City MI, Chicago IL, Lake Geneva WI, Oshkosh & EAA WI.

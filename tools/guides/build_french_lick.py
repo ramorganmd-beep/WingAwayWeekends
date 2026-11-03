@@ -1,0 +1,51 @@
+"""Generate docs/french-lick/index.html (French Lick and West Baden Springs, Indiana)."""
+import sys
+sys.path.insert(0, __file__.rsplit("/", 1)[0])
+from simple_guide import build  # noqa: E402
+
+GUIDE = dict(
+    slug='french-lick', name='French Lick', state='Indiana', number=47, reviewed=None,
+    airport='KFRH', nm=473, flight_time='~3 hr 25 <small>min</small>', style='Resort shuttle',
+    place='French Lick, Indiana',
+    description='A curated two-night French Lick getaway for GA pilots and their partners, from KMYR to KFRH. Two restored historic spa hotels, a famous domed atrium, Pete Dye golf, mineral spas and a scenic railway.',
+    lede='Two grand spa hotels and a famous dome.',
+    intro='In the hills of southern Indiana, two grand hotels grew up around mineral springs a century ago. Both have been beautifully restored. Stay under West Baden’s soaring dome, once called the Eighth Wonder of the World, soak in the mineral spa, play a Pete Dye course on a hilltop and ride a vintage train through the woods.',
+    pills=['Historic resort', 'Spa', 'Pete Dye golf'],
+    flight=dict(
+        title='Land minutes from the resort.',
+        intro='KFRH, French Lick Municipal, is a small airport a few minutes from both hotels.',
+        fbo=('French Lick Municipal Airport', '9764 W. County Road 375 S., French Lick, IN 47432', '812-936-2222'),
+        notes=['Directories list hours of about 9 a.m. to 5 p.m., with an after-hours fee. Pilots report the staff will call the resort shuttle for pickup; confirm with the FBO and the resort before you go. No live fuel price is shown.',
+               'Rolling, wooded hills surround the field. Review the sectional and current NOTAMs.'],
+        around_title='The resort shuttle does the driving.',
+        around='A complimentary shuttle links the two hotels, the golf courses and the town.'),
+    stay=dict(title='Choose your grand hotel.', intro='Rates and availability need travel dates.',
+        cards=[('West Baden · The dome', 'West Baden Springs Hotel', 'Rooms around a vast domed atrium, restored to its 1902 grandeur, with gardens and a spa.', 'https://www.frenchlick.com/hotels.htm'),
+               ('French Lick · Classic', 'French Lick Springs Hotel', 'A grand 1901 hotel with a long porch, a mineral spa, restaurants and the casino next door.', 'https://www.frenchlick.com/hotels.htm'),
+               ('Resort · Cottages', 'RidgeView Cottages', 'Private cottages at the resort for more space, with the shuttle to both hotels.', 'https://www.frenchlick.com/hotels.htm')]),
+    eat=dict(title='Two dinners. One with a view.', intro='Reserve dinners at the resort.',
+        cards=[('Friday dinner · Steakhouse', '1875: The Steakhouse', 'French Lick Springs Hotel’s signature restaurant, named for the year of the first Kentucky Derby.', 'https://www.frenchlick.com/dining.htm'),
+               ('Saturday dinner · West Baden', 'Sinclair’s Restaurant', 'Fine dining in West Baden Springs’ original dining room, just off the domed atrium.', 'https://www.frenchlick.com/dining.htm'),
+               ('Afternoon · Winery', 'French Lick Winery', 'A local winery and café a short drive away. Taste on the non-flying day.', 'https://frenchlickwinery.com/')]),
+    explore=dict(title='Domes, springs and hills.', intro='Slow, relaxing and easy.',
+        items=[('The West Baden dome', 'Stand under the 200-foot dome and take a historic hotel tour.'),
+               ('Pete Dye Course', 'A dramatic hilltop course with views across the hills, one of the best in the Midwest.', 'https://www.frenchlick.com/golf.htm', 'Golf'),
+               ('French Lick Scenic Railway', 'A vintage train ride through the hills and a long tunnel. Seasonal.'),
+               ('The springs and Pluto Water', 'Learn the story of the mineral water that made the towns famous.'),
+               ('Gardens and the casino', 'Formal gardens at West Baden, and the casino at French Lick.')]),
+    spa=dict(title='The resort spas', body='Both hotels have spas with mineral baths and couples treatments, a tradition here for more than a century.'),
+    events=dict(url='https://timelessfrenchlick.com/', button='Browse French Lick events',
+        cards=[('Spring', 'Golf season opens', 'Mild weather and blooming gardens.'),
+               ('October', 'Fall color', 'Southern Indiana’s hills turn gold and red.'),
+               ('November–December', 'Holidays at the resort', 'Decorations under the dome.')]),
+    itinerary=dict(intro='A sample Friday–Sunday weekend: the dome, the spa, golf and two resort dinners. No bookings or availability confirmed.',
+        days=[('FRI', 'Arrive & the dome', [('Arrival', 'Land at KFRH, subject to weather and your actual flight plan, and take the shuttle.'), ('Afternoon', 'A historic hotel tour under the West Baden dome.'), ('Evening', 'Dinner at 1875: The Steakhouse.')]),
+              ('SAT', 'Spa & golf', [('Morning', 'A round on the Pete Dye Course, or a spa morning.'), ('Afternoon', 'The scenic railway or the winery.'), ('Evening', 'Dinner at Sinclair’s.')]),
+              ('SUN', 'An easy departure', [('Morning', 'A walk through the gardens.'), ('Before leaving', 'Arrange the shuttle and check FBO hours.'), ('Fly home', 'Let weather and your flight plan set the departure.')])]),
+    know=[('Book in this order', 'The hotel first, then tee times, spa and dinners.'),
+          ('FBO hours', 'Arrive and depart during staffed hours, or expect an after-hours fee.'),
+          ('Ground transport', 'Confirm the resort shuttle pickup before you go.'),
+          ('Dates come next', 'Rates and restaurant hours are date-dependent. No availability or live price is implied here.')])
+
+if __name__ == '__main__':
+    build(GUIDE, sys.argv[1])

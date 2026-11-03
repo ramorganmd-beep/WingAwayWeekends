@@ -416,5 +416,83 @@
     "caption": "Martha’s Vineyard (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
     "placeholder": true
+  },
+  "bardstown": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Bardstown & Bourbon Country (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "dayton": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Dayton (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "mackinac": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Mackinac Island (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "french-lick": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "French Lick (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "galena": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Galena (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "door-county": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Door County (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }
