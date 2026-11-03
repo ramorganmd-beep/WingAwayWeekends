@@ -54,6 +54,7 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
     nav_html = ''.join(f'<a href="#{i}">{t}</a>' for i, t in nav)
     return (f'<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
             f'<meta name="theme-color" content="#102d40"><meta name="description" content="{description}">'
+            f'{"" if reviewed else "<meta name=\"robots\" content=\"noindex\">"}'
             f'<title>{name} Couples Getaway | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/{slug}/">'
             f'<link rel="icon" type="image/svg+xml" href="{ICON}"><link rel="stylesheet" href="../style.css"></head><body>\n'
             f'<a class="skip" href="#main">Skip to destination</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a>'

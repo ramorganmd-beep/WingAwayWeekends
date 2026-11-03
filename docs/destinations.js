@@ -1,5 +1,5 @@
 // WingAway Weekends destinations: the single source for the homepage cards and the photo review page.
-// Add a destination by adding one entry. Fields: name, state, stateCode, region, airport, lat, lon, desc, tags, guide, family (true/false/null = not yet decided), photo {slug, alt, pos?, large?, remote?}.
+// Add a destination by adding one entry. Fields: name, state, stateCode, region, airport, lat, lon, desc, tags, guide, family (true/false/null = not yet decided), draft (true = hidden from the homepage until the owner reviews it; view with ?preview=1), photo {slug, alt, pos?, large?, remote?}.
 window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Nashville",
@@ -619,6 +619,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "st-michaels/",
+ "draft": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
@@ -644,6 +645,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Aviation museums"
  ],
  "guide": "cape-may/",
+ "draft": true,
  "stateCode": "NJ",
  "region": "Mid-Atlantic",
  "family": true,
@@ -667,6 +669,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "shenandoah/",
+ "draft": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -691,6 +694,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views"
  ],
  "guide": "homestead/",
+ "draft": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -715,6 +719,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "greenbrier/",
+ "draft": true,
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
