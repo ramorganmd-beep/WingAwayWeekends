@@ -693,10 +693,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
- "photo": {
-  "slug": "homestead-valley",
-  "alt": "Illustration of layered mountain ridges at sunrise"
- }
+ "photo": {"slug": "homestead-old-wing", "alt": "The columned entrance and red-brick wings of The Omni Homestead Resort in Hot Springs, Virginia"}
 },
 {
  "name": "The Greenbrier",
@@ -718,9 +715,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
- "photo": {
-  "slug": "greenbrier-valley",
-  "alt": "Illustration of mountain ridges above a valley"
- }
+ "photo": {"slug": "greenbrier-front", "alt": "The white columned façade of The Greenbrier resort under a clear blue sky"}
 }
 ];

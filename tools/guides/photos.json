@@ -215,29 +215,27 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@durul?utm_source=wingaway_weekends&utm_medium=referral\">durul dalkanat</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-mountain-with-a-sunset-in-the-background-YkpOqgtqulE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "homestead": {
-    "slug": "homestead-valley",
+    "slug": "homestead-old-wing",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered mountain ridges at sunrise",
+    "alt": "The columned entrance and red-brick wings of The Omni Homestead Resort in Hot Springs, Virginia",
     "w": 960,
     "h": 720,
-    "caption": "The Allegheny Mountains (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Homestead’s front entrance",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Homestead_Resort_old_wing_2016.jpg\">Homestead Resort old wing 2016.jpg</a> — Antony-22 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "greenbrier": {
-    "slug": "greenbrier-valley",
+    "slug": "greenbrier-front",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of mountain ridges above a valley",
+    "alt": "The white columned façade of The Greenbrier resort under a clear blue sky",
     "w": 960,
     "h": 720,
-    "caption": "The Greenbrier Valley (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Greenbrier’s white façade",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Greenbrier_Historic_Resort_Hotel.jpg\">The Greenbrier Historic Resort Hotel.jpg</a> — Carol M. Highsmith · Public domain (Carol M. Highsmith Archive, Library of Congress). Cropped to 4:3 and resized."
   }
 }

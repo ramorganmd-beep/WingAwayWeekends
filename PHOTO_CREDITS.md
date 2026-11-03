@@ -235,3 +235,19 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by durul dalkanat on Unsplash — https://unsplash.com/photos/a-view-of-a-mountain-with-a-sunset-in-the-background-YkpOqgtqulE
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Blackrock Summit, Shenandoah National Park, VA (photographer caption; no geotag)
+
+## The Homestead
+
+- Title: Homestead Resort old wing 2016.jpg
+- Photographer: Antony-22
+- Source: https://commons.wikimedia.org/wiki/File:Homestead_Resort_old_wing_2016.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: center-cropped to 4:3, resized, converted to WebP/JPEG
+
+## The Greenbrier
+
+- Title: The Greenbrier Historic Resort Hotel.jpg
+- Photographer: Carol M. Highsmith
+- Source: https://commons.wikimedia.org/wiki/File:The_Greenbrier_Historic_Resort_Hotel.jpg
+- License: Public domain (Carol M. Highsmith Archive, Library of Congress)
+- Changes: center-cropped to 4:3, resized, converted to WebP/JPEG
