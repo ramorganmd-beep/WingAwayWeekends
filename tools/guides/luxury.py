@@ -14,11 +14,14 @@ from pathlib import Path
 LUXURY = {
     'savannah': [
         ('Luxury Collection · Historic district', 'Perry Lane Hotel',
-         'Savannah’s Luxury Collection hotel on East Perry Street, with art-filled rooms, a rooftop bar and a short walk to the squares.'),
+         'Savannah’s Luxury Collection hotel on East Perry Street, with art-filled rooms, a rooftop bar and a short walk to the squares.',
+         'https://www.marriott.com/en-us/hotels/savlc-perry-lane-hotel-a-luxury-collection-hotel-savannah/overview/'),
         ('Grand inn · Victorian', 'The Gastonian',
-         'A pair of 1868 mansions turned luxury inn, with fireplaces in the rooms and a quiet setting near Forsyth Park.'),
+         'A pair of 1868 mansions turned luxury inn, with fireplaces in the rooms and a quiet setting near Forsyth Park.',
+         'https://www.gastonian.com/'),
         ('Riverfront · Design-forward', 'The Alida',
-         'A modern riverfront hotel with a rooftop bar, an easy walk to River Street and the historic district.')],
+         'A modern riverfront hotel with a rooftop bar, an easy walk to River Street and the historic district.',
+         'https://www.marriott.com/en-us/hotels/savtx-the-alida-savannah-a-tribute-portfolio-hotel/overview/')],
     'asheville': [
         ('Biltmore Village · Lodge style', 'Grand Bohemian Hotel Asheville',
          'A lodge-style luxury hotel at the entrance to Biltmore Village, steps from the estate gates. Ideal for a Biltmore-centered weekend.',
