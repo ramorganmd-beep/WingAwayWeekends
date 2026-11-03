@@ -228,3 +228,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 ### Phase 1 decisions (Nov 3, 2026)
 - Confirmed: Virginia and West Virginia belong to the Mid-Atlantic region (Charlottesville, Virginia Hunt Country, Harpers Ferry). Everything else stays Southeast.
 - Reviewer checklist: plans/reviewer-checklist.html and .pdf (one page). Hand it to recruited reviewers with the invitation.
+- Region filter and kids toggle (Phase 1 Step B, live): homepage has a Region select (All / Southeast / Mid-Atlantic, matched on `region`) and a "Traveling with kids" switch (shows only `family: true`). Both sync to the URL, so links like `/?region=mid-atlantic` and `/?kids=1` work and can be shared. Family tags approved by owner: all true except Key West, Yadkin Valley, Virginia Hunt Country and Highlands–Cashiers. Unknown-airport message no longer lists states (all U.S. airports are covered).
