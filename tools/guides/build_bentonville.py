@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='bentonville', name='Bentonville & Crystal Bridges', state='Arkansas', number=53, reviewed=None,
+    slug='bentonville', name='Bentonville & Crystal Bridges', state='Arkansas', number=53, reviewed='November 3, 2026',
     airport='KVBT', nm=768, flight_time='~5 hr 23 <small>min</small>', style='Bikes + short drives',
     place='Bentonville, Arkansas',
     description='A curated two-night Bentonville getaway for GA pilots and their partners, from KMYR to KVBT. Crystal Bridges Museum of American Art, the Momentary, forest trails, a lively square and coffee on the airfield.',

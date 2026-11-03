@@ -599,17 +599,17 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@erin1592?utm_source=wingaway_weekends&utm_medium=referral\">Erin Caher</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-brown-seashells-on-white-snow-iKBWyg2VD2k?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "islamorada": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1520520731457-9283dd14aa66?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzM3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "A quiet beach under palms in Islamorada, in the Florida Keys",
     "w": 960,
     "h": 720,
-    "caption": "Islamorada (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A beach in Islamorada",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@lukephotography?utm_source=wingaway_weekends&utm_medium=referral\">Keith Luke</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-canoe-near-palm-tree-sPU2kzPIf28?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "palm-beach": {
     "slug": "https://images.unsplash.com/photo-1576124908098-b386317d160f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0",

@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='hot-springs', name='Hot Springs', state='Arkansas', number=52, reviewed=None,
+    slug='hot-springs', name='Hot Springs', state='Arkansas', number=52, reviewed='November 3, 2026',
     airport='KHOT', nm=706, flight_time='~4 hr 58 <small>min</small>', style='Rental car + walks',
     place='Hot Springs, Arkansas',
     description='A curated two-night Hot Springs getaway for GA pilots and their partners, from KMYR to KHOT. A national park built around thermal springs, Bathhouse Row, a traditional bath, gardens and a brewery in a bathhouse.',

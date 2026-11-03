@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='eureka-springs', name='Eureka Springs', state='Arkansas', number=54, reviewed=None,
+    slug='eureka-springs', name='Eureka Springs', state='Arkansas', number=54, reviewed='November 3, 2026',
     airport='4M1', nm=740, flight_time='~5 hr 11 <small>min</small>', style='Rental car + walks',
     place='Eureka Springs, Arkansas',
     description='A curated two-night Eureka Springs getaway for GA pilots and their partners, from KMYR to 4M1. A Victorian spa town built into Ozark hillsides, a famous 1886 hotel, Thorncrown Chapel and a wildlife refuge.',

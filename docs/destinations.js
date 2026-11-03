@@ -1155,7 +1155,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MO",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "lake-ozarks", "remote": "https://images.unsplash.com/photo-1648325607695-c52d4d32f459?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE1fA&ixlib=rb-4.1.0", "alt": "Boats anchored in a wooded cove on Lake of the Ozarks", "pos": "50% 50%"}
 },
 {
@@ -1176,7 +1175,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "hot-springs", "remote": "https://images.unsplash.com/photo-1697402971617-e885b672330a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0", "alt": "An aerial view of Hot Springs, Arkansas, among wooded Ouachita hills", "pos": "50% 50%"}
 },
 {
@@ -1197,7 +1195,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "bentonville", "remote": "https://images.unsplash.com/photo-1766289496585-f0a28f075e75?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0", "alt": "The curved roofs of Crystal Bridges Museum of American Art over its ponds", "pos": "50% 50%"}
 },
 {
@@ -1243,7 +1240,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MN",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "duluth", "remote": "https://images.unsplash.com/photo-1573340488467-1acc1bb9d15d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk3fA&ixlib=rb-4.1.0", "alt": "A high view over the forested hills above Duluth and Lake Superior", "pos": "50% 50%"}
 },
 {
@@ -1309,10 +1305,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "islamorada", "remote": "https://images.unsplash.com/photo-1520520731457-9283dd14aa66?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzM3fA&ixlib=rb-4.1.0", "alt": "A quiet beach under palms in Islamorada, in the Florida Keys", "pos": "50% 50%"}
 },
 {
  "name": "Palm Beach",
