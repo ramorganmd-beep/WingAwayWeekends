@@ -216,6 +216,48 @@ PLANS = {
         'extra': [('Morning', 'A bike ride on the Greenbrier River Trail.'),
                   ('Afternoon', 'Lost World Caverns, or galleries in Lewisburg.'),
                   ('Evening', 'Dinner at The General Lewis Inn in Lewisburg.')]},
+    'newport': {
+        'day': [('Arrive', 'Land at KUUU mid-morning and pick up the car.'),
+                ('Midday', 'The Breakers, then lunch at The Mooring.'),
+                ('Afternoon', 'Part of the Cliff Walk, then back to the FBO.')],
+        'extra': [('Morning', 'The International Tennis Hall of Fame, or Marble House.'),
+                  ('Afternoon', 'A sail on an America’s Cup yacht.'),
+                  ('Evening', 'Raw bar and sunset on Bowen’s Wharf.')]},
+    'nantucket': {
+        'day': [('Arrive', 'Land at KACK early and ride into town.'),
+                ('Midday', 'The Whaling Museum and lunch on the wharf.'),
+                ('Afternoon', 'Brant Point Lighthouse, then back to the airport before evening fog.')],
+        'extra': [('Morning', 'An over-sand tour to Great Point.'),
+                  ('Afternoon', 'Cisco Brewers for the non-pilot, and Surfside Beach.'),
+                  ('Evening', 'Sunset at Madaket.')]},
+    'bar-harbor': {
+        'day': [('Arrive', 'Land at KBHB early and pick up the car.'),
+                ('Midday', 'The Park Loop Road and popovers at Jordan Pond House.'),
+                ('Afternoon', 'Cadillac Mountain, then back to the FBO.')],
+        'extra': [('Morning', 'A whale-watch or puffin cruise.'),
+                  ('Afternoon', 'The quiet side: Southwest Harbor and Bass Harbor Head Light.'),
+                  ('Evening', 'Sunset on the Shore Path.')]},
+    'stowe': {
+        'day': [('Arrive', 'Land at KMVL early and pick up the car.'),
+                ('Midday', 'The gondola up Mount Mansfield and lunch at the von Trapp Bierhall.'),
+                ('Afternoon', 'The Recreation Path, then back before mountain afternoon weather.')],
+        'extra': [('Morning', 'A hike to Sterling Pond or Stowe Pinnacle.'),
+                  ('Afternoon', 'Ben & Jerry’s and Cold Hollow Cider Mill in Waterbury.'),
+                  ('Evening', 'A spa evening and dinner at your resort.')]},
+    'saratoga': {
+        'day': [('Arrive', 'Land at 5B2 mid-morning and ride downtown.'),
+                ('Midday', 'Lunch at Hattie’s and a walk on Broadway.'),
+                ('Afternoon', 'A soak at the Roosevelt Baths, then back to the FBO.')],
+        'extra': [('Morning', 'Saratoga National Historical Park.'),
+                  ('Afternoon', 'The Racing Museum, or a day at the track in season.'),
+                  ('Evening', 'A SPAC concert in summer.')]},
+    'gettysburg': {
+        'day': [('Arrive', 'Land at KW05 mid-morning and pick up the car.'),
+                ('Midday', 'A Licensed Battlefield Guide tour.'),
+                ('Afternoon', 'The Museum and Cyclorama, then back to the FBO.')],
+        'extra': [('Morning', 'Eisenhower National Historic Site.'),
+                  ('Afternoon', 'Adams County orchards and a winery for the non-pilot.'),
+                  ('Evening', 'A ghost tour downtown.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
