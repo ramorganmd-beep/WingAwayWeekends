@@ -843,5 +843,199 @@ window.WINGAWAY_DESTINATIONS=[
  "family": true,
  "draft": true,
  "photo": {"slug": "gettysburg", "remote": "https://images.unsplash.com/photo-1650732227442-f86610a15d8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDAyfA&ixlib=rb-4.1.0", "alt": "A Civil War cannon on the grassy battlefield at Gettysburg National Military Park", "pos": "50% 50%"}
+},
+{
+ "name": "Lancaster & Amish Country",
+ "state": "Pennsylvania",
+ "airport": "KLNS",
+ "lat": 40.1217,
+ "lon": -76.2961,
+ "desc": "Amish farmland, a steam railroad, America’s oldest farmers market and farm-to-table dinners.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "lancaster/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Hudson Valley",
+ "state": "New York",
+ "airport": "KPOU",
+ "lat": 41.6266,
+ "lon": -73.8842,
+ "desc": "River estates, the Culinary Institute, art, farm dinners and vintage airplanes at Old Rhinebeck.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays",
+  "Aviation museums",
+  "Scenic views",
+  "Spa"
+ ],
+ "guide": "hudson-valley/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Mystic",
+ "state": "Connecticut",
+ "airport": "KGON",
+ "lat": 41.3301,
+ "lon": -72.0451,
+ "desc": "Tall ships at Mystic Seaport, a drawbridge town, lobster rolls and the first nuclear submarine.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "mystic/",
+ "stateCode": "CT",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Portsmouth",
+ "state": "New Hampshire",
+ "airport": "KPSM",
+ "lat": 43.0779,
+ "lon": -70.8233,
+ "desc": "A 400-year-old harbor town with a great food scene, Strawbery Banke and a grand seaside hotel.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays",
+  "Spa",
+  "Scenic views"
+ ],
+ "guide": "portsmouth/",
+ "stateCode": "NH",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Kennebunkport",
+ "state": "Maine",
+ "airport": "KSFM",
+ "lat": 43.3939,
+ "lon": -70.708,
+ "desc": "A classic Maine harbor village, a rocky coast drive, lobster shacks, beaches and a celebrated inn.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Beach",
+  "Spa",
+  "Scenic views"
+ ],
+ "guide": "kennebunkport/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "The Berkshires",
+ "state": "Massachusetts",
+ "airport": "KPSF",
+ "lat": 42.4268,
+ "lon": -73.2929,
+ "desc": "Tanglewood concerts, the Norman Rockwell Museum, grand estates, spas and country inns.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Dining",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "berkshires/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Lake Placid",
+ "state": "New York",
+ "airport": "KLKP",
+ "lat": 44.2645,
+ "lon": -73.9619,
+ "desc": "A two-time Olympic village on Mirror Lake, Adirondack peaks, lodges and spas.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Spa",
+  "Lake",
+  "History"
+ ],
+ "guide": "lake-placid/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Martha’s Vineyard",
+ "state": "Massachusetts",
+ "airport": "KMVY",
+ "lat": 41.3931,
+ "lon": -70.6143,
+ "desc": "Edgartown’s captains’ houses, gingerbread cottages, the Aquinnah cliffs and Menemsha sunsets.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Beach",
+  "History",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "marthas-vineyard/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
