@@ -266,14 +266,6 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Brant Point Lighthouse (visually identified; geotag Nantucket Sound, MA)
 
-## Newport
-
-- Title: The Breakers from the Southwest.jpg
-- Photographer: CopperDoodle
-- Source: https://commons.wikimedia.org/wiki/File:The_Breakers_from_the_Southwest.jpg
-- License: CC0 — http://creativecommons.org/publicdomain/zero/1.0/deed.en
-- Changes: cropped to 4:3, resized, converted to WebP/JPEG
-
 ## Gettysburg
 
 - Photo by John Kostyk on Unsplash — https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM
@@ -287,3 +279,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2025671189/
 - License: No known restrictions on publication (Library of Congress)
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Newport
+
+- Photo by Nancy McClure on Unsplash — https://unsplash.com/photos/a-large-sail-boat-docked-at-a-pier--zle9Sv7QQo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Newport, RI (geotag)
+
+## Bar Harbor & Acadia
+
+- Photo by Bob Shea on Unsplash — https://unsplash.com/photos/several-boats-beside-dock-hTig1fjrMe8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Bar Harbor, ME (geotag)

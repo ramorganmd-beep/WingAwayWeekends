@@ -727,7 +727,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "RI",
  "region": "Northeast",
  "family": true,
- "photo": {"slug": "newport-breakers", "alt": "The Breakers, the Vanderbilts’ 1895 Italian Renaissance mansion in Newport, Rhode Island"}
+ "photo": {"slug": "newport", "remote": "https://images.unsplash.com/photo-1686087739212-b637d443d458?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDgwfA&ixlib=rb-4.1.0", "alt": "A tall ship with an American flag at the dock in Newport Harbor at sunset, with sailboats and the Newport Bridge beyond", "pos": "40% 50%"}
 },
 {
  "name": "Nantucket",
@@ -768,11 +768,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "bar-harbor", "remote": "https://images.unsplash.com/photo-1571069520508-40b02aaca200?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDE1fA&ixlib=rb-4.1.0", "alt": "Boats tied up along the docks of Bar Harbor, with the waterfront town behind", "pos": "60% 60%"}
 },
 {
  "name": "Stowe",
