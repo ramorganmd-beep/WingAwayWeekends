@@ -1369,5 +1369,147 @@ window.WINGAWAY_DESTINATIONS=[
  "family": true,
  "draft": true,
  "photo": {"slug": "30a", "remote": "https://images.unsplash.com/photo-1664476952496-6c0a0246edaa?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzAxfA&ixlib=rb-4.1.0", "alt": "A paddleboard on the beach at sunset in Seaside, Florida", "pos": "50% 50%"}
+},
+{
+ "name": "Fredericksburg & the Hill Country",
+ "state": "Texas",
+ "airport": "KT82",
+ "lat": 30.2432,
+ "lon": -98.9092,
+ "desc": "A WWII-themed hotel on the airport, the National Museum of the Pacific War, Hill Country wineries and Enchanted Rock.",
+ "tags": [
+  "Aviation museums",
+  "History",
+  "Wine",
+  "Stays",
+  "Hiking",
+  "Dining"
+ ],
+ "guide": "fredericksburg/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered ridges"
+ }
+},
+{
+ "name": "San Antonio",
+ "state": "Texas",
+ "airport": "KSSF",
+ "lat": 29.337,
+ "lon": -98.4711,
+ "desc": "Spanish missions next to a historic airfield, the Alamo, the River Walk and the Pearl.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Outdoors"
+ ],
+ "guide": "san-antonio/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered ridges"
+ }
+},
+{
+ "name": "Fort Worth & the Stockyards",
+ "state": "Texas",
+ "airport": "KFTW",
+ "lat": 32.8199,
+ "lon": -97.3608,
+ "desc": "A daily cattle drive, a honky-tonk, steakhouses, world-class art and a vintage aircraft museum on the field.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Aviation museums"
+ ],
+ "guide": "fort-worth/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered ridges"
+ }
+},
+{
+ "name": "Galveston",
+ "state": "Texas",
+ "airport": "KGLS",
+ "lat": 29.2653,
+ "lon": -94.8604,
+ "desc": "A Victorian island city: the Strand, grand mansions, a tall ship, the seawall and Gulf seafood.",
+ "tags": [
+  "Beach",
+  "History",
+  "Dining",
+  "Stays",
+  "Spa"
+ ],
+ "guide": "galveston/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "South Padre Island",
+ "state": "Texas",
+ "airport": "KPIL",
+ "lat": 26.1662,
+ "lon": -97.3459,
+ "desc": "Texas’s southernmost beaches, rescued sea turtles, dolphins, a lighthouse and bayside sunsets.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Scenic views",
+  "Dining"
+ ],
+ "guide": "south-padre/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Marfa & Big Bend",
+ "state": "Texas",
+ "airport": "KMRF",
+ "lat": 30.3696,
+ "lon": -104.0159,
+ "desc": "A high-desert art town, the Marfa Lights, observatory star parties and Big Bend National Park.",
+ "tags": [
+  "Outdoors",
+  "Scenic views",
+  "History",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "marfa/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered ridges"
+ }
 }
 ];

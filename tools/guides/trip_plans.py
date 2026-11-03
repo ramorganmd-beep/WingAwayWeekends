@@ -440,6 +440,48 @@ PLANS = {
         'extra': [('Morning', 'A paddle on a coastal dune lake.'),
                   ('Afternoon', 'Shops in Rosemary and Alys Beach.'),
                   ('Evening', 'Sunset at Grayton Beach.')]},
+    'fredericksburg': {
+        'day': [('Arrive', 'Land at T82 early.'),
+                ('Midday', 'Breakfast at the Airport Diner and the Pacific War museum.'),
+                ('Afternoon', 'Main Street, then back to the field.')],
+        'extra': [('Morning', 'Johnson City and the LBJ Ranch.'),
+                  ('Afternoon', 'A second day on Wine Road 290 for the non-pilot.'),
+                  ('Evening', 'Live music in Luckenbach.')]},
+    'san-antonio': {
+        'day': [('Arrive', 'Land at KSSF early.'),
+                ('Midday', 'Mission San José and lunch at Mi Tierra.'),
+                ('Afternoon', 'The Alamo, then back to Stinson.')],
+        'extra': [('Morning', 'The other missions by bike on the Mission Reach trail.'),
+                  ('Afternoon', 'The Pearl and the San Antonio Museum of Art.'),
+                  ('Evening', 'A river barge dinner cruise.')]},
+    'fort-worth': {
+        'day': [('Arrive', 'Land at KFTW mid-morning.'),
+                ('Midday', 'The cattle drive and lunch at Joe T. Garcia’s.'),
+                ('Afternoon', 'The Vintage Flying Museum, then fly home.')],
+        'extra': [('Morning', 'The Kimbell and the Modern Art Museum.'),
+                  ('Afternoon', 'The Fort Worth Botanic Garden.'),
+                  ('Evening', 'A rodeo night in the Stockyards.')]},
+    'galveston': {
+        'day': [('Arrive', 'Land at KGLS mid-morning.'),
+                ('Midday', 'The Strand and lunch on the seawall.'),
+                ('Afternoon', 'Bishop’s Palace, then back to the FBO.')],
+        'extra': [('Morning', 'Moody Gardens.'),
+                  ('Afternoon', 'A dolphin boat tour in the harbor.'),
+                  ('Evening', 'Sunset on the seawall.')]},
+    'south-padre': {
+        'day': [('Arrive', 'Land at KPIL early and cross the causeway.'),
+                ('Midday', 'Sea Turtle, Inc. and lunch by the bay.'),
+                ('Afternoon', 'The beach, then back to the airport.')],
+        'extra': [('Morning', 'A fishing charter in the Gulf.'),
+                  ('Afternoon', 'Laguna Atascosa National Wildlife Refuge.'),
+                  ('Evening', 'A sunset bay cruise.')]},
+    'marfa': {
+        'day': [('Arrive', 'Land at KMRF early in the cool air.'),
+                ('Midday', 'A Chinati tour and lunch in town.'),
+                ('Afternoon', 'Prada Marfa, then fly before afternoon heat and winds.')],
+        'extra': [('Morning', 'Davis Mountains State Park.'),
+                  ('Afternoon', 'Balmorhea State Park’s spring-fed pool.'),
+                  ('Evening', 'A second observatory star party.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
