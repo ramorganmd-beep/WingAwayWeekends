@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='mystic', name='Mystic', state='Connecticut', number=38, reviewed=None,
+    slug='mystic', name='Mystic', state='Connecticut', number=38, reviewed='November 3, 2026',
     airport='KGON', nm=564, flight_time='~4 hr 1 <small>min</small>', style='Rental car + walks',
     place='Mystic, Connecticut',
     description='A curated two-night Mystic and Stonington getaway for GA pilots and their partners, from KMYR to KGON. A seaport museum of tall ships, a drawbridge town, oysters, lobster and the first nuclear submarine.',

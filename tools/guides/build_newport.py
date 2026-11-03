@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='newport', name='Newport', state='Rhode Island', number=30, reviewed=None,
+    slug='newport', name='Newport', state='Rhode Island', number=30, reviewed='November 3, 2026',
     airport='KUUU', nm=595, flight_time='~4 hr 13 <small>min</small>', style='Rental car + walks',
     place='Newport, Rhode Island',
     description='A curated two-night Newport getaway for GA pilots and their partners, from KMYR to KUUU. Gilded Age mansions, the Cliff Walk, sailing, oceanfront inns and harbor dinners.',

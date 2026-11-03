@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='portsmouth', name='Portsmouth', state='New Hampshire', number=39, reviewed=None,
+    slug='portsmouth', name='Portsmouth', state='New Hampshire', number=39, reviewed='November 3, 2026',
     airport='KPSM', nm=680, flight_time='~4 hr 48 <small>min</small>', style='Rental car + walks',
     place='Portsmouth, New Hampshire',
     description='A curated two-night Portsmouth getaway for GA pilots and their partners, from KMYR to KPSM. A 400-year-old harbor town, a grand seaside hotel, Strawbery Banke, a submarine museum and great seafood.',

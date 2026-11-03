@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='kennebunkport', name='Kennebunkport', state='Maine', number=40, reviewed=None,
+    slug='kennebunkport', name='Kennebunkport', state='Maine', number=40, reviewed='November 3, 2026',
     airport='KSFM', nm=699, flight_time='~4 hr 55 <small>min</small>', style='Rental car',
     place='Kennebunkport, Maine',
     description='A curated two-night Kennebunkport getaway for GA pilots and their partners, from KMYR to KSFM. Sea captains’ houses, a rocky coast drive, lobster shacks, beaches and a celebrated inn.',

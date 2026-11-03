@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='marthas-vineyard', name='Martha’s Vineyard', state='Massachusetts', number=43, reviewed=None,
+    slug='marthas-vineyard', name='Martha’s Vineyard', state='Massachusetts', number=43, reviewed='November 3, 2026',
     airport='KMVY', nm=609, flight_time='~4 hr 19 <small>min</small>', style='Bikes, buses + taxis',
     place='Martha’s Vineyard, Massachusetts',
     description='A curated two-night Martha’s Vineyard getaway for GA pilots and their partners, from KMYR to KMVY. Edgartown’s captains’ houses, Oak Bluffs’ gingerbread cottages, the Aquinnah cliffs and Menemsha sunsets.',

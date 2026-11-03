@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lancaster', name='Lancaster & Amish Country', state='Pennsylvania', number=36, reviewed=None,
+    slug='lancaster', name='Lancaster & Amish Country', state='Pennsylvania', number=36, reviewed='November 3, 2026',
     airport='KLNS', nm=407, flight_time='~2 hr 58 <small>min</small>', style='Rental car',
     place='Lancaster & Amish Country, Pennsylvania',
     description='A curated two-night Lancaster County getaway for GA pilots and their partners, from KMYR to KLNS. Amish farmland, a steam railroad, the oldest farmers market in America and farm-to-table dinners.',

@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='saratoga', name='Saratoga Springs', state='New York', number=34, reviewed=None,
+    slug='saratoga', name='Saratoga Springs', state='New York', number=34, reviewed='November 3, 2026',
     airport='5B2', nm=611, flight_time='~4 hr 20 <small>min</small>', style='Rental car or taxi + walks',
     place='Saratoga Springs, New York',
     description='A curated two-night Saratoga Springs getaway for GA pilots and their partners, from KMYR to 5B2. Thoroughbred racing, mineral springs and spa baths, Victorian streets and summer concerts.',
