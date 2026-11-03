@@ -224,3 +224,7 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
   - **Destination data file:** `docs/destinations.js` (`window.WINGAWAY_DESTINATIONS`) is now the single source for the homepage cards and the photo review page. Each entry: name, state, stateCode, region (Southeast or Mid-Atlantic; VA and WV are Mid-Atlantic by default, pending the owner's decision), airport, lat, lon, desc, tags, guide, family (null until decided) and photo. `personalize.py` reads guide coordinates from it. **Add new destinations here** (not in index.html).
   - **Wording:** Southeast-only phrasing removed from the homepage and Fly to Lunch.
 - **Step B next:** region filter and region landing pages; “Traveling with kids” toggle using the `family` field.
+
+### Phase 1 decisions (Nov 3, 2026)
+- Confirmed: Virginia and West Virginia belong to the Mid-Atlantic region (Charlottesville, Virginia Hunt Country, Harpers Ferry). Everything else stays Southeast.
+- Reviewer checklist: plans/reviewer-checklist.html and .pdf (one page). Hand it to recruited reviewers with the invitation.
