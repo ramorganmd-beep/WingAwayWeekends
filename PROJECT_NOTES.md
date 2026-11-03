@@ -221,7 +221,7 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 
 - **Step A done:**
   - **Nationwide airports:** `docs/airports-us.js` (5,044 U.S. public-use land airports, all 50 states + DC; ~330 KB) replaces `airports-southeast.js`. Rebuild with `python3 -I tools/airports/build_airports.py <OurAirports airports.csv> docs/airports-us.js` (the CSV downloads from raw.githubusercontent.com/davidmegginson/ourairports-data/main/airports.csv). Lookups on every page also accept a K-prefixed form of three-character codes (K01J finds 01J), so older saved home airports still work.
-  - **Destination data file:** `docs/destinations.js` (`window.WINGAWAY_DESTINATIONS`) is now the single source for the homepage cards and the photo review page. Each entry: name, state, stateCode, region (Southeast or Mid-Atlantic; VA and WV are Mid-Atlantic by default, pending the owner's decision), airport, lat, lon, desc, tags, guide, family (null until decided) and photo. `personalize.py` reads guide coordinates from it. **Add new destinations here** (not in index.html).
+  - **Destination data file:** `docs/destinations.js` (`window.WINGAWAY_DESTINATIONS`) is now the single source for the homepage cards and the photo review page. Each entry: name, state, stateCode, region (Southeast or Mid-Atlantic; VA and WV are Mid-Atlantic, confirmed by the owner), airport, lat, lon, desc, tags, guide, family (null until decided) and photo. `personalize.py` reads guide coordinates from it. **Add new destinations here** (not in index.html).
   - **Wording:** Southeast-only phrasing removed from the homepage and Fly to Lunch.
 - **Step B next:** region filter and region landing pages; “Traveling with kids” toggle using the `family` field.
 
