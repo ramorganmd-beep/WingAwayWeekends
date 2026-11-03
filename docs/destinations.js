@@ -864,14 +864,10 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa"
  ],
  "guide": "hudson-valley/",
- "draft": true,
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "hudson-valley", "remote": "https://images.unsplash.com/photo-1608347571313-117e24dfd0eb?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQyNTAxfA&ixlib=rb-4.1.0", "alt": "The Bear Mountain Bridge spanning the Hudson River between hills of fall color", "pos": "50% 50%"}
 },
 {
  "name": "Mystic",

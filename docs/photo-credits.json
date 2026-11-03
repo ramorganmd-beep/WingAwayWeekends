@@ -1568,5 +1568,22 @@
   "date_taken": null,
   "files": [],
   "location": "No location tag; Kentucky bourbon (Woodford Reserve) bottles, owner's choice"
+ },
+ {
+  "destination": "Hudson Valley",
+  "title": "The Hudson at Bear Mountain in fall",
+  "photographer": "Danny Nanni",
+  "source_page_url": "https://unsplash.com/photos/bridge-over-river-surrounded-by-trees--2647u9DW_I",
+  "original_image_url": "https://images.unsplash.com/photo-1608347571313-117e24dfd0eb?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQyNTAxfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Bear Mountain Bridge spanning the Hudson River between hills of fall color",
+  "date_taken": null,
+  "files": [],
+  "location": "Bear Mountain Bridge, Hudson Highlands, NY (visually identified; no geotag)"
  }
 ]

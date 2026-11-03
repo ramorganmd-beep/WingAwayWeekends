@@ -292,7 +292,7 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Dayton photo: NPS "Wright B Flyer in the air above Huffman Prairie" (c. 1910, Harvey Gaylord Kittredge collection, public domain) as dayton-wright-b-flyer, cropped inside the album border. Bardstown 3 not used: it is a close-up of Woodford Reserve bottles (Woodford is in Versailles near Lexington, no location tag); suggested for the future Lexington guide.
 - Bardstown photo: Unsplash Woodford Reserve bottles (owner chose it after the location note).
 - Owner approved the Midwest ("midwest lg", Nov 3, 2026): all six published. 48 public; only Hudson Valley is still a draft (waiting on a photo pick). New map plans/coverage-map-central.png (four regions, eastern + central US).
-- Hudson Valley photo pick: Unsplash Bear Mountain Bridge in fall (Danny Nanni; visually identified, pick_hudson.json). Apply blocked by Unsplash rate limit; guide stays draft until applied.
+- Hudson Valley photo pick: Unsplash Bear Mountain Bridge in fall (Danny Nanni; visually identified, pick_hudson.json). Applied and published.
 
 ### Region plan (owner decisions, Nov 3, 2026)
 - **Florida** is its own region (St. Augustine, Amelia Island and Key West moved from Southeast). More Florida destinations to come.
@@ -315,3 +315,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
   - Palm Beach (`palm-beach`, KLNA Lantana): Stellar Aviation, 2633 Lantana Road, Lantana, FL 33462, 561-656-9815. VIP/presidential TFR warning. The Breakers, The Colony, Brazilian Court; Café Boulud, Buccan, Ta-boó; Flagler Museum.
   - Cedar Key (`cedar-key`, KCDK): no FBO or fuel; ~2,300 ft runway by the water; golf carts. Harbour Master Suites, the Downtown Historic Island Hotel (now rented as suites); Tony's chowder; Dock Street restaurants rebuilding after storms.
   - Seaside & 30A (`30a`, builder build_thirty_a.py, KECP): Sheltair, 5325 Johnny Reaver Road, Panama City, FL 32409, 850-233-4717. WaterColor Inn, The Pearl, Hotel Effie; Bud & Alley's, Restaurant Paradis, The Red Bar. Tyndall/Eglin airspace.
+- Photo options for Heartland batch 1 + Florida batch 1 on /photo-options/ (scratchpad photo_round5.json). Lake of the Ozarks only 2 options.
