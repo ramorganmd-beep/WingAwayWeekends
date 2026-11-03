@@ -31,31 +31,39 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your stretc
     'A celebrated waterfront inn, a grand historic hotel or a relaxed island hideaway. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('St. Michaels · Waterfront luxury', 'Inn at Perry Cabin',
-         'A Belmond inn on the Miles River at the edge of St. Michaels, with gardens, a spa and Stars restaurant. The romantic splurge.') +
+         'A luxury inn on the Miles River at the edge of St. Michaels, with gardens, a spa and Stars restaurant. The romantic splurge.',
+         'https://innatperrycabin.com/') +
     card('Easton · Historic', 'The Tidewater Inn',
-         'A classic 1949 hotel in the middle of Easton, with a restaurant, a spa and an easy walk to shops and the Avalon Theatre. The inn was listed for sale in 2026; confirm it is operating when you book.') +
+         'A classic 1949 hotel with 86 rooms in the middle of Easton, home to Hunters’ Tavern and an easy walk to shops and the Avalon Theatre. The inn was listed for sale in 2026; confirm details when you book.',
+         'https://tidewaterinn.com/') +
     card('Tilghman Island · Waterfront', 'The Wylder Hotel',
-         'A relaxed, retro-styled waterfront hotel on Tilghman Island, about 15 minutes past St. Michaels, with a pool and sunset views over the Bay.') +
+         'A relaxed waterfront hotel in an 1898 boarding house on nine acres of Tilghman Island, about 15 minutes past St. Michaels, with Tickler’s Crab Shack and sunset views over the Bay.',
+         'https://wylderhotels.com/tilghman-island/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One crab feast.',
     'Blue crabs are the point from late spring to fall. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · Easton', 'Bas Rouge',
-         'Refined contemporary dining in an intimate room in downtown Easton, with one of the region’s best wine lists. The special-occasion dinner.') +
+         'Refined contemporary European dining in an intimate room in downtown Easton. The special-occasion dinner.',
+         'https://www.basrougeeaston.com/') +
     card('Saturday dinner · Perry Cabin', 'Stars',
-         'Locally inspired cooking at Inn at Perry Cabin, inside or on the terrace overlooking the river. Go early for sunset.') +
+         'Locally inspired cooking at Inn at Perry Cabin, inside or on the terrace overlooking the river. Go early for sunset.',
+         'https://innatperrycabin.com/dining/stars/') +
     card('Lunch · St. Michaels harbor', 'The Crab Claw',
-         'A St. Michaels institution on the harbor, where you pick steamed crabs at picnic tables by the water. Seasonal; check that it is open.') +
+         'A St. Michaels institution on the harbor, where you pick steamed crabs at picnic tables by the water. Seasonal; check that it is open.',
+         'https://www.thecrabclaw.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Boats, a ferry and a lighthouse.',
     'Slow and easy. Leave time to sit by the water.') +
     '<div class="explore-list">' +
     explore(1, 'Chesapeake Bay Maritime Museum',
-            'A waterfront campus in St. Michaels with the 1879 Hooper Strait Lighthouse, working boatyards and historic Bay boats. Allow two hours.') +
+            'A waterfront campus in St. Michaels with the 1879 Hooper Strait Lighthouse, working boatyards and historic Bay boats. Allow two hours.',
+            'https://cbmm.org/', 'Museum information') +
     explore(2, 'The Oxford–Bellevue Ferry',
-            'One of the oldest privately operated ferries in the country, crossing the Tred Avon River between Bellevue and Oxford. Ride it with bikes or the car for a loop to Oxford. Seasonal.') +
+            'One of the oldest privately operated ferries in the country, crossing the Tred Avon River between Bellevue and Oxford. Ride it with bikes or the car for a loop to Oxford. Seasonal.',
+            'https://www.oxfordferry.com/', 'Ferry schedule') +
     explore(3, 'Oxford',
             'A tiny, quiet town of shaded streets, boatyards and a little beach on the Tred Avon. Lovely for a slow afternoon.') +
     explore(4, 'A sail on the Bay',
@@ -64,8 +72,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Boats, a ferry a
             'Brick sidewalks, galleries, the Academy Art Museum and the restored Avalon Theatre.') +
     '</div>')
 
-P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>Linden Spa at Inn at Perry Cabin · Time for two</h3>'
-    '<p>The inn’s spa draws on its gardens for treatments and has a quiet relaxation room overlooking the grounds.</p>'
+P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The Spa at Perry Cabin · Time for two</h3>'
+    '<p>The inn’s spa has a private couples suite, a steam room and a relaxation lounge with an outdoor terrace.</p>'
     '<p><strong>Booking:</strong> Ask about couples treatments, access for non-inn guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the season is the reason to fly.',

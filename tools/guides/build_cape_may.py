@@ -22,8 +22,8 @@ P = [page_start(
 P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land at a Navy field, minutes from the beach.',
     'KWWD, Cape May County Airport, was Naval Air Station Wildwood in World War II. It sits about 15 minutes north of Cape May’s historic district.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-    fbo('FlightLevel Aviation · Cape May', '375 Forrestal Road, Rio Grande, NJ 08242', '609-889-0750') +
-    '<p class="note">Directories list FBO hours of about 8 a.m. to 5 p.m. daily; some list the address as 201 Forrestal Road, so confirm it. Ask about rental cars, two-night parking, fees and after-hours fuel. No live fuel price is shown.</p>'
+    fbo('FlightLevel Aviation · Cape May', '201 Forrestal Road, Rio Grande, NJ 08242', '609-889-0750', 'https://www.flightlevelaviation.com/?p=351') +
+    '<p class="note">FlightLevel lists hours of 8 a.m. to 5 p.m. daily; after-hours fuel or service needs at least an hour’s notice and costs extra. Ask about rental cars, two-night parking and fees. No live fuel price is shown.</p>'
     '<p class="note">Atlantic City’s Class C airspace lies to the north, and military warning areas lie offshore. Coastal fog and sea breezes are common. Review the sectional and current NOTAMs.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>Walk once you arrive.</h3><p>Cape May’s historic district, beach and restaurants are walkable, and many inns lend bikes. Use a rental car or taxi to get from the airport and out to Cape May Point.</p></aside></div></section>')
 
@@ -31,22 +31,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your porch.
     'A grand hotel, a small luxury hotel or a classic Victorian. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Grand hotel · On the beach', 'Congress Hall',
-         'Cape May’s landmark hotel, across from the beach, with a long colonnaded porch, the Sea Spa and the Blue Pig Tavern. The classic choice.') +
+         'Cape May’s landmark hotel, across from the beach, with a long colonnaded porch, the Sea Spa and the Blue Pig Tavern. The classic choice.',
+         'https://www.caperesorts.com/congress-hall') +
     card('Boutique · Historic district', 'The Virginia Hotel',
-         'A small, elegant 1879 hotel on Jackson Street, a block from the beach, home to The Ebbitt Room. The romantic choice.') +
+         'A small, elegant 1879 hotel on Jackson Street, a block from the beach, home to The Ebbitt Room. The romantic choice.',
+         'https://www.caperesorts.com/virginia-hotel') +
     card('Victorian · Seasonal', 'The Chalfonte Hotel',
-         'A rambling 1876 hotel with wraparound porches and Southern cooking, open in the warmer months. Old-fashioned charm.') +
+         'A rambling 1876 hotel with wraparound porches and Southern cooking, open in the warmer months. Old-fashioned charm.',
+         'https://www.chalfonte.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One dockside lunch.',
     'Seafood and porches. Reserve weekend dinners, especially in summer.') +
     '<div class="grid three">' +
     card('Friday dinner · The Virginia', 'The Ebbitt Room',
-         'Refined farm-to-table dining in The Virginia Hotel, much of it from the hotel’s own farm. Intimate and romantic.') +
+         'Refined farm-to-table dining in The Virginia Hotel, much of it from the hotel’s own farm. Intimate and romantic.',
+         'https://www.caperesorts.com/virginia-hotel/ebbittroom') +
     card('Saturday dinner · Oceanfront', 'Peter Shields Inn & Restaurant',
-         'A candlelit dining room in a 1907 Georgian Revival mansion across from the beach. Go for sunset.') +
+         'A candlelit dining room in a 1907 Georgian Revival mansion across from the beach. Go for sunset.',
+         'https://www.petershieldsinn.com/') +
     card('Lunch · Fishing docks', 'The Lobster House',
-         'A long-running restaurant on the working docks of Cape May harbor, with a raw bar and a schooner bar. Casual and fun.') +
+         'A long-running restaurant on the working docks of Cape May harbor, with a raw bar and a schooner bar. Casual and fun.',
+         'https://thelobsterhouse.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Victorians, the lighthouse and a Navy hangar.',
@@ -56,7 +62,8 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Victorians, the 
             'On the airport in Hangar No. 1, a restored World War II wooden hangar with aircraft, engines and exhibits on the dive-bomber squadrons that trained here. Listed as open daily from March through December; walk over from the FBO.',
             'https://usnasw.org/', 'Museum information') +
     explore(2, 'The Victorian historic district',
-            'Hundreds of restored Victorian houses on shaded streets. Take a trolley or walking tour, and visit the Emlen Physick Estate.') +
+            'Hundreds of restored Victorian houses on shaded streets. Take a trolley or walking tour, and visit the Emlen Physick Estate.',
+            'https://capemaymac.org/', 'Tours and tickets') +
     explore(3, 'Cape May Point & the lighthouse',
             'Climb the 1859 Cape May Lighthouse, walk the state park, then watch the sunset at Sunset Beach, where the wreck of a concrete ship sits just offshore.') +
     explore(4, 'Wineries',
@@ -66,7 +73,7 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'Victorians, the 
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The Sea Spa at Congress Hall · Time for two</h3>'
-    '<p>Congress Hall’s spa offers couples treatments a short walk from the beach.</p>'
+    '<p>Congress Hall’s spa offers couples treatments a short walk from the beach. <a href="https://www.caperesorts.com/congress-hall/sea-spa" target="_blank" rel="noopener">Sea Spa details</a>.</p>'
     '<p><strong>Booking:</strong> Ask about couples treatments, access for non-hotel guests, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the season is the reason to fly.',

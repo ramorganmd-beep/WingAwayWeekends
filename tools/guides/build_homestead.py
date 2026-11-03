@@ -31,35 +31,43 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Grand resort or a 
     'Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Hot Springs · Historic grand resort', 'The Omni Homestead Resort & Spa',
-         'A grand resort dating to 1766, with a famous spa, mountain golf, a long list of outdoor activities and afternoon tea in the Great Hall. The reason to come.') +
+         'A grand resort dating to 1766, with a famous spa, mountain golf, a long list of outdoor activities and afternoon tea in the Great Hall. The reason to come.',
+         'https://www.omnihotels.com/hotels/homestead-virginia') +
     card('Warm Springs · Small inn', 'The Inn at Gristmill Square',
-         'A cluster of restored 19th-century buildings around an old mill in Warm Springs, a few minutes from the pools. Quiet and personal.') +
+         'A small inn in restored 19th-century buildings around an old mill in Warm Springs, with its own restaurant, a few minutes from the pools. Quiet and personal.',
+         'https://gristmillsquare.com/') +
     card('Hot Springs · Bed & breakfast', 'Vine Cottage Inn',
-         'A small, relaxed inn in the village, within walking distance of The Homestead.') +
+         'A small, relaxed inn in the village, within walking distance of The Homestead.',
+         'https://www.vinecottageinn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One very grand.',
     'Most dining is at the resort. Reserve, and check dress codes.') +
     '<div class="grid three">' +
     card('Friday dinner · Casual', 'Jefferson’s Restaurant & Taproom',
-         'The Homestead’s relaxed restaurant, with Virginia wines, craft beer and regional dishes.') +
+         'The Homestead’s relaxed restaurant, with Virginia wines, craft beer and regional dishes.',
+         'https://www.omnihotels.com/hotels/homestead-virginia/dining/jeffersons-restaurant-and-taproom') +
     card('Saturday dinner · Fine dining', 'American Audubon Dining Room',
-         'The Homestead’s grand dining room, with refined multi-course dinners. Dress for the occasion.') +
+         'The Homestead’s grand dining room, with refined multi-course dinners. Dress for the occasion.',
+         'https://www.omnihotels.com/hotels/homestead-virginia/dining') +
     card('Lunch · At the golf course', 'Sam Snead’s Tavern',
-         'A casual tavern named for the golf legend, who grew up nearby. Walk-in only.') +
+         'A casual tavern named for the golf legend, who grew up nearby. Walk-in only.',
+         'https://www.omnihotels.com/hotels/homestead-virginia/dining/sam-sneads-tavern') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Warm water and cool mountains.',
     'Slow down. This is a place for long soaks and long walks.') +
     '<div class="explore-list">' +
     explore(1, 'The Warm Springs Pools',
-            'Two historic bathhouses over natural warm springs, restored and reopened in 2022. Book a 50-minute soak ahead; you don’t need to stay at the resort.') +
+            'Two historic bathhouses over natural warm springs, restored and reopened in 2022. Book a 50-minute soak ahead; you don’t need to stay at the resort.',
+            'https://www.omnihotels.com/hotels/homestead-virginia/things-to-do/resort-activities/pools', 'Pools and reservations') +
     explore(2, 'Golf on the Cascades course',
             'A classic mountain course, long ranked among the best in Virginia, plus The Old Course at the resort, home to one of the oldest first tees in continuous use in the country.') +
     explore(3, 'Resort activities',
             'Falconry, fly-fishing, sporting clays, horseback riding, hiking and a zip line. Book a few the week before.') +
     explore(4, 'Garth Newel Music Center',
-            'Chamber music on a farm between Hot Springs and Warm Springs, sometimes with dinner after the concert. Check the season’s schedule.') +
+            'Chamber music on a farm between Hot Springs and Warm Springs, sometimes with dinner after the concert. Check the season’s schedule.',
+            'https://www.garthnewel.org/', 'Concert schedule') +
     explore(5, 'Falling Spring Falls',
             'A tall roadside waterfall a short drive south of Hot Springs, with an overlook just off the highway.') +
     '</div>')

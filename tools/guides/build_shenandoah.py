@@ -31,29 +31,36 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'On the ridge or in
     'Park lodges are seasonal, usually spring through fall. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('In the park · Seasonal', 'Skyland',
-         'A historic lodge at the highest point of Skyline Drive, with sweeping views over the valley and rooms near the Stony Man trail.') +
+         'A historic lodge at the highest point of Skyline Drive, with sweeping views over the valley and rooms near the Stony Man trail.',
+         'https://www.goshenandoah.com/lodging/skyland') +
     card('Luray · Historic inn', 'The Mimslyn Inn',
-         'A gracious 1931 Colonial Revival inn on a hill above Luray, with Circa ’31 restaurant and the Speakeasy bar. Open year-round.') +
+         'A gracious 1931 Colonial Revival inn on a hill above Luray, with a spa, the Speakeasy restaurant and bar, and breakfast at Circa ’31. Open year-round.',
+         'https://mimslyninn.com/') +
     card('In the park · Seasonal', 'Big Meadows Lodge',
-         'A rustic 1939 stone-and-timber lodge beside a wide mountain meadow, known for deer at dusk and dark night skies.') +
+         'A rustic 1939 stone-and-timber lodge beside a wide mountain meadow, known for deer at dusk and dark night skies.',
+         'https://www.goshenandoah.com/lodging/big-meadows-lodge') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One with a view.',
     'Dining is simple here, with one famous exception. Reserve ahead.') +
     '<div class="grid three">' +
-    card('Friday dinner · Luray', 'Circa ’31',
-         'The dining room at The Mimslyn Inn, with Southern-inspired dishes in an elegant room.') +
+    card('Friday dinner · Luray', 'The Speakeasy at The Mimslyn',
+         'The Mimslyn Inn’s casual restaurant and bar, with nightly dinner specials and live music each week.',
+         'https://mimslyninn.com/luray-hotel-dining/') +
     card('Special occasion · About 45 minutes', 'The Inn at Little Washington',
-         'One of the most celebrated restaurants in the country, in the village of Washington, Virginia, over Thornton Gap. Book far ahead.') +
+         'One of the most celebrated restaurants in the country, in the village of Washington, Virginia, over Thornton Gap. Book far ahead.',
+         'https://www.theinnatlittlewashington.com/') +
     card('Lunch · Skyline Drive', 'Pollock Dining Room at Skyland',
-         'Simple lodge cooking with big windows over the Shenandoah Valley. Seasonal.') +
+         'Simple lodge cooking with big windows over the Shenandoah Valley. Seasonal.',
+         'https://www.goshenandoah.com/dining/skyland') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Underground and on top.',
     'Mix one big view with one short hike each day.') +
     '<div class="explore-list">' +
     explore(1, 'Luray Caverns',
-            'The largest caverns in the East, with huge chambers and the Great Stalacpipe Organ. The ticket includes a car and carriage museum. About an hour underground.') +
+            'The largest caverns in the East, with huge chambers and the Great Stalacpipe Organ. The ticket includes a car and carriage museum. About an hour underground.',
+            'https://luraycaverns.com/', 'Tickets and hours') +
     explore(2, 'Skyline Drive',
             'A 105-mile road along the crest of the Blue Ridge with more than 70 overlooks. Thornton Gap to Big Meadows makes a beautiful half day.',
             'https://www.nps.gov/shen/', 'Park information') +
@@ -83,7 +90,7 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
     day('FRI', 'Arrive & underground', [
         ('Late-morning arrival', 'Land at KLUA, subject to weather and your actual flight plan, and pick up the car.'),
         ('Afternoon', 'Luray Caverns, then check in.'),
-        ('Evening', 'Dinner at Circa ’31.')]) +
+        ('Evening', 'Dinner at the Speakeasy at The Mimslyn.')]) +
     day('SAT', 'Up on the ridge', [
         ('Morning', 'Drive Skyline Drive south from Thornton Gap and walk to Stony Man.'),
         ('Afternoon', 'Lunch at Skyland, then Dark Hollow Falls or Hawksbill.'),
