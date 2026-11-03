@@ -150,29 +150,29 @@
     "credit_html": "View from Jefferson Rock, National Park Service (Harpers Ferry National Historical Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
   },
   "hilton-head": {
-    "slug": "hilton-head-beach",
+    "slug": "https://images.unsplash.com/photo-1690970526023-2054da90656a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTMzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A sandy path through tall dune grass to the beach on Hilton Head Island",
     "w": 960,
     "h": 720,
-    "caption": "Hilton Head’s beaches (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The path to the beach",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jfish84?utm_source=wingaway_weekends&utm_medium=referral\">Justin Fisher</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-path-leading-to-the-beach-with-tall-grass-qrga71KYbgM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "highlands-cashiers": {
-    "slug": "highlands-plateau",
+    "slug": "https://images.unsplash.com/photo-1571691345097-630b077a4a2a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTQwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a mountain lake below forested ridges",
+    "alt": "Fog drifting through green forest on the mountains around Highlands, North Carolina",
     "w": 960,
     "h": 720,
-    "caption": "The Blue Ridge plateau (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Mountain fog near Highlands",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@tjump?utm_source=wingaway_weekends&utm_medium=referral\">Nik Shuliahin 💛💙</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }

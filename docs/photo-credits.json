@@ -934,5 +934,39 @@
     "date_taken": null,
     "files": [],
     "location": "Amicalola Falls, Georgia, USA"
+  },
+  {
+    "destination": "Hilton Head",
+    "title": "The path to the beach",
+    "photographer": "Justin Fisher",
+    "source_page_url": "https://unsplash.com/photos/a-path-leading-to-the-beach-with-tall-grass-qrga71KYbgM",
+    "original_image_url": "https://images.unsplash.com/photo-1690970526023-2054da90656a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTMzfA&ixlib=rb-4.1.0",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-03",
+    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+    "alt": "A sandy path through tall dune grass to the beach on Hilton Head Island",
+    "date_taken": null,
+    "files": [],
+    "location": "Hilton Head Island, SC, USA"
+  },
+  {
+    "destination": "Highlands–Cashiers",
+    "title": "Mountain fog near Highlands",
+    "photographer": "Nik Shuliahin 💛💙",
+    "source_page_url": "https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg",
+    "original_image_url": "https://images.unsplash.com/photo-1571691345097-630b077a4a2a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTQwfA&ixlib=rb-4.1.0",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-03",
+    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+    "alt": "Fog drifting through green forest on the mountains around Highlands, North Carolina",
+    "date_taken": null,
+    "files": [],
+    "location": "Highlands, NC, USA"
   }
 ]

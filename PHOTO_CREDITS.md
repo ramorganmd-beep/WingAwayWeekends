@@ -211,3 +211,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Cesar Pimentel on Unsplash — https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-forest-x5txtqVLoLg
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location tag: Amicalola Falls, Georgia, USA
+
+## Hilton Head
+
+- Photo by Justin Fisher on Unsplash — https://unsplash.com/photos/a-path-leading-to-the-beach-with-tall-grass-qrga71KYbgM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag: Hilton Head Island, SC, USA
+
+## Highlands–Cashiers
+
+- Photo by Nik Shuliahin 💛💙 on Unsplash — https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag: Highlands, NC, USA
