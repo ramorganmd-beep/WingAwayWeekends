@@ -356,6 +356,48 @@ PLANS = {
         'extra': [('Morning', 'The Washington Island ferry.'),
                   ('Afternoon', 'Wineries and orchards on the lake side.'),
                   ('Evening', 'A sunset cruise from Sister Bay.')]},
+    'branson': {
+        'day': [('Arrive', 'Land at KBBG mid-morning and pick up the car.'),
+                ('Midday', 'Lunch and the nature trail at Top of the Rock.'),
+                ('Afternoon', 'Lost Canyon Cave, then back to the FBO.')],
+        'extra': [('Morning', 'Silver Dollar City.'),
+                  ('Afternoon', 'A pontoon boat on Table Rock Lake.'),
+                  ('Evening', 'A live show in town.')]},
+    'lake-ozarks': {
+        'day': [('Arrive', 'Land at KAIZ mid-morning.'),
+                ('Midday', 'Ha Ha Tonka State Park’s castle ruins.'),
+                ('Afternoon', 'Lunch by the lake, then back to the airport.')],
+        'extra': [('Morning', 'A cave tour.'),
+                  ('Afternoon', 'A second day on the water.'),
+                  ('Evening', 'Sunset at a lakeside bar.')]},
+    'hot-springs': {
+        'day': [('Arrive', 'Land at KHOT mid-morning and drive downtown.'),
+                ('Midday', 'Bathhouse Row and a thermal soak.'),
+                ('Afternoon', 'Lunch at Superior Bathhouse Brewery, then back to the FBO.')],
+        'extra': [('Morning', 'Garvan Woodland Gardens.'),
+                  ('Afternoon', 'Hot Springs Mountain Tower and trails.'),
+                  ('Evening', 'Live music at The Ohio Club.')]},
+    'bentonville': {
+        'day': [('Arrive', 'Land at KVBT mid-morning; coffee at Airship.'),
+                ('Midday', 'Crystal Bridges and lunch at the museum.'),
+                ('Afternoon', 'The square, then back to the FBO.')],
+        'extra': [('Morning', 'A mountain-bike ride on the forest trails.'),
+                  ('Afternoon', 'The Momentary.'),
+                  ('Evening', 'Dinner in Rogers or Fayetteville.')]},
+    'eureka-springs': {
+        'day': [('Arrive', 'Land at 4M1 early and drive to town.'),
+                ('Midday', 'Thorncrown Chapel and the historic loop.'),
+                ('Afternoon', 'Lunch downtown, then back to the airport.')],
+        'extra': [('Morning', 'Turpentine Creek Wildlife Refuge.'),
+                  ('Afternoon', 'Beaver Lake.'),
+                  ('Evening', 'A ghost tour at the Crescent.')]},
+    'duluth': {
+        'day': [('Arrive', 'Land at KDLH early and pick up the car.'),
+                ('Midday', 'Canal Park and the Aerial Lift Bridge.'),
+                ('Afternoon', 'Smoked fish at Northern Waters, then back to the FBO.')],
+        'extra': [('Morning', 'Drive farther up the North Shore to Tettegouche State Park.'),
+                  ('Afternoon', 'The Great Lakes Aquarium.'),
+                  ('Evening', 'A sunset harbor cruise.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

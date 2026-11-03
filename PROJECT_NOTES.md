@@ -300,3 +300,11 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - **Great Plains** = ND, SD, NE, KS, OK.
 - **Texas** is its own region.
 - Region filter options: Southeast, Florida, Mid-Atlantic, Northeast, Midwest, Heartland, Great Plains, Texas (empty regions are hidden automatically).
+- **Heartland batch 1 (drafts, numbers 50–55, family: true, placeholder illustrations):**
+  - Branson & Table Rock Lake MO (`branson`, KBBG): Branson Jet Center, 130 Wright Brothers Drive, Hollister, MO 65672, 417-334-8234. Big Cedar Lodge, Chateau on the Lake; Top of the Rock, Dogwood Canyon, Silver Dollar City.
+  - Lake of the Ozarks MO (`lake-ozarks`, KAIZ): City of Osage Beach FBO, Lee C. Fine Road, Brumley, MO 65017, 573-348-5251 (street number varies by source; field reportedly closed for a stretch in 2025). Old Kinderhook, Camden on the Lake; Ha Ha Tonka.
+  - Hot Springs AR (`hot-springs`, KHOT): City FBO, 525 Airport Road, Hot Springs, AR 71913, 501-321-6750. Hotel Hale, The Waters, The Arlington; Rolando's, Superior Bathhouse Brewery; Bathhouse Row, Quapaw Baths, Garvan Gardens.
+  - Bentonville & Crystal Bridges AR (`bentonville`, KVBT, Louise Thaden Field): Legends Air Center, 2205 SW I Street, 479-254-0817 (phone varies by source); Airship Coffee on the field. 21c Museum Hotel; The Preacher's Son, Tusk & Trotter; Crystal Bridges, the Momentary.
+  - Eureka Springs AR (`eureka-springs`, 4M1): Carroll County Airport, 518 County Road 308, Berryville, AR 72616, 870-423-8393 (self-serve 100LL). Crescent Hotel, Basin Park Hotel; Crystal Dining Room, Mud Street Café; Thorncrown Chapel.
+  - Duluth & the North Shore MN (`duluth`, KDLH, ~1,000 nm): Vantage Aviation (some directories say Monaco Air), 4535 Airport Approach Road, 218-727-2911. Pier B, Fitger's; Va Bene, Lake Avenue, Northern Waters Smokehaus; Glensheen, Split Rock, Gooseberry Falls.
+  - Iowa (Okoboji or Decorah) moved to batch 2: Okoboji lodging/dining research was too thin.

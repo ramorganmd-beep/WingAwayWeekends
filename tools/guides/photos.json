@@ -493,5 +493,83 @@
     "caption": "Morning on a Door County beach",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@iamthedave?utm_source=wingaway_weekends&utm_medium=referral\">Dave Hoefler</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/gray-tree-trunk-on-gray-sand-near-body-of-water-during-sunset-fw_8aPCdG_A?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "branson": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Branson & Table Rock Lake (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lake-ozarks": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake of the Ozarks (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "hot-springs": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Hot Springs (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "bentonville": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Bentonville & Crystal Bridges (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "eureka-springs": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Eureka Springs (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "duluth": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Duluth & the North Shore (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

@@ -1115,5 +1115,151 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "photo": {"slug": "door-county", "remote": "https://images.unsplash.com/photo-1630283922235-a97c7bef05f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk2fA&ixlib=rb-4.1.0", "alt": "A weathered driftwood log on a Lake Michigan beach in Door County at sunrise", "pos": "50% 50%"}
+},
+{
+ "name": "Branson & Table Rock Lake",
+ "state": "Missouri",
+ "airport": "KBBG",
+ "lat": 36.5321,
+ "lon": -93.2005,
+ "desc": "A wilderness lodge on Table Rock Lake, Top of the Rock sunsets, Dogwood Canyon and live shows.",
+ "tags": [
+  "Stays",
+  "Lake",
+  "Outdoors",
+  "Scenic views",
+  "Spa",
+  "Golf"
+ ],
+ "guide": "branson/",
+ "stateCode": "MO",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Lake of the Ozarks",
+ "state": "Missouri",
+ "airport": "KAIZ",
+ "lat": 38.096,
+ "lon": -92.5495,
+ "desc": "A huge winding lake, castle ruins at Ha Ha Tonka, caves, boating and lakeside resorts.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Stays",
+  "Scenic views",
+  "Golf"
+ ],
+ "guide": "lake-ozarks/",
+ "stateCode": "MO",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Hot Springs",
+ "state": "Arkansas",
+ "airport": "KHOT",
+ "lat": 34.4788,
+ "lon": -93.0963,
+ "desc": "Thermal baths on Bathhouse Row in a national park, historic hotels and a brewery in a bathhouse.",
+ "tags": [
+  "Spa",
+  "History",
+  "Stays",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "hot-springs/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Bentonville & Crystal Bridges",
+ "state": "Arkansas",
+ "airport": "KVBT",
+ "lat": 36.3457,
+ "lon": -94.2193,
+ "desc": "Crystal Bridges Museum of American Art, forest bike trails, a lively square and coffee on the airfield.",
+ "tags": [
+  "Dining",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "History"
+ ],
+ "guide": "bentonville/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Eureka Springs",
+ "state": "Arkansas",
+ "airport": "4M1",
+ "lat": 36.3813,
+ "lon": -93.6246,
+ "desc": "A Victorian spa town on Ozark hillsides, the 1886 Crescent Hotel, Thorncrown Chapel and a vintage railway.",
+ "tags": [
+  "Stays",
+  "History",
+  "Spa",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "eureka-springs/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Duluth & the North Shore",
+ "state": "Minnesota",
+ "airport": "KDLH",
+ "lat": 46.8419,
+ "lon": -92.1987,
+ "desc": "Lake Superior, ore ships under the Aerial Lift Bridge, Glensheen, Split Rock Lighthouse and waterfalls.",
+ "tags": [
+  "Lake",
+  "Scenic views",
+  "Outdoors",
+  "Hiking",
+  "History",
+  "Dining"
+ ],
+ "guide": "duluth/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
 }
 ];
