@@ -1156,10 +1156,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "lake-ozarks", "remote": "https://images.unsplash.com/photo-1648325607695-c52d4d32f459?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE1fA&ixlib=rb-4.1.0", "alt": "Boats anchored in a wooded cove on Lake of the Ozarks", "pos": "50% 50%"}
 },
 {
  "name": "Hot Springs",
@@ -1180,10 +1177,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "hot-springs", "remote": "https://images.unsplash.com/photo-1697402971617-e885b672330a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0", "alt": "An aerial view of Hot Springs, Arkansas, among wooded Ouachita hills", "pos": "50% 50%"}
 },
 {
  "name": "Bentonville & Crystal Bridges",
@@ -1204,10 +1198,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "bentonville", "remote": "https://images.unsplash.com/photo-1766289496585-f0a28f075e75?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0", "alt": "The curved roofs of Crystal Bridges Museum of American Art over its ponds", "pos": "50% 50%"}
 },
 {
  "name": "Eureka Springs",
@@ -1253,10 +1244,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "duluth", "remote": "https://images.unsplash.com/photo-1573340488467-1acc1bb9d15d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk3fA&ixlib=rb-4.1.0", "alt": "A high view over the forested hills above Duluth and Lake Superior", "pos": "50% 50%"}
 },
 {
  "name": "Naples",
@@ -1278,10 +1266,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "naples", "remote": "https://images.unsplash.com/photo-1530626599274-7002948a2810?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk4fA&ixlib=rb-4.1.0", "alt": "The silhouette of a dock on the Gulf at golden hour in Naples, Florida", "pos": "50% 50%"}
 },
 {
  "name": "Sanibel & Captiva",
@@ -1302,10 +1287,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sanibel", "remote": "https://images.unsplash.com/photo-1629081427859-8ee84b7a1cc9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE4fA&ixlib=rb-4.1.0", "alt": "Seashells on the white sand of a Sanibel Island beach", "pos": "50% 50%"}
 },
 {
  "name": "Islamorada",
@@ -1351,10 +1333,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "palm-beach", "remote": "https://images.unsplash.com/photo-1576124908098-b386317d160f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0", "alt": "The fountain on Clematis Street in West Palm Beach", "pos": "50% 50%"}
 },
 {
  "name": "Cedar Key",
@@ -1374,10 +1353,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "cedar-key", "remote": "https://images.unsplash.com/photo-1589821884858-898ff366e14e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0", "alt": "A flock of pelicans on the rocks by the water at Cedar Key", "pos": "50% 50%"}
 },
 {
  "name": "Seaside & 30A",
@@ -1399,9 +1375,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "30a", "remote": "https://images.unsplash.com/photo-1664476952496-6c0a0246edaa?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzAxfA&ixlib=rb-4.1.0", "alt": "A paddleboard on the beach at sunset in Seaside, Florida", "pos": "50% 50%"}
 }
 ];

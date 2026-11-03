@@ -508,43 +508,43 @@
     "placeholder": true
   },
   "lake-ozarks": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1648325607695-c52d4d32f459?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "Boats anchored in a wooded cove on Lake of the Ozarks",
     "w": 960,
     "h": 720,
-    "caption": "Lake of the Ozarks (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A cove on Lake of the Ozarks",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jaydenherr2005?utm_source=wingaway_weekends&utm_medium=referral\">Jayden Herr</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-with-a-bunch-of-boats-in-it-QGJRShLXxSM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "hot-springs": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1697402971617-e885b672330a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "An aerial view of Hot Springs, Arkansas, among wooded Ouachita hills",
     "w": 960,
     "h": 720,
-    "caption": "Hot Springs (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Hot Springs from above",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@reddic_r?utm_source=wingaway_weekends&utm_medium=referral\">Reddic Rau</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/an-aerial-view-of-a-city-with-lots-of-trees-aEche9NkwIY?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bentonville": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1766289496585-f0a28f075e75?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "The curved roofs of Crystal Bridges Museum of American Art over its ponds",
     "w": 960,
     "h": 720,
-    "caption": "Bentonville & Crystal Bridges (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Crystal Bridges Museum of American Art",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@fardevio?utm_source=wingaway_weekends&utm_medium=referral\">Far Chinberdiev</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/modern-building-with-a-curved-roof-over-water-6pjblVkUtME?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "eureka-springs": {
     "slug": "shenandoah-ridges",
@@ -560,43 +560,43 @@
     "placeholder": true
   },
   "duluth": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1573340488467-1acc1bb9d15d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "A high view over the forested hills above Duluth and Lake Superior",
     "w": 960,
     "h": 720,
-    "caption": "Duluth & the North Shore (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The hills above Duluth",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@linginit?utm_source=wingaway_weekends&utm_medium=referral\">Andrew Ling</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/high-angle-photo-of-forest--8_P8KwKDlM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "naples": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1530626599274-7002948a2810?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The silhouette of a dock on the Gulf at golden hour in Naples, Florida",
     "w": 960,
     "h": 720,
-    "caption": "Naples (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Golden hour in Naples",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@baileyrapp?utm_source=wingaway_weekends&utm_medium=referral\">Bailey Rapp</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/silhouette-of-dock-during-golden-hour-4gvvyrGvJFA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "sanibel": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1629081427859-8ee84b7a1cc9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Seashells on the white sand of a Sanibel Island beach",
     "w": 960,
     "h": 720,
-    "caption": "Sanibel & Captiva (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sanibel shells",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@erin1592?utm_source=wingaway_weekends&utm_medium=referral\">Erin Caher</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-brown-seashells-on-white-snow-iKBWyg2VD2k?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "islamorada": {
     "slug": "st-michaels-harbor",
@@ -612,42 +612,42 @@
     "placeholder": true
   },
   "palm-beach": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1576124908098-b386317d160f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The fountain on Clematis Street in West Palm Beach",
     "w": 960,
     "h": 720,
-    "caption": "Palm Beach (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Clematis Street fountain",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@sagredophotography?utm_source=wingaway_weekends&utm_medium=referral\">Richard Sagredo</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/panning-photo-of-water-fountain-ePzGHBICT7U?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "cedar-key": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1589821884858-898ff366e14e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "A flock of pelicans on the rocks by the water at Cedar Key",
     "w": 960,
     "h": 720,
-    "caption": "Cedar Key (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Pelicans at Cedar Key",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@robincanfield?utm_source=wingaway_weekends&utm_medium=referral\">Robin Canfield</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/flock-of-pelicans-on-gray-rock-near-body-of-water-during-daytime-7SR9yvZ0MeQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "30a": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1664476952496-6c0a0246edaa?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzAxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A paddleboard on the beach at sunset in Seaside, Florida",
     "w": 960,
     "h": 720,
-    "caption": "Seaside & 30A (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sunset in Seaside",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@peggyannep?utm_source=wingaway_weekends&utm_medium=referral\">Peggy Paulson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-boat-on-the-beach-mql2L8pRfTE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
