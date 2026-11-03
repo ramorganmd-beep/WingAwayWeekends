@@ -379,3 +379,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by JP on Unsplash — https://unsplash.com/photos/several-bottles-of-woodford-reserve-whiskey-czEs4tdGLps
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: No location tag; Kentucky bourbon (Woodford Reserve) bottles, owner's choice
+
+## Hudson Valley
+
+- Photo by Danny Nanni on Unsplash — https://unsplash.com/photos/bridge-over-river-surrounded-by-trees--2647u9DW_I
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Bear Mountain Bridge, Hudson Highlands, NY (visually identified; no geotag)
