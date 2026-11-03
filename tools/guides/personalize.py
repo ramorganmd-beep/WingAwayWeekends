@@ -3,16 +3,17 @@
 Usage: python3 tools/guides/personalize.py docs/<guide>/index.html [...]
 
 Idempotent. Marks the route box with the destination airport and coordinates
-(taken from the destinations list in docs/index.html), adds a note line and
-loads airports-southeast.js and guide-route.js. Run after (re)building a guide.
+(taken from docs/destinations.js), adds a note line and
+loads airports-us.js and guide-route.js. Run after (re)building a guide.
 """
 import re
 import sys
 from pathlib import Path
 
 DOCS = Path(__file__).resolve().parents[2] / 'docs'
-home = (DOCS / 'index.html').read_text()
-COORDS = {m[0]: (m[1], m[2]) for m in re.findall(r"airport:'([A-Z0-9]+)',lat:([-\d.]+),lon:([-\d.]+)", home)}
+import json
+_src = (DOCS / 'destinations.js').read_text()
+COORDS = {d['airport']: (d['lat'], d['lon']) for d in json.loads(_src[_src.index('=[') + 1:_src.rindex(';')])}
 
 for path in map(Path, sys.argv[1:]):
     s = path.read_text()
@@ -31,6 +32,6 @@ for path in map(Path, sys.argv[1:]):
     s = s.replace('<span>ILLUSTRATIVE FLIGHT TIME</span><strong>', '<span>ILLUSTRATIVE FLIGHT TIME</span><strong data-time>', 1)
     i = s.index('<p class="estimate">')
     s = s[:i] + '<p class="estimate" id="route-note" hidden></p>' + s[i:]
-    s = s.replace('</body>', '<script src="../airports-southeast.js"></script><script src="../aircraft.js"></script><script src="../guide-route.js"></script></body>', 1)
+    s = s.replace('</body>', '<script src="../airports-us.js"></script><script src="../aircraft.js"></script><script src="../guide-route.js"></script></body>', 1)
     path.write_text(s)
     print('personalized:', path, dest)

@@ -30,6 +30,7 @@
     index.set(a[0], a);
     if (a[1]) index.set(a[1], a);
     if (/^K[A-Z0-9]{3}$/.test(a[0]) && !index.has(a[0].slice(1))) index.set(a[0].slice(1), a);
+    if (/^[A-Z0-9]{3}$/.test(a[0]) && !index.has('K' + a[0])) index.set('K' + a[0], a);
   });
 
   var fromLink = '', saved = '';
