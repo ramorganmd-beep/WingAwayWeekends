@@ -289,17 +289,16 @@
     "placeholder": true
   },
   "saratoga": {
-    "slug": "st-michaels-harbor",
+    "slug": "saratoga-race-course-1905",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm lake",
+    "alt": "A 1905 color postcard of the grandstand at Saratoga Race Course, with its peaked roofs above the track rail",
     "w": 960,
     "h": 720,
-    "caption": "Saratoga Springs (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Saratoga Race Course in 1905",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2025671189/\">Race Course, Saratoga, N.Y. (1905)</a> — Detroit Publishing Co. · No known restrictions on publication (Library of Congress). Cropped to 4:3 and resized."
   },
   "gettysburg": {
     "slug": "https://images.unsplash.com/photo-1650732227442-f86610a15d8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDAyfA&ixlib=rb-4.1.0",

@@ -819,10 +819,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm lake"
- }
+ "photo": {"slug": "saratoga-race-course-1905", "alt": "A 1905 color postcard of the grandstand at Saratoga Race Course, with its peaked roofs above the track rail"}
 },
 {
  "name": "Gettysburg",

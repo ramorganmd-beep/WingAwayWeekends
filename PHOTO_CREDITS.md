@@ -279,3 +279,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by John Kostyk on Unsplash — https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Gettysburg National Military Park Museum and Visitor Center, PA (geotag)
+
+## Saratoga Springs
+
+- Title: Race Course, Saratoga, N.Y. (1905)
+- Photographer: Detroit Publishing Co.
+- Source: https://www.loc.gov/item/2025671189/
+- License: No known restrictions on publication (Library of Congress)
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
