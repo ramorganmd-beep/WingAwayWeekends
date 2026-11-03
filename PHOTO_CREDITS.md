@@ -251,3 +251,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:The_Greenbrier_Historic_Resort_Hotel.jpg
 - License: Public domain (Carol M. Highsmith Archive, Library of Congress)
 - Changes: center-cropped to 4:3, resized, converted to WebP/JPEG
+
+## St. Michaels & Easton
+
+- Title: Hooper Strait Light, St. Michaels, Maryland.jpg
+- Photographer: Fletcher6
+- Source: https://commons.wikimedia.org/wiki/File:Hooper_Strait_Light,_St._Michaels,_Maryland.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+- Changes: center-cropped to 4:3, resized, converted to WebP/JPEG

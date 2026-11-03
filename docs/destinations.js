@@ -620,14 +620,10 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "st-michaels/",
- "draft": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor on the Chesapeake Bay"
- }
+ "photo": {"slug": "st-michaels-hooper-strait", "alt": "The white Hooper Strait Lighthouse on its iron legs at the Chesapeake Bay Maritime Museum in St. Michaels"}
 },
 {
  "name": "Cape May",
