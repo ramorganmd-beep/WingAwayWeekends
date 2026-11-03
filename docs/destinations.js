@@ -646,7 +646,6 @@ window.WINGAWAY_DESTINATIONS=[
   "Aviation museums"
  ],
  "guide": "cape-may/",
- "draft": true,
  "stateCode": "NJ",
  "region": "Mid-Atlantic",
  "family": true,
@@ -667,7 +666,6 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "shenandoah/",
- "draft": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -689,7 +687,6 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views"
  ],
  "guide": "homestead/",
- "draft": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -711,7 +708,6 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "greenbrier/",
- "draft": true,
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
