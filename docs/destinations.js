@@ -867,7 +867,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "draft": true,
  "photo": {
   "slug": "shenandoah-ridges",
   "alt": "Illustration of layered blue mountain ridges"
