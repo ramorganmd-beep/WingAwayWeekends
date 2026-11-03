@@ -38,7 +38,6 @@ window.WINGAWAY_DESTINATIONS=[
    "Aviation museums"
   ],
   "guide": "savannah/",
-  "draft": true,
   "photo": {
    "slug": "savannah",
    "alt": "Forsyth Park fountain in Savannah"
