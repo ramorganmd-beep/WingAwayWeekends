@@ -39,7 +39,7 @@
 <p class="note">Flight times are straight-line estimates using your aircraft profile or 150 KTAS plus 15 minutes, with no wind. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div>
 </main>
 <footer><a class="brand" href="../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Fly%20to%20lunch">Suggest a restaurant or a correction</a></p><p>Fly to lunch · Prototype</p></footer>
-<script src="../airports-us.js"></script><script src="../aircraft.js"></script>
+<script src="../airports-us.js"></script><script src="../airport-suggest.js"></script><script src="../aircraft.js"></script>
 <script>
 // where: 'On the field' | 'Short walk' | 'Short ride'. lat/lon only for strips not in airports-us.js.
 const SPOTS = [
@@ -98,7 +98,7 @@ const SPOTS = [
   const index = new Map();
   airports.forEach(a => { index.set(a[0], a); if (a[1]) index.set(a[1], a); if (/^K[A-Z0-9]{3}$/.test(a[0]) && !index.has(a[0].slice(1))) index.set(a[0].slice(1), a); if (/^[A-Z0-9]{3}$/.test(a[0]) && !index.has('K' + a[0])) index.set('K' + a[0], a); });
   const dl = document.getElementById('airport-list');
-  airports.forEach(a => { const o = document.createElement('option'); o.value = a[0]; o.label = a[2] + ', ' + a[3] + ', ' + a[4]; dl.append(o); });
+  WingAwaySuggest(document.getElementById('from'), dl, airports);
   const AC = window.WingAwayAircraft, aircraft = AC ? AC.load() : null;
   const from = document.getElementById('from'), max = document.getElementById('max'), meal = document.getElementById('meal');
   let saved = '';
