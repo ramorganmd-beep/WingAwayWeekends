@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>WingAway Weekends — Phase 1 plan</title>
+<style>
+@page{size:letter;margin:0.5in}
+*{box-sizing:border-box}
+body{font-family:Georgia,"Times New Roman",serif;color:#102d40;font-size:10.2pt;line-height:1.38;margin:0}
+h1{font-size:19pt;margin:0 0 2px;letter-spacing:-.01em}
+.sub{font-family:Helvetica,Arial,sans-serif;font-size:9pt;color:#526471;margin:0 0 10px}
+.goal{border-left:4px solid #ba7d2f;background:#f6f1e8;padding:7px 11px;margin:0 0 10px;font-size:10pt}
+h2{font-family:Helvetica,Arial,sans-serif;font-size:10pt;letter-spacing:.06em;text-transform:uppercase;color:#8a571c;margin:11px 0 5px}
+table{width:100%;border-collapse:collapse;font-size:9.2pt}
+th{font-family:Helvetica,Arial,sans-serif;text-align:left;font-size:8pt;letter-spacing:.05em;text-transform:uppercase;color:#526471;border-bottom:1.5px solid #102d40;padding:3px 5px}
+td{vertical-align:top;border-bottom:1px solid #dbe3e9;padding:5px}
+td.n{font-family:Helvetica,Arial,sans-serif;font-weight:700;width:18px;color:#ba7d2f}
+td.w{width:22%}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+ul{margin:3px 0 0;padding-left:16px}li{margin:1px 0}
+.box{border:1px solid #dbe3e9;padding:7px 10px;border-radius:3px}
+.foot{font-family:Helvetica,Arial,sans-serif;font-size:8pt;color:#7a8a96;margin-top:9px;border-top:1px solid #dbe3e9;padding-top:5px}
+.check{font-family:Helvetica,Arial,sans-serif}
+</style></head><body>
+<h1>WingAway Weekends · Phase 1: Ready for more regions</h1>
+<p class="sub">Plan date November 3, 2026 · Next region: Mid-Atlantic & Chesapeake · Site: wingawayweekends.com</p>
+<p class="goal"><strong>Goal:</strong> make the site work for pilots anywhere in the U.S. and make adding a new region fast, without changing how the current 24 Southeast destinations look or work.</p>
+
+<h2>Workstreams</h2>
+<table>
+<tr><th></th><th>Workstream</th><th>What changes</th><th>Done when</th></tr>
+<tr><td class="n">1</td><td class="w"><strong>Nationwide home airports</strong></td><td>Load every U.S. public airport (OurAirports, public domain), not just seven Southeast states. Kept small so the homepage stays fast.</td><td>Any U.S. airport code works on the homepage, the guides and Fly to Lunch.</td></tr>
+<tr><td class="n">2</td><td class="w"><strong>Destination data file</strong></td><td>Move the destination list out of the homepage code into one data file (region, state, airport, tags, photo, family flag).</td><td>Adding a destination is one new entry; homepage and review page both read it.</td></tr>
+<tr><td class="n">3</td><td class="w"><strong>Region filter & pages</strong></td><td>Region buttons on the homepage (Southeast now; Mid-Atlantic next), still sorted by flight time from your airport. A landing page per region for search engines.</td><td>Visitors can narrow by region; /southeast/ lists the current 24.</td></tr>
+<tr><td class="n">4</td><td class="w"><strong>“Traveling with kids” toggle</strong></td><td>A homepage toggle that shows family-friendly destinations. Start by tagging the 24; add a short “With kids” box to guides over time.</td><td>Toggle works; each destination is tagged yes or no.</td></tr>
+<tr><td class="n">5</td><td class="w"><strong>Wording & search cleanup</strong></td><td>Remove Southeast-only wording; update page titles, descriptions and the sitemap; refresh the README and notes.</td><td>Nothing on the site implies it is Southeast-only.</td></tr>
+<tr><td class="n">6</td><td class="w"><strong>Regional reviewers</strong></td><td>An invitation message, a one-page reviewer checklist (the same “lg” process) and a “Reviewed by” credit on guides.</td><td>Two or three Mid-Atlantic reviewers have said yes.</td></tr>
+</table>
+
+<div class="cols">
+<div>
+<h2>Sequence</h2>
+<ul>
+<li><strong>Step A (Claude):</strong> workstreams 1, 2 and 5. No visible change except more airports.</li>
+<li><strong>Step B (Claude):</strong> workstreams 3 and 4 on the homepage; family tags for review.</li>
+<li><strong>Step C (you):</strong> merge, spot-check on phone and computer, mark family tags.</li>
+<li><strong>Step D (you + Claude):</strong> send reviewer invitations; finalize the Mid-Atlantic list.</li>
+</ul>
+<h2>Your decisions</h2>
+<ul class="check">
+<li>☐ Region names and borders (e.g. Mid-Atlantic = VA, WV, MD, DE, PA, NJ)</li>
+<li>☐ Which of the 24 are family-friendly</li>
+<li>☐ Reviewer names and how they are credited</li>
+<li>☐ Final Mid-Atlantic destination list</li>
+</ul>
+</div>
+<div>
+<h2>Mid-Atlantic candidates (pick 8–12)</h2>
+<div class="box">
+<ul>
+<li>St. Michaels & Easton, MD (Easton, KESN)</li>
+<li>Annapolis, MD (Lee Airport, ANP)</li>
+<li>Cape May, NJ (KWWD)</li>
+<li>Gettysburg & Lancaster, PA (KLNS)</li>
+<li>Shenandoah & Luray, VA (KLUA)</li>
+<li>Chincoteague & Assateague, VA (Accomack Co., KMFV)</li>
+<li>Rehoboth & Lewes, DE (KGED)</li>
+<li>Bedford Springs, PA (KHMZ)</li>
+<li>The Homestead / Hot Springs, VA (KHSP)</li>
+<li>Greenbrier, WV (KLWB)</li>
+</ul>
+</div>
+<h2>Keep in mind</h2>
+<ul>
+<li>DC SFRA, P-40 and frequent TFRs affect several Mid-Atlantic airports.</li>
+<li>Photo sources: NPS (public domain) and Unsplash (credit; served from Unsplash).</li>
+</ul>
+</div>
+</div>
+<p class="foot">Hosting stays on Cloudflare Pages (free). All work lands on the “updates” branch; nothing goes live until you merge. Project notes: PROJECT_NOTES.md in the repository.</p>
+</body></html>
