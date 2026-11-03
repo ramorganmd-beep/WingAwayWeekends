@@ -5,7 +5,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
-REVIEWED = None  # owner review date; None while still a draft
+REVIEWED = 'November 3, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['hilton-head']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
@@ -31,22 +31,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your stretc
     'Oceanfront resorts on the island’s Atlantic side. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Oceanfront · Spa', 'The Westin Hilton Head Island Resort & Spa',
-         'A large oceanfront resort on a quiet stretch of beach, with a full spa and couples packages. Easy for a beach-and-spa weekend.') +
+         'A large oceanfront resort on a quiet stretch of beach, with a full spa and couples packages. Easy for a beach-and-spa weekend.',
+         'https://www.marriott.com/HHHWI') +
     card('Oceanfront · Classic', 'Omni Hilton Head Oceanfront Resort',
-         'A long-running resort right on the beach in Palmetto Dunes, with pools, restaurants and bikes to rent.') +
+         'A long-running resort right on the beach in Palmetto Dunes, with pools, restaurants and bikes to rent.',
+         'https://www.omnihotels.com/hotels/hilton-head') +
     card('Oceanfront · Relaxed', 'Sonesta Resort Hilton Head Island',
-         'A beachfront resort near Shipyard, with on-site dining and an easy, relaxed feel.') +
+         'A beachfront resort near Shipyard, with on-site dining and an easy, relaxed feel.',
+         'https://www.sonesta.com/sonesta-hotels-resorts/sc/hilton-head-island/sonesta-resort-hilton-head-island') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One by the water.',
     'Lowcountry seafood and sunsets over the marsh. Reserve weekend dinners.') +
     '<div class="grid three">' +
     card('Friday dinner · On the water', 'Skull Creek Boathouse',
-         'Lowcountry seafood with wide water views on the island’s north end, near the airport. Go early for sunset.') +
+         'Lowcountry seafood with wide water views on the island’s north end, near the airport. Go early for sunset.',
+         'https://www.skullcreekboathouse.com/') +
     card('Saturday dinner · French country', 'Charlie’s L’Etoile Verte',
-         'An elegant French country room with one of the island’s highest diner ratings. The special-occasion dinner.') +
+         'An elegant French country room with one of the island’s highest diner ratings. The special-occasion dinner.',
+         'https://www.charliesgreenstar.com/') +
     card('Sunset · Harbour Town', 'CQ’s Restaurant',
-         'A Harbour Town favorite in a historic building. Book a sunset table, then stroll the harbor and lighthouse after dinner.') +
+         'A Harbour Town favorite in a historic building. Book a sunset table, then stroll the harbor and lighthouse after dinner.',
+         'https://www.cqsrestaurant.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Beach, bikes and the lighthouse.',
@@ -105,7 +111,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Hurricane season', 'June through November. Watch the tropics and keep plans flexible.')]) +
     '</section>')
 
-P.append(page_end(number=23, place='Hilton Head, South Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=23, place='Hilton Head, South Carolina', reviewed=REVIEWED, note='Confirm hours, prices and availability directly with each place before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:

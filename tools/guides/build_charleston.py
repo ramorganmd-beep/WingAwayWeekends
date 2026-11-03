@@ -68,7 +68,8 @@ parts.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your ki
          'The city’s landmark luxury hotel on Meeting Street, steps from King Street and the City Market, with the full-service spa featured below. Ideal if you want the spa on site.',
          'https://www.charlestonplace.com/') +
     card('Marion Square · Rooftop', 'Hotel Bennett',
-         'A polished luxury hotel overlooking Marion Square on upper King Street, with a rooftop bar, a spa and an elegant champagne bar. Great for a King Street shopping weekend.') +
+         'A polished luxury hotel overlooking Marion Square on upper King Street, with a rooftop bar, a spa and an elegant champagne bar. Great for a King Street shopping weekend.',
+         'https://www.hotelbennett.com/') +
     card('Harborfront · New in 2026', 'The Cooper',
          'Charleston’s first luxury waterfront hotel, opened in spring 2026 on Concord Street beside Waterfront Park and the Pineapple Fountain. Harbor views, a full-service spa, three restaurants and its own marina with sunset yacht cruises. A top-end splurge.',
          'https://www.thecooper.com/') +
@@ -146,10 +147,10 @@ parts.append('<section id="wine">' + head('06', 'Wine & wine experiences', 'A gl
     '<div class="grid three">' +
     card('Upper King · Wine shop & bar', 'Graft Wine Shop',
          'A wine shop and bar at 700B King Street, with a relaxed, music-forward feel. Good for a glass on a King Street shopping afternoon.',
-         'https://www.google.com/maps/search/?api=1&query=Graft%20Wine%20Shop%2C%20700%20King%20St%2C%20Charleston%2C%20SC', 'Website & map') +
+         'https://www.graftchs.com/') +
     card('Lower King · Wine & cheese bar', 'Bin 152',
          'An intimate wine and cheese bar on lower King Street, one of the city’s most respected wine lists (a star in the 2025 World’s Best Wine List Awards). Perfect for a quiet glass after dinner.',
-         'https://www.google.com/maps/search/?api=1&query=Bin%20152%2C%20King%20St%2C%20Charleston%2C%20SC', 'Website & map') +
+         'https://www.bin152.com/') +
     card('French Quarter · Rooftop', 'The Rooftop at The Vendue',
          'An easy sunset glass with harbor views, especially if you stay at The Vendue. Check hours and weather; rooftops can close early or for events.',
          'https://www.thevendue.com/') +
@@ -164,7 +165,7 @@ parts.append('<section id="breweries">' + head('07', 'Breweries & craft drinks',
          'https://www.edmundsoast.com/') +
     card('Brewery district · Rooftop', 'Revelry Brewing Co.',
          'A casual brewery at 10 Conroy Street, known for its rooftop with sunset views of the skyline and the Ravenel Bridge. Check taproom hours and any event closures.',
-         'https://www.google.com/maps/search/?api=1&query=Revelry%20Brewing%20Co%2C%2010%20Conroy%20St%2C%20Charleston%2C%20SC', 'Website & map') +
+         'https://revelrybrewingco.com/') +
     '</div></section>')
 
 # 08 Events

@@ -26,7 +26,7 @@ GUIDE = dict(
     eat=dict(title='Two dinners. One distillery lunch.', intro='Reserve weekend dinners.',
         cards=[('Friday dinner · Since 1779', 'Old Talbott Tavern', 'Kentucky classics and a long bourbon list in one of America’s oldest western stagecoach stops.', 'https://talbotttavern.com/'),
                ('Saturday dinner · Distillery', 'Bottle & Bond Kitchen and Bar', 'Seasonal Kentucky cooking and hundreds of bourbons at the Bardstown Bourbon Company.', 'https://www.bardstownbourbon.com/'),
-               ('Lunch · My Old Kentucky Home', 'Downtown Bardstown', 'Cafés and lunch spots around the courthouse square, an easy walk from the Getz Museum.')]),
+               ('Lunch · Contemporary Southern', 'Toogie’s Table', 'A local favorite for Southern-inspired lunches, handy before an afternoon distillery tour.', 'https://www.toogiestable.com/')]),
     explore=dict(title='Rickhouses, hollows and history.', intro='Two distilleries a day is plenty.',
         items=[('Heaven Hill Bourbon Experience', 'Tours and tastings at one of the largest family-owned distilleries, just outside town.', 'https://heavenhilldistillery.com/', 'Tours'),
                ('Willett Distillery', 'A family distillery on a hill above Bardstown, with a striking pot still and a lovely setting.', 'https://www.kentuckybourbonwhiskey.com/', 'Tours'),

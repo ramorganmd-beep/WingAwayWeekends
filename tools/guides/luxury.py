@@ -140,7 +140,8 @@ LUXURY = {
          'https://www.montage.com/palmettobluff/')],
     'highlands-cashiers': [
         ('Mountain resort · Cashiers', 'High Hampton',
-         'A historic mountain resort on its own lake near Cashiers, with golf, hiking and a classic lodge.')],
+         'A historic mountain resort on its own lake near Cashiers, with golf, hiking and a classic lodge.',
+         'https://highhampton.com/')],
     'shenandoah': [
         ('Relais & Châteaux · About 45 minutes', 'The Inn at Little Washington',
          'Famous for its restaurant, with lavishly decorated rooms in the village of Washington, Virginia. A once-in-a-lifetime splurge.',
