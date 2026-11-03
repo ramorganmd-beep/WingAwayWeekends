@@ -846,11 +846,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "lancaster", "remote": "https://images.unsplash.com/photo-1713961271104-47c5f60df986?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAzfA&ixlib=rb-4.1.0", "alt": "The red Poole Forge Covered Bridge over a stream in Lancaster County", "pos": "50% 50%"}
 },
 {
  "name": "Hudson Valley",
@@ -894,11 +890,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CT",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "mystic", "remote": "https://images.unsplash.com/photo-1706043903343-8f3765f0fc80?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAxfA&ixlib=rb-4.1.0", "alt": "A beluga whale swimming at Mystic Aquarium in Mystic, Connecticut", "pos": "50% 45%"}
 },
 {
  "name": "Portsmouth",
@@ -918,11 +910,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NH",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "portsmouth", "remote": "https://images.unsplash.com/photo-1635531135008-b53d954e3e23?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAwfA&ixlib=rb-4.1.0", "alt": "Small boats filling Portsmouth harbor", "pos": "50% 50%"}
 },
 {
  "name": "Kennebunkport",
@@ -942,11 +930,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kennebunkport", "remote": "https://images.unsplash.com/photo-1659320933767-fd2f38406b26?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk5fA&ixlib=rb-4.1.0", "alt": "Boats tied up at a pier in Kennebunkport harbor", "pos": "50% 50%"}
 },
 {
  "name": "The Berkshires",
@@ -966,11 +950,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "berkshires", "remote": "https://images.unsplash.com/photo-1634745253423-70edec82027a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk4fA&ixlib=rb-4.1.0", "alt": "A white farmhouse surrounded by fall foliage in the Berkshires", "pos": "50% 50%"}
 },
 {
  "name": "Lake Placid",
@@ -992,11 +972,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "lake-placid", "remote": "https://images.unsplash.com/photo-1723724728568-d459aa85b221?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk3fA&ixlib=rb-4.1.0", "alt": "Snow-capped Whiteface Mountain reflected in still water near Lake Placid", "pos": "50% 50%"}
 },
 {
  "name": "Martha’s Vineyard",
@@ -1017,11 +993,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "marthas-vineyard", "remote": "https://images.unsplash.com/photo-1586150055793-99d0c29898ed?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk3fA&ixlib=rb-4.1.0", "alt": "Colorful gingerbread-style Victorian cottages in Oak Bluffs on Martha’s Vineyard", "pos": "50% 50%"}
 },
 {
  "name": "Bardstown & Bourbon Country",
@@ -1089,10 +1061,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "mackinac", "remote": "https://images.unsplash.com/photo-1561171466-40b5550db7b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzkzfA&ixlib=rb-4.1.0", "alt": "Blue flowers in the Grand Hotel’s secret garden on Mackinac Island", "pos": "50% 50%"}
 },
 {
  "name": "French Lick",
@@ -1113,10 +1082,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "french-lick", "remote": "https://images.unsplash.com/photo-1650343831859-5b0343e094f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDI5fA&ixlib=rb-4.1.0", "alt": "The vast domed atrium of West Baden Springs Hotel, with palms and balconies around the courtyard", "pos": "50% 45%"}
 },
 {
  "name": "Galena",
@@ -1138,10 +1104,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "galena", "remote": "https://images.unsplash.com/photo-1648877794682-c848b0064d6d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk1fA&ixlib=rb-4.1.0", "alt": "Galena’s historic brick Main Street with shops and a red awning", "pos": "50% 50%"}
 },
 {
  "name": "Door County",
@@ -1163,9 +1126,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "door-county", "remote": "https://images.unsplash.com/photo-1630283922235-a97c7bef05f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk2fA&ixlib=rb-4.1.0", "alt": "A weathered driftwood log on a Lake Michigan beach in Door County at sunrise", "pos": "50% 50%"}
 }
 ];

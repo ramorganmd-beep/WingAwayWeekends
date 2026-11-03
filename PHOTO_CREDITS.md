@@ -299,3 +299,69 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Stowe_VT_Community_Church_(51626887231).jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Mackinac Island
+
+- Photo by Aaron Burden on Unsplash — https://unsplash.com/photos/blue-flowers-in-a-field-during-daytime-aVj4RKjMSUU
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Grand Hotel Secret Garden, Mackinac Island, MI (geotag)
+
+## French Lick
+
+- Photo by Bob Riggs on Unsplash — https://unsplash.com/photos/a-large-building-with-a-domed-ceiling-and-many-windows-0ZWiGxgQNo0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: West Baden Springs Hotel atrium (visually identified)
+
+## Galena
+
+- Photo by Keren Roeglin on Unsplash — https://unsplash.com/photos/a-street-scene-with-a-red-tent-in-the-middle-of-the-street-MuyDeO-JPTk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Galena, IL (geotag)
+
+## Door County
+
+- Photo by Dave Hoefler on Unsplash — https://unsplash.com/photos/gray-tree-trunk-on-gray-sand-near-body-of-water-during-sunset-fw_8aPCdG_A
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Door County, WI (geotag)
+
+## Martha’s Vineyard
+
+- Photo by Aubrey Odom on Unsplash — https://unsplash.com/photos/white-and-brown-concrete-house-TfyYaL5Fy-A
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Martha's Vineyard, MA (geotag)
+
+## Lake Placid
+
+- Photo by Virgilio de Carvalho on Unsplash — https://unsplash.com/photos/a-snow-covered-mountain-is-reflected-in-the-water-Xe7sSAj2BpI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lake Placid, NY (geotag)
+
+## The Berkshires
+
+- Photo by Nikunj Singh on Unsplash — https://unsplash.com/photos/a-white-house-surrounded-by-trees-and-leaves-qdHc83bRbfQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: The Berkshires, Sandisfield, MA (geotag)
+
+## Kennebunkport
+
+- Photo by Trent Erwin on Unsplash — https://unsplash.com/photos/a-boat-docked-at-a-pier-wzHLQbwQ7Zs
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kennebunkport, ME (photographer caption)
+
+## Portsmouth
+
+- Photo by Peregrine Photography on Unsplash — https://unsplash.com/photos/a-harbor-filled-with-lots-of-small-boats-4iczFWkAcps
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Portsmouth, NH (geotag)
+
+## Mystic
+
+- Photo by Carol Highsmith's America on Unsplash — https://unsplash.com/photos/beluga-whale-in-mystic-aquarium-mystic-connecticut-oAo-lMp1EMI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Mystic Aquarium, Mystic, CT (photographer caption)
+
+## Lancaster & Amish Country
+
+- Photo by Stephen Crane on Unsplash — https://unsplash.com/photos/a-red-covered-bridge-over-a-small-stream-fasLRq-9DgQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lancaster, PA (geotag; Poole Forge Covered Bridge per caption)
