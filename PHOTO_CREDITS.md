@@ -205,3 +205,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Elijah Mears on Unsplash — https://unsplash.com/photos/green-trees-and-mountains-during-sunrise-nW3N78niwss
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location tag: Wilkes County, NC, USA
+
+## Dahlonega
+
+- Photo by Cesar Pimentel on Unsplash — https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-forest-x5txtqVLoLg
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag: Amicalola Falls, Georgia, USA
