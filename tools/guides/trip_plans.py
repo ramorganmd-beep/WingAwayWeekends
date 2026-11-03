@@ -314,6 +314,48 @@ PLANS = {
         'extra': [('Morning', 'A bike ride to South Beach.'),
                   ('Afternoon', 'The Aquinnah Cliffs.'),
                   ('Evening', 'Sunset at Menemsha.')]},
+    'bardstown': {
+        'day': [('Arrive', 'Land at KBRY mid-morning; arrange a driver ahead.'),
+                ('Midday', 'Lunch on the square and the Getz Museum.'),
+                ('Afternoon', 'My Old Kentucky Home, then back to the FBO (the non-pilot can taste; the pilot waits for next time).')],
+        'extra': [('Morning', 'Jim Beam’s American Stillhouse in Clermont, with a driver.'),
+                  ('Afternoon', 'The Abraham Lincoln Birthplace, about 40 minutes away.'),
+                  ('Evening', 'A bourbon dinner in Louisville.')]},
+    'dayton': {
+        'day': [('Arrive', 'Land at KMGY early and pick up the car.'),
+                ('Midday', 'The National Museum of the U.S. Air Force.'),
+                ('Afternoon', 'Carillon Park and the Wright Flyer III, then back to the FBO.')],
+        'extra': [('Morning', 'The Wright Cycle Company and Hawthorn Hill tour.'),
+                  ('Afternoon', 'Glen Helen and Clifton Gorge.'),
+                  ('Evening', 'Dinner in the Oregon District.')]},
+    'mackinac': {
+        'day': [('Arrive', 'Land at KMCD mid-morning and take a carriage to town.'),
+                ('Midday', 'Fort Mackinac and lunch on Main Street.'),
+                ('Afternoon', 'Fudge and the Grand Hotel porch, then back to the airport.')],
+        'extra': [('Morning', 'A ferry to St. Ignace or Mackinaw City for the bridge view.'),
+                  ('Afternoon', 'A bike ride through the island’s interior trails.'),
+                  ('Evening', 'Sunset at Mission Point.')]},
+    'french-lick': {
+        'day': [('Arrive', 'Land at KFRH mid-morning and take the shuttle.'),
+                ('Midday', 'A historic tour of the West Baden dome and lunch at the resort.'),
+                ('Afternoon', 'A spa treatment, then back to the airport.')],
+        'extra': [('Morning', 'A second round, on the Donald Ross Course.'),
+                  ('Afternoon', 'Horseback riding at the resort stables.'),
+                  ('Evening', 'Live music at the resort.')]},
+    'galena': {
+        'day': [('Arrive', 'Land at KDBQ early and drive to Galena.'),
+                ('Midday', 'Grant’s home and lunch on Main Street.'),
+                ('Afternoon', 'A drive through the hills, then back to Dubuque.')],
+        'extra': [('Morning', 'The National Mississippi River Museum in Dubuque.'),
+                  ('Afternoon', 'A riverboat cruise.'),
+                  ('Evening', 'Dinner overlooking the river.')]},
+    'door-county': {
+        'day': [('Arrive', 'Land at KSUE early and pick up the car.'),
+                ('Midday', 'Fish Creek and Peninsula State Park.'),
+                ('Afternoon', 'Lunch in Ephraim, then back to the FBO.')],
+        'extra': [('Morning', 'The Washington Island ferry.'),
+                  ('Afternoon', 'Wineries and orchards on the lake side.'),
+                  ('Evening', 'A sunset cruise from Sister Bay.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
