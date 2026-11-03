@@ -25,6 +25,8 @@ TOWN = {
     'hilton-head': 'Hilton Head Island, SC', 'highlands-cashiers': 'Highlands, NC',
     'st-michaels': 'St. Michaels, MD', 'cape-may': 'Cape May, NJ', 'shenandoah': 'Luray, VA',
     'homestead': 'Hot Springs, VA', 'greenbrier': 'White Sulphur Springs, WV',
+    'newport': 'Newport, RI', 'nantucket': 'Nantucket, MA', 'bar-harbor': 'Bar Harbor, ME',
+    'stowe': 'Stowe, VT', 'saratoga': 'Saratoga Springs, NY', 'gettysburg': 'Gettysburg, PA',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {

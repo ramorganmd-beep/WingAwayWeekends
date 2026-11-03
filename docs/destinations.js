@@ -708,5 +708,150 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mid-Atlantic",
  "family": true,
  "photo": {"slug": "greenbrier-front", "alt": "The white columned façade of The Greenbrier resort under a clear blue sky"}
+},
+{
+ "name": "Newport",
+ "state": "Rhode Island",
+ "airport": "KUUU",
+ "lat": 41.5322,
+ "lon": -71.281,
+ "desc": "Gilded Age mansions, the Cliff Walk, sunset sails and oceanfront inns.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "History",
+  "Scenic views",
+  "Spa",
+  "Outdoors"
+ ],
+ "guide": "newport/",
+ "stateCode": "RI",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Nantucket",
+ "state": "Massachusetts",
+ "airport": "KACK",
+ "lat": 41.2531,
+ "lon": -70.0602,
+ "desc": "A cobblestone island town, lighthouses, bike paths and beaches 30 miles out to sea.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Beach",
+  "History",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "nantucket/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bar Harbor & Acadia",
+ "state": "Maine",
+ "airport": "KBHB",
+ "lat": 44.45,
+ "lon": -68.3615,
+ "desc": "Acadia’s granite coast, Cadillac Mountain sunrise, carriage roads, popovers and lobster.",
+ "tags": [
+  "Hiking",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "bar-harbor/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Stowe",
+ "state": "Vermont",
+ "airport": "KMVL",
+ "lat": 44.5346,
+ "lon": -72.614,
+ "desc": "A New England village below Mount Mansfield, with mountain resorts, spas and famous fall color.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Hiking",
+  "Outdoors",
+  "Scenic views",
+  "Dining"
+ ],
+ "guide": "stowe/",
+ "stateCode": "VT",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "Saratoga Springs",
+ "state": "New York",
+ "airport": "5B2",
+ "lat": 43.0513,
+ "lon": -73.8612,
+ "desc": "Summer horse racing, mineral spa baths, Victorian Broadway and concerts under the trees.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Spa",
+  "History"
+ ],
+ "guide": "saratoga/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm lake"
+ }
+},
+{
+ "name": "Gettysburg",
+ "state": "Pennsylvania",
+ "airport": "KW05",
+ "lat": 39.8412,
+ "lon": -77.2747,
+ "desc": "A private battlefield guide, Eisenhower’s farm, a 1776 tavern and Adams County orchards.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Outdoors"
+ ],
+ "guide": "gettysburg/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of rolling ridges"
+ }
 }
 ];

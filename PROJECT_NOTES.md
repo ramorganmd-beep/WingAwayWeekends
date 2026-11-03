@@ -246,3 +246,16 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Homestead = Commons "Homestead Resort old wing 2016.jpg" (Antony-22, CC BY-SA 4.0) as `homestead-old-wing`; Greenbrier = Commons "The Greenbrier Historic Resort Hotel.jpg" (Carol M. Highsmith, public domain) center-cropped 4:3 as `greenbrier-front`. Wikimedia returns 429 for original-size downloads; fetch the 1920px thumbnail instead. The old placeholder files (cape-may-beach, shenandoah-ridges) are unused and can be deleted.
 - Owner reviewed ("lg") Cape May, Shenandoah & Luray, The Homestead and The Greenbrier on Nov 3, 2026: REVIEWED set, draft flag removed, added to sitemap. Still draft: St. Michaels & Easton (awaiting photo), Savannah (awaiting friend). St. Michaels photo options (Wikimedia Commons) are on /photo-options/; data in scratchpad wm_stm_sheet.json.
 - St. Michaels reviewed Nov 3, 2026 with Commons "Hooper Strait Light, St. Michaels, Maryland.jpg" (Fletcher6, CC BY 3.0) as `st-michaels-hooper-strait`. Only Savannah remains a draft. Unused placeholder files: st-michaels-harbor, cape-may-beach, shenandoah-ridges (safe to delete).
+
+### Northeast region (started November 3, 2026)
+- Owner decision: Northeast = PA, NY, VT, NH, MA, CT, RI, ME (PA is Northeast, not Mid-Atlantic). Midwest comes after the Northeast is complete.
+- New shared builder `tools/guides/simple_guide.py`: each `build_<slug>.py` defines a GUIDE dict and calls `build()`. Same post-processing pipeline as other guides.
+- Homepage region list now hides regions with no public guides (Northeast appears only with ?preview=1 until a guide is reviewed).
+- **Batch 1 (drafts, numbers 30–35, all family: true, placeholder illustrations):**
+  - Newport RI (`newport`, KUUU): FlightLevel Aviation, 211 Airport Access Road, Middletown, RI 02842, 401-846-9400. Castle Hill Inn, The Chanler, The Vanderbilt; White Horse Tavern, Castle Hill, The Mooring.
+  - Nantucket MA (`nantucket`, KACK): town FBO, 14 Airport Road, 508-325-5307. The Wauwinet, White Elephant, Greydon House; The Club Car, TOPPER'S, Straight Wharf.
+  - Bar Harbor & Acadia ME (`bar-harbor`, KBHB): Modern Aviation, 112 Caruso Drive, Trenton, ME 04605, 207-667-5534. Bar Harbor Inn, West Street Hotel, Balance Rock Inn; Havana, Jordan Pond House, Thurston's.
+  - Stowe VT (`stowe`, KMVL): no full-service FBO listed; Heritage Aviation at KBTV as the full-service alternative. Topnotch, Lodge at Spruce Peak, Trapp Family Lodge; Plate, Hen of the Wood, von Trapp Bierhall.
+  - Saratoga Springs NY (`saratoga`, 5B2): North American Flight Services, 405 Greenfield Avenue, Ballston Spa, NY 12020, 518-885-5470. Adelphi, Saratoga Arms, Gideon Putnam; 15 Church, Osteria Danny, Hattie's.
+  - Gettysburg PA (`gettysburg`, KW05): Blouch Aircraft Services, 1150 Chambersburg Road (address from directories, confirm), 717-357-5958. P-40 about 15 nm SW. Hotel Gettysburg, Federal Pointe Inn, Brickhouse Inn; Dobbin House, Farnsworth House, The Pub. (Inn at Herr Ridge dropped: website gone.)
+- Batch 2 planned: Lancaster PA, Hudson Valley NY, Mystic CT, Portsmouth NH, Kennebunkport ME, the Berkshires MA, Lake Placid NY, Martha's Vineyard MA.

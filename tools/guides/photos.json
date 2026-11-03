@@ -236,5 +236,83 @@
     "h": 720,
     "caption": "The Greenbrier’s white façade",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Greenbrier_Historic_Resort_Hotel.jpg\">The Greenbrier Historic Resort Hotel.jpg</a> — Carol M. Highsmith · Public domain (Carol M. Highsmith Archive, Library of Congress). Cropped to 4:3 and resized."
+  },
+  "newport": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "The New England coast (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "nantucket": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Nantucket’s beaches (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "bar-harbor": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "A Maine harbor (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "stowe": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "The Green Mountains (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "saratoga": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm lake",
+    "w": 960,
+    "h": 720,
+    "caption": "Saratoga Springs (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "gettysburg": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of rolling ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Gettysburg’s countryside (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }
