@@ -650,10 +650,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NJ",
  "region": "Mid-Atlantic",
  "family": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "cape-may", "remote": "https://images.unsplash.com/photo-1591726015387-bbfd29215bf5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0", "alt": "The white Cape May Lighthouse with its red lantern above green grass and a blue sky", "pos": "50% 45%"}
 },
 {
  "name": "Shenandoah & Luray",
@@ -674,10 +671,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "shenandoah", "remote": "https://images.unsplash.com/photo-1725983535214-bfaf72111990?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0", "alt": "Fall color on Blackrock Summit in Shenandoah National Park at sunset", "pos": "50% 50%"}
 },
 {
  "name": "The Homestead",

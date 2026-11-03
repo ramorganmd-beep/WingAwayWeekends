@@ -223,3 +223,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Nik Shuliahin 💛💙 on Unsplash — https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location tag: Highlands, NC, USA
+
+## Cape May
+
+- Photo by rod m on Unsplash — https://unsplash.com/photos/white-and-red-lighthouse-near-green-grass-field-under-blue-sky-during-daytime-2M22Gga202k
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Cape May, NJ, USA
+
+## Shenandoah & Luray
+
+- Photo by durul dalkanat on Unsplash — https://unsplash.com/photos/a-view-of-a-mountain-with-a-sunset-in-the-background-YkpOqgtqulE
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Blackrock Summit, Shenandoah National Park, VA (photographer caption; no geotag)
