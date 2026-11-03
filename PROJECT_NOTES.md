@@ -293,3 +293,10 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Bardstown photo: Unsplash Woodford Reserve bottles (owner chose it after the location note).
 - Owner approved the Midwest ("midwest lg", Nov 3, 2026): all six published. 48 public; only Hudson Valley is still a draft (waiting on a photo pick). New map plans/coverage-map-central.png (four regions, eastern + central US).
 - Hudson Valley photo pick: Unsplash Bear Mountain Bridge in fall (Danny Nanni; visually identified, pick_hudson.json). Apply blocked by Unsplash rate limit; guide stays draft until applied.
+
+### Region plan (owner decisions, Nov 3, 2026)
+- **Florida** is its own region (St. Augustine, Amelia Island and Key West moved from Southeast). More Florida destinations to come.
+- **Heartland** = MO, IA, MN, AR (next to build).
+- **Great Plains** = ND, SD, NE, KS, OK.
+- **Texas** is its own region.
+- Region filter options: Southeast, Florida, Mid-Atlantic, Northeast, Midwest, Heartland, Great Plains, Texas (empty regions are hidden automatically).

@@ -135,7 +135,7 @@ window.WINGAWAY_DESTINATIONS=[
   ],
   "guide": "st-augustine/",
   "stateCode": "FL",
-  "region": "Southeast",
+  "region": "Florida",
   "family": true,
   "photo": {
    "slug": "st-augustine",
@@ -256,7 +256,7 @@ window.WINGAWAY_DESTINATIONS=[
   ],
   "guide": "amelia-island/",
   "stateCode": "FL",
-  "region": "Southeast",
+  "region": "Florida",
   "family": true,
   "photo": {
    "slug": "amelia-centre-street",
@@ -595,7 +595,7 @@ window.WINGAWAY_DESTINATIONS=[
   ],
   "guide": "key-west/",
   "stateCode": "FL",
-  "region": "Southeast",
+  "region": "Florida",
   "family": false,
   "photo": {
    "slug": "key-west-duval",
