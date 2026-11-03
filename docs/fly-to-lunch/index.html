@@ -1,4 +1,4 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40"><meta name="description" content="The $100 hamburger: Southeast airports with a well-reviewed restaurant on the field or a short walk away, sorted by flight time from your home airport."><title>Fly to Lunch: The $100 Hamburger | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/fly-to-lunch/"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40"><meta name="description" content="The $100 hamburger: airports with a well-reviewed restaurant on the field or a short walk away, sorted by flight time from your home airport."><title>Fly to Lunch: The $100 Hamburger | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/fly-to-lunch/"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
 <style>
 .lunch-intro{max-width:820px;padding:56px 0 18px}
 .lunch-intro h1{margin:10px 0 12px}
@@ -22,7 +22,7 @@
 <main id="main">
 <div class="lunch-intro"><span class="eyebrow">Short hops · Breakfast & lunch</span><h1>The $100 hamburger</h1>
 <p class="lede">Fly somewhere good for lunch, then fly home.</p>
-<p>Airports across the Southeast with a well-reviewed restaurant on the field or an easy walk or short ride away. Sorted by flight time from your home airport, so the closest good meal is at the top.</p></div>
+<p>Airports with a well-reviewed restaurant on the field or an easy walk or short ride away. Sorted by flight time from your home airport, so the closest good meal is at the top. The list starts in the Southeast and grows with each new region.</p></div>
 
 <section aria-label="Filter the list" class="lunch-filters">
 <div><label for="from">Departure airport</label><input id="from" maxlength="4" spellcheck="false" autocomplete="off" list="airport-list" placeholder="e.g. KMYR"><datalist id="airport-list"></datalist></div>
@@ -38,10 +38,10 @@
 <p>Research-based selections from pilot reviews, aviation press and local listings, not personal-visit endorsements. Researched November 2, 2026. Airport restaurants open, close and change hours often. <strong>Call before you fly</strong>, and check runway, fuel, fees and parking in the Chart Supplement. <span class="feedback">Know a great one we missed, or found one closed? <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Fly%20to%20lunch">Email us at hello@wingawayweekends.com</a>.</span></p>
 <p class="note">Flight times are straight-line estimates using your aircraft profile or 150 KTAS plus 15 minutes, with no wind. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div>
 </main>
-<footer><a class="brand" href="../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Fly%20to%20lunch">Suggest a restaurant or a correction</a></p><p>Fly to lunch · Southeast prototype</p></footer>
-<script src="../airports-southeast.js"></script><script src="../aircraft.js"></script>
+<footer><a class="brand" href="../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Fly%20to%20lunch">Suggest a restaurant or a correction</a></p><p>Fly to lunch · Prototype</p></footer>
+<script src="../airports-us.js"></script><script src="../aircraft.js"></script>
 <script>
-// where: 'On the field' | 'Short walk' | 'Short ride'. lat/lon only for strips not in airports-southeast.js.
+// where: 'On the field' | 'Short walk' | 'Short ride'. lat/lon only for strips not in airports-us.js.
 const SPOTS = [
  {code:'KBQ1', name:'Pik N Pig', where:'Beside the runway', meals:['Lunch','Dinner'], food:'Barbecue',
   desc:'Eastern North Carolina barbecue at picnic tables beside the grass runway near Pinehurst. Watching the arrivals is half the fun. Rebuilt after a 2021 fire and reopened in 2023.',
@@ -96,7 +96,7 @@ const SPOTS = [
 (function () {
   const airports = window.WINGAWAY_AIRPORTS || [];
   const index = new Map();
-  airports.forEach(a => { index.set(a[0], a); if (a[1]) index.set(a[1], a); if (/^K[A-Z0-9]{3}$/.test(a[0]) && !index.has(a[0].slice(1))) index.set(a[0].slice(1), a); });
+  airports.forEach(a => { index.set(a[0], a); if (a[1]) index.set(a[1], a); if (/^K[A-Z0-9]{3}$/.test(a[0]) && !index.has(a[0].slice(1))) index.set(a[0].slice(1), a); if (/^[A-Z0-9]{3}$/.test(a[0]) && !index.has('K' + a[0])) index.set('K' + a[0], a); });
   const dl = document.getElementById('airport-list');
   airports.forEach(a => { const o = document.createElement('option'); o.value = a[0]; o.label = a[2] + ', ' + a[3] + ', ' + a[4]; dl.append(o); });
   const AC = window.WingAwayAircraft, aircraft = AC ? AC.load() : null;
@@ -115,7 +115,7 @@ const SPOTS = [
     const home = index.get(from.value.trim().toUpperCase());
     const list = document.getElementById('list'), status = document.getElementById('status');
     list.innerHTML = '';
-    if (!home) { status.textContent = 'Enter a Southeast airport code (for example KMYR, KCHS or KPDK).'; return; }
+    if (!home) { status.textContent = 'Enter a U.S. airport code (for example KMYR, KCHS or KPDK).'; return; }
     try { localStorage.setItem('wingaway-home', home[0]); } catch (e) {}
     const limit = Number(max.value), want = meal.value;
     const rows = SPOTS.map(s => {

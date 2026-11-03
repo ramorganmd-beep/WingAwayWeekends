@@ -129,7 +129,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 - Destination records, interest tags, photograph mappings, distance calculation and DOM rendering are embedded in the discovery HTML.
 - Shared `style.css` plus page-specific inline styles.
 - Local WebP/JPEG assets and JSON attribution records; Wikimedia Commons supplies the source imagery and file-specific license evidence.
-- `docs/airports-southeast.js` holds airport codes, names and coordinates generated from OurAirports (public domain): land airports with a K-prefixed ICAO code or a 3-character FAA ID, which leaves out most private strips.
+- `docs/airports-us.js` holds airport codes, names and coordinates generated from OurAirports (public domain): land airports with a K-prefixed ICAO code or a 3-character FAA ID, which leaves out most private strips.
 - Cloudflare Pages hosts the static site from `docs/` on `main` (no build step). GitHub Pages can serve the same folder as a backup; `docs/.nojekyll` makes it serve the files as-is.
 - Source is managed in Git on GitHub. The ChatGPT `.openai/hosting.json` manifest was not carried over and is no longer needed.
 - Python/Pillow were used as development tools for image resizing/conversion and archive checks. They are not browser runtime dependencies.
@@ -149,7 +149,7 @@ Images use WebP with JPEG fallbacks, responsive `srcset`, descriptive alternativ
 | `licenses/replacement-imageinfo-evidence.json` | File-specific evidence for the four replacements |
 | `docs/index.html` | Discovery homepage, destination data, filters and rendering logic |
 | `docs/style.css` | Shared site styling |
-| `docs/airports-southeast.js` | Southeast departure airports (OurAirports data) |
+| `docs/airports-us.js` | Southeast departure airports (OurAirports data) |
 | `docs/savannah/index.html` | Savannah destination guide |
 | `docs/savannah.jpg` | Hero/guide photograph |
 | `docs/charleston/index.html` | Charleston destination guide (draft) |
@@ -170,7 +170,7 @@ To preview locally, open `docs/index.html` in a browser or run `python3 -m http.
 
 1. ~~Latest photos are not live.~~ Resolved November 1, 2026: photos approved and published on GitHub Pages.
 2. **All ten guides are drafts.** They need a read-through and link check before the “Draft for review” labels come off.
-3. **Departure airports cover the Southeast only.** NC, SC, GA, FL, VA, TN and AL as of November 1, 2026. Expanding means regenerating `docs/airports-southeast.js` with more states. Destination guides still show KMYR-based route snapshots.
+3. **Departure airports cover the Southeast only.** NC, SC, GA, FL, VA, TN and AL as of November 1, 2026. Expanding means regenerating `docs/airports-us.js` with more states. Destination guides still show KMYR-based route snapshots.
 4. ~~Trip length is inactive.~~ Resolved November 1, 2026: it now sets the flight-time options.
 5. ~~Time labels can obscure cutoff behavior.~~ Resolved November 1, 2026: labels now show hours and minutes, rounded up (Nashville “~3 hr 3 min”). The filter is unchanged.
 6. ~~Key West is beyond the selector range.~~ Resolved November 1, 2026: every trip length now offers up to 4½ hours, which includes Key West.
@@ -196,7 +196,7 @@ Originally written in ChatGPT from the final package `WingAwayWeekends_Four_Phot
 
 ## Fly to lunch: the $100 hamburger (`docs/fly-to-lunch/`, added November 2, 2026)
 
-A standalone page listing Southeast airports with a well-reviewed restaurant on the field, a short walk away or a short ride away. The `SPOTS` array in the page's own script holds each entry (`code`, `name`, `where`, `meals`, `food`, `desc`, `pilot`, `phone`, `checked`; `lat`/`lon`/`city` only for strips not in `airports-southeast.js`). The page sorts by distance from the home airport (`?from=`, then `wingaway-home`, then KMYR), filters by maximum one-way flight time (default 1½ hours) and meal, uses the saved aircraft profile for times and round-trip fuel, and shows "drive instead" under 40 NM. The homepage links to it with a navy "Short hops" banner between the search filters and "Worth the flight", and every page has a "Fly to lunch" header link (added by `feedback.py`, which also adds it to rebuilt guides; on phones the small header label is hidden to make room). The Fly to lunch page itself is not run through `feedback.py`. Edit the HTML directly; there is no build script.
+A standalone page listing Southeast airports with a well-reviewed restaurant on the field, a short walk away or a short ride away. The `SPOTS` array in the page's own script holds each entry (`code`, `name`, `where`, `meals`, `food`, `desc`, `pilot`, `phone`, `checked`; `lat`/`lon`/`city` only for strips not in `airports-us.js`). The page sorts by distance from the home airport (`?from=`, then `wingaway-home`, then KMYR), filters by maximum one-way flight time (default 1½ hours) and meal, uses the saved aircraft profile for times and round-trip fuel, and shows "drive instead" under 40 NM. The homepage links to it with a navy "Short hops" banner between the search filters and "Worth the flight", and every page has a "Fly to lunch" header link (added by `feedback.py`, which also adds it to rebuilt guides; on phones the small header label is hidden to make room). The Fly to lunch page itself is not run through `feedback.py`. Edit the HTML directly; there is no build script.
 
 Entries (16): Pik N Pig (BQ1, formerly 5NC3), Low and Slow Smokehouse (KJNX), Howard's Pub (KW95), Hangar 28 Kitchen & Events (KGMU; replaced Runway Café, July 2026), Hunter-Gatherer Hangar (KCUB), Stanton's BBQ (private strip near Bennettsville), Beacon Drive-In (KSPA), Skull Creek Boathouse (KHXD), Barnstormer's Grill (GA2), Southern Soul BBQ (KSSI), Simply Suzanne's (KMTV), Charly's (KJGG), Lorraine's (KTGI), Airport Restaurant & Gin Mill (KDED), The Hangar (KSPG), Jet Runway Café (KFXE). Left out for now because recent status was unclear: 57 Alpha Café (KFQD; longtime chef left), Crosswind Café (KHKY; possibly closed), The Downwind (KPDK), Pyper Kub (X60), High Jackers/Landing Strip Tavern (KFIN), The Flying Machine (KLZU; mixed reviews). Airport restaurants change often; recheck entries periodically.
 
@@ -204,7 +204,7 @@ Entries (16): Pik N Pig (BQ1, formerly 5NC3), Low and Slow Smokehouse (KJNX), Ho
 
 **FBO details (November 2, 2026):** every guide's FBO box shows the FBO name, full street address and phone (plus an "FBO details" link where one is confirmed). Addresses came from FAA/AirNav/AcuKwik-style listings; Wilson Air Center's (932 Jubilee Drive, Chattanooga) came from a single directory and is worth confirming. Hunt Country's two FBOs carry their airport IDs in the name (KJYO, KHWY).
 
-- **Harpers Ferry (`docs/harpers-ferry/`, 22, added November 2, 2026; West Virginia):** KMRB Eastern WV Regional, Martinsburg (MRB Aviation, 170 Aviation Way, 304-262-2507; crew car and Enterprise). Notes the nearby DC SFRA, P-40 and frequent TFRs. Stay: The Town's Inn, The Bavarian Inn (Shepherdstown), Lily Garden B&B; luxury Hillbrook Inn. Eat: The Rabbit Hole, Redbook at Hillbrook Inn, Snallygasters. Explore: the national historical park, Maryland Heights, C&O Canal towpath, tubing, Shepherdstown and Antietam. Hilltop House Hotel is listed as closed, so it is left out. Placeholder illustration `harpers-ferry-rivers`. KMRB is not in airports-southeast.js (WV is outside the seven-state list); guides take destination coordinates from the homepage.
+- **Harpers Ferry (`docs/harpers-ferry/`, 22, added November 2, 2026; West Virginia):** KMRB Eastern WV Regional, Martinsburg (MRB Aviation, 170 Aviation Way, 304-262-2507; crew car and Enterprise). Notes the nearby DC SFRA, P-40 and frequent TFRs. Stay: The Town's Inn, The Bavarian Inn (Shepherdstown), Lily Garden B&B; luxury Hillbrook Inn. Eat: The Rabbit Hole, Redbook at Hillbrook Inn, Snallygasters. Explore: the national historical park, Maryland Heights, C&O Canal towpath, tubing, Shepherdstown and Antietam. Hilltop House Hotel is listed as closed, so it is left out. Placeholder illustration `harpers-ferry-rivers`. KMRB is not in airports-us.js (WV is outside the seven-state list); guides take destination coordinates from the homepage.
 
 **Photos from the National Park Service (November 2, 2026):** Wikimedia now refuses automated requests from the cloud session, and other photo sites are blocked unless added to the environment's Allowed domains (www.nps.gov, unsplash.com, images.unsplash.com, api.unsplash.com, api.flickr.com and live.staticflickr.com were added). NPS NPGallery photos marked “Public domain” / “Full” are used with a courtesy credit: park gallery pages list album IDs; `www.nps.gov/npgallery/api/search/execute/albumid/<id>?pagesize=500&primarytype=image` lists photos; `www.nps.gov/npgallery/GetAsset/<id>/original.jpg` (or `/proxy/hires`) downloads them; `www.nps.gov/npgallery/Asset/<id>` gives the credit. Harpers Ferry now uses “View from Jefferson Rock” (`harpers-ferry-jefferson-rock`) and Chattanooga “Garrity’s Battery in Point Park at sunset” (`chattanooga-point-park-sunset`), and the Smokies “Fall Color on Rich Mountain Road Overlook” by Sam Hobbs, NPS (`smoky-mountains-rich-mountain`). The Smokies albums are on `grsm/learn/photosmultimedia/index.htm`. Unsplash and Flickr searches need a free developer key.
 
@@ -214,3 +214,13 @@ Entries (16): Pik N Pig (BQ1, formerly 5NC3), Low and Slow Smokehouse (KJNX), Ho
   - **Hilton Head:** KHXD, Signature Aviation (52 Gateway Circle, Hilton Head Island, SC 29926; 843-689-3200). Stay: The Westin (Heavenly Spa), Omni Oceanfront, Sonesta; luxury Montage Palmetto Bluff. Eat: Skull Creek Boathouse, Charlie's L'Etoile Verte, CQ's. Beach biking, Harbour Town lighthouse, golf, Sea Pines Forest Preserve, Daufuskie.
   - **Highlands–Cashiers:** K1A5 Macon County, Franklin (Macon Air, 1241 Airport Road, Franklin, NC 28734; 828-524-5529), with 24A Jackson County as an alternative. Stay: Old Edwards Inn & Spa, The White Birch Inn, Hotel Cashiers; luxury High Hampton. Eat: Madison's, The Orchard, Wolfgang's. Dry Falls, Bridal Veil Falls, Whiteside Mountain, Sunset Rock, Whitewater Falls.
   - Photos from Unsplash: Hilton Head by Justin Fisher (beach path), Highlands–Cashiers by Nik Shuliahin (mountain fog), both location-tagged.
+
+## Expansion, Phase 1 (started November 3, 2026)
+
+Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: Mid-Atlantic. Family toggle planned; solo audience not targeted. Regional reviewers to be recruited.
+
+- **Step A done:**
+  - **Nationwide airports:** `docs/airports-us.js` (5,044 U.S. public-use land airports, all 50 states + DC; ~330 KB) replaces `airports-southeast.js`. Rebuild with `python3 -I tools/airports/build_airports.py <OurAirports airports.csv> docs/airports-us.js` (the CSV downloads from raw.githubusercontent.com/davidmegginson/ourairports-data/main/airports.csv). Lookups on every page also accept a K-prefixed form of three-character codes (K01J finds 01J), so older saved home airports still work.
+  - **Destination data file:** `docs/destinations.js` (`window.WINGAWAY_DESTINATIONS`) is now the single source for the homepage cards and the photo review page. Each entry: name, state, stateCode, region (Southeast or Mid-Atlantic; VA and WV are Mid-Atlantic by default, pending the owner's decision), airport, lat, lon, desc, tags, guide, family (null until decided) and photo. `personalize.py` reads guide coordinates from it. **Add new destinations here** (not in index.html).
+  - **Wording:** Southeast-only phrasing removed from the homepage and Fly to Lunch.
+- **Step B next:** region filter and region landing pages; “Traveling with kids” toggle using the `family` field.
