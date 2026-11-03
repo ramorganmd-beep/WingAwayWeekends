@@ -26,7 +26,7 @@ GUIDE = dict(
     eat=dict(title='Two dinners. One river view.', intro='Reserve weekend dinners.',
         cards=[('Friday dinner · Bistro', 'Fritz & Frites', 'A cozy French-German bistro, a Galena favorite.', 'https://fritzandfrites.com/'),
                ('Saturday dinner · Main Street', 'One Eleven Main', 'Farm-to-table Midwestern cooking in a historic Main Street building.', 'https://www.galenarestaurants.com/one-eleven-main.aspx'),
-               ('Lunch · Main Street', 'Main Street cafés', 'Lunch and a wine or chocolate shop or two along Main Street.')]),
+               ('Lunch · Main Street', 'Vinny Vanucchi’s', 'A lively Italian spot on South Main Street; lunch is walk-in.', 'https://www.vinnyvanucchis.com/')]),
     explore=dict(title='History, hills and the river.', intro='Slow down and wander.',
         items=[('Main Street', 'A mile of 19th-century brick buildings full of shops, galleries and wine tasting rooms.'),
                ('Ulysses S. Grant Home', 'The house the people of Galena gave Grant in 1865, with many original furnishings.', 'https://www.granthome.org/', 'Visit information'),

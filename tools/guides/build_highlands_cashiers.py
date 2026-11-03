@@ -5,7 +5,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from guide_helpers import card, head, explore, day, page_start, page_end, fbo, know  # noqa: E402
 
 OUT = sys.argv[1]
-REVIEWED = None  # owner review date; None while still a draft
+REVIEWED = 'November 3, 2026'  # owner review date; None while still a draft
 PHOTO = json.load(open(__file__.rsplit("/", 1)[0] + '/photos.json'))['highlands-cashiers']
 NAV = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore'), ('spa', 'Spa'),
        ('events', 'Events'), ('itinerary', 'Itinerary')]
@@ -31,22 +31,28 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'Choose your kind o
     'A celebrated inn, a small romantic one, or a boutique hotel in Cashiers. Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('Highlands · Relais & Châteaux', 'Old Edwards Inn & Spa',
-         'The area’s landmark inn in the middle of Highlands, with a renowned spa, Madison’s restaurant and beautifully kept rooms. The romantic splurge.') +
+         'The area’s landmark inn in the middle of Highlands, with a renowned spa, Madison’s restaurant and beautifully kept rooms. The romantic splurge.',
+         'https://www.oldedwardshospitality.com/') +
     card('Highlands · Small & romantic', 'The White Birch Inn',
-         'A cozy, highly rated small inn favored by couples, close to the village.') +
+         'A cozy, highly rated small inn favored by couples, close to the village.',
+         'https://www.whitebirchinn.com/') +
     card('Cashiers · Boutique', 'Hotel Cashiers',
-         'A boutique inn in the center of Cashiers with dining and a spa, and an easy drive to Highlands.') +
+         'A boutique inn in the center of Cashiers with dining and a spa, and an easy drive to Highlands.',
+         'https://www.hotelcashiers.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One long lunch.',
     'Mountain-town dining is excellent here. Reserve weekend dinners well ahead, especially in summer and fall.') +
     '<div class="grid three">' +
     card('Friday dinner · Old Edwards', 'Madison’s',
-         'Seasonal fine dining at Old Edwards Inn on Highlands’ main street. Polished and romantic.') +
+         'Seasonal fine dining at Old Edwards Inn on Highlands’ main street. Polished and romantic.',
+         'https://www.oldedwardshospitality.com/') +
     card('Saturday dinner · Cashiers', 'The Orchard',
-         'A much-praised restaurant in a restored farmhouse near Cashiers. Diners call it one of the best meals in the mountains; reserve ahead.') +
+         'A much-praised restaurant in a restored farmhouse near Cashiers. Diners call it one of the best meals in the mountains; reserve ahead.',
+         'https://theorchardcashiers.com/') +
     card('Lunch · Highlands', 'Wolfgang’s Restaurant & Wine Bistro',
-         'A long-running Highlands favorite with a wine list and a garden patio. Good for a long lunch between waterfalls.') +
+         'A long-running Highlands favorite with a wine list and a garden patio. Good for a long lunch between waterfalls.',
+         'https://www.wolfgangs.net/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Waterfalls and granite cliffs.',
@@ -105,7 +111,7 @@ P.append('<section id="know">' + head('07', 'Good to know', 'Keep the weekend ea
           ('Peak seasons', 'Summer weekends and October fill early. Book well ahead.')]) +
     '</section>')
 
-P.append(page_end(number=24, place='Highlands–Cashiers, North Carolina', reviewed=REVIEWED, note='Several picks have no website link because official addresses could not be confirmed; check each one, and confirm hours, prices and availability directly before booking.',
+P.append(page_end(number=24, place='Highlands–Cashiers, North Carolina', reviewed=REVIEWED, note='Confirm hours, prices and availability directly with each place before booking.',
     credit_html=PHOTO['credit_html']))
 
 with open(OUT, 'w') as f:

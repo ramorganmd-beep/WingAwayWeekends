@@ -26,7 +26,7 @@ GUIDE = dict(
     eat=dict(title='Two dinners. One fudge crawl.', intro='Reserve Grand Hotel dinner, and check its dress code.',
         cards=[('Friday dinner · Waterfront', 'The Pink Pony', 'A lively waterfront bar and restaurant on Main Street, with harbor views.', 'https://www.pinkponymackinac.com/'),
                ('Saturday dinner · Formal', 'Grand Hotel Main Dining Room', 'A five-course dinner in the Grand Hotel’s grand dining room. Jackets for men in the evening.', 'https://www.grandhotel.com/dining/'),
-               ('Afternoon · A tradition', 'Fudge on Main Street', 'Watch fudge made on marble slabs at the shops along Main Street. Everyone has a favorite.')]),
+               ('Afternoon · Since 1887', 'Original Murdick’s Fudge', 'Watch fudge made on marble slabs at the island’s oldest fudge shop on Main Street.', 'https://www.originalmurdicksfudge.com/')]),
     explore=dict(title='Forts, bluffs and the shore road.', intro='Everything is by bike, horse or on foot.',
         items=[('Fort Mackinac', 'A hilltop fort built by the British in 1780, with cannon and rifle firings and views over the harbor.', 'https://www.mackinacparks.com/', 'Tickets'),
                ('Bike around the island', 'M-185, the only state highway with no cars, runs eight flat miles around the shore.'),
