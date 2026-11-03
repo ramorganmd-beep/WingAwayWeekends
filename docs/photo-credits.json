@@ -1002,5 +1002,103 @@
   "date_taken": null,
   "files": [],
   "location": "Blackrock Summit, Shenandoah National Park, VA (photographer caption; no geotag)"
+ },
+ {
+  "destination": "The Homestead",
+  "title": "Homestead Resort old wing 2016.jpg",
+  "photographer": "Antony-22",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Homestead_Resort_old_wing_2016.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Homestead_Resort_old_wing_2016.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3264,
+   "height": 2448
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes; adaptations remain CC BY-SA 4.0.",
+  "changes": "Center-cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The columned entrance and red-brick wings of The Omni Homestead Resort in Hot Springs, Virginia",
+  "files": [
+   {
+    "path": "dist/assets/destinations/homestead-old-wing-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32856,
+    "sha256": "7569bc71eb6a5849afbd6473c0e6a6e0e4ff689a06d3f6f0a644a090eb2dbd85"
+   },
+   {
+    "path": "dist/assets/destinations/homestead-old-wing-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42021,
+    "sha256": "fcf74480765345fbf0d9e2f1c150e81b623ed96d3d2d42d7d0336be2245560e1"
+   },
+   {
+    "path": "dist/assets/destinations/homestead-old-wing-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 127548,
+    "sha256": "5b29b8a5be79a8d32ec5b5e0b45e05a9a850d0bd9b01a83a873eb26462ca0df8"
+   },
+   {
+    "path": "dist/assets/destinations/homestead-old-wing-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 159576,
+    "sha256": "f370271f857cfaf454367a08e371ef85c78a93e3dd960b5c8d7fcad3265216ff"
+   }
+  ]
+ },
+ {
+  "destination": "The Greenbrier",
+  "title": "The Greenbrier Historic Resort Hotel.jpg",
+  "photographer": "Carol M. Highsmith",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:The_Greenbrier_Historic_Resort_Hotel.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/The_Greenbrier_Historic_Resort_Hotel.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 8484,
+   "height": 3830
+  },
+  "license": "Public domain",
+  "license_url": "https://www.loc.gov/rr/print/res/482_high.html",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Public domain; credit the Carol M. Highsmith Archive, Library of Congress, as requested.",
+  "changes": "Center-cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The white columned façade of The Greenbrier resort under a clear blue sky",
+  "files": [
+   {
+    "path": "dist/assets/destinations/greenbrier-front-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 24198,
+    "sha256": "05f6a990539594784b90c3760a81e46730ce2d37970a724b1e5dbc60da6603bc"
+   },
+   {
+    "path": "dist/assets/destinations/greenbrier-front-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 32862,
+    "sha256": "4c5eef212130d286a260ee09a425883ee7f201ecf31ca101b8e0c1d206af35c4"
+   },
+   {
+    "path": "dist/assets/destinations/greenbrier-front-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 86944,
+    "sha256": "afd54344eb44d8562440d30bdb55b6cbb987464dec37d8480c1d02bfdb58f9bf"
+   },
+   {
+    "path": "dist/assets/destinations/greenbrier-front-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 120797,
+    "sha256": "e393be2d9822676104f7c83da15666942eced863a58cd9c18cc1d4f831dca59a"
+   }
+  ]
  }
 ]
