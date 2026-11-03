@@ -174,5 +174,70 @@
     "caption": "Mountain fog near Highlands",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@tjump?utm_source=wingaway_weekends&utm_medium=referral\">Nik Shuliahin 💛💙</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "st-michaels": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor on the Chesapeake Bay",
+    "w": 960,
+    "h": 720,
+    "caption": "A Chesapeake harbor (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "cape-may": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Cape May’s beaches (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "shenandoah": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "The Blue Ridge (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "homestead": {
+    "slug": "homestead-valley",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered mountain ridges at sunrise",
+    "w": 960,
+    "h": 720,
+    "caption": "The Allegheny Mountains (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "greenbrier": {
+    "slug": "greenbrier-valley",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of mountain ridges above a valley",
+    "w": 960,
+    "h": 720,
+    "caption": "The Greenbrier Valley (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

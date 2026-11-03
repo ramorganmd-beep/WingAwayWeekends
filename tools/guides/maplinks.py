@@ -23,9 +23,28 @@ TOWN = {
     'lake-lure': 'Lake Lure, NC', 'lake-keowee': 'Seneca, SC', 'lake-lanier': 'Gainesville, GA',
     'harpers-ferry': 'Harpers Ferry, WV',
     'hilton-head': 'Hilton Head Island, SC', 'highlands-cashiers': 'Highlands, NC',
+    'st-michaels': 'St. Michaels, MD', 'cape-may': 'Cape May, NJ', 'shenandoah': 'Luray, VA',
+    'homestead': 'Hot Springs, VA', 'greenbrier': 'White Sulphur Springs, WV',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
+    'The Tidewater Inn': 'The Tidewater Inn, Easton, MD',
+    'The Wylder Hotel': 'The Wylder Hotel, Tilghman Island, MD',
+    'Bas Rouge': 'Bas Rouge, Easton, MD',
+    'Stars': 'Stars, Inn at Perry Cabin, St. Michaels, MD',
+    'Skyland': 'Skyland, Shenandoah National Park, VA',
+    'Big Meadows Lodge': 'Big Meadows Lodge, Shenandoah National Park, VA',
+    'Pollock Dining Room at Skyland': 'Pollock Dining Room, Skyland, Shenandoah National Park, VA',
+    'The Inn at Little Washington': 'The Inn at Little Washington, Washington, VA',
+    'Circa ’31': 'Circa 31, Mimslyn Inn, Luray, VA',
+    'The Inn at Gristmill Square': 'Inn at Gristmill Square, Warm Springs, VA',
+    'Jefferson’s Restaurant & Taproom': 'Jefferson’s Restaurant, Omni Homestead, Hot Springs, VA',
+    'American Audubon Dining Room': 'American Audubon Dining Room, Omni Homestead, Hot Springs, VA',
+    'Sam Snead’s Tavern': 'Sam Snead’s Tavern, Hot Springs, VA',
+    'The General Lewis Inn': 'The General Lewis Inn, Lewisburg, WV',
+    'The French Goat': 'The French Goat, Lewisburg, WV',
+    'Prime 44 West': 'Prime 44 West, The Greenbrier, White Sulphur Springs, WV',
+    'The Main Dining Room': 'Main Dining Room, The Greenbrier, White Sulphur Springs, WV',
     'Montage Palmetto Bluff': 'Montage Palmetto Bluff, Bluffton, SC',
     'Ponte Vedra Inn & Club': 'Ponte Vedra Inn & Club, Ponte Vedra Beach, FL',
     'The Lodge & Club at Ponte Vedra Beach': 'The Lodge & Club at Ponte Vedra Beach, FL',
@@ -78,7 +97,7 @@ QUERY = {
     'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
     'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
+SKIP = {'Greenbrier cottages & estate homes', 'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
