@@ -193,3 +193,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Jo Anaya on Unsplash — https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-dirt-k-CTlprz6OM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location tag/description: Lake Lanier, Georgia, USA
+
+## Virginia Hunt Country
+
+- Photo by Serena T on Unsplash — https://unsplash.com/photos/a-large-house-with-a-green-lawn-n0cTNKUu7K0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag: Salamander Resort & Spa, North Pendleton Street, Middleburg, VA, USA
+
+## Yadkin Valley
+
+- Photo by Elijah Mears on Unsplash — https://unsplash.com/photos/green-trees-and-mountains-during-sunrise-nW3N78niwss
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location tag: Wilkes County, NC, USA

@@ -883,5 +883,39 @@
     "date_taken": null,
     "files": [],
     "location": "Lake Lanier, Georgia, USA"
+  },
+  {
+    "destination": "Virginia Hunt Country",
+    "title": "Salamander Resort, Middleburg",
+    "photographer": "Serena T",
+    "source_page_url": "https://unsplash.com/photos/a-large-house-with-a-green-lawn-n0cTNKUu7K0",
+    "original_image_url": "https://images.unsplash.com/photo-1665061580844-f4bb15772ec3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTY3fA&ixlib=rb-4.1.0",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-03",
+    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+    "alt": "Salamander Resort’s manor house and lawn in Middleburg, Virginia",
+    "date_taken": null,
+    "files": [],
+    "location": "Salamander Resort & Spa, North Pendleton Street, Middleburg, VA, USA"
+  },
+  {
+    "destination": "Yadkin Valley",
+    "title": "Sunrise over the foothills near Elkin",
+    "photographer": "Elijah Mears",
+    "source_page_url": "https://unsplash.com/photos/green-trees-and-mountains-during-sunrise-nW3N78niwss",
+    "original_image_url": "https://images.unsplash.com/photo-1599521328728-ccff739cc6f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ3fA&ixlib=rb-4.1.0",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "commercial_reuse_verified": true,
+    "verification_date": "2026-11-03",
+    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+    "alt": "Sunrise over layered Blue Ridge foothills in Wilkes County, North Carolina, near Elkin",
+    "date_taken": null,
+    "files": [],
+    "location": "Wilkes County, NC, USA"
   }
 ]
