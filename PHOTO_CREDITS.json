@@ -1,972 +1,1006 @@
 [
-  {
-    "destination": "Savannah",
-    "title": "Fountain (Forsyth Park).jpg",
-    "photographer": "jjmusgrove",
-    "artist_html_as_supplied": "jjmusgrove",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Fountain_(Forsyth_Park).jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Fountain_%28Forsyth_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fountain_%28Forsyth_Park%29.jpg/1280px-Fountain_%28Forsyth_Park%29.jpg",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions.",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/96142817@N03/53327313399/\">https://www.flickr.com/photos/96142817@N03/53327313399/</a>"
-    },
-    "alt": "Forsyth Park fountain in Savannah",
-    "files": [
-      {
-        "path": "dist/assets/destinations/savannah-480.webp",
-        "width": 480,
-        "height": 320,
-        "bytes": 38428,
-        "sha256": "6ee8666ec43ef54720a80289efec8ddaa88ef643d2c4624d85d025956377be64"
-      },
-      {
-        "path": "dist/assets/destinations/savannah-480.jpg",
-        "width": 480,
-        "height": 320,
-        "bytes": 46904,
-        "sha256": "139f69ac44d6521b9ec1f09487736ac45f36d1985f69b79325a329b63408e2ab"
-      },
-      {
-        "path": "dist/assets/destinations/savannah-960.webp",
-        "width": 960,
-        "height": 640,
-        "bytes": 170596,
-        "sha256": "50d224efec3830ccd4ec4ac61cd37969c580390da9e53086e1f23a686435f2e3"
-      },
-      {
-        "path": "dist/assets/destinations/savannah-960.jpg",
-        "width": 960,
-        "height": 640,
-        "bytes": 198481,
-        "sha256": "4d2d8716fcad4c82eb6aac42ae84c0109ca3794abc2916e68e7105ea76bb0fb5"
-      }
-    ]
+ {
+  "destination": "Savannah",
+  "title": "Fountain (Forsyth Park).jpg",
+  "photographer": "jjmusgrove",
+  "artist_html_as_supplied": "jjmusgrove",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Fountain_(Forsyth_Park).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Fountain_%28Forsyth_Park%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fountain_%28Forsyth_Park%29.jpg/1280px-Fountain_%28Forsyth_Park%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions.",
+  "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
+  "retained_notices": {
+   "Credit": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/96142817@N03/53327313399/\">https://www.flickr.com/photos/96142817@N03/53327313399/</a>"
   },
-  {
-    "destination": "Charleston",
-    "title": "Rainbow Row Charleston July 2024 1.jpg",
-    "photographer": "Thomson200",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Thomson200\" title=\"User:Thomson200\">Thomson200</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston_July_2024_1.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Rainbow_Row_Charleston_July_2024_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rainbow_Row_Charleston_July_2024_1.jpg/1280px-Rainbow_Row_Charleston_July_2024_1.jpg",
-    "license": "CC0",
-    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "CC0: commercial reuse and modification permitted; attribution voluntary (provided).",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Pastel historic houses on Rainbow Row in Charleston",
-    "files": [
-      {
-        "path": "dist/assets/destinations/charleston-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 40414,
-        "sha256": "e77a0181afdffcb2981fa77d59f41f774d53dcb728fdb94cd77a7c854999e79a"
-      },
-      {
-        "path": "dist/assets/destinations/charleston-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 50119,
-        "sha256": "894e0df679e1b74af91a7ea57842ab08dbf73404423a2a96d676e69670317f6d"
-      },
-      {
-        "path": "dist/assets/destinations/charleston-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 175496,
-        "sha256": "90561cd1e31d98113a6cde8f569a46b76e3757608d779daf1cb86e352ae0da53"
-      },
-      {
-        "path": "dist/assets/destinations/charleston-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 212976,
-        "sha256": "c339accc643449f730e6d9575d420050f8667d2fc12550c5ce80ad7cf819621b"
-      }
-    ]
+  "alt": "Forsyth Park fountain in Savannah",
+  "files": [
+   {
+    "path": "dist/assets/destinations/savannah-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 38428,
+    "sha256": "6ee8666ec43ef54720a80289efec8ddaa88ef643d2c4624d85d025956377be64"
+   },
+   {
+    "path": "dist/assets/destinations/savannah-480.jpg",
+    "width": 480,
+    "height": 320,
+    "bytes": 46904,
+    "sha256": "139f69ac44d6521b9ec1f09487736ac45f36d1985f69b79325a329b63408e2ab"
+   },
+   {
+    "path": "dist/assets/destinations/savannah-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 170596,
+    "sha256": "50d224efec3830ccd4ec4ac61cd37969c580390da9e53086e1f23a686435f2e3"
+   },
+   {
+    "path": "dist/assets/destinations/savannah-960.jpg",
+    "width": 960,
+    "height": 640,
+    "bytes": 198481,
+    "sha256": "4d2d8716fcad4c82eb6aac42ae84c0109ca3794abc2916e68e7105ea76bb0fb5"
+   }
+  ]
+ },
+ {
+  "destination": "Charleston",
+  "title": "Rainbow Row Charleston July 2024 1.jpg",
+  "photographer": "Thomson200",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Thomson200\" title=\"User:Thomson200\">Thomson200</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Rainbow_Row_Charleston_July_2024_1.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Rainbow_Row_Charleston_July_2024_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Rainbow_Row_Charleston_July_2024_1.jpg/1280px-Rainbow_Row_Charleston_July_2024_1.jpg",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "CC0: commercial reuse and modification permitted; attribution voluntary (provided).",
+  "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "Asheville",
-    "title": "Biltmore House front facade Asheville North Carolina - May 2026.jpg",
-    "photographer": "WillThomas",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:WillThomas\" title=\"User:WillThomas\">WillThomas</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/1920px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg",
-    "original_dimensions": {
-      "width": 13000,
-      "height": 7090
-    },
-    "photo_date": "2026-05-25 16:39:24",
-    "license": "CC BY 4.0",
-    "license_url": "https://creativecommons.org/licenses/by/4.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions.",
-    "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Front facade of Biltmore House at Biltmore Estate in Asheville",
-    "files": [
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-480.webp",
-        "width": 480,
-        "height": 262,
-        "bytes": 22864,
-        "sha256": "b5284bc0379c04a187ce93b655ec2fbabb06a1461827c408745faa1bedbfba20"
-      },
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-480.jpg",
-        "width": 480,
-        "height": 262,
-        "bytes": 31545,
-        "sha256": "3b41eb452d5211cad1b8d3bd52a30ae72117f8ffd6d2b6a4b6a88bce5a528346"
-      },
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-960.webp",
-        "width": 960,
-        "height": 524,
-        "bytes": 89456,
-        "sha256": "0a0866cc927cd1a9c8ae8409658097aa483508336fdeeaa2d5ab7bef77440521"
-      },
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-960.jpg",
-        "width": 960,
-        "height": 524,
-        "bytes": 119534,
-        "sha256": "ef3cadc0fb59dba625d150c646d92a7246fc25c93d6dd6407a61642b9ca47656"
-      },
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-1600.webp",
-        "width": 1600,
-        "height": 872,
-        "bytes": 266600,
-        "sha256": "a4f1020ec7babe91c5251d2816ff6c43c6e5aa7b7d1d6f09013ef531be6065b3"
-      },
-      {
-        "path": "dist/assets/destinations/asheville-biltmore-1600.jpg",
-        "width": 1600,
-        "height": 872,
-        "bytes": 335576,
-        "sha256": "939eb344060d2d2274c6a33b2c3dfc3941b929cc89a861eee16ea86d4a939a29"
-      }
-    ]
+  "alt": "Pastel historic houses on Rainbow Row in Charleston",
+  "files": [
+   {
+    "path": "dist/assets/destinations/charleston-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 40414,
+    "sha256": "e77a0181afdffcb2981fa77d59f41f774d53dcb728fdb94cd77a7c854999e79a"
+   },
+   {
+    "path": "dist/assets/destinations/charleston-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50119,
+    "sha256": "894e0df679e1b74af91a7ea57842ab08dbf73404423a2a96d676e69670317f6d"
+   },
+   {
+    "path": "dist/assets/destinations/charleston-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 175496,
+    "sha256": "90561cd1e31d98113a6cde8f569a46b76e3757608d779daf1cb86e352ae0da53"
+   },
+   {
+    "path": "dist/assets/destinations/charleston-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 212976,
+    "sha256": "c339accc643449f730e6d9575d420050f8667d2fc12550c5ce80ad7cf819621b"
+   }
+  ]
+ },
+ {
+  "destination": "Asheville",
+  "title": "Biltmore House front facade Asheville North Carolina - May 2026.jpg",
+  "photographer": "WillThomas",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:WillThomas\" title=\"User:WillThomas\">WillThomas</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg/1920px-Biltmore_House_front_facade_Asheville_North_Carolina_-_May_2026.jpg",
+  "original_dimensions": {
+   "width": 13000,
+   "height": 7090
   },
-  {
-    "destination": "Beaufort",
-    "title": "Bay Street Downtown Beaufort.JPG",
-    "photographer": "Cdamgen (credited on Commons as BeaufortTiger), English Wikipedia",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
-    "downloaded_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
-    "license": "Public domain",
-    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-01",
-    "requirements": "Public domain dedication by the author (applies worldwide; where not legally possible, the author grants anyone the right to use the work for any purpose without conditions). Attribution not required but provided.",
-    "changes": "Cropped to the Bay Street storefronts, removing most of the roadway and a traffic signal (crop box 360,110–2133,1440 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cropping only: no AI generation, retouching or color alteration.",
-    "alt": "Historic storefronts along Bay Street in downtown Beaufort, South Carolina",
-    "date_taken": "2009-12-16",
-    "files": [
-      {
-        "path": "docs/assets/destinations/beaufort-bay-street-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 33512,
-        "sha256": "4cac55ced80c2e39fe01de02c1ea2fab5dbfbd6fe1bd157c4e781548c5775fe4"
-      },
-      {
-        "path": "docs/assets/destinations/beaufort-bay-street-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 45940,
-        "sha256": "4eae6353c775852259decf7fbae895fd69904d166a3b9b43b801523a69d0a327"
-      },
-      {
-        "path": "docs/assets/destinations/beaufort-bay-street-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 87082,
-        "sha256": "1e85c0df2322ed437b0d7cad63279d52f0a07d8ab5cbbecd7bc5f53e28c4aa90"
-      },
-      {
-        "path": "docs/assets/destinations/beaufort-bay-street-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 139893,
-        "sha256": "71ae8e22d851c1adf72d6451a3f069c6c61df3af008944ad5fd058dfde6a4598"
-      }
-    ],
-    "replaced": "Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg (Farrargirl, CC BY-SA 4.0), replaced November 1, 2026 at the owner’s request for a downtown photo."
+  "photo_date": "2026-05-25 16:39:24",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions.",
+  "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "St. Augustine",
-    "title": "St. Aug from lighthouse west01.jpg",
-    "photographer": "Ebyabe",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Ebyabe\" title=\"User:Ebyabe\">Ebyabe</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:St._Aug_from_lighthouse_west01.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/St._Aug_from_lighthouse_west01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/St._Aug_from_lighthouse_west01.jpg/1280px-St._Aug_from_lighthouse_west01.jpg",
-    "license": "CC BY-SA 3.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 3.0; ShareAlike applies to the photo adaptations.",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "St. Augustine and its waterfront viewed from the lighthouse",
-    "files": [
-      {
-        "path": "dist/assets/destinations/st-augustine-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 23972,
-        "sha256": "829100683b1a4aef274463297f0012915d5b01e743d2356369ba8f629025d0c8"
-      },
-      {
-        "path": "dist/assets/destinations/st-augustine-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 33281,
-        "sha256": "aa85f2628ac1f66ff376380479be8bcf99c2375fb7a2674e1c9b9c0f8db72326"
-      },
-      {
-        "path": "dist/assets/destinations/st-augustine-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 103952,
-        "sha256": "62710a318b776db5573479ea19a917f629376f100b93cb4be990dc3b5371cc67"
-      },
-      {
-        "path": "dist/assets/destinations/st-augustine-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 140293,
-        "sha256": "4d1ab43d8963f0ac98ec80480814b3aa1d693b2b6fe1bf9580e4bc93966be977"
-      }
-    ]
+  "alt": "Front facade of Biltmore House at Biltmore Estate in Asheville",
+  "files": [
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-480.webp",
+    "width": 480,
+    "height": 262,
+    "bytes": 22864,
+    "sha256": "b5284bc0379c04a187ce93b655ec2fbabb06a1461827c408745faa1bedbfba20"
+   },
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-480.jpg",
+    "width": 480,
+    "height": 262,
+    "bytes": 31545,
+    "sha256": "3b41eb452d5211cad1b8d3bd52a30ae72117f8ffd6d2b6a4b6a88bce5a528346"
+   },
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-960.webp",
+    "width": 960,
+    "height": 524,
+    "bytes": 89456,
+    "sha256": "0a0866cc927cd1a9c8ae8409658097aa483508336fdeeaa2d5ab7bef77440521"
+   },
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-960.jpg",
+    "width": 960,
+    "height": 524,
+    "bytes": 119534,
+    "sha256": "ef3cadc0fb59dba625d150c646d92a7246fc25c93d6dd6407a61642b9ca47656"
+   },
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-1600.webp",
+    "width": 1600,
+    "height": 872,
+    "bytes": 266600,
+    "sha256": "a4f1020ec7babe91c5251d2816ff6c43c6e5aa7b7d1d6f09013ef531be6065b3"
+   },
+   {
+    "path": "dist/assets/destinations/asheville-biltmore-1600.jpg",
+    "width": 1600,
+    "height": 872,
+    "bytes": 335576,
+    "sha256": "939eb344060d2d2274c6a33b2c3dfc3941b929cc89a861eee16ea86d4a939a29"
+   }
+  ]
+ },
+ {
+  "destination": "Beaufort",
+  "title": "Bay Street Downtown Beaufort.JPG",
+  "photographer": "Cdamgen (credited on Commons as BeaufortTiger), English Wikipedia",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bay_Street_Downtown_Beaufort.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
+  "downloaded_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Bay_Street_Downtown_Beaufort.JPG",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-01",
+  "requirements": "Public domain dedication by the author (applies worldwide; where not legally possible, the author grants anyone the right to use the work for any purpose without conditions). Attribution not required but provided.",
+  "changes": "Cropped to the Bay Street storefronts, removing most of the roadway and a traffic signal (crop box 360,110–2133,1440 of 2592×1944), resized to 480 and 960px wide, and converted to WebP and progressive JPEG. Cropping only: no AI generation, retouching or color alteration.",
+  "alt": "Historic storefronts along Bay Street in downtown Beaufort, South Carolina",
+  "date_taken": "2009-12-16",
+  "files": [
+   {
+    "path": "docs/assets/destinations/beaufort-bay-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33512,
+    "sha256": "4cac55ced80c2e39fe01de02c1ea2fab5dbfbd6fe1bd157c4e781548c5775fe4"
+   },
+   {
+    "path": "docs/assets/destinations/beaufort-bay-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 45940,
+    "sha256": "4eae6353c775852259decf7fbae895fd69904d166a3b9b43b801523a69d0a327"
+   },
+   {
+    "path": "docs/assets/destinations/beaufort-bay-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 87082,
+    "sha256": "1e85c0df2322ed437b0d7cad63279d52f0a07d8ab5cbbecd7bc5f53e28c4aa90"
+   },
+   {
+    "path": "docs/assets/destinations/beaufort-bay-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 139893,
+    "sha256": "71ae8e22d851c1adf72d6451a3f069c6c61df3af008944ad5fd058dfde6a4598"
+   }
+  ],
+  "replaced": "Marshlands along the Intracoastal Waterway in city of Beaufort, South Carolina.jpg (Farrargirl, CC BY-SA 4.0), replaced November 1, 2026 at the owner’s request for a downtown photo."
+ },
+ {
+  "destination": "St. Augustine",
+  "title": "St. Aug from lighthouse west01.jpg",
+  "photographer": "Ebyabe",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Ebyabe\" title=\"User:Ebyabe\">Ebyabe</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:St._Aug_from_lighthouse_west01.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/St._Aug_from_lighthouse_west01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/St._Aug_from_lighthouse_west01.jpg/1280px-St._Aug_from_lighthouse_west01.jpg",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 3.0; ShareAlike applies to the photo adaptations.",
+  "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "Charlottesville",
-    "title": "Downtown Mall, Charlottesville, Virginia (5867535213).jpg",
-    "photographer": "Alex Proimos from Sydney, Australia",
-    "artist_html_as_supplied": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34120957@N04\">Alex Proimos</a> from Sydney, Australia",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Mall,_Charlottesville,_Virginia_(5867535213).jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg/1280px-Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions.",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/proimos/5867535213/\">Downtown Mall, Charlottesville, Virginia</a>"
-    },
-    "alt": "Tree-lined Downtown Mall in Charlottesville",
-    "files": [
-      {
-        "path": "dist/assets/destinations/charlottesville-480.webp",
-        "width": 480,
-        "height": 320,
-        "bytes": 45156,
-        "sha256": "a79620629db3b015b5b18ca72bbffa44ac34796f9598e9945d7beacbf814c542"
-      },
-      {
-        "path": "dist/assets/destinations/charlottesville-480.jpg",
-        "width": 480,
-        "height": 320,
-        "bytes": 53884,
-        "sha256": "490a8ae2a521e490e6fae9fb54ae36747da22e42dd988c57f101a7cd293e7ce8"
-      },
-      {
-        "path": "dist/assets/destinations/charlottesville-960.webp",
-        "width": 960,
-        "height": 640,
-        "bytes": 179446,
-        "sha256": "d5bb4c45ef98210b8a2e9f148fb388ca05d498d1933cd2ab3b32a691d3bcdf08"
-      },
-      {
-        "path": "dist/assets/destinations/charlottesville-960.jpg",
-        "width": 960,
-        "height": 640,
-        "bytes": 214206,
-        "sha256": "1635a65b275aaa04fd7a90c8be0e3a946b639c5c01d7e54cadc41f07143884c6"
-      }
-    ]
+  "alt": "St. Augustine and its waterfront viewed from the lighthouse",
+  "files": [
+   {
+    "path": "dist/assets/destinations/st-augustine-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 23972,
+    "sha256": "829100683b1a4aef274463297f0012915d5b01e743d2356369ba8f629025d0c8"
+   },
+   {
+    "path": "dist/assets/destinations/st-augustine-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 33281,
+    "sha256": "aa85f2628ac1f66ff376380479be8bcf99c2375fb7a2674e1c9b9c0f8db72326"
+   },
+   {
+    "path": "dist/assets/destinations/st-augustine-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 103952,
+    "sha256": "62710a318b776db5573479ea19a917f629376f100b93cb4be990dc3b5371cc67"
+   },
+   {
+    "path": "dist/assets/destinations/st-augustine-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 140293,
+    "sha256": "4d1ab43d8963f0ac98ec80480814b3aa1d693b2b6fe1bf9580e4bc93966be977"
+   }
+  ]
+ },
+ {
+  "destination": "Charlottesville",
+  "title": "Downtown Mall, Charlottesville, Virginia (5867535213).jpg",
+  "photographer": "Alex Proimos from Sydney, Australia",
+  "artist_html_as_supplied": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/34120957@N04\">Alex Proimos</a> from Sydney, Australia",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Mall,_Charlottesville,_Virginia_(5867535213).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg/1280px-Downtown_Mall%2C_Charlottesville%2C_Virginia_%285867535213%29.jpg",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions.",
+  "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
+  "retained_notices": {
+   "Credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/proimos/5867535213/\">Downtown Mall, Charlottesville, Virginia</a>"
   },
-  {
-    "destination": "Greenville",
-    "title": "Greenville - Liberty Bridge at Falls Park.jpg",
-    "photographer": "P. Hughes",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Indies1\" title=\"User:Indies1\">P. Hughes</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Greenville_-_Liberty_Bridge_at_Falls_Park.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/1920px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg",
-    "original_dimensions": {
-      "width": 6048,
-      "height": 4024
-    },
-    "photo_date": "2024-02-14",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions. Photo adaptations remain under CC BY-SA 4.0.",
-    "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Reedy River waterfall beneath Liberty Bridge at Falls Park in Greenville",
-    "files": [
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-480.webp",
-        "width": 480,
-        "height": 319,
-        "bytes": 56102,
-        "sha256": "bfcb5be5f25eee9b9074fa2bae1c65387383f04aa27c87c779f330eec5a1d936"
-      },
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-480.jpg",
-        "width": 480,
-        "height": 319,
-        "bytes": 61806,
-        "sha256": "9ca9267a6e2615d4980626e9e28195776e579c9efbdbb4b0f71ef5ea194a962b"
-      },
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-960.webp",
-        "width": 960,
-        "height": 638,
-        "bytes": 240572,
-        "sha256": "a77016ad518217e3199c93ecde4628fa2f9048b5d3646abf79596f6628f51625"
-      },
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-960.jpg",
-        "width": 960,
-        "height": 638,
-        "bytes": 266257,
-        "sha256": "463f9cf2a8b04b2954a7b97309a742a4e5ffe3438142edf93d478149d4a94303"
-      },
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-1600.webp",
-        "width": 1600,
-        "height": 1064,
-        "bytes": 714086,
-        "sha256": "5f83296d279dca140fd785cb534838c97eb81267405adac0705e1a558603377a"
-      },
-      {
-        "path": "dist/assets/destinations/greenville-falls-bridge-1600.jpg",
-        "width": 1600,
-        "height": 1064,
-        "bytes": 793032,
-        "sha256": "16f1bc441583097fa0a68879e1ae9b84809f402ab42a5255f4035213528702dc"
-      }
-    ]
+  "alt": "Tree-lined Downtown Mall in Charlottesville",
+  "files": [
+   {
+    "path": "dist/assets/destinations/charlottesville-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 45156,
+    "sha256": "a79620629db3b015b5b18ca72bbffa44ac34796f9598e9945d7beacbf814c542"
+   },
+   {
+    "path": "dist/assets/destinations/charlottesville-480.jpg",
+    "width": 480,
+    "height": 320,
+    "bytes": 53884,
+    "sha256": "490a8ae2a521e490e6fae9fb54ae36747da22e42dd988c57f101a7cd293e7ce8"
+   },
+   {
+    "path": "dist/assets/destinations/charlottesville-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 179446,
+    "sha256": "d5bb4c45ef98210b8a2e9f148fb388ca05d498d1933cd2ab3b32a691d3bcdf08"
+   },
+   {
+    "path": "dist/assets/destinations/charlottesville-960.jpg",
+    "width": 960,
+    "height": 640,
+    "bytes": 214206,
+    "sha256": "1635a65b275aaa04fd7a90c8be0e3a946b639c5c01d7e54cadc41f07143884c6"
+   }
+  ]
+ },
+ {
+  "destination": "Greenville",
+  "title": "Greenville - Liberty Bridge at Falls Park.jpg",
+  "photographer": "P. Hughes",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Indies1\" title=\"User:Indies1\">P. Hughes</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Greenville_-_Liberty_Bridge_at_Falls_Park.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Greenville_-_Liberty_Bridge_at_Falls_Park.jpg/1920px-Greenville_-_Liberty_Bridge_at_Falls_Park.jpg",
+  "original_dimensions": {
+   "width": 6048,
+   "height": 4024
   },
-  {
-    "destination": "Pinehurst",
-    "title": "Pinehurst No. Four 4 Golf Course (4599708312).jpg",
-    "photographer": "Dan Perry from Atlanta, USA",
-    "artist_html_as_supplied": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/71018547@N00\">Dan Perry</a> from Atlanta, USA",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Pinehurst_No._Four_4_Golf_Course_(4599708312).jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg/1920px-Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg",
-    "original_dimensions": {
-      "width": 3456,
-      "height": 2592
-    },
-    "photo_date": "2010-05-10 16:36",
-    "license": "CC BY 2.0",
-    "license_url": "https://creativecommons.org/licenses/by/2.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions.",
-    "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
-    "retained_notices": {
-      "Credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/golf_pictures/4599708312/\">Pinehurst No. Four 4 Golf Course</a>"
-    },
-    "alt": "Fairway and sand bunkers at Pinehurst No. 4 golf course",
-    "files": [
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 46538,
-        "sha256": "035cbfd73812fded8b5f0654fb51f7fe623e75f3925c8eb4b58335a30945dc28"
-      },
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 54081,
-        "sha256": "cfe279fe33c73e181163846a40ef54312b89973cae0dac9a0bfb8a0470c82652"
-      },
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 200330,
-        "sha256": "53dffffa15711756fae5717abb16b997ab10667f3c9969e227a6fd31ad8a8e14"
-      },
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 224837,
-        "sha256": "68ff4bee831c5f46ee35ebee92077b9c660a2bdb0e02ec2a6fbaf40632bac6ee"
-      },
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-1600.webp",
-        "width": 1600,
-        "height": 1200,
-        "bytes": 571936,
-        "sha256": "b9d8cb1e2e1acf750c66c03669d2d2749e2c1f8e1a2d82c8862eb5fb5a123e36"
-      },
-      {
-        "path": "dist/assets/destinations/pinehurst-golf-1600.jpg",
-        "width": 1600,
-        "height": 1200,
-        "bytes": 639941,
-        "sha256": "b58f223ec605430f6ba917c496c3b60084d206e1ddee75e8968c407b11e01a9b"
-      }
-    ]
+  "photo_date": "2024-02-14",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions. Photo adaptations remain under CC BY-SA 4.0.",
+  "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "Nashville",
-    "title": "Nashville from Cumberland River September 2026 002.jpg",
-    "photographer": "King of Hearts",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_002.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nashville_from_Cumberland_River_September_2026_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nashville_from_Cumberland_River_September_2026_002.jpg/1280px-Nashville_from_Cumberland_River_September_2026_002.jpg",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 4.0; ShareAlike applies to the photo adaptations.",
-    "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Nashville skyline reflected in the Cumberland River",
-    "files": [
-      {
-        "path": "dist/assets/destinations/nashville-480.webp",
-        "width": 480,
-        "height": 320,
-        "bytes": 21490,
-        "sha256": "58a50f9d7836521f4fab9fbaba37bae538dffb2b0dc20da31e9b78fadcd561ff"
-      },
-      {
-        "path": "dist/assets/destinations/nashville-480.jpg",
-        "width": 480,
-        "height": 320,
-        "bytes": 30875,
-        "sha256": "2a4055f1a66e4c25ff64cf588db21912916150de10bdb7fe374e4c4fa4ad4e5a"
-      },
-      {
-        "path": "dist/assets/destinations/nashville-960.webp",
-        "width": 960,
-        "height": 640,
-        "bytes": 80936,
-        "sha256": "8ec87899f87ffb0c59f17facfe0db56f91e3c66eda33953b0e69d7c9bcb1e301"
-      },
-      {
-        "path": "dist/assets/destinations/nashville-960.jpg",
-        "width": 960,
-        "height": 640,
-        "bytes": 115907,
-        "sha256": "c84edcf90ee7a3a516057f366d5182bfed29c461542af7a2228c85d21f4a39e9"
-      }
-    ]
+  "alt": "Reedy River waterfall beneath Liberty Bridge at Falls Park in Greenville",
+  "files": [
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-480.webp",
+    "width": 480,
+    "height": 319,
+    "bytes": 56102,
+    "sha256": "bfcb5be5f25eee9b9074fa2bae1c65387383f04aa27c87c779f330eec5a1d936"
+   },
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-480.jpg",
+    "width": 480,
+    "height": 319,
+    "bytes": 61806,
+    "sha256": "9ca9267a6e2615d4980626e9e28195776e579c9efbdbb4b0f71ef5ea194a962b"
+   },
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-960.webp",
+    "width": 960,
+    "height": 638,
+    "bytes": 240572,
+    "sha256": "a77016ad518217e3199c93ecde4628fa2f9048b5d3646abf79596f6628f51625"
+   },
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-960.jpg",
+    "width": 960,
+    "height": 638,
+    "bytes": 266257,
+    "sha256": "463f9cf2a8b04b2954a7b97309a742a4e5ffe3438142edf93d478149d4a94303"
+   },
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-1600.webp",
+    "width": 1600,
+    "height": 1064,
+    "bytes": 714086,
+    "sha256": "5f83296d279dca140fd785cb534838c97eb81267405adac0705e1a558603377a"
+   },
+   {
+    "path": "dist/assets/destinations/greenville-falls-bridge-1600.jpg",
+    "width": 1600,
+    "height": 1064,
+    "bytes": 793032,
+    "sha256": "16f1bc441583097fa0a68879e1ae9b84809f402ab42a5255f4035213528702dc"
+   }
+  ]
+ },
+ {
+  "destination": "Pinehurst",
+  "title": "Pinehurst No. Four 4 Golf Course (4599708312).jpg",
+  "photographer": "Dan Perry from Atlanta, USA",
+  "artist_html_as_supplied": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/71018547@N00\">Dan Perry</a> from Atlanta, USA",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Pinehurst_No._Four_4_Golf_Course_(4599708312).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg/1920px-Pinehurst_No._Four_4_Golf_Course_%284599708312%29.jpg",
+  "original_dimensions": {
+   "width": 3456,
+   "height": 2592
   },
-  {
-    "destination": "Key West",
-    "title": "KeyWestFL Duval St 20230125.jpg",
-    "photographer": "Niranjan Arminius",
-    "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Arminnius\" title=\"User:Arminnius\">Niranjan Arminius</a>",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:KeyWestFL_Duval_St_20230125.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/1920px-KeyWestFL_Duval_St_20230125.jpg",
-    "original_dimensions": {
-      "width": 4608,
-      "height": 3305
-    },
-    "photo_date": "2023-01-25 11:26:53",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-10-31",
-    "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions. Photo adaptations remain under CC BY-SA 4.0.",
-    "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
-    "retained_notices": {
-      "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
-    },
-    "alt": "Palm-lined Duval Street in Key West",
-    "files": [
-      {
-        "path": "dist/assets/destinations/key-west-duval-480.webp",
-        "width": 480,
-        "height": 344,
-        "bytes": 53394,
-        "sha256": "c3261c0e89db1f3be662ea9547192df496f6482b079122071d5a406f5353e7d6"
-      },
-      {
-        "path": "dist/assets/destinations/key-west-duval-480.jpg",
-        "width": 480,
-        "height": 344,
-        "bytes": 62407,
-        "sha256": "67539c517bdf81821edf9eaf674fee0a325ef90344ddacdaa2bde10ae0518faa"
-      },
-      {
-        "path": "dist/assets/destinations/key-west-duval-960.webp",
-        "width": 960,
-        "height": 688,
-        "bytes": 195646,
-        "sha256": "176a103ea6fb8fd3d8bcdab9c035c79766919c340f5052d2113a2cbb23ff7770"
-      },
-      {
-        "path": "dist/assets/destinations/key-west-duval-960.jpg",
-        "width": 960,
-        "height": 688,
-        "bytes": 229781,
-        "sha256": "eac494c7ddf3bf6035a9b3d6b9afc9d44e0986e509d410c7af16e7c5b011bf9d"
-      },
-      {
-        "path": "dist/assets/destinations/key-west-duval-1600.webp",
-        "width": 1600,
-        "height": 1148,
-        "bytes": 486534,
-        "sha256": "33fa02e3439008a5358fddc0983f4196d2202ce0cfe0c900795b7f4e146b3fd0"
-      },
-      {
-        "path": "dist/assets/destinations/key-west-duval-1600.jpg",
-        "width": 1600,
-        "height": 1148,
-        "bytes": 599409,
-        "sha256": "c46290467dfd7a03f78b114a7be5ed0db16be214a5b4ac93394fb584832a1857"
-      }
-    ]
+  "photo_date": "2010-05-10 16:36",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions.",
+  "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
+  "retained_notices": {
+   "Credit": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/golf_pictures/4599708312/\">Pinehurst No. Four 4 Golf Course</a>"
   },
-  {
-    "destination": "Outer Banks",
-    "title": "Wright Brothers National Memorial at Kill Devil Hill (16591932859).jpg",
-    "photographer": "NASA on The Commons",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_(16591932859).jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_%2816591932859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "No known copyright restrictions (Flickr Commons, NASA on The Commons)",
-    "license_url": "https://www.flickr.com/commons/usage/",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "No known copyright restrictions; credit provided as a courtesy.",
-    "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "The granite boulder marking the Wright brothers’ first takeoff, with the Wright Monument on Kill Devil Hill beyond",
-    "date_taken": "2013-06-18",
-    "files": [
-      {
-        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 34388,
-        "sha256": "44c5dbe85795b2248d2b83cd9fad2d3ae51ae62bb6d539b67a4144b3d140f230"
-      },
-      {
-        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 41853,
-        "sha256": "58bdb7885038a3663df979c9ba3bfa35e1a61909b279d913838d68b5e71fbd81"
-      },
-      {
-        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 100522,
-        "sha256": "ce0388eee85f75c1591589c9d4619897fcc66c6f666e3a937dd991792f95538d"
-      },
-      {
-        "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 136669,
-        "sha256": "93b0fc53b3c60bf300781717edba33f0b0e99cd6a2445bcc2dd3eeb399514cc5"
-      }
-    ]
+  "alt": "Fairway and sand bunkers at Pinehurst No. 4 golf course",
+  "files": [
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 46538,
+    "sha256": "035cbfd73812fded8b5f0654fb51f7fe623e75f3925c8eb4b58335a30945dc28"
+   },
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 54081,
+    "sha256": "cfe279fe33c73e181163846a40ef54312b89973cae0dac9a0bfb8a0470c82652"
+   },
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 200330,
+    "sha256": "53dffffa15711756fae5717abb16b997ab10667f3c9969e227a6fd31ad8a8e14"
+   },
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 224837,
+    "sha256": "68ff4bee831c5f46ee35ebee92077b9c660a2bdb0e02ec2a6fbaf40632bac6ee"
+   },
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 571936,
+    "sha256": "b9d8cb1e2e1acf750c66c03669d2d2749e2c1f8e1a2d82c8862eb5fb5a123e36"
+   },
+   {
+    "path": "dist/assets/destinations/pinehurst-golf-1600.jpg",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 639941,
+    "sha256": "b58f223ec605430f6ba917c496c3b60084d206e1ddee75e8968c407b11e01a9b"
+   }
+  ]
+ },
+ {
+  "destination": "Nashville",
+  "title": "Nashville from Cumberland River September 2026 002.jpg",
+  "photographer": "King of Hearts",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:King_of_Hearts\" title=\"User:King of Hearts\">King of Hearts</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Nashville_from_Cumberland_River_September_2026_002.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Nashville_from_Cumberland_River_September_2026_002.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Nashville_from_Cumberland_River_September_2026_002.jpg/1280px-Nashville_from_Cumberland_River_September_2026_002.jpg",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit creator and title, link source and license, identify changes, retain supplied notices; no endorsement or additional restrictions. Resized/converted versions and any photo adaptations remain under CC BY-SA 4.0; ShareAlike applies to the photo adaptations.",
+  "changes": "Resized to 480px and 960px wide; converted to WebP and progressive JPEG. Full image retained in files; object-fit cover crops display to the existing card frame. No AI generation, retouching, or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "Amelia Island",
-    "title": "Centre Street Businesses.jpg",
-    "photographer": "Upstateherd",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Centre_Street_Businesses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
-    "license": "CC BY-SA 4.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 4.0.",
-    "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "Historic 1890 storefronts with navy awnings on Centre Street in Fernandina Beach, Amelia Island",
-    "date_taken": "2019-05-25",
-    "files": [
-      {
-        "path": "docs/assets/destinations/amelia-centre-street-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 27660,
-        "sha256": "ec9dfd78626076377c0e97a7feabdcb4c243f4495b59c2060ecbcc501b3b1a69"
-      },
-      {
-        "path": "docs/assets/destinations/amelia-centre-street-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 38911,
-        "sha256": "0699638498c071369e8eda9bdd315b7644e51b51f29b1a5e67edf4ed5e0c4553"
-      },
-      {
-        "path": "docs/assets/destinations/amelia-centre-street-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 85798,
-        "sha256": "797a6fb774fa2025b4ff964a60b31e90435ed851234a614946fd54cdc0d63614"
-      },
-      {
-        "path": "docs/assets/destinations/amelia-centre-street-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 131400,
-        "sha256": "5a47dcf5ed6f72af26deb3b4841e6918fc6bf85164967d5f0955b963392381f7"
-      }
-    ]
+  "alt": "Nashville skyline reflected in the Cumberland River",
+  "files": [
+   {
+    "path": "dist/assets/destinations/nashville-480.webp",
+    "width": 480,
+    "height": 320,
+    "bytes": 21490,
+    "sha256": "58a50f9d7836521f4fab9fbaba37bae538dffb2b0dc20da31e9b78fadcd561ff"
+   },
+   {
+    "path": "dist/assets/destinations/nashville-480.jpg",
+    "width": 480,
+    "height": 320,
+    "bytes": 30875,
+    "sha256": "2a4055f1a66e4c25ff64cf588db21912916150de10bdb7fe374e4c4fa4ad4e5a"
+   },
+   {
+    "path": "dist/assets/destinations/nashville-960.webp",
+    "width": 960,
+    "height": 640,
+    "bytes": 80936,
+    "sha256": "8ec87899f87ffb0c59f17facfe0db56f91e3c66eda33953b0e69d7c9bcb1e301"
+   },
+   {
+    "path": "dist/assets/destinations/nashville-960.jpg",
+    "width": 960,
+    "height": 640,
+    "bytes": 115907,
+    "sha256": "c84edcf90ee7a3a516057f366d5182bfed29c461542af7a2228c85d21f4a39e9"
+   }
+  ]
+ },
+ {
+  "destination": "Key West",
+  "title": "KeyWestFL Duval St 20230125.jpg",
+  "photographer": "Niranjan Arminius",
+  "artist_html_as_supplied": "<a href=\"//commons.wikimedia.org/wiki/User:Arminnius\" title=\"User:Arminnius\">Niranjan Arminius</a>",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:KeyWestFL_Duval_St_20230125.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/KeyWestFL_Duval_St_20230125.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "downloaded_image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/KeyWestFL_Duval_St_20230125.jpg/1920px-KeyWestFL_Duval_St_20230125.jpg",
+  "original_dimensions": {
+   "width": 4608,
+   "height": 3305
   },
-  {
-    "destination": "Lake Keowee & Jocassee",
-    "title": "Lake Keowee (reservoir) in South Carolina.jpg",
-    "photographer": "Andy Montgomery",
-    "source_page_url": "https://commons.wikimedia.org/wiki/File:Lake_Keowee_(reservoir)_in_South_Carolina.jpg",
-    "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lake_Keowee_%28reservoir%29_in_South_Carolina.jpg",
-    "license": "CC BY-SA 2.0",
-    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 2.0.",
-    "changes": "Downloaded from Wikimedia Commons as the 3840px rendition of the 5634 × 2203 original, cropped from the panorama to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "Morning mist over Lake Keowee in fall, with a boathouse and docks below a wooded shore",
-    "date_taken": null,
-    "files": [
-      {
-        "path": "docs/assets/destinations/lake-keowee-morning-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 46304,
-        "sha256": "ba5548d4576789757cd47080b2cfd39392616074a0b92f612de03faecd7bc3e3"
-      },
-      {
-        "path": "docs/assets/destinations/lake-keowee-morning-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 50967,
-        "sha256": "247e4c1775c558376db242fb29de7f01c7f46345aacc58b0939174875321b30e"
-      },
-      {
-        "path": "docs/assets/destinations/lake-keowee-morning-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 207124,
-        "sha256": "c499592c280c2140159ae71a22f7c63f2e55f1d0ae77cddbcb5da8be8bf715d8"
-      },
-      {
-        "path": "docs/assets/destinations/lake-keowee-morning-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 225963,
-        "sha256": "f48c9775bc256d8eccb642276871d8aa907518f90c3da250e97e6bb01e5b9020"
-      }
-    ]
+  "photo_date": "2023-01-25 11:26:53",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-10-31",
+  "requirements": "Credit photographer and title; link source and license; identify resizing/format conversion and display crop; retain supplied notices; no endorsement or additional restrictions. Photo adaptations remain under CC BY-SA 4.0.",
+  "changes": "Resized to 480, 960 and 1600 pixels wide; converted to WebP and progressive JPEG. Full source frame retained in files; CSS object-fit cover crops the display. No AI generation, retouching or color alteration.",
+  "retained_notices": {
+   "Credit": "<span class=\"int-own-work\" lang=\"en\">Own work</span>"
   },
-  {
-    "destination": "Harpers Ferry",
-    "title": "View from Jefferson Rock",
-    "photographer": "National Park Service (Harpers Ferry National Historical Park)",
-    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96",
-    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/292273c6-1dd8-b71c-070a-31508b250a96/original.jpg",
-    "license": "Public domain",
-    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
-    "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "St. Peter’s Church steeple above the Shenandoah and Potomac rivers at Harpers Ferry, with wooded ridges beyond",
-    "date_taken": "2010-07-16",
-    "files": [
-      {
-        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 42430,
-        "sha256": "18852411c5a2643118584e6781f79beb9a056f5faa7025af9e2e441b70fad74c"
-      },
-      {
-        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 46209,
-        "sha256": "5b03a1205c3d535601be438aee672cd6f366d1edefe4fefb55364e292681d55c"
-      },
-      {
-        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 152342,
-        "sha256": "d2dd20d5e5a39a9451f728aa817ac038f33d98ebccb63d82e4d0f0a2fbe59c85"
-      },
-      {
-        "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 173898,
-        "sha256": "224c42e9da5a84a459bfe65e45ed353f4f638c80db0c91263015506e72899a8c"
-      }
-    ]
-  },
-  {
-    "destination": "Chattanooga",
-    "title": "Garrity’s Battery in Point Park at sunset",
-    "photographer": "National Park Service (Chickamauga and Chattanooga National Military Park)",
-    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099",
-    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/50b11a9f-90b0-4039-8744-0a27e67d6099/original.jpg",
-    "license": "Public domain",
-    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
-    "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "Two Civil War cannons on the edge of Lookout Mountain overlooking Chattanooga and the Tennessee River at sunset",
-    "date_taken": null,
-    "files": [
-      {
-        "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 43882,
-        "sha256": "572886f4f9618dab04b98261d19b6ed46c8be286e90b26a049b39d33032a3dec"
-      },
-      {
-        "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 49033,
-        "sha256": "75d096029121167e4e54938c4c25dbf18fafe01d646c01fe20e648b9765e5ef7"
-      },
-      {
-        "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 146236,
-        "sha256": "9d3cc7f2e7680db08c5f431e63fb80b7d9704ab688ee145e7d53b1688637fd80"
-      },
-      {
-        "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 173556,
-        "sha256": "176364d47b08306821e777fb1961df2fce61cf80a0474fe2807e0645ac65fb19"
-      }
-    ]
-  },
-  {
-    "destination": "Great Smoky Mountains",
-    "title": "Fall Color on Rich Mountain Road Overlook",
-    "photographer": "Sam Hobbs, National Park Service (Great Smoky Mountains National Park)",
-    "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172",
-    "original_image_url": "https://www.nps.gov/npgallery/GetAsset/b5e5b8e9-f4fd-4e74-8af5-269c69bfb172/original.jpg",
-    "license": "Public domain",
-    "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the photographer and National Park Service as a courtesy.",
-    "changes": "Downloaded from NPS NPGallery (hi-res proxy), center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
-    "alt": "Brilliant red and orange fall foliage above a valley ringed by mountains, seen from Rich Mountain Road near Cades Cove",
-    "date_taken": null,
-    "files": [
-      {
-        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.webp",
-        "width": 480,
-        "height": 360,
-        "bytes": 62480,
-        "sha256": "aba43dbd8f938e54d7c6f589290feada0ca7f92f066d6e1d85acde6ad0512bec"
-      },
-      {
-        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.jpg",
-        "width": 480,
-        "height": 360,
-        "bytes": 64493,
-        "sha256": "612635dacd908b7cbaa6d08a0b040ab883ccb133bd7c636f1be27a89e8cd1d62"
-      },
-      {
-        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.webp",
-        "width": 960,
-        "height": 720,
-        "bytes": 243764,
-        "sha256": "1eb316e3570f7df77a0873dd22dabaffd96d4eed5572085eeb04ce573463e920"
-      },
-      {
-        "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.jpg",
-        "width": 960,
-        "height": 720,
-        "bytes": 252308,
-        "sha256": "593245dcf5b59d2913bbcb5179fc3f782ef47dc4eb253ad9f39080f967ddaf26"
-      }
-    ]
-  },
-  {
-    "destination": "Gulf Shores",
-    "title": "a long stretch of beach next to the ocean",
-    "photographer": "Steven Van Elk",
-    "source_page_url": "https://unsplash.com/photos/a-long-stretch-of-beach-next-to-the-ocean-PBJ2jQsdszk",
-    "original_image_url": "https://images.unsplash.com/photo-1686080187913-7c119bc567ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Wide sugar-white beach along the Gulf at Orange Beach, Alabama",
-    "date_taken": null,
-    "files": [],
-    "location": "Orange Beach, AL, USA"
-  },
-  {
-    "destination": "Lake Lure",
-    "title": "a view of a valley from a high cliff",
-    "photographer": "haseeb riaz",
-    "source_page_url": "https://unsplash.com/photos/a-view-of-a-valley-from-a-high-cliff-_crHUWnIqK8",
-    "original_image_url": "https://images.unsplash.com/photo-1694056510901-3f0809c62d33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "The view from Chimney Rock down Hickory Nut Gorge",
-    "date_taken": null,
-    "files": [],
-    "location": "Chimney rock"
-  },
-  {
-    "destination": "Lake Lanier",
-    "title": "a body of water surrounded by trees and dirt",
-    "photographer": "Jo Anaya",
-    "source_page_url": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-dirt-k-CTlprz6OM",
-    "original_image_url": "https://images.unsplash.com/photo-1690809107122-692c0bad5c10?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQxfA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-02",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Lake Lanier’s shoreline with wooded hills beyond",
-    "date_taken": null,
-    "files": [],
-    "location": "Lake Lanier, Georgia, USA"
-  },
-  {
-    "destination": "Virginia Hunt Country",
-    "title": "Salamander Resort, Middleburg",
-    "photographer": "Serena T",
-    "source_page_url": "https://unsplash.com/photos/a-large-house-with-a-green-lawn-n0cTNKUu7K0",
-    "original_image_url": "https://images.unsplash.com/photo-1665061580844-f4bb15772ec3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTY3fA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-03",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Salamander Resort’s manor house and lawn in Middleburg, Virginia",
-    "date_taken": null,
-    "files": [],
-    "location": "Salamander Resort & Spa, North Pendleton Street, Middleburg, VA, USA"
-  },
-  {
-    "destination": "Yadkin Valley",
-    "title": "Sunrise over the foothills near Elkin",
-    "photographer": "Elijah Mears",
-    "source_page_url": "https://unsplash.com/photos/green-trees-and-mountains-during-sunrise-nW3N78niwss",
-    "original_image_url": "https://images.unsplash.com/photo-1599521328728-ccff739cc6f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ3fA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-03",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Sunrise over layered Blue Ridge foothills in Wilkes County, North Carolina, near Elkin",
-    "date_taken": null,
-    "files": [],
-    "location": "Wilkes County, NC, USA"
-  },
-  {
-    "destination": "Dahlonega",
-    "title": "Amicalola Falls, near Dahlonega",
-    "photographer": "Cesar Pimentel",
-    "source_page_url": "https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-forest-x5txtqVLoLg",
-    "original_image_url": "https://images.unsplash.com/photo-1637950988364-65f0841fd29c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ4fA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-03",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Amicalola Falls tumbling through the forest near Dahlonega, Georgia",
-    "date_taken": null,
-    "files": [],
-    "location": "Amicalola Falls, Georgia, USA"
-  },
-  {
-    "destination": "Hilton Head",
-    "title": "The path to the beach",
-    "photographer": "Justin Fisher",
-    "source_page_url": "https://unsplash.com/photos/a-path-leading-to-the-beach-with-tall-grass-qrga71KYbgM",
-    "original_image_url": "https://images.unsplash.com/photo-1690970526023-2054da90656a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTMzfA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-03",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "A sandy path through tall dune grass to the beach on Hilton Head Island",
-    "date_taken": null,
-    "files": [],
-    "location": "Hilton Head Island, SC, USA"
-  },
-  {
-    "destination": "Highlands–Cashiers",
-    "title": "Mountain fog near Highlands",
-    "photographer": "Nik Shuliahin 💛💙",
-    "source_page_url": "https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg",
-    "original_image_url": "https://images.unsplash.com/photo-1571691345097-630b077a4a2a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTQwfA&ixlib=rb-4.1.0",
-    "license": "Unsplash License",
-    "license_url": "https://unsplash.com/license",
-    "commercial_reuse_verified": true,
-    "verification_date": "2026-11-03",
-    "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-    "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
-    "alt": "Fog drifting through green forest on the mountains around Highlands, North Carolina",
-    "date_taken": null,
-    "files": [],
-    "location": "Highlands, NC, USA"
-  }
+  "alt": "Palm-lined Duval Street in Key West",
+  "files": [
+   {
+    "path": "dist/assets/destinations/key-west-duval-480.webp",
+    "width": 480,
+    "height": 344,
+    "bytes": 53394,
+    "sha256": "c3261c0e89db1f3be662ea9547192df496f6482b079122071d5a406f5353e7d6"
+   },
+   {
+    "path": "dist/assets/destinations/key-west-duval-480.jpg",
+    "width": 480,
+    "height": 344,
+    "bytes": 62407,
+    "sha256": "67539c517bdf81821edf9eaf674fee0a325ef90344ddacdaa2bde10ae0518faa"
+   },
+   {
+    "path": "dist/assets/destinations/key-west-duval-960.webp",
+    "width": 960,
+    "height": 688,
+    "bytes": 195646,
+    "sha256": "176a103ea6fb8fd3d8bcdab9c035c79766919c340f5052d2113a2cbb23ff7770"
+   },
+   {
+    "path": "dist/assets/destinations/key-west-duval-960.jpg",
+    "width": 960,
+    "height": 688,
+    "bytes": 229781,
+    "sha256": "eac494c7ddf3bf6035a9b3d6b9afc9d44e0986e509d410c7af16e7c5b011bf9d"
+   },
+   {
+    "path": "dist/assets/destinations/key-west-duval-1600.webp",
+    "width": 1600,
+    "height": 1148,
+    "bytes": 486534,
+    "sha256": "33fa02e3439008a5358fddc0983f4196d2202ce0cfe0c900795b7f4e146b3fd0"
+   },
+   {
+    "path": "dist/assets/destinations/key-west-duval-1600.jpg",
+    "width": 1600,
+    "height": 1148,
+    "bytes": 599409,
+    "sha256": "c46290467dfd7a03f78b114a7be5ed0db16be214a5b4ac93394fb584832a1857"
+   }
+  ]
+ },
+ {
+  "destination": "Outer Banks",
+  "title": "Wright Brothers National Memorial at Kill Devil Hill (16591932859).jpg",
+  "photographer": "NASA on The Commons",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_(16591932859).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/36/Wright_Brothers_National_Memorial_at_Kill_Devil_Hill_%2816591932859%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "No known copyright restrictions (Flickr Commons, NASA on The Commons)",
+  "license_url": "https://www.flickr.com/commons/usage/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "No known copyright restrictions; credit provided as a courtesy.",
+  "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "The granite boulder marking the Wright brothers’ first takeoff, with the Wright Monument on Kill Devil Hill beyond",
+  "date_taken": "2013-06-18",
+  "files": [
+   {
+    "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34388,
+    "sha256": "44c5dbe85795b2248d2b83cd9fad2d3ae51ae62bb6d539b67a4144b3d140f230"
+   },
+   {
+    "path": "docs/assets/destinations/outer-banks-kill-devil-hill-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41853,
+    "sha256": "58bdb7885038a3663df979c9ba3bfa35e1a61909b279d913838d68b5e71fbd81"
+   },
+   {
+    "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 100522,
+    "sha256": "ce0388eee85f75c1591589c9d4619897fcc66c6f666e3a937dd991792f95538d"
+   },
+   {
+    "path": "docs/assets/destinations/outer-banks-kill-devil-hill-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 136669,
+    "sha256": "93b0fc53b3c60bf300781717edba33f0b0e99cd6a2445bcc2dd3eeb399514cc5"
+   }
+  ]
+ },
+ {
+  "destination": "Amelia Island",
+  "title": "Centre Street Businesses.jpg",
+  "photographer": "Upstateherd",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Centre_Street_Businesses.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Centre_Street_Businesses.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 4.0.",
+  "changes": "Supplied by the site owner as a screenshot of the Commons original (Commons downloads were rate-limited), cropped to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "Historic 1890 storefronts with navy awnings on Centre Street in Fernandina Beach, Amelia Island",
+  "date_taken": "2019-05-25",
+  "files": [
+   {
+    "path": "docs/assets/destinations/amelia-centre-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 27660,
+    "sha256": "ec9dfd78626076377c0e97a7feabdcb4c243f4495b59c2060ecbcc501b3b1a69"
+   },
+   {
+    "path": "docs/assets/destinations/amelia-centre-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 38911,
+    "sha256": "0699638498c071369e8eda9bdd315b7644e51b51f29b1a5e67edf4ed5e0c4553"
+   },
+   {
+    "path": "docs/assets/destinations/amelia-centre-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 85798,
+    "sha256": "797a6fb774fa2025b4ff964a60b31e90435ed851234a614946fd54cdc0d63614"
+   },
+   {
+    "path": "docs/assets/destinations/amelia-centre-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 131400,
+    "sha256": "5a47dcf5ed6f72af26deb3b4841e6918fc6bf85164967d5f0955b963392381f7"
+   }
+  ]
+ },
+ {
+  "destination": "Lake Keowee & Jocassee",
+  "title": "Lake Keowee (reservoir) in South Carolina.jpg",
+  "photographer": "Andy Montgomery",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Lake_Keowee_(reservoir)_in_South_Carolina.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/18/Lake_Keowee_%28reservoir%29_in_South_Carolina.jpg",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Credit creator and title, link source and license, identify changes; adaptations remain under CC BY-SA 2.0.",
+  "changes": "Downloaded from Wikimedia Commons as the 3840px rendition of the 5634 × 2203 original, cropped from the panorama to 4:3, resized to 480 and 960px wide, and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "Morning mist over Lake Keowee in fall, with a boathouse and docks below a wooded shore",
+  "date_taken": null,
+  "files": [
+   {
+    "path": "docs/assets/destinations/lake-keowee-morning-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 46304,
+    "sha256": "ba5548d4576789757cd47080b2cfd39392616074a0b92f612de03faecd7bc3e3"
+   },
+   {
+    "path": "docs/assets/destinations/lake-keowee-morning-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50967,
+    "sha256": "247e4c1775c558376db242fb29de7f01c7f46345aacc58b0939174875321b30e"
+   },
+   {
+    "path": "docs/assets/destinations/lake-keowee-morning-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 207124,
+    "sha256": "c499592c280c2140159ae71a22f7c63f2e55f1d0ae77cddbcb5da8be8bf715d8"
+   },
+   {
+    "path": "docs/assets/destinations/lake-keowee-morning-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 225963,
+    "sha256": "f48c9775bc256d8eccb642276871d8aa907518f90c3da250e97e6bb01e5b9020"
+   }
+  ]
+ },
+ {
+  "destination": "Harpers Ferry",
+  "title": "View from Jefferson Rock",
+  "photographer": "National Park Service (Harpers Ferry National Historical Park)",
+  "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96",
+  "original_image_url": "https://www.nps.gov/npgallery/GetAsset/292273c6-1dd8-b71c-070a-31508b250a96/original.jpg",
+  "license": "Public domain",
+  "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
+  "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "St. Peter’s Church steeple above the Shenandoah and Potomac rivers at Harpers Ferry, with wooded ridges beyond",
+  "date_taken": "2010-07-16",
+  "files": [
+   {
+    "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 42430,
+    "sha256": "18852411c5a2643118584e6781f79beb9a056f5faa7025af9e2e441b70fad74c"
+   },
+   {
+    "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 46209,
+    "sha256": "5b03a1205c3d535601be438aee672cd6f366d1edefe4fefb55364e292681d55c"
+   },
+   {
+    "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 152342,
+    "sha256": "d2dd20d5e5a39a9451f728aa817ac038f33d98ebccb63d82e4d0f0a2fbe59c85"
+   },
+   {
+    "path": "docs/assets/destinations/harpers-ferry-jefferson-rock-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 173898,
+    "sha256": "224c42e9da5a84a459bfe65e45ed353f4f638c80db0c91263015506e72899a8c"
+   }
+  ]
+ },
+ {
+  "destination": "Chattanooga",
+  "title": "Garrity’s Battery in Point Park at sunset",
+  "photographer": "National Park Service (Chickamauga and Chattanooga National Military Park)",
+  "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=50b11a9f-90b0-4039-8744-0a27e67d6099",
+  "original_image_url": "https://www.nps.gov/npgallery/GetAsset/50b11a9f-90b0-4039-8744-0a27e67d6099/original.jpg",
+  "license": "Public domain",
+  "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the National Park Service as a courtesy.",
+  "changes": "Downloaded from NPS NPGallery, center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "Two Civil War cannons on the edge of Lookout Mountain overlooking Chattanooga and the Tennessee River at sunset",
+  "date_taken": null,
+  "files": [
+   {
+    "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 43882,
+    "sha256": "572886f4f9618dab04b98261d19b6ed46c8be286e90b26a049b39d33032a3dec"
+   },
+   {
+    "path": "docs/assets/destinations/chattanooga-point-park-sunset-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 49033,
+    "sha256": "75d096029121167e4e54938c4c25dbf18fafe01d646c01fe20e648b9765e5ef7"
+   },
+   {
+    "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 146236,
+    "sha256": "9d3cc7f2e7680db08c5f431e63fb80b7d9704ab688ee145e7d53b1688637fd80"
+   },
+   {
+    "path": "docs/assets/destinations/chattanooga-point-park-sunset-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 173556,
+    "sha256": "176364d47b08306821e777fb1961df2fce61cf80a0474fe2807e0645ac65fb19"
+   }
+  ]
+ },
+ {
+  "destination": "Great Smoky Mountains",
+  "title": "Fall Color on Rich Mountain Road Overlook",
+  "photographer": "Sam Hobbs, National Park Service (Great Smoky Mountains National Park)",
+  "source_page_url": "https://www.nps.gov/media/photo/view.htm?id=b5e5b8e9-f4fd-4e74-8af5-269c69bfb172",
+  "original_image_url": "https://www.nps.gov/npgallery/GetAsset/b5e5b8e9-f4fd-4e74-8af5-269c69bfb172/original.jpg",
+  "license": "Public domain",
+  "license_url": "https://www.nps.gov/aboutus/disclaimer.htm",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Public domain (NPS NPGallery: Constraint “Public domain”, Granting rights “Full”). Credit the photographer and National Park Service as a courtesy.",
+  "changes": "Downloaded from NPS NPGallery (hi-res proxy), center-cropped to 4:3, resized to 480 and 960px wide and converted to WebP and progressive JPEG. No AI generation, retouching or color alteration.",
+  "alt": "Brilliant red and orange fall foliage above a valley ringed by mountains, seen from Rich Mountain Road near Cades Cove",
+  "date_taken": null,
+  "files": [
+   {
+    "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 62480,
+    "sha256": "aba43dbd8f938e54d7c6f589290feada0ca7f92f066d6e1d85acde6ad0512bec"
+   },
+   {
+    "path": "docs/assets/destinations/smoky-mountains-rich-mountain-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 64493,
+    "sha256": "612635dacd908b7cbaa6d08a0b040ab883ccb133bd7c636f1be27a89e8cd1d62"
+   },
+   {
+    "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 243764,
+    "sha256": "1eb316e3570f7df77a0873dd22dabaffd96d4eed5572085eeb04ce573463e920"
+   },
+   {
+    "path": "docs/assets/destinations/smoky-mountains-rich-mountain-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 252308,
+    "sha256": "593245dcf5b59d2913bbcb5179fc3f782ef47dc4eb253ad9f39080f967ddaf26"
+   }
+  ]
+ },
+ {
+  "destination": "Gulf Shores",
+  "title": "a long stretch of beach next to the ocean",
+  "photographer": "Steven Van Elk",
+  "source_page_url": "https://unsplash.com/photos/a-long-stretch-of-beach-next-to-the-ocean-PBJ2jQsdszk",
+  "original_image_url": "https://images.unsplash.com/photo-1686080187913-7c119bc567ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Wide sugar-white beach along the Gulf at Orange Beach, Alabama",
+  "date_taken": null,
+  "files": [],
+  "location": "Orange Beach, AL, USA"
+ },
+ {
+  "destination": "Lake Lure",
+  "title": "a view of a valley from a high cliff",
+  "photographer": "haseeb riaz",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-a-valley-from-a-high-cliff-_crHUWnIqK8",
+  "original_image_url": "https://images.unsplash.com/photo-1694056510901-3f0809c62d33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "The view from Chimney Rock down Hickory Nut Gorge",
+  "date_taken": null,
+  "files": [],
+  "location": "Chimney rock"
+ },
+ {
+  "destination": "Lake Lanier",
+  "title": "a body of water surrounded by trees and dirt",
+  "photographer": "Jo Anaya",
+  "source_page_url": "https://unsplash.com/photos/a-body-of-water-surrounded-by-trees-and-dirt-k-CTlprz6OM",
+  "original_image_url": "https://images.unsplash.com/photo-1690809107122-692c0bad5c10?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQxfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-02",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Lake Lanier’s shoreline with wooded hills beyond",
+  "date_taken": null,
+  "files": [],
+  "location": "Lake Lanier, Georgia, USA"
+ },
+ {
+  "destination": "Virginia Hunt Country",
+  "title": "Salamander Resort, Middleburg",
+  "photographer": "Serena T",
+  "source_page_url": "https://unsplash.com/photos/a-large-house-with-a-green-lawn-n0cTNKUu7K0",
+  "original_image_url": "https://images.unsplash.com/photo-1665061580844-f4bb15772ec3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTY3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Salamander Resort’s manor house and lawn in Middleburg, Virginia",
+  "date_taken": null,
+  "files": [],
+  "location": "Salamander Resort & Spa, North Pendleton Street, Middleburg, VA, USA"
+ },
+ {
+  "destination": "Yadkin Valley",
+  "title": "Sunrise over the foothills near Elkin",
+  "photographer": "Elijah Mears",
+  "source_page_url": "https://unsplash.com/photos/green-trees-and-mountains-during-sunrise-nW3N78niwss",
+  "original_image_url": "https://images.unsplash.com/photo-1599521328728-ccff739cc6f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Sunrise over layered Blue Ridge foothills in Wilkes County, North Carolina, near Elkin",
+  "date_taken": null,
+  "files": [],
+  "location": "Wilkes County, NC, USA"
+ },
+ {
+  "destination": "Dahlonega",
+  "title": "Amicalola Falls, near Dahlonega",
+  "photographer": "Cesar Pimentel",
+  "source_page_url": "https://unsplash.com/photos/a-waterfall-in-the-middle-of-a-forest-x5txtqVLoLg",
+  "original_image_url": "https://images.unsplash.com/photo-1637950988364-65f0841fd29c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ4fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Amicalola Falls tumbling through the forest near Dahlonega, Georgia",
+  "date_taken": null,
+  "files": [],
+  "location": "Amicalola Falls, Georgia, USA"
+ },
+ {
+  "destination": "Hilton Head",
+  "title": "The path to the beach",
+  "photographer": "Justin Fisher",
+  "source_page_url": "https://unsplash.com/photos/a-path-leading-to-the-beach-with-tall-grass-qrga71KYbgM",
+  "original_image_url": "https://images.unsplash.com/photo-1690970526023-2054da90656a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTMzfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "A sandy path through tall dune grass to the beach on Hilton Head Island",
+  "date_taken": null,
+  "files": [],
+  "location": "Hilton Head Island, SC, USA"
+ },
+ {
+  "destination": "Highlands–Cashiers",
+  "title": "Mountain fog near Highlands",
+  "photographer": "Nik Shuliahin 💛💙",
+  "source_page_url": "https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg",
+  "original_image_url": "https://images.unsplash.com/photo-1571691345097-630b077a4a2a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTQwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Fog drifting through green forest on the mountains around Highlands, North Carolina",
+  "date_taken": null,
+  "files": [],
+  "location": "Highlands, NC, USA"
+ },
+ {
+  "destination": "Cape May",
+  "title": "The Cape May Lighthouse",
+  "photographer": "rod m",
+  "source_page_url": "https://unsplash.com/photos/white-and-red-lighthouse-near-green-grass-field-under-blue-sky-during-daytime-2M22Gga202k",
+  "original_image_url": "https://images.unsplash.com/photo-1591726015387-bbfd29215bf5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "The white Cape May Lighthouse with its red lantern above green grass and a blue sky",
+  "date_taken": null,
+  "files": [],
+  "location": "Cape May, NJ, USA"
+ },
+ {
+  "destination": "Shenandoah & Luray",
+  "title": "Fall on Blackrock Summit, Shenandoah National Park",
+  "photographer": "durul dalkanat",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-a-mountain-with-a-sunset-in-the-background-YkpOqgtqulE",
+  "original_image_url": "https://images.unsplash.com/photo-1725983535214-bfaf72111990?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters (4:3 for guides; cards crop to fit).",
+  "alt": "Fall color on Blackrock Summit in Shenandoah National Park at sunset",
+  "date_taken": null,
+  "files": [],
+  "location": "Blackrock Summit, Shenandoah National Park, VA (photographer caption; no geotag)"
+ }
 ]

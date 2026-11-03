@@ -189,30 +189,30 @@
     "placeholder": true
   },
   "cape-may": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1591726015387-bbfd29215bf5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The white Cape May Lighthouse with its red lantern above green grass and a blue sky",
     "w": 960,
     "h": 720,
-    "caption": "Cape May’s beaches (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Cape May Lighthouse",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@globalpalette?utm_source=wingaway_weekends&utm_medium=referral\">rod m</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-red-lighthouse-near-green-grass-field-under-blue-sky-during-daytime-2M22Gga202k?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "shenandoah": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1725983535214-bfaf72111990?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "Fall color on Blackrock Summit in Shenandoah National Park at sunset",
     "w": 960,
     "h": 720,
-    "caption": "The Blue Ridge (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fall on Blackrock Summit",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@durul?utm_source=wingaway_weekends&utm_medium=referral\">durul dalkanat</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-mountain-with-a-sunset-in-the-background-YkpOqgtqulE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "homestead": {
     "slug": "homestead-valley",
