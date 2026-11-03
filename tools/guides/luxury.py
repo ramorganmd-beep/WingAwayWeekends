@@ -140,7 +140,8 @@ LUXURY = {
          'A historic mountain resort on its own lake near Cashiers, with golf, hiking and a classic lodge.')],
     'shenandoah': [
         ('Relais & Châteaux · About 45 minutes', 'The Inn at Little Washington',
-         'Famous for its restaurant, with lavishly decorated rooms in the village of Washington, Virginia. A once-in-a-lifetime splurge.')],
+         'Famous for its restaurant, with lavishly decorated rooms in the village of Washington, Virginia. A once-in-a-lifetime splurge.',
+         'https://www.theinnatlittlewashington.com/')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)
