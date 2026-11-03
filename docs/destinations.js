@@ -1036,10 +1036,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "dayton-wright-b-flyer", "alt": "A Wright B Flyer biplane in the air over Huffman Prairie Flying Field in Dayton, about 1910"}
 },
 {
  "name": "Mackinac Island",

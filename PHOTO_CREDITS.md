@@ -365,3 +365,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Stephen Crane on Unsplash — https://unsplash.com/photos/a-red-covered-bridge-over-a-small-stream-fasLRq-9DgQ
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Lancaster, PA (geotag; Poole Forge Covered Bridge per caption)
+
+## Dayton
+
+- Title: Wright B Flyer in the air above Huffman Prairie (c. 1910)
+- Photographer: Harvey Gaylord Kittredge; National Park Service, Dayton Aviation Heritage NHP
+- Source: https://www.nps.gov/npgallery/AssetDetail/3aa6d99e-1dd8-b71b-0bd3-2c091370f328
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
