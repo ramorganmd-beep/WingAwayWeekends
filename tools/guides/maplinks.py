@@ -35,6 +35,8 @@ TOWN = {
     'eureka-springs': 'Eureka Springs, AR', 'duluth': 'Duluth, MN',
     'naples': 'Naples, FL', 'sanibel': 'Sanibel, FL', 'islamorada': 'Islamorada, FL', 'palm-beach': 'Palm Beach, FL',
     'cedar-key': 'Cedar Key, FL', '30a': 'Santa Rosa Beach, FL',
+    'fredericksburg': 'Fredericksburg, TX', 'san-antonio': 'San Antonio, TX', 'fort-worth': 'Fort Worth, TX', 'galveston': 'Galveston, TX',
+    'south-padre': 'South Padre Island, TX', 'marfa': 'Marfa, TX',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
