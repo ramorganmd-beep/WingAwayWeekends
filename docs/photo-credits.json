@@ -1100,5 +1100,54 @@
     "sha256": "e393be2d9822676104f7c83da15666942eced863a58cd9c18cc1d4f831dca59a"
    }
   ]
+ },
+ {
+  "destination": "St. Michaels & Easton",
+  "title": "Hooper Strait Light, St. Michaels, Maryland.jpg",
+  "photographer": "Fletcher6",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Hooper_Strait_Light,_St._Michaels,_Maryland.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Hooper_Strait_Light%2C_St._Michaels%2C_Maryland.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2906,
+   "height": 1932
+  },
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Center-cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The white Hooper Strait Lighthouse on its iron legs at the Chesapeake Bay Maritime Museum in St. Michaels",
+  "files": [
+   {
+    "path": "dist/assets/destinations/st-michaels-hooper-strait-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32990,
+    "sha256": "4a62072352be5076abc39d817f1212ce9b96453d51eb4c14050cbb121cd75e21"
+   },
+   {
+    "path": "dist/assets/destinations/st-michaels-hooper-strait-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41956,
+    "sha256": "655d0cfd5933477bb2edf9688f91b6b0c1e3939950903d2233051255fbf228e6"
+   },
+   {
+    "path": "dist/assets/destinations/st-michaels-hooper-strait-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 110624,
+    "sha256": "50e83beb4fb33f9fa9f5e2aa9aecb7a53a4e9a8274ea8d0cc5981e2b34d86dd7"
+   },
+   {
+    "path": "dist/assets/destinations/st-michaels-hooper-strait-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 147123,
+    "sha256": "47e56b2f15251d504a6332d14393e54d9cf099519d3e8c831d204dfabd578d68"
+   }
+  ]
  }
 ]

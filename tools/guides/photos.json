@@ -176,17 +176,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@tjump?utm_source=wingaway_weekends&utm_medium=referral\">Nik Shuliahin 💛💙</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-foggy-trees-scenery-bRP3Yk-lWfg?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "st-michaels": {
-    "slug": "st-michaels-harbor",
+    "slug": "st-michaels-hooper-strait",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor on the Chesapeake Bay",
+    "alt": "The white Hooper Strait Lighthouse on its iron legs at the Chesapeake Bay Maritime Museum in St. Michaels",
     "w": 960,
     "h": 720,
-    "caption": "A Chesapeake harbor (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Hooper Strait Lighthouse",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Hooper_Strait_Light,_St._Michaels,_Maryland.jpg\">Hooper Strait Light, St. Michaels, Maryland.jpg</a> — Fletcher6 · <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Cropped to 4:3 and resized."
   },
   "cape-may": {
     "slug": "https://images.unsplash.com/photo-1591726015387-bbfd29215bf5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzMyMDQyfA&ixlib=rb-4.1.0",
