@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='french-lick', name='French Lick', state='Indiana', number=47, reviewed=None,
+    slug='french-lick', name='French Lick', state='Indiana', number=47, reviewed='November 3, 2026',
     airport='KFRH', nm=473, flight_time='~3 hr 25 <small>min</small>', style='Resort shuttle',
     place='French Lick, Indiana',
     description='A curated two-night French Lick getaway for GA pilots and their partners, from KMYR to KFRH. Two restored historic spa hotels, a famous domed atrium, Pete Dye golf, mineral spas and a scenic railway.',

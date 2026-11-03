@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='galena', name='Galena', state='Illinois', number=48, reviewed=None,
+    slug='galena', name='Galena', state='Illinois', number=48, reviewed='November 3, 2026',
     airport='KDBQ', nm=763, flight_time='~5 hr 21 <small>min</small>', style='Rental car + walks',
     place='Galena, Illinois',
     description='A curated two-night Galena getaway for GA pilots and their partners, from KMYR to KDBQ. A 19th-century river town of brick shops, Ulysses S. Grant’s home, rolling hills, wineries and the Mississippi.',
