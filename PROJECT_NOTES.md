@@ -292,4 +292,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Dayton photo: NPS "Wright B Flyer in the air above Huffman Prairie" (c. 1910, Harvey Gaylord Kittredge collection, public domain) as dayton-wright-b-flyer, cropped inside the album border. Bardstown 3 not used: it is a close-up of Woodford Reserve bottles (Woodford is in Versailles near Lexington, no location tag); suggested for the future Lexington guide.
 - Bardstown photo: Unsplash Woodford Reserve bottles (owner chose it after the location note).
 - Owner approved the Midwest ("midwest lg", Nov 3, 2026): all six published. 48 public; only Hudson Valley is still a draft (waiting on a photo pick). New map plans/coverage-map-central.png (four regions, eastern + central US).
-- Hudson Valley photo: Unsplash Bear Mountain Bridge in fall (Danny Nanni; visually identified). Published. All 49 guides public.
+- Hudson Valley photo pick: Unsplash Bear Mountain Bridge in fall (Danny Nanni; visually identified, pick_hudson.json). Apply blocked by Unsplash rate limit; guide stays draft until applied.

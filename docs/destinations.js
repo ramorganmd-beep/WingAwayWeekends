@@ -864,6 +864,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa"
  ],
  "guide": "hudson-valley/",
+ "draft": true,
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
