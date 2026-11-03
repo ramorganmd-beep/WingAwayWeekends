@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='cedar-key', name='Cedar Key', state='Florida', number=60, reviewed=None,
+    slug='cedar-key', name='Cedar Key', state='Florida', number=60, reviewed='November 3, 2026',
     airport='KCDK', nm=345, flight_time='~2 hr 34 <small>min</small>', style='Golf cart + walks',
     place='Cedar Key, Florida',
     description='A curated two-night Cedar Key getaway for GA pilots and their partners, from KMYR to KCDK. A tiny Old Florida island town on the Gulf: a short runway by the water, golf carts, clams, kayaking and sunsets.',

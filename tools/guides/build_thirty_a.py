@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='30a', name='Seaside & 30A', state='Florida', number=61, reviewed=None,
+    slug='30a', name='Seaside & 30A', state='Florida', number=61, reviewed='November 3, 2026',
     airport='KECP', nm=402, flight_time='~2 hr 56 <small>min</small>', style='Rental car + bikes',
     place='Seaside & 30A, Florida',
     description='A curated two-night Seaside and 30A getaway for GA pilots and their partners, from KMYR to KECP. Sugar-white beaches, emerald water, pastel beach towns, rare coastal dune lakes and a bike path along Scenic Highway 30A.',
