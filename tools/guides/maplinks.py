@@ -33,6 +33,8 @@ TOWN = {
     'galena': 'Galena, IL', 'door-county': 'Fish Creek, WI',
     'branson': 'Branson, MO', 'lake-ozarks': 'Osage Beach, MO', 'hot-springs': 'Hot Springs, AR', 'bentonville': 'Bentonville, AR',
     'eureka-springs': 'Eureka Springs, AR', 'duluth': 'Duluth, MN',
+    'naples': 'Naples, FL', 'sanibel': 'Sanibel, FL', 'islamorada': 'Islamorada, FL', 'palm-beach': 'Palm Beach, FL',
+    'cedar-key': 'Cedar Key, FL', '30a': 'Santa Rosa Beach, FL',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -103,7 +105,7 @@ QUERY = {
     'Lanier Islands Legacy Lodge': 'Lanier Islands Legacy Lodge, Buford, GA',
     'Sidney’s at Legacy Lodge': 'Sidney’s, Lanier Islands Legacy Lodge, Buford, GA',
 }
-SKIP = {'Branson Landing', 'A dock-and-dine restaurant', 'A lakeside grill', 'Downtown Hot Springs', 'Downtown Eureka Springs', 'Downtown Bardstown', 'Main Street cafés', 'Fudge on Main Street', 'Stonington Borough', 'Greenbrier cottages & estate homes', 'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
+SKIP = {'The Downtown Historic Island Hotel', 'Dock Street restaurants', 'Cedar Key clams', 'Branson Landing', 'A dock-and-dine restaurant', 'A lakeside grill', 'Downtown Hot Springs', 'Downtown Eureka Springs', 'Downtown Bardstown', 'Main Street cafés', 'Fudge on Main Street', 'Stonington Borough', 'Greenbrier cottages & estate homes', 'Luxury beach homes', 'Vineyard cottage rentals', 'A picnic in Cades Cove'}
 OLD = re.compile(r'<a class="textlink maplink"[^>]*>.*?</a>', re.S)
 
 
