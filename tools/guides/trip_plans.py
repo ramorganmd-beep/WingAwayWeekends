@@ -461,6 +461,13 @@ PLANS = {
         'extra': [('Morning', 'The Kimbell and the Modern Art Museum.'),
                   ('Afternoon', 'The Fort Worth Botanic Garden.'),
                   ('Evening', 'A rodeo night in the Stockyards.')]},
+    'new-orleans': {
+        'day': [('Arrive', 'Land at KNEW mid-morning.'),
+                ('Midday', 'Beignets and Jackson Square, then lunch in the Quarter.'),
+                ('Afternoon', 'Preservation Hall’s early set, then back to the FBO.')],
+        'extra': [('Morning', 'The National WWII Museum.'),
+                  ('Afternoon', 'The St. Charles streetcar and the Garden District.'),
+                  ('Evening', 'A jazz dinner cruise on the Steamboat Natchez.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

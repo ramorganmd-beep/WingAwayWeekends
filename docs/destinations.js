@@ -1505,5 +1505,28 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "shenandoah-ridges",
   "alt": "Illustration of layered ridges"
  }
+},
+{
+ "name": "New Orleans",
+ "state": "Louisiana",
+ "airport": "KNEW",
+ "lat": 30.0424,
+ "lon": -90.0283,
+ "desc": "Jazz, Creole dining, the French Quarter, the Garden District and the National WWII Museum, 15 minutes from a 1934 lakefront airport.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays",
+  "Spa"
+ ],
+ "guide": "new-orleans/",
+ "stateCode": "LA",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
