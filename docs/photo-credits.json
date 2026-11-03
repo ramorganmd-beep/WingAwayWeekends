@@ -1738,5 +1738,22 @@
   "date_taken": null,
   "files": [],
   "location": "Seaside, FL (geotag)"
+ },
+ {
+  "destination": "Islamorada",
+  "title": "A beach in Islamorada",
+  "photographer": "Keith Luke",
+  "source_page_url": "https://unsplash.com/photos/white-canoe-near-palm-tree-sPU2kzPIf28",
+  "original_image_url": "https://images.unsplash.com/photo-1520520731457-9283dd14aa66?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzM3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A quiet beach under palms in Islamorada, in the Florida Keys",
+  "date_taken": null,
+  "files": [],
+  "location": "Islamorada, FL (geotag)"
  }
 ]

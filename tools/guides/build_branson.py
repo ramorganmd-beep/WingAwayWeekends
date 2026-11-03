@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='branson', name='Branson & Table Rock Lake', state='Missouri', number=50, reviewed=None,
+    slug='branson', name='Branson & Table Rock Lake', state='Missouri', number=50, reviewed='November 3, 2026',
     airport='KBBG', nm=721, flight_time='~5 hr 4 <small>min</small>', style='Rental car',
     place='Branson, Missouri',
     description='A curated two-night Branson and Table Rock Lake getaway for GA pilots and their partners, from KMYR to KBBG. A wilderness lodge on the lake, Top of the Rock, Dogwood Canyon, Silver Dollar City and live shows.',

@@ -439,3 +439,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Peggy Paulson on Unsplash — https://unsplash.com/photos/a-boat-on-the-beach-mql2L8pRfTE
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Seaside, FL (geotag)
+
+## Islamorada
+
+- Photo by Keith Luke on Unsplash — https://unsplash.com/photos/white-canoe-near-palm-tree-sPU2kzPIf28
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Islamorada, FL (geotag)

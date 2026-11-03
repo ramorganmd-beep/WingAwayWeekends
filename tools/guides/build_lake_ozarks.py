@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lake-ozarks', name='Lake of the Ozarks', state='Missouri', number=51, reviewed=None,
+    slug='lake-ozarks', name='Lake of the Ozarks', state='Missouri', number=51, reviewed='November 3, 2026',
     airport='KAIZ', nm=713, flight_time='~5 hr 1 <small>min</small>', style='Rental car + boat',
     place='Lake of the Ozarks, Missouri',
     description='A curated two-night Lake of the Ozarks getaway for GA pilots and their partners, from KMYR to KAIZ. A huge winding lake, castle ruins, caves, boating and lakeside resorts.',

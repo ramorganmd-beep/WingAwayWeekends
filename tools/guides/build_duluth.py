@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='duluth', name='Duluth & the North Shore', state='Minnesota', number=55, reviewed=None,
+    slug='duluth', name='Duluth & the North Shore', state='Minnesota', number=55, reviewed='November 3, 2026',
     airport='KDLH', nm=994, flight_time='~6 hr 53 <small>min</small>', style='Rental car',
     place='Duluth & the North Shore, Minnesota',
     description='A curated getaway to Duluth and Minnesota’s North Shore for GA pilots and their partners, from KMYR to KDLH. Lake Superior, the Aerial Lift Bridge, ore ships, a lakefront mansion, Split Rock Lighthouse and waterfalls.',
