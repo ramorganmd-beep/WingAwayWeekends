@@ -17,7 +17,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "nashville/",
   "stateCode": "TN",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "nashville",
    "alt": "Nashville skyline reflected in the Cumberland River"
@@ -44,7 +44,7 @@ window.WINGAWAY_DESTINATIONS=[
   },
   "stateCode": "GA",
   "region": "Southeast",
-  "family": null
+  "family": true
  },
  {
   "name": "Charleston",
@@ -63,7 +63,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "charleston/",
   "stateCode": "SC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "charleston",
    "alt": "Pastel historic houses on Rainbow Row in Charleston"
@@ -88,7 +88,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "asheville/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "asheville-biltmore",
    "alt": "Front facade of Biltmore House at Biltmore Estate in Asheville",
@@ -112,7 +112,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "beaufort/",
   "stateCode": "SC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "beaufort-bay-street",
    "alt": "Historic storefronts along Bay Street in downtown Beaufort, South Carolina",
@@ -136,7 +136,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "st-augustine/",
   "stateCode": "FL",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "st-augustine",
    "alt": "St. Augustine and its waterfront viewed from the lighthouse"
@@ -160,7 +160,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "charlottesville/",
   "stateCode": "VA",
   "region": "Mid-Atlantic",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "charlottesville",
    "alt": "Tree-lined Downtown Mall in Charlottesville"
@@ -183,7 +183,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "greenville/",
   "stateCode": "SC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "greenville-falls-bridge",
    "alt": "Reedy River waterfall beneath Liberty Bridge at Falls Park in Greenville",
@@ -205,7 +205,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "pinehurst/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "pinehurst-golf",
    "alt": "Fairway and sand bunkers at Pinehurst No. 4 golf course",
@@ -230,7 +230,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "outer-banks/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "outer-banks-kill-devil-hill",
    "alt": "The granite boulder marking the Wright brothers’ first takeoff, with the Wright Monument on Kill Devil Hill beyond",
@@ -257,7 +257,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "amelia-island/",
   "stateCode": "FL",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "amelia-centre-street",
    "alt": "Historic 1890 storefronts with navy awnings on Centre Street in Fernandina Beach, Amelia Island",
@@ -283,7 +283,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "yadkin-valley/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": false,
   "photo": {
    "slug": "yadkin-valley",
    "remote": "https://images.unsplash.com/photo-1599521328728-ccff739cc6f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ3fA&ixlib=rb-4.1.0",
@@ -311,7 +311,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "hunt-country/",
   "stateCode": "VA",
   "region": "Mid-Atlantic",
-  "family": null,
+  "family": false,
   "photo": {
    "slug": "hunt-country",
    "remote": "https://images.unsplash.com/photo-1665061580844-f4bb15772ec3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTY3fA&ixlib=rb-4.1.0",
@@ -339,7 +339,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "dahlonega/",
   "stateCode": "GA",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "dahlonega",
    "remote": "https://images.unsplash.com/photo-1637950988364-65f0841fd29c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjY4OTQ4fA&ixlib=rb-4.1.0",
@@ -365,7 +365,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "gulf-shores/",
   "stateCode": "AL",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "gulf-shores",
    "remote": "https://images.unsplash.com/photo-1686080187913-7c119bc567ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
@@ -392,7 +392,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "chattanooga/",
   "stateCode": "TN",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "chattanooga-point-park-sunset",
    "alt": "Two Civil War cannons on the edge of Lookout Mountain overlooking Chattanooga and the Tennessee River at sunset",
@@ -417,7 +417,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "smoky-mountains/",
   "stateCode": "TN",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "smoky-mountains-rich-mountain",
    "alt": "Brilliant red and orange fall foliage above a valley ringed by mountains, seen from Rich Mountain Road near Cades Cove",
@@ -441,7 +441,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "lake-lure/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "lake-lure",
    "remote": "https://images.unsplash.com/photo-1694056510901-3f0809c62d33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQwfA&ixlib=rb-4.1.0",
@@ -466,7 +466,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "lake-keowee/",
   "stateCode": "SC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "lake-keowee-morning",
    "alt": "Morning mist over Lake Keowee in fall, with a boathouse and docks below a wooded shore",
@@ -491,7 +491,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "lake-lanier/",
   "stateCode": "GA",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "lake-lanier",
    "remote": "https://images.unsplash.com/photo-1690809107122-692c0bad5c10?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjU3NTQxfA&ixlib=rb-4.1.0",
@@ -517,7 +517,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "harpers-ferry/",
   "stateCode": "WV",
   "region": "Mid-Atlantic",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "harpers-ferry-jefferson-rock",
    "alt": "St. Peter’s Church steeple above the Shenandoah and Potomac rivers at Harpers Ferry, with wooded ridges beyond",
@@ -542,7 +542,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "hilton-head/",
   "stateCode": "SC",
   "region": "Southeast",
-  "family": null,
+  "family": true,
   "photo": {
    "slug": "hilton-head",
    "remote": "https://images.unsplash.com/photo-1690970526023-2054da90656a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTMzfA&ixlib=rb-4.1.0",
@@ -569,7 +569,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "highlands-cashiers/",
   "stateCode": "NC",
   "region": "Southeast",
-  "family": null,
+  "family": false,
   "photo": {
    "slug": "highlands-cashiers",
    "remote": "https://images.unsplash.com/photo-1571691345097-630b077a4a2a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNjcxNTQwfA&ixlib=rb-4.1.0",
@@ -596,7 +596,7 @@ window.WINGAWAY_DESTINATIONS=[
   "guide": "key-west/",
   "stateCode": "FL",
   "region": "Southeast",
-  "family": null,
+  "family": false,
   "photo": {
    "slug": "key-west-duval",
    "alt": "Palm-lined Duval Street in Key West",
