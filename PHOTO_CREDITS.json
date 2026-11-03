@@ -1502,5 +1502,54 @@
   "date_taken": null,
   "files": [],
   "location": "Lancaster, PA (geotag; Poole Forge Covered Bridge per caption)"
+ },
+ {
+  "destination": "Dayton",
+  "title": "Wright B Flyer in the air above Huffman Prairie (c. 1910)",
+  "photographer": "Harvey Gaylord Kittredge; National Park Service, Dayton Aviation Heritage NHP",
+  "source_page_url": "https://www.nps.gov/npgallery/AssetDetail/3aa6d99e-1dd8-b71b-0bd3-2c091370f328",
+  "original_image_url": "https://www.nps.gov/npgallery/GetAsset/3aa6d99e-1dd8-b71b-0bd3-2c091370f328/original.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3684,
+   "height": 1764
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A Wright B Flyer biplane in the air over Huffman Prairie Flying Field in Dayton, about 1910",
+  "files": [
+   {
+    "path": "dist/assets/destinations/dayton-wright-b-flyer-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 16044,
+    "sha256": "65a8451a57a870006d746aa1eced92a243feecf6c101792f18d95e6d3c15e82a"
+   },
+   {
+    "path": "dist/assets/destinations/dayton-wright-b-flyer-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 24726,
+    "sha256": "30d217918eb9a10c78aad1a35f9fa5450a82f35b68256c5a3a365b79cafcff9a"
+   },
+   {
+    "path": "dist/assets/destinations/dayton-wright-b-flyer-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 90624,
+    "sha256": "58adab94cba8c5bf30fc4bdb5bd2338efc9b7b30fa51795a72e4fc944005c879"
+   },
+   {
+    "path": "dist/assets/destinations/dayton-wright-b-flyer-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 122151,
+    "sha256": "f782954b17ebc363064a5362068636678c21ea912509b30f95533c40c94085a2"
+   }
+  ]
  }
 ]

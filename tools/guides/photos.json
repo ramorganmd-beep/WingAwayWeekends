@@ -431,17 +431,16 @@
     "placeholder": true
   },
   "dayton": {
-    "slug": "shenandoah-ridges",
+    "slug": "dayton-wright-b-flyer",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "A Wright B Flyer biplane in the air over Huffman Prairie Flying Field in Dayton, about 1910",
     "w": 960,
     "h": 720,
-    "caption": "Dayton (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A Wright B Flyer over Huffman Prairie, about 1910",
+    "credit_html": "<a href=\"https://www.nps.gov/npgallery/AssetDetail/3aa6d99e-1dd8-b71b-0bd3-2c091370f328\">Wright B Flyer in the air above Huffman Prairie (c. 1910)</a> — Harvey Gaylord Kittredge; National Park Service, Dayton Aviation Heritage NHP · Public domain. Cropped to 4:3 and resized."
   },
   "mackinac": {
     "slug": "https://images.unsplash.com/photo-1561171466-40b5550db7b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzkzfA&ixlib=rb-4.1.0",
