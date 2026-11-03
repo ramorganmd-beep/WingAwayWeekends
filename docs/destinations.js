@@ -1261,5 +1261,151 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "st-michaels-harbor",
   "alt": "Illustration of a calm harbor"
  }
+},
+{
+ "name": "Naples",
+ "state": "Florida",
+ "airport": "KAPF",
+ "lat": 26.1526,
+ "lon": -81.7753,
+ "desc": "Gulf beaches, sunset at the 1888 pier, Fifth Avenue dining and a cypress-swamp boardwalk.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Spa",
+  "Scenic views",
+  "Golf"
+ ],
+ "guide": "naples/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sanibel & Captiva",
+ "state": "Florida",
+ "airport": "KFMY",
+ "lat": 26.5866,
+ "lon": -81.8633,
+ "desc": "World-famous shelling, a wildlife refuge, island bike paths and Captiva sunsets.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Stays",
+  "Scenic views",
+  "Dining"
+ ],
+ "guide": "sanibel/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Islamorada",
+ "state": "Florida",
+ "airport": "KMTH",
+ "lat": 24.726,
+ "lon": -81.0514,
+ "desc": "The sport-fishing capital of the Keys: oceanfront resorts, tarpon, reef snorkeling and sunsets in the sand.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Stays",
+  "Spa",
+  "Scenic views",
+  "Dining"
+ ],
+ "guide": "islamorada/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Palm Beach",
+ "state": "Florida",
+ "airport": "KLNA",
+ "lat": 26.593,
+ "lon": -80.0851,
+ "desc": "The Breakers, Worth Avenue, Flagler’s Gilded Age mansion and the Lake Trail.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "History",
+  "Spa",
+  "Beach"
+ ],
+ "guide": "palm-beach/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Cedar Key",
+ "state": "Florida",
+ "airport": "KCDK",
+ "lat": 29.1341,
+ "lon": -83.0508,
+ "desc": "A tiny Old Florida island town: a short runway by the water, golf carts, clams, kayaking and sunsets.",
+ "tags": [
+  "Outdoors",
+  "Scenic views",
+  "Dining",
+  "History"
+ ],
+ "guide": "cedar-key/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor"
+ }
+},
+{
+ "name": "Seaside & 30A",
+ "state": "Florida",
+ "airport": "KECP",
+ "lat": 30.3571,
+ "lon": -85.7954,
+ "desc": "Sugar-white beaches, pastel beach towns, coastal dune lakes and a bike path along Scenic Highway 30A.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Outdoors",
+  "Spa",
+  "Scenic views"
+ ],
+ "guide": "30a/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

@@ -398,6 +398,48 @@ PLANS = {
         'extra': [('Morning', 'Drive farther up the North Shore to Tettegouche State Park.'),
                   ('Afternoon', 'The Great Lakes Aquarium.'),
                   ('Evening', 'A sunset harbor cruise.')]},
+    'naples': {
+        'day': [('Arrive', 'Land at KAPF mid-morning and pick up the car.'),
+                ('Midday', 'Lunch on Fifth Avenue South and the beach.'),
+                ('Afternoon', 'The pier, then back to the FBO before afternoon storms.')],
+        'extra': [('Morning', 'Corkscrew Swamp Sanctuary.'),
+                  ('Afternoon', 'A shelling cruise to Keewaydin Island.'),
+                  ('Evening', 'Sunset dinner by the Gulf.')]},
+    'sanibel': {
+        'day': [('Arrive', 'Land at KFMY early and drive to Sanibel.'),
+                ('Midday', '“Ding” Darling and lunch on the island.'),
+                ('Afternoon', 'Shelling, then back across the causeway.')],
+        'extra': [('Morning', 'A kayak trip through the mangroves.'),
+                  ('Afternoon', 'A boat to Cabbage Key for lunch.'),
+                  ('Evening', 'Sunset on Captiva.')]},
+    'islamorada': {
+        'day': [('Arrive', 'Land at KMTH early and drive north.'),
+                ('Midday', 'Tarpon at Robbie’s and lunch on the water.'),
+                ('Afternoon', 'A swim, then back to Marathon.')],
+        'extra': [('Morning', 'A backcountry fishing charter.'),
+                  ('Afternoon', 'A boat to Indian Key Historic State Park.'),
+                  ('Evening', 'Sunset in the sand at Morada Bay.')]},
+    'palm-beach': {
+        'day': [('Arrive', 'Land at KLNA mid-morning and drive to the island.'),
+                ('Midday', 'Lunch at Ta-boó and Worth Avenue.'),
+                ('Afternoon', 'The Flagler Museum, then back to the FBO.')],
+        'extra': [('Morning', 'Polo in Wellington in season.'),
+                  ('Afternoon', 'The Norton Museum of Art.'),
+                  ('Evening', 'Dinner on Clematis Street in West Palm Beach.')]},
+    'cedar-key': {
+        'day': [('Arrive', 'Land at KCDK mid-morning and pick up a golf cart.'),
+                ('Midday', 'Chowder at Tony’s and Dock Street.'),
+                ('Afternoon', 'A short kayak, then fly before afternoon storms.')],
+        'extra': [('Morning', 'A boat tour of the refuge islands.'),
+                  ('Afternoon', 'Bikes around the island.'),
+                  ('Evening', 'Sunset on Dock Street.')]},
+    '30a': {
+        'day': [('Arrive', 'Land at KECP early and pick up the car.'),
+                ('Midday', 'Seaside and lunch at a beach café.'),
+                ('Afternoon', 'A swim, then back to the airport.')],
+        'extra': [('Morning', 'A paddle on a coastal dune lake.'),
+                  ('Afternoon', 'Shops in Rosemary and Alys Beach.'),
+                  ('Evening', 'Sunset at Grayton Beach.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
