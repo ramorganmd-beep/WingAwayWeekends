@@ -181,6 +181,41 @@ PLANS = {
         'extra': [('Morning', 'The Whiteside Mountain loop.'),
                   ('Afternoon', 'A drive to Whitewater Falls, or a spa afternoon at Old Edwards.'),
                   ('Evening', 'Dinner in Cashiers.')]},
+    'st-michaels': {
+        'day': [('Arrive', 'Land at KESN mid-morning and pick up the car.'),
+                ('Midday', 'The Chesapeake Bay Maritime Museum, then crabs at The Crab Claw.'),
+                ('Afternoon', 'A stroll around the St. Michaels harbor, then back to the FBO.')],
+        'extra': [('Morning', 'Bikes and the Oxford–Bellevue Ferry to Oxford.'),
+                  ('Afternoon', 'A sunset sail or a skipjack cruise.'),
+                  ('Evening', 'Dinner at a waterfront restaurant on Tilghman Island.')]},
+    'cape-may': {
+        'day': [('Arrive', 'Land at KWWD mid-morning and walk to the NAS Wildwood Aviation Museum.'),
+                ('Midday', 'A ride into Cape May and lunch at The Lobster House.'),
+                ('Afternoon', 'A walk through the Victorian district, then back to the FBO.')],
+        'extra': [('Morning', 'Birding at Cape May Point State Park and a climb of the lighthouse.'),
+                  ('Afternoon', 'A winery tasting for the non-pilot.'),
+                  ('Evening', 'Dinner and live music at the Blue Pig Tavern.')]},
+    'shenandoah': {
+        'day': [('Arrive', 'Land at KLUA early and pick up the car.'),
+                ('Midday', 'Luray Caverns, then lunch in Luray.'),
+                ('Afternoon', 'A drive up to an overlook on Skyline Drive, then back before afternoon storms.')],
+        'extra': [('Morning', 'Hike to Hawksbill, the park’s highest summit.'),
+                  ('Afternoon', 'Paddle or float the Shenandoah River.'),
+                  ('Evening', 'Stargazing at Big Meadows.')]},
+    'homestead': {
+        'day': [('Arrive', 'Land at KHSP mid-morning, during FBO hours.'),
+                ('Midday', 'A soak at the Warm Springs Pools, booked ahead.'),
+                ('Afternoon', 'Lunch and tea at The Homestead, then back up the mountain to fly home.')],
+        'extra': [('Morning', 'Fly-fishing or sporting clays at the resort.'),
+                  ('Afternoon', 'A drive to Lake Moomaw or Douthat State Park.'),
+                  ('Evening', 'A concert at Garth Newel Music Center.')]},
+    'greenbrier': {
+        'day': [('Arrive', 'Land at KLWB mid-morning and transfer to the resort.'),
+                ('Midday', 'The Bunker tour and lunch at the resort.'),
+                ('Afternoon', 'A walk around the grounds, then back to the FBO.')],
+        'extra': [('Morning', 'A bike ride on the Greenbrier River Trail.'),
+                  ('Afternoon', 'Lost World Caverns, or galleries in Lewisburg.'),
+                  ('Evening', 'Dinner at The French Goat in Lewisburg.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

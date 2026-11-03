@@ -602,5 +602,125 @@ window.WINGAWAY_DESTINATIONS=[
    "alt": "Palm-lined Duval Street in Key West",
    "large": true
   }
+ },
+{
+ "name": "St. Michaels & Easton",
+ "state": "Maryland",
+ "airport": "KESN",
+ "lat": 38.8042,
+ "lon": -76.069,
+ "desc": "Chesapeake harbor towns, a waterfront inn, crab feasts, the Maritime Museum and the little Oxford ferry.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Spa",
+  "History",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "st-michaels/",
+ "stateCode": "MD",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "photo": {
+  "slug": "st-michaels-harbor",
+  "alt": "Illustration of a calm harbor on the Chesapeake Bay"
  }
+},
+{
+ "name": "Cape May",
+ "state": "New Jersey",
+ "airport": "KWWD",
+ "lat": 39.0085,
+ "lon": -74.9083,
+ "desc": "Victorian inns, wide beaches, the lighthouse, wineries and a World War II hangar museum on the field.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "Beach",
+  "History",
+  "Wine",
+  "Spa",
+  "Aviation museums"
+ ],
+ "guide": "cape-may/",
+ "stateCode": "NJ",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Shenandoah & Luray",
+ "state": "Virginia",
+ "airport": "KLUA",
+ "lat": 38.6671,
+ "lon": -78.5006,
+ "desc": "Skyline Drive, Luray Caverns, mountain lodges and short hikes to summit views.",
+ "tags": [
+  "Hiking",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "shenandoah/",
+ "stateCode": "VA",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "photo": {
+  "slug": "shenandoah-ridges",
+  "alt": "Illustration of layered blue mountain ridges"
+ }
+},
+{
+ "name": "The Homestead",
+ "state": "Virginia",
+ "airport": "KHSP",
+ "lat": 37.9514,
+ "lon": -79.8339,
+ "desc": "A historic grand resort, the Warm Springs Pools, mountain golf and a spa in the Alleghenies.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Golf",
+  "History",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "homestead/",
+ "stateCode": "VA",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "photo": {
+  "slug": "homestead-valley",
+  "alt": "Illustration of layered mountain ridges at sunrise"
+ }
+},
+{
+ "name": "The Greenbrier",
+ "state": "West Virginia",
+ "airport": "KLWB",
+ "lat": 37.8579,
+ "lon": -80.4004,
+ "desc": "A legendary resort with a Cold War bunker, mineral baths, golf and nearby Lewisburg.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Golf",
+  "History",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "greenbrier/",
+ "stateCode": "WV",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "photo": {
+  "slug": "greenbrier-valley",
+  "alt": "Illustration of mountain ridges above a valley"
+ }
+}
 ];
