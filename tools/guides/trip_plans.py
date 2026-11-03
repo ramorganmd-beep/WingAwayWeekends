@@ -215,7 +215,7 @@ PLANS = {
                 ('Afternoon', 'A walk around the grounds, then back to the FBO.')],
         'extra': [('Morning', 'A bike ride on the Greenbrier River Trail.'),
                   ('Afternoon', 'Lost World Caverns, or galleries in Lewisburg.'),
-                  ('Evening', 'Dinner at The French Goat in Lewisburg.')]},
+                  ('Evening', 'Dinner at The General Lewis Inn in Lewisburg.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 

@@ -31,29 +31,35 @@ P.append('<section id="stay">' + head('02', 'Where to stay', 'The resort, or a s
     'Rates and availability need travel dates.') +
     '<div class="grid three">' +
     card('White Sulphur Springs · Grand resort', 'The Greenbrier',
-         'A landmark resort with Dorothy Draper’s bold interiors, a mineral spa, golf and dozens of activities. The reason to come.') +
+         'A landmark resort with Dorothy Draper’s bold interiors, a mineral spa, golf and dozens of activities. The reason to come.',
+         'https://www.greenbrier.com/') +
     card('The Greenbrier · More space', 'Greenbrier cottages & estate homes',
          'Cottages and estate homes on the resort grounds, some with porches and fireplaces. Ask the resort when you book.') +
     card('Lewisburg · Historic inn', 'The General Lewis Inn',
-         'A historic inn in downtown Lewisburg, filled with antiques and a short walk to shops and restaurants.') +
+         'A historic inn in downtown Lewisburg, filled with antiques and a short walk to shops and restaurants.',
+         'https://www.generallewisinn.com/') +
     '</div></section>')
 
 P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One very grand.',
     'Reserve resort dinners ahead, and check dress codes.') +
     '<div class="grid three">' +
     card('Friday dinner · Steakhouse', 'Prime 44 West',
-         'The Greenbrier’s steakhouse, named for basketball great Jerry West, with the 44-ounce porterhouse and Cathy Justice’s cornbread.') +
+         'The Greenbrier’s steakhouse, named for basketball great Jerry West, with the 44-ounce porterhouse and Cathy Justice’s cornbread.',
+         'https://www.greenbrier.com/dining/prime-44-west/') +
     card('Saturday dinner · Grand', 'The Main Dining Room',
-         'The Greenbrier’s grand dining room, with live music and more than a century of tradition. Dress for dinner.') +
-    card('Lunch or dinner · Lewisburg', 'The French Goat',
-         'French-inspired cooking in downtown Lewisburg. A good break from the resort.') +
+         'The Greenbrier’s grand dining room, with live music and more than a century of tradition. Dress for dinner.',
+         'https://www.greenbrier.com/dining/main-dining-room/') +
+    card('Lunch or dinner · Lewisburg', 'The General Lewis Inn restaurant',
+         'Classic dining in the historic inn on Lewisburg’s main street. A good break from the resort.',
+         'https://www.generallewisinn.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'A bunker, the baths and a small town.',
     'Choose one big outing a day and leave room for the resort.') +
     '<div class="explore-list">' +
     explore(1, 'The Bunker tour',
-            'A guided tour of the once top-secret Cold War emergency relocation center for Congress, built under the hotel and revealed in 1992. Book ahead; cameras and phones aren’t allowed.') +
+            'A guided tour of the once top-secret Cold War emergency relocation center for Congress, built under the hotel and revealed in 1992. Book ahead; cameras and phones aren’t allowed.',
+            'https://www.greenbrier.com/activities/bunker-tours/', 'Bunker tours') +
     explore(2, 'Golf',
             'Several courses on the grounds, led by The Old White TPC, a classic 1914 design.') +
     explore(3, 'Resort activities',
@@ -65,7 +71,7 @@ P.append('<section id="explore">' + head('04', 'Things to do', 'A bunker, the ba
     '</div>')
 
 P.append('<div id="spa" class="couples"><span class="eyebrow">Optional / Spa & relaxation</span><h3>The Greenbrier spa · Time for two</h3>'
-    '<p>The resort was built around its sulphur springs, and its spa still offers mineral baths, couples treatments and an indoor pool.</p>'
+    '<p>The resort was built around its sulphur springs, and its spa still offers mineral baths, couples treatments and an indoor pool. <a href="https://www.greenbrier.com/spa/" target="_blank" rel="noopener">Spa details</a>.</p>'
     '<p><strong>Booking:</strong> Ask about couples treatments, current pricing and cancellation policy. No prices are shown here, and no appointment has been booked.</p></div></section>')
 
 P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes the season is the reason to fly.',
