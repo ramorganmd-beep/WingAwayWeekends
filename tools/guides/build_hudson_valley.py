@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='hudson-valley', name='Hudson Valley', state='New York', number=37, reviewed=None,
+    slug='hudson-valley', name='Hudson Valley', state='New York', number=37, reviewed='November 3, 2026',
     airport='KPOU', nm=534, flight_time='~3 hr 49 <small>min</small>', style='Rental car',
     place='Hudson Valley, New York',
     description='A curated two-night Hudson Valley getaway for GA pilots and their partners, from KMYR to KPOU. Grand estates, the Culinary Institute, the Old Rhinebeck Aerodrome, art and river views.',

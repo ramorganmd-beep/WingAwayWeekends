@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='stowe', name='Stowe', state='Vermont', number=33, reviewed=None,
+    slug='stowe', name='Stowe', state='Vermont', number=33, reviewed='November 3, 2026',
     airport='KMVL', nm=714, flight_time='~5 hr 1 <small>min</small>', style='Car needed',
     place='Stowe, Vermont',
     description='A curated two-night Stowe getaway for GA pilots and their partners, from KMYR to KMVL. A New England village below Mount Mansfield, mountain resorts, fall color, cider and craft beer.',

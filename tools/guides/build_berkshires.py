@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='berkshires', name='The Berkshires', state='Massachusetts', number=41, reviewed=None,
+    slug='berkshires', name='The Berkshires', state='Massachusetts', number=41, reviewed='November 3, 2026',
     airport='KPSF', nm=589, flight_time='~4 hr 11 <small>min</small>', style='Rental car',
     place='The Berkshires, Massachusetts',
     description='A curated two-night Berkshires getaway for GA pilots and their partners, from KMYR to KPSF. Tanglewood concerts, the Norman Rockwell Museum, grand estates, art museums and country inns.',

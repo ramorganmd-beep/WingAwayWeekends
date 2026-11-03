@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='bar-harbor', name='Bar Harbor & Acadia', state='Maine', number=32, reviewed=None,
+    slug='bar-harbor', name='Bar Harbor & Acadia', state='Maine', number=32, reviewed='November 3, 2026',
     airport='KBHB', nm=811, flight_time='~5 hr 40 <small>min</small>', style='Rental car or shuttle',
     place='Bar Harbor & Acadia, Maine',
     description='A curated two-night Bar Harbor and Acadia National Park getaway for GA pilots and their partners, from KMYR to KBHB. Granite coast, Cadillac Mountain, carriage roads, lobster and popovers.',

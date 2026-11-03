@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lake-placid', name='Lake Placid', state='New York', number=42, reviewed=None,
+    slug='lake-placid', name='Lake Placid', state='New York', number=42, reviewed='November 3, 2026',
     airport='KLKP', nm=676, flight_time='~4 hr 46 <small>min</small>', style='Walks + a car',
     place='Lake Placid, New York',
     description='A curated two-night Lake Placid getaway for GA pilots and their partners, from KMYR to KLKP. Two-time Olympic village, Adirondack lakes and peaks, lakeside resorts and spas, and mountain hikes.',

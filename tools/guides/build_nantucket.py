@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='nantucket', name='Nantucket', state='Massachusetts', number=31, reviewed=None,
+    slug='nantucket', name='Nantucket', state='Massachusetts', number=31, reviewed='November 3, 2026',
     airport='KACK', nm=620, flight_time='~4 hr 24 <small>min</small>', style='Bikes + shuttles',
     place='Nantucket, Massachusetts',
     description='A curated two-night Nantucket getaway for GA pilots and their partners, from KMYR to KACK. Cobblestone streets, lighthouses, beaches, bikes and island dinners, 30 miles out to sea.',
