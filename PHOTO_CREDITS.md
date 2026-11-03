@@ -373,3 +373,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.nps.gov/npgallery/AssetDetail/3aa6d99e-1dd8-b71b-0bd3-2c091370f328
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bardstown & Bourbon Country
+
+- Photo by JP on Unsplash — https://unsplash.com/photos/several-bottles-of-woodford-reserve-whiskey-czEs4tdGLps
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: No location tag; Kentucky bourbon (Woodford Reserve) bottles, owner's choice

@@ -1013,10 +1013,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": false,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "bardstown", "remote": "https://images.unsplash.com/photo-1774404007125-558b66ab778e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNzI4fA&ixlib=rb-4.1.0", "alt": "Bottles of Kentucky bourbon glowing amber in the sun", "pos": "50% 50%"}
 },
 {
  "name": "Dayton",
