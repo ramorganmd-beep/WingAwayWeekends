@@ -287,3 +287,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
   - Door County WI (`door-county`, KSUE): Tailwind Flight Center, 3538 Park Drive, Sturgeon Bay, WI 54235, 920-746-2581. White Gull Inn, Eagle Harbor Inn, Whistling Swan; White Gull fish boil, Wild Tomato, Al Johnson's.
 - Batch 2 planned: Lexington KY, Put-in-Bay OH, Traverse City MI, Chicago IL, Lake Geneva WI, Oshkosh & EAA WI.
 - Newport photo now Unsplash -zle9Sv7QQo (tall ship, Nancy McClure; replaces The Breakers). Bar Harbor photo Unsplash hTig1fjrMe8 (docks, Bob Shea); Bar Harbor published. Photo options for Northeast batch 2 + Midwest batch 1 on /photo-options/ (scratchpad photo_round3.json); verify location via /photos/:id before applying. Stowe 3 (Commons church) still waiting on Wikimedia.
+- Stowe photo: Commons "Stowe VT Community Church (51626887231).jpg" (Shiva Shenoy, CC BY 2.0) as stowe-church; Stowe published.
