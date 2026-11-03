@@ -1149,5 +1149,88 @@
     "sha256": "47e56b2f15251d504a6332d14393e54d9cf099519d3e8c831d204dfabd578d68"
    }
   ]
+ },
+ {
+  "destination": "Nantucket",
+  "title": "Brant Point Lighthouse at sunrise",
+  "photographer": "Keenan Shepard",
+  "source_page_url": "https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-body-of-water-rc3k-IMqNtk",
+  "original_image_url": "https://images.unsplash.com/photo-1654615348054-b54ee8ff158d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM1NzQ4fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Brant Point Lighthouse at sunrise, with an American flag, reflected in Nantucket Harbor",
+  "date_taken": null,
+  "files": [],
+  "location": "Brant Point, Nantucket (visually identified; geotag Nantucket Sound, MA)"
+ },
+ {
+  "destination": "Newport",
+  "title": "The Breakers from the Southwest.jpg",
+  "photographer": "CopperDoodle",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:The_Breakers_from_the_Southwest.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4c/The_Breakers_from_the_Southwest.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4032,
+   "height": 3024
+  },
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Breakers, the Vanderbilts’ 1895 Italian Renaissance mansion in Newport, Rhode Island",
+  "files": [
+   {
+    "path": "dist/assets/destinations/newport-breakers-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 49908,
+    "sha256": "a172e3c06e6e1d9b5d353f28bc2b077a4f2503246fabfb799d813a9ab8144af5"
+   },
+   {
+    "path": "dist/assets/destinations/newport-breakers-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57980,
+    "sha256": "8e3a95bec5798e0141ff599d6e20481299ebf60b44ed84dd2a8b3890db6d3773"
+   },
+   {
+    "path": "dist/assets/destinations/newport-breakers-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 184188,
+    "sha256": "c883b94b09bb6fc8ed3d824928f99385c8ea3bdc0a1ae28febd897e66fdd55c7"
+   },
+   {
+    "path": "dist/assets/destinations/newport-breakers-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 221791,
+    "sha256": "238dab6dd12e58a57e55c59a89d1f2bdb9682703368849abf4a4bd8404010478"
+   }
+  ]
+ },
+ {
+  "destination": "Gettysburg",
+  "title": "A cannon on the battlefield",
+  "photographer": "John Kostyk",
+  "source_page_url": "https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM",
+  "original_image_url": "https://images.unsplash.com/photo-1650732227442-f86610a15d8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDAyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A Civil War cannon on the grassy battlefield at Gettysburg National Military Park",
+  "date_taken": null,
+  "files": [],
+  "location": "Gettysburg National Military Park Museum and Visitor Center, PA (geotag)"
  }
 ]
