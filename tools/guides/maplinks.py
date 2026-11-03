@@ -22,6 +22,7 @@ TOWN = {
     'gulf-shores': 'Gulf Shores, AL', 'chattanooga': 'Chattanooga, TN', 'smoky-mountains': 'Gatlinburg, TN',
     'lake-lure': 'Lake Lure, NC', 'lake-keowee': 'Seneca, SC', 'lake-lanier': 'Gainesville, GA',
     'harpers-ferry': 'Harpers Ferry, WV',
+    'hilton-head': 'Hilton Head Island, SC', 'highlands-cashiers': 'Highlands, NC',
 }
 # Full search text where the name plus the guide's town would be ambiguous or wrong.
 QUERY = {
@@ -53,6 +54,10 @@ QUERY = {
     'The Bavarian Inn': 'Bavarian Inn, Shepherdstown, WV',
     'Redbook at Hillbrook Inn': 'Hillbrook Inn, Charles Town, WV',
     'Hillbrook Inn': 'Hillbrook Inn, Charles Town, WV',
+    'Hotel Cashiers': 'Hotel Cashiers, Cashiers, NC',
+    'The Orchard': 'The Orchard, Cashiers, NC',
+    'High Hampton': 'High Hampton, Cashiers, NC',
+    'CQ’s Restaurant': 'CQ’s Restaurant, Harbour Town, Hilton Head Island, SC',
     'Snallygasters Cafe & Wine Bar': 'Snallygasters, Harpers Ferry, WV',
     'Grassy Creek Klondike Cabins': 'Grassy Creek Vineyard & Winery, State Road, NC',
     'The Inn at Little Washington': 'The Inn at Little Washington, Washington, VA',

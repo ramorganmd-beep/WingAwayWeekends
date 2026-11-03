@@ -131,6 +131,13 @@ LUXURY = {
         ('Country inn · Charles Town', 'Hillbrook Inn',
          'A romantic country inn and spa outside Charles Town, about 20 minutes away, home to the Redbook restaurant. The area’s splurge.',
          'https://www.hillbrookinn.com/')],
+    'hilton-head': [
+        ('Ultra-luxury · About 40 minutes', 'Montage Palmetto Bluff',
+         'A destination resort on the May River near Bluffton, with a spa, golf and riverside cottages. A splurge worth the drive.',
+         'https://www.montage.com/palmettobluff/')],
+    'highlands-cashiers': [
+        ('Mountain resort · Cashiers', 'High Hampton',
+         'A historic mountain resort on its own lake near Cashiers, with golf, hiking and a classic lodge.')],
 }
 
 ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)

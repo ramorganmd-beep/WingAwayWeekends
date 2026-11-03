@@ -148,5 +148,31 @@
     "h": 720,
     "caption": "The view from Jefferson Rock",
     "credit_html": "View from Jefferson Rock, National Park Service (Harpers Ferry National Historical Park), <a href=\"https://www.nps.gov/media/photo/view.htm?id=292273c6-1dd8-b71c-070a-31508b250a96\">NPS photo gallery</a>. Public domain. Cropped and resized for display."
+  },
+  "hilton-head": {
+    "slug": "hilton-head-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Hilton Head’s beaches (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "highlands-cashiers": {
+    "slug": "highlands-plateau",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a mountain lake below forested ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "The Blue Ridge plateau (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

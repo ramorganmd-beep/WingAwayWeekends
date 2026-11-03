@@ -167,6 +167,20 @@ PLANS = {
         'extra': [('Morning', 'A bike ride on the C&O Canal towpath.'),
                   ('Afternoon', 'Antietam National Battlefield, or tubing on the river in summer.'),
                   ('Evening', 'Dinner and a stroll in Shepherdstown.')]},
+    'hilton-head': {
+        'day': [('Arrive', 'Land at KHXD mid-morning and ride to the beach.'),
+                ('Midday', 'Rent bikes and ride the beach at low tide, then lunch near Coligny.'),
+                ('Afternoon', 'Harbour Town and the lighthouse, then back to the FBO.')],
+        'extra': [('Morning', 'A round at Harbour Town Golf Links or another island course.'),
+                  ('Afternoon', 'The ferry to Daufuskie Island for lunch and a golf-cart ramble.'),
+                  ('Evening', 'Late-night jazz at The Jazz Corner.')]},
+    'highlands-cashiers': {
+        'day': [('Arrive', 'Land at K1A5 early and pick up the car.'),
+                ('Midday', 'Dry Falls and Bridal Veil Falls on the drive up, then lunch in Highlands.'),
+                ('Afternoon', 'Sunset Rock or a stroll on Main Street, then down the mountain before dark.')],
+        'extra': [('Morning', 'The Whiteside Mountain loop.'),
+                  ('Afternoon', 'A drive to Whitewater Falls, or a spa afternoon at Old Edwards.'),
+                  ('Evening', 'Dinner in Cashiers.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
