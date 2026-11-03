@@ -291,3 +291,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Bob Shea on Unsplash — https://unsplash.com/photos/several-boats-beside-dock-hTig1fjrMe8
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Bar Harbor, ME (geotag)
+
+## Stowe
+
+- Title: Stowe VT Community Church (51626887231).jpg
+- Photographer: Shiva Shenoy from Flower Mound, United States
+- Source: https://commons.wikimedia.org/wiki/File:Stowe_VT_Community_Church_(51626887231).jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

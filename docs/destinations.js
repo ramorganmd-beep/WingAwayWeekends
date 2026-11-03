@@ -789,11 +789,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VT",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "stowe-church", "alt": "The white steeple of the Stowe Community Church against hills of fall color in Stowe, Vermont"}
 },
 {
  "name": "Saratoga Springs",

@@ -277,17 +277,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@shearobe?utm_source=wingaway_weekends&utm_medium=referral\">Bob Shea</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/several-boats-beside-dock-hTig1fjrMe8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "stowe": {
-    "slug": "shenandoah-ridges",
+    "slug": "stowe-church",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "The white steeple of the Stowe Community Church against hills of fall color in Stowe, Vermont",
     "w": 960,
     "h": 720,
-    "caption": "The Green Mountains (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Stowe’s church steeple in fall",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Stowe_VT_Community_Church_(51626887231).jpg\">Stowe VT Community Church (51626887231).jpg</a> — Shiva Shenoy from Flower Mound, United States · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>. Cropped to 4:3 and resized."
   },
   "saratoga": {
     "slug": "saratoga-race-course-1905",

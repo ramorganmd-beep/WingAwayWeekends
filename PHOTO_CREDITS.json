@@ -1266,5 +1266,54 @@
   "date_taken": null,
   "files": [],
   "location": "Bar Harbor, ME (geotag)"
+ },
+ {
+  "destination": "Stowe",
+  "title": "Stowe VT Community Church (51626887231).jpg",
+  "photographer": "Shiva Shenoy from Flower Mound, United States",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Stowe_VT_Community_Church_(51626887231).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/53/Stowe_VT_Community_Church_%2851626887231%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5761,
+   "height": 3833
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The white steeple of the Stowe Community Church against hills of fall color in Stowe, Vermont",
+  "files": [
+   {
+    "path": "dist/assets/destinations/stowe-church-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 65708,
+    "sha256": "e076250cc327198569b56201eddf3b6815f8e7303598e0b9fe0543c67e517254"
+   },
+   {
+    "path": "dist/assets/destinations/stowe-church-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 68311,
+    "sha256": "ee7677a7f6f4a8f23310476d587784509d582a23f104fc375d93e3e8f52acfc1"
+   },
+   {
+    "path": "dist/assets/destinations/stowe-church-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 288092,
+    "sha256": "c80d2aaedf233b1689246465bc8ff6028e0b04640e6fa13563bc3cc3e07b6c87"
+   },
+   {
+    "path": "dist/assets/destinations/stowe-church-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 295271,
+    "sha256": "21b168be386d2f3f6a857aea4aa7930ac342e8085eade377852064d9a549c35e"
+   }
+  ]
  }
 ]
