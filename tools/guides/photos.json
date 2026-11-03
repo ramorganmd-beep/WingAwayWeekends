@@ -314,17 +314,17 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@jkostyk?utm_source=wingaway_weekends&utm_medium=referral\">John Kostyk</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lancaster": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1713961271104-47c5f60df986?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "The red Poole Forge Covered Bridge over a stream in Lancaster County",
     "w": 960,
     "h": 720,
-    "caption": "Lancaster & Amish Country (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Poole Forge Covered Bridge",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@cranesp?utm_source=wingaway_weekends&utm_medium=referral\">Stephen Crane</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-red-covered-bridge-over-a-small-stream-fasLRq-9DgQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "hudson-valley": {
     "slug": "shenandoah-ridges",
@@ -340,82 +340,82 @@
     "placeholder": true
   },
   "mystic": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1706043903343-8f3765f0fc80?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "A beluga whale swimming at Mystic Aquarium in Mystic, Connecticut",
     "w": 960,
     "h": 720,
-    "caption": "Mystic (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A beluga at Mystic Aquarium",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@carolhighsmith?utm_source=wingaway_weekends&utm_medium=referral\">Carol Highsmith's America</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/beluga-whale-in-mystic-aquarium-mystic-connecticut-oAo-lMp1EMI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "portsmouth": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1635531135008-b53d954e3e23?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDAwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "Small boats filling Portsmouth harbor",
     "w": 960,
     "h": 720,
-    "caption": "Portsmouth (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Portsmouth harbor",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@cmiller734?utm_source=wingaway_weekends&utm_medium=referral\">Peregrine Photography</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-harbor-filled-with-lots-of-small-boats-4iczFWkAcps?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "kennebunkport": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1659320933767-fd2f38406b26?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Boats tied up at a pier in Kennebunkport harbor",
     "w": 960,
     "h": 720,
-    "caption": "Kennebunkport (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Boats in Kennebunkport",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@tjerwin?utm_source=wingaway_weekends&utm_medium=referral\">Trent Erwin</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-boat-docked-at-a-pier-wzHLQbwQ7Zs?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "berkshires": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1634745253423-70edec82027a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "A white farmhouse surrounded by fall foliage in the Berkshires",
     "w": 960,
     "h": 720,
-    "caption": "The Berkshires (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fall in the Berkshires",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nikavalanche?utm_source=wingaway_weekends&utm_medium=referral\">Nikunj Singh</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-white-house-surrounded-by-trees-and-leaves-qdHc83bRbfQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-placid": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1723724728568-d459aa85b221?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "Snow-capped Whiteface Mountain reflected in still water near Lake Placid",
     "w": 960,
     "h": 720,
-    "caption": "Lake Placid (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Whiteface Mountain in November",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@virgiliodecarvalho?utm_source=wingaway_weekends&utm_medium=referral\">Virgilio de Carvalho</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-snow-covered-mountain-is-reflected-in-the-water-Xe7sSAj2BpI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "marthas-vineyard": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1586150055793-99d0c29898ed?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Colorful gingerbread-style Victorian cottages in Oak Bluffs on Martha’s Vineyard",
     "w": 960,
     "h": 720,
-    "caption": "Martha’s Vineyard (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Oak Bluffs gingerbread cottages",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@octoberroses?utm_source=wingaway_weekends&utm_medium=referral\">Aubrey Odom</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-brown-concrete-house-TfyYaL5Fy-A?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bardstown": {
     "slug": "shenandoah-ridges",
@@ -444,55 +444,55 @@
     "placeholder": true
   },
   "mackinac": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1561171466-40b5550db7b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzkzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "Blue flowers in the Grand Hotel’s secret garden on Mackinac Island",
     "w": 960,
     "h": 720,
-    "caption": "Mackinac Island (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Grand Hotel gardens",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=wingaway_weekends&utm_medium=referral\">Aaron Burden</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/blue-flowers-in-a-field-during-daytime-aVj4RKjMSUU?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "french-lick": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1650343831859-5b0343e094f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDI5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "The vast domed atrium of West Baden Springs Hotel, with palms and balconies around the courtyard",
     "w": 960,
     "h": 720,
-    "caption": "French Lick (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The West Baden Springs dome",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@bobriggs?utm_source=wingaway_weekends&utm_medium=referral\">Bob Riggs</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-building-with-a-domed-ceiling-and-many-windows-0ZWiGxgQNo0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "galena": {
-    "slug": "shenandoah-ridges",
+    "slug": "https://images.unsplash.com/photo-1648877794682-c848b0064d6d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "Galena’s historic brick Main Street with shops and a red awning",
     "w": 960,
     "h": 720,
-    "caption": "Galena (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Main Street, Galena",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@kerenroeglin?utm_source=wingaway_weekends&utm_medium=referral\">Keren Roeglin</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-street-scene-with-a-red-tent-in-the-middle-of-the-street-MuyDeO-JPTk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "door-county": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1630283922235-a97c7bef05f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "A weathered driftwood log on a Lake Michigan beach in Door County at sunrise",
     "w": 960,
     "h": 720,
-    "caption": "Door County (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Morning on a Door County beach",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@iamthedave?utm_source=wingaway_weekends&utm_medium=referral\">Dave Hoefler</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/gray-tree-trunk-on-gray-sand-near-body-of-water-during-sunset-fw_8aPCdG_A?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
