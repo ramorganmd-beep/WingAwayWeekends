@@ -313,5 +313,109 @@
     "caption": "A cannon on the battlefield",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@jkostyk?utm_source=wingaway_weekends&utm_medium=referral\">John Kostyk</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "lancaster": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Lancaster & Amish Country (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "hudson-valley": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Hudson Valley (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "mystic": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Mystic (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "portsmouth": {
+    "slug": "st-michaels-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a calm harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Portsmouth (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "kennebunkport": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Kennebunkport (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "berkshires": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "The Berkshires (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lake-placid": {
+    "slug": "shenandoah-ridges",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of layered blue mountain ridges",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake Placid (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "marthas-vineyard": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Martha’s Vineyard (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

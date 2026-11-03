@@ -258,6 +258,62 @@ PLANS = {
         'extra': [('Morning', 'Eisenhower National Historic Site.'),
                   ('Afternoon', 'Adams County orchards and a winery for the non-pilot.'),
                   ('Evening', 'A ghost tour downtown.')]},
+    'lancaster': {
+        'day': [('Arrive', 'Land at KLNS mid-morning and pick up the car.'),
+                ('Midday', 'Lunch at Central Market (Tue, Fri or Sat), then the Strasburg Rail Road.'),
+                ('Afternoon', 'A back-roads drive past Amish farms, then back to the FBO.')],
+        'extra': [('Morning', 'Sight & Sound Theatres for a big Biblical stage show.'),
+                  ('Afternoon', 'Wineries and the chocolate shops of Lititz.'),
+                  ('Evening', 'Dinner in a Lancaster city brewpub.')]},
+    'hudson-valley': {
+        'day': [('Arrive', 'Land at KPOU early and pick up the car.'),
+                ('Midday', 'FDR’s home and lunch at the Culinary Institute.'),
+                ('Afternoon', 'The Walkway Over the Hudson, then back to the FBO.')],
+        'extra': [('Morning', 'Storm King Art Center.'),
+                  ('Afternoon', 'Dia Beacon and a walk along Beacon’s Main Street.'),
+                  ('Evening', 'Dinner in Kingston’s historic Stockade District.')]},
+    'mystic': {
+        'day': [('Arrive', 'Land at KGON mid-morning and pick up the car.'),
+                ('Midday', 'Mystic Seaport Museum.'),
+                ('Afternoon', 'A lobster roll in Noank, then back to the FBO.')],
+        'extra': [('Morning', 'Mystic Aquarium.'),
+                  ('Afternoon', 'A sail on the river or Fishers Island Sound.'),
+                  ('Evening', 'Dinner in Stonington Borough.')]},
+    'portsmouth': {
+        'day': [('Arrive', 'Land at KPSM mid-morning and ride downtown.'),
+                ('Midday', 'Strawbery Banke and lunch on the harbor.'),
+                ('Afternoon', 'Market Square and Prescott Park, then back to the FBO.')],
+        'extra': [('Morning', 'A cruise to the Isles of Shoals.'),
+                  ('Afternoon', 'The coast road to Rye and Odiorne Point.'),
+                  ('Evening', 'Dinner and the spa at Wentworth by the Sea.')]},
+    'kennebunkport': {
+        'day': [('Arrive', 'Land at KSFM mid-morning and pick up the car.'),
+                ('Midday', 'Dock Square and a lobster roll at The Clam Shack.'),
+                ('Afternoon', 'Ocean Avenue past Walker’s Point, then back to the FBO.')],
+        'extra': [('Morning', 'Nubble Light and the beaches of York.'),
+                  ('Afternoon', 'Ogunquit and the Marginal Way cliff walk.'),
+                  ('Evening', 'A sunset harbor cruise.')]},
+    'berkshires': {
+        'day': [('Arrive', 'Land at KPSF mid-morning and pick up the car.'),
+                ('Midday', 'The Norman Rockwell Museum and lunch in Stockbridge.'),
+                ('Afternoon', 'The Mount, then back to the FBO.')],
+        'extra': [('Morning', 'The Clark in Williamstown.'),
+                  ('Afternoon', 'MASS MoCA in North Adams.'),
+                  ('Evening', 'A summer evening at Jacob’s Pillow dance festival.')]},
+    'lake-placid': {
+        'day': [('Arrive', 'Land at KLKP mid-morning.'),
+                ('Midday', 'The Olympic Center and lunch on Main Street.'),
+                ('Afternoon', 'A walk around Mirror Lake, then back to the airport before afternoon mountain weather.')],
+        'extra': [('Morning', 'A hike up Mount Jo or Cascade Mountain.'),
+                  ('Afternoon', 'A boat tour on Lake Placid.'),
+                  ('Evening', 'A spa evening by the fire.')]},
+    'marthas-vineyard': {
+        'day': [('Arrive', 'Land at KMVY early and ride to Edgartown.'),
+                ('Midday', 'Lunch in Edgartown and a walk to the lighthouse.'),
+                ('Afternoon', 'Oak Bluffs’ cottages, then back to the airport before evening fog.')],
+        'extra': [('Morning', 'A bike ride to South Beach.'),
+                  ('Afternoon', 'The Aquinnah Cliffs.'),
+                  ('Evening', 'Sunset at Menemsha.')]},
 }
 STYLE_RE = re.compile(r'<span>WEEKEND STYLE</span><strong(?: data-style data-transport="[^"]*")?>Two nights <small>· ([^<]+)</small></strong>')
 
