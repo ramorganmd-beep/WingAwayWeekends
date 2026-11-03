@@ -729,10 +729,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "newport-breakers", "alt": "The Breakers, the Vanderbilts’ 1895 Italian Renaissance mansion in Newport, Rhode Island"}
 },
 {
  "name": "Nantucket",
@@ -754,10 +751,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "nantucket", "remote": "https://images.unsplash.com/photo-1654615348054-b54ee8ff158d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM1NzQ4fA&ixlib=rb-4.1.0", "alt": "Brant Point Lighthouse at sunrise, with an American flag, reflected in Nantucket Harbor", "pos": "35% 50%"}
 },
 {
  "name": "Bar Harbor & Acadia",
@@ -849,9 +843,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of rolling ridges"
- }
+ "photo": {"slug": "gettysburg", "remote": "https://images.unsplash.com/photo-1650732227442-f86610a15d8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzM2MDAyfA&ixlib=rb-4.1.0", "alt": "A Civil War cannon on the grassy battlefield at Gettysburg National Military Park", "pos": "50% 50%"}
 }
 ];

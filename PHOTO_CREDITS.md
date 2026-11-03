@@ -259,3 +259,23 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Hooper_Strait_Light,_St._Michaels,_Maryland.jpg
 - License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
 - Changes: center-cropped to 4:3, resized, converted to WebP/JPEG
+
+## Nantucket
+
+- Photo by Keenan Shepard on Unsplash — https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-body-of-water-rc3k-IMqNtk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Brant Point Lighthouse (visually identified; geotag Nantucket Sound, MA)
+
+## Newport
+
+- Title: The Breakers from the Southwest.jpg
+- Photographer: CopperDoodle
+- Source: https://commons.wikimedia.org/wiki/File:The_Breakers_from_the_Southwest.jpg
+- License: CC0 — http://creativecommons.org/publicdomain/zero/1.0/deed.en
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Gettysburg
+
+- Photo by John Kostyk on Unsplash — https://unsplash.com/photos/a-cannon-on-a-grassy-field-MwFLo2tBoeM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Gettysburg National Military Park Museum and Visitor Center, PA (geotag)
