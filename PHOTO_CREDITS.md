@@ -385,3 +385,57 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Danny Nanni on Unsplash — https://unsplash.com/photos/bridge-over-river-surrounded-by-trees--2647u9DW_I
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Bear Mountain Bridge, Hudson Highlands, NY (visually identified; no geotag)
+
+## Lake of the Ozarks
+
+- Photo by Jayden Herr on Unsplash — https://unsplash.com/photos/a-body-of-water-with-a-bunch-of-boats-in-it-QGJRShLXxSM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lake of the Ozarks, MO (geotag)
+
+## Hot Springs
+
+- Photo by Reddic Rau on Unsplash — https://unsplash.com/photos/an-aerial-view-of-a-city-with-lots-of-trees-aEche9NkwIY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Hot Springs, AR (geotag)
+
+## Bentonville & Crystal Bridges
+
+- Photo by Far Chinberdiev on Unsplash — https://unsplash.com/photos/modern-building-with-a-curved-roof-over-water-6pjblVkUtME
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Crystal Bridges Museum, Bentonville, AR (geotag)
+
+## Duluth & the North Shore
+
+- Photo by Andrew Ling on Unsplash — https://unsplash.com/photos/high-angle-photo-of-forest--8_P8KwKDlM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Duluth, MN (geotag)
+
+## Naples
+
+- Photo by Bailey Rapp on Unsplash — https://unsplash.com/photos/silhouette-of-dock-during-golden-hour-4gvvyrGvJFA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Naples, FL (geotag and caption)
+
+## Sanibel & Captiva
+
+- Photo by Erin Caher on Unsplash — https://unsplash.com/photos/white-and-brown-seashells-on-white-snow-iKBWyg2VD2k
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Sanibel Island, FL (geotag)
+
+## Palm Beach
+
+- Photo by Richard Sagredo on Unsplash — https://unsplash.com/photos/panning-photo-of-water-fountain-ePzGHBICT7U
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Clematis Street, West Palm Beach, FL (geotag)
+
+## Cedar Key
+
+- Photo by Robin Canfield on Unsplash — https://unsplash.com/photos/flock-of-pelicans-on-gray-rock-near-body-of-water-during-daytime-7SR9yvZ0MeQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Cedar Key, FL (geotag)
+
+## Seaside & 30A
+
+- Photo by Peggy Paulson on Unsplash — https://unsplash.com/photos/a-boat-on-the-beach-mql2L8pRfTE
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Seaside, FL (geotag)
