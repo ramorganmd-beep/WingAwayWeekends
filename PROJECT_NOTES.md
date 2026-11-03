@@ -286,3 +286,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
   - Galena IL (`galena`, KDBQ in Iowa, ~30 min): Dubuque Jet Center, 11000 Airport Road, Dubuque, IA 52003, 563-589-4136. DeSoto House, Eagle Ridge; Fritz & Frites, One Eleven Main.
   - Door County WI (`door-county`, KSUE): Tailwind Flight Center, 3538 Park Drive, Sturgeon Bay, WI 54235, 920-746-2581. White Gull Inn, Eagle Harbor Inn, Whistling Swan; White Gull fish boil, Wild Tomato, Al Johnson's.
 - Batch 2 planned: Lexington KY, Put-in-Bay OH, Traverse City MI, Chicago IL, Lake Geneva WI, Oshkosh & EAA WI.
+- Newport photo now Unsplash -zle9Sv7QQo (tall ship, Nancy McClure; replaces The Breakers). Bar Harbor photo Unsplash hTig1fjrMe8 (docks, Bob Shea); Bar Harbor published. Photo options for Northeast batch 2 + Midwest batch 1 on /photo-options/ (scratchpad photo_round3.json); verify location via /photos/:id before applying. Stowe 3 (Commons church) still waiting on Wikimedia.
