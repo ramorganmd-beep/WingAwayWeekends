@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='naples', name='Naples', state='Florida', number=56, reviewed=None,
+    slug='naples', name='Naples', state='Florida', number=56, reviewed='November 3, 2026',
     airport='KAPF', nm=476, flight_time='~3 hr 26 <small>min</small>', style='Rental car + walks',
     place='Naples, Florida',
     description='A curated two-night Naples getaway for GA pilots and their partners, from KMYR to KAPF. Gulf beaches, sunset at the pier, Fifth Avenue dining, botanical gardens and a wild swamp sanctuary.',

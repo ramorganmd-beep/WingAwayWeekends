@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='sanibel', name='Sanibel & Captiva', state='Florida', number=57, reviewed=None,
+    slug='sanibel', name='Sanibel & Captiva', state='Florida', number=57, reviewed='November 3, 2026',
     airport='KFMY', nm=452, flight_time='~3 hr 16 <small>min</small>', style='Rental car + bikes',
     place='Sanibel & Captiva, Florida',
     description='A curated two-night Sanibel and Captiva getaway for GA pilots and their partners, from KMYR to KFMY. Shell-covered beaches, a wildlife refuge, bike paths, island restaurants and Captiva sunsets.',

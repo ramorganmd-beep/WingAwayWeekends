@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='islamorada', name='Islamorada', state='Florida', number=58, reviewed=None,
+    slug='islamorada', name='Islamorada', state='Florida', number=58, reviewed='November 3, 2026',
     airport='KMTH', nm=549, flight_time='~3 hr 55 <small>min</small>', style='Rental car',
     place='Islamorada, Florida Keys',
     description='A curated two-night Islamorada getaway for GA pilots and their partners, from KMYR to KMTH. The sport-fishing capital of the world: oceanfront resorts, tarpon at Robbie’s, reef snorkeling and sunset dinners in the sand.',

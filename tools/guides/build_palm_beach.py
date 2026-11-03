@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='palm-beach', name='Palm Beach', state='Florida', number=59, reviewed=None,
+    slug='palm-beach', name='Palm Beach', state='Florida', number=59, reviewed='November 3, 2026',
     airport='KLNA', nm=430, flight_time='~3 hr 7 <small>min</small>', style='Rental car + bikes',
     place='Palm Beach, Florida',
     description='A curated two-night Palm Beach getaway for GA pilots and their partners, from KMYR to KLNA. A legendary oceanfront resort, Worth Avenue, Henry Flagler’s mansion, the Lake Trail and elegant dinners.',

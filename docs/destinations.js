@@ -1261,7 +1261,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "naples", "remote": "https://images.unsplash.com/photo-1530626599274-7002948a2810?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk4fA&ixlib=rb-4.1.0", "alt": "The silhouette of a dock on the Gulf at golden hour in Naples, Florida", "pos": "50% 50%"}
 },
 {
@@ -1282,7 +1281,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "sanibel", "remote": "https://images.unsplash.com/photo-1629081427859-8ee84b7a1cc9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE4fA&ixlib=rb-4.1.0", "alt": "Seashells on the white sand of a Sanibel Island beach", "pos": "50% 50%"}
 },
 {
@@ -1304,7 +1302,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "islamorada", "remote": "https://images.unsplash.com/photo-1520520731457-9283dd14aa66?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzM3fA&ixlib=rb-4.1.0", "alt": "A quiet beach under palms in Islamorada, in the Florida Keys", "pos": "50% 50%"}
 },
 {
@@ -1325,7 +1322,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "palm-beach", "remote": "https://images.unsplash.com/photo-1576124908098-b386317d160f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0", "alt": "The fountain on Clematis Street in West Palm Beach", "pos": "50% 50%"}
 },
 {
@@ -1345,7 +1341,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "cedar-key", "remote": "https://images.unsplash.com/photo-1589821884858-898ff366e14e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE5fA&ixlib=rb-4.1.0", "alt": "A flock of pelicans on the rocks by the water at Cedar Key", "pos": "50% 50%"}
 },
 {
@@ -1367,7 +1362,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
  "photo": {"slug": "30a", "remote": "https://images.unsplash.com/photo-1664476952496-6c0a0246edaa?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzAxfA&ixlib=rb-4.1.0", "alt": "A paddleboard on the beach at sunset in Seaside, Florida", "pos": "50% 50%"}
 },
 {
