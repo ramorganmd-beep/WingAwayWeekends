@@ -1012,7 +1012,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": false,
- "draft": true,
  "photo": {"slug": "bardstown", "remote": "https://images.unsplash.com/photo-1774404007125-558b66ab778e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNzI4fA&ixlib=rb-4.1.0", "alt": "Bottles of Kentucky bourbon glowing amber in the sun", "pos": "50% 50%"}
 },
 {
@@ -1032,7 +1031,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OH",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "dayton-wright-b-flyer", "alt": "A Wright B Flyer biplane in the air over Huffman Prairie Flying Field in Dayton, about 1910"}
 },
 {
@@ -1054,7 +1052,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "mackinac", "remote": "https://images.unsplash.com/photo-1561171466-40b5550db7b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzkzfA&ixlib=rb-4.1.0", "alt": "Blue flowers in the Grand Hotel’s secret garden on Mackinac Island", "pos": "50% 50%"}
 },
 {
@@ -1075,7 +1072,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IN",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "french-lick", "remote": "https://images.unsplash.com/photo-1650343831859-5b0343e094f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxNDI5fA&ixlib=rb-4.1.0", "alt": "The vast domed atrium of West Baden Springs Hotel, with palms and balconies around the courtyard", "pos": "50% 45%"}
 },
 {
@@ -1097,7 +1093,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IL",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "galena", "remote": "https://images.unsplash.com/photo-1648877794682-c848b0064d6d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk1fA&ixlib=rb-4.1.0", "alt": "Galena’s historic brick Main Street with shops and a red awning", "pos": "50% 50%"}
 },
 {
@@ -1119,7 +1114,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "door-county", "remote": "https://images.unsplash.com/photo-1630283922235-a97c7bef05f4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQxMzk2fA&ixlib=rb-4.1.0", "alt": "A weathered driftwood log on a Lake Michigan beach in Door County at sunrise", "pos": "50% 50%"}
 }
 ];

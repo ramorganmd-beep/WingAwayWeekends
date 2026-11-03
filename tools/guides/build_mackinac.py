@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='mackinac', name='Mackinac Island', state='Michigan', number=46, reviewed=None,
+    slug='mackinac', name='Mackinac Island', state='Michigan', number=46, reviewed='November 3, 2026',
     airport='KMCD', nm=777, flight_time='~5 hr 26 <small>min</small>', style='Horses, bikes + walks',
     place='Mackinac Island, Michigan',
     description='A curated two-night Mackinac Island getaway for GA pilots and their partners, from KMYR to KMCD. A car-free island of horse-drawn carriages, the Grand Hotel’s famous porch, a historic fort, bike rides and fudge.',

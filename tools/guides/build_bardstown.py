@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='bardstown', name='Bardstown & Bourbon Country', state='Kentucky', number=44, reviewed=None,
+    slug='bardstown', name='Bardstown & Bourbon Country', state='Kentucky', number=44, reviewed='November 3, 2026',
     airport='KBRY', nm=405, flight_time='~2 hr 57 <small>min</small>', style='Courtesy car + a driver',
     place='Bardstown & Bourbon Country, Kentucky',
     description='A curated two-night Bardstown getaway for GA pilots and their partners, from KMYR to KBRY. The Bourbon Capital of the World: distillery tours, a 1779 tavern, Maker’s Mark and My Old Kentucky Home.',

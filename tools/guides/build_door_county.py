@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='door-county', name='Door County', state='Wisconsin', number=49, reviewed=None,
+    slug='door-county', name='Door County', state='Wisconsin', number=49, reviewed='November 3, 2026',
     airport='KSUE', nm=777, flight_time='~5 hr 26 <small>min</small>', style='Rental car',
     place='Door County, Wisconsin',
     description='A curated two-night Door County getaway for GA pilots and their partners, from KMYR to KSUE. A peninsula of harbor villages, cherry orchards, lighthouses, a fish boil and goats on a restaurant roof.',

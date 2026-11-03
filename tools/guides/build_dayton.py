@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='dayton', name='Dayton', state='Ohio', number=45, reviewed=None,
+    slug='dayton', name='Dayton', state='Ohio', number=45, reviewed='November 3, 2026',
     airport='KMGY', nm=437, flight_time='~3 hr 10 <small>min</small>', style='Rental car',
     place='Dayton, Ohio',
     description='A curated two-night Dayton getaway for GA pilots and their partners, from KMYR to KMGY. The National Museum of the U.S. Air Force, the Wright brothers’ workshops and flying field, and Yellow Springs.',
