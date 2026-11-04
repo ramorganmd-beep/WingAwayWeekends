@@ -326,6 +326,6 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 
 ## Next up (Nov 3, 2026)
 - New Orleans (KNEW) built as draft #68, Southeast region, illustration placeholder photo.
-- MS and LA join Southeast. Still to build: Natchez, Oxford, Bay St. Louis (MS); St. Francisville, Lafayette (LA).
+- MS and LA join Southeast. Built as drafts Nov 4: Natchez #69 (KHEZ), Oxford #70 (KUOX), Bay St. Louis #71 (KHSA), St. Francisville #72 (via KBTR), Lafayette & Cajun Country #73 (KLFT). All use placeholder photos. Dropped hijacked/dead sites: King’s Tavern, Ravine, Blue Dog Café, Café des Amis, Mulate’s (moved to New Orleans), 3V Tourist Court. Next: Alabama (Fairhope/Mobile Bay, Huntsville, Lake Martin, Birmingham).
 - Goal from owner: at least four destinations in every state covered. Current counts: FL 9, NC 6, TX 6, SC 5, VA 4; TN/GA/MA/NY/AR 3; WV/ME/PA/MO 2; AL, MD, NJ, RI, VT, CT, NH, KY, OH, MI, IN, IL, WI, MN, LA 1. About 50 more guides needed; work region by region, drafts first.
 - Still pending: Branson music photo, Eureka Springs photo, Texas review and photos, Great Plains region.

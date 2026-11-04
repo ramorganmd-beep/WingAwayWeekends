@@ -1528,5 +1528,119 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Natchez",
+ "state": "Mississippi",
+ "airport": "KHEZ",
+ "lat": 31.6137,
+ "lon": -91.2973,
+ "desc": "Antebellum mansions and historic inns on a bluff above the Mississippi, plus the Natchez Trace.",
+ "tags": [
+  "Stays",
+  "History",
+  "Dining",
+  "Scenic views"
+ ],
+ "guide": "natchez/",
+ "stateCode": "MS",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Oxford",
+ "state": "Mississippi",
+ "airport": "KUOX",
+ "lat": 34.3843,
+ "lon": -89.5368,
+ "desc": "A literary college town: the Square, Faulkner’s Rowan Oak, Square Books and a celebrated food scene.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "oxford/",
+ "stateCode": "MS",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bay St. Louis",
+ "state": "Mississippi",
+ "airport": "KHSA",
+ "lat": 30.3678,
+ "lon": -89.4546,
+ "desc": "An artsy Gulf Coast town: Old Town galleries, seafood on the bay and NASA’s INFINITY Science Center.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Aviation museums",
+  "Stays"
+ ],
+ "guide": "bay-st-louis/",
+ "stateCode": "MS",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "St. Francisville",
+ "state": "Louisiana",
+ "airport": "KBTR",
+ "lat": 30.7877,
+ "lon": -91.3765,
+ "desc": "Historic inns, oak-lined gardens, Audubon’s Oakley House and the Tunica Hills in Louisiana’s plantation country.",
+ "tags": [
+  "Stays",
+  "History",
+  "Dining",
+  "Hiking"
+ ],
+ "guide": "st-francisville/",
+ "stateCode": "LA",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lafayette & Cajun Country",
+ "state": "Louisiana",
+ "airport": "KLFT",
+ "lat": 30.205,
+ "lon": -91.9878,
+ "desc": "Cajun and zydeco dance halls, boudin, swamp tours at Lake Martin and Avery Island’s Tabasco.",
+ "tags": [
+  "Dining",
+  "Outdoors",
+  "Stays",
+  "History"
+ ],
+ "guide": "lafayette/",
+ "stateCode": "LA",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
