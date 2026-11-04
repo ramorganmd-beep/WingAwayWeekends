@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='deep-creek-lake', name='Deep Creek Lake', state='Maryland', number=87, reviewed=None,
+    slug='deep-creek-lake', name='Deep Creek Lake', state='Maryland', number=87, reviewed='November 4, 2026',
     airport='2G4', nm=355, flight_time='~2 hr 36 <small>min</small>', style='Rental or arranged car',
     place='Deep Creek Lake, Maryland',
     description='A curated Deep Creek Lake getaway for GA pilots and their partners, from KMYR to 2G4. A mountain lake in western Maryland: a lakefront inn, Swallow Falls, Wisp Resort and lake days by boat.',
