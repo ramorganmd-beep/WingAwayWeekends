@@ -865,3 +865,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Spencer Fitzgerald on Unsplash — https://unsplash.com/photos/a-large-rock-formation-next-to-a-body-of-water-tRZn6x6A5bE
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Apostle Islands, WI (Unsplash location)
+
+## Deep Creek Lake
+
+- Title: Deep Creek Lake State Park in Maryland.jpg
+- Photographer: Nicolas Raymond from Bethesda, Maryland, USA
+- Source: https://commons.wikimedia.org/wiki/File:Deep_Creek_Lake_State_Park_in_Maryland.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
