@@ -555,3 +555,39 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2010630684/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Fredericksburg & the Hill Country
+
+- Photo by Shreyas shah on Unsplash — https://unsplash.com/photos/white-cross-on-green-grass-field-during-daytime-M-GElkEh2-w
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Fredericksburg, TX (Unsplash location)
+
+## San Antonio
+
+- Photo by Prathibha Murdough on Unsplash — https://unsplash.com/photos/a-river-running-through-a-city-next-to-a-tall-building-e3GwZkyIL-0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: River Walk, San Antonio, TX (Unsplash location and tags)
+
+## Fort Worth & the Stockyards
+
+- Photo by adam roye on Unsplash — https://unsplash.com/photos/bronze-cowboy-statue-on-horseback-in-front-of-building-14DvXaFdr2M
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Fort Worth Stockyards, East Exchange Avenue, Fort Worth, TX (Unsplash location)
+
+## Galveston
+
+- Photo by Lily Miller on Unsplash — https://unsplash.com/photos/a-city-street-with-palm-trees-and-buildings-8Yxqk3Bucas
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Galveston Island, TX (Unsplash location)
+
+## South Padre Island
+
+- Photo by Obed Esquivel-Pickett on Unsplash — https://unsplash.com/photos/brown-wooden-bridge-between-green-trees-under-white-clouds-and-blue-sky-during-daytime-f_I3r5yJuxw
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: South Padre Island, TX (Unsplash location and description)
+
+## Marfa & Big Bend
+
+- Photo by Ronald Crow on Unsplash — https://unsplash.com/photos/a-water-tower-with-a-blue-sky-in-the-background-fJfUt75HdJA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Marfa, TX (Unsplash location and description)

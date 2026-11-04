@@ -1375,11 +1375,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered ridges"
- }
+ "photo": {"slug": "fredericksburg", "remote": "https://images.unsplash.com/photo-1607451498705-5f265aeb83a4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjUzfA&ixlib=rb-4.1.0", "alt": "Aerial view of the cross atop Cross Mountain above the Texas Hill Country", "pos": "50% 50%"}
 },
 {
  "name": "San Antonio",
@@ -1398,11 +1394,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered ridges"
- }
+ "photo": {"slug": "san-antonio", "remote": "https://images.unsplash.com/photo-1692428572326-66edcffafca8?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjU0fA&ixlib=rb-4.1.0", "alt": "The San Antonio River Walk with cafés and greenery along the water", "pos": "50% 50%"}
 },
 {
  "name": "Fort Worth & the Stockyards",
@@ -1421,11 +1413,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered ridges"
- }
+ "photo": {"slug": "fort-worth", "remote": "https://images.unsplash.com/photo-1772209157515-03d1571ff8fb?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjU0fA&ixlib=rb-4.1.0", "alt": "A bronze cowboy on horseback in front of the Cowtown Coliseum", "pos": "50% 50%"}
 },
 {
  "name": "Galveston",
@@ -1445,11 +1433,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "galveston", "remote": "https://images.unsplash.com/photo-1652736878655-2cf32ff84e5f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjU0fA&ixlib=rb-4.1.0", "alt": "A palm-lined downtown street of historic buildings in Galveston", "pos": "50% 50%"}
 },
 {
  "name": "South Padre Island",
@@ -1468,11 +1452,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "south-padre", "remote": "https://images.unsplash.com/photo-1584847469872-ab9adf673487?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjU1fA&ixlib=rb-4.1.0", "alt": "A wooden boardwalk trail through green coastal trees", "pos": "50% 50%"}
 },
 {
  "name": "Marfa & Big Bend",
@@ -1492,11 +1472,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered ridges"
- }
+ "photo": {"slug": "marfa", "remote": "https://images.unsplash.com/photo-1700285083566-7603fedd6be2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyMjU1fA&ixlib=rb-4.1.0", "alt": "The Marfa water tower against a deep blue West Texas sky", "pos": "50% 35%"}
 },
 {
  "name": "New Orleans",
