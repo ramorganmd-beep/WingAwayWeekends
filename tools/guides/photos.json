@@ -495,17 +495,17 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@iamthedave?utm_source=wingaway_weekends&utm_medium=referral\">Dave Hoefler</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/gray-tree-trunk-on-gray-sand-near-body-of-water-during-sunset-fw_8aPCdG_A?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "branson": {
-    "slug": "st-michaels-harbor",
+    "slug": "https://images.unsplash.com/photo-1654884115113-07020ec91d51?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a calm harbor",
+    "alt": "Sunset over Table Rock Lake with wooded shoreline",
     "w": 960,
     "h": 720,
-    "caption": "Branson & Table Rock Lake (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sunset on Table Rock Lake",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@kwpaschal?utm_source=wingaway_weekends&utm_medium=referral\">Keith Paschal</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-with-trees-and-a-sunset-in-the-background-PtFGkAruMpo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-ozarks": {
     "slug": "https://images.unsplash.com/photo-1648325607695-c52d4d32f459?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0MzE1fA&ixlib=rb-4.1.0",
@@ -547,17 +547,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@fardevio?utm_source=wingaway_weekends&utm_medium=referral\">Far Chinberdiev</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/modern-building-with-a-curved-roof-over-water-6pjblVkUtME?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "eureka-springs": {
-    "slug": "shenandoah-ridges",
+    "slug": "eureka-springs-fall",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of layered blue mountain ridges",
+    "alt": "A winding road through fall color in the Ozark hills at Eureka Springs",
     "w": 960,
     "h": 720,
-    "caption": "Eureka Springs (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fall in Eureka Springs",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2020741533/\">Fall scene in Eureka Springs, Arkansas</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "duluth": {
     "slug": "https://images.unsplash.com/photo-1573340488467-1acc1bb9d15d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzQ0Mjk3fA&ixlib=rb-4.1.0",
@@ -729,17 +728,17 @@
     "placeholder": true
   },
   "new-orleans": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1583477716463-9c485c89f6e1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzE5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Colorful colonial buildings with iron balconies in the French Quarter",
     "w": 960,
     "h": 720,
-    "caption": "New Orleans (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The French Quarter, New Orleans",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ayasn?utm_source=wingaway_weekends&utm_medium=referral\">Aya Salman</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-Ix7OnZAtyIs?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "natchez": {
     "slug": "cape-may-beach",
@@ -755,17 +754,16 @@
     "placeholder": true
   },
   "oxford": {
-    "slug": "cape-may-beach",
+    "slug": "oxford-square",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Historic storefronts with balconies on the Square in downtown Oxford",
     "w": 960,
     "h": 720,
-    "caption": "Oxford (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Square, Oxford",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2017880820/\">Downtown Oxford, Mississippi</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "bay-st-louis": {
     "slug": "cape-may-beach",
@@ -781,17 +779,17 @@
     "placeholder": true
   },
   "st-francisville": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1702690401395-767fe2cdf3a7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The white columned Rosedown Plantation house framed by trees and lawn",
     "w": 960,
     "h": 720,
-    "caption": "St. Francisville (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Rosedown Plantation, St. Francisville",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@blprice?utm_source=wingaway_weekends&utm_medium=referral\">Benjamin Price</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-white-house-surrounded-by-trees-and-grass-ErKyDX2sKqI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lafayette": {
     "slug": "cape-may-beach",
@@ -820,17 +818,17 @@
     "placeholder": true
   },
   "huntsville": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1605813640975-0ef0ad36826a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A space shuttle display at the U.S. Space and Rocket Center",
     "w": 960,
     "h": 720,
-    "caption": "Huntsville (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The U.S. Space & Rocket Center, Huntsville",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@harshbansal?utm_source=wingaway_weekends&utm_medium=referral\">Harsh</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-brown-space-ship-z2RlWyJ2-RU?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-martin": {
     "slug": "cape-may-beach",
@@ -846,56 +844,55 @@
     "placeholder": true
   },
   "birmingham": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1440582096070-fa5961d9d682?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Birmingham skyline and Sloss Furnaces stacks reflected in a pond at sunset",
     "w": 960,
     "h": 720,
-    "caption": "Birmingham (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Birmingham from Railroad Park",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@z?utm_source=wingaway_weekends&utm_medium=referral\">Zachary Farmer</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/landscape-photography-of-cityscape-by-water-TkunxoS98q0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "memphis": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1753752243195-628fb209ba91?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A Memphis street scene downtown",
     "w": 960,
     "h": 720,
-    "caption": "Memphis (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Memphis",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@kn3446?utm_source=wingaway_weekends&utm_medium=referral\">Kiran Naidu</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-street-scene-in-memphis-tennessee-BgqJn7JlJzM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "golden-isles": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1521158422-e44de3484714?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Weathered driftwood trees on the sand at Driftwood Beach",
     "w": 960,
     "h": 720,
-    "caption": "Golden Isles (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Driftwood Beach, Jekyll Island",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@_zachreiner_?utm_source=wingaway_weekends&utm_medium=referral\">Zach Reiner</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/driftwood-on-grey-beach-sands-6HsMKCHho_I?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "clarksdale": {
-    "slug": "cape-may-beach",
+    "slug": "clarksdale-blues",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Bluesman Terry Harmonica Bean playing guitar in a Clarksdale juke joint",
     "w": 960,
     "h": 720,
-    "caption": "Clarksdale (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Live blues in Clarksdale",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2017656567/\">Jazzman Terry \"Harmonica\" Bean performs in Clarksdale, Mississippi</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "natchitoches": {
     "slug": "cape-may-beach",

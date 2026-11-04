@@ -445,3 +445,69 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Keith Luke on Unsplash — https://unsplash.com/photos/white-canoe-near-palm-tree-sPU2kzPIf28
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Islamorada, FL (geotag)
+
+## New Orleans
+
+- Photo by Aya Salman on Unsplash — https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-Ix7OnZAtyIs
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: French Quarter, New Orleans, LA (Unsplash location)
+
+## St. Francisville
+
+- Photo by Benjamin Price on Unsplash — https://unsplash.com/photos/a-large-white-house-surrounded-by-trees-and-grass-ErKyDX2sKqI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Rosedown Plantation, St. Francisville, LA (Unsplash location and description)
+
+## Huntsville
+
+- Photo by Harsh on Unsplash — https://unsplash.com/photos/white-and-brown-space-ship-z2RlWyJ2-RU
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: U.S. Space and Rocket Center, Huntsville, AL (Unsplash location)
+
+## Birmingham
+
+- Photo by Zachary Farmer on Unsplash — https://unsplash.com/photos/landscape-photography-of-cityscape-by-water-TkunxoS98q0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Birmingham, AL; Sloss Furnaces stacks visible (Unsplash location, visually confirmed)
+
+## Memphis
+
+- Photo by Kiran Naidu on Unsplash — https://unsplash.com/photos/a-street-scene-in-memphis-tennessee-BgqJn7JlJzM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Memphis, TN (Unsplash location)
+
+## Golden Isles
+
+- Photo by Zach Reiner on Unsplash — https://unsplash.com/photos/driftwood-on-grey-beach-sands-6HsMKCHho_I
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Driftwood Beach, Jekyll Island, GA (Unsplash location)
+
+## Branson & Table Rock Lake
+
+- Photo by Keith Paschal on Unsplash — https://unsplash.com/photos/a-body-of-water-with-trees-and-a-sunset-in-the-background-PtFGkAruMpo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Table Rock Lake, Branson, MO (Unsplash location and description)
+
+## Oxford
+
+- Title: Downtown Oxford, Mississippi
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017880820/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Clarksdale
+
+- Title: Jazzman Terry "Harmonica" Bean performs in Clarksdale, Mississippi
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017656567/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Eureka Springs
+
+- Title: Fall scene in Eureka Springs, Arkansas
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2020741533/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
