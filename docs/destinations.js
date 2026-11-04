@@ -1613,11 +1613,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "LA",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lafayette-swamp", "alt": "Cypress trees and knees standing in a green swamp near Lafayette"}
 },
 {
  "name": "Fairhope & Mobile Bay",
@@ -1637,11 +1633,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AL",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "fairhope-pier", "alt": "A wooden pier with a covered end reaching into Mobile Bay at Fairhope"}
 },
 {
  "name": "Huntsville",
@@ -1679,11 +1671,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AL",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-martin-lighthouse", "alt": "Calm blue water on Lake Martin with a small lighthouse and dock on a wooded point"}
 },
 {
  "name": "Birmingham",

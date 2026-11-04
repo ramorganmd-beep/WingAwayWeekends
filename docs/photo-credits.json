@@ -2104,5 +2104,152 @@
   "date_taken": null,
   "files": [],
   "location": "Natchitoches, LA (Unsplash location)"
+ },
+ {
+  "destination": "Fairhope & Mobile Bay",
+  "title": "Pier on Mobile Bay, Fairhope, Alabama",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010637823/",
+  "original_image_url": "https://www.loc.gov/item/2010637823/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1536,
+   "height": 1024
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A wooden pier with a covered end reaching into Mobile Bay at Fairhope",
+  "files": [
+   {
+    "path": "dist/assets/destinations/fairhope-pier-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 25576,
+    "sha256": "1ca058e9fe644b5cbe06ef9f595f9696a57ae9dfac18828022d005fd4ef2c2c4"
+   },
+   {
+    "path": "dist/assets/destinations/fairhope-pier-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34074,
+    "sha256": "eed504724a1728818b2bbf1e8d0908f40cb9f07ac51d661ef5e4e43b40d4fde3"
+   },
+   {
+    "path": "dist/assets/destinations/fairhope-pier-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 86264,
+    "sha256": "c58bfeee484a977d0d28598b842b525fd4ff48f5ab73220f460f4a7b57adecd9"
+   },
+   {
+    "path": "dist/assets/destinations/fairhope-pier-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 122260,
+    "sha256": "a04d45d5538f9121f19ea2e1e440ef04567b7199d04c2be5584d2668f7489a8f"
+   }
+  ]
+ },
+ {
+  "destination": "Lake Martin",
+  "title": "Lake Martin near Alexander City and Dadeville, Alabama",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010639234/",
+  "original_image_url": "https://www.loc.gov/item/2010639234/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1536,
+   "height": 1024
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Calm blue water on Lake Martin with a small lighthouse and dock on a wooded point",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lake-martin-lighthouse-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 13960,
+    "sha256": "6fc96f1fcc3abd0eda42d13f0644ede1c1efa2079399f918a389fc8107de8fe6"
+   },
+   {
+    "path": "dist/assets/destinations/lake-martin-lighthouse-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 22546,
+    "sha256": "9764dc21bd12a23e558961010b5acc49ca470423c574c3e8e90a47af9596f3b2"
+   },
+   {
+    "path": "dist/assets/destinations/lake-martin-lighthouse-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 50988,
+    "sha256": "7e222ccbd046485d18f92d82b301537f58e09a2cad7d048f2fbdc56c001533d1"
+   },
+   {
+    "path": "dist/assets/destinations/lake-martin-lighthouse-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 82933,
+    "sha256": "c9989412289604a141de4214f707f0bbd0308d1593012248683873e6bb5547d7"
+   }
+  ]
+ },
+ {
+  "destination": "Lafayette & Cajun Country",
+  "title": "Swamp, Lafayette, Louisiana",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630684/",
+  "original_image_url": "https://www.loc.gov/item/2010630684/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1536,
+   "height": 1024
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Cypress trees and knees standing in a green swamp near Lafayette",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lafayette-swamp-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 59788,
+    "sha256": "fe7b5059637923d495d4a83773264efa46b479e23d50974db998e054f301caf0"
+   },
+   {
+    "path": "dist/assets/destinations/lafayette-swamp-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 62396,
+    "sha256": "e34c3a36660c0f1c13c2265558ac91362e0b8943fa4f40487de4d237824f0a50"
+   },
+   {
+    "path": "dist/assets/destinations/lafayette-swamp-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 216122,
+    "sha256": "d1dab863306d25f832f0504961173a4ff023195a5b7edb293d46578a86dcf337"
+   },
+   {
+    "path": "dist/assets/destinations/lafayette-swamp-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 234588,
+    "sha256": "421ba3473f24f57476fb655cb56f3dd89d32c9f00d0f5bc266af4d037b66d64f"
+   }
+  ]
  }
 ]
