@@ -340,4 +340,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Finger Lakes #93 (KITH), New Hope & Bucks County #94 (KDYL), Pocono Mountains #95 (KMPO), Camden & Midcoast Maine #96 (KRKD, Owls Head museum on field), Portland ME #97 (KPWM), Chatham & Cape Cod #98 (KCQX), Princeton #99 (39N).
 - Builders now generated from compact specs: scratchpad gen/mk.py + gen/ne1.py (simple_guide format).
 - Dropped: Hazelnut Kitchen (site expired), Marsha Brown (domain parked), Frogtown Chophouse (empty site), Danforth Inn (site down).
-- Still to reach four per state in the Northeast: NJ +2, RI +3, VT +3, CT +3, NH +3. Then the Great Plains region (ND, SD, NE, KS, OK).
+- Batch 2a (Nov 4): Block Island #100 (KBID, no FBO/fuel), Providence #101, Watch Hill & Westerly #102 (KWST), New Haven #103 (KHVN), Essex & the CT River #104 (KSNC), Litchfield Hills #105 (KOXC), Asbury Park & Spring Lake #106 (KBLM), Atlantic City #107 (KACY). RI, CT, NJ now at 4. Dropped: Dean Hotel, Bee and Thistle, White House Subs link (sites down). Still to do: VT +3, NH +3. Then the Great Plains region (ND, SD, NE, KS, OK).
