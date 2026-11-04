@@ -2300,5 +2300,144 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Woodstock",
+ "state": "Vermont",
+ "airport": "KLEB",
+ "lat": 43.6259,
+ "lon": -72.3042,
+ "desc": "A storybook Vermont village: the Woodstock Inn, Billings Farm, a national park, Quechee Gorge and Simon Pearce glassblowing.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "woodstock-vt/",
+ "stateCode": "VT",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Manchester",
+ "state": "Vermont",
+ "airport": "KDDH",
+ "lat": 42.8913,
+ "lon": -73.2464,
+ "desc": "A classic Green Mountain town: The Equinox resort and spa, Lincoln’s Hildene, Skyline Drive, the Northshire Bookstore and village inns.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "History",
+  "Golf",
+  "Scenic views"
+ ],
+ "guide": "manchester-vt/",
+ "stateCode": "VT",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Burlington",
+ "state": "Vermont",
+ "airport": "KBTV",
+ "lat": 44.472,
+ "lon": -73.1533,
+ "desc": "A lively lake city: Church Street, Lake Champlain sunsets, Shelburne Farms, the Shelburne Museum and farm-to-table dining.",
+ "tags": [
+  "Dining",
+  "Lake",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "burlington-vt/",
+ "stateCode": "VT",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bretton Woods & Franconia Notch",
+ "state": "New Hampshire",
+ "airport": "KHIE",
+ "lat": 44.3676,
+ "lon": -71.5458,
+ "desc": "The grand Mount Washington Hotel, the Cog Railway to the summit, Franconia Notch’s Flume Gorge, Cannon’s tram and country inns.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "bretton-woods/",
+ "stateCode": "NH",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Winnipesaukee",
+ "state": "New Hampshire",
+ "airport": "KLCI",
+ "lat": 43.573,
+ "lon": -71.4178,
+ "desc": "New Hampshire’s great lake: lakeside inns in Meredith and Wolfeboro, a classic steamer cruise, Castle in the Clouds and Squam Lake.",
+ "tags": [
+  "Lake",
+  "Stays",
+  "Dining",
+  "History"
+ ],
+ "guide": "lake-winnipesaukee/",
+ "stateCode": "NH",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "North Conway & Jackson",
+ "state": "New Hampshire",
+ "airport": "KIZG",
+ "lat": 43.9911,
+ "lon": -70.9479,
+ "desc": "A White Mountains valley: Jackson’s covered bridge and inns, the Conway Scenic Railroad, the Kancamagus Highway and the Mount Washington Auto Road.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "north-conway/",
+ "stateCode": "NH",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
