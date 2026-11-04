@@ -2538,5 +2538,222 @@
   "date_taken": null,
   "files": [],
   "location": "Kentucky (state-level Unsplash location); horse farm scene"
+ },
+ {
+  "destination": "Finger Lakes",
+  "title": "Watkins Glen gorge",
+  "photographer": "Hunter Reilly",
+  "source_page_url": "https://unsplash.com/photos/a-stream-with-a-bridge-over-it-BRIlt7r1-DA",
+  "original_image_url": "https://images.unsplash.com/photo-1663947735960-a753dc0ac98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A waterfall and stone gorge walls in Watkins Glen",
+  "date_taken": null,
+  "files": [],
+  "location": "Watkins Glen State Park, NY (Unsplash tags; visually identified)"
+ },
+ {
+  "destination": "Block Island",
+  "title": "Southeast Lighthouse, Block Island",
+  "photographer": "John Angel",
+  "source_page_url": "https://unsplash.com/photos/a-large-brick-building-with-a-light-house-on-top-of-it-fLb31kFlQXg",
+  "original_image_url": "https://images.unsplash.com/photo-1631830298489-4e7ed3257fd4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The brick Southeast Lighthouse on the bluffs of Block Island",
+  "date_taken": null,
+  "files": [],
+  "location": "Southeast Light, Block Island, RI (Unsplash description)"
+ },
+ {
+  "destination": "Woodstock",
+  "title": "Fall near Woodstock",
+  "photographer": "Venti Views",
+  "source_page_url": "https://unsplash.com/photos/brown-and-white-house-near-green-trees-and-river-during-daytime-9uWkID2TCIE",
+  "original_image_url": "https://images.unsplash.com/photo-1603864990274-c3f3c7d80866?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A red barn and fall color on a country road near Woodstock",
+  "date_taken": null,
+  "files": [],
+  "location": "Woodstock, VT (Unsplash location)"
+ },
+ {
+  "destination": "Burlington",
+  "title": "Lake Champlain at Burlington",
+  "photographer": "Alexe Rice",
+  "source_page_url": "https://unsplash.com/photos/white-boat-on-sea-under-blue-sky-during-daytime-WfAyqDyLT2A",
+  "original_image_url": "https://images.unsplash.com/photo-1606327916785-849773c8dd0c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A sailboat on Lake Champlain under a blue summer sky",
+  "date_taken": null,
+  "files": [],
+  "location": "Burlington, VT (Unsplash location)"
+ },
+ {
+  "destination": "Bretton Woods & Franconia Notch",
+  "title": "The Mount Washington Hotel",
+  "photographer": "Pavel Brodsky",
+  "source_page_url": "https://unsplash.com/photos/white-and-red-concrete-building-near-green-trees-under-cloudy-sky-during-daytime-RMFdDTCHtHc",
+  "original_image_url": "https://images.unsplash.com/photo-1579874107962-218e62de36f3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The white Mount Washington Hotel with its red roofs beneath the mountains",
+  "date_taken": null,
+  "files": [],
+  "location": "Mount Washington Hotel, Bretton Woods, NH (Unsplash location and description)"
+ },
+ {
+  "destination": "Lake Winnipesaukee",
+  "title": "Lake Winnipesaukee",
+  "photographer": "Nikolaos Anastasopoulos",
+  "source_page_url": "https://unsplash.com/photos/a-body-of-water-with-trees-in-the-back-D8VoocZF_wI",
+  "original_image_url": "https://images.unsplash.com/photo-1664534204375-d59f79e51254?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A wooded island on the calm blue water of Lake Winnipesaukee",
+  "date_taken": null,
+  "files": [],
+  "location": "Lake Winnipesaukee, NH (Unsplash location and description)"
+ },
+ {
+  "destination": "North Conway & Jackson",
+  "title": "Conway Scenic Railroad",
+  "photographer": "Neil Mewes",
+  "source_page_url": "https://unsplash.com/photos/a-train-on-a-bridge-ULN9_8ZcM9U",
+  "original_image_url": "https://images.unsplash.com/photo-1658738198744-a0da0aca5596?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Conway Scenic Railroad crossing a bridge in fall color",
+  "date_taken": null,
+  "files": [],
+  "location": "North Conway, NH (Unsplash location and description)"
+ },
+ {
+  "destination": "Berkeley Springs",
+  "title": "Entryway to the Berkeley Springs Castle. Berkeley Springs, West Virginia",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2015631464/",
+  "original_image_url": "https://www.loc.gov/item/2015631464/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1840,
+   "height": 1228
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The stone entryway of the Berkeley Springs Castle among trees",
+  "files": [
+   {
+    "path": "dist/assets/destinations/berkeley-springs-castle-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 36046,
+    "sha256": "163d9312c9302a8fa1fd93ee3feb9a3c2827fc749cebdc19700092197d3ca208"
+   },
+   {
+    "path": "dist/assets/destinations/berkeley-springs-castle-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42021,
+    "sha256": "a2a9d012a03bc037c21d3784c3e814ff2865f397c54af4f5ea1ee59f615e262f"
+   },
+   {
+    "path": "dist/assets/destinations/berkeley-springs-castle-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 138590,
+    "sha256": "29ff97414a684b87c01139d5591e7c9006f04b52712c9369b7d1d8de13bcebe3"
+   },
+   {
+    "path": "dist/assets/destinations/berkeley-springs-castle-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 161395,
+    "sha256": "6e269b06459801e461c232ed3aabe4935c8ae8caff273712f178beef1b2fb306"
+   }
+  ]
+ },
+ {
+  "destination": "Paducah",
+  "title": "The Iron Horse Memorial in Paducah, a Kentucky city at the confluence of the Ohio and Tennessee rivers",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2020722431/",
+  "original_image_url": "https://www.loc.gov/item/2020722431/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 529
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A historic steam locomotive on display at the Iron Horse Memorial in Paducah",
+  "files": [
+   {
+    "path": "dist/assets/destinations/paducah-iron-horse-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 18654,
+    "sha256": "8173d292494c1c2dec8560fdb3b5b4510c18fde97378208a8bc2525bef84f3d5"
+   },
+   {
+    "path": "dist/assets/destinations/paducah-iron-horse-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 28409,
+    "sha256": "09b09286a2a5965626024faa1360556eb98ce56d13a2689ab41f7539eda9a790"
+   },
+   {
+    "path": "dist/assets/destinations/paducah-iron-horse-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 54738,
+    "sha256": "83d92896495c1334303f846d93f32a71fad5b084840386473315a5d8e127a4b1"
+   },
+   {
+    "path": "dist/assets/destinations/paducah-iron-horse-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 89076,
+    "sha256": "24e5adde63a780bd07111bc6063ffe582fb58ab4904f7d5513ed3de7e6191f85"
+   }
+  ]
  }
 ]

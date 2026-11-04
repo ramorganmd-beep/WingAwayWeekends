@@ -995,17 +995,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@marmis239?utm_source=wingaway_weekends&utm_medium=referral\">Marmi Sica</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-bridge-over-a-river-surrounded-by-trees-LWcbXspk2q8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "berkeley-springs": {
-    "slug": "cape-may-beach",
+    "slug": "berkeley-springs-castle",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The stone entryway of the Berkeley Springs Castle among trees",
     "w": 960,
     "h": 720,
-    "caption": "Berkeley Springs (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Berkeley Springs Castle",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2015631464/\">Entryway to the Berkeley Springs Castle. Berkeley Springs, West Virginia</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "lexington": {
     "slug": "https://images.unsplash.com/photo-1719092480428-dcafdc4f4a08?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkzNzMxfA&ixlib=rb-4.1.0",
@@ -1034,30 +1033,29 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@mitchbagnet?utm_source=wingaway_weekends&utm_medium=referral\">Chris Marlin</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/city-skyline-at-dusk-with-water-reflections-VNGVZ6m4WfU?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "paducah": {
-    "slug": "cape-may-beach",
+    "slug": "paducah-iron-horse",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A historic steam locomotive on display at the Iron Horse Memorial in Paducah",
     "w": 960,
     "h": 720,
-    "caption": "Paducah (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Iron Horse Memorial, Paducah",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2020722431/\">The Iron Horse Memorial in Paducah, a Kentucky city at the confluence of the Ohio and Tennessee rivers</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "finger-lakes": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1663947735960-a753dc0ac98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A waterfall and stone gorge walls in Watkins Glen",
     "w": 960,
     "h": 720,
-    "caption": "Finger Lakes (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Watkins Glen gorge",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@hunterrei?utm_source=wingaway_weekends&utm_medium=referral\">Hunter Reilly</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-stream-with-a-bridge-over-it-BRIlt7r1-DA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bucks-county": {
     "slug": "cape-may-beach",
@@ -1138,17 +1136,17 @@
     "placeholder": true
   },
   "block-island": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1631830298489-4e7ed3257fd4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The brick Southeast Lighthouse on the bluffs of Block Island",
     "w": 960,
     "h": 720,
-    "caption": "Block Island (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Southeast Lighthouse, Block Island",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@johnangelnyc?utm_source=wingaway_weekends&utm_medium=referral\">John Angel</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-brick-building-with-a-light-house-on-top-of-it-fLb31kFlQXg?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "providence": {
     "slug": "cape-may-beach",
@@ -1242,17 +1240,17 @@
     "placeholder": true
   },
   "woodstock-vt": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1603864990274-c3f3c7d80866?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A red barn and fall color on a country road near Woodstock",
     "w": 960,
     "h": 720,
-    "caption": "Woodstock (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fall near Woodstock",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ventiviews?utm_source=wingaway_weekends&utm_medium=referral\">Venti Views</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-and-white-house-near-green-trees-and-river-during-daytime-9uWkID2TCIE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "manchester-vt": {
     "slug": "cape-may-beach",
@@ -1268,56 +1266,56 @@
     "placeholder": true
   },
   "burlington-vt": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1606327916785-849773c8dd0c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A sailboat on Lake Champlain under a blue summer sky",
     "w": 960,
     "h": 720,
-    "caption": "Burlington (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Lake Champlain at Burlington",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@alexerice?utm_source=wingaway_weekends&utm_medium=referral\">Alexe Rice</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-boat-on-sea-under-blue-sky-during-daytime-WfAyqDyLT2A?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bretton-woods": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1579874107962-218e62de36f3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The white Mount Washington Hotel with its red roofs beneath the mountains",
     "w": 960,
     "h": 720,
-    "caption": "Bretton Woods & Franconia Notch (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Mount Washington Hotel",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@mcouthon?utm_source=wingaway_weekends&utm_medium=referral\">Pavel Brodsky</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-red-concrete-building-near-green-trees-under-cloudy-sky-during-daytime-RMFdDTCHtHc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-winnipesaukee": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1664534204375-d59f79e51254?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A wooded island on the calm blue water of Lake Winnipesaukee",
     "w": 960,
     "h": 720,
-    "caption": "Lake Winnipesaukee (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Lake Winnipesaukee",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nik_anasta?utm_source=wingaway_weekends&utm_medium=referral\">Nikolaos Anastasopoulos</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-with-trees-in-the-back-D8VoocZF_wI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "north-conway": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1658738198744-a0da0aca5596?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Conway Scenic Railroad crossing a bridge in fall color",
     "w": 960,
     "h": 720,
-    "caption": "North Conway & Jackson (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Conway Scenic Railroad",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@neilmewes?utm_source=wingaway_weekends&utm_medium=referral\">Neil Mewes</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-train-on-a-bridge-ULN9_8ZcM9U?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "black-hills": {
     "slug": "cape-may-beach",

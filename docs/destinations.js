@@ -1894,11 +1894,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "berkeley-springs-castle", "alt": "The stone entryway of the Berkeley Springs Castle among trees"}
 },
 {
  "name": "Lexington & Horse Country",
@@ -1953,11 +1949,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "paducah-iron-horse", "alt": "A historic steam locomotive on display at the Iron Horse Memorial in Paducah"}
 },
 {
  "name": "Finger Lakes",
@@ -1977,11 +1969,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "finger-lakes", "remote": "https://images.unsplash.com/photo-1663947735960-a753dc0ac98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0", "alt": "A waterfall and stone gorge walls in Watkins Glen", "pos": "50% 50%"}
 },
 {
  "name": "New Hope & Bucks County",
@@ -2137,11 +2125,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "RI",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "block-island", "remote": "https://images.unsplash.com/photo-1631830298489-4e7ed3257fd4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0", "alt": "The brick Southeast Lighthouse on the bluffs of Block Island", "pos": "50% 50%"}
 },
 {
  "name": "Providence",
@@ -2318,11 +2302,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VT",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "woodstock-vt", "remote": "https://images.unsplash.com/photo-1603864990274-c3f3c7d80866?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0", "alt": "A red barn and fall color on a country road near Woodstock", "pos": "50% 50%"}
 },
 {
  "name": "Manchester",
@@ -2365,11 +2345,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VT",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "burlington-vt", "remote": "https://images.unsplash.com/photo-1606327916785-849773c8dd0c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0", "alt": "A sailboat on Lake Champlain under a blue summer sky", "pos": "50% 50%"}
 },
 {
  "name": "Bretton Woods & Franconia Notch",
@@ -2388,11 +2364,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NH",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bretton-woods", "remote": "https://images.unsplash.com/photo-1579874107962-218e62de36f3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0", "alt": "The white Mount Washington Hotel with its red roofs beneath the mountains", "pos": "50% 50%"}
 },
 {
  "name": "Lake Winnipesaukee",
@@ -2411,11 +2383,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NH",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-winnipesaukee", "remote": "https://images.unsplash.com/photo-1664534204375-d59f79e51254?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0", "alt": "A wooded island on the calm blue water of Lake Winnipesaukee", "pos": "50% 50%"}
 },
 {
  "name": "North Conway & Jackson",
@@ -2434,11 +2402,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NH",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "north-conway", "remote": "https://images.unsplash.com/photo-1658738198744-a0da0aca5596?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0", "alt": "The Conway Scenic Railroad crossing a bridge in fall color", "pos": "50% 50%"}
 },
 {
  "name": "Black Hills & Custer State Park",
