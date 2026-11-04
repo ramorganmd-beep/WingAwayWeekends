@@ -1005,3 +1005,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Brian Hubbard on Unsplash — https://unsplash.com/photos/a-rocky-cliff-with-trees-and-blue-sky-bGQsCg04-_g
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Garden of the Gods, Herod, IL (Unsplash location and description)
+
+## Starved Rock
+
+- Photo by Ryan Heuer on Unsplash — https://unsplash.com/photos/brown-rock-formation-on-river-T0jWY-HRyQI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Starved Rock State Park, Oglesby, IL (Unsplash location)

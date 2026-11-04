@@ -2921,11 +2921,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IL",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "starved-rock", "remote": "https://images.unsplash.com/photo-1615055111114-02519a801c8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI4MjU3fA&ixlib=rb-4.1.0", "alt": "A waterfall spilling into a pool in a sandstone canyon at Starved Rock State Park", "pos": "50% 50%"}
 },
 {
  "name": "Shawnee Hills Wine Trail",
