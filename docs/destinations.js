@@ -2239,11 +2239,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NJ",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "atlantic-city", "remote": "https://images.unsplash.com/photo-1792004554803-f51c1f15ad2d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg0fA&ixlib=rb-4.1.0", "alt": "The Ferris wheel on Steel Pier along the Atlantic City Boardwalk", "pos": "50% 50%"}
 },
 {
  "name": "Woodstock",
@@ -2556,10 +2552,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Great Plains",
  "family": false,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lincoln-ne-capitol", "alt": "The Nebraska State Capitol tower in Lincoln"}
 },
 {
  "name": "Scotts Bluff & Chimney Rock",

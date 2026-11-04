@@ -815,3 +815,17 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Gary Cole on Unsplash — https://unsplash.com/photos/a-lake-surrounded-by-lots-of-trees-in-the-fall-2XYBeWN_0VM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Bushkill, PA (Unsplash location and description)
+
+## Lincoln
+
+- Title: Capitol building Lincoln, Nebraska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630796/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Atlantic City
+
+- Photo by Laura Durán on Unsplash — https://unsplash.com/photos/ferris-wheel-on-atlantic-city-boardwalk-BYBxnqCprPA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Steel Pier, Atlantic City (Unsplash location)
