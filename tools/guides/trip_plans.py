@@ -672,6 +672,33 @@ PLANS = {
     'bayfield': {
         'day': [('Arrive', 'Land at KASX early.'), ('Midday', 'Walk the harbor.'), ('Afternoon', 'A sea-cave cruise or kayak tour, then back to the airport.')],
         'extra': [('Morning', 'A sea-cave cruise or kayak tour.'), ('Afternoon', 'The ferry to Madeline Island.'), ('Evening', 'Dinner at the Old Rittenhouse Inn.')]},
+    'put-in-bay': {
+        'day': [('Arrive', 'Land at 3W2 early and rent a cart.'), ('Midday', 'Perry’s Victory memorial and lunch at The Boardwalk.'), ('Afternoon', 'Heineman’s Winery, then back to the airport.')],
+        'extra': [('Morning', 'Kelleys Island by ferry.'), ('Afternoon', 'Stone Lab’s lighthouse tour.'), ('Evening', 'Sunset on the west shore.')]},
+    'hocking-hills': {
+        'day': [('Arrive', 'Land at KLHQ early.'), ('Midday', 'Old Man’s Cave.'), ('Afternoon', 'Ash Cave, then back to the FBO.')],
+        'extra': [('Morning', 'Cedar Falls and Conkle’s Hollow.'), ('Afternoon', 'A canopy zip-line tour.'), ('Evening', 'Dinner at The Inn at Cedar Falls.')]},
+    'cleveland': {
+        'day': [('Arrive', 'Land at KBKL mid-morning.'), ('Midday', 'The Rock & Roll Hall of Fame.'), ('Afternoon', 'Lunch at the West Side Market, then back to the airport.')],
+        'extra': [('Morning', 'The Cleveland Museum of Art.'), ('Afternoon', 'The Botanical Garden.'), ('Evening', 'A Playhouse Square show.')]},
+    'indianapolis': {
+        'day': [('Arrive', 'Land at KEYE mid-morning.'), ('Midday', 'The Speedway museum and a track tour.'), ('Afternoon', 'Lunch on Mass Ave, then back to the FBO.')],
+        'extra': [('Morning', 'Bike the Cultural Trail.'), ('Afternoon', 'Newfields.'), ('Evening', 'Dinner at St. Elmo.')]},
+    'brown-county': {
+        'day': [('Arrive', 'Land at KBMG early.'), ('Midday', 'The galleries in Nashville.'), ('Afternoon', 'A drive through Brown County State Park, then back to the airport.')],
+        'extra': [('Morning', 'T.C. Steele State Historic Site.'), ('Afternoon', 'A winery in Nashville.'), ('Evening', 'Dinner at Story Inn.')]},
+    'indiana-dunes': {
+        'day': [('Arrive', 'Land at KMGC early.'), ('Midday', 'The Three Dune Challenge.'), ('Afternoon', 'West Beach, then back to the airport.')],
+        'extra': [('Morning', 'A trail through the woods.'), ('Afternoon', 'Washington Park beach.'), ('Evening', 'Dinner at Lucrezia.')]},
+    'chicago': {
+        'day': [('Arrive', 'Land at KPWK early and take a rideshare downtown.'), ('Midday', 'The architecture river cruise.'), ('Afternoon', 'Deep dish at Lou Malnati’s, then back to the airport.')],
+        'extra': [('Morning', 'The Art Institute.'), ('Afternoon', 'Millennium Park.'), ('Evening', 'Dinner at Girl & The Goat.')]},
+    'starved-rock': {
+        'day': [('Arrive', 'Land at KVYS early.'), ('Midday', 'Hike to St. Louis Canyon.'), ('Afternoon', 'Lunch at the lodge, then back to the airport.')],
+        'extra': [('Morning', 'Matthiessen State Park.'), ('Afternoon', 'Wine in Utica.'), ('Evening', 'Dinner at Starved Rock Lodge.')]},
+    'shawnee-hills': {
+        'day': [('Arrive', 'Land at KMWA early.'), ('Midday', 'Lunch at Blue Sky Vineyard.'), ('Afternoon', 'A second winery, then back to the airport.')],
+        'extra': [('Morning', 'Giant City’s sandstone trails.'), ('Afternoon', 'StarView and Rustle Hill.'), ('Evening', 'Dinner at Giant City Lodge.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

@@ -364,3 +364,6 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Swept AirNav "Where to Eat" for 2,447 public 4-letter K airports outside NC/SC/VA/FL; kept listings marked "on airport" or within 0.3 mi. 55 airports had one; added 39 new (dropped campground, museum, sports park, Applebee's, off-field Chinese/pizza, Le Relais, Casa Machado duplicate). 92 spots total.
 - These newer entries have generic descriptions ("details are limited; call ahead") and meals guessed from the name. AirNav listings can be stale.
 - Not yet swept: non-K 3-character FAA IDs (small fields like 1C5, 6B6) and the Southeast states. Scripts: scratchpad sweep.py / sweep.json.
+
+## Batch: Ohio, Indiana, Illinois (Nov 4, 2026)
+Nine drafts (#137–145), spec in scratchpad gen/oil1.py: Put-in-Bay (3W2, no FBO; Erie Island Carts), Hocking Hills (KLHQ Sundowner), Cleveland (KBKL Signature), Indianapolis (KEYE Jet Access), Brown County (KBMG Cook Aviation, towered), Indiana Dunes (KMGC), Chicago (KPWK Atlantic), Starved Rock (KVYS Midwest Avtech), Shawnee Hills (KMWA Midwest Aviation, towered). FBOs from AirNav; every card has an official link (checked with the honest link-check UA). Dropped: lolabistro.com and oldlighthousemuseum.org (hijacked), mabelsbbq.com (redirects elsewhere).

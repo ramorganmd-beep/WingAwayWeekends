@@ -2770,5 +2770,212 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "photo": {"slug": "bayfield", "remote": "https://images.unsplash.com/photo-1668888649538-078d73949455?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDgwfA&ixlib=rb-4.1.0", "alt": "Sandstone rock formations on Lake Superior in the Apostle Islands", "pos": "50% 50%"}
+},
+{
+ "name": "Put-in-Bay & the Lake Erie Islands",
+ "state": "Ohio",
+ "airport": "3W2",
+ "lat": 41.6545,
+ "lon": -82.813,
+ "desc": "Land right on South Bass Island: golf carts, island wineries, Perry’s Victory memorial and Lake Erie sunsets.",
+ "tags": [
+  "Lake",
+  "Wine",
+  "History",
+  "Dining"
+ ],
+ "guide": "put-in-bay/",
+ "stateCode": "OH",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hocking Hills",
+ "state": "Ohio",
+ "airport": "KLHQ",
+ "lat": 39.4351,
+ "lon": -82.539,
+ "desc": "Sandstone gorges, waterfalls and caves, an adults-only inn, cabins and a spa in the southeast Ohio hills.",
+ "tags": [
+  "Hiking",
+  "Outdoors",
+  "Romance",
+  "Spa",
+  "Stays"
+ ],
+ "guide": "hocking-hills/",
+ "stateCode": "OH",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Cleveland",
+ "state": "Ohio",
+ "airport": "KBKL",
+ "lat": 41.4993,
+ "lon": -81.6944,
+ "desc": "A downtown lakefront landing beside the Rock Hall, a world-class orchestra and art museum, Playhouse Square and the West Side Market.",
+ "tags": [
+  "Dining",
+  "History",
+  "Lake"
+ ],
+ "guide": "cleveland/",
+ "stateCode": "OH",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Indianapolis",
+ "state": "Indiana",
+ "airport": "KEYE",
+ "lat": 39.7684,
+ "lon": -86.1581,
+ "desc": "The Speedway museum, the Cultural Trail, Newfields, St. Elmo and a boutique hotel in an old bottling plant.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "indianapolis/",
+ "stateCode": "IN",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Brown County & Bloomington",
+ "state": "Indiana",
+ "airport": "KBMG",
+ "lat": 39.2073,
+ "lon": -86.2511,
+ "desc": "An artists’ village in the hills: Brown County State Park, a historic country inn, wineries and Bloomington dining.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Stays",
+  "Wine",
+  "Dining"
+ ],
+ "guide": "brown-county/",
+ "stateCode": "IN",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Indiana Dunes",
+ "state": "Indiana",
+ "airport": "KMGC",
+ "lat": 41.6106,
+ "lon": -87.0642,
+ "desc": "A national park on Lake Michigan: dunes, 15 miles of beaches and sunsets with the Chicago skyline on the horizon.",
+ "tags": [
+  "Beach",
+  "Hiking",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "indiana-dunes/",
+ "stateCode": "IN",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Chicago",
+ "state": "Illinois",
+ "airport": "KPWK",
+ "lat": 41.8781,
+ "lon": -87.6298,
+ "desc": "The big-city weekend: an architecture river cruise, the Art Institute, deep dish and a tasting menu, and a landmark hotel.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "chicago/",
+ "stateCode": "IL",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Starved Rock",
+ "state": "Illinois",
+ "airport": "KVYS",
+ "lat": 41.3184,
+ "lon": -88.9821,
+ "desc": "Sandstone canyons and waterfalls on the Illinois River, a 1930s log lodge, Utica wineries and winter eagle watching.",
+ "tags": [
+  "Hiking",
+  "Outdoors",
+  "History",
+  "Stays"
+ ],
+ "guide": "starved-rock/",
+ "stateCode": "IL",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Shawnee Hills Wine Trail",
+ "state": "Illinois",
+ "airport": "KMWA",
+ "lat": 37.5317,
+ "lon": -89.2531,
+ "desc": "A dozen wineries in southern Illinois’ hill country, Garden of the Gods, Giant City and a schoolhouse inn.",
+ "tags": [
+  "Wine",
+  "Hiking",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "shawnee-hills/",
+ "stateCode": "IL",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
