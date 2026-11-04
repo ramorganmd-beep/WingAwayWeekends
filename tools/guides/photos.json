@@ -1388,17 +1388,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2010630114/\">Theatre Marquee, Fargo, North Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "bismarck": {
-    "slug": "cape-may-beach",
+    "slug": "bismarck-capitol",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The North Dakota State Capitol tower in Bismarck",
     "w": 960,
     "h": 720,
-    "caption": "Bismarck & Mandan (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "North Dakota State Capitol, Bismarck",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011631471/\">[State capitol building, Bismarck, North Dakota]</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "peace-garden": {
     "slug": "cape-may-beach",
@@ -1439,17 +1438,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2010630796/\">Capitol building Lincoln, Nebraska</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "scottsbluff": {
-    "slug": "cape-may-beach",
+    "slug": "scottsbluff-chimney-rock",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Chimney Rock rising above the Nebraska prairie",
     "w": 960,
     "h": 720,
-    "caption": "Scotts Bluff & Chimney Rock (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Chimney Rock, Nebraska",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2021757960/\">The iconic Chimney Rock, now a U.S. national monument, stands out in the distance in Morrill County, Nebraska</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "valentine": {
     "slug": "cape-may-beach",
@@ -1465,17 +1463,17 @@
     "placeholder": true
   },
   "wichita": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1722655669232-dd7b936627a3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The downtown Wichita skyline across the Arkansas River",
     "w": 960,
     "h": 720,
-    "caption": "Wichita (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Wichita from the river",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@americanjael?utm_source=wingaway_weekends&utm_medium=referral\">American Jael</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-with-buildings-in-the-background-JRLxwGoGXmI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "flint-hills": {
     "slug": "https://images.unsplash.com/photo-1591155411586-73f5f328f798?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDY1fA&ixlib=rb-4.1.0",
@@ -1491,56 +1489,55 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@mhammel?utm_source=wingaway_weekends&utm_medium=referral\">Mary Hammel</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-grass-field-during-daytime-tBQfJLF-7EA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lawrence": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1773783388664-68721884bd0f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTM3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Jayhawk statue at the University of Kansas in Lawrence",
     "w": 960,
     "h": 720,
-    "caption": "Lawrence (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Jayhawk, University of Kansas",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@photosbybrady?utm_source=wingaway_weekends&utm_medium=referral\">Brady Knutson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/jayhawk-mascot-statue-at-the-university-of-kansas-t9AoKZkNtNA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lindsborg": {
-    "slug": "cape-may-beach",
+    "slug": "lindsborg-old-mill",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Old Mill Museum and Smoky Valley Roller Mill in Lindsborg, Kansas",
     "w": 960,
     "h": 720,
-    "caption": "Lindsborg & Abilene (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Old Mill Museum, Lindsborg",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2020742096/\">The Old Mill Museum in Lindsborg, Kansas, which the locals are fond of calling \"Little Sweden, U.S.A.\"</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "traverse-city": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1605126352475-dde6bf5503f9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTI0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Fall color on a peninsula in Grand Traverse Bay near Traverse City",
     "w": 960,
     "h": 720,
-    "caption": "Traverse City (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Grand Traverse Bay in fall",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nipez?utm_source=wingaway_weekends&utm_medium=referral\">Nick Perez</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-and-brown-trees-near-body-of-water-during-daytime-EpFjmHIIJgo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "saugatuck": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1478554180052-7811ee7d5e9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A wooded trail in golden fall color in Saugatuck, Michigan",
     "w": 960,
     "h": 720,
-    "caption": "Saugatuck & Holland (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A fall trail in Saugatuck",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=wingaway_weekends&utm_medium=referral\">Aaron Burden</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/pathway-surrounded-with-trees-sfEr0jw2sp8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "harbor-springs": {
     "slug": "cape-may-beach",
@@ -1569,17 +1566,17 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@nancy_ketchman?utm_source=wingaway_weekends&utm_medium=referral\">Nancy Ketchman</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-path-leading-to-a-beach-with-a-view-of-the-ocean-S4Ld79FO0X8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-geneva": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1690084516271-fb167a474e01?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTMwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A wooden pier reaching into Geneva Lake, Wisconsin",
     "w": 960,
     "h": 720,
-    "caption": "Lake Geneva (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A pier on Geneva Lake",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@vincentyuan87?utm_source=wingaway_weekends&utm_medium=referral\">Vincent Y @USA</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-dock-on-a-lake-with-trees-in-the-background-SOTD91_mT-k?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "madison": {
     "slug": "https://images.unsplash.com/photo-1687285363668-2bec13abad5a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg3fA&ixlib=rb-4.1.0",

@@ -3468,5 +3468,237 @@
     "sha256": "525403659ae0689c6cbbb0a7160dbb09b29e024355df5fb6f5a655271e5b055a"
    }
   ]
+ },
+ {
+  "destination": "Bismarck & Mandan",
+  "title": "[State capitol building, Bismarck, North Dakota]",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011631471/",
+  "original_image_url": "https://www.loc.gov/item/2011631471/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3000,
+   "height": 2433
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The North Dakota State Capitol tower in Bismarck",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bismarck-capitol-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 18048,
+    "sha256": "b0e19208fd363ad52dff683c1d71d6c3238a6f98d326a8c50ef1a9968e47dd68"
+   },
+   {
+    "path": "dist/assets/destinations/bismarck-capitol-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 28521,
+    "sha256": "86ebf63867befe1924e4993ecc3ae486062ba02e9d786482831a34bffdaff5a6"
+   },
+   {
+    "path": "dist/assets/destinations/bismarck-capitol-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 54310,
+    "sha256": "d98acfb3e17a8ded08359afede83ca2a3201285a08875b42ec95af6fe48fc7ae"
+   },
+   {
+    "path": "dist/assets/destinations/bismarck-capitol-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 95151,
+    "sha256": "c2f6a418490be4f6511b7d4b00e3554f2a977f284ccfc0a82fdc9a332ab4c48a"
+   }
+  ]
+ },
+ {
+  "destination": "Scotts Bluff & Chimney Rock",
+  "title": "The iconic Chimney Rock, now a U.S. national monument, stands out in the distance in Morrill County, Nebraska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021757960/",
+  "original_image_url": "https://www.loc.gov/item/2021757960/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Chimney Rock rising above the Nebraska prairie",
+  "files": [
+   {
+    "path": "dist/assets/destinations/scottsbluff-chimney-rock-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 11946,
+    "sha256": "05ccb8bee1e3ecfeb54f465e548132f69edf3618fbbcc622ec3e8384f0a9c577"
+   },
+   {
+    "path": "dist/assets/destinations/scottsbluff-chimney-rock-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 20334,
+    "sha256": "7edab44411eaa2832376a17ddcc36504471769fd5e271756dc5e6ff3462e50cd"
+   },
+   {
+    "path": "dist/assets/destinations/scottsbluff-chimney-rock-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 51866,
+    "sha256": "26af443dcbf8ca37924f50a20ce67a2869f1c34bf8a6e71a044db8d896657c01"
+   },
+   {
+    "path": "dist/assets/destinations/scottsbluff-chimney-rock-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 77113,
+    "sha256": "ebd2b1aabdb9515b88a174f3b5c2d6ed2402ba4bc14a7cb0504d7c048ac67e98"
+   }
+  ]
+ },
+ {
+  "destination": "Lindsborg & Abilene",
+  "title": "The Old Mill Museum in Lindsborg, Kansas, which the locals are fond of calling \"Little Sweden, U.S.A.\"",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2020742096/",
+  "original_image_url": "https://www.loc.gov/item/2020742096/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Old Mill Museum and Smoky Valley Roller Mill in Lindsborg, Kansas",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lindsborg-old-mill-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 58366,
+    "sha256": "c20e739e46901065cc3d52e89b85135a71246ecf03bf15a54579b0acc5723016"
+   },
+   {
+    "path": "dist/assets/destinations/lindsborg-old-mill-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 64637,
+    "sha256": "3d1b0246a7469be9de28e45d2132929299a9a5f4ec39aa3c1edc2a2d667fa46e"
+   },
+   {
+    "path": "dist/assets/destinations/lindsborg-old-mill-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 237154,
+    "sha256": "5e1df7b3c1a85db6d910ea3b6f8a80adaf93f4dd5d9d8b9c01fce684a5242b1b"
+   },
+   {
+    "path": "dist/assets/destinations/lindsborg-old-mill-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 258803,
+    "sha256": "81bf2d33a412edc2cd1c69b0126ecafb1f7db224bb7df9e778b940fa3296580b"
+   }
+  ]
+ },
+ {
+  "destination": "Traverse City",
+  "title": "Grand Traverse Bay in fall",
+  "photographer": "Nick Perez",
+  "source_page_url": "https://unsplash.com/photos/green-and-brown-trees-near-body-of-water-during-daytime-EpFjmHIIJgo",
+  "original_image_url": "https://images.unsplash.com/photo-1605126352475-dde6bf5503f9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTI0fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Fall color on a peninsula in Grand Traverse Bay near Traverse City",
+  "date_taken": null,
+  "files": [],
+  "location": "Traverse City, MI (Unsplash location)"
+ },
+ {
+  "destination": "Saugatuck & Holland",
+  "title": "A fall trail in Saugatuck",
+  "photographer": "Aaron Burden",
+  "source_page_url": "https://unsplash.com/photos/pathway-surrounded-with-trees-sfEr0jw2sp8",
+  "original_image_url": "https://images.unsplash.com/photo-1478554180052-7811ee7d5e9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAxfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A wooded trail in golden fall color in Saugatuck, Michigan",
+  "date_taken": null,
+  "files": [],
+  "location": "Saugatuck, MI (Unsplash location)"
+ },
+ {
+  "destination": "Lake Geneva",
+  "title": "A pier on Geneva Lake",
+  "photographer": "Vincent Y @USA",
+  "source_page_url": "https://unsplash.com/photos/a-dock-on-a-lake-with-trees-in-the-background-SOTD91_mT-k",
+  "original_image_url": "https://images.unsplash.com/photo-1690084516271-fb167a474e01?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTMwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A wooden pier reaching into Geneva Lake, Wisconsin",
+  "date_taken": null,
+  "files": [],
+  "location": "Lake Geneva, WI (Unsplash location)"
+ },
+ {
+  "destination": "Wichita",
+  "title": "Downtown Wichita from the river",
+  "photographer": "American Jael",
+  "source_page_url": "https://unsplash.com/photos/a-body-of-water-with-buildings-in-the-background-JRLxwGoGXmI",
+  "original_image_url": "https://images.unsplash.com/photo-1722655669232-dd7b936627a3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAzfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The downtown Wichita skyline across the Arkansas River",
+  "date_taken": null,
+  "files": [],
+  "location": "Exploration Place, Wichita (Unsplash location and description)"
+ },
+ {
+  "destination": "Lawrence",
+  "title": "The Jayhawk, University of Kansas",
+  "photographer": "Brady Knutson",
+  "source_page_url": "https://unsplash.com/photos/jayhawk-mascot-statue-at-the-university-of-kansas-t9AoKZkNtNA",
+  "original_image_url": "https://images.unsplash.com/photo-1773783388664-68721884bd0f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTM3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Jayhawk statue at the University of Kansas in Lawrence",
+  "date_taken": null,
+  "files": [],
+  "location": "University of Kansas, Lawrence (Unsplash location and description)"
  }
 ]
