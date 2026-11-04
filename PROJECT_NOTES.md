@@ -352,4 +352,5 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 ## Fly to Lunch expansion (Nov 4)
 - Added 19 spots, each confirmed on its current AirNav listing (or a 2025 article for Southern Flyer): OH (KI74, KTSO), MI (KMKG, 61D, KJXN), IN (05C), WI (KMSN), IL (1C5), MN (KSTP), NJ (KWWD), NH (KAFN), MD (KHGR), KY (2I3), OK (KADM, KPNC), AR (3M0), KS (KHUT, 07S), TX (11R).
 - If nothing is within the chosen flight time, the page now shows the three closest spots instead of an empty list.
+- Round 2 (Nov 4): +13 Northeast/West (KPOU, KPYM, 6B6, KPTW, KHYA, KCQX, B06, KAPA, KSEZ, 0S9, S43, KSQL, 3O8) and +5 South/West (KDYR, KFPR, KCHD, KSGU, LA52 private strip with lat/lon). 53 spots total.
 - Not added (not on current AirNav or uncertain): Le Relais KLOU (domain for sale), Skyline Diner 38D, Tin Goose KPCW, Donna's 1N7, Hangar B KCQX, Bessie's KJVL, Blackerby's KBAK. Gaps: PA, NY, New England beyond NH, West Virginia, Plains north of KS, the West.
