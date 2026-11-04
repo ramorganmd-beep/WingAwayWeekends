@@ -829,3 +829,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Laura Durán on Unsplash — https://unsplash.com/photos/ferris-wheel-on-atlantic-city-boardwalk-BYBxnqCprPA
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Steel Pier, Atlantic City (Unsplash location)
+
+## Flint Hills
+
+- Photo by Mary Hammel on Unsplash — https://unsplash.com/photos/green-grass-field-during-daytime-tBQfJLF-7EA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Konza Prairie, KS (Unsplash location)
+
+## Omaha
+
+- Photo by John Matychuk on Unsplash — https://unsplash.com/photos/a-view-of-a-city-with-a-lake-in-the-foreground-WUwFAZI4Cz0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Omaha, NE (Unsplash location)
+
+## Kohler
+
+- Photo by Nancy Ketchman on Unsplash — https://unsplash.com/photos/a-path-leading-to-a-beach-with-a-view-of-the-ocean-S4Ld79FO0X8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kohler-Andrae State Park, Sheboygan (Unsplash location)
+
+## Madison
+
+- Photo by Nils Huenerfuerst on Unsplash — https://unsplash.com/photos/an-aerial-view-of-the-capital-building-in-washington-dc-dbzUckgK_4M
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Madison, WI (Unsplash location and description)

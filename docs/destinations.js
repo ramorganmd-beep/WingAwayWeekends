@@ -2530,11 +2530,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NE",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "omaha", "remote": "https://images.unsplash.com/photo-1690902931404-161eab201d95?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg2fA&ixlib=rb-4.1.0", "alt": "The Omaha skyline across a park lake", "pos": "50% 50%"}
 },
 {
  "name": "Lincoln",
@@ -2636,11 +2632,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KS",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "flint-hills", "remote": "https://images.unsplash.com/photo-1591155411586-73f5f328f798?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDY1fA&ixlib=rb-4.1.0", "alt": "Rocky tallgrass prairie at Konza Prairie in the Kansas Flint Hills", "pos": "50% 50%"}
 },
 {
  "name": "Lawrence",
@@ -2770,11 +2762,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kohler", "remote": "https://images.unsplash.com/photo-1717097902827-9cccce31954a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDY2fA&ixlib=rb-4.1.0", "alt": "A dune path to the Lake Michigan beach at Kohler-Andrae State Park", "pos": "50% 50%"}
 },
 {
  "name": "Lake Geneva",
@@ -2816,10 +2804,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "madison", "remote": "https://images.unsplash.com/photo-1687285363668-2bec13abad5a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg3fA&ixlib=rb-4.1.0", "alt": "Aerial view of the Wisconsin State Capitol on the Madison isthmus between two lakes", "pos": "50% 50%"}
 },
 {
  "name": "Bayfield & the Apostle Islands",
