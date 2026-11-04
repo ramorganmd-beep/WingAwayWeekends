@@ -1027,7 +1027,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OH",
  "region": "Midwest",
  "family": true,
- "photo": {"slug": "dayton-wright-b-flyer", "alt": "A Wright B Flyer biplane in the air over Huffman Prairie Flying Field in Dayton, about 1910"}
+ "photo": {"slug": "dayton", "remote": "https://images.unsplash.com/photo-1668438602570-a5e51a426bf4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5NTg3fA&ixlib=rb-4.1.0", "alt": "The blue and white nose of a presidential Air Force One at the National Museum of the U.S. Air Force", "pos": "50% 40%"}
 },
 {
  "name": "Mackinac Island",
