@@ -341,3 +341,10 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Builders now generated from compact specs: scratchpad gen/mk.py + gen/ne1.py (simple_guide format).
 - Dropped: Hazelnut Kitchen (site expired), Marsha Brown (domain parked), Frogtown Chophouse (empty site), Danforth Inn (site down).
 - Batch 2a (Nov 4): Block Island #100 (KBID, no FBO/fuel), Providence #101, Watch Hill & Westerly #102 (KWST), New Haven #103 (KHVN), Essex & the CT River #104 (KSNC), Litchfield Hills #105 (KOXC), Asbury Park & Spring Lake #106 (KBLM), Atlantic City #107 (KACY). RI, CT, NJ now at 4. Dropped: Dean Hotel, Bee and Thistle, White House Subs link (sites down). Batch 2b (Nov 4): Woodstock VT #108 (KLEB), Manchester VT #109 (KDDH), Burlington VT #110 (KBTV), Bretton Woods & Franconia Notch #111 (KHIE), Lake Winnipesaukee #112 (KLCI), North Conway & Jackson #113 (KIZG). Every Northeast state now has 4+. Next: Great Plains (ND, SD, NE, KS, OK). Then the Great Plains region (ND, SD, NE, KS, OK).
+
+## Great Plains batch 1 (Nov 4, drafts)
+- SD: Black Hills & Custer SP #114 (KRAP), Deadwood & Spearfish Canyon #115 (KSPF), Badlands #116 (KRAP), Sioux Falls #117 (KFSD).
+- ND: Medora & Theodore Roosevelt NP #118 (KDIK), Fargo #119 (KFAR, air museum on field), Bismarck & Mandan #120 (KBIS), International Peace Garden & Turtle Mountains #121 (D09).
+- These are 1,000–1,340 nm from KMYR; mk.py now writes "two fuel stops, four or more nights" for >900 nm.
+- Lodging links thin in ND (visitor-bureau cards used where hotel sites were unreachable). Dropped: adamsmuseumandhouse.org (hijacked), Rhombus Guys (site now fundraisers).
+- Next: NE and KS (batch 2), OK (batch 3).

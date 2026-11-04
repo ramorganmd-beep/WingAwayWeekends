@@ -2439,5 +2439,182 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Black Hills & Custer State Park",
+ "state": "South Dakota",
+ "airport": "KRAP",
+ "lat": 43.7666,
+ "lon": -103.6022,
+ "desc": "Mount Rushmore, bison on Custer State Park’s Wildlife Loop, the Needles Highway, Crazy Horse and historic park lodges.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "History"
+ ],
+ "guide": "black-hills/",
+ "stateCode": "SD",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Deadwood & Spearfish Canyon",
+ "state": "South Dakota",
+ "airport": "KSPF",
+ "lat": 44.3767,
+ "lon": -103.7296,
+ "desc": "The Old West town of Wild Bill Hickok, historic hotels and saloons, and the waterfalls of Spearfish Canyon.",
+ "tags": [
+  "History",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "deadwood/",
+ "stateCode": "SD",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Badlands",
+ "state": "South Dakota",
+ "airport": "KRAP",
+ "lat": 43.7489,
+ "lon": -101.9415,
+ "desc": "Eroded pinnacles and prairie in Badlands National Park, a cabin lodge inside the park, dark-sky programs, a Cold War missile site and Wall Drug.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "badlands/",
+ "stateCode": "SD",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sioux Falls",
+ "state": "South Dakota",
+ "airport": "KFSD",
+ "lat": 43.5446,
+ "lon": -96.7311,
+ "desc": "Pink quartzite waterfalls in the middle of town, a sculpture walk, a boutique hotel and a lively downtown.",
+ "tags": [
+  "Dining",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "sioux-falls/",
+ "stateCode": "SD",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Medora & Theodore Roosevelt NP",
+ "state": "North Dakota",
+ "airport": "KDIK",
+ "lat": 46.9139,
+ "lon": -103.5244,
+ "desc": "Theodore Roosevelt National Park’s badlands and wild horses, the Medora Musical, a pitchfork steak fondue and the new Theodore Roosevelt Presidential Library.",
+ "tags": [
+  "Outdoors",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "medora/",
+ "stateCode": "ND",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Fargo",
+ "state": "North Dakota",
+ "airport": "KFAR",
+ "lat": 46.8772,
+ "lon": -96.7898,
+ "desc": "A lively downtown: the art-filled Hotel Donaldson, the Fargo Theatre, the Fargo Air Museum and the Plains Art Museum.",
+ "tags": [
+  "Aviation museums",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "fargo/",
+ "stateCode": "ND",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bismarck & Mandan",
+ "state": "North Dakota",
+ "airport": "KBIS",
+ "lat": 46.8083,
+ "lon": -100.7837,
+ "desc": "Lewis and Clark country on the Missouri: the State Museum, Fort Abraham Lincoln and On-A-Slant Village, the Capitol and riverside dining.",
+ "tags": [
+  "History",
+  "Dining"
+ ],
+ "guide": "bismarck/",
+ "stateCode": "ND",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "International Peace Garden & Turtle Mountains",
+ "state": "North Dakota",
+ "airport": "D09",
+ "lat": 48.9926,
+ "lon": -100.0596,
+ "desc": "A garden straddling the Canadian border, quiet lakes and forest in the Turtle Mountains, and cabins at Lake Metigoshe.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "peace-garden/",
+ "stateCode": "ND",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
