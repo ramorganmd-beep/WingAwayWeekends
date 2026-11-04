@@ -335,3 +335,9 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - Library of Congress (Carol M. Highsmith, public domain): Oxford (downtown Square), Clarksdale (Terry "Harmonica" Bean at Red's), Eureka Springs (fall road).
 - Rejected by location check: Natchez 1 (Natchez steamboat in New Orleans), Bay St. Louis 2 (Louisville riverboat), Lafayette 9 (St. Louis Cathedral, New Orleans), Fairhope 1 (Noccalula Falls, Gadsden), Lake Martin 1 (O'Neill Bridge, Florence AL).
 - Still need photos: Natchez, Bay St. Louis, Lafayette, Fairhope, Lake Martin, Natchitoches (Southeast, approved); plus Texas, Heartland batch 2, MD/WV/KY drafts.
+
+## Northeast batch 1 (Nov 4, drafts)
+- Finger Lakes #93 (KITH), New Hope & Bucks County #94 (KDYL), Pocono Mountains #95 (KMPO), Camden & Midcoast Maine #96 (KRKD, Owls Head museum on field), Portland ME #97 (KPWM), Chatham & Cape Cod #98 (KCQX), Princeton #99 (39N).
+- Builders now generated from compact specs: scratchpad gen/mk.py + gen/ne1.py (simple_guide format).
+- Dropped: Hazelnut Kitchen (site expired), Marsha Brown (domain parked), Frogtown Chophouse (empty site), Danforth Inn (site down).
+- Still to reach four per state in the Northeast: NJ +2, RI +3, VT +3, CT +3, NH +3. Then the Great Plains region (ND, SD, NE, KS, OK).
