@@ -651,6 +651,27 @@ PLANS = {
     'lindsborg': {
         'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to Lindsborg.'), ('Afternoon', 'The Sandzén Gallery and Coronado Heights.')],
         'extra': [('Morning', 'The Sandzén Gallery and Coronado Heights.'), ('Afternoon', 'Drive to Abilene.'), ('Evening', 'Dinner in Abilene.')]},
+    'traverse-city': {
+        'day': [('Arrive', 'Land at KTVC early.'), ('Midday', 'Walk downtown and the bay.'), ('Afternoon', 'Sleeping Bear Dunes, then back to the airport.')],
+        'extra': [('Morning', 'Sleeping Bear Dunes.'), ('Afternoon', 'Leelanau wineries and Farm Club.'), ('Evening', 'Dinner at Mission Table.')]},
+    'saugatuck': {
+        'day': [('Arrive', 'Land at KBIV early.'), ('Midday', 'Walk Saugatuck’s galleries.'), ('Afternoon', 'Oval Beach, then back to the airport.')],
+        'extra': [('Morning', 'Oval Beach.'), ('Afternoon', 'A dune ride.'), ('Evening', 'Dinner at Everyday People Cafe.')]},
+    'harbor-springs': {
+        'day': [('Arrive', 'Land at KMGN early.'), ('Midday', 'Walk Harbor Springs.'), ('Afternoon', 'Drive the Tunnel of Trees, then back to the airport.')],
+        'extra': [('Morning', 'Drive the Tunnel of Trees.'), ('Afternoon', 'Lunch at Legs Inn, then Petoskey State Park.'), ('Evening', 'Dinner in Petoskey.')]},
+    'kohler': {
+        'day': [('Arrive', 'Land at KSBM early.'), ('Midday', 'Check in and walk the village.'), ('Afternoon', 'The Kohler Waters Spa, then back to the airport.')],
+        'extra': [('Morning', 'The Kohler Waters Spa.'), ('Afternoon', 'The Arts Center.'), ('Evening', 'Dinner at The Immigrant.')]},
+    'lake-geneva': {
+        'day': [('Arrive', 'Land at KBUU early.'), ('Midday', 'Walk downtown and part of the Shore Path.'), ('Afternoon', 'The Mail Boat cruise, then back to the airport.')],
+        'extra': [('Morning', 'The Mail Boat cruise.'), ('Afternoon', 'The spa.'), ('Evening', 'Dinner at Pier 290.')]},
+    'madison': {
+        'day': [('Arrive', 'Land at KMSN early.'), ('Midday', 'Walk the Capitol and State Street.'), ('Afternoon', 'The farmers’ market, then back to the airport.')],
+        'extra': [('Morning', 'The farmers’ market.'), ('Afternoon', 'Taliesin.'), ('Evening', 'Dinner at L’Etoile.')]},
+    'bayfield': {
+        'day': [('Arrive', 'Land at KASX early.'), ('Midday', 'Walk the harbor.'), ('Afternoon', 'A sea-cave cruise or kayak tour, then back to the airport.')],
+        'extra': [('Morning', 'A sea-cave cruise or kayak tour.'), ('Afternoon', 'The ferry to Madeline Island.'), ('Evening', 'Dinner at the Old Rittenhouse Inn.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

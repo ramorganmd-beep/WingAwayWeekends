@@ -2791,5 +2791,164 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Traverse City",
+ "state": "Michigan",
+ "airport": "KTVC",
+ "lat": 44.7631,
+ "lon": -85.6206,
+ "desc": "Northern Michigan’s wine and cherry country: Sleeping Bear Dunes, Old Mission and Leelanau wineries, a winery inn and farm-to-table dining on the bay.",
+ "tags": [
+  "Wine",
+  "Beach",
+  "Hiking",
+  "Spa",
+  "Dining"
+ ],
+ "guide": "traverse-city/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Saugatuck & Holland",
+ "state": "Michigan",
+ "airport": "KBIV",
+ "lat": 42.6556,
+ "lon": -86.2014,
+ "desc": "An arts town on Lake Michigan: Oval Beach, dune rides, a riverboat, historic inns and Holland’s tulips and Dutch windmill.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "saugatuck/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Harbor Springs & Petoskey",
+ "state": "Michigan",
+ "airport": "KMGN",
+ "lat": 45.4317,
+ "lon": -84.9917,
+ "desc": "Little Traverse Bay: a historic Petoskey hotel, the Tunnel of Trees drive to Legs Inn, Petoskey stones and a classic resort town.",
+ "tags": [
+  "Scenic views",
+  "Stays",
+  "Beach"
+ ],
+ "guide": "harbor-springs/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Kohler",
+ "state": "Wisconsin",
+ "airport": "KSBM",
+ "lat": 43.7389,
+ "lon": -87.7815,
+ "desc": "A five-star resort village: The American Club, the Kohler Waters Spa, Whistling Straits golf, an arts center and Lake Michigan.",
+ "tags": [
+  "Spa",
+  "Golf",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "kohler/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Geneva",
+ "state": "Wisconsin",
+ "airport": "KBUU",
+ "lat": 42.5917,
+ "lon": -88.4334,
+ "desc": "Chicago’s classic lake retreat: Gilded Age mansions on a 21-mile shore path, mail-boat cruises, resort spas and lakefront dining.",
+ "tags": [
+  "Lake",
+  "Spa",
+  "Stays",
+  "History"
+ ],
+ "guide": "lake-geneva/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Madison",
+ "state": "Wisconsin",
+ "airport": "KMSN",
+ "lat": 43.0747,
+ "lon": -89.3842,
+ "desc": "A lively capital on an isthmus between two lakes: the Capitol Square farmers’ market, the Memorial Union Terrace, a lakefront hotel and Frank Lloyd Wright’s Taliesin nearby.",
+ "tags": [
+  "Dining",
+  "Lake",
+  "History"
+ ],
+ "guide": "madison/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bayfield & the Apostle Islands",
+ "state": "Wisconsin",
+ "airport": "KASX",
+ "lat": 46.8108,
+ "lon": -90.8182,
+ "desc": "A Lake Superior harbor town: sea caves in the Apostle Islands, the Madeline Island ferry, orchards and a Victorian inn.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "bayfield/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

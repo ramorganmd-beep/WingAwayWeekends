@@ -354,3 +354,8 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - If nothing is within the chosen flight time, the page now shows the three closest spots instead of an empty list.
 - Round 2 (Nov 4): +13 Northeast/West (KPOU, KPYM, 6B6, KPTW, KHYA, KCQX, B06, KAPA, KSEZ, 0S9, S43, KSQL, 3O8) and +5 South/West (KDYR, KFPR, KCHD, KSGU, LA52 private strip with lat/lon). 53 spots total.
 - Not added (not on current AirNav or uncertain): Le Relais KLOU (domain for sale), Skyline Diner 38D, Tin Goose KPCW, Donna's 1N7, Hangar B KCQX, Bessie's KJVL, Blackerby's KBAK. Gaps: PA, NY, New England beyond NH, West Virginia, Plains north of KS, the West.
+
+## Midwest batch (Nov 4, drafts)
+- MI: Traverse City #130 (KTVC), Saugatuck & Holland #131 (KBIV), Harbor Springs & Petoskey #132 (KMGN). WI: Kohler #133 (KSBM), Lake Geneva #134 (KBUU), Madison #135 (KMSN), Bayfield & Apostle Islands #136 (KASX). MI now 4, WI 5.
+- Dropped: maggies-bayfield.com (hijacked); CityFlats Holland (now Grand Rapids only). Unlinked (site down): Trattoria Stella, Palette Bistro, Greunke's, The Old Fashioned, Gordy's, Inn on Woodlake.
+- Still at 1: OH, IN, IL (and MN at 1 under Heartland).

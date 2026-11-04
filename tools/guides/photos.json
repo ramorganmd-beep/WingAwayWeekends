@@ -1526,5 +1526,96 @@
     "caption": "Lindsborg & Abilene (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
     "placeholder": true
+  },
+  "traverse-city": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Traverse City (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "saugatuck": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Saugatuck & Holland (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "harbor-springs": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Harbor Springs & Petoskey (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "kohler": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Kohler (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lake-geneva": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake Geneva (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "madison": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Madison (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "bayfield": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Bayfield & the Apostle Islands (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }
