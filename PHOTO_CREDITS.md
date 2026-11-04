@@ -853,3 +853,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Nils Huenerfuerst on Unsplash — https://unsplash.com/photos/an-aerial-view-of-the-capital-building-in-washington-dc-dbzUckgK_4M
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Madison, WI (Unsplash location and description)
+
+## Finger Lakes
+
+- Photo by Carter Cortelyou on Unsplash — https://unsplash.com/photos/a-red-building-on-a-pier-Nr11pw9vhns
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Watkins Glen, NY (Unsplash location)
+
+## Bayfield & the Apostle Islands
+
+- Photo by Spencer Fitzgerald on Unsplash — https://unsplash.com/photos/a-large-rock-formation-next-to-a-body-of-water-tRZn6x6A5bE
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Apostle Islands, WI (Unsplash location)

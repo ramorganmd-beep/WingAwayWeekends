@@ -1045,17 +1045,17 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2020722431/\">The Iron Horse Memorial in Paducah, a Kentucky city at the confluence of the Ohio and Tennessee rivers</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "finger-lakes": {
-    "slug": "https://images.unsplash.com/photo-1663947735960-a753dc0ac98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
+    "slug": "https://images.unsplash.com/photo-1656012528566-934f9114ea72?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDc0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "A waterfall and stone gorge walls in Watkins Glen",
+    "alt": "A red building on a pier at the Seneca Lake harbor in Watkins Glen",
     "w": 960,
     "h": 720,
-    "caption": "Watkins Glen gorge",
+    "caption": "Seneca Lake harbor, Watkins Glen",
     "remote": "unsplash",
-    "credit_html": "Photo by <a href=\"https://unsplash.com/@hunterrei?utm_source=wingaway_weekends&utm_medium=referral\">Hunter Reilly</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-stream-with-a-bridge-over-it-BRIlt7r1-DA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@clcortelyou?utm_source=wingaway_weekends&utm_medium=referral\">Carter Cortelyou</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-red-building-on-a-pier-Nr11pw9vhns?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bucks-county": {
     "slug": "https://images.unsplash.com/photo-1663103732984-165cd8e7c948?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk2fA&ixlib=rb-4.1.0",
@@ -1596,16 +1596,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@nhuenerfuerst?utm_source=wingaway_weekends&utm_medium=referral\">Nils Huenerfuerst</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/an-aerial-view-of-the-capital-building-in-washington-dc-dbzUckgK_4M?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bayfield": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1668888649538-078d73949455?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDgwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Sandstone rock formations on Lake Superior in the Apostle Islands",
     "w": 960,
     "h": 720,
-    "caption": "Bayfield & the Apostle Islands (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Apostle Islands sandstone, Lake Superior",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@sfitzgerald7?utm_source=wingaway_weekends&utm_medium=referral\">Spencer Fitzgerald</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-rock-formation-next-to-a-body-of-water-tRZn6x6A5bE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
