@@ -2539,7 +2539,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NE",
  "region": "Great Plains",
  "family": false,
- "draft": true,
  "photo": {"slug": "lincoln-ne-capitol", "alt": "The Nebraska State Capitol tower in Lincoln"}
 },
 {
@@ -2767,7 +2766,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "madison", "remote": "https://images.unsplash.com/photo-1687285363668-2bec13abad5a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg3fA&ixlib=rb-4.1.0", "alt": "Aerial view of the Wisconsin State Capitol on the Madison isthmus between two lakes", "pos": "50% 50%"}
 },
 {
