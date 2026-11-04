@@ -627,6 +627,30 @@ PLANS = {
     'peace-garden': {
         'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Settle in at the lake.'), ('Afternoon', 'The International Peace Garden.')],
         'extra': [('Morning', 'The International Peace Garden.'), ('Afternoon', 'A paddle on Lake Metigoshe.'), ('Evening', 'Dinner in Bottineau.')]},
+    'omaha': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The Old Market and the pedestrian bridge.'), ('Afternoon', 'The SAC Aerospace Museum.')],
+        'extra': [('Morning', 'The SAC Aerospace Museum.'), ('Afternoon', 'Lauritzen Gardens.'), ('Evening', 'Steaks at Gorat’s.')]},
+    'lincoln-ne': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The State Capitol observation deck.'), ('Afternoon', 'The Sheldon Museum of Art.')],
+        'extra': [('Morning', 'The Sheldon Museum of Art.'), ('Afternoon', 'The International Quilt Museum.'), ('Evening', 'Dinner in the Haymarket.')]},
+    'scottsbluff': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The Scotts Bluff summit road.'), ('Afternoon', 'Hike the Saddle Rock Trail.')],
+        'extra': [('Morning', 'Hike the Saddle Rock Trail.'), ('Afternoon', 'Chimney Rock.'), ('Evening', 'Sunset at the rock.')]},
+    'valentine': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Settle in near the river.'), ('Afternoon', 'Float the Niobrara.')],
+        'extra': [('Morning', 'Float the Niobrara.'), ('Afternoon', 'Smith Falls.'), ('Evening', 'Dinner in town.')]},
+    'wichita': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The Kansas Aviation Museum.'), ('Afternoon', 'Botanica.')],
+        'extra': [('Morning', 'Botanica.'), ('Afternoon', 'Old Cowtown Museum.'), ('Evening', 'Dinner in Old Town.')]},
+    'flint-hills': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to Cottonwood Falls.'), ('Afternoon', 'Tallgrass Prairie National Preserve.')],
+        'extra': [('Morning', 'Tallgrass Prairie National Preserve.'), ('Afternoon', 'The Flint Hills Scenic Byway.'), ('Evening', 'Dinner at Hays House.')]},
+    'lawrence': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Walk Mass Street.'), ('Afternoon', 'The Spencer Museum of Art.')],
+        'extra': [('Morning', 'The Spencer Museum of Art.'), ('Afternoon', 'Campus and the overlook.'), ('Evening', 'Dinner at 715, then Liberty Hall.')]},
+    'lindsborg': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to Lindsborg.'), ('Afternoon', 'The Sandzén Gallery and Coronado Heights.')],
+        'extra': [('Morning', 'The Sandzén Gallery and Coronado Heights.'), ('Afternoon', 'Drive to Abilene.'), ('Evening', 'Dinner in Abilene.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

@@ -2616,5 +2616,180 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Omaha",
+ "state": "Nebraska",
+ "airport": "KMLE",
+ "lat": 41.2565,
+ "lon": -95.9345,
+ "desc": "The cobblestone Old Market, a world-class zoo, the Joslyn Art Museum, Lauritzen Gardens and the SAC Aerospace Museum.",
+ "tags": [
+  "Aviation museums",
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "omaha/",
+ "stateCode": "NE",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lincoln",
+ "state": "Nebraska",
+ "airport": "KLNK",
+ "lat": 40.8136,
+ "lon": -96.7026,
+ "desc": "A capital with a landmark art deco capitol tower, the Haymarket district, the Sheldon Museum of Art and the International Quilt Museum.",
+ "tags": [
+  "History",
+  "Dining"
+ ],
+ "guide": "lincoln-ne/",
+ "stateCode": "NE",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Scotts Bluff & Chimney Rock",
+ "state": "Nebraska",
+ "airport": "KBFF",
+ "lat": 41.8343,
+ "lon": -103.7068,
+ "desc": "Landmarks of the Oregon Trail: Scotts Bluff National Monument, Chimney Rock, wagon ruts and wide-open western Nebraska.",
+ "tags": [
+  "History",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "scottsbluff/",
+ "stateCode": "NE",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Valentine & the Niobrara",
+ "state": "Nebraska",
+ "airport": "KVTN",
+ "lat": 42.8728,
+ "lon": -100.551,
+ "desc": "The Sandhills and the Niobrara National Scenic River: canoeing and tubing, Smith Falls, a bison refuge and dark skies.",
+ "tags": [
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "valentine/",
+ "stateCode": "NE",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Wichita",
+ "state": "Kansas",
+ "airport": "KICT",
+ "lat": 37.6872,
+ "lon": -97.3301,
+ "desc": "The Air Capital of the World: the Kansas Aviation Museum, the Keeper of the Plains, Botanica, Old Town and a French bistro.",
+ "tags": [
+  "Aviation museums",
+  "Dining",
+  "History"
+ ],
+ "guide": "wichita/",
+ "stateCode": "KS",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Flint Hills",
+ "state": "Kansas",
+ "airport": "KEMP",
+ "lat": 38.3714,
+ "lon": -96.5422,
+ "desc": "The last great tallgrass prairie: Tallgrass Prairie National Preserve, a historic small-town hotel, an 1857 restaurant and the Symphony in the Flint Hills.",
+ "tags": [
+  "Outdoors",
+  "Scenic views",
+  "History",
+  "Stays"
+ ],
+ "guide": "flint-hills/",
+ "stateCode": "KS",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lawrence",
+ "state": "Kansas",
+ "airport": "KLWC",
+ "lat": 38.9717,
+ "lon": -95.2353,
+ "desc": "A lively college town: the historic Eldridge Hotel, Massachusetts Street, a famous brewpub, the Spencer Museum of Art and Liberty Hall.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "lawrence/",
+ "stateCode": "KS",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lindsborg & Abilene",
+ "state": "Kansas",
+ "airport": "KSLN",
+ "lat": 38.5736,
+ "lon": -97.6745,
+ "desc": "“Little Sweden, USA” with dala horses and a Sandzén gallery, plus Abilene’s Eisenhower Presidential Library and the Seelye Mansion.",
+ "tags": [
+  "History",
+  "Scenic views"
+ ],
+ "guide": "lindsborg/",
+ "stateCode": "KS",
+ "region": "Great Plains",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

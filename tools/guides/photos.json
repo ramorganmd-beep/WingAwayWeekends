@@ -1422,5 +1422,109 @@
     "caption": "International Peace Garden & Turtle Mountains (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
     "placeholder": true
+  },
+  "omaha": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Omaha (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lincoln-ne": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Lincoln (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "scottsbluff": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Scotts Bluff & Chimney Rock (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "valentine": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Valentine & the Niobrara (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "wichita": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Wichita (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "flint-hills": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Flint Hills (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lawrence": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Lawrence (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lindsborg": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Lindsborg & Abilene (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

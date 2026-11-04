@@ -347,4 +347,4 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - ND: Medora & Theodore Roosevelt NP #118 (KDIK), Fargo #119 (KFAR, air museum on field), Bismarck & Mandan #120 (KBIS), International Peace Garden & Turtle Mountains #121 (D09).
 - These are 1,000–1,340 nm from KMYR; mk.py now writes "two fuel stops, four or more nights" for >900 nm.
 - Lodging links thin in ND (visitor-bureau cards used where hotel sites were unreachable). Dropped: adamsmuseumandhouse.org (hijacked), Rhombus Guys (site now fundraisers).
-- Next: NE and KS (batch 2), OK (batch 3).
+- Batch 2 (Nov 4): Omaha #122 (KMLE; SAC museum), Lincoln #123 (KLNK), Scotts Bluff & Chimney Rock #124 (KBFF), Valentine & the Niobrara #125 (KVTN), Wichita #126 (KICT; Kansas Aviation Museum), Flint Hills #127 (KEMP), Lawrence #128 (KLWC), Lindsborg & Abilene #129 (KSLN). Lodging thin in Lincoln, Scottsbluff, Lindsborg (CVB cards). Next: OK (batch 3).
