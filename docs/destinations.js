@@ -2134,11 +2134,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "RI",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "watch-hill-sunset", "alt": "Sunset over the water at Watch Hill, Rhode Island"}
 },
 {
  "name": "New Haven",
@@ -2702,11 +2698,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MI",
  "region": "Midwest",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "harbor-springs-shay-house", "alt": "The 1876 Shay Hexagon House in Harbor Springs, Michigan"}
 },
 {
  "name": "Kohler",
