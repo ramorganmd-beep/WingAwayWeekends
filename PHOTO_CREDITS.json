@@ -4000,5 +4000,22 @@
   "date_taken": null,
   "files": [],
   "location": "Garden of the Gods, Herod, IL (Unsplash location and description)"
+ },
+ {
+  "destination": "Starved Rock",
+  "title": "A canyon waterfall at Starved Rock",
+  "photographer": "Ryan Heuer",
+  "source_page_url": "https://unsplash.com/photos/brown-rock-formation-on-river-T0jWY-HRyQI",
+  "original_image_url": "https://images.unsplash.com/photo-1615055111114-02519a801c8f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI4MjU3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A waterfall spilling into a pool in a sandstone canyon at Starved Rock State Park",
+  "date_taken": null,
+  "files": [],
+  "location": "Starved Rock State Park, Oglesby, IL (Unsplash location)"
  }
 ]
