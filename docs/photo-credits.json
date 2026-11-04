@@ -2353,5 +2353,54 @@
   "date_taken": null,
   "files": [],
   "location": "Marfa, TX (Unsplash location and description)"
+ },
+ {
+  "destination": "Bay St. Louis",
+  "title": "Scene in the Bay St. Louis Municipal Harbor in the Mississippi Gulf Coast city of Bay St. Louis",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017879034/",
+  "original_image_url": "https://www.loc.gov/item/2017879034/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2172,
+   "height": 1448
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "White fishing and pleasure boats moored in the Bay St. Louis Municipal Harbor",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bay-st-louis-harbor-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 19054,
+    "sha256": "4cdcb2841c228a54d57662c0daf71571da19197f73c06bf88361e2da5262b161"
+   },
+   {
+    "path": "dist/assets/destinations/bay-st-louis-harbor-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 26927,
+    "sha256": "4cb5ecf4b85e5d74e54ad3765be4c1d734536091cfb3cbdef410d9e51c653d69"
+   },
+   {
+    "path": "dist/assets/destinations/bay-st-louis-harbor-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 64762,
+    "sha256": "977d4d6378a0ad4d9d874ecbda955d4539674deb5d9b65f6e93ab3b58a17f407"
+   },
+   {
+    "path": "dist/assets/destinations/bay-st-louis-harbor-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 94924,
+    "sha256": "3559a90dbc63c85290d6d9a7193299480a643e25c0211cc6d33f008fc882848a"
+   }
+  ]
  }
 ]

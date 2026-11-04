@@ -591,3 +591,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Ronald Crow on Unsplash — https://unsplash.com/photos/a-water-tower-with-a-blue-sky-in-the-background-fJfUt75HdJA
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Marfa, TX (Unsplash location and description)
+
+## Bay St. Louis
+
+- Title: Scene in the Bay St. Louis Municipal Harbor in the Mississippi Gulf Coast city of Bay St. Louis
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017879034/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

@@ -766,17 +766,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2017880820/\">Downtown Oxford, Mississippi</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "bay-st-louis": {
-    "slug": "cape-may-beach",
+    "slug": "bay-st-louis-harbor",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "White fishing and pleasure boats moored in the Bay St. Louis Municipal Harbor",
     "w": 960,
     "h": 720,
-    "caption": "Bay St. Louis (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The municipal harbor, Bay St. Louis",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2017879034/\">Scene in the Bay St. Louis Municipal Harbor in the Mississippi Gulf Coast city of Bay St. Louis</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "st-francisville": {
     "slug": "https://images.unsplash.com/photo-1702690401395-767fe2cdf3a7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIwfA&ixlib=rb-4.1.0",
