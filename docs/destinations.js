@@ -1969,7 +1969,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": false,
- "photo": {"slug": "finger-lakes", "remote": "https://images.unsplash.com/photo-1663947735960-a753dc0ac98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0", "alt": "A waterfall and stone gorge walls in Watkins Glen", "pos": "50% 50%"}
+ "photo": {"slug": "finger-lakes", "remote": "https://images.unsplash.com/photo-1656012528566-934f9114ea72?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDc0fA&ixlib=rb-4.1.0", "alt": "A red building on a pier at the Seneca Lake harbor in Watkins Glen", "pos": "50% 50%"}
 },
 {
  "name": "New Hope & Bucks County",
@@ -2823,10 +2823,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bayfield", "remote": "https://images.unsplash.com/photo-1668888649538-078d73949455?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDgwfA&ixlib=rb-4.1.0", "alt": "Sandstone rock formations on Lake Superior in the Apostle Islands", "pos": "50% 50%"}
 }
 ];
