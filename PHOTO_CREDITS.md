@@ -511,3 +511,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2020741533/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Dayton
+
+- Photo by Sean Foster on Unsplash — https://unsplash.com/photos/a-large-white-airplane-TwXA1jVHP-8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: National Museum of the US Air Force, Dayton, OH (Unsplash location)
