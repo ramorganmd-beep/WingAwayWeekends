@@ -359,3 +359,8 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - MI: Traverse City #130 (KTVC), Saugatuck & Holland #131 (KBIV), Harbor Springs & Petoskey #132 (KMGN). WI: Kohler #133 (KSBM), Lake Geneva #134 (KBUU), Madison #135 (KMSN), Bayfield & Apostle Islands #136 (KASX). MI now 4, WI 5.
 - Dropped: maggies-bayfield.com (hijacked); CityFlats Holland (now Grand Rapids only). Unlinked (site down): Trattoria Stella, Palette Bistro, Greunke's, The Old Fashioned, Gordy's, Inn on Woodlake.
 - Still at 1: OH, IN, IL (and MN at 1 under Heartland).
+
+## Fly to Lunch AirNav sweep (Nov 4)
+- Swept AirNav "Where to Eat" for 2,447 public 4-letter K airports outside NC/SC/VA/FL; kept listings marked "on airport" or within 0.3 mi. 55 airports had one; added 39 new (dropped campground, museum, sports park, Applebee's, off-field Chinese/pizza, Le Relais, Casa Machado duplicate). 92 spots total.
+- These newer entries have generic descriptions ("details are limited; call ahead") and meals guessed from the name. AirNav listings can be stale.
+- Not yet swept: non-K 3-character FAA IDs (small fields like 1C5, 6B6) and the Southeast states. Scripts: scratchpad sweep.py / sweep.json.
