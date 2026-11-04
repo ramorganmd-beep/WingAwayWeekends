@@ -517,3 +517,17 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Sean Foster on Unsplash — https://unsplash.com/photos/a-large-white-airplane-TwXA1jVHP-8
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: National Museum of the US Air Force, Dayton, OH (Unsplash location)
+
+## Natchez
+
+- Title: Springtime in Natchez, Mississippi
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011630718/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Natchitoches
+
+- Photo by ana G. Pascual on Unsplash — https://unsplash.com/photos/a-pile-of-onions-sitting-next-to-each-other-ewOQzytT0EQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Natchitoches, LA (Unsplash location)
