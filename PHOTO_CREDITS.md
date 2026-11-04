@@ -761,3 +761,57 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2012631588/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## New Hope & Bucks County
+
+- Photo by Catherine Kerr on Unsplash — https://unsplash.com/photos/a-river-with-buildings-and-trees-35AaH3JfaIo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: New Hope, PA (Unsplash location and description)
+
+## Camden & Midcoast Maine
+
+- Photo by Benjamin R. on Unsplash — https://unsplash.com/photos/white-and-blue-boats-on-water-near-buildings-during-daytime-tKm5agAzRU4
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Camden, ME (Unsplash location and description)
+
+## Portland, Maine
+
+- Photo by Thomas Dewey on Unsplash — https://unsplash.com/photos/a-lighthouse-on-a-rocky-cliff-near-the-ocean-rW2xP6HahTY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Portland Head Light, identified visually; no Unsplash location
+
+## Chatham & Cape Cod
+
+- Photo by Rusty Watson on Unsplash — https://unsplash.com/photos/white-and-red-concrete-lighthouse-near-white-and-red-house-under-blue-sky-during-daytime-pRz878Pkt34
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Chatham, MA (Unsplash location and description)
+
+## Princeton
+
+- Photo by SooWan Jang on Unsplash — https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-v7LySg2TfPc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Princeton University (Unsplash location)
+
+## New Haven
+
+- Photo by Richard Liu on Unsplash — https://unsplash.com/photos/a-street-corner-with-a-large-building-in-the-background-7AxIUra4j3E
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Yale University, New Haven (Unsplash location)
+
+## Essex & the Connecticut River
+
+- Photo by Lance Grandahl on Unsplash — https://unsplash.com/photos/brown-metal-train-rail-near-rocky-mountain-during-daytime-nShLC-WruxQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Essex, CT (Unsplash location)
+
+## Asbury Park & Spring Lake
+
+- Photo by Ryan Loughlin on Unsplash — https://unsplash.com/photos/aerial-photography-of-buildings-near-ocean-during-golden-hour-Mc7-qHzG4oI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Asbury Park (Unsplash location)
+
+## Pocono Mountains
+
+- Photo by Gary Cole on Unsplash — https://unsplash.com/photos/a-lake-surrounded-by-lots-of-trees-in-the-fall-2XYBeWN_0VM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Bushkill, PA (Unsplash location and description)
