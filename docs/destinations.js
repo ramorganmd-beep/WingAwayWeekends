@@ -1852,11 +1852,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "deep-creek-lake-fall", "alt": "Fall color around Deep Creek Lake from the rocky shore of Deep Creek Lake State Park"}
 },
 {
  "name": "New River Gorge",

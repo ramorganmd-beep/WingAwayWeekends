@@ -3419,5 +3419,54 @@
   "date_taken": null,
   "files": [],
   "location": "Apostle Islands, WI (Unsplash location)"
+ },
+ {
+  "destination": "Deep Creek Lake",
+  "title": "Deep Creek Lake State Park in Maryland.jpg",
+  "photographer": "Nicolas Raymond from Bethesda, Maryland, USA",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Deep_Creek_Lake_State_Park_in_Maryland.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Deep_Creek_Lake_State_Park_in_Maryland.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1800,
+   "height": 1200
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Fall color around Deep Creek Lake from the rocky shore of Deep Creek Lake State Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/deep-creek-lake-fall-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33820,
+    "sha256": "643716427884bb4a82c4cfac5f672490a6f6e2789b32843ad072a5e991993167"
+   },
+   {
+    "path": "dist/assets/destinations/deep-creek-lake-fall-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41632,
+    "sha256": "e738408ab8439dc26f405bd329ef14b4d680741e8f3c001cfb6b38334d4498aa"
+   },
+   {
+    "path": "dist/assets/destinations/deep-creek-lake-fall-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 135828,
+    "sha256": "c3a897f489f4f8fa7d2f4f867e689d75f38e5450eed2e5ead7565d377c905c23"
+   },
+   {
+    "path": "dist/assets/destinations/deep-creek-lake-fall-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 167016,
+    "sha256": "525403659ae0689c6cbbb0a7160dbb09b29e024355df5fb6f5a655271e5b055a"
+   }
+  ]
  }
 ]

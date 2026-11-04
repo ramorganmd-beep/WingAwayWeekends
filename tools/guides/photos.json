@@ -969,17 +969,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@jeffmclain?utm_source=wingaway_weekends&utm_medium=referral\">Jeff McLain</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-W9-Q6pqHT1w?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "deep-creek-lake": {
-    "slug": "cape-may-beach",
+    "slug": "deep-creek-lake-fall",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Fall color around Deep Creek Lake from the rocky shore of Deep Creek Lake State Park",
     "w": 960,
     "h": 720,
-    "caption": "Deep Creek Lake (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Deep Creek Lake State Park in fall",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Deep_Creek_Lake_State_Park_in_Maryland.jpg\">Deep Creek Lake State Park in Maryland.jpg</a> — Nicolas Raymond from Bethesda, Maryland, USA · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>. Cropped to 4:3 and resized."
   },
   "new-river-gorge": {
     "slug": "https://images.unsplash.com/photo-1729874222079-c0287c7aa86c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkzNjQ2fA&ixlib=rb-4.1.0",
