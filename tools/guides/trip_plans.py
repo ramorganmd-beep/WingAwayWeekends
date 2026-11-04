@@ -507,6 +507,15 @@ PLANS = {
     'natchitoches': {
         'day': [('Arrive', 'Land at KIER mid-morning.'), ('Midday', 'Meat pies at Lasyone’s and Front Street.'), ('Afternoon', 'Oakland Plantation, then back to the airport.')],
         'extra': [('Morning', 'Melrose Plantation.'), ('Afternoon', 'A historic-district walk.'), ('Evening', 'Sunset on Cane River Lake.')]},
+    'little-rock': {
+        'day': [('Arrive', 'Land at KLIT early.'), ('Midday', 'Central High School with a ranger.'), ('Afternoon', 'The River Market, then back to the FBO.')],
+        'extra': [('Morning', 'Bike the Big Dam Bridge.'), ('Afternoon', 'Pinnacle Mountain.'), ('Evening', 'Dinner on the river.')]},
+    'st-louis': {
+        'day': [('Arrive', 'Land at KCPS early.'), ('Midday', 'The Gateway Arch tram.'), ('Afternoon', 'Lunch on The Hill, then back to the FBO.')],
+        'extra': [('Morning', 'The Art Museum in Forest Park.'), ('Afternoon', 'The Botanical Garden.'), ('Evening', 'Ted Drewes custard.')]},
+    'kansas-city': {
+        'day': [('Arrive', 'Land at KMKC mid-morning.'), ('Midday', 'The TWA Museum on the field, then barbecue at Joe’s.'), ('Afternoon', 'The Nelson-Atkins, then back to the FBO.')],
+        'extra': [('Morning', 'The WWI Museum.'), ('Afternoon', '18th & Vine.'), ('Evening', 'Jazz at the Blue Room.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
