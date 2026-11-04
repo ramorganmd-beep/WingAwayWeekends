@@ -603,6 +603,30 @@ PLANS = {
     'north-conway': {
         'day': [('Arrive', 'Land at KIZG early.'), ('Midday', 'Drive through the covered bridge to Jackson.'), ('Afternoon', 'The Conway Scenic Railroad, then back to the airport.')],
         'extra': [('Morning', 'The Conway Scenic Railroad.'), ('Afternoon', 'The Kancamagus Highway.'), ('Evening', 'Dinner at Moat Mountain.')]},
+    'black-hills': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to Custer State Park.'), ('Afternoon', 'The Wildlife Loop.')],
+        'extra': [('Morning', 'The Wildlife Loop.'), ('Afternoon', 'The Needles Highway and Sylvan Lake.'), ('Evening', 'Dinner at Delmonico Grill.')]},
+    'deadwood': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Walk Main Street.'), ('Afternoon', 'Spearfish Canyon waterfalls.')],
+        'extra': [('Morning', 'Spearfish Canyon waterfalls.'), ('Afternoon', 'Mount Moriah Cemetery.'), ('Evening', 'Dinner at the Bullock.')]},
+    'badlands': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to the park; sunset on the Loop Road.'), ('Afternoon', 'Sunrise hike on the Door Trail.')],
+        'extra': [('Morning', 'Sunrise hike on the Door Trail.'), ('Afternoon', 'The Minuteman Missile site.'), ('Evening', 'Dinner at the lodge.')]},
+    'sioux-falls': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Falls Park.'), ('Afternoon', 'SculptureWalk.')],
+        'extra': [('Morning', 'SculptureWalk.'), ('Afternoon', 'The Washington Pavilion.'), ('Evening', 'Dinner at Minervas.')]},
+    'medora': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Drive to Medora.'), ('Afternoon', 'The park’s scenic loop at sunrise.')],
+        'extra': [('Morning', 'The park’s scenic loop at sunrise.'), ('Afternoon', 'The Presidential Library.'), ('Evening', 'Dinner at Theodore’s.')]},
+    'fargo': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The Fargo Air Museum, on the field.'), ('Afternoon', 'The Plains Art Museum.')],
+        'extra': [('Morning', 'The Plains Art Museum.'), ('Afternoon', 'Walk downtown.'), ('Evening', 'A show at the Fargo Theatre.')]},
+    'bismarck': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'The State Capitol.'), ('Afternoon', 'The Heritage Center & State Museum.')],
+        'extra': [('Morning', 'The Heritage Center & State Museum.'), ('Afternoon', 'Fort Abraham Lincoln.'), ('Evening', 'Dinner at Pirogue Grille.')]},
+    'peace-garden': {
+        'day': [('Arrive', "A day trip isn't practical from the Southeast; this is a long-flight destination."), ('Midday', 'Settle in at the lake.'), ('Afternoon', 'The International Peace Garden.')],
+        'extra': [('Morning', 'The International Peace Garden.'), ('Afternoon', 'A paddle on Lake Metigoshe.'), ('Evening', 'Dinner in Bottineau.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
