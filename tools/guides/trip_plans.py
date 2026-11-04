@@ -468,6 +468,21 @@ PLANS = {
         'extra': [('Morning', 'The National WWII Museum.'),
                   ('Afternoon', 'The St. Charles streetcar and the Garden District.'),
                   ('Evening', 'A jazz dinner cruise on the Steamboat Natchez.')]},
+    'natchez': {
+        'day': [('Arrive', 'Land at KHEZ mid-morning.'), ('Midday', 'Melrose with a ranger, then lunch downtown.'), ('Afternoon', 'The bluff, then back to the airport.')],
+        'extra': [('Morning', 'Longwood.'), ('Afternoon', 'Drive the Natchez Trace to Emerald Mound.'), ('Evening', 'Sunset on the bluff.')]},
+    'oxford': {
+        'day': [('Arrive', 'Land at KUOX mid-morning.'), ('Midday', 'Lunch on the Square and Square Books.'), ('Afternoon', 'Rowan Oak, then back to the FBO.')],
+        'extra': [('Morning', 'The University Museum and Bailey’s Woods.'), ('Afternoon', 'Walk the campus and the Grove.'), ('Evening', 'Thacker Mountain Radio, if it’s on.')]},
+    'bay-st-louis': {
+        'day': [('Arrive', 'Land at KHSA mid-morning.'), ('Midday', 'INFINITY Science Center.'), ('Afternoon', 'Lunch on the beach in Old Town, then back to the FBO.')],
+        'extra': [('Morning', 'The Walter Anderson Museum in Ocean Springs.'), ('Afternoon', 'Galleries in Old Town.'), ('Evening', 'Sunset over the bay.')]},
+    'st-francisville': {
+        'day': [('Arrive', 'Land at KBTR early and drive north.'), ('Midday', 'Rosedown’s gardens and lunch in town.'), ('Afternoon', 'The historic district, then back to BTR.')],
+        'extra': [('Morning', 'The Audubon State Historic Site.'), ('Afternoon', 'A hike in the Tunica Hills.'), ('Evening', 'Dinner at The Myrtles.')]},
+    'lafayette': {
+        'day': [('Arrive', 'Land at KLFT mid-morning.'), ('Midday', 'Boudin at Johnson’s and Vermilionville.'), ('Afternoon', 'A Lake Martin swamp tour, then back to the FBO.')],
+        'extra': [('Morning', 'Zydeco breakfast at Buck & Johnny’s.'), ('Afternoon', 'Avery Island and Tabasco.'), ('Evening', 'Dancing at the Blue Moon Saloon.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
