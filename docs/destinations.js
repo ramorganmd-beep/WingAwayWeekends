@@ -1826,5 +1826,75 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Little Rock",
+ "state": "Arkansas",
+ "airport": "KLIT",
+ "lat": 34.7294,
+ "lon": -92.2248,
+ "desc": "A river city: Central High School’s civil rights history, the Clinton Center, the Big Dam Bridge and Pinnacle Mountain.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Hiking",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "little-rock/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "St. Louis",
+ "state": "Missouri",
+ "airport": "KCPS",
+ "lat": 38.5704,
+ "lon": -90.1551,
+ "desc": "The Gateway Arch, Forest Park’s free museums, the Botanical Garden, The Hill and Ted Drewes.",
+ "tags": [
+  "History",
+  "Dining",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "st-louis/",
+ "stateCode": "MO",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Kansas City",
+ "state": "Missouri",
+ "airport": "KMKC",
+ "lat": 39.1229,
+ "lon": -94.5928,
+ "desc": "Barbecue, jazz at 18th & Vine, the Nelson-Atkins, the WWI Museum and the TWA Museum at the downtown airport.",
+ "tags": [
+  "Dining",
+  "History",
+  "Aviation museums",
+  "Stays"
+ ],
+ "guide": "kansas-city/",
+ "stateCode": "MO",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
