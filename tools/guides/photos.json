@@ -1201,17 +1201,16 @@
     "placeholder": true
   },
   "litchfield-hills": {
-    "slug": "cape-may-beach",
+    "slug": "litchfield-barn",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A weathered red barn with an American flag near Litchfield",
     "w": 960,
     "h": 720,
-    "caption": "Litchfield Hills (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A barn near Litchfield",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2012631588/\">Barn near Litchfield, Connecticut</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "asbury-park": {
     "slug": "cape-may-beach",
@@ -1318,82 +1317,76 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@neilmewes?utm_source=wingaway_weekends&utm_medium=referral\">Neil Mewes</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-train-on-a-bridge-ULN9_8ZcM9U?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "black-hills": {
-    "slug": "cape-may-beach",
+    "slug": "black-hills-state-game-lodge",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The State Game Lodge in Custer State Park among pines and lawn",
     "w": 960,
     "h": 720,
-    "caption": "Black Hills & Custer State Park (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The State Game Lodge, Custer State Park",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2021757389/\">The State Game Lodge in Custer State Park, a popular and scenic hiking, biking, and fishing destination in southwest South Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "deadwood": {
-    "slug": "cape-may-beach",
+    "slug": "deadwood-main-street",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Historic brick buildings on Main Street in Deadwood",
     "w": 960,
     "h": 720,
-    "caption": "Deadwood & Spearfish Canyon (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Main Street, Deadwood",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011630205/\">Deadwood, South Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "badlands": {
-    "slug": "cape-may-beach",
+    "slug": "badlands-spires",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Eroded Badlands spires glowing in late light under a deep blue sky",
     "w": 960,
     "h": 720,
-    "caption": "Badlands (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Badlands National Park",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011631343/\">Badlands National Park in South Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "sioux-falls": {
-    "slug": "cape-may-beach",
+    "slug": "sioux-falls-falls-park",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The falls of the Big Sioux River over pink quartzite in Falls Park",
     "w": 960,
     "h": 720,
-    "caption": "Sioux Falls (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Falls Park, Sioux Falls",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2021756356/\">The falls that give the name to Sioux Falls, a city of 180,000 or so people (as of 2021) that is South Dakota's largest city</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "medora": {
-    "slug": "cape-may-beach",
+    "slug": "medora-badlands",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Striped badlands buttes in Theodore Roosevelt National Park",
     "w": 960,
     "h": 720,
-    "caption": "Medora & Theodore Roosevelt NP (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Theodore Roosevelt National Park",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2021757318/\">Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "fargo": {
-    "slug": "cape-may-beach",
+    "slug": "fargo-theatre",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The red neon FARGO marquee of the historic Fargo Theatre",
     "w": 960,
     "h": 720,
-    "caption": "Fargo (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Fargo Theatre",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2010630114/\">Theatre Marquee, Fargo, North Dakota</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "bismarck": {
     "slug": "cape-may-beach",
