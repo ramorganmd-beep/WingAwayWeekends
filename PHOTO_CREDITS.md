@@ -647,3 +647,61 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Spenser Sembrat on Unsplash — https://unsplash.com/photos/a-brown-horse-standing-on-top-of-a-lush-green-field-KW3gZ7fe6Fs
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Kentucky (state-level Unsplash location); horse farm scene
+
+## Finger Lakes
+
+- Photo by Hunter Reilly on Unsplash — https://unsplash.com/photos/a-stream-with-a-bridge-over-it-BRIlt7r1-DA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Watkins Glen State Park, NY (Unsplash tags; visually identified)
+
+## Block Island
+
+- Photo by John Angel on Unsplash — https://unsplash.com/photos/a-large-brick-building-with-a-light-house-on-top-of-it-fLb31kFlQXg
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Southeast Light, Block Island, RI (Unsplash description)
+
+## Woodstock
+
+- Photo by Venti Views on Unsplash — https://unsplash.com/photos/brown-and-white-house-near-green-trees-and-river-during-daytime-9uWkID2TCIE
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Woodstock, VT (Unsplash location)
+
+## Burlington
+
+- Photo by Alexe Rice on Unsplash — https://unsplash.com/photos/white-boat-on-sea-under-blue-sky-during-daytime-WfAyqDyLT2A
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Burlington, VT (Unsplash location)
+
+## Bretton Woods & Franconia Notch
+
+- Photo by Pavel Brodsky on Unsplash — https://unsplash.com/photos/white-and-red-concrete-building-near-green-trees-under-cloudy-sky-during-daytime-RMFdDTCHtHc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Mount Washington Hotel, Bretton Woods, NH (Unsplash location and description)
+
+## Lake Winnipesaukee
+
+- Photo by Nikolaos Anastasopoulos on Unsplash — https://unsplash.com/photos/a-body-of-water-with-trees-in-the-back-D8VoocZF_wI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lake Winnipesaukee, NH (Unsplash location and description)
+
+## North Conway & Jackson
+
+- Photo by Neil Mewes on Unsplash — https://unsplash.com/photos/a-train-on-a-bridge-ULN9_8ZcM9U
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: North Conway, NH (Unsplash location and description)
+
+## Berkeley Springs
+
+- Title: Entryway to the Berkeley Springs Castle. Berkeley Springs, West Virginia
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2015631464/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Paducah
+
+- Title: The Iron Horse Memorial in Paducah, a Kentucky city at the confluence of the Ohio and Tennessee rivers
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2020722431/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
