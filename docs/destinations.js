@@ -1534,11 +1534,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MS",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "natchez-spring", "alt": "Azaleas in bloom beneath live oaks along a Natchez street in spring"}
 },
 {
  "name": "Oxford",
@@ -1781,11 +1777,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "LA",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "natchitoches", "remote": "https://images.unsplash.com/photo-1693989471860-a618e9a8d6b2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkwODU5fA&ixlib=rb-4.1.0", "alt": "Orange pumpkins piled at a fall market in Natchitoches", "pos": "50% 50%"}
 },
 {
  "name": "Little Rock",

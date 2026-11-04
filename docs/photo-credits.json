@@ -2038,5 +2038,71 @@
   "date_taken": null,
   "files": [],
   "location": "National Museum of the US Air Force, Dayton, OH (Unsplash location)"
+ },
+ {
+  "destination": "Natchez",
+  "title": "Springtime in Natchez, Mississippi",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011630718/",
+  "original_image_url": "https://www.loc.gov/item/2011630718/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1538,
+   "height": 1245
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Azaleas in bloom beneath live oaks along a Natchez street in spring",
+  "files": [
+   {
+    "path": "dist/assets/destinations/natchez-spring-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 77532,
+    "sha256": "21d9386d8ea8bf569cb56dca33ef0ef8b31881e149184f15a8e6834cd6771b06"
+   },
+   {
+    "path": "dist/assets/destinations/natchez-spring-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 77337,
+    "sha256": "43ae577ccd3cf508a2bf10ff6168eb6e096da8e793f6e38c7313a6054b719ec9"
+   },
+   {
+    "path": "dist/assets/destinations/natchez-spring-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 289772,
+    "sha256": "36b6841c4441c8613fefcbc917300ee5add05a067a5cb523b56bed4aa7598270"
+   },
+   {
+    "path": "dist/assets/destinations/natchez-spring-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 297791,
+    "sha256": "e49f3514a69a73aa112c52b26d13308b387306ba53023b6ec3ac95c264dfbcef"
+   }
+  ]
+ },
+ {
+  "destination": "Natchitoches",
+  "title": "Fall in Natchitoches",
+  "photographer": "ana G. Pascual",
+  "source_page_url": "https://unsplash.com/photos/a-pile-of-onions-sitting-next-to-each-other-ewOQzytT0EQ",
+  "original_image_url": "https://images.unsplash.com/photo-1693989471860-a618e9a8d6b2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkwODU5fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Orange pumpkins piled at a fall market in Natchitoches",
+  "date_taken": null,
+  "files": [],
+  "location": "Natchitoches, LA (Unsplash location)"
  }
 ]

@@ -742,17 +742,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@ayasn?utm_source=wingaway_weekends&utm_medium=referral\">Aya Salman</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-Ix7OnZAtyIs?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "natchez": {
-    "slug": "cape-may-beach",
+    "slug": "natchez-spring",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Azaleas in bloom beneath live oaks along a Natchez street in spring",
     "w": 960,
     "h": 720,
-    "caption": "Natchez (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Springtime in Natchez",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011630718/\">Springtime in Natchez, Mississippi</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "oxford": {
     "slug": "oxford-square",
@@ -896,17 +895,17 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2017656567/\">Jazzman Terry \"Harmonica\" Bean performs in Clarksdale, Mississippi</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "natchitoches": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1693989471860-a618e9a8d6b2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkwODU5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Orange pumpkins piled at a fall market in Natchitoches",
     "w": 960,
     "h": 720,
-    "caption": "Natchitoches (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fall in Natchitoches",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@anagpascual?utm_source=wingaway_weekends&utm_medium=referral\">ana G. Pascual</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-pile-of-onions-sitting-next-to-each-other-ewOQzytT0EQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "little-rock": {
     "slug": "cape-may-beach",
