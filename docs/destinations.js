@@ -2789,10 +2789,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "put-in-bay", "remote": "https://images.unsplash.com/photo-1697744997632-7f7df1790b33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDUzfA&ixlib=rb-4.1.0", "alt": "Boats filling the marina at Put-in-Bay on South Bass Island", "pos": "50% 50%"}
 },
 {
  "name": "Hocking Hills",
@@ -2813,10 +2810,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hocking-hills", "remote": "https://images.unsplash.com/photo-1659393240694-16b1b95f1ef9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDU0fA&ixlib=rb-4.1.0", "alt": "Hikers resting on rocks along a stream in Hocking Hills State Park", "pos": "50% 50%"}
 },
 {
  "name": "Cleveland",
@@ -2835,10 +2829,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "cleveland", "remote": "https://images.unsplash.com/photo-1782008140325-e62396a0c91d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDU3fA&ixlib=rb-4.1.0", "alt": "The Cleveland skyline with a ship docked in the harbor", "pos": "50% 50%"}
 },
 {
  "name": "Indianapolis",
@@ -2857,10 +2848,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "indianapolis", "remote": "https://images.unsplash.com/photo-1584385971010-71c147ba5dbd?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDYwfA&ixlib=rb-4.1.0", "alt": "Aerial view of downtown Indianapolis", "pos": "50% 50%"}
 },
 {
  "name": "Brown County & Bloomington",
@@ -2881,10 +2869,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "brown-county", "remote": "https://images.unsplash.com/photo-1636309455354-fd4cd2b70690?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDYzfA&ixlib=rb-4.1.0", "alt": "The North Lookout Tower rising above the forest in Brown County State Park", "pos": "50% 50%"}
 },
 {
  "name": "Indiana Dunes",
@@ -2904,10 +2889,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "indiana-dunes", "remote": "https://images.unsplash.com/photo-1657653038900-ec2fda7affcd?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI3OTg2fA&ixlib=rb-4.1.0", "alt": "Dune grass beside Lake Michigan in Indiana Dunes National Park", "pos": "50% 50%"}
 },
 {
  "name": "Chicago",
@@ -2927,10 +2909,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "chicago", "remote": "https://images.unsplash.com/photo-1548260615-76dcb42bf821?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDY4fA&ixlib=rb-4.1.0", "alt": "A red bridge over the Chicago River with downtown towers along the Riverwalk", "pos": "50% 50%"}
 },
 {
  "name": "Starved Rock",
@@ -2973,9 +2952,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": false,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "shawnee-hills", "remote": "https://images.unsplash.com/photo-1665252957415-383469d908af?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI2MDgyfA&ixlib=rb-4.1.0", "alt": "Sandstone bluffs at Garden of the Gods in the Shawnee National Forest", "pos": "50% 50%"}
 }
 ];

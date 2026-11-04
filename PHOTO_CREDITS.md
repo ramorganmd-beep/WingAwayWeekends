@@ -957,3 +957,51 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2021757860/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Put-in-Bay & the Lake Erie Islands
+
+- Photo by Walter Martin on Unsplash — https://unsplash.com/photos/a-marina-filled-with-lots-of-boats-on-top-of-water-LzOeOOV2w-0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Put-in-Bay, OH (Unsplash location)
+
+## Hocking Hills
+
+- Photo by Lance Anderson on Unsplash — https://unsplash.com/photos/a-group-of-people-sitting-on-rocks-in-a-river-MYBr09n-tLw
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Hocking Hills State Park, Logan, OH (Unsplash location)
+
+## Cleveland
+
+- Photo by Ralph Florent on Unsplash — https://unsplash.com/photos/cleveland-skyline-with-a-ship-docked-in-the-harbor-zlG71HmJvTk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Cleveland, OH (Unsplash location and description)
+
+## Indianapolis
+
+- Photo by Ryan De Hamer on Unsplash — https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-yilpftAIsSA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Indianapolis, IN (Unsplash location and description)
+
+## Brown County & Bloomington
+
+- Photo by Steven Van Elk on Unsplash — https://unsplash.com/photos/a-tall-wooden-structure-sitting-in-the-middle-of-a-forest-IS91noZix2g
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Brown County State Park, Nashville, IN (Unsplash location and description)
+
+## Indiana Dunes
+
+- Photo by Madison Oren on Unsplash — https://unsplash.com/photos/a-grassy-area-next-to-a-body-of-water-Yikhq4iAzhE
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Indiana Dunes National Park, Porter, IN (Unsplash location)
+
+## Chicago
+
+- Photo by Gautam Krishnan on Unsplash — https://unsplash.com/photos/low-angle-photography-of-maroon-bridge-overlooking-high-rise-buildings-during-daytime-e5lAxpsrYo0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Chicago Riverwalk (Unsplash location and description)
+
+## Shawnee Hills Wine Trail
+
+- Photo by Brian Hubbard on Unsplash — https://unsplash.com/photos/a-rocky-cliff-with-trees-and-blue-sky-bGQsCg04-_g
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Garden of the Gods, Herod, IL (Unsplash location and description)
