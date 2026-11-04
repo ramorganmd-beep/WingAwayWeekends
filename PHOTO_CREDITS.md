@@ -629,3 +629,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Jeff McLain on Unsplash — https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-W9-Q6pqHT1w
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Baltimore Avenue, Ocean City, MD (Unsplash location and description)
+
+## New River Gorge
+
+- Photo by Marmi Sica on Unsplash — https://unsplash.com/photos/a-bridge-over-a-river-surrounded-by-trees-LWcbXspk2q8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: New River Gorge Bridge, WV (Unsplash location West Virginia; visually identified)
+
+## Louisville
+
+- Photo by Chris Marlin on Unsplash — https://unsplash.com/photos/city-skyline-at-dusk-with-water-reflections-VNGVZ6m4WfU
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Louisville skyline from Clarksville, IN (Unsplash location and description)
+
+## Lexington & Horse Country
+
+- Photo by Spenser Sembrat on Unsplash — https://unsplash.com/photos/a-brown-horse-standing-on-top-of-a-lush-green-field-KW3gZ7fe6Fs
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kentucky (state-level Unsplash location); horse farm scene

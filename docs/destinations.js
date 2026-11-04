@@ -1875,11 +1875,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "new-river-gorge", "remote": "https://images.unsplash.com/photo-1729874222079-c0287c7aa86c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkzNjQ2fA&ixlib=rb-4.1.0", "alt": "The New River Gorge Bridge arching over the gorge in fall color", "pos": "50% 50%"}
 },
 {
  "name": "Berkeley Springs",
@@ -1921,11 +1917,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lexington", "remote": "https://images.unsplash.com/photo-1719092480428-dcafdc4f4a08?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkzNzMxfA&ixlib=rb-4.1.0", "alt": "Horses grazing in a green Kentucky pasture", "pos": "50% 50%"}
 },
 {
  "name": "Louisville",
@@ -1943,11 +1935,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "louisville", "remote": "https://images.unsplash.com/photo-1763326576460-b535bc21e144?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkzNzMyfA&ixlib=rb-4.1.0", "alt": "The Louisville skyline at dusk reflected in the Ohio River", "pos": "50% 50%"}
 },
 {
  "name": "Paducah",
