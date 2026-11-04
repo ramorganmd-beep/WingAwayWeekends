@@ -933,3 +933,19 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Nils Huenerfuerst on Unsplash — https://unsplash.com/photos/a-city-with-a-river-running-through-it-EKCc5GaYMYk
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Providence, RI (Unsplash location and description)
+
+## Harbor Springs & Petoskey
+
+- Title: Shay Hexagon House, built in 1876 by Ephraim Shay, Harbor Springs, Michigan
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011633347/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Watch Hill & Westerly
+
+- Title: Sunset at Watch Hill, Rhode Island
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011630155/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

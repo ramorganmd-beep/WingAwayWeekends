@@ -1161,17 +1161,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@nhuenerfuerst?utm_source=wingaway_weekends&utm_medium=referral\">Nils Huenerfuerst</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-city-with-a-river-running-through-it-EKCc5GaYMYk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "watch-hill": {
-    "slug": "cape-may-beach",
+    "slug": "watch-hill-sunset",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Sunset over the water at Watch Hill, Rhode Island",
     "w": 960,
     "h": 720,
-    "caption": "Watch Hill & Westerly (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sunset at Watch Hill",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011630155/\">Sunset at Watch Hill, Rhode Island</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "new-haven": {
     "slug": "https://images.unsplash.com/photo-1723721118884-38c5147ac82c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA4fA&ixlib=rb-4.1.0",
@@ -1540,17 +1539,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@aaronburden?utm_source=wingaway_weekends&utm_medium=referral\">Aaron Burden</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/pathway-surrounded-with-trees-sfEr0jw2sp8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "harbor-springs": {
-    "slug": "cape-may-beach",
+    "slug": "harbor-springs-shay-house",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The 1876 Shay Hexagon House in Harbor Springs, Michigan",
     "w": 960,
     "h": 720,
-    "caption": "Harbor Springs & Petoskey (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Shay Hexagon House, Harbor Springs",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011633347/\">Shay Hexagon House, built in 1876 by Ephraim Shay, Harbor Springs, Michigan</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "kohler": {
     "slug": "https://images.unsplash.com/photo-1717097902827-9cccce31954a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODE1NDY2fA&ixlib=rb-4.1.0",

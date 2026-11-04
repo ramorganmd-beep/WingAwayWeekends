@@ -3717,5 +3717,103 @@
   "date_taken": null,
   "files": [],
   "location": "Providence, RI (Unsplash location and description)"
+ },
+ {
+  "destination": "Harbor Springs & Petoskey",
+  "title": "Shay Hexagon House, built in 1876 by Ephraim Shay, Harbor Springs, Michigan",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011633347/",
+  "original_image_url": "https://www.loc.gov/item/2011633347/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3663,
+   "height": 2824
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The 1876 Shay Hexagon House in Harbor Springs, Michigan",
+  "files": [
+   {
+    "path": "dist/assets/destinations/harbor-springs-shay-house-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34866,
+    "sha256": "4459681d9de82f9ae6d6b55745e31437ba1d03d8a08e49078ecfbe58990ba699"
+   },
+   {
+    "path": "dist/assets/destinations/harbor-springs-shay-house-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43723,
+    "sha256": "a0e370461dc6be2d2f3418a4efc189ade171c38fcbb6ee78af967667888e7aad"
+   },
+   {
+    "path": "dist/assets/destinations/harbor-springs-shay-house-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 113376,
+    "sha256": "a17b3031395bff82aee941d299f03fad9d64867eb682bcf1d937817d35ab4e0e"
+   },
+   {
+    "path": "dist/assets/destinations/harbor-springs-shay-house-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 147892,
+    "sha256": "a99a584bd70dc04e62e99a55a6fc59e545a3f844aa61d8b6e51a4892afdbd030"
+   }
+  ]
+ },
+ {
+  "destination": "Watch Hill & Westerly",
+  "title": "Sunset at Watch Hill, Rhode Island",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011630155/",
+  "original_image_url": "https://www.loc.gov/item/2011630155/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2220,
+   "height": 1733
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Sunset over the water at Watch Hill, Rhode Island",
+  "files": [
+   {
+    "path": "dist/assets/destinations/watch-hill-sunset-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 11362,
+    "sha256": "840c9e19f6950ca83915dc8136a2703f447b8d5854eb2cb48168a28e0f406660"
+   },
+   {
+    "path": "dist/assets/destinations/watch-hill-sunset-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 20445,
+    "sha256": "56419de4de934b85040016df2130ed296c99c24fbe2c42e4efe21884898396df"
+   },
+   {
+    "path": "dist/assets/destinations/watch-hill-sunset-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 34940,
+    "sha256": "23f40289340df034000041b078445c48d26e0cace383b4619637e03b215212f9"
+   },
+   {
+    "path": "dist/assets/destinations/watch-hill-sunset-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 64151,
+    "sha256": "944c7ea18f40cf37ea71babfda4e56d4cdd5bc0cf1c91e1e1ab18276dedb8ef3"
+   }
+  ]
  }
 ]
