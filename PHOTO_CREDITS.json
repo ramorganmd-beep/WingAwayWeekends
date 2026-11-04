@@ -3815,5 +3815,54 @@
     "sha256": "944c7ea18f40cf37ea71babfda4e56d4cdd5bc0cf1c91e1e1ab18276dedb8ef3"
    }
   ]
+ },
+ {
+  "destination": "Valentine & the Niobrara",
+  "title": "Scene in Grant County in the vast Nebraska sandhills",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021757860/",
+  "original_image_url": "https://www.loc.gov/item/2021757860/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 700
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Rolling grass-covered dunes of the Nebraska Sandhills in Grant County",
+  "files": [
+   {
+    "path": "dist/assets/destinations/valentine-sandhills-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 27206,
+    "sha256": "25341143be60d1d0d7f5d9830766c20a19dc7e3ae34ebcef9a747eaec75828ba"
+   },
+   {
+    "path": "dist/assets/destinations/valentine-sandhills-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 35500,
+    "sha256": "32136e707ef6d1e9c9a55236424cbab1f7374e1f6ed165fc05fc883ea87bb3f0"
+   },
+   {
+    "path": "dist/assets/destinations/valentine-sandhills-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 108340,
+    "sha256": "3e29479f98debc273af3905ed560bc8e0e92478c0843564a375129f6130f751b"
+   },
+   {
+    "path": "dist/assets/destinations/valentine-sandhills-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 136790,
+    "sha256": "7eb35c7f707619489a4c59ef0088835a56253e2e59fa7f615450e0fbd469dc6f"
+   }
+  ]
  }
 ]

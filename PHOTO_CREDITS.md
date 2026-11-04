@@ -949,3 +949,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2011630155/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Valentine & the Niobrara
+
+- Title: Scene in Grant County in the vast Nebraska sandhills
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021757860/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

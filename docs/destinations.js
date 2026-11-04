@@ -2566,11 +2566,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NE",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "valentine-sandhills", "alt": "Rolling grass-covered dunes of the Nebraska Sandhills in Grant County"}
 },
 {
  "name": "Wichita",
