@@ -25,7 +25,7 @@
 <p>Airports with a well-reviewed restaurant on the field or an easy walk or short ride away. Sorted by flight time from your home airport, so the closest good meal is at the top. The list starts in the Southeast and grows with each new region.</p></div>
 
 <section aria-label="Filter the list" class="lunch-filters">
-<div><label for="from">Departure airport</label><input id="from" maxlength="4" spellcheck="false" autocomplete="off" list="airport-list" placeholder="e.g. KMYR"><datalist id="airport-list"></datalist></div>
+<div><label for="from">Departure airport</label><input id="from" maxlength="40" spellcheck="false" autocomplete="off" list="airport-list" placeholder="e.g. KMYR"><datalist id="airport-list"></datalist></div>
 <div><label for="max">Maximum one-way flight</label><select id="max"><option value="0.75">45 minutes</option><option value="1">1 hour</option><option value="1.5" selected>1½ hours</option><option value="2">2 hours</option><option value="99">Any distance</option></select></div>
 <div><label for="meal">Meal</label><select id="meal"><option value="">Any meal</option><option>Breakfast</option><option>Lunch</option><option>Dinner</option></select></div>
 </section>
@@ -364,11 +364,20 @@ const SPOTS = [
   }
   function fmt(hours) { const m = Math.ceil(hours * 60), h = Math.floor(m / 60), r = m % 60; return h ? h + ' hr' + (r ? ' ' + r + ' min' : '') : r + ' min'; }
   function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function lookup(v) {
+    v = (v || '').trim().toUpperCase();
+    if (!v) return null;
+    if (index.get(v)) return index.get(v);
+    const tok = v.match(/\b[A-Z0-9]{3,4}\b/);
+    if (tok && index.get(tok[0])) return index.get(tok[0]);
+    if (v.length >= 4) { const m = airports.filter(a => (a[2] + ' ' + a[3]).toUpperCase().includes(v)); if (m.length === 1) return m[0]; }
+    return null;
+  }
   function render() {
-    const home = index.get(from.value.trim().toUpperCase());
+    const home = lookup(from.value);
     const list = document.getElementById('list'), status = document.getElementById('status');
     list.innerHTML = '';
-    if (!home) { status.textContent = 'Enter a U.S. airport code (for example KMYR, KCHS or KPDK).'; return; }
+    if (!home) { status.textContent = 'We couldn’t find that airport. Enter a U.S. airport code (for example KEQY, KCHS or KPDK).'; return; }
     try { localStorage.setItem('wingaway-home', home[0]); } catch (e) {}
     const limit = Number(max.value), want = meal.value;
     const all = SPOTS.map(s => {
@@ -406,7 +415,7 @@ const SPOTS = [
       links.append(m); c.append(links); list.append(c);
     });
   }
-  from.addEventListener('change', render); from.addEventListener('input', () => { if (index.get(from.value.trim().toUpperCase())) render(); });
+  from.addEventListener('change', render); from.addEventListener('input', () => { if (lookup(from.value)) render(); });
   max.addEventListener('change', render); meal.addEventListener('change', render);
   render();
 })();
