@@ -531,3 +531,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by ana G. Pascual on Unsplash — https://unsplash.com/photos/a-pile-of-onions-sitting-next-to-each-other-ewOQzytT0EQ
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Natchitoches, LA (Unsplash location)
+
+## Fairhope & Mobile Bay
+
+- Title: Pier on Mobile Bay, Fairhope, Alabama
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010637823/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lake Martin
+
+- Title: Lake Martin near Alexander City and Dadeville, Alabama
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010639234/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lafayette & Cajun Country
+
+- Title: Swamp, Lafayette, Louisiana
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630684/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
