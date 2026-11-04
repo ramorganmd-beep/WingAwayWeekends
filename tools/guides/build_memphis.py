@@ -36,7 +36,7 @@ GUIDE = dict(
                ('Beale Street', 'Blues clubs and neon, best after dark.', 'https://www.bealestreet.com/', 'Beale Street')]),
     events=dict(url='https://www.memphisinmay.org/', button='Browse Memphis in May',
         cards=[('May', 'Memphis in May', 'The Beale Street Music Festival and the World Championship Barbecue Cooking Contest.', 'https://www.memphisinmay.org/', 'Festival'),
-               ('August', 'Elvis Week', 'Fans gather at Graceland; book early or avoid.'),
+               ('August', 'Elvis Week', 'Fans gather at Graceland; book early or avoid.', 'https://www.graceland.com/elvis-week', 'Elvis Week'),
                ('Spring & fall', 'Best seasons', 'Summers are hot and humid.')]),
     itinerary=dict(intro='A sample weekend: music, history and barbecue. No bookings or availability confirmed.',
         days=[('DAY 1', 'Arrive & Beale Street', [('Arrival', 'Land at KMEM, subject to weather and your actual flight plan.'), ('Afternoon', 'The Peabody duck march at 5 p.m.'), ('Evening', 'Ribs at the Rendezvous, then Beale Street.')]),
