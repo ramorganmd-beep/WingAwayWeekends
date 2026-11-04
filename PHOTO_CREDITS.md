@@ -705,3 +705,59 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2020722431/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Black Hills & Custer State Park
+
+- Title: The State Game Lodge in Custer State Park, a popular and scenic hiking, biking, and fishing destination in southwest South Dakota
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021757389/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Deadwood & Spearfish Canyon
+
+- Title: Deadwood, South Dakota
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011630205/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Badlands
+
+- Title: Badlands National Park in South Dakota
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011631343/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Sioux Falls
+
+- Title: The falls that give the name to Sioux Falls, a city of 180,000 or so people (as of 2021) that is South Dakota's largest city
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021756356/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Medora & Theodore Roosevelt NP
+
+- Title: Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021757318/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Fargo
+
+- Title: Theatre Marquee, Fargo, North Dakota
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630114/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Litchfield Hills
+
+- Title: Barn near Litchfield, Connecticut
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2012631588/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

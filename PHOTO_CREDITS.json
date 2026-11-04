@@ -2755,5 +2755,348 @@
     "sha256": "24e5adde63a780bd07111bc6063ffe582fb58ab4904f7d5513ed3de7e6191f85"
    }
   ]
+ },
+ {
+  "destination": "Black Hills & Custer State Park",
+  "title": "The State Game Lodge in Custer State Park, a popular and scenic hiking, biking, and fishing destination in southwest South Dakota",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021757389/",
+  "original_image_url": "https://www.loc.gov/item/2021757389/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 523
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The State Game Lodge in Custer State Park among pines and lawn",
+  "files": [
+   {
+    "path": "dist/assets/destinations/black-hills-state-game-lodge-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 40798,
+    "sha256": "63f8f25254db3eecfbd9508da96ca9ab4c879b21730df15a58ca6f2af8c239ba"
+   },
+   {
+    "path": "dist/assets/destinations/black-hills-state-game-lodge-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 48070,
+    "sha256": "0360e1a38f929f43773ffae134ae132fadfc25a556da544fd02686a6474c438e"
+   },
+   {
+    "path": "dist/assets/destinations/black-hills-state-game-lodge-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 132560,
+    "sha256": "919ace6d9a85e79dd9b91509f01f2f9e4109bfa3f13ac88f882cb0c81a63ca71"
+   },
+   {
+    "path": "dist/assets/destinations/black-hills-state-game-lodge-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 161252,
+    "sha256": "68032f709e7ba1eb37937bd396b33f0ab32e47945e9099e9da11eda3ac8bd5ea"
+   }
+  ]
+ },
+ {
+  "destination": "Deadwood & Spearfish Canyon",
+  "title": "Deadwood, South Dakota",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011630205/",
+  "original_image_url": "https://www.loc.gov/item/2011630205/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2150,
+   "height": 1726
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Historic brick buildings on Main Street in Deadwood",
+  "files": [
+   {
+    "path": "dist/assets/destinations/deadwood-main-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 43258,
+    "sha256": "7e322f3f807756929aeb07b074b0458e8d35a61c94ae248941399dd6703932e1"
+   },
+   {
+    "path": "dist/assets/destinations/deadwood-main-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 52136,
+    "sha256": "37f36d0ebfe27749ddc28f62ffc3b3736be28a2bbf3200910416ef02afa27c18"
+   },
+   {
+    "path": "dist/assets/destinations/deadwood-main-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 142410,
+    "sha256": "199dbc22899d25054060f1b669c8ec0e61cdb08fe8a586c41701a4524c305480"
+   },
+   {
+    "path": "dist/assets/destinations/deadwood-main-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 180061,
+    "sha256": "cfbfc10e225f71592ef274cba5f9aa2ab5a79cca860eb830f025cd64de1734be"
+   }
+  ]
+ },
+ {
+  "destination": "Badlands",
+  "title": "Badlands National Park in South Dakota",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011631343/",
+  "original_image_url": "https://www.loc.gov/item/2011631343/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1949,
+   "height": 1452
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Eroded Badlands spires glowing in late light under a deep blue sky",
+  "files": [
+   {
+    "path": "dist/assets/destinations/badlands-spires-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 36322,
+    "sha256": "4fd5469470830fc1de74f5665a358ef322539956a05a99cc519c938c6f95338e"
+   },
+   {
+    "path": "dist/assets/destinations/badlands-spires-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42430,
+    "sha256": "d88d3ad4ed8b6de1a4472cb828ce05c988ed7dfa1d7f72b369884c105f684717"
+   },
+   {
+    "path": "dist/assets/destinations/badlands-spires-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 136978,
+    "sha256": "837cdba9067a63caaf95354f7cda3cfb5a6a5ab217663afa4f34a62c10f9503f"
+   },
+   {
+    "path": "dist/assets/destinations/badlands-spires-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 159556,
+    "sha256": "3792d008e50643f0b39f51aba60cd5e34ab484ec5f864fd524876cf3e5741948"
+   }
+  ]
+ },
+ {
+  "destination": "Sioux Falls",
+  "title": "The falls that give the name to Sioux Falls, a city of 180,000 or so people (as of 2021) that is South Dakota's largest city",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021756356/",
+  "original_image_url": "https://www.loc.gov/item/2021756356/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The falls of the Big Sioux River over pink quartzite in Falls Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/sioux-falls-falls-park-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 53168,
+    "sha256": "e5ac1b3a4227f7e95813fccb208834812bfef5f2f6a78fa6c51fc4000f9f1d4f"
+   },
+   {
+    "path": "dist/assets/destinations/sioux-falls-falls-park-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57633,
+    "sha256": "432ff370613f04a3a958ac5291922882285b3b125cd6f241590a358952ed8268"
+   },
+   {
+    "path": "dist/assets/destinations/sioux-falls-falls-park-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 207134,
+    "sha256": "4414fde6eeb0606892321894119f2953d5bd5fba1ab77e93e9385fb90f9446ec"
+   },
+   {
+    "path": "dist/assets/destinations/sioux-falls-falls-park-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 224550,
+    "sha256": "3127b488fb05fbb2ad7977f83404edcc43ce936ad3b536601073c683e12a55d4"
+   }
+  ]
+ },
+ {
+  "destination": "Medora & Theodore Roosevelt NP",
+  "title": "Scene at Theodore Roosevelt National Park near Medora in southwest North Dakota",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021757318/",
+  "original_image_url": "https://www.loc.gov/item/2021757318/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 668
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Striped badlands buttes in Theodore Roosevelt National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/medora-badlands-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32630,
+    "sha256": "9f483c8d8065c7979925997778c70956b4828303f6f087f5987ffa25684d09a8"
+   },
+   {
+    "path": "dist/assets/destinations/medora-badlands-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 40378,
+    "sha256": "be9af3cc56c937b66742552d397a29eb98d31255cb42be2497314861840c74f9"
+   },
+   {
+    "path": "dist/assets/destinations/medora-badlands-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 119722,
+    "sha256": "feb6211bfc027de065f27648e404f325ca528504033007f1d0db6f2acbfc4b6d"
+   },
+   {
+    "path": "dist/assets/destinations/medora-badlands-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 147611,
+    "sha256": "f62117a781cfcfa00831e3569cc96bf2bb4b02b02ed73c71d6c0346bb31638ee"
+   }
+  ]
+ },
+ {
+  "destination": "Fargo",
+  "title": "Theatre Marquee, Fargo, North Dakota",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630114/",
+  "original_image_url": "https://www.loc.gov/item/2010630114/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1810,
+   "height": 1359
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The red neon FARGO marquee of the historic Fargo Theatre",
+  "files": [
+   {
+    "path": "dist/assets/destinations/fargo-theatre-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 24072,
+    "sha256": "ba3295c8fe377f5369122d58ae86309095f7719a901363ff85372a1fc5025bf4"
+   },
+   {
+    "path": "dist/assets/destinations/fargo-theatre-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 37187,
+    "sha256": "198076ae9fbeb1ad6e93a86323a1463468b2af8be78d8d078581b91e12c3dd52"
+   },
+   {
+    "path": "dist/assets/destinations/fargo-theatre-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 67344,
+    "sha256": "574b098de90ed2c96a649e76e570f052bf03eb267b63d5a56e07b2532be06a4f"
+   },
+   {
+    "path": "dist/assets/destinations/fargo-theatre-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 119294,
+    "sha256": "e90b2e88f718ec59538423d6c31f9d205ece40fc41927d6811b9ae99a56b65fa"
+   }
+  ]
+ },
+ {
+  "destination": "Litchfield Hills",
+  "title": "Barn near Litchfield, Connecticut",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2012631588/",
+  "original_image_url": "https://www.loc.gov/item/2012631588/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1536,
+   "height": 1024
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A weathered red barn with an American flag near Litchfield",
+  "files": [
+   {
+    "path": "dist/assets/destinations/litchfield-barn-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 31920,
+    "sha256": "5647cdee64adb68c3629c6a2029849ba8da633eeed472c3fc51faa6dcb512e3f"
+   },
+   {
+    "path": "dist/assets/destinations/litchfield-barn-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 39136,
+    "sha256": "652690000a5dc07ef64999afee63e5405b24892c8386987a0d71ff837aff011b"
+   },
+   {
+    "path": "dist/assets/destinations/litchfield-barn-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 113736,
+    "sha256": "9b0764ef6b675d16887cf68647fdcf6ebcab1faf43f82d5ca45be7e010cfe91b"
+   },
+   {
+    "path": "dist/assets/destinations/litchfield-barn-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 144212,
+    "sha256": "d7d5e91cb60f5155794dc1827b2e2ff7121cfba3574b0f086f71d4d029035b73"
+   }
+  ]
  }
 ]

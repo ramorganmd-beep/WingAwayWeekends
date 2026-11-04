@@ -2234,11 +2234,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CT",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "litchfield-barn", "alt": "A weathered red barn with an American flag near Litchfield"}
 },
 {
  "name": "Asbury Park & Spring Lake",
@@ -2422,11 +2418,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SD",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "black-hills-state-game-lodge", "alt": "The State Game Lodge in Custer State Park among pines and lawn"}
 },
 {
  "name": "Deadwood & Spearfish Canyon",
@@ -2444,11 +2436,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SD",
  "region": "Great Plains",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "deadwood-main-street", "alt": "Historic brick buildings on Main Street in Deadwood"}
 },
 {
  "name": "Badlands",
@@ -2466,11 +2454,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SD",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "badlands-spires", "alt": "Eroded Badlands spires glowing in late light under a deep blue sky"}
 },
 {
  "name": "Sioux Falls",
@@ -2488,11 +2472,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SD",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sioux-falls-falls-park", "alt": "The falls of the Big Sioux River over pink quartzite in Falls Park"}
 },
 {
  "name": "Medora & Theodore Roosevelt NP",
@@ -2510,11 +2490,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ND",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "medora-badlands", "alt": "Striped badlands buttes in Theodore Roosevelt National Park"}
 },
 {
  "name": "Fargo",
@@ -2532,11 +2508,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ND",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "fargo-theatre", "alt": "The red neon FARGO marquee of the historic Fargo Theatre"}
 },
 {
  "name": "Bismarck & Mandan",
