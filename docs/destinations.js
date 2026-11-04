@@ -2597,7 +2597,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KS",
  "region": "Great Plains",
  "family": true,
- "draft": true,
  "photo": {"slug": "wichita", "remote": "https://images.unsplash.com/photo-1722655669232-dd7b936627a3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAzfA&ixlib=rb-4.1.0", "alt": "The downtown Wichita skyline across the Arkansas River", "pos": "50% 50%"}
 },
 {
@@ -2635,7 +2634,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KS",
  "region": "Great Plains",
  "family": false,
- "draft": true,
  "photo": {"slug": "lawrence", "remote": "https://images.unsplash.com/photo-1773783388664-68721884bd0f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTM3fA&ixlib=rb-4.1.0", "alt": "The Jayhawk statue at the University of Kansas in Lawrence", "pos": "50% 50%"}
 },
 {
@@ -2673,7 +2671,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "traverse-city", "remote": "https://images.unsplash.com/photo-1605126352475-dde6bf5503f9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTI0fA&ixlib=rb-4.1.0", "alt": "Fall color on a peninsula in Grand Traverse Bay near Traverse City", "pos": "50% 50%"}
 },
 {
@@ -2692,7 +2689,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "saugatuck", "remote": "https://images.unsplash.com/photo-1478554180052-7811ee7d5e9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMjAxfA&ixlib=rb-4.1.0", "alt": "A wooded trail in golden fall color in Saugatuck, Michigan", "pos": "50% 50%"}
 },
 {
@@ -2753,7 +2749,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": false,
- "draft": true,
  "photo": {"slug": "lake-geneva", "remote": "https://images.unsplash.com/photo-1690084516271-fb167a474e01?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMTMwfA&ixlib=rb-4.1.0", "alt": "A wooden pier reaching into Geneva Lake, Wisconsin", "pos": "50% 50%"}
 },
 {
