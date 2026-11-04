@@ -3251,5 +3251,71 @@
   "date_taken": null,
   "files": [],
   "location": "Bushkill, PA (Unsplash location and description)"
+ },
+ {
+  "destination": "Lincoln",
+  "title": "Capitol building Lincoln, Nebraska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630796/",
+  "original_image_url": "https://www.loc.gov/item/2010630796/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3351,
+   "height": 2681
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Nebraska State Capitol tower in Lincoln",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lincoln-ne-capitol-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 25742,
+    "sha256": "1bf0c2027588e8e1d36a84268f95e94c829c9af881fac8f98a221af2898592db"
+   },
+   {
+    "path": "dist/assets/destinations/lincoln-ne-capitol-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34575,
+    "sha256": "79ad3a6e5c8f442a5135926fb473ed915458510b083e6c0786d8f2123bf41045"
+   },
+   {
+    "path": "dist/assets/destinations/lincoln-ne-capitol-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 84628,
+    "sha256": "3dfd372212e154c89dcdef69b3cf50a5c31525ac8c9acecb8c0c03c8dbf89a8a"
+   },
+   {
+    "path": "dist/assets/destinations/lincoln-ne-capitol-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 119962,
+    "sha256": "cbd72396cb99d11cfce0740b22201e75ddc1588564855327dbd4cbc18dead67c"
+   }
+  ]
+ },
+ {
+  "destination": "Atlantic City",
+  "title": "Steel Pier, Atlantic City Boardwalk",
+  "photographer": "Laura Durán",
+  "source_page_url": "https://unsplash.com/photos/ferris-wheel-on-atlantic-city-boardwalk-BYBxnqCprPA",
+  "original_image_url": "https://images.unsplash.com/photo-1792004554803-f51c1f15ad2d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg0fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Ferris wheel on Steel Pier along the Atlantic City Boardwalk",
+  "date_taken": null,
+  "files": [],
+  "location": "Steel Pier, Atlantic City (Unsplash location)"
  }
 ]
