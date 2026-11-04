@@ -483,6 +483,18 @@ PLANS = {
     'lafayette': {
         'day': [('Arrive', 'Land at KLFT mid-morning.'), ('Midday', 'Boudin at Johnson’s and Vermilionville.'), ('Afternoon', 'A Lake Martin swamp tour, then back to the FBO.')],
         'extra': [('Morning', 'Zydeco breakfast at Buck & Johnny’s.'), ('Afternoon', 'Avery Island and Tabasco.'), ('Evening', 'Dancing at the Blue Moon Saloon.')]},
+    'fairhope': {
+        'day': [('Arrive', 'Land at KCQF mid-morning.'), ('Midday', 'Lunch downtown and the pier.'), ('Afternoon', 'Bellingrath Gardens, then back to the FBO.')],
+        'extra': [('Morning', 'The USS Alabama.'), ('Afternoon', 'The spa at The Grand.'), ('Evening', 'Sunset on the pier.')]},
+    'huntsville': {
+        'day': [('Arrive', 'Land at KHSV early.'), ('Midday', 'The U.S. Space & Rocket Center.'), ('Afternoon', 'Lunch downtown, then back to the FBO.')],
+        'extra': [('Morning', 'The Botanical Garden.'), ('Afternoon', 'Monte Sano State Park.'), ('Evening', 'Rooftop drinks downtown.')]},
+    'lake-martin': {
+        'day': [('Arrive', 'Land at KALX mid-morning.'), ('Midday', 'Lunch at Russell Crossroads.'), ('Afternoon', 'A short boat ride, then back to the airport.')],
+        'extra': [('Morning', 'The Smith Mountain fire tower.'), ('Afternoon', 'A boat day.'), ('Evening', 'Dinner at SpringHouse.')]},
+    'birmingham': {
+        'day': [('Arrive', 'Land at KBHM mid-morning.'), ('Midday', 'The Southern Museum of Flight, beside the field.'), ('Afternoon', 'Lunch at Chez Fonfon, then back to the FBO.')],
+        'extra': [('Morning', 'The Civil Rights Institute.'), ('Afternoon', 'Barber Vintage Motorsports Museum.'), ('Evening', 'Sunset at Vulcan Park.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

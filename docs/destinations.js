@@ -1642,5 +1642,99 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Fairhope & Mobile Bay",
+ "state": "Alabama",
+ "airport": "KCQF",
+ "lat": 30.4605,
+ "lon": -87.877,
+ "desc": "A flower-filled bayside town: the Grand Hotel at Point Clear, the pier at sunset, Bellingrath Gardens and the USS Alabama.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Dining",
+  "Golf",
+  "Scenic views"
+ ],
+ "guide": "fairhope/",
+ "stateCode": "AL",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Huntsville",
+ "state": "Alabama",
+ "airport": "KHSV",
+ "lat": 34.6372,
+ "lon": -86.7751,
+ "desc": "Rocket City: a Saturn V at the U.S. Space & Rocket Center, a botanical garden, Monte Sano and downtown dining.",
+ "tags": [
+  "Aviation museums",
+  "Dining",
+  "Hiking",
+  "Outdoors"
+ ],
+ "guide": "huntsville/",
+ "stateCode": "AL",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Martin",
+ "state": "Alabama",
+ "airport": "KALX",
+ "lat": 32.9148,
+ "lon": -85.9629,
+ "desc": "A clear, quiet lake: cottage rentals, boating, SpringHouse dinners and the Smith Mountain fire tower.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Dining"
+ ],
+ "guide": "lake-martin/",
+ "stateCode": "AL",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Birmingham",
+ "state": "Alabama",
+ "airport": "KBHM",
+ "lat": 33.5639,
+ "lon": -86.7523,
+ "desc": "Award-winning restaurants, the Civil Rights District, the Southern Museum of Flight and Barber’s motorcycle museum.",
+ "tags": [
+  "Dining",
+  "History",
+  "Aviation museums",
+  "Spa",
+  "Stays"
+ ],
+ "guide": "birmingham/",
+ "stateCode": "AL",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
