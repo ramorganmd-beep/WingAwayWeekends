@@ -904,69 +904,69 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@anagpascual?utm_source=wingaway_weekends&utm_medium=referral\">ana G. Pascual</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-pile-of-onions-sitting-next-to-each-other-ewOQzytT0EQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "little-rock": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1658628073095-d366a3fddcc1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzAzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The twin white arches of the Broadway Bridge over the Arkansas River",
     "w": 960,
     "h": 720,
-    "caption": "Little Rock (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Broadway Bridge, Little Rock",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@scottmay224?utm_source=wingaway_weekends&utm_medium=referral\">Scott May</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-bridge-over-a-river-mpo2jN9dxjQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "st-louis": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1675906798386-a9ed241c7ed2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Gateway Arch lit up at blue hour",
     "w": 960,
     "h": 720,
-    "caption": "St. Louis (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Gateway Arch, St. Louis",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nguyening?utm_source=wingaway_weekends&utm_medium=referral\">Kenny Nguyễn</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/the-st-louis-arch-is-lit-up-at-night-YqBX_TIZh1U?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "kansas-city": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1707971539567-cc91b8063e08?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A train crossing a bridge with the Kansas City skyline behind",
     "w": 960,
     "h": 720,
-    "caption": "Kansas City (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Kansas City",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@samdasherx13?utm_source=wingaway_weekends&utm_medium=referral\">Samuel Myles</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-train-traveling-across-a-bridge-over-a-city-t8hU4PL7TVo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "annapolis": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1783341216605-f7e3c2c286e5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The white Thomas Point Shoal Lighthouse in the blue Chesapeake Bay",
     "w": 960,
     "h": 720,
-    "caption": "Annapolis (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Thomas Point Lighthouse, Annapolis",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jgraziano?utm_source=wingaway_weekends&utm_medium=referral\">Joey Graziano</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-lighthouse-on-a-rocky-island-in-the-blue-sea-PWtfT-aJnZc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "ocean-city": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1695869349892-8606bf403379?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Baltimore Avenue lined with hotels and condos in Ocean City",
     "w": 960,
     "h": 720,
-    "caption": "Ocean City & Berlin (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Ocean City, Maryland",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jeffmclain?utm_source=wingaway_weekends&utm_medium=referral\">Jeff McLain</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-W9-Q6pqHT1w?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "deep-creek-lake": {
     "slug": "cape-may-beach",

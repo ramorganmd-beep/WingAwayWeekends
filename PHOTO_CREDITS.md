@@ -599,3 +599,33 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2017879034/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Little Rock
+
+- Photo by Scott May on Unsplash — https://unsplash.com/photos/a-bridge-over-a-river-mpo2jN9dxjQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Broadway Bridge, Little Rock, AR (tagged Little Rock; visually identified)
+
+## St. Louis
+
+- Photo by Kenny Nguyễn on Unsplash — https://unsplash.com/photos/the-st-louis-arch-is-lit-up-at-night-YqBX_TIZh1U
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Gateway Arch National Park, St. Louis, MO (Unsplash location)
+
+## Kansas City
+
+- Photo by Samuel Myles on Unsplash — https://unsplash.com/photos/a-train-traveling-across-a-bridge-over-a-city-t8hU4PL7TVo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kansas City, MO (Unsplash location)
+
+## Annapolis
+
+- Photo by Joey Graziano on Unsplash — https://unsplash.com/photos/white-lighthouse-on-a-rocky-island-in-the-blue-sea-PWtfT-aJnZc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Thomas Point Lighthouse, Annapolis, MD (Unsplash location and description)
+
+## Ocean City & Berlin
+
+- Photo by Jeff McLain on Unsplash — https://unsplash.com/photos/a-city-street-filled-with-lots-of-traffic-next-to-tall-buildings-W9-Q6pqHT1w
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Baltimore Avenue, Ocean City, MD (Unsplash location and description)
