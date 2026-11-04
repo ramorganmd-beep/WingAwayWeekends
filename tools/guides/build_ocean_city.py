@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='ocean-city', name='Ocean City & Berlin', state='Maryland', number=86, reviewed=None,
+    slug='ocean-city', name='Ocean City & Berlin', state='Maryland', number=86, reviewed='November 4, 2026',
     airport='KOXB', nm=334, flight_time='~2 hr 28 <small>min</small>', style='Rental car or rideshare',
     place='Ocean City, Maryland',
     description='A curated Ocean City getaway for GA pilots and their partners, from KMYR to KOXB. A classic boardwalk beach town, bayside sunsets, Assateague’s wild horses and charming Berlin, “America’s Coolest Small Town.”',

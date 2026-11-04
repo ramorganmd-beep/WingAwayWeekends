@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='berkeley-springs', name='Berkeley Springs', state='West Virginia', number=89, reviewed=None,
+    slug='berkeley-springs', name='Berkeley Springs', state='West Virginia', number=89, reviewed='November 4, 2026',
     airport='KMRB', nm=347, flight_time='~2 hr 33 <small>min</small>', style='Rental car',
     place='Berkeley Springs, West Virginia',
     description='A curated Berkeley Springs getaway for GA pilots and their partners, from KMYR to KMRB. “America’s first spa”: warm mineral springs George Washington bathed in, a historic inn, art galleries and the Cacapon mountains.',

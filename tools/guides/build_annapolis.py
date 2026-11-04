@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='annapolis', name='Annapolis', state='Maryland', number=85, reviewed=None,
+    slug='annapolis', name='Annapolis', state='Maryland', number=85, reviewed='November 4, 2026',
     airport='KANP', nm=336, flight_time='~2 hr 29 <small>min</small>', style='Rideshare or walk',
     place='Annapolis, Maryland',
     description='A curated Annapolis getaway for GA pilots and their partners, from KMYR to KANP. America’s sailing capital: the Naval Academy, the colonial State House, a sunset schooner sail and crab cakes by the water.',

@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='new-river-gorge', name='New River Gorge', state='West Virginia', number=88, reviewed=None,
+    slug='new-river-gorge', name='New River Gorge', state='West Virginia', number=88, reviewed='November 4, 2026',
     airport='KBKW', nm=269, flight_time='~2 hr 02 <small>min</small>', style='Rental car',
     place='Fayetteville, West Virginia',
     description='A curated New River Gorge getaway for GA pilots and their partners, from KMYR to KBKW. America’s newest national park: the New River Gorge Bridge, whitewater rafting, cliffside trails and a small mountain town.',
