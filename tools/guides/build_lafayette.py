@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lafayette', name='Lafayette & Cajun Country', state='Louisiana', number=73, reviewed=None,
+    slug='lafayette', name='Lafayette & Cajun Country', state='Louisiana', number=73, reviewed='November 4, 2026',
     airport='KLFT', nm=697, flight_time='~4 hr 53 <small>min</small>', style='Rental car',
     place='Lafayette, Louisiana',
     description='A curated Lafayette getaway for GA pilots and their partners, from KMYR to KLFT. The heart of Cajun Country: dance halls, zydeco breakfast, boudin, swamp tours and Avery Island.',

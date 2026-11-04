@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='new-orleans', name='New Orleans', state='Louisiana', number=68, reviewed=None,
+    slug='new-orleans', name='New Orleans', state='Louisiana', number=68, reviewed='November 4, 2026',
     airport='KNEW', nm=606, flight_time='~4 hr 18 <small>min</small>', style='Walk, streetcar or rideshare',
     place='New Orleans, Louisiana',
     description='A curated New Orleans getaway for GA pilots and their partners, from KMYR to KNEW. Land at the 1934 Lakefront Airport, then the French Quarter, jazz, Creole dining, the Garden District and the National WWII Museum.',

@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lake-martin', name='Lake Martin', state='Alabama', number=76, reviewed=None,
+    slug='lake-martin', name='Lake Martin', state='Alabama', number=76, reviewed='November 4, 2026',
     airport='KALX', nm=356, flight_time='~2 hr 37 <small>min</small>', style='Rental or arranged car',
     place='Lake Martin, Alabama',
     description='A curated Lake Martin getaway for GA pilots and their partners, from KMYR to KALX. A clear, 40,000-acre lake with lake-cottage rentals, SpringHouse dinners at Russell Crossroads, boating and a fire-tower hike.',

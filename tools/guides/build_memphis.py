@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='memphis', name='Memphis', state='Tennessee', number=78, reviewed=None,
+    slug='memphis', name='Memphis', state='Tennessee', number=78, reviewed='November 4, 2026',
     airport='KMEM', nm=553, flight_time='~3 hr 56 <small>min</small>', style='Rental car or rideshare',
     place='Memphis, Tennessee',
     description='A curated Memphis getaway for GA pilots and their partners, from KMYR to KMEM. Blues on Beale Street, Graceland, Sun Studio and Stax, the National Civil Rights Museum, the Peabody ducks and Memphis barbecue.',

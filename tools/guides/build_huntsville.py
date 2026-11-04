@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='huntsville', name='Huntsville', state='Alabama', number=75, reviewed=None,
+    slug='huntsville', name='Huntsville', state='Alabama', number=75, reviewed='November 4, 2026',
     airport='KHSV', nm=394, flight_time='~2 hr 52 <small>min</small>', style='Rental car',
     place='Huntsville, Alabama',
     description='A curated Huntsville getaway for GA pilots and their partners, from KMYR to KHSV. Rocket City: a Saturn V at the U.S. Space & Rocket Center, a botanical garden, Monte Sano Mountain and a lively downtown.',

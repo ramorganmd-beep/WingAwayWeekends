@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='fairhope', name='Fairhope & Mobile Bay', state='Alabama', number=74, reviewed=None,
+    slug='fairhope', name='Fairhope & Mobile Bay', state='Alabama', number=74, reviewed='November 4, 2026',
     airport='KCQF', nm=494, flight_time='~3 hr 32 <small>min</small>', style='Rental or courtesy car',
     place='Fairhope, Alabama',
     description='A curated Fairhope getaway for GA pilots and their partners, from KMYR to KCQF. A flower-filled bayside town on Mobile Bay: the Grand Hotel at Point Clear, the pier at sunset, Bellingrath Gardens and the USS Alabama.',
