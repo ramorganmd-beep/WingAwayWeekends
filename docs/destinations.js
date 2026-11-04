@@ -1757,11 +1757,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "little-rock", "remote": "https://images.unsplash.com/photo-1658628073095-d366a3fddcc1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzAzfA&ixlib=rb-4.1.0", "alt": "The twin white arches of the Broadway Bridge over the Arkansas River", "pos": "50% 50%"}
 },
 {
  "name": "St. Louis",
@@ -1780,11 +1776,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MO",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "st-louis", "remote": "https://images.unsplash.com/photo-1675906798386-a9ed241c7ed2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0", "alt": "The Gateway Arch lit up at blue hour", "pos": "50% 50%"}
 },
 {
  "name": "Kansas City",
@@ -1803,11 +1795,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MO",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kansas-city", "remote": "https://images.unsplash.com/photo-1707971539567-cc91b8063e08?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0", "alt": "A train crossing a bridge with the Kansas City skyline behind", "pos": "50% 50%"}
 },
 {
  "name": "Annapolis",
@@ -1826,11 +1814,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "annapolis", "remote": "https://images.unsplash.com/photo-1783341216605-f7e3c2c286e5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA0fA&ixlib=rb-4.1.0", "alt": "The white Thomas Point Shoal Lighthouse in the blue Chesapeake Bay", "pos": "50% 50%"}
 },
 {
  "name": "Ocean City & Berlin",
@@ -1849,11 +1833,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "ocean-city", "remote": "https://images.unsplash.com/photo-1695869349892-8606bf403379?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzkyNzA1fA&ixlib=rb-4.1.0", "alt": "Baltimore Avenue lined with hotels and condos in Ocean City", "pos": "50% 50%"}
 },
 {
  "name": "Deep Creek Lake",
