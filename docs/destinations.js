@@ -1736,5 +1736,95 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Memphis",
+ "state": "Tennessee",
+ "airport": "KMEM",
+ "lat": 35.0424,
+ "lon": -89.9767,
+ "desc": "Blues on Beale Street, Graceland, Sun Studio, Stax, the Civil Rights Museum and Memphis barbecue.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "memphis/",
+ "stateCode": "TN",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Golden Isles",
+ "state": "Georgia",
+ "airport": "KSSI",
+ "lat": 31.152,
+ "lon": -81.391,
+ "desc": "St. Simons, Sea Island and Jekyll Island: a lighthouse, Driftwood Beach, historic resorts and live-oak marshes.",
+ "tags": [
+  "Beach",
+  "Stays",
+  "Spa",
+  "History",
+  "Golf"
+ ],
+ "guide": "golden-isles/",
+ "stateCode": "GA",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Clarksdale",
+ "state": "Mississippi",
+ "airport": "KCKM",
+ "lat": 34.2997,
+ "lon": -90.5123,
+ "desc": "The heart of the Delta blues: juke joints, the Delta Blues Museum, the Crossroads and the Shack Up Inn.",
+ "tags": [
+  "History",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "clarksdale/",
+ "stateCode": "MS",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Natchitoches",
+ "state": "Louisiana",
+ "airport": "KIER",
+ "lat": 31.7357,
+ "lon": -93.0992,
+ "desc": "The oldest town in the Louisiana Purchase: Front Street on Cane River Lake, historic B&Bs, meat pies and Creole plantations.",
+ "tags": [
+  "Stays",
+  "History",
+  "Dining"
+ ],
+ "guide": "natchitoches/",
+ "stateCode": "LA",
+ "region": "Southeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
