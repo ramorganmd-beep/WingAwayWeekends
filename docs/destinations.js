@@ -1896,5 +1896,187 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Annapolis",
+ "state": "Maryland",
+ "airport": "KANP",
+ "lat": 38.9429,
+ "lon": -76.5684,
+ "desc": "America’s sailing capital: the Naval Academy, the colonial State House, a sunset schooner sail and crab cakes.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "annapolis/",
+ "stateCode": "MD",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ocean City & Berlin",
+ "state": "Maryland",
+ "airport": "KOXB",
+ "lat": 38.3105,
+ "lon": -75.124,
+ "desc": "A classic boardwalk beach town, bayside sunsets, Assateague’s wild horses and historic Berlin.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "ocean-city/",
+ "stateCode": "MD",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Deep Creek Lake",
+ "state": "Maryland",
+ "airport": "2G4",
+ "lat": 39.5808,
+ "lon": -79.3359,
+ "desc": "A cool mountain lake in western Maryland: a lakefront inn, Swallow Falls, Wisp Resort and lake days.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "deep-creek-lake/",
+ "stateCode": "MD",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "New River Gorge",
+ "state": "West Virginia",
+ "airport": "KBKW",
+ "lat": 37.7873,
+ "lon": -81.1242,
+ "desc": "America’s newest national park: the New River Gorge Bridge, whitewater rafting, cliffside trails and cabins.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "new-river-gorge/",
+ "stateCode": "WV",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Berkeley Springs",
+ "state": "West Virginia",
+ "airport": "KMRB",
+ "lat": 39.4024,
+ "lon": -77.983,
+ "desc": "America’s first spa: warm mineral springs, historic Roman baths, galleries and mountain views.",
+ "tags": [
+  "Spa",
+  "Stays",
+  "History",
+  "Hiking"
+ ],
+ "guide": "berkeley-springs/",
+ "stateCode": "WV",
+ "region": "Mid-Atlantic",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lexington & Horse Country",
+ "state": "Kentucky",
+ "airport": "KLEX",
+ "lat": 38.0367,
+ "lon": -84.6086,
+ "desc": "Keeneland across from the airport, thoroughbred farms, Woodford Reserve and Shaker Village.",
+ "tags": [
+  "Stays",
+  "Dining",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "lexington/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Louisville",
+ "state": "Kentucky",
+ "airport": "KLOU",
+ "lat": 38.228,
+ "lon": -85.6637,
+ "desc": "Churchill Downs, Whiskey Row, the Hot Brown at the Brown Hotel and the Muhammad Ali Center.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "louisville/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Paducah",
+ "state": "Kentucky",
+ "airport": "KPAH",
+ "lat": 37.0603,
+ "lon": -88.773,
+ "desc": "A UNESCO Creative City on the Ohio: the National Quilt Museum, floodwall murals and the LowerTown Arts District.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "paducah/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

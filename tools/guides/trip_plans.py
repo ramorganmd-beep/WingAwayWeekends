@@ -516,6 +516,30 @@ PLANS = {
     'kansas-city': {
         'day': [('Arrive', 'Land at KMKC mid-morning.'), ('Midday', 'The TWA Museum on the field, then barbecue at Joe’s.'), ('Afternoon', 'The Nelson-Atkins, then back to the FBO.')],
         'extra': [('Morning', 'The WWI Museum.'), ('Afternoon', '18th & Vine.'), ('Evening', 'Jazz at the Blue Room.')]},
+    'annapolis': {
+        'day': [('Arrive', 'Land at KANP mid-morning.'), ('Midday', 'A Naval Academy tour and lunch at Middleton Tavern.'), ('Afternoon', 'Walk the harbor, then back to the airport.')],
+        'extra': [('Morning', 'The State House and Paca House garden.'), ('Afternoon', 'A sail on the Woodwind.'), ('Evening', 'Dinner in Eastport.')]},
+    'ocean-city': {
+        'day': [('Arrive', 'Land at KOXB mid-morning.'), ('Midday', 'The boardwalk and Thrasher’s fries.'), ('Afternoon', 'The beach, then back to the airport.')],
+        'extra': [('Morning', 'Wild horses at Assateague.'), ('Afternoon', 'Berlin’s Main Street.'), ('Evening', 'Sunset at Fager’s Island.')]},
+    'deep-creek-lake': {
+        'day': [('Arrive', 'Land at 2G4 mid-morning.'), ('Midday', 'Swallow Falls State Park.'), ('Afternoon', 'Lunch by the lake, then back to the airport.')],
+        'extra': [('Morning', 'A pontoon on the lake.'), ('Afternoon', 'The mountain coaster at Wisp.'), ('Evening', 'Dinner at Mountain State Brewing.')]},
+    'new-river-gorge': {
+        'day': [('Arrive', 'Land at KBKW early.'), ('Midday', 'The Canyon Rim Visitor Center and lunch in Fayetteville.'), ('Afternoon', 'Long Point Trail, then back to the airport.')],
+        'extra': [('Morning', 'Whitewater rafting.'), ('Afternoon', 'The Bridge Walk.'), ('Evening', 'Pies & Pints.')]},
+    'berkeley-springs': {
+        'day': [('Arrive', 'Land at KMRB early and drive west.'), ('Midday', 'A Roman bath soak.'), ('Afternoon', 'The Ice House, then back to the airport.')],
+        'extra': [('Morning', 'Cacapon Resort State Park.'), ('Afternoon', 'Panorama Overlook.'), ('Evening', 'Dinner at Lot 12.')]},
+    'lexington': {
+        'day': [('Arrive', 'Land at KLEX early.'), ('Midday', 'Keeneland and the track kitchen.'), ('Afternoon', 'Old Friends Farm, then back to the FBO.')],
+        'extra': [('Morning', 'The Kentucky Horse Park.'), ('Afternoon', 'Woodford Reserve.'), ('Evening', 'Dinner at Holly Hill Inn.')]},
+    'louisville': {
+        'day': [('Arrive', 'Land at KLOU mid-morning.'), ('Midday', 'The Derby Museum and a Hot Brown.'), ('Afternoon', 'Whiskey Row, then back to the FBO.')],
+        'extra': [('Morning', 'The Slugger Museum.'), ('Afternoon', 'The Ali Center and Big Four Bridge.'), ('Evening', 'Dinner at Jack Fry’s.')]},
+    'paducah': {
+        'day': [('Arrive', 'Land at KPAH mid-morning.'), ('Midday', 'The National Quilt Museum.'), ('Afternoon', 'The floodwall murals, then back to the FBO.')],
+        'extra': [('Morning', 'LowerTown galleries.'), ('Afternoon', 'The River Discovery Center.'), ('Evening', 'Dinner at Freight House.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
