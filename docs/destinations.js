@@ -1547,11 +1547,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MS",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bay-st-louis-harbor", "alt": "White fishing and pleasure boats moored in the Bay St. Louis Municipal Harbor"}
 },
 {
  "name": "St. Francisville",
