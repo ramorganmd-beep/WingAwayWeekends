@@ -1058,82 +1058,82 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@hunterrei?utm_source=wingaway_weekends&utm_medium=referral\">Hunter Reilly</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-stream-with-a-bridge-over-it-BRIlt7r1-DA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bucks-county": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1663103732984-165cd8e7c948?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Aerial view of New Hope, Pennsylvania, and Lambertville, New Jersey, along the Delaware River",
     "w": 960,
     "h": 720,
-    "caption": "New Hope & Bucks County (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "New Hope and Lambertville on the Delaware River",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@cathkerr?utm_source=wingaway_weekends&utm_medium=referral\">Catherine Kerr</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-river-with-buildings-and-trees-35AaH3JfaIo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "poconos": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1640538214169-e170163aafa7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5NzAxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Fall color at Bushkill Falls in the Pocono Mountains",
     "w": 960,
     "h": 720,
-    "caption": "Pocono Mountains (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Bushkill Falls, Pocono Mountains",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@mrgeecee?utm_source=wingaway_weekends&utm_medium=referral\">Gary Cole</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-lake-surrounded-by-lots-of-trees-in-the-fall-2XYBeWN_0VM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "camden": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1593621993844-d9e3f7365b06?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Boats in the historic harbor at Camden, Maine",
     "w": 960,
     "h": 720,
-    "caption": "Camden & Midcoast Maine (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Camden Harbor, Maine",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@dapperprofessional?utm_source=wingaway_weekends&utm_medium=referral\">Benjamin R.</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-blue-boats-on-water-near-buildings-during-daytime-tKm5agAzRU4?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "portland-maine": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1635001283156-34f69d33f5b1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Portland Head Light on the rocky shore of Cape Elizabeth, Maine",
     "w": 960,
     "h": 720,
-    "caption": "Portland, Maine (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Portland Head Light, Cape Elizabeth",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@kellybrookme?utm_source=wingaway_weekends&utm_medium=referral\">Thomas Dewey</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-lighthouse-on-a-rocky-cliff-near-the-ocean-rW2xP6HahTY?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "chatham": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1582076654402-df484938f0ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Chatham Lighthouse on Cape Cod, Massachusetts",
     "w": 960,
     "h": 720,
-    "caption": "Chatham & Cape Cod (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Chatham Light, Cape Cod",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@rustyct1?utm_source=wingaway_weekends&utm_medium=referral\">Rusty Watson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/white-and-red-concrete-lighthouse-near-white-and-red-house-under-blue-sky-during-daytime-pRz878Pkt34?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "princeton": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1694384635867-95db2261a91a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A clock tower on the Princeton University campus",
     "w": 960,
     "h": 720,
-    "caption": "Princeton (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Princeton University",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@soowani?utm_source=wingaway_weekends&utm_medium=referral\">SooWan Jang</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-building-with-a-clock-tower-on-top-of-it-v7LySg2TfPc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "block-island": {
     "slug": "https://images.unsplash.com/photo-1631830298489-4e7ed3257fd4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ2fA&ixlib=rb-4.1.0",
@@ -1175,30 +1175,30 @@
     "placeholder": true
   },
   "new-haven": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1723721118884-38c5147ac82c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A street corner on the Yale University campus in New Haven",
     "w": 960,
     "h": 720,
-    "caption": "New Haven (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Yale University, New Haven",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@rstarg?utm_source=wingaway_weekends&utm_medium=referral\">Richard Liu</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-street-corner-with-a-large-building-in-the-background-7AxIUra4j3E?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "essex-ct": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1584786379647-c10852954d2b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Railroad tracks in Essex, Connecticut, home of the Essex Steam Train",
     "w": 960,
     "h": 720,
-    "caption": "Essex & the Connecticut River (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Railroad tracks in Essex",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@lg17?utm_source=wingaway_weekends&utm_medium=referral\">Lance Grandahl</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-metal-train-rail-near-rocky-mountain-during-daytime-nShLC-WruxQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "litchfield-hills": {
     "slug": "litchfield-barn",
@@ -1213,17 +1213,17 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2012631588/\">Barn near Litchfield, Connecticut</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "asbury-park": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1519790165067-b599b6c3ed50?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExODAwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Aerial view of Asbury Park and the beach at golden hour",
     "w": 960,
     "h": 720,
-    "caption": "Asbury Park & Spring Lake (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Asbury Park at golden hour",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@rylo444?utm_source=wingaway_weekends&utm_medium=referral\">Ryan Loughlin</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/aerial-photography-of-buildings-near-ocean-during-golden-hour-Mc7-qHzG4oI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "atlantic-city": {
     "slug": "cape-may-beach",

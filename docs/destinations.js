@@ -1987,11 +1987,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bucks-county", "remote": "https://images.unsplash.com/photo-1663103732984-165cd8e7c948?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk2fA&ixlib=rb-4.1.0", "alt": "Aerial view of New Hope, Pennsylvania, and Lambertville, New Jersey, along the Delaware River", "pos": "50% 50%"}
 },
 {
  "name": "Pocono Mountains",
@@ -2010,11 +2006,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "poconos", "remote": "https://images.unsplash.com/photo-1640538214169-e170163aafa7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5NzAxfA&ixlib=rb-4.1.0", "alt": "Fall color at Bushkill Falls in the Pocono Mountains", "pos": "50% 50%"}
 },
 {
  "name": "Camden & Midcoast Maine",
@@ -2033,11 +2025,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "camden", "remote": "https://images.unsplash.com/photo-1593621993844-d9e3f7365b06?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk2fA&ixlib=rb-4.1.0", "alt": "Boats in the historic harbor at Camden, Maine", "pos": "50% 50%"}
 },
 {
  "name": "Portland, Maine",
@@ -2056,11 +2044,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "portland-maine", "remote": "https://images.unsplash.com/photo-1635001283156-34f69d33f5b1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk3fA&ixlib=rb-4.1.0", "alt": "Portland Head Light on the rocky shore of Cape Elizabeth, Maine", "pos": "50% 50%"}
 },
 {
  "name": "Chatham & Cape Cod",
@@ -2080,11 +2064,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "chatham", "remote": "https://images.unsplash.com/photo-1582076654402-df484938f0ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExNzk3fA&ixlib=rb-4.1.0", "alt": "Chatham Lighthouse on Cape Cod, Massachusetts", "pos": "50% 50%"}
 },
 {
  "name": "Princeton",
@@ -2102,11 +2082,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NJ",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "princeton", "remote": "https://images.unsplash.com/photo-1694384635867-95db2261a91a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA3fA&ixlib=rb-4.1.0", "alt": "A clock tower on the Princeton University campus", "pos": "50% 50%"}
 },
 {
  "name": "Block Island",
@@ -2187,11 +2163,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CT",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "new-haven", "remote": "https://images.unsplash.com/photo-1723721118884-38c5147ac82c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA4fA&ixlib=rb-4.1.0", "alt": "A street corner on the Yale University campus in New Haven", "pos": "50% 50%"}
 },
 {
  "name": "Essex & the Connecticut River",
@@ -2210,11 +2182,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CT",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "essex-ct", "remote": "https://images.unsplash.com/photo-1584786379647-c10852954d2b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExOTA4fA&ixlib=rb-4.1.0", "alt": "Railroad tracks in Essex, Connecticut, home of the Essex Steam Train", "pos": "50% 50%"}
 },
 {
  "name": "Litchfield Hills",
@@ -2252,11 +2220,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NJ",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "asbury-park", "remote": "https://images.unsplash.com/photo-1519790165067-b599b6c3ed50?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODExODAwfA&ixlib=rb-4.1.0", "alt": "Aerial view of Asbury Park and the beach at golden hour", "pos": "50% 50%"}
 },
 {
  "name": "Atlantic City",
