@@ -927,3 +927,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Brady Knutson on Unsplash — https://unsplash.com/photos/jayhawk-mascot-statue-at-the-university-of-kansas-t9AoKZkNtNA
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: University of Kansas, Lawrence (Unsplash location and description)
+
+## Providence
+
+- Photo by Nils Huenerfuerst on Unsplash — https://unsplash.com/photos/a-city-with-a-river-running-through-it-EKCc5GaYMYk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Providence, RI (Unsplash location and description)

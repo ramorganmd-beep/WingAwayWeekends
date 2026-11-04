@@ -2115,11 +2115,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "RI",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "providence", "remote": "https://images.unsplash.com/photo-1670530898662-92dde9e3f64b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIwMzI2fA&ixlib=rb-4.1.0", "alt": "Downtown Providence along the Providence River", "pos": "50% 50%"}
 },
 {
  "name": "Watch Hill & Westerly",
