@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='st-louis', name='St. Louis', state='Missouri', number=83, reviewed=None,
+    slug='st-louis', name='St. Louis', state='Missouri', number=83, reviewed='November 4, 2026',
     airport='KCPS', nm=618, flight_time='~4 hr 22 <small>min</small>', style='Rental car or rideshare',
     place='St. Louis, Missouri',
     description='A curated St. Louis getaway for GA pilots and their partners, from KMYR to KCPS. The Gateway Arch, Forest Park’s free museums, the Missouri Botanical Garden, Italian dinners on The Hill and frozen custard.',
