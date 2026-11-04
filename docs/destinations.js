@@ -1131,11 +1131,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MO",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "st-michaels-harbor",
-  "alt": "Illustration of a calm harbor"
- }
+ "photo": {"slug": "branson", "remote": "https://images.unsplash.com/photo-1654884115113-07020ec91d51?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0", "alt": "Sunset over Table Rock Lake with wooded shoreline", "pos": "50% 50%"}
 },
 {
  "name": "Lake of the Ozarks",
@@ -1215,11 +1211,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "shenandoah-ridges",
-  "alt": "Illustration of layered blue mountain ridges"
- }
+ "photo": {"slug": "eureka-springs-fall", "alt": "A winding road through fall color in the Ozark hills at Eureka Springs"}
 },
 {
  "name": "Duluth & the North Shore",
@@ -1523,11 +1515,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "LA",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "new-orleans", "remote": "https://images.unsplash.com/photo-1583477716463-9c485c89f6e1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzE5fA&ixlib=rb-4.1.0", "alt": "Colorful colonial buildings with iron balconies in the French Quarter", "pos": "50% 50%"}
 },
 {
  "name": "Natchez",
@@ -1568,11 +1556,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MS",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "oxford-square", "alt": "Historic storefronts with balconies on the Square in downtown Oxford"}
 },
 {
  "name": "Bay St. Louis",
@@ -1614,11 +1598,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "LA",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "st-francisville", "remote": "https://images.unsplash.com/photo-1702690401395-767fe2cdf3a7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIwfA&ixlib=rb-4.1.0", "alt": "The white columned Rosedown Plantation house framed by trees and lawn", "pos": "50% 50%"}
 },
 {
  "name": "Lafayette & Cajun Country",
@@ -1684,11 +1664,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AL",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "huntsville", "remote": "https://images.unsplash.com/photo-1605813640975-0ef0ad36826a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIxfA&ixlib=rb-4.1.0", "alt": "A space shuttle display at the U.S. Space and Rocket Center", "pos": "50% 50%"}
 },
 {
  "name": "Lake Martin",
@@ -1731,11 +1707,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AL",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "birmingham", "remote": "https://images.unsplash.com/photo-1440582096070-fa5961d9d682?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0", "alt": "The Birmingham skyline and Sloss Furnaces stacks reflected in a pond at sunset", "pos": "50% 50%"}
 },
 {
  "name": "Memphis",
@@ -1753,11 +1725,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TN",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "memphis", "remote": "https://images.unsplash.com/photo-1753752243195-628fb209ba91?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0", "alt": "A Memphis street scene downtown", "pos": "50% 50%"}
 },
 {
  "name": "Golden Isles",
@@ -1777,11 +1745,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "GA",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "golden-isles", "remote": "https://images.unsplash.com/photo-1521158422-e44de3484714?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0", "alt": "Weathered driftwood trees on the sand at Driftwood Beach", "pos": "50% 50%"}
 },
 {
  "name": "Clarksdale",
@@ -1799,11 +1763,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MS",
  "region": "Southeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "clarksdale-blues", "alt": "Bluesman Terry Harmonica Bean playing guitar in a Clarksdale juke joint"}
 },
 {
  "name": "Natchitoches",

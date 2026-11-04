@@ -1755,5 +1755,271 @@
   "date_taken": null,
   "files": [],
   "location": "Islamorada, FL (geotag)"
+ },
+ {
+  "destination": "New Orleans",
+  "title": "The French Quarter, New Orleans",
+  "photographer": "Aya Salman",
+  "source_page_url": "https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-Ix7OnZAtyIs",
+  "original_image_url": "https://images.unsplash.com/photo-1583477716463-9c485c89f6e1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzE5fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Colorful colonial buildings with iron balconies in the French Quarter",
+  "date_taken": null,
+  "files": [],
+  "location": "French Quarter, New Orleans, LA (Unsplash location)"
+ },
+ {
+  "destination": "St. Francisville",
+  "title": "Rosedown Plantation, St. Francisville",
+  "photographer": "Benjamin Price",
+  "source_page_url": "https://unsplash.com/photos/a-large-white-house-surrounded-by-trees-and-grass-ErKyDX2sKqI",
+  "original_image_url": "https://images.unsplash.com/photo-1702690401395-767fe2cdf3a7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The white columned Rosedown Plantation house framed by trees and lawn",
+  "date_taken": null,
+  "files": [],
+  "location": "Rosedown Plantation, St. Francisville, LA (Unsplash location and description)"
+ },
+ {
+  "destination": "Huntsville",
+  "title": "The U.S. Space & Rocket Center, Huntsville",
+  "photographer": "Harsh",
+  "source_page_url": "https://unsplash.com/photos/white-and-brown-space-ship-z2RlWyJ2-RU",
+  "original_image_url": "https://images.unsplash.com/photo-1605813640975-0ef0ad36826a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIxfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A space shuttle display at the U.S. Space and Rocket Center",
+  "date_taken": null,
+  "files": [],
+  "location": "U.S. Space and Rocket Center, Huntsville, AL (Unsplash location)"
+ },
+ {
+  "destination": "Birmingham",
+  "title": "Birmingham from Railroad Park",
+  "photographer": "Zachary Farmer",
+  "source_page_url": "https://unsplash.com/photos/landscape-photography-of-cityscape-by-water-TkunxoS98q0",
+  "original_image_url": "https://images.unsplash.com/photo-1440582096070-fa5961d9d682?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Birmingham skyline and Sloss Furnaces stacks reflected in a pond at sunset",
+  "date_taken": null,
+  "files": [],
+  "location": "Birmingham, AL; Sloss Furnaces stacks visible (Unsplash location, visually confirmed)"
+ },
+ {
+  "destination": "Memphis",
+  "title": "Downtown Memphis",
+  "photographer": "Kiran Naidu",
+  "source_page_url": "https://unsplash.com/photos/a-street-scene-in-memphis-tennessee-BgqJn7JlJzM",
+  "original_image_url": "https://images.unsplash.com/photo-1753752243195-628fb209ba91?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A Memphis street scene downtown",
+  "date_taken": null,
+  "files": [],
+  "location": "Memphis, TN (Unsplash location)"
+ },
+ {
+  "destination": "Golden Isles",
+  "title": "Driftwood Beach, Jekyll Island",
+  "photographer": "Zach Reiner",
+  "source_page_url": "https://unsplash.com/photos/driftwood-on-grey-beach-sands-6HsMKCHho_I",
+  "original_image_url": "https://images.unsplash.com/photo-1521158422-e44de3484714?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Weathered driftwood trees on the sand at Driftwood Beach",
+  "date_taken": null,
+  "files": [],
+  "location": "Driftwood Beach, Jekyll Island, GA (Unsplash location)"
+ },
+ {
+  "destination": "Branson & Table Rock Lake",
+  "title": "Sunset on Table Rock Lake",
+  "photographer": "Keith Paschal",
+  "source_page_url": "https://unsplash.com/photos/a-body-of-water-with-trees-and-a-sunset-in-the-background-PtFGkAruMpo",
+  "original_image_url": "https://images.unsplash.com/photo-1654884115113-07020ec91d51?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzNzg5MzIyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Sunset over Table Rock Lake with wooded shoreline",
+  "date_taken": null,
+  "files": [],
+  "location": "Table Rock Lake, Branson, MO (Unsplash location and description)"
+ },
+ {
+  "destination": "Oxford",
+  "title": "Downtown Oxford, Mississippi",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017880820/",
+  "original_image_url": "https://www.loc.gov/item/2017880820/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2775,
+   "height": 1592
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Historic storefronts with balconies on the Square in downtown Oxford",
+  "files": [
+   {
+    "path": "dist/assets/destinations/oxford-square-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32000,
+    "sha256": "1e7d0a5c4356355e3943de844203271730b45043b9fd897c14d37a2924ea88f5"
+   },
+   {
+    "path": "dist/assets/destinations/oxford-square-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42094,
+    "sha256": "ffaf208d48f985145f84e77eee00d5e8bf88e3adf7ea8404156df91b127a8d4d"
+   },
+   {
+    "path": "dist/assets/destinations/oxford-square-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 115064,
+    "sha256": "b7dc0b93ec6e16a4e9cff46f64d484e9d3b3aa9246848a07592956d14816cbb8"
+   },
+   {
+    "path": "dist/assets/destinations/oxford-square-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 151390,
+    "sha256": "d979f508936c9ef02821b0e4f8e6e8b2f28544819069cca3b3c946d24e3f1e41"
+   }
+  ]
+ },
+ {
+  "destination": "Clarksdale",
+  "title": "Jazzman Terry \"Harmonica\" Bean performs in Clarksdale, Mississippi",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017656567/",
+  "original_image_url": "https://www.loc.gov/item/2017656567/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2902,
+   "height": 2177
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Bluesman Terry Harmonica Bean playing guitar in a Clarksdale juke joint",
+  "files": [
+   {
+    "path": "dist/assets/destinations/clarksdale-blues-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 31200,
+    "sha256": "b88bbbd463b41ae28e80b1901e232b8ab59ff14f289d6c2a86b294d4b2f4f6eb"
+   },
+   {
+    "path": "dist/assets/destinations/clarksdale-blues-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 40358,
+    "sha256": "df5c97d9a1f4c621c452ffaec00e83abf52310a9145b1240323aea073671a92c"
+   },
+   {
+    "path": "dist/assets/destinations/clarksdale-blues-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 94498,
+    "sha256": "219febd733c0b01c1417e7beb84f07d3348417ae9bedca24095591eb029e2698"
+   },
+   {
+    "path": "dist/assets/destinations/clarksdale-blues-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 132187,
+    "sha256": "77a88f2868f027ff33fa6b38fca9ba51c42f396be4cf6d6b2c473e3b5e53e076"
+   }
+  ]
+ },
+ {
+  "destination": "Eureka Springs",
+  "title": "Fall scene in Eureka Springs, Arkansas",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2020741533/",
+  "original_image_url": "https://www.loc.gov/item/2020741533/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A winding road through fall color in the Ozark hills at Eureka Springs",
+  "files": [
+   {
+    "path": "dist/assets/destinations/eureka-springs-fall-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 62934,
+    "sha256": "c7eb37976d4dfa44416925378a3c9e0852ea004a0e135e0969430a94ed277677"
+   },
+   {
+    "path": "dist/assets/destinations/eureka-springs-fall-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 64204,
+    "sha256": "b64c2e6bf3c0cca7b1d7f5b4ff82ab7720a13d2b95d1db67344b0eeeb1d29522"
+   },
+   {
+    "path": "dist/assets/destinations/eureka-springs-fall-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 299662,
+    "sha256": "7c5246f030ac1117c8aca587e48f5107dbaa69670c0051265da2fe33ad757bb8"
+   },
+   {
+    "path": "dist/assets/destinations/eureka-springs-fall-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 294253,
+    "sha256": "a01c8abcc6a6f745befc5ab4c894760ecff41eb4ecbb9ea9f2f82f7a29b9b93c"
+   }
+  ]
  }
 ]
