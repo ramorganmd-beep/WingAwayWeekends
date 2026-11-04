@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='bay-st-louis', name='Bay St. Louis', state='Mississippi', number=71, reviewed=None,
+    slug='bay-st-louis', name='Bay St. Louis', state='Mississippi', number=71, reviewed='November 4, 2026',
     airport='KHSA', nm=571, flight_time='~4 hr 03 <small>min</small>', style='Rental car',
     place='Bay St. Louis, Mississippi',
     description='A curated Bay St. Louis getaway for GA pilots and their partners, from KMYR to KHSA. A small, artsy Gulf Coast town: Old Town galleries, beachfront dining, NASA’s INFINITY Science Center and Walter Anderson’s art.',

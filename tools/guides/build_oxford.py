@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='oxford', name='Oxford', state='Mississippi', number=70, reviewed=None,
+    slug='oxford', name='Oxford', state='Mississippi', number=70, reviewed='November 4, 2026',
     airport='KUOX', nm=529, flight_time='~3 hr 46 <small>min</small>', style='Rental car or rideshare',
     place='Oxford, Mississippi',
     description='A curated Oxford getaway for GA pilots and their partners, from KMYR to KUOX. A literary college town: the Square, Faulkner’s Rowan Oak, Square Books and some of the South’s best restaurants.',

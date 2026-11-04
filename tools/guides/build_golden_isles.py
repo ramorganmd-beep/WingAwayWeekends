@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='golden-isles', name='Golden Isles', state='Georgia', number=79, reviewed=None,
+    slug='golden-isles', name='Golden Isles', state='Georgia', number=79, reviewed='November 4, 2026',
     airport='KSSI', nm=196, flight_time='~1 hr 33 <small>min</small>', style='Rental car or bikes',
     place='St. Simons Island, Georgia',
     description='A curated Golden Isles getaway for GA pilots and their partners, from KMYR to KSSI. St. Simons, Sea Island and Jekyll Island: a historic lighthouse, Driftwood Beach, the Jekyll Island Club and live-oak marshes.',

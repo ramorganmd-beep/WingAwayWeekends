@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='natchitoches', name='Natchitoches', state='Louisiana', number=81, reviewed=None,
+    slug='natchitoches', name='Natchitoches', state='Louisiana', number=81, reviewed='November 4, 2026',
     airport='KIER', nm=725, flight_time='~5 hr 04 <small>min</small>', style='Rental or arranged car',
     place='Natchitoches, Louisiana',
     description='A curated Natchitoches getaway for GA pilots and their partners, from KMYR to KIER. The oldest town in the Louisiana Purchase: brick-paved Front Street on Cane River Lake, historic B&Bs, meat pies, Creole plantations and a famous Christmas festival.',

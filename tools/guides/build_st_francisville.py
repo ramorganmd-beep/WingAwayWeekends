@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='st-francisville', name='St. Francisville', state='Louisiana', number=72, reviewed=None,
+    slug='st-francisville', name='St. Francisville', state='Louisiana', number=72, reviewed='November 4, 2026',
     airport='KBTR', nm=649, flight_time='~4 hr 34 <small>min</small>', style='Rental car',
     place='St. Francisville, Louisiana',
     description='A curated St. Francisville getaway for GA pilots and their partners, from KMYR to KBTR. A small town in Louisiana’s plantation country: historic inns, oak-lined gardens, Audubon’s Oakley House and the Tunica Hills.',

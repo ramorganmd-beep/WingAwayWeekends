@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='birmingham', name='Birmingham', state='Alabama', number=77, reviewed=None,
+    slug='birmingham', name='Birmingham', state='Alabama', number=77, reviewed='November 4, 2026',
     airport='KBHM', nm=391, flight_time='~2 hr 51 <small>min</small>', style='Rental car or rideshare',
     place='Birmingham, Alabama',
     description='A curated Birmingham getaway for GA pilots and their partners, from KMYR to KBHM. Award-winning restaurants, the Civil Rights District, the Southern Museum of Flight, Barber’s motorcycle museum and Vulcan’s view.',

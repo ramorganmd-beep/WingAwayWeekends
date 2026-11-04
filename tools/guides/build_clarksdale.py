@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='clarksdale', name='Clarksdale', state='Mississippi', number=80, reviewed=None,
+    slug='clarksdale', name='Clarksdale', state='Mississippi', number=80, reviewed='November 4, 2026',
     airport='KCKM', nm=578, flight_time='~4 hr 06 <small>min</small>', style='Arranged car',
     place='Clarksdale, Mississippi',
     description='A curated Clarksdale getaway for GA pilots and their partners, from KMYR to KCKM. The heart of the Mississippi Delta blues: juke joints, the Delta Blues Museum, the Crossroads, the Shack Up Inn and hot tamales.',

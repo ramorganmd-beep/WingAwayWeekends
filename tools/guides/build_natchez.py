@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='natchez', name='Natchez', state='Mississippi', number=69, reviewed=None,
+    slug='natchez', name='Natchez', state='Mississippi', number=69, reviewed='November 4, 2026',
     airport='KHEZ', nm=637, flight_time='~4 hr 29 <small>min</small>', style='Rental car',
     place='Natchez, Mississippi',
     description='A curated Natchez getaway for GA pilots and their partners, from KMYR to KHEZ. Antebellum mansions on a Mississippi River bluff, historic inns, the Natchez Trace and river sunsets.',
