@@ -873,3 +873,57 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Deep_Creek_Lake_State_Park_in_Maryland.jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bismarck & Mandan
+
+- Title: [State capitol building, Bismarck, North Dakota]
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011631471/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Scotts Bluff & Chimney Rock
+
+- Title: The iconic Chimney Rock, now a U.S. national monument, stands out in the distance in Morrill County, Nebraska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021757960/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lindsborg & Abilene
+
+- Title: The Old Mill Museum in Lindsborg, Kansas, which the locals are fond of calling "Little Sweden, U.S.A."
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2020742096/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Traverse City
+
+- Photo by Nick Perez on Unsplash — https://unsplash.com/photos/green-and-brown-trees-near-body-of-water-during-daytime-EpFjmHIIJgo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Traverse City, MI (Unsplash location)
+
+## Saugatuck & Holland
+
+- Photo by Aaron Burden on Unsplash — https://unsplash.com/photos/pathway-surrounded-with-trees-sfEr0jw2sp8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Saugatuck, MI (Unsplash location)
+
+## Lake Geneva
+
+- Photo by Vincent Y @USA on Unsplash — https://unsplash.com/photos/a-dock-on-a-lake-with-trees-in-the-background-SOTD91_mT-k
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lake Geneva, WI (Unsplash location)
+
+## Wichita
+
+- Photo by American Jael on Unsplash — https://unsplash.com/photos/a-body-of-water-with-buildings-in-the-background-JRLxwGoGXmI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Exploration Place, Wichita (Unsplash location and description)
+
+## Lawrence
+
+- Photo by Brady Knutson on Unsplash — https://unsplash.com/photos/jayhawk-mascot-statue-at-the-university-of-kansas-t9AoKZkNtNA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: University of Kansas, Lawrence (Unsplash location and description)
