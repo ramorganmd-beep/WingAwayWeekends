@@ -1602,95 +1602,95 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@sfitzgerald7?utm_source=wingaway_weekends&utm_medium=referral\">Spencer Fitzgerald</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-rock-formation-next-to-a-body-of-water-tRZn6x6A5bE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "put-in-bay": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1697744997632-7f7df1790b33?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDUzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Boats filling the marina at Put-in-Bay on South Bass Island",
     "w": 960,
     "h": 720,
-    "caption": "Put-in-Bay & the Lake Erie Islands (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The marina at Put-in-Bay",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@rise13law?utm_source=wingaway_weekends&utm_medium=referral\">Walter Martin</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-marina-filled-with-lots-of-boats-on-top-of-water-LzOeOOV2w-0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "hocking-hills": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1659393240694-16b1b95f1ef9?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDU0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Hikers resting on rocks along a stream in Hocking Hills State Park",
     "w": 960,
     "h": 720,
-    "caption": "Hocking Hills (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Hocking Hills State Park",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@lanceanderson?utm_source=wingaway_weekends&utm_medium=referral\">Lance Anderson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-group-of-people-sitting-on-rocks-in-a-river-MYBr09n-tLw?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "cleveland": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1782008140325-e62396a0c91d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDU3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Cleveland skyline with a ship docked in the harbor",
     "w": 960,
     "h": 720,
-    "caption": "Cleveland (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Cleveland from the harbor",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ralflorent?utm_source=wingaway_weekends&utm_medium=referral\">Ralph Florent</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/cleveland-skyline-with-a-ship-docked-in-the-harbor-zlG71HmJvTk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "indianapolis": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1584385971010-71c147ba5dbd?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDYwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Aerial view of downtown Indianapolis",
     "w": 960,
     "h": 720,
-    "caption": "Indianapolis (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Indianapolis from above",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@rdehamer?utm_source=wingaway_weekends&utm_medium=referral\">Ryan De Hamer</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/aerial-view-of-city-buildings-during-daytime-yilpftAIsSA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "brown-county": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1636309455354-fd4cd2b70690?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDYzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The North Lookout Tower rising above the forest in Brown County State Park",
     "w": 960,
     "h": 720,
-    "caption": "Brown County & Bloomington (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "North Lookout Tower, Brown County State Park",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@stevenvanelk?utm_source=wingaway_weekends&utm_medium=referral\">Steven Van Elk</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-tall-wooden-structure-sitting-in-the-middle-of-a-forest-IS91noZix2g?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "indiana-dunes": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1657653038900-ec2fda7affcd?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI3OTg2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Dune grass beside Lake Michigan in Indiana Dunes National Park",
     "w": 960,
     "h": 720,
-    "caption": "Indiana Dunes (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Indiana Dunes National Park",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@artbyhybrid?utm_source=wingaway_weekends&utm_medium=referral\">Madison Oren</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-grassy-area-next-to-a-body-of-water-Yikhq4iAzhE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "chicago": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1548260615-76dcb42bf821?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODIyNDY4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A red bridge over the Chicago River with downtown towers along the Riverwalk",
     "w": 960,
     "h": 720,
-    "caption": "Chicago (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Chicago Riverwalk",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@gautamkrishnan?utm_source=wingaway_weekends&utm_medium=referral\">Gautam Krishnan</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/low-angle-photography-of-maroon-bridge-overlooking-high-rise-buildings-during-daytime-e5lAxpsrYo0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "starved-rock": {
     "slug": "cape-may-beach",
@@ -1706,16 +1706,16 @@
     "placeholder": true
   },
   "shawnee-hills": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1665252957415-383469d908af?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI2MDgyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Sandstone bluffs at Garden of the Gods in the Shawnee National Forest",
     "w": 960,
     "h": 720,
-    "caption": "Shawnee Hills Wine Trail (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Garden of the Gods, Shawnee National Forest",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@hubdub?utm_source=wingaway_weekends&utm_medium=referral\">Brian Hubbard</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-rocky-cliff-with-trees-and-blue-sky-bGQsCg04-_g?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
