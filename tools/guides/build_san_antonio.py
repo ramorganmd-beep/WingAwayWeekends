@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='san-antonio', name='San Antonio', state='Texas', number=63, reviewed=None,
+    slug='san-antonio', name='San Antonio', state='Texas', number=63, reviewed='November 4, 2026',
     airport='KSSF', nm=1032, flight_time='~7 hr 8 <small>min</small>', style='Rideshare + River Walk',
     place='San Antonio, Texas',
     description='A curated San Antonio getaway for GA pilots and their partners, from KMYR to KSSF. The Alamo, the River Walk, four Spanish missions next to the airport, the Pearl and Tex-Mex at Market Square.',

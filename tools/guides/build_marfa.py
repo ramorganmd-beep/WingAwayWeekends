@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='marfa', name='Marfa & Big Bend', state='Texas', number=67, reviewed=None,
+    slug='marfa', name='Marfa & Big Bend', state='Texas', number=67, reviewed='November 4, 2026',
     airport='KMRF', nm=1289, flight_time='~8 hr 51 <small>min</small>', style='Rental car',
     place='Marfa, Texas',
     description='A curated Marfa and Big Bend getaway for GA pilots and their partners, from KMYR to KMRF. A high-desert art town, Donald Judd’s Chinati Foundation, the Marfa Lights, McDonald Observatory star parties and Big Bend.',

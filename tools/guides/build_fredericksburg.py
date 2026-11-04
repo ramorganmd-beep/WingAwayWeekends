@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='fredericksburg', name='Fredericksburg & the Hill Country', state='Texas', number=62, reviewed=None,
+    slug='fredericksburg', name='Fredericksburg & the Hill Country', state='Texas', number=62, reviewed='November 4, 2026',
     airport='KT82', nm=1037, flight_time='~7 hr 10 <small>min</small>', style='Rental car + walks',
     place='Fredericksburg, Texas',
     description='A curated Fredericksburg and Texas Hill Country getaway for GA pilots and their partners, from KMYR to T82. A WWII-themed hotel on the airport, the National Museum of the Pacific War, Hill Country wineries and Enchanted Rock.',

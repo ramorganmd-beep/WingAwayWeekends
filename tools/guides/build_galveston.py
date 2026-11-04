@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='galveston', name='Galveston', state='Texas', number=65, reviewed=None,
+    slug='galveston', name='Galveston', state='Texas', number=65, reviewed='November 4, 2026',
     airport='KGLS', nm=857, flight_time='~5 hr 58 <small>min</small>', style='Rental car or trolley',
     place='Galveston, Texas',
     description='A curated Galveston getaway for GA pilots and their partners, from KMYR to KGLS. A Victorian island city on the Gulf: the Strand, grand mansions, a tall ship, the seawall and seafood since 1911.',
