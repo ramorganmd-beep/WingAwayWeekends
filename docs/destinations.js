@@ -2119,5 +2119,186 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Block Island",
+ "state": "Rhode Island",
+ "airport": "KBID",
+ "lat": 41.1681,
+ "lon": -71.5778,
+ "desc": "A car-free-feeling island: Mohegan Bluffs, two lighthouses, Victorian hotels, bike rides and sunset dinners.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "block-island/",
+ "stateCode": "RI",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Providence",
+ "state": "Rhode Island",
+ "airport": "KPVD",
+ "lat": 41.7223,
+ "lon": -71.4277,
+ "desc": "WaterFire on the rivers, Federal Hill’s Italian restaurants, Al Forno, the RISD Museum and Benefit Street’s Mile of History.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "providence/",
+ "stateCode": "RI",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Watch Hill & Westerly",
+ "state": "Rhode Island",
+ "airport": "KWST",
+ "lat": 41.3496,
+ "lon": -71.8034,
+ "desc": "A grand seaside resort, the country’s oldest flying-horse carousel, Napatree Point and a lighthouse on the rocks.",
+ "tags": [
+  "Beach",
+  "Spa",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "watch-hill/",
+ "stateCode": "RI",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "New Haven",
+ "state": "Connecticut",
+ "airport": "KHVN",
+ "lat": 41.2637,
+ "lon": -72.8877,
+ "desc": "America’s pizza capital: Pepe’s and Sally’s, Yale’s free art museums, the Peabody, theater and Louis’ Lunch.",
+ "tags": [
+  "Dining",
+  "History"
+ ],
+ "guide": "new-haven/",
+ "stateCode": "CT",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Essex & the Connecticut River",
+ "state": "Connecticut",
+ "airport": "KSNC",
+ "lat": 41.3837,
+ "lon": -72.5058,
+ "desc": "Riverside villages, a 1776 inn, a steam train and riverboat, Gillette Castle, Goodspeed Opera House and the Old Lyme art colony.",
+ "tags": [
+  "Stays",
+  "History",
+  "Spa",
+  "Dining"
+ ],
+ "guide": "essex-ct/",
+ "stateCode": "CT",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Litchfield Hills",
+ "state": "Connecticut",
+ "airport": "KOXC",
+ "lat": 41.4783,
+ "lon": -73.1352,
+ "desc": "Country luxury in northwest Connecticut: the Mayflower Inn & Spa, Winvian Farm, Lake Waramaug, vineyards and village greens.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Wine",
+  "Hiking",
+  "Lake"
+ ],
+ "guide": "litchfield-hills/",
+ "stateCode": "CT",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Asbury Park & Spring Lake",
+ "state": "New Jersey",
+ "airport": "KBLM",
+ "lat": 40.1868,
+ "lon": -74.1246,
+ "desc": "A revived Jersey Shore music town: the Stone Pony, a boardwalk, boutique hotels and quiet Victorian Spring Lake.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "asbury-park/",
+ "stateCode": "NJ",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Atlantic City",
+ "state": "New Jersey",
+ "airport": "KACY",
+ "lat": 39.4576,
+ "lon": -74.5772,
+ "desc": "Resort casinos and spas, the original boardwalk, a historic steakhouse, oysters and the Absecon Lighthouse.",
+ "tags": [
+  "Beach",
+  "Spa",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "atlantic-city/",
+ "stateCode": "NJ",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

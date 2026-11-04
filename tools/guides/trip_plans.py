@@ -561,6 +561,30 @@ PLANS = {
     'princeton': {
         'day': [('Arrive', 'Land at 39N mid-morning.'), ('Midday', 'Campus and the art museum.'), ('Afternoon', 'Grounds For Sculpture, then back to the airport.')],
         'extra': [('Morning', 'Morven.'), ('Afternoon', 'Lake Carnegie.'), ('Evening', 'A McCarter show.')]},
+    'block-island': {
+        'day': [('Arrive', 'Land at KBID mid-morning.'), ('Midday', 'Rent bikes and ride to Mohegan Bluffs.'), ('Afternoon', 'The beach, then back to the airport.')],
+        'extra': [('Morning', 'North Light and Clay Head Trail.'), ('Afternoon', 'The beach.'), ('Evening', 'Sunset at the Atlantic Inn.')]},
+    'providence': {
+        'day': [('Arrive', 'Land at KPVD mid-morning.'), ('Midday', 'Walk Benefit Street and College Hill.'), ('Afternoon', 'Federal Hill, then back to the airport.')],
+        'extra': [('Morning', 'The RISD Museum.'), ('Afternoon', 'Federal Hill.'), ('Evening', 'Dinner at Oberlin, then WaterFire.')]},
+    'watch-hill': {
+        'day': [('Arrive', 'Land at KWST mid-morning.'), ('Midday', 'Walk the village and ride the carousel.'), ('Afternoon', 'The spa, then back to the airport.')],
+        'extra': [('Morning', 'Napatree Point.'), ('Afternoon', 'The spa.'), ('Evening', 'Dinner at Ocean House.')]},
+    'new-haven': {
+        'day': [('Arrive', 'Land at KHVN mid-morning.'), ('Midday', 'The Yale University Art Gallery.'), ('Afternoon', 'The Center for British Art, then back to the airport.')],
+        'extra': [('Morning', 'The Peabody Museum.'), ('Afternoon', 'The Center for British Art.'), ('Evening', 'Dinner at Union League, then Yale Rep.')]},
+    'essex-ct': {
+        'day': [('Arrive', 'Land at KSNC mid-morning.'), ('Midday', 'Walk Essex village and the river museum.'), ('Afternoon', 'Gillette Castle, then back to the airport.')],
+        'extra': [('Morning', 'The Essex Steam Train and riverboat.'), ('Afternoon', 'Gillette Castle.'), ('Evening', 'A Goodspeed show.')]},
+    'litchfield-hills': {
+        'day': [('Arrive', 'Land at KOXC mid-morning.'), ('Midday', 'Drive to the inn; walk the grounds.'), ('Afternoon', 'Hopkins Vineyard and Lake Waramaug, then back to the airport.')],
+        'extra': [('Morning', 'The spa.'), ('Afternoon', 'Hopkins Vineyard and Lake Waramaug.'), ('Evening', 'Dinner at the Hopkins Inn.')]},
+    'asbury-park': {
+        'day': [('Arrive', 'Land at KBLM mid-morning.'), ('Midday', 'The boardwalk and Silverball.'), ('Afternoon', 'Spring Lake, then back to the airport.')],
+        'extra': [('Morning', 'The beach.'), ('Afternoon', 'Spring Lake.'), ('Evening', 'Pizza at Talula’s.')]},
+    'atlantic-city': {
+        'day': [('Arrive', 'Land at KACY mid-morning.'), ('Midday', 'The boardwalk at sunset.'), ('Afternoon', 'Absecon Lighthouse, then back to the airport.')],
+        'extra': [('Morning', 'The spa.'), ('Afternoon', 'Absecon Lighthouse.'), ('Evening', 'Dinner at the Knife & Fork Inn and a show.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
