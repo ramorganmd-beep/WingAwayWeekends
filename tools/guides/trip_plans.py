@@ -585,6 +585,24 @@ PLANS = {
     'atlantic-city': {
         'day': [('Arrive', 'Land at KACY mid-morning.'), ('Midday', 'The boardwalk at sunset.'), ('Afternoon', 'Absecon Lighthouse, then back to the airport.')],
         'extra': [('Morning', 'The spa.'), ('Afternoon', 'Absecon Lighthouse.'), ('Evening', 'Dinner at the Knife & Fork Inn and a show.')]},
+    'woodstock-vt': {
+        'day': [('Arrive', 'Land at KLEB early.'), ('Midday', 'Walk the village green and covered bridge.'), ('Afternoon', 'Billings Farm and the national park, then back to the airport.')],
+        'extra': [('Morning', 'Billings Farm and the national park.'), ('Afternoon', 'Quechee Gorge and Simon Pearce glassblowing.'), ('Evening', 'Dinner at Simon Pearce.')]},
+    'manchester-vt': {
+        'day': [('Arrive', 'Land at KDDH early.'), ('Midday', 'Walk Manchester Village and the Northshire Bookstore.'), ('Afternoon', 'Hildene, then back to the airport.')],
+        'extra': [('Morning', 'Hildene.'), ('Afternoon', 'Skyline Drive, then the spa.'), ('Evening', 'Dinner at The Silver Fork.')]},
+    'burlington-vt': {
+        'day': [('Arrive', 'Land at KBTV early.'), ('Midday', 'Church Street and the waterfront.'), ('Afternoon', 'Shelburne Farms, then back to the airport.')],
+        'extra': [('Morning', 'Shelburne Farms.'), ('Afternoon', 'The Shelburne Museum.'), ('Evening', 'A sunset cruise, then Honey Road.')]},
+    'bretton-woods': {
+        'day': [('Arrive', 'Land at KHIE early.'), ('Midday', 'Check in and sit on the veranda.'), ('Afternoon', 'The Cog Railway to the summit, then back to the airport.')],
+        'extra': [('Morning', 'The Cog Railway to the summit.'), ('Afternoon', 'The spa.'), ('Evening', 'Dinner at Sugar Hill Inn.')]},
+    'lake-winnipesaukee': {
+        'day': [('Arrive', 'Land at KLCI early.'), ('Midday', 'Walk Meredith’s waterfront.'), ('Afternoon', 'A cruise on the M/S Mount Washington, then back to the airport.')],
+        'extra': [('Morning', 'A cruise on the M/S Mount Washington.'), ('Afternoon', 'Castle in the Clouds.'), ('Evening', 'Dinner at Wolfe’s Tavern.')]},
+    'north-conway': {
+        'day': [('Arrive', 'Land at KIZG early.'), ('Midday', 'Drive through the covered bridge to Jackson.'), ('Afternoon', 'The Conway Scenic Railroad, then back to the airport.')],
+        'extra': [('Morning', 'The Conway Scenic Railroad.'), ('Afternoon', 'The Kancamagus Highway.'), ('Evening', 'Dinner at Moat Mountain.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
