@@ -540,6 +540,27 @@ PLANS = {
     'paducah': {
         'day': [('Arrive', 'Land at KPAH mid-morning.'), ('Midday', 'The National Quilt Museum.'), ('Afternoon', 'The floodwall murals, then back to the FBO.')],
         'extra': [('Morning', 'LowerTown galleries.'), ('Afternoon', 'The River Discovery Center.'), ('Evening', 'Dinner at Freight House.')]},
+    'finger-lakes': {
+        'day': [('Arrive', 'Land at KITH early.'), ('Midday', 'Taughannock Falls and lunch in Ithaca.'), ('Afternoon', 'A Cayuga Lake winery, then back to the FBO.')],
+        'extra': [('Morning', 'Watkins Glen.'), ('Afternoon', 'Seneca Lake wineries.'), ('Evening', 'Dinner at Gola Osteria.')]},
+    'bucks-county': {
+        'day': [('Arrive', 'Land at KDYL mid-morning.'), ('Midday', 'New Hope and Lambertville.'), ('Afternoon', 'Washington Crossing, then back to the FBO.')],
+        'extra': [('Morning', 'The Mercer Museum.'), ('Afternoon', 'The Michener Art Museum.'), ('Evening', 'A Playhouse show.')]},
+    'poconos': {
+        'day': [('Arrive', 'Land at KMPO mid-morning.'), ('Midday', 'Bushkill Falls.'), ('Afternoon', 'Lunch, then back to the airport.')],
+        'extra': [('Morning', 'The Delaware Water Gap.'), ('Afternoon', 'The Lehigh Gorge train.'), ('Evening', 'Dinner by the fire.')]},
+    'camden': {
+        'day': [('Arrive', 'Land at KRKD early.'), ('Midday', 'The Owls Head Transportation Museum.'), ('Afternoon', 'Lunch in Rockland, then back to the FBO.')],
+        'extra': [('Morning', 'Mount Battie.'), ('Afternoon', 'A windjammer sail.'), ('Evening', 'Lobster by the harbor.')]},
+    'portland-maine': {
+        'day': [('Arrive', 'Land at KPWM mid-morning.'), ('Midday', 'Lunch at Eventide and the Old Port.'), ('Afternoon', 'Portland Head Light, then back to the FBO.')],
+        'extra': [('Morning', 'A Casco Bay ferry.'), ('Afternoon', 'The Portland Museum of Art.'), ('Evening', 'Dinner at Fore Street.')]},
+    'chatham': {
+        'day': [('Arrive', 'Land at KCQX mid-morning.'), ('Midday', 'Lunch at the fish pier.'), ('Afternoon', 'The lighthouse and beach, then back to the airport.')],
+        'extra': [('Morning', 'A seal tour.'), ('Afternoon', 'Bike the rail trail.'), ('Evening', 'Dinner on Main Street.')]},
+    'princeton': {
+        'day': [('Arrive', 'Land at 39N mid-morning.'), ('Midday', 'Campus and the art museum.'), ('Afternoon', 'Grounds For Sculpture, then back to the airport.')],
+        'extra': [('Morning', 'Morven.'), ('Afternoon', 'Lake Carnegie.'), ('Evening', 'A McCarter show.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

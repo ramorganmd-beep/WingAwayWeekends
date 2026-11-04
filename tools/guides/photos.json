@@ -1045,5 +1045,96 @@
     "caption": "Paducah (illustration)",
     "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
     "placeholder": true
+  },
+  "finger-lakes": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Finger Lakes (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "bucks-county": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "New Hope & Bucks County (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "poconos": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Pocono Mountains (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "camden": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Camden & Midcoast Maine (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "portland-maine": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Portland, Maine (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "chatham": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Chatham & Cape Cod (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "princeton": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Princeton (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

@@ -1958,5 +1958,166 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Finger Lakes",
+ "state": "New York",
+ "airport": "KITH",
+ "lat": 42.4914,
+ "lon": -76.4587,
+ "desc": "Gorges and waterfalls, Cayuga and Seneca lake wineries, a lakeside resort and Ithaca’s farmers market.",
+ "tags": [
+  "Wine",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Spa"
+ ],
+ "guide": "finger-lakes/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "New Hope & Bucks County",
+ "state": "Pennsylvania",
+ "airport": "KDYL",
+ "lat": 40.3331,
+ "lon": -75.1223,
+ "desc": "A Delaware River arts town, historic inns, the Bucks County Playhouse and Washington Crossing.",
+ "tags": [
+  "Stays",
+  "History",
+  "Dining"
+ ],
+ "guide": "bucks-county/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Pocono Mountains",
+ "state": "Pennsylvania",
+ "airport": "KMPO",
+ "lat": 41.1377,
+ "lon": -75.3801,
+ "desc": "A grand mountain lodge, an adults-only spa resort, Bushkill Falls and the Delaware Water Gap.",
+ "tags": [
+  "Spa",
+  "Stays",
+  "Hiking",
+  "Outdoors"
+ ],
+ "guide": "poconos/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Camden & Midcoast Maine",
+ "state": "Maine",
+ "airport": "KRKD",
+ "lat": 44.0601,
+ "lon": -69.0997,
+ "desc": "A classic harbor town, windjammer sails, Mount Battie, the Farnsworth and the Owls Head Transportation Museum.",
+ "tags": [
+  "Scenic views",
+  "Dining",
+  "Stays",
+  "Aviation museums"
+ ],
+ "guide": "camden/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Portland, Maine",
+ "state": "Maine",
+ "airport": "KPWM",
+ "lat": 43.6456,
+ "lon": -70.3086,
+ "desc": "A small city with a big food scene: the Old Port, oysters, Portland Head Light and island ferries.",
+ "tags": [
+  "Dining",
+  "Scenic views",
+  "History",
+  "Stays"
+ ],
+ "guide": "portland-maine/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Chatham & Cape Cod",
+ "state": "Massachusetts",
+ "airport": "KCQX",
+ "lat": 41.6883,
+ "lon": -69.9897,
+ "desc": "A classic Cape Cod town: a grand beach resort, seal tours, Monomoy, a lighthouse and fresh fish off the pier.",
+ "tags": [
+  "Beach",
+  "Stays",
+  "Spa",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "chatham/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Princeton",
+ "state": "New Jersey",
+ "airport": "39N",
+ "lat": 40.3991,
+ "lon": -74.659,
+ "desc": "A gracious college town: the campus and art museum, historic inns, McCarter Theatre and Grounds For Sculpture.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "princeton/",
+ "stateCode": "NJ",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
