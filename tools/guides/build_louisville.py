@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='louisville', name='Louisville', state='Kentucky', number=91, reviewed=None,
+    slug='louisville', name='Louisville', state='Kentucky', number=91, reviewed='November 4, 2026',
     airport='KLOU', nm=426, flight_time='~3 hr 05 <small>min</small>', style='Rental car or rideshare',
     place='Louisville, Kentucky',
     description='A curated Louisville getaway for GA pilots and their partners, from KMYR to KLOU. Churchill Downs and the Kentucky Derby Museum, bourbon on Whiskey Row, the Hot Brown at the Brown Hotel and the Muhammad Ali Center.',
