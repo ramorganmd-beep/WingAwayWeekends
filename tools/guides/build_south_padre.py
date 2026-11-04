@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='south-padre', name='South Padre Island', state='Texas', number=66, reviewed=None,
+    slug='south-padre', name='South Padre Island', state='Texas', number=66, reviewed='November 4, 2026',
     airport='KPIL', nm=1057, flight_time='~7 hr 18 <small>min</small>', style='Rental car',
     place='South Padre Island, Texas',
     description='A curated South Padre Island getaway for GA pilots and their partners, from KMYR to KPIL. Texas’s southernmost beaches, sea turtles, dolphins, a historic lighthouse and seafood by the bay.',

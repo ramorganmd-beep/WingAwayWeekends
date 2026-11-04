@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='fort-worth', name='Fort Worth & the Stockyards', state='Texas', number=64, reviewed=None,
+    slug='fort-worth', name='Fort Worth & the Stockyards', state='Texas', number=64, reviewed='November 4, 2026',
     airport='KFTW', nm=926, flight_time='~6 hr 26 <small>min</small>', style='Rideshare + walks',
     place='Fort Worth, Texas',
     description='A curated Fort Worth getaway for GA pilots and their partners, from KMYR to KFTW. A daily cattle drive in the Stockyards, a honky-tonk, steakhouses, world-class art museums and a vintage aircraft museum on the field.',
