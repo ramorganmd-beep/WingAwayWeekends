@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='paducah', name='Paducah', state='Kentucky', number=92, reviewed=None,
+    slug='paducah', name='Paducah', state='Kentucky', number=92, reviewed='November 4, 2026',
     airport='KPAH', nm=523, flight_time='~3 hr 44 <small>min</small>', style='Rental car',
     place='Paducah, Kentucky',
     description='A curated Paducah getaway for GA pilots and their partners, from KMYR to KPAH. A UNESCO Creative City on the Ohio River: the National Quilt Museum, floodwall murals, the LowerTown Arts District and riverfront dining.',

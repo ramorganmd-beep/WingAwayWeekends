@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='lexington', name='Lexington & Horse Country', state='Kentucky', number=90, reviewed=None,
+    slug='lexington', name='Lexington & Horse Country', state='Kentucky', number=90, reviewed='November 4, 2026',
     airport='KLEX', nm=380, flight_time='~2 hr 47 <small>min</small>', style='Rental car',
     place='Lexington, Kentucky',
     description='A curated Lexington getaway for GA pilots and their partners, from KMYR to KLEX. The Horse Capital of the World: Keeneland across from the airport, thoroughbred farms, bourbon distilleries and Shaker Village.',
