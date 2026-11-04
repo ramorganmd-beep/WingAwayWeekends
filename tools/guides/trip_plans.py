@@ -495,6 +495,18 @@ PLANS = {
     'birmingham': {
         'day': [('Arrive', 'Land at KBHM mid-morning.'), ('Midday', 'The Southern Museum of Flight, beside the field.'), ('Afternoon', 'Lunch at Chez Fonfon, then back to the FBO.')],
         'extra': [('Morning', 'The Civil Rights Institute.'), ('Afternoon', 'Barber Vintage Motorsports Museum.'), ('Evening', 'Sunset at Vulcan Park.')]},
+    'memphis': {
+        'day': [('Arrive', 'Land at KMEM early.'), ('Midday', 'Sun Studio and lunch at Central BBQ.'), ('Afternoon', 'The National Civil Rights Museum, then back to the FBO.')],
+        'extra': [('Morning', 'Graceland.'), ('Afternoon', 'Stax Museum.'), ('Evening', 'Beale Street.')]},
+    'golden-isles': {
+        'day': [('Arrive', 'Land at KSSI mid-morning.'), ('Midday', 'Bike to the lighthouse and lunch in the village.'), ('Afternoon', 'The beach, then back to the FBO.')],
+        'extra': [('Morning', 'Driftwood Beach on Jekyll.'), ('Afternoon', 'The Jekyll Island Club and Turtle Center.'), ('Evening', 'Sunset over the marsh.')]},
+    'clarksdale': {
+        'day': [('Arrive', 'Land at KCKM mid-morning.'), ('Midday', 'The Delta Blues Museum and tamales.'), ('Afternoon', 'Cat Head and the Crossroads, then back to the airport.')],
+        'extra': [('Morning', 'A Blues Trail drive.'), ('Afternoon', 'Barbecue at Abe’s.'), ('Evening', 'Red’s Lounge.')]},
+    'natchitoches': {
+        'day': [('Arrive', 'Land at KIER mid-morning.'), ('Midday', 'Meat pies at Lasyone’s and Front Street.'), ('Afternoon', 'Oakland Plantation, then back to the airport.')],
+        'extra': [('Morning', 'Melrose Plantation.'), ('Afternoon', 'A historic-district walk.'), ('Evening', 'Sunset on Cane River Lake.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
