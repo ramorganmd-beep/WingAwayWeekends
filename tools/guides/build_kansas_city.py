@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='kansas-city', name='Kansas City', state='Missouri', number=84, reviewed=None,
+    slug='kansas-city', name='Kansas City', state='Missouri', number=84, reviewed='November 4, 2026',
     airport='KMKC', nm=823, flight_time='~5 hr 44 <small>min</small>', style='Rental car or streetcar',
     place='Kansas City, Missouri',
     description='A curated Kansas City getaway for GA pilots and their partners, from KMYR to KMKC. Barbecue, jazz at 18th & Vine, the Nelson-Atkins, the National WWI Museum, the Country Club Plaza and the TWA Museum at the downtown airport.',

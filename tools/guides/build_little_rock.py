@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = dict(
-    slug='little-rock', name='Little Rock', state='Arkansas', number=82, reviewed=None,
+    slug='little-rock', name='Little Rock', state='Arkansas', number=82, reviewed='November 4, 2026',
     airport='KLIT', nm=663, flight_time='~4 hr 40 <small>min</small>', style='Rental car or rideshare',
     place='Little Rock, Arkansas',
     description='A curated Little Rock getaway for GA pilots and their partners, from KMYR to KLIT. A river city with Central High School’s civil rights history, the Clinton Presidential Center, the Big Dam Bridge, Pinnacle Mountain and a good restaurant scene.',
