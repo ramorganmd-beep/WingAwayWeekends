@@ -348,3 +348,8 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 - These are 1,000–1,340 nm from KMYR; mk.py now writes "two fuel stops, four or more nights" for >900 nm.
 - Lodging links thin in ND (visitor-bureau cards used where hotel sites were unreachable). Dropped: adamsmuseumandhouse.org (hijacked), Rhombus Guys (site now fundraisers).
 - Batch 2 (Nov 4): Omaha #122 (KMLE; SAC museum), Lincoln #123 (KLNK), Scotts Bluff & Chimney Rock #124 (KBFF), Valentine & the Niobrara #125 (KVTN), Wichita #126 (KICT; Kansas Aviation Museum), Flint Hills #127 (KEMP), Lawrence #128 (KLWC), Lindsborg & Abilene #129 (KSLN). Lodging thin in Lincoln, Scottsbluff, Lindsborg (CVB cards). Next: OK (batch 3).
+
+## Fly to Lunch expansion (Nov 4)
+- Added 19 spots, each confirmed on its current AirNav listing (or a 2025 article for Southern Flyer): OH (KI74, KTSO), MI (KMKG, 61D, KJXN), IN (05C), WI (KMSN), IL (1C5), MN (KSTP), NJ (KWWD), NH (KAFN), MD (KHGR), KY (2I3), OK (KADM, KPNC), AR (3M0), KS (KHUT, 07S), TX (11R).
+- If nothing is within the chosen flight time, the page now shows the three closest spots instead of an empty list.
+- Not added (not on current AirNav or uncertain): Le Relais KLOU (domain for sale), Skyline Diner 38D, Tin Goose KPCW, Donna's 1N7, Hangar B KCQX, Bessie's KJVL, Blackerby's KBAK. Gaps: PA, NY, New England beyond NH, West Virginia, Plains north of KS, the West.
