@@ -1732,30 +1732,30 @@
     "placeholder": true
   },
   "laurel-highlands": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1603781687539-fe2ff26613d1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg3NDQwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Fallingwater, Frank Lloyd Wright’s house over Bear Run, in fall",
     "w": 960,
     "h": 720,
-    "caption": "Laurel Highlands (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Fallingwater in fall",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ventiviews?utm_source=wingaway_weekends&utm_medium=referral\">Venti Views</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-wooden-bridge-over-river--_YNeuR56vM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "pittsburgh": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1597652074364-bcaa4c3f5537?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDAxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Downtown Pittsburgh and its rivers from the top of the Duquesne Incline",
     "w": 960,
     "h": 720,
-    "caption": "Pittsburgh (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Pittsburgh from the Duquesne Incline",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@yuhandu?utm_source=wingaway_weekends&utm_medium=referral\">Yuhan Du</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/red-and-black-train-on-bridge-over-body-of-water-during-daytime-yLcPSvJkGrM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "pine-creek-gorge": {
     "slug": "cape-may-beach",
@@ -1771,29 +1771,29 @@
     "placeholder": true
   },
   "hershey": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1683828770165-99047c3202d2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The entrance to Hershey Gardens",
     "w": 960,
     "h": 720,
-    "caption": "Hershey (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Hershey Gardens",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@praswinprakashan?utm_source=wingaway_weekends&utm_medium=referral\">Praswin Prakashan</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-sign-that-is-in-front-of-a-grassy-hill-TTkRxp7GZUc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "erie": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1643666805769-563c1ed02d83?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A lighthouse on the beach at Presque Isle State Park",
     "w": 960,
     "h": 720,
-    "caption": "Erie & Presque Isle (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A Presque Isle lighthouse",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@mharrisonphotography?utm_source=wingaway_weekends&utm_medium=referral\">Megs Harrison</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-beach-next-to-the-ocean-Vgh-GcRD2S8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }

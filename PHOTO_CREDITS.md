@@ -1011,3 +1011,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Ryan Heuer on Unsplash — https://unsplash.com/photos/brown-rock-formation-on-river-T0jWY-HRyQI
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Starved Rock State Park, Oglesby, IL (Unsplash location)
+
+## Pittsburgh
+
+- Photo by Yuhan Du on Unsplash — https://unsplash.com/photos/red-and-black-train-on-bridge-over-body-of-water-during-daytime-yLcPSvJkGrM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Duquesne Incline, Pittsburgh (Unsplash location and description)
+
+## Erie & Presque Isle
+
+- Photo by Megs Harrison on Unsplash — https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-beach-next-to-the-ocean-Vgh-GcRD2S8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Presque Isle State Park, Erie (Unsplash location)
+
+## Hershey
+
+- Photo by Praswin Prakashan on Unsplash — https://unsplash.com/photos/a-sign-that-is-in-front-of-a-grassy-hill-TTkRxp7GZUc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Hershey Gardens, Hershey (Unsplash location and description)
+
+## Laurel Highlands
+
+- Photo by Venti Views on Unsplash — https://unsplash.com/photos/brown-wooden-bridge-over-river--_YNeuR56vM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Fallingwater, Mill Run, PA (Unsplash location and description)

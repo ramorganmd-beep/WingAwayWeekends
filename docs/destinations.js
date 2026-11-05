@@ -2984,11 +2984,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "laurel-highlands", "remote": "https://images.unsplash.com/photo-1603781687539-fe2ff26613d1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg3NDQwfA&ixlib=rb-4.1.0", "alt": "Fallingwater, Frank Lloyd Wright’s house over Bear Run, in fall", "pos": "50% 50%"}
 },
 {
  "name": "Pittsburgh",
@@ -3006,11 +3002,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "pittsburgh", "remote": "https://images.unsplash.com/photo-1597652074364-bcaa4c3f5537?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDAxfA&ixlib=rb-4.1.0", "alt": "Downtown Pittsburgh and its rivers from the top of the Duquesne Incline", "pos": "50% 50%"}
 },
 {
  "name": "Pine Creek Gorge & Wellsboro",
@@ -3052,11 +3044,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hershey", "remote": "https://images.unsplash.com/photo-1683828770165-99047c3202d2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA0fA&ixlib=rb-4.1.0", "alt": "The entrance to Hershey Gardens", "pos": "50% 50%"}
 },
 {
  "name": "Erie & Presque Isle",
@@ -3075,10 +3063,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "erie", "remote": "https://images.unsplash.com/photo-1643666805769-563c1ed02d83?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA2fA&ixlib=rb-4.1.0", "alt": "A lighthouse on the beach at Presque Isle State Park", "pos": "50% 50%"}
 }
 ];
