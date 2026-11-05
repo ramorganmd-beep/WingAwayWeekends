@@ -4151,5 +4151,71 @@
   "date_taken": null,
   "files": [],
   "location": "Leonard Harrison State Park, Wellsboro, PA (Unsplash location)"
+ },
+ {
+  "destination": "Wisconsin Dells & Devil’s Lake",
+  "title": "Sandstone cliffs at the Wisconsin Dells",
+  "photographer": "Ray Graciano",
+  "source_page_url": "https://unsplash.com/photos/a-cliff-with-trees-on-it-WR-47mgEJkc",
+  "original_image_url": "https://images.unsplash.com/photo-1651385786844-904d30834e53?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg4MzI0fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Sandstone cliffs and pines along the Wisconsin River at the Dells",
+  "date_taken": null,
+  "files": [],
+  "location": "Wisconsin Dells, WI (Unsplash location)"
+ },
+ {
+  "destination": "Hayward Lakes",
+  "title": "A 143-foot-long, walk-through, fiberglass-and-steel muskie, and a less-imposing fiberglass sunfish, at the National Fresh Water Fishing Hall of Fame, Hayward, Wisconsin",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011634907/",
+  "original_image_url": "https://www.loc.gov/item/2011634907/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2956,
+   "height": 3729
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The giant walk-through muskie at the National Fresh Water Fishing Hall of Fame in Hayward",
+  "files": [
+   {
+    "path": "dist/assets/destinations/hayward-muskie-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34288,
+    "sha256": "94213dd54ef0449359bfb9450e28c573aa07165ff2dcdc6ab00f6cebd62a20e8"
+   },
+   {
+    "path": "dist/assets/destinations/hayward-muskie-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42779,
+    "sha256": "6234a6ee3c629b8e0404af49cd55356807c5c0982f3f67e89b69ed9253295ea5"
+   },
+   {
+    "path": "dist/assets/destinations/hayward-muskie-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 108880,
+    "sha256": "7e6aec16fdd5f2680b800ac88443be2b2cba8c51d0d7fc5384b17fad1d76d000"
+   },
+   {
+    "path": "dist/assets/destinations/hayward-muskie-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 143057,
+    "sha256": "7d2903cec877fae74c03aa173d9fb6ad7950456fcaee1e38b635393252332428"
+   }
+  ]
  }
 ]

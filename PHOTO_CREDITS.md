@@ -1049,3 +1049,17 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Jethro Nolt on Unsplash — https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-eY6Pafb7h7I
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Leonard Harrison State Park, Wellsboro, PA (Unsplash location)
+
+## Wisconsin Dells & Devil’s Lake
+
+- Photo by Ray Graciano on Unsplash — https://unsplash.com/photos/a-cliff-with-trees-on-it-WR-47mgEJkc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Wisconsin Dells, WI (Unsplash location)
+
+## Hayward Lakes
+
+- Title: A 143-foot-long, walk-through, fiberglass-and-steel muskie, and a less-imposing fiberglass sunfish, at the National Fresh Water Fishing Hall of Fame, Hayward, Wisconsin
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011634907/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

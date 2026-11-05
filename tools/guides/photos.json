@@ -1822,29 +1822,28 @@
     "placeholder": true
   },
   "wisconsin-dells": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1651385786844-904d30834e53?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg4MzI0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Sandstone cliffs and pines along the Wisconsin River at the Dells",
     "w": 960,
     "h": 720,
-    "caption": "Wisconsin Dells & Devil’s Lake (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sandstone cliffs at the Wisconsin Dells",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@cortez197_?utm_source=wingaway_weekends&utm_medium=referral\">Ray Graciano</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-cliff-with-trees-on-it-WR-47mgEJkc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "hayward": {
-    "slug": "cape-may-beach",
+    "slug": "hayward-muskie",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The giant walk-through muskie at the National Fresh Water Fishing Hall of Fame in Hayward",
     "w": 960,
     "h": 720,
-    "caption": "Hayward Lakes (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The giant muskie, Fresh Water Fishing Hall of Fame",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011634907/\">A 143-foot-long, walk-through, fiberglass-and-steel muskie, and a less-imposing fiberglass sunfish, at the National Fresh Water Fishing Hall of Fame, Hayward, Wisconsin</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   }
 }
