@@ -1141,3 +1141,23 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Rihards Sergis on Unsplash — https://unsplash.com/photos/an-aerial-view-of-a-city-at-sunset-AhiI9Cu3c-M
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Des Moines, IA (Unsplash location)
+
+## Amana Colonies & Iowa City
+
+- Title: Canal in Amana, one of the Amana Colonies, seven villages in Iowa County, Iowa
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2016630629/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Dubuque
+
+- Photo by Vincent Y @USA on Unsplash — https://unsplash.com/photos/a-stone-building-with-a-clock-tower-on-top-of-it-BV7DtVSd1Ow
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Dubuque, IA (Unsplash location)
+
+## Rehoboth Beach & Lewes
+
+- Photo by Michael Geyer on Unsplash — https://unsplash.com/photos/a-large-green-wave-crashes-on-the-shore-ianVZK_ldsw
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Rehoboth Beach, DE (Unsplash location)

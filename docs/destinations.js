@@ -3311,11 +3311,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IA",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "dubuque", "remote": "https://images.unsplash.com/photo-1696994205152-fc758ab372e7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0Mjg1fA&ixlib=rb-4.1.0", "alt": "A stone building with a clock tower in Dubuque, Iowa", "pos": "50% 50%"}
 },
 {
  "name": "Amana Colonies & Iowa City",
@@ -3333,11 +3329,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IA",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "amana-canal", "alt": "The canal in Amana, one of the seven Amana Colonies villages"}
 },
 {
  "name": "Rehoboth Beach & Lewes",
@@ -3356,11 +3348,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "DE",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "rehoboth-lewes", "remote": "https://images.unsplash.com/photo-1760900089666-f2afb2e9e42d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkxfA&ixlib=rb-4.1.0", "alt": "A green wave breaking on the beach at Rehoboth Beach", "pos": "50% 50%"}
 },
 {
  "name": "Bethany Beach & the Quiet Resorts",

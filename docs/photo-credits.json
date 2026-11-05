@@ -4517,5 +4517,88 @@
   "date_taken": null,
   "files": [],
   "location": "Des Moines, IA (Unsplash location)"
+ },
+ {
+  "destination": "Amana Colonies & Iowa City",
+  "title": "Canal in Amana, one of the Amana Colonies, seven villages in Iowa County, Iowa",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2016630629/",
+  "original_image_url": "https://www.loc.gov/item/2016630629/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2177,
+   "height": 2902
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The canal in Amana, one of the seven Amana Colonies villages",
+  "files": [
+   {
+    "path": "dist/assets/destinations/amana-canal-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 42944,
+    "sha256": "4081fc2f3817a8e95b59e68b49e1a956d5aa6381e8ad8f8a6d3a72a728c912c4"
+   },
+   {
+    "path": "dist/assets/destinations/amana-canal-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 49120,
+    "sha256": "2fcb7a4b6d7fc73ddbe5dde92651acccb40e5cdb593ace7a73a3c18af454b858"
+   },
+   {
+    "path": "dist/assets/destinations/amana-canal-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 160718,
+    "sha256": "63b1c189c09ad77d4b51587e08367e94bfc309daa6824224dc3463063b122706"
+   },
+   {
+    "path": "dist/assets/destinations/amana-canal-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 185862,
+    "sha256": "9d8277e93b7a49ae2fc6f26891814f763c506bf3e406964922824c2a5c71a6d2"
+   }
+  ]
+ },
+ {
+  "destination": "Dubuque",
+  "title": "Historic Dubuque",
+  "photographer": "Vincent Y @USA",
+  "source_page_url": "https://unsplash.com/photos/a-stone-building-with-a-clock-tower-on-top-of-it-BV7DtVSd1Ow",
+  "original_image_url": "https://images.unsplash.com/photo-1696994205152-fc758ab372e7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0Mjg1fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A stone building with a clock tower in Dubuque, Iowa",
+  "date_taken": null,
+  "files": [],
+  "location": "Dubuque, IA (Unsplash location)"
+ },
+ {
+  "destination": "Rehoboth Beach & Lewes",
+  "title": "Surf at Rehoboth Beach",
+  "photographer": "Michael Geyer",
+  "source_page_url": "https://unsplash.com/photos/a-large-green-wave-crashes-on-the-shore-ianVZK_ldsw",
+  "original_image_url": "https://images.unsplash.com/photo-1760900089666-f2afb2e9e42d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkxfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A green wave breaking on the beach at Rehoboth Beach",
+  "date_taken": null,
+  "files": [],
+  "location": "Rehoboth Beach, DE (Unsplash location)"
  }
 ]
