@@ -1796,17 +1796,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@mharrisonphotography?utm_source=wingaway_weekends&utm_medium=referral\">Megs Harrison</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-light-house-sitting-on-top-of-a-beach-next-to-the-ocean-Vgh-GcRD2S8?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "minocqua": {
-    "slug": "cape-may-beach",
+    "slug": "minocqua-downtown",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Downtown Minocqua’s Victorian storefronts and its Welcome to Minocqua mural",
     "w": 960,
     "h": 720,
-    "caption": "Minocqua & the Northwoods (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Minocqua",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:15-08-04-Minocqua-Daniela-Kloth-IMG_1367.JPG\">15-08-04-Minocqua-Daniela-Kloth-IMG 1367.JPG</a> — Daniela Kloth · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "elkhart-lake": {
     "slug": "cape-may-beach",

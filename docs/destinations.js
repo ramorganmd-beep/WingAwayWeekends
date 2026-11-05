@@ -3074,11 +3074,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "minocqua-downtown", "alt": "Downtown Minocqua’s Victorian storefronts and its Welcome to Minocqua mural"}
 },
 {
  "name": "Elkhart Lake",

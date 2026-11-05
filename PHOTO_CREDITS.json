@@ -4217,5 +4217,54 @@
     "sha256": "7d2903cec877fae74c03aa173d9fb6ad7950456fcaee1e38b635393252332428"
    }
   ]
+ },
+ {
+  "destination": "Minocqua & the Northwoods",
+  "title": "15-08-04-Minocqua-Daniela-Kloth-IMG 1367.JPG",
+  "photographer": "Daniela Kloth",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:15-08-04-Minocqua-Daniela-Kloth-IMG_1367.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/15-08-04-Minocqua-Daniela-Kloth-IMG_1367.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4103,
+   "height": 2498
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Downtown Minocqua’s Victorian storefronts and its Welcome to Minocqua mural",
+  "files": [
+   {
+    "path": "dist/assets/destinations/minocqua-downtown-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33744,
+    "sha256": "1093db59bd56e602a7d14295c692a3151f48511dff711bd34aded494f8b3ba09"
+   },
+   {
+    "path": "dist/assets/destinations/minocqua-downtown-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43488,
+    "sha256": "fb41d69bf90b0cfd9f9118f4cab2a1b0987584bab539b3859b1071fd9513dad3"
+   },
+   {
+    "path": "dist/assets/destinations/minocqua-downtown-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 121730,
+    "sha256": "a6227daf00e633920d4e134e9b38a2887534d8b3215dcb1f8af7389c880a1f47"
+   },
+   {
+    "path": "dist/assets/destinations/minocqua-downtown-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 162066,
+    "sha256": "391833158fb549bb647f973247d6c28593334e75b4a1fc04884b6d75ffdd50ad"
+   }
+  ]
  }
 ]
