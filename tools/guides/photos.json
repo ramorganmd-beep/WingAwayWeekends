@@ -2336,5 +2336,53 @@
     "caption": "La Jolla Cove, San Diego.",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@jeisen?utm_source=wingaway_weekends&utm_medium=referral\">Jeffrey Eisen</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-beach-with-a-hotel-in-the-background-_-pH7LWjW1Q?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "monterey-carmel": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Monterey & Carmel (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "paso-robles": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Paso Robles Wine Country (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "yosemite": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Yosemite (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "big-sur": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Big Sur (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   }
 }

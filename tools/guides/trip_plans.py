@@ -846,6 +846,18 @@ PLANS = {
     'san-diego': {
         'day': [('Arrive', 'Land at KMYF mid-morning.'), ('Midday', 'The USS Midway Museum.'), ('Afternoon', 'Lunch on Coronado, then back to the airport.')],
         'extra': [('Morning', 'Balboa Park and the zoo.'), ('Afternoon', 'La Jolla Cove.'), ('Evening', "Dinner at George's at the Cove.")]},
+    'monterey-carmel': {
+        'day': [('Arrive', 'Land at KMRY late morning, after the fog lifts.'), ('Midday', 'The Monterey Bay Aquarium.'), ('Afternoon', 'Carmel village, then back to the airport.')],
+        'extra': [('Morning', 'Point Lobos.'), ('Afternoon', '17-Mile Drive.'), ('Evening', 'Dinner at Passionfish.')]},
+    'paso-robles': {
+        'day': [('Arrive', 'Land at KPRB mid-morning.'), ('Midday', 'The Estrella Warbirds Museum, then lunch at Fish Gaucho.'), ('Afternoon', 'Two wineries with a driver, then back to the airport.')],
+        'extra': [('Morning', 'Wineries west of town.'), ('Afternoon', 'Hearst Castle.'), ('Evening', 'Dinner at Catch.')]},
+    'yosemite': {
+        'day': [('Arrive', 'Land at KMPI early and pick up the car.'), ('Midday', 'Yosemite Valley and Lower Yosemite Fall.'), ('Afternoon', 'Tunnel View, then back to the airport.')],
+        'extra': [('Morning', 'Mariposa Grove.'), ('Afternoon', 'Glacier Point.'), ('Evening', 'Dinner at the Ahwahnee.')]},
+    'big-sur': {
+        'day': [('Arrive', 'Land at KMRY late morning.'), ('Midday', 'Bixby Bridge and lunch at Nepenthe.'), ('Afternoon', 'Back to Monterey before the evening fog.')],
+        'extra': [('Morning', 'McWay Falls.'), ('Afternoon', 'Point Lobos.'), ('Evening', 'Sunset dinner at Sierra Mar.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
