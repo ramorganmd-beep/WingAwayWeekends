@@ -380,3 +380,5 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 
 - Fly to Lunch respects the landing gear (shared `wingaway-gear`): Landplane hides water-only spots, Floatplane shows only `water:true` dock-and-dine spots, Amphibian shows both. First dock-and-dine spots: Puddle Jumpers (FA1 Tavares), Shibley’s at the Pier (B18 Alton Bay, seasonal), MacGregor’s (M06 Havre de Grace). Spot `code` is the seaplane base ID (now in airports-us.js).
 - Guide Seaplane access boxes (`data-water`) are hidden unless the saved landing gear is float or amphib (`guide-route.js`); landplane visitors see a "Show seaplane access" link instead.
+
+- **Search Console (2026-11-05):** Domain property `sc-domain:wingawayweekends.com`. Sitemap must be entered as the full URL `https://wingawayweekends.com/sitemap.xml` (plain `sitemap.xml` is rejected for Domain properties). Resubmitted successfully with 175 URLs.
