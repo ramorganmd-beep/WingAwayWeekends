@@ -370,3 +370,10 @@ Nine drafts (#137–145), spec in scratchpad gen/oil1.py: Put-in-Bay (3W2, no FB
 
 ## Testing switch (Nov 5, 2026)
 The homepage defaults flight time to "Any distance" for every trip length while the owner reviews guides. To restore the normal defaults (Day trip 1.5 h, Weekend 3 h, Longer stay 4.5 h), set TESTING_ANY_DISTANCE=false in docs/index.html and remove the selected "Any distance" option from the initial #hours select.
+
+## Seaplanes (phase 1–2, Nov 5, 2026)
+- `docs/seaplane-bases.js` (`window.WINGAWAY_SEAPLANE_BASES`): 425 open seaplane bases in the lower 48 from FAA NASR APT_BASE/APT_RWY (site type "C"), effective Oct 29, 2026. Fields `[id, name, city, state, lat, lon, use, lanes]`; use "PU" (119) or "PR" (306, prior permission). Regenerate each cycle from the NASR APT CSV zip.
+- The same bases were appended to `docs/airports-us.js` so a floatplane pilot can enter a home base (e.g. FA1 Tavares).
+- `docs/aircraft.js`: presets carry `gear` ('land' | 'float' | 'amphib'); new float and amphibian presets; `loadGear`/`saveGear` keep the gear choice in localStorage (`wingaway-gear`) even with the default estimate.
+- Homepage: "Aircraft type & performance" with a Landing gear select. Each destination gets the nearest public-use base within 15 nm (`SPB_RANGE`). Floatplane shows only those; Amphibian shows all and badges them; both show a "confirm water landing rules locally" note. Private bases are not shown.
+- Next phases: curated water-access boxes in lake/coast guides; seaplane destinations (Moosehead/Greenville ME, Tavares FL, Winter Haven/Jack Brown's, etc.); dock-and-dine Fly to Lunch spots.
