@@ -3147,7 +3147,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MN",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "north-shore", "remote": "https://images.unsplash.com/photo-1570714176943-1a636f892c97?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODkxMTk5fA&ixlib=rb-4.1.0", "alt": "A wave splashing on the rocks at sunset on Lake Superior at Grand Marais", "pos": "50% 50%"}
 },
 {
@@ -3166,7 +3165,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MN",
  "region": "Heartland",
  "family": true,
- "draft": true,
  "photo": {"slug": "twin-cities", "remote": "https://images.unsplash.com/photo-1567693221917-fefc994808ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5MzM4fA&ixlib=rb-4.1.0", "alt": "Downtown Minneapolis above the Mississippi River at dusk", "pos": "50% 50%"}
 },
 {
@@ -3186,7 +3184,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MN",
  "region": "Heartland",
  "family": false,
- "draft": true,
  "photo": {"slug": "stillwater", "remote": "https://images.unsplash.com/photo-1698457049375-561f3594ad9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODkxMjA0fA&ixlib=rb-4.1.0", "alt": "Fall color in Stillwater, Minnesota", "pos": "50% 50%"}
 }
 ];
