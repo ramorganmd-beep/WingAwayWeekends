@@ -4798,5 +4798,54 @@
     "sha256": "e0adec786cd117f2dc93d6dc4c27d3d7e6fa0d01f27f94d3eac5ac53f3f857c7"
    }
   ]
+ },
+ {
+  "destination": "International Peace Garden",
+  "title": "International Peace Garden, North Dakota-Manitoba Border (43925709902)",
+  "photographer": "Ken Lund",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:International_Peace_Garden,_North_Dakota-Manitoba_Border_(43925709902).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/International_Peace_Garden%2C_North_Dakota-Manitoba_Border_%2843925709902%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5184,
+   "height": 2934
+  },
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Dove sculpture fountain looking down the formal flower gardens at the International Peace Garden",
+  "files": [
+   {
+    "path": "dist/assets/destinations/peace-garden-fountain-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 48044,
+    "sha256": "73533e8bcdb411a16e77d9729a3f110708fb5f07b6bd728efac316322b087d13"
+   },
+   {
+    "path": "dist/assets/destinations/peace-garden-fountain-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 52711,
+    "sha256": "13d2e94b7ab08f46e6b45f4335133c3a006d9c9d015f0999d353932517f9a0dc"
+   },
+   {
+    "path": "dist/assets/destinations/peace-garden-fountain-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 188076,
+    "sha256": "8cf2aed9985b80790719f33ff20287aae4c8e818ce3f4876320da8c204496687"
+   },
+   {
+    "path": "dist/assets/destinations/peace-garden-fountain-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 208627,
+    "sha256": "54c945a0aa71aceab1dbd90bdbabc4217d033a825cbbde1ab052f3d46be94676"
+   }
+  ]
  }
 ]

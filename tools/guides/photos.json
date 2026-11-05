@@ -1398,17 +1398,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2011631471/\">[State capitol building, Bismarck, North Dakota]</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "peace-garden": {
-    "slug": "cape-may-beach",
+    "slug": "peace-garden-fountain",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Dove sculpture fountain looking down the formal flower gardens at the International Peace Garden",
     "w": 960,
     "h": 720,
-    "caption": "International Peace Garden & Turtle Mountains (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Peace Garden's formal gardens straddle the North Dakota–Manitoba border.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:International_Peace_Garden,_North_Dakota-Manitoba_Border_(43925709902).jpg\">International Peace Garden, North Dakota-Manitoba Border (43925709902)</a> — Ken Lund · <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC BY-SA 2.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "omaha": {
     "slug": "https://images.unsplash.com/photo-1690902931404-161eab201d95?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODEyOTg2fA&ixlib=rb-4.1.0",
