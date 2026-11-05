@@ -1129,3 +1129,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Mollie Defibaugh on Unsplash — https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-xpoUh7zqNW4
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Broken Bow, OK (Unsplash location)
+
+## Okoboji & the Iowa Great Lakes
+
+- Photo by Drew Dau on Unsplash — https://unsplash.com/photos/a-small-boat-in-the-middle-of-a-body-of-water-drsMhivaoZY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Okoboji, IA (Unsplash location)
+
+## Des Moines
+
+- Photo by Rihards Sergis on Unsplash — https://unsplash.com/photos/an-aerial-view-of-a-city-at-sunset-AhiI9Cu3c-M
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Des Moines, IA (Unsplash location)

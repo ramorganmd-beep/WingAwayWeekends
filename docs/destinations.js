@@ -3275,11 +3275,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IA",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "okoboji", "remote": "https://images.unsplash.com/photo-1634675964509-4f593270ab82?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTAwNDM1fA&ixlib=rb-4.1.0", "alt": "A calm morning for fishing on the water at Okoboji", "pos": "50% 50%"}
 },
 {
  "name": "Des Moines",
@@ -3297,11 +3293,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IA",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "des-moines", "remote": "https://images.unsplash.com/photo-1636998836881-abcdf2d36711?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTAwNDM4fA&ixlib=rb-4.1.0", "alt": "An aerial view of Des Moines at sunset", "pos": "50% 50%"}
 },
 {
  "name": "Dubuque",
