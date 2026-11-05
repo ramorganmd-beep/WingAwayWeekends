@@ -3436,5 +3436,96 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Moosehead Lake & Greenville",
+ "state": "Maine",
+ "airport": "3B1",
+ "lat": 45.459,
+ "lon": -69.59,
+ "desc": "A classic seaplane town on Maine’s biggest lake: two seaplane bases, the International Seaplane Fly-In, a Relais & Châteaux inn and a 1914 steamboat.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "moosehead-lake/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Rangeley Lakes",
+ "state": "Maine",
+ "airport": "8B0",
+ "lat": 44.9659,
+ "lon": -70.6428,
+ "desc": "A mountain lake town with a public seaplane base, scenic floatplane flights, a historic inn and the Height of Land overlook.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "rangeley/",
+ "stateCode": "ME",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Tavares & Mount Dora",
+ "state": "Florida",
+ "airport": "KLEE",
+ "lat": 28.8042,
+ "lon": -81.7256,
+ "desc": "“America’s Seaplane City” with a downtown seaplane base, plus Mount Dora’s 1883 Lakeside Inn, antiques and lakeside dining.",
+ "tags": [
+  "Lake",
+  "History",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "tavares/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Havre de Grace",
+ "state": "Maryland",
+ "airport": "0W3",
+ "lat": 39.5493,
+ "lon": -76.0916,
+ "desc": "A Chesapeake town with a public seaplane base, an 1827 lighthouse, the Decoy Museum, a Victorian inn and waterfront dining.",
+ "tags": [
+  "History",
+  "Dining",
+  "Scenic views"
+ ],
+ "guide": "havre-de-grace/",
+ "stateCode": "MD",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

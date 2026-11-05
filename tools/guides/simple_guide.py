@@ -15,6 +15,17 @@ def _cards(items):
     return ''.join(card(*c) for c in items)
 
 
+def _water(w):
+    """Optional seaplane-access block: {'base': (name, line, phone), 'lanes': str, 'notes': [...]}."""
+    if not w:
+        return ''
+    out = '<h3 class="water-head">Seaplane access</h3>' + fbo(*w['base'])
+    if w.get('lanes'):
+        out += f'<p class="note"><strong>Water lanes:</strong> {w["lanes"]}</p>'
+    out += ''.join(f'<p class="note">{n}</p>' for n in w.get('notes', []))
+    return out
+
+
 def build(g, out):
     photo = PHOTOS[g['slug']]
     nav = [('flight', 'Fly & arrive'), ('stay', 'Stay'), ('eat', 'Eat'), ('explore', 'Explore')]
@@ -30,7 +41,7 @@ def build(g, out):
     f = g['flight']
     P.append('<section id="flight">' + head('01', 'Aviation & getting around', f['title'], f['intro']) +
              '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
-             fbo(*f['fbo']) + ''.join(f'<p class="note">{n}</p>' for n in f['notes']) + '</div>'
+             fbo(*f['fbo']) + ''.join(f'<p class="note">{n}</p>' for n in f['notes']) + _water(f.get('water')) + '</div>'
              f'<aside><span class="eyebrow">Getting around</span><h3>{f["around_title"]}</h3><p>{f["around"]}</p></aside></div></section>')
     s = g['stay']
     P.append('<section id="stay">' + head('02', 'Where to stay', s['title'], s['intro']) +
