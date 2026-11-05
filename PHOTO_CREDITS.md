@@ -1087,3 +1087,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Manchester_Village_Vermont.jpg
 - License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Grand Marais & the North Shore
+
+- Photo by Andrew Ling on Unsplash — https://unsplash.com/photos/body-of-water-under-white-sky-at-daytime-UPnovZLpTVg
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Grand Marais, MN (Unsplash location)
+
+## Minneapolis & St. Paul
+
+- Photo by Tom Conway on Unsplash — https://unsplash.com/photos/curtain-wall-building-during-night-time-tKSYZE5RTzw
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Minneapolis (Unsplash location and description)
+
+## Stillwater & the St. Croix
+
+- Photo by Holly Landkammer on Unsplash — https://unsplash.com/photos/a-body-of-water-surrounded-by-lots-of-trees-_rW9Z7n6xWA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Stillwater, MN (Unsplash location)
