@@ -3060,5 +3060,97 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "photo": {"slug": "erie", "remote": "https://images.unsplash.com/photo-1643666805769-563c1ed02d83?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA2fA&ixlib=rb-4.1.0", "alt": "A lighthouse on the beach at Presque Isle State Park", "pos": "50% 50%"}
+},
+{
+ "name": "Minocqua & the Northwoods",
+ "state": "Wisconsin",
+ "airport": "KARV",
+ "lat": 45.8711,
+ "lon": -89.711,
+ "desc": "An island town in a Northwoods chain of lakes: a water-ski show, supper clubs, a lakefront hotel and an all-inclusive lodge.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Dining",
+  "Scenic views"
+ ],
+ "guide": "minocqua/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Elkhart Lake",
+ "state": "Wisconsin",
+ "airport": "KSBM",
+ "lat": 43.8336,
+ "lon": -88.0179,
+ "desc": "A clear spring-fed resort lake with the Osthoff Resort and its spa, Road America and a historic racing tavern.",
+ "tags": [
+  "Lake",
+  "Spa",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "elkhart-lake/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Wisconsin Dells & Devil’s Lake",
+ "state": "Wisconsin",
+ "airport": "KDLL",
+ "lat": 43.6275,
+ "lon": -89.771,
+ "desc": "Sandstone river gorges, Devil’s Lake bluffs, an adults-only spa inn and supper clubs, one on Mirror Lake.",
+ "tags": [
+  "Lake",
+  "Hiking",
+  "Spa",
+  "Dining"
+ ],
+ "guide": "wisconsin-dells/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hayward Lakes",
+ "state": "Wisconsin",
+ "airport": "KHYR",
+ "lat": 46.013,
+ "lon": -91.4846,
+ "desc": "Northwoods lake cabins on the Chippewa Flowage, supper clubs, the giant muskie and the Lumberjack World Championships.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "hayward/",
+ "stateCode": "WI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
