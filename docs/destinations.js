@@ -3764,10 +3764,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "glacier-whitefish", "remote": "https://images.unsplash.com/photo-1635965072050-9b608060234d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDU5fA&ixlib=rb-4.1.0", "alt": "Turquoise Grinnell Lake beneath snow-streaked peaks in Glacier National Park", "pos": "50% 50%"}
 },
 {
  "name": "Bozeman & Big Sky",
@@ -3789,9 +3786,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bozeman-big-sky", "remote": "https://images.unsplash.com/photo-1781739849963-0382a061f05f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDYyfA&ixlib=rb-4.1.0", "alt": "A cowboy riding a bucking bronc in a dusty rodeo arena near Bozeman", "pos": "50% 50%"}
 }
 ];
