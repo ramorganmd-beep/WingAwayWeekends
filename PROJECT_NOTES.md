@@ -367,3 +367,6 @@ Plan: `plans/phase-1-plan.pdf` (source `plans/phase-1-plan.html`). Next region: 
 
 ## Batch: Ohio, Indiana, Illinois (Nov 4, 2026)
 Nine drafts (#137–145), spec in scratchpad gen/oil1.py: Put-in-Bay (3W2, no FBO; Erie Island Carts), Hocking Hills (KLHQ Sundowner), Cleveland (KBKL Signature), Indianapolis (KEYE Jet Access), Brown County (KBMG Cook Aviation, towered), Indiana Dunes (KMGC), Chicago (KPWK Atlantic), Starved Rock (KVYS Midwest Avtech), Shawnee Hills (KMWA Midwest Aviation, towered). FBOs from AirNav; every card has an official link (checked with the honest link-check UA). Dropped: lolabistro.com and oldlighthousemuseum.org (hijacked), mabelsbbq.com (redirects elsewhere).
+
+## Testing switch (Nov 5, 2026)
+The homepage defaults flight time to "Any distance" for every trip length while the owner reviews guides. To restore the normal defaults (Day trip 1.5 h, Weekend 3 h, Longer stay 4.5 h), set TESTING_ANY_DISTANCE=false in docs/index.html and remove the selected "Any distance" option from the initial #hours select.
