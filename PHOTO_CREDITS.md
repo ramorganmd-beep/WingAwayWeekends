@@ -1071,3 +1071,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:15-08-04-Minocqua-Daniela-Kloth-IMG_1367.JPG
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Elkhart Lake
+
+- Title: Elkhart Lake, WI.jpg
+- Photographer: Elkhartlake
+- Source: https://commons.wikimedia.org/wiki/File:Elkhart_Lake,_WI.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
