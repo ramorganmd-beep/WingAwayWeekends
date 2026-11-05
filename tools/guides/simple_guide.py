@@ -19,11 +19,12 @@ def _water(w):
     """Optional seaplane-access block: {'base': (name, line, phone), 'lanes': str, 'notes': [...]}."""
     if not w:
         return ''
-    out = '<h3 class="water-head">Seaplane access</h3>' + fbo(*w['base'])
+    out = ('<p class="note water-toggle" data-water-toggle hidden><button type="button" class="textlink">Flying a floatplane or amphibian? Show seaplane access</button></p>'
+           '<div class="water-block" data-water><h3 class="water-head">Seaplane access</h3>' + fbo(*w['base']))
     if w.get('lanes'):
         out += f'<p class="note"><strong>Water lanes:</strong> {w["lanes"]}</p>'
     out += ''.join(f'<p class="note">{n}</p>' for n in w.get('notes', []))
-    return out
+    return out + '</div>'
 
 
 def build(g, out):
