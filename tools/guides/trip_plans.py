@@ -717,6 +717,18 @@ PLANS = {
     'erie': {
         'day': [('Arrive', 'Land at KERI mid-morning.'), ('Midday', 'Presque Isle’s beaches.'), ('Afternoon', 'The Flagship Niagara, then back to the airport.')],
         'extra': [('Morning', 'Wine country tastings.'), ('Afternoon', 'Tom Ridge Environmental Center.'), ('Evening', 'Dinner at Oliver’s Rooftop.')]},
+    'minocqua': {
+        'day': [('Arrive', 'Land at KARV early.'), ('Midday', 'Walk the island and downtown.'), ('Afternoon', 'A pontoon ride, then back to the airport.')],
+        'extra': [('Morning', 'Bike the Bearskin Trail.'), ('Afternoon', 'Wildwood Wildlife Park.'), ('Evening', 'The Min-Aqua Bats show.')]},
+    'elkhart-lake': {
+        'day': [('Arrive', 'Land at KSBM early.'), ('Midday', 'Swim at the village beach.'), ('Afternoon', 'Lunch at Off the Rail, then back to the airport.')],
+        'extra': [('Morning', 'Aspira Spa.'), ('Afternoon', 'Road America.'), ('Evening', 'Dinner at Lola’s on the Lake.')]},
+    'wisconsin-dells': {
+        'day': [('Arrive', 'Land at KDLL early.'), ('Midday', 'Hike the bluffs at Devil’s Lake.'), ('Afternoon', 'A Duck tour, then back to the airport.')],
+        'extra': [('Morning', 'Paddle Mirror Lake.'), ('Afternoon', 'The International Crane Foundation.'), ('Evening', 'Sunset dinner at Ishnala.')]},
+    'hayward': {
+        'day': [('Arrive', 'Land at KHYR early.'), ('Midday', 'The Fishing Hall of Fame.'), ('Afternoon', 'Lunch at the Angry Minnow, then back to the airport.')],
+        'extra': [('Morning', 'Paddle the Chippewa Flowage.'), ('Afternoon', 'Hike the Birkie Trail.'), ('Evening', 'Dinner at The Ranch.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
