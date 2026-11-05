@@ -5358,5 +5358,39 @@
     "sha256": "79a3cb1591353267b861ea81edb9a51f262d982a22662dd75d9600eec592f444"
    }
   ]
+ },
+ {
+  "destination": "Whitefish & Glacier National Park",
+  "title": "Grinnell Lake from the Grinnell Glacier trail, Glacier National Park.",
+  "photographer": "Harrison Steen",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-lake-in-the-foreground-d01xcR3puFA",
+  "original_image_url": "https://images.unsplash.com/photo-1635965072050-9b608060234d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDU5fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Turquoise Grinnell Lake beneath snow-streaked peaks in Glacier National Park",
+  "date_taken": null,
+  "files": [],
+  "location": "Tagged Glacier National Park; scene identified as Grinnell Lake, Montana"
+ },
+ {
+  "destination": "Bozeman & Big Sky",
+  "title": "Rodeo night near Bozeman.",
+  "photographer": "Tim Mossholder",
+  "source_page_url": "https://unsplash.com/photos/cowboy-riding-a-bucking-horse-in-a-dusty-rodeo-arena-mTs6ONxfm7c",
+  "original_image_url": "https://images.unsplash.com/photo-1781739849963-0382a061f05f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDYyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A cowboy riding a bucking bronc in a dusty rodeo arena near Bozeman",
+  "date_taken": null,
+  "files": [],
+  "location": "Geotagged Bozeman, MT"
  }
 ]

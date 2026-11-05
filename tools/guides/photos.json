@@ -2260,27 +2260,29 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg\">Blanchard Springs Caverns by D.L.H. - panoramio - Dameon Hudson</a> — Dameon Hudson · <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a>. Cropped to 4:3 and resized."
   },
   "glacier-whitefish": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1635965072050-9b608060234d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDU5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Turquoise Grinnell Lake beneath snow-streaked peaks in Glacier National Park",
     "w": 960,
     "h": 720,
-    "caption": "Whitefish & Glacier National Park (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Grinnell Lake from the Grinnell Glacier trail, Glacier National Park.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@pics_by_harry?utm_source=wingaway_weekends&utm_medium=referral\">Harrison Steen</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-lake-in-the-foreground-d01xcR3puFA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bozeman-big-sky": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1781739849963-0382a061f05f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDYyfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "A cowboy riding a bucking bronc in a dusty rodeo arena near Bozeman",
     "w": 960,
     "h": 720,
-    "caption": "Bozeman & Big Sky (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Rodeo night near Bozeman.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@timmossholder?utm_source=wingaway_weekends&utm_medium=referral\">Tim Mossholder</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/cowboy-riding-a-bucking-horse-in-a-dusty-rodeo-arena-mTs6ONxfm7c?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }

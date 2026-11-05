@@ -1317,3 +1317,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Whitefish & Glacier National Park
+
+- Photo by Harrison Steen on Unsplash — https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-lake-in-the-foreground-d01xcR3puFA
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Tagged Glacier National Park; scene identified as Grinnell Lake, Montana
+
+## Bozeman & Big Sky
+
+- Photo by Tim Mossholder on Unsplash — https://unsplash.com/photos/cowboy-riding-a-bucking-horse-in-a-dusty-rodeo-arena-mTs6ONxfm7c
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Bozeman, MT
