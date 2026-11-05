@@ -1063,3 +1063,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2011634907/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Minocqua & the Northwoods
+
+- Title: 15-08-04-Minocqua-Daniela-Kloth-IMG 1367.JPG
+- Photographer: Daniela Kloth
+- Source: https://commons.wikimedia.org/wiki/File:15-08-04-Minocqua-Daniela-Kloth-IMG_1367.JPG
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
