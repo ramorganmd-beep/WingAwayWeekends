@@ -2487,11 +2487,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ND",
  "region": "Great Plains",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "peace-garden-fountain", "alt": "Dove sculpture fountain looking down the formal flower gardens at the International Peace Garden"}
 },
 {
  "name": "Omaha",

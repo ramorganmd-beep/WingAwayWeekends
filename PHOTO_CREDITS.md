@@ -1203,3 +1203,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Mt_Kineo.jpg
 - License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## International Peace Garden
+
+- Title: International Peace Garden, North Dakota-Manitoba Border (43925709902)
+- Photographer: Ken Lund
+- Source: https://commons.wikimedia.org/wiki/File:International_Peace_Garden,_North_Dakota-Manitoba_Border_(43925709902).jpg
+- License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
