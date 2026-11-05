@@ -1353,3 +1353,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Jeffrey Eisen on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-with-a-hotel-in-the-background-_-pH7LWjW1Q
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged La Jolla Cove
+
+## Monterey & Carmel
+
+- Photo by Chris Leipelt on Unsplash — https://unsplash.com/photos/aerial-view-of-beach--2KUZhA7iaU
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Carmel-by-the-Sea
+
+## Yosemite
+
+- Photo by Aniket Deole on Unsplash — https://unsplash.com/photos/granite-cliffs-and-waterfall-in-yosemite-T-tOgjWZ0fQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Yosemite Valley
+
+## Big Sur
+
+- Photo by Vladimir Kudinov on Unsplash — https://unsplash.com/photos/aerial-view-photography-of-mountain-near-body-of-water-5ZGz09tKguM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Big Sur
