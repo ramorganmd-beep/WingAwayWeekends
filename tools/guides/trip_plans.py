@@ -828,6 +828,12 @@ PLANS = {
     'mountain-view-ar': {
         'day': [('Arrive', 'Land at 7M2 mid-morning.'), ('Midday', 'Lunch at the Skillet.'), ('Afternoon', 'The Folk Center crafts village, then back to the airport.')],
         'extra': [('Morning', 'Blanchard Springs Caverns.'), ('Afternoon', 'White River trout fishing.'), ('Evening', "Pickin' on the square.")]},
+    'glacier-whitefish': {
+        'day': [('Arrive', 'Land at KGPI early and pick up the car.'), ('Midday', 'Lake McDonald in Glacier.'), ('Afternoon', 'Downtown Whitefish, then back to the airport.')],
+        'extra': [('Morning', 'Going-to-the-Sun Road to Logan Pass.'), ('Afternoon', 'Flathead Lake.'), ('Evening', 'Dinner at Tupelo Grille.')]},
+    'bozeman-big-sky': {
+        'day': [('Arrive', 'Land at KBZN mid-morning.'), ('Midday', 'Lunch on Main Street.'), ('Afternoon', 'The Museum of the Rockies, then back to the airport.')],
+        'extra': [('Morning', 'Yellowstone via Gardiner.'), ('Afternoon', 'Chico Hot Springs.'), ('Evening', 'Dinner at Blackbird.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
