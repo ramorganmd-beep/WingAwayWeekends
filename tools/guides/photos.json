@@ -1719,17 +1719,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@hubdub?utm_source=wingaway_weekends&utm_medium=referral\">Brian Hubbard</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-rocky-cliff-with-trees-and-blue-sky-bGQsCg04-_g?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bedford-springs": {
-    "slug": "cape-may-beach",
+    "slug": "bedford-springs-resort",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Omni Bedford Springs Resort and its formal gardens and fountain",
     "w": 960,
     "h": 720,
-    "caption": "Omni Bedford Springs (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Omni Bedford Springs Resort",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Bedford_Springs_Resort_PA1.jpg\">Bedford Springs Resort PA1.jpg</a> — Acroterion · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "laurel-highlands": {
     "slug": "https://images.unsplash.com/photo-1603781687539-fe2ff26613d1?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg3NDQwfA&ixlib=rb-4.1.0",

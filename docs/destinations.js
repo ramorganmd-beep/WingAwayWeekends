@@ -2960,11 +2960,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bedford-springs-resort", "alt": "The Omni Bedford Springs Resort and its formal gardens and fountain"}
 },
 {
  "name": "Laurel Highlands",
