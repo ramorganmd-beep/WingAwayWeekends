@@ -3136,5 +3136,74 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "photo": {"slug": "hayward-muskie", "alt": "The giant walk-through muskie at the National Fresh Water Fishing Hall of Fame in Hayward"}
+},
+{
+ "name": "Grand Marais & the North Shore",
+ "state": "Minnesota",
+ "airport": "KCKC",
+ "lat": 47.7505,
+ "lon": -90.3343,
+ "desc": "Lake Superior’s North Shore: a harbor arts town, waterfalls, a historic lakeside resort, a 1920s lodge and the Gunflint Trail.",
+ "tags": [
+  "Lake",
+  "Hiking",
+  "Outdoors",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "north-shore/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Minneapolis & St. Paul",
+ "state": "Minnesota",
+ "airport": "KSTP",
+ "lat": 44.9537,
+ "lon": -93.09,
+ "desc": "Two river cities: a grand 1910 hotel, the Walker sculpture garden, Minnehaha Falls, Owamni and the original Jucy Lucy.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "twin-cities/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Stillwater & the St. Croix",
+ "state": "Minnesota",
+ "airport": "21D",
+ "lat": 45.0564,
+ "lon": -92.806,
+ "desc": "A brick river town on the St. Croix: boutique hotels, a wine bar, the Lift Bridge and river bluffs.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "stillwater/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

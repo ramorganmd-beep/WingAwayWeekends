@@ -1844,5 +1844,44 @@
     "h": 720,
     "caption": "The giant muskie, Fresh Water Fishing Hall of Fame",
     "credit_html": "<a href=\"https://www.loc.gov/item/2011634907/\">A 143-foot-long, walk-through, fiberglass-and-steel muskie, and a less-imposing fiberglass sunfish, at the National Fresh Water Fishing Hall of Fame, Hayward, Wisconsin</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
+  },
+  "north-shore": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Grand Marais & the North Shore (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "twin-cities": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Minneapolis & St. Paul (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "stillwater": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Stillwater & the St. Croix (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

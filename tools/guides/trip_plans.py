@@ -729,6 +729,15 @@ PLANS = {
     'hayward': {
         'day': [('Arrive', 'Land at KHYR early.'), ('Midday', 'The Fishing Hall of Fame.'), ('Afternoon', 'Lunch at the Angry Minnow, then back to the airport.')],
         'extra': [('Morning', 'Paddle the Chippewa Flowage.'), ('Afternoon', 'Hike the Birkie Trail.'), ('Evening', 'Dinner at The Ranch.')]},
+    'north-shore': {
+        'day': [('Arrive', 'Land at KCKC early.'), ('Midday', 'Artist’s Point and the harbor.'), ('Afternoon', 'Lunch at the Angry Trout, then back to the airport.')],
+        'extra': [('Morning', 'The Lutsen gondola.'), ('Afternoon', 'Waterfalls along the shore.'), ('Evening', 'Dinner at Naniboujou.')]},
+    'twin-cities': {
+        'day': [('Arrive', 'Land at KSTP mid-morning.'), ('Midday', 'The Walker sculpture garden.'), ('Afternoon', 'A Jucy Lucy at Matt’s Bar, then back to the airport.')],
+        'extra': [('Morning', 'Mill City Museum and the Stone Arch Bridge.'), ('Afternoon', 'Minnehaha Falls.'), ('Evening', 'Dinner at Owamni.')]},
+    'stillwater': {
+        'day': [('Arrive', 'Land at 21D early.'), ('Midday', 'Walk the Lift Bridge loop.'), ('Afternoon', 'Lunch on Main Street, then back to the airport.')],
+        'extra': [('Morning', 'A trolley tour.'), ('Afternoon', 'Bluffs at William O’Brien.'), ('Evening', 'Dinner at Domaćin.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
