@@ -834,6 +834,18 @@ PLANS = {
     'bozeman-big-sky': {
         'day': [('Arrive', 'Land at KBZN mid-morning.'), ('Midday', 'Lunch on Main Street.'), ('Afternoon', 'The Museum of the Rockies, then back to the airport.')],
         'extra': [('Morning', 'Yellowstone via Gardiner.'), ('Afternoon', 'Chico Hot Springs.'), ('Evening', 'Dinner at Blackbird.')]},
+    'santa-barbara': {
+        'day': [('Arrive', 'Land at KSBA mid-morning, after the fog lifts.'), ('Midday', 'The courthouse tower and lunch downtown.'), ('Afternoon', 'Stearns Wharf, then back to the airport.')],
+        'extra': [('Morning', 'The Old Mission.'), ('Afternoon', 'Santa Ynez Valley wineries.'), ('Evening', 'Dinner at Bouchon.')]},
+    'catalina-island': {
+        'day': [('Arrive', 'Land at KAVX mid-morning (8 a.m.–5 p.m. only).'), ('Midday', 'A buffalo burger at the DC-3 Grill.'), ('Afternoon', 'The shuttle to Avalon and back; leave before 5 p.m.')],
+        'extra': [('Morning', 'A glass-bottom boat.'), ('Afternoon', 'The Casino and the museum.'), ('Evening', 'Sunset on the pier.')]},
+    'palm-springs': {
+        'day': [('Arrive', 'Land at KPSP early.'), ('Midday', 'The Palm Springs Air Museum on the field.'), ('Afternoon', 'Lunch downtown, then back to the FBO before the afternoon heat.')],
+        'extra': [('Morning', 'The aerial tramway.'), ('Afternoon', 'Pool time.'), ('Evening', 'Sunset in Joshua Tree.')]},
+    'san-diego': {
+        'day': [('Arrive', 'Land at KMYF mid-morning.'), ('Midday', 'The USS Midway Museum.'), ('Afternoon', 'Lunch on Coronado, then back to the airport.')],
+        'extra': [('Morning', 'Balboa Park and the zoo.'), ('Afternoon', 'La Jolla Cove.'), ('Evening', "Dinner at George's at the Cove.")]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

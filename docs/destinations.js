@@ -3785,5 +3785,102 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "photo": {"slug": "bozeman-big-sky", "remote": "https://images.unsplash.com/photo-1781739849963-0382a061f05f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE2NDYyfA&ixlib=rb-4.1.0", "alt": "A cowboy riding a bucking bronc in a dusty rodeo arena near Bozeman", "pos": "50% 50%"}
+},
+{
+ "name": "Santa Barbara",
+ "state": "California",
+ "airport": "KSBA",
+ "lat": 34.4208,
+ "lon": -119.6982,
+ "desc": "The American Riviera: Spanish-revival streets, the Old Mission, a courthouse tower view, the Urban Wine Trail and Santa Ynez wine country.",
+ "tags": [
+  "Beach",
+  "Wine",
+  "Dining",
+  "History",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "santa-barbara/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Catalina Island",
+ "state": "California",
+ "airport": "KAVX",
+ "lat": 33.405,
+ "lon": -118.4158,
+ "desc": "The Airport in the Sky: a ridgetop runway, buffalo burgers at the DC-3 Grill, then Avalon's harbor, the 1929 Casino and clear-water coves.",
+ "tags": [
+  "Beach",
+  "Scenic views",
+  "Outdoors",
+  "Romance"
+ ],
+ "guide": "catalina-island/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Palm Springs",
+ "state": "California",
+ "airport": "KPSP",
+ "lat": 33.8297,
+ "lon": -116.5067,
+ "desc": "Mid-century desert style: design hotels and pools, a warbird museum on the field, the aerial tramway and Joshua Tree.",
+ "tags": [
+  "Aviation museums",
+  "Spa",
+  "Stays",
+  "Dining",
+  "Outdoors",
+  "Romance"
+ ],
+ "guide": "palm-springs/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "San Diego & Coronado",
+ "state": "California",
+ "airport": "KMYF",
+ "lat": 32.6859,
+ "lon": -117.1831,
+ "desc": "Carriers and beaches: the USS Midway Museum, Balboa Park, the San Diego Zoo, La Jolla Cove and the Hotel del Coronado.",
+ "tags": [
+  "Aviation museums",
+  "Beach",
+  "History",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "san-diego/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
