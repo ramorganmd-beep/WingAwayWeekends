@@ -774,6 +774,18 @@ PLANS = {
     'dover-de': {
         'day': [('Arrive', 'Land at 33N mid-morning.'), ('Midday', 'The Air Mobility Command Museum.'), ('Afternoon', 'First State Heritage Park, then back to the airport.')],
         'extra': [('Morning', 'Bombay Hook at dawn.'), ('Afternoon', 'The speedway.'), ('Evening', 'Dinner at Grey Fox Grille.')]},
+    'moosehead-lake': {
+        'day': [('Arrive', 'Land at 3B1 or 52B early.'), ('Midday', 'Watch the floatplanes in the cove.'), ('Afternoon', 'Lunch at Kelly’s Landing, then back to the airport.')],
+        'extra': [('Morning', 'A Katahdin cruise.'), ('Afternoon', 'Mount Kineo.'), ('Evening', 'Dinner at Blair Hill.')]},
+    'rangeley': {
+        'day': [('Arrive', 'Land at 8B0 or M57 early.'), ('Midday', 'A scenic floatplane flight.'), ('Afternoon', 'The Height of Land overlook, then back to the airport.')],
+        'extra': [('Morning', 'Paddle Rangeley Lake.'), ('Afternoon', 'Saddleback.'), ('Evening', 'Dinner at Forks in the Air.')]},
+    'tavares': {
+        'day': [('Arrive', 'Splash in at FA1 or land at KLEE mid-morning.'), ('Midday', 'Wooton Park and lunch downtown.'), ('Afternoon', 'Mount Dora’s antique shops, then back to the base.')],
+        'extra': [('Morning', 'A day at Jack Brown’s.'), ('Afternoon', 'Downtown Mount Dora.'), ('Evening', 'Dinner at Pisces Rising.')]},
+    'havre-de-grace': {
+        'day': [('Arrive', 'Land at 0W3 or M06 mid-morning.'), ('Midday', 'The promenade and the lighthouse.'), ('Afternoon', 'The Decoy Museum, then back to the airport.')],
+        'extra': [('Morning', 'Antique shops downtown.'), ('Afternoon', 'The waterfront.'), ('Evening', 'Dinner at MacGregor’s.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
