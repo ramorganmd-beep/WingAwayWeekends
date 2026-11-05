@@ -2110,17 +2110,16 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Morning_sunrise_lake.jpg\">Morning sunrise lake</a> — Tsams29149 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "drummond-island": {
-    "slug": "cape-may-beach",
+    "slug": "drummond-island-ferry",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Drummond Islander IV car ferry crossing the St. Marys River as a lake freighter passes",
     "w": 960,
     "h": 720,
-    "caption": "Drummond Island (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Drummond Islander IV ferry meets the freighter American Mariner.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Drummond_Island_Ferry.jpg\">Drummond Island Ferry</a> — otisourcat · <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Cropped to 4:3 and resized."
   },
   "gunflint-trail": {
     "slug": "gunflint-sea-gull-lake",

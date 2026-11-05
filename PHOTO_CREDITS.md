@@ -1301,3 +1301,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg
 - License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Drummond Island
+
+- Title: Drummond Island Ferry
+- Photographer: otisourcat
+- Source: https://commons.wikimedia.org/wiki/File:Drummond_Island_Ferry.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
