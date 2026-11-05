@@ -798,6 +798,24 @@ PLANS = {
     'gunflint-trail': {
         'day': [('Arrive', "Land at M56 mid-morning (from CKC, the lodge is an hour's drive)."), ('Midday', 'Lunch on the patio at Gunflint Lodge.'), ('Afternoon', 'A short paddle, then back to the airport.')],
         'extra': [('Morning', 'A Boundary Waters paddle.'), ('Afternoon', 'Chik-Wauk at the end of the trail.'), ('Evening', "Dinner at Justine's.")]},
+    'aspen': {
+        'day': [('Arrive', 'Land at KASE mid-morning.'), ('Midday', 'Lunch downtown.'), ('Afternoon', 'The Silver Queen Gondola, then back to the airport before the afternoon wind.')],
+        'extra': [('Morning', 'The Maroon Bells.'), ('Afternoon', 'Shops and galleries downtown.'), ('Evening', 'Dinner at Matsuhisa.')]},
+    'santa-fe': {
+        'day': [('Arrive', 'Land at KSAF mid-morning.'), ('Midday', 'Lunch at The Shed.'), ('Afternoon', 'The Plaza and Canyon Road, then back to the airport.')],
+        'extra': [('Morning', "The O'Keeffe Museum."), ('Afternoon', 'Meow Wolf.'), ('Evening', 'A soak at Ten Thousand Waves.')]},
+    'jackson-hole': {
+        'day': [('Arrive', 'Land at KJAC mid-morning.'), ('Midday', 'Lunch on the town square.'), ('Afternoon', 'Jenny Lake, then back to the airport.')],
+        'extra': [('Morning', 'Wildlife at Oxbow Bend.'), ('Afternoon', 'The tram at Teton Village.'), ('Evening', 'Dinner at Snake River Grill.')]},
+    'sun-valley': {
+        'day': [('Arrive', 'Land at KSUN mid-morning.'), ('Midday', 'Lunch in Ketchum.'), ('Afternoon', 'The lodge and the ice rink, then back to the airport.')],
+        'extra': [('Morning', 'Bald Mountain.'), ('Afternoon', 'A drive toward the Sawtooths.'), ('Evening', 'Dinner at the Pioneer Saloon.')]},
+    'moab': {
+        'day': [('Arrive', 'Land at KCNY early.'), ('Midday', 'The Windows in Arches (check timed entry).'), ('Afternoon', 'A scenic flight, then home before the heat.')],
+        'extra': [('Morning', 'Mesa Arch at sunrise.'), ('Afternoon', 'Dead Horse Point.'), ('Evening', 'Delicate Arch at sunset.')]},
+    'sedona': {
+        'day': [('Arrive', 'Land at KSEZ mid-morning.'), ('Midday', 'Lunch at the Mesa Grill by the runway.'), ('Afternoon', 'Tlaquepaque, then back to the airport.')],
+        'extra': [('Morning', 'Cathedral Rock.'), ('Afternoon', 'A Jeep tour.'), ('Evening', 'Sunset dinner at Mariposa.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
