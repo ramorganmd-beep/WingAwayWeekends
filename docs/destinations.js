@@ -3274,5 +3274,183 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Okoboji & the Iowa Great Lakes",
+ "state": "Iowa",
+ "airport": "KSPW",
+ "lat": 43.372,
+ "lon": -95.135,
+ "desc": "Iowa’s clear blue lake country: lakeside resorts, the Queen II steamer, a classic 1930 coaster and summer theatre.",
+ "tags": [
+  "Lake",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "okoboji/",
+ "stateCode": "IA",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Des Moines",
+ "state": "Iowa",
+ "airport": "KIKV",
+ "lat": 41.5868,
+ "lon": -93.625,
+ "desc": "A golden-domed capital: a design hotel, a sculpture park, a botanical dome, a huge Saturday market and the Iowa State Fair.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "des-moines/",
+ "stateCode": "IA",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Dubuque",
+ "state": "Iowa",
+ "airport": "KDBQ",
+ "lat": 42.5006,
+ "lon": -90.6646,
+ "desc": "A Mississippi bluff town: the shortest, steepest railway, a river museum, a historic hotel, a riverside winery and the Field of Dreams.",
+ "tags": [
+  "History",
+  "Scenic views",
+  "Wine"
+ ],
+ "guide": "dubuque/",
+ "stateCode": "IA",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Amana Colonies & Iowa City",
+ "state": "Iowa",
+ "airport": "KIOW",
+ "lat": 41.7998,
+ "lon": -91.871,
+ "desc": "Seven historic German villages with family-style dinners, a woolen mill and a brewery, plus Iowa City’s bookstores.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "amana-colonies/",
+ "stateCode": "IA",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Rehoboth Beach & Lewes",
+ "state": "Delaware",
+ "airport": "KGED",
+ "lat": 38.7209,
+ "lon": -75.076,
+ "desc": "Delaware’s favorite beach towns: Rehoboth’s boardwalk and dining, historic Lewes, Cape Henlopen and a Dogfish Head inn.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Spa"
+ ],
+ "guide": "rehoboth-lewes/",
+ "stateCode": "DE",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bethany Beach & the Quiet Resorts",
+ "state": "Delaware",
+ "airport": "KGED",
+ "lat": 38.5396,
+ "lon": -75.0552,
+ "desc": "Delaware’s Quiet Resorts: a small boardwalk, oceanfront suites, a 1901 Victorian B&B and the Fenwick Island lighthouse.",
+ "tags": [
+  "Beach",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "bethany-beach/",
+ "stateCode": "DE",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Brandywine Valley & Wilmington",
+ "state": "Delaware",
+ "airport": "KILG",
+ "lat": 39.7391,
+ "lon": -75.5398,
+ "desc": "Du Pont country: Winterthur, Nemours, Hagley, Longwood Gardens, the grand Hotel du Pont and a village inn.",
+ "tags": [
+  "History",
+  "Stays",
+  "Dining",
+  "Scenic views"
+ ],
+ "guide": "brandywine-valley/",
+ "stateCode": "DE",
+ "region": "Mid-Atlantic",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Dover",
+ "state": "Delaware",
+ "airport": "33N",
+ "lat": 39.1582,
+ "lon": -75.5244,
+ "desc": "A pilot’s favorite: the Air Mobility Command Museum at Dover AFB, the Monster Mile, a colonial capital and Bombay Hook.",
+ "tags": [
+  "Aviation museums",
+  "History",
+  "Outdoors"
+ ],
+ "guide": "dover-de/",
+ "stateCode": "DE",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
