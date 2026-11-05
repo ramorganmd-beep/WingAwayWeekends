@@ -1175,3 +1175,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Max Shein on Unsplash — https://unsplash.com/photos/a-view-of-the-beach-from-the-shore-of-the-ocean-pAGEM4TG52s
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Bethany Beach, DE (Unsplash location)
+
+## Havre de Grace
+
+- Photo by Dudley Dawson on Unsplash — https://unsplash.com/photos/parked-vehicles-beside-road-LapdZdf3VtM
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Havre de Grace, MD (Unsplash location)

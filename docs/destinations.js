@@ -3494,10 +3494,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "havre-de-grace", "remote": "https://images.unsplash.com/photo-1574180248960-c7535b968e30?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA1MjA4fA&ixlib=rb-4.1.0", "alt": "A downtown street in Havre de Grace, Maryland", "pos": "50% 50%"}
 }
 ];

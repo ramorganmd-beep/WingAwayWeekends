@@ -4666,5 +4666,22 @@
   "date_taken": null,
   "files": [],
   "location": "Bethany Beach, DE (Unsplash location)"
+ },
+ {
+  "destination": "Havre de Grace",
+  "title": "Downtown Havre de Grace",
+  "photographer": "Dudley Dawson",
+  "source_page_url": "https://unsplash.com/photos/parked-vehicles-beside-road-LapdZdf3VtM",
+  "original_image_url": "https://images.unsplash.com/photo-1574180248960-c7535b968e30?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA1MjA4fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A downtown street in Havre de Grace, Maryland",
+  "date_taken": null,
+  "files": [],
+  "location": "Havre de Grace, MD (Unsplash location)"
  }
 ]
