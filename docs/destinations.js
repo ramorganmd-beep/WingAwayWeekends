@@ -3887,10 +3887,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Central California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "monterey-carmel", "remote": "https://images.unsplash.com/photo-1477363547594-c9530672c82d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIwODIzfA&ixlib=rb-4.1.0", "alt": "Aerial view of the Carmel-by-the-Sea coastline and beach", "pos": "50% 50%"}
 },
 {
  "name": "Paso Robles Wine Country",
@@ -3936,10 +3933,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Central California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "yosemite", "remote": "https://images.unsplash.com/photo-1516687401797-25297ff1462c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIwODI3fA&ixlib=rb-4.1.0", "alt": "Snow-capped granite cliffs and a waterfall above the forest in Yosemite Valley", "pos": "50% 50%"}
 },
 {
  "name": "Big Sur",
@@ -3961,9 +3955,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Central California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "big-sur", "remote": "https://images.unsplash.com/photo-1452313209253-2823ba17292f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIwODMwfA&ixlib=rb-4.1.0", "alt": "Aerial view of Big Sur's mountains dropping to the Pacific", "pos": "50% 50%"}
 }
 ];
