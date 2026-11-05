@@ -1271,3 +1271,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Morning_sunrise_lake.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Red River Gorge & Natural Bridge
+
+- Photo by Chandler Cruttenden on Unsplash — https://unsplash.com/photos/autumn-forest-with-a-bridge-in-the-distance-V0D6RC3_lzs
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Natural Bridge State Resort Park, Slade

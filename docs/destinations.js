@@ -3698,11 +3698,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "red-river-gorge", "remote": "https://images.unsplash.com/photo-1762900630223-7c0bf755b635?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE0MTQ2fA&ixlib=rb-4.1.0", "alt": "Autumn forest around Natural Bridge in Natural Bridge State Resort Park", "pos": "50% 50%"}
 },
 {
  "name": "Bowling Green & Mammoth Cave",
