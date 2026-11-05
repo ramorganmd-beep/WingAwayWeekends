@@ -5511,5 +5511,54 @@
   "date_taken": null,
   "files": [],
   "location": "Geotagged Big Sur"
+ },
+ {
+  "destination": "Paso Robles Wine Country",
+  "title": "Carnegie Library, Paso Robles",
+  "photographer": "Ken Figlioli",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Carnegie_Library%2C_Paso_Robles.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Carnegie_Library%2C_Paso_Robles.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2144,
+   "height": 1208
+  },
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The 1908 brick Carnegie Library under the oaks in downtown Paso Robles City Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/paso-robles-carnegie-library-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 48078,
+    "sha256": "fae16e933196dee757cb81bfcaf38701d71e2772464e2bf832a11292e622f008"
+   },
+   {
+    "path": "dist/assets/destinations/paso-robles-carnegie-library-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 54826,
+    "sha256": "d25ba374f6700d559e4dc1926976d7394925964f7d7f4022e53c38234d3d4014"
+   },
+   {
+    "path": "dist/assets/destinations/paso-robles-carnegie-library-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 174478,
+    "sha256": "27cd280491a4ace84453066d56a8ae092543d29910b9b71a2ae0e81ad86a7a48"
+   },
+   {
+    "path": "dist/assets/destinations/paso-robles-carnegie-library-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 205315,
+    "sha256": "f669bb5d6bd215f22e6b3cfca15cc4e66ca4821cee0ac1544a900044c1e93081"
+   }
+  ]
  }
 ]

@@ -1371,3 +1371,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Vladimir Kudinov on Unsplash — https://unsplash.com/photos/aerial-view-photography-of-mountain-near-body-of-water-5ZGz09tKguM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Big Sur
+
+## Paso Robles Wine Country
+
+- Title: Carnegie Library, Paso Robles
+- Photographer: Ken Figlioli
+- Source: https://commons.wikimedia.org/wiki/File:Carnegie_Library%2C_Paso_Robles.jpg
+- License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
