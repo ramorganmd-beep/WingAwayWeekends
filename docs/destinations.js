@@ -3093,11 +3093,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "elkhart-lake-aerial", "alt": "Aerial view of spring-fed Elkhart Lake and the village on its shore"}
 },
 {
  "name": "Wisconsin Dells & Devil’s Lake",

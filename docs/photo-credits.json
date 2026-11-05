@@ -4266,5 +4266,54 @@
     "sha256": "391833158fb549bb647f973247d6c28593334e75b4a1fc04884b6d75ffdd50ad"
    }
   ]
+ },
+ {
+  "destination": "Elkhart Lake",
+  "title": "Elkhart Lake, WI.jpg",
+  "photographer": "Elkhartlake",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Elkhart_Lake,_WI.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Elkhart_Lake%2C_WI.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 8000,
+   "height": 6000
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Aerial view of spring-fed Elkhart Lake and the village on its shore",
+  "files": [
+   {
+    "path": "dist/assets/destinations/elkhart-lake-aerial-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 51372,
+    "sha256": "b6b888ac20953676cc4d66abff32a90478c599c528cc13f6a1b7f210612fe440"
+   },
+   {
+    "path": "dist/assets/destinations/elkhart-lake-aerial-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56543,
+    "sha256": "2169b24cfbc62c9657fe22f4a74de15c1d6d1a322e85ec3c63a0a5c4478e6f8b"
+   },
+   {
+    "path": "dist/assets/destinations/elkhart-lake-aerial-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 225876,
+    "sha256": "38f21fe37c2dac5ba65e20c33513ebc2876b0b1f4076ad84fffa5ebd7731ffb6"
+   },
+   {
+    "path": "dist/assets/destinations/elkhart-lake-aerial-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 236993,
+    "sha256": "971b931cf2226067e3f39b19952f811999f27b75f0c36e957e23a003fabd1ef3"
+   }
+  ]
  }
 ]
