@@ -4315,5 +4315,54 @@
     "sha256": "971b931cf2226067e3f39b19952f811999f27b75f0c36e957e23a003fabd1ef3"
    }
   ]
+ },
+ {
+  "destination": "Manchester",
+  "title": "Manchester Village Vermont.jpg",
+  "photographer": "Skeezix1000",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Manchester_Village_Vermont.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Manchester_Village_Vermont.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1600,
+   "height": 1200
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Manchester Village, Vermont, with the Equinox, the soldiers’ monument and Mount Equinox in the clouds",
+  "files": [
+   {
+    "path": "dist/assets/destinations/manchester-village-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26066,
+    "sha256": "169f04364b40af26c1ffd3252de99b8e99e0ea4aa618aa1bb18801d5d325408c"
+   },
+   {
+    "path": "dist/assets/destinations/manchester-village-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 36123,
+    "sha256": "f9f43257da0fe6060aa8e069a3c70f68bc3892f69646f029ed6a43ceb2565b05"
+   },
+   {
+    "path": "dist/assets/destinations/manchester-village-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 87684,
+    "sha256": "2d05982ee533b16f10157608cb8a32864de0f47154c2b094757bcc5f16a70ae2"
+   },
+   {
+    "path": "dist/assets/destinations/manchester-village-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 133812,
+    "sha256": "88d6a45577130312bf26a4ed1638117725c2e522342b18d4c7d939c5090e610b"
+   }
+  ]
  }
 ]

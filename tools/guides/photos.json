@@ -1250,17 +1250,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@ventiviews?utm_source=wingaway_weekends&utm_medium=referral\">Venti Views</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-and-white-house-near-green-trees-and-river-during-daytime-9uWkID2TCIE?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "manchester-vt": {
-    "slug": "cape-may-beach",
+    "slug": "manchester-village",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Manchester Village, Vermont, with the Equinox, the soldiers’ monument and Mount Equinox in the clouds",
     "w": 960,
     "h": 720,
-    "caption": "Manchester (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Manchester Village and Mount Equinox",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Manchester_Village_Vermont.jpg\">Manchester Village Vermont.jpg</a> — Skeezix1000 · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "burlington-vt": {
     "slug": "https://images.unsplash.com/photo-1606327916785-849773c8dd0c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODA5MzQ3fA&ixlib=rb-4.1.0",
