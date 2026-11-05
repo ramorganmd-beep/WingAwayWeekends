@@ -750,6 +750,30 @@ PLANS = {
     'broken-bow': {
         'day': [('Arrive', 'Land at 4O4 early.'), ('Midday', 'Beavers Bend State Park.'), ('Afternoon', 'Pizza at Grateful Head, then back to the airport.')],
         'extra': [('Morning', 'Paddle the Mountain Fork.'), ('Afternoon', 'Broken Bow Lake.'), ('Evening', 'Dinner at Abendigo’s.')]},
+    'okoboji': {
+        'day': [('Arrive', 'Land at KSPW early.'), ('Midday', 'A Queen II cruise.'), ('Afternoon', 'Lunch at Maxwell’s, then back to the airport.')],
+        'extra': [('Morning', 'A swim and a boat rental.'), ('Afternoon', 'Arnolds Park.'), ('Evening', 'A summer theatre show.')]},
+    'des-moines': {
+        'day': [('Arrive', 'Land at KIKV mid-morning.'), ('Midday', 'The sculpture park.'), ('Afternoon', 'The botanical garden, then back to the airport.')],
+        'extra': [('Morning', 'The Saturday farmers’ market.'), ('Afternoon', 'The capitol.'), ('Evening', 'Dinner at 801 Chophouse.')]},
+    'dubuque': {
+        'day': [('Arrive', 'Land at KDBQ mid-morning.'), ('Midday', 'The Fenelon Place Elevator.'), ('Afternoon', 'The river museum, then back to the airport.')],
+        'extra': [('Morning', 'The Field of Dreams.'), ('Afternoon', 'Wine at Stone Cliff.'), ('Evening', 'Dinner at Brazen.')]},
+    'amana-colonies': {
+        'day': [('Arrive', 'Land at KIOW early.'), ('Midday', 'The Amana villages.'), ('Afternoon', 'Family-style lunch at the Ox Yoke, then back to the airport.')],
+        'extra': [('Morning', 'The woolen mill and Millstream Brewing.'), ('Afternoon', 'Downtown Iowa City and Prairie Lights.'), ('Evening', 'Dinner at Clinton Street Social.')]},
+    'rehoboth-lewes': {
+        'day': [('Arrive', 'Land at KGED mid-morning.'), ('Midday', 'Walk historic Lewes.'), ('Afternoon', 'Lunch at Dogfish Head, then back to the airport.')],
+        'extra': [('Morning', 'Bike Cape Henlopen.'), ('Afternoon', 'The Rehoboth boardwalk.'), ('Evening', 'Dinner at The Pines.')]},
+    'bethany-beach': {
+        'day': [('Arrive', 'Land at KGED mid-morning.'), ('Midday', 'The Bethany boardwalk.'), ('Afternoon', 'Delaware Seashore State Park, then back to the airport.')],
+        'extra': [('Morning', 'Kayak the inland bays.'), ('Afternoon', 'The Fenwick Island lighthouse.'), ('Evening', 'Dinner at Off the Hook.')]},
+    'brandywine-valley': {
+        'day': [('Arrive', 'Land at KILG mid-morning.'), ('Midday', 'Winterthur.'), ('Afternoon', 'Hagley, then back to the airport.')],
+        'extra': [('Morning', 'Longwood Gardens.'), ('Afternoon', 'Nemours Estate.'), ('Evening', 'Dinner at Le Cavalier.')]},
+    'dover-de': {
+        'day': [('Arrive', 'Land at 33N mid-morning.'), ('Midday', 'The Air Mobility Command Museum.'), ('Afternoon', 'First State Heritage Park, then back to the airport.')],
+        'extra': [('Morning', 'Bombay Hook at dawn.'), ('Afternoon', 'The speedway.'), ('Evening', 'Dinner at Grey Fox Grille.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
