@@ -17,7 +17,7 @@
 .club{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:12px 40px;margin-top:40px;padding:28px 30px;background:#eef2f4;border-left:4px solid #ba7d2f;border-radius:3px}.club h2{margin:8px 0 0;font-size:1.7rem;line-height:1.2}.club p{margin:0 0 12px;font-size:17px;line-height:1.6;color:#33475a;max-width:none}.club .club-small{font-size:15px;color:#526471}@media (max-width:800px){.club{grid-template-columns:1fr;padding:22px}}
 .lunch-empty{padding:30px;background:#eef2f4;text-align:center}
 @media (max-width:800px){.lunch-filters{grid-template-columns:1fr}.lunch-intro{padding-top:36px}}
-</style></head><body>
+.water-badge{color:#0f6a78;font-weight:700;font-size:.85rem;margin:-4px 0 6px}.water-note{grid-column:1/-1}</style></head><body>
 <a class="skip" href="#main">Skip to the list</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right"><a class="header-link" href="../">All destinations</a></span></header>
 <main id="main">
 <div class="lunch-intro"><span class="eyebrow">Short hops · Breakfast & lunch</span><h1>The $100 hamburger</h1>
@@ -28,6 +28,7 @@
 <div><label for="from">Departure airport</label><input id="from" maxlength="40" spellcheck="false" autocomplete="off" list="airport-list" placeholder="e.g. KMYR"><datalist id="airport-list"></datalist></div>
 <div><label for="max">Maximum one-way flight</label><select id="max"><option value="0.75">45 minutes</option><option value="1">1 hour</option><option value="1.5" selected>1½ hours</option><option value="2">2 hours</option><option value="99">Any distance</option></select></div>
 <div><label for="meal">Meal</label><select id="meal"><option value="">Any meal</option><option>Breakfast</option><option>Lunch</option><option>Dinner</option></select></div>
+<div><label for="gear">Landing gear</label><select id="gear"><option value="land">Landplane (wheels)</option><option value="float">Floatplane (water only)</option><option value="amphib">Amphibian (water or runway)</option></select></div>
 </section>
 <p class="lunch-status" id="status" aria-live="polite"></p>
 <div class="grid three" id="list"></div>
@@ -43,6 +44,16 @@
 <script>
 // where: 'On the field' | 'Short walk' | 'Short ride'. lat/lon only for strips not in airports-us.js.
 const SPOTS = [
+ // Dock-and-dine spots at public-use seaplane bases (water: true, waterOnly: true; code = the seaplane base).
+ {code:'FA1', water:true, waterOnly:true, name:'Puddle Jumpers', where:'At the seaplane base', meals:['Lunch','Dinner'], food:'Seaplane-themed American',
+  desc:'A seaplane-themed restaurant on Lake Dora beside the Tavares Seaplane Base and marina, with a view of the floatplanes coming and going.',
+  pilot:'FA1 Tavares Seaplane Base: city-owned, public use, lane 09W/27W 3,000 × 200 ft, 100LL and mogas listed. Be aware of Leesburg (KLEE) traffic to the northwest. Base 352-742-6267.', phone:'352-508-5862', checked:'Listed near the base, Nov 2026; no website found, call ahead'},
+ {code:'B18', water:true, waterOnly:true, url:'https://www.shibleysatthepier.com/', name:'Shibley’s at the Pier', where:'Across from aircraft parking', meals:['Lunch','Dinner'], food:'Lakeside American',
+  desc:'A long-time Alton Bay favorite on Lake Winnipesaukee, in the big red building across from the seaplane base’s aircraft parking.',
+  pilot:'B18 Alton Bay: public-use seaplane base, lane 01W/19W 2,600 × 100 ft; in winter it becomes the only FAA ice runway in the lower 48 (typically mid-January to mid-March). Seasonal restaurant.', phone:'', checked:'Seasonal; its site says it reopens next season, Nov 2026'},
+ {code:'M06', water:true, waterOnly:true, url:'https://www.macgregorsrestaurant.com/', name:'MacGregor’s Restaurant', where:'Short walk', meals:['Lunch','Dinner'], food:'Waterfront seafood',
+  desc:'A waterfront restaurant on St. John Street in Havre de Grace, with big windows over the Susquehanna Flats.',
+  pilot:'M06 Havre de Grace: public-use seaplane base, E/W and N/S lanes 8,000 × 200 ft. A 100+ ft bridge stands about 3,500 ft north of the N/S lane; birds on and near the base. Manager 410-258-9648. Confirm docking first.', phone:'', checked:'Nov 2026; confirm docking with the base'},
  {code:'KBQ1', url:'https://www.pik-n-pig.com/',  name:'Pik N Pig', where:'Beside the runway', meals:['Lunch','Dinner'], food:'Barbecue',
   desc:'Eastern North Carolina barbecue at picnic tables beside the grass runway near Pinehurst. Watching the arrivals is half the fun. Rebuilt after a 2021 fire and reopened in 2023.',
   pilot:'Turf runway at Gilliam-McConnell Airfield (now BQ1, formerly 5NC3). Check runway length, condition and field rules before you go.', phone:'910-947-7591', checked:'Reopened 2023; hours vary, call ahead'},
@@ -353,7 +364,8 @@ const SPOTS = [
   const dl = document.getElementById('airport-list');
   WingAwaySuggest(document.getElementById('from'), dl, airports);
   const AC = window.WingAwayAircraft, aircraft = AC ? AC.load() : null;
-  const from = document.getElementById('from'), max = document.getElementById('max'), meal = document.getElementById('meal');
+  const from = document.getElementById('from'), max = document.getElementById('max'), meal = document.getElementById('meal'), gearSel = document.getElementById('gear');
+  gearSel.value = AC && AC.loadGear ? AC.loadGear() : 'land';
   let saved = '';
   try { saved = (new URLSearchParams(location.search).get('from') || localStorage.getItem('wingaway-home') || '').toUpperCase(); } catch (e) {}
   from.value = index.get(saved) ? index.get(saved)[0] : 'KMYR';
@@ -387,17 +399,20 @@ const SPOTS = [
       const est = AC ? AC.estimate(nm, aircraft) : { hours: nm / 150 + 0.25 };
       return Object.assign({}, s, { apt, nm, est, drive: nm < 40 || home[0] === s.code });
     });
-    let rows = all.filter(s => (s.drive || s.est.hours <= limit) && (!want || s.meals.includes(want))).sort((a, b) => a.nm - b.nm);
+    const gear = gearSel.value, fits = s => gear === 'amphib' || (gear === 'float' ? !!s.water : !s.waterOnly);
+    let rows = all.filter(s => fits(s) && (s.drive || s.est.hours <= limit) && (!want || s.meals.includes(want))).sort((a, b) => a.nm - b.nm);
     let nearest = false;
-    if (!rows.length) { rows = all.filter(s => !want || s.meals.includes(want)).sort((a, b) => a.nm - b.nm).slice(0, 3); nearest = rows.length > 0; }
+    if (!rows.length) { rows = all.filter(s => fits(s) && (!want || s.meals.includes(want))).sort((a, b) => a.nm - b.nm).slice(0, 3); nearest = rows.length > 0; }
     status.textContent = rows.length + (rows.length === 1 ? ' place' : ' places') + ' from ' + home[0] + ' · ' + home[2] + ', ' + home[3] + ', ' + home[4] +
       (aircraft ? ' · using your ' + aircraft.label + ' profile' : ' · 150 KTAS default') + '.';
+    if (gear !== 'land') list.append(el('div', 'lunch-empty water-note', (gear === 'float' ? 'Floatplane: showing dock-and-dine spots near a public-use seaplane base only. ' : 'Amphibian: runway spots plus dock-and-dine spots near a public-use seaplane base. ') + 'This list is new and small; water rules, docks and hours change, so call the base and the restaurant first.'));
     if (nearest) { const n = el('div', 'lunch-empty', 'Nothing within that flight time yet, so here are the closest spots. Try a longer flight time, or tell us a favorite we should add.'); list.append(n); status.textContent = 'Closest places to ' + home[0] + ' · ' + home[2] + ', ' + home[3] + ', ' + home[4] + '.'; }
     if (!rows.length) { const e = el('div', 'lunch-empty', 'Nothing within that flight time yet. Try a longer flight or another meal, or tell us a favorite we should add.'); list.append(e); return; }
     rows.forEach(s => {
       const c = el('article', 'card lunch-card');
       c.append(el('div', 'tag', s.food));
       c.append(el('h3', null, s.name));
+      if (s.water) c.append(el('p', 'water-badge', 'Dock and dine · seaplane base ' + s.code));
       const where = s.apt ? s.apt[0] + ' · ' + s.apt[2] + ', ' + s.apt[3] + ', ' + s.apt[4] : s.code + ' · ' + s.city;
       c.append(el('p', 'apt', where));
       let flight = s.drive ? 'Close by: drive instead' : '~' + fmt(s.est.hours) + ' each way · ~' + Math.round(s.nm) + ' NM';
@@ -417,6 +432,7 @@ const SPOTS = [
   }
   from.addEventListener('change', render); from.addEventListener('input', () => { if (lookup(from.value)) render(); });
   max.addEventListener('change', render); meal.addEventListener('change', render);
+  gearSel.addEventListener('change', () => { if (AC && AC.saveGear) AC.saveGear(gearSel.value); render(); });
   render();
 })();
 </script></body></html>
