@@ -4600,5 +4600,71 @@
   "date_taken": null,
   "files": [],
   "location": "Rehoboth Beach, DE (Unsplash location)"
+ },
+ {
+  "destination": "Brandywine Valley & Wilmington",
+  "title": "Winterthur Museum, Garden and Library, Winterthur, Delaware",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018699900/",
+  "original_image_url": "https://www.loc.gov/item/2018699900/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Winterthur, the du Pont estate, museum and garden in the Brandywine Valley",
+  "files": [
+   {
+    "path": "dist/assets/destinations/brandywine-winterthur-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 51234,
+    "sha256": "d916e0287b4333de43c678cd55146871b19508b9cacbab1044e3bbc7c04b4f65"
+   },
+   {
+    "path": "dist/assets/destinations/brandywine-winterthur-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56661,
+    "sha256": "19d30779c922eee16b8a8efbe6a6633a809fff82e29790e4f7e12c4ee3871c5b"
+   },
+   {
+    "path": "dist/assets/destinations/brandywine-winterthur-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 219572,
+    "sha256": "efe9ec0887bdb543eaafc7d290ea1304825390eda0bcd572e4045c4a1f51fdc1"
+   },
+   {
+    "path": "dist/assets/destinations/brandywine-winterthur-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 235744,
+    "sha256": "29a1631029f6920f4b40312802865deee2ddc12bfc23cb6e63a772abf6b05491"
+   }
+  ]
+ },
+ {
+  "destination": "Bethany Beach & the Quiet Resorts",
+  "title": "The beach at Bethany Beach",
+  "photographer": "Max Shein",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-the-beach-from-the-shore-of-the-ocean-pAGEM4TG52s",
+  "original_image_url": "https://images.unsplash.com/photo-1634332992892-548b965e9138?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkzfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The beach and ocean at Bethany Beach, Delaware",
+  "date_taken": null,
+  "files": [],
+  "location": "Bethany Beach, DE (Unsplash location)"
  }
 ]
