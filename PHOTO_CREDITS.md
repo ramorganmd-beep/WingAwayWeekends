@@ -1329,3 +1329,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Tim Mossholder on Unsplash — https://unsplash.com/photos/cowboy-riding-a-bucking-horse-in-a-dusty-rodeo-arena-mTs6ONxfm7c
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Bozeman, MT
+
+## Santa Barbara
+
+- Photo by Yifan Ma on Unsplash — https://unsplash.com/photos/a-view-of-a-city-with-palm-trees-and-mountains-in-the-background-lVbc4XCaxnk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged 1100 Anacapa St (County Courthouse)
+
+## Catalina Island
+
+- Photo by Erick Morales Oyola on Unsplash — https://unsplash.com/photos/aerial-view-of-a-coastal-town-and-harbor-AlorO0oHMR0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Catalina Island; Avalon Harbor and Casino Point
+
+## Palm Springs
+
+- Photo by Robert Ruggiero on Unsplash — https://unsplash.com/photos/a-golf-course-with-a-lake-and-mountains-in-the-background-qsOlzJgdCeY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Palm Springs
+
+## San Diego & Coronado
+
+- Photo by Jeffrey Eisen on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-with-a-hotel-in-the-background-_-pH7LWjW1Q
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged La Jolla Cove

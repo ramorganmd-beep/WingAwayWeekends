@@ -2286,51 +2286,55 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@timmossholder?utm_source=wingaway_weekends&utm_medium=referral\">Tim Mossholder</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/cowboy-riding-a-bucking-horse-in-a-dusty-rodeo-arena-mTs6ONxfm7c?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "santa-barbara": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1540840430747-71880eb5b5ba?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjQ3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Red-tile roofs, palms and the Santa Ynez Mountains seen from the Santa Barbara courthouse",
     "w": 960,
     "h": 720,
-    "caption": "Santa Barbara (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Santa Barbara from the courthouse.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nina33?utm_source=wingaway_weekends&utm_medium=referral\">Yifan Ma</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-city-with-palm-trees-and-mountains-in-the-background-lVbc4XCaxnk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "catalina-island": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1745907429414-56c75c35b30f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjUwfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Boats in Avalon Harbor with the Casino on the point, Catalina Island",
     "w": 960,
     "h": 720,
-    "caption": "Catalina Island (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Avalon Harbor and the Casino, Catalina Island.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ejmoralesoyola?utm_source=wingaway_weekends&utm_medium=referral\">Erick Morales Oyola</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/aerial-view-of-a-coastal-town-and-harbor-AlorO0oHMR0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "palm-springs": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1671904942522-8e2a0dbb709f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjUzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "A Palm Springs golf course with palms beneath the San Jacinto Mountains",
     "w": 960,
     "h": 720,
-    "caption": "Palm Springs (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Indian Canyons golf, Palm Springs.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@robert2301?utm_source=wingaway_weekends&utm_medium=referral\">Robert Ruggiero</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-golf-course-with-a-lake-and-mountains-in-the-background-qsOlzJgdCeY?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "san-diego": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1652800044894-fca07a3fac3c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjU1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "La Jolla Cove beach with a hotel above the water",
     "w": 960,
     "h": 720,
-    "caption": "San Diego & Coronado (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "La Jolla Cove, San Diego.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jeisen?utm_source=wingaway_weekends&utm_medium=referral\">Jeffrey Eisen</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-beach-with-a-hotel-in-the-background-_-pH7LWjW1Q?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
