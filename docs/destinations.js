@@ -3744,5 +3744,54 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "photo": {"slug": "blanchard-springs-caverns", "alt": "Lit columns and flowstone inside Blanchard Springs Caverns near Mountain View"}
+},
+{
+ "name": "Whitefish & Glacier National Park",
+ "state": "Montana",
+ "airport": "KGPI",
+ "lat": 48.4111,
+ "lon": -114.3376,
+ "desc": "A lake-and-ski town at the gateway to Glacier: Going-to-the-Sun Road, Lake McDonald, a lakeside lodge, a mountain resort and Flathead Lake.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Lake",
+  "Stays"
+ ],
+ "guide": "glacier-whitefish/",
+ "stateCode": "MT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bozeman & Big Sky",
+ "state": "Montana",
+ "airport": "KBZN",
+ "lat": 45.6796,
+ "lon": -111.0386,
+ "desc": "A lively mountain college town, Big Sky's ski and summer resort, the Museum of the Rockies, Chico Hot Springs and the north side of Yellowstone.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Dining",
+  "Stays",
+  "History"
+ ],
+ "guide": "bozeman-big-sky/",
+ "stateCode": "MT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
