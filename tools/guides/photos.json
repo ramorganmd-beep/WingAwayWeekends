@@ -2151,43 +2151,43 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@mscheid?utm_source=wingaway_weekends&utm_medium=referral\">Mike Scheid</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/body-of-water-across-the-mountain-during-sunset-xoYPV4oVQJI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "santa-fe": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1508496869408-df596454df1d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzODA5fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Trees silhouetted against a golden-hour sky in Santa Fe",
     "w": 960,
     "h": 720,
-    "caption": "Santa Fe (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Golden hour in Santa Fe.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@maddybakes?utm_source=wingaway_weekends&utm_medium=referral\">Maddy Baker</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/trees-under-gray-sky-during-golden-hour-DVze54aeK9k?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "jackson-hole": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1595131264251-63b7cf3b8564?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTExMDkxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Evergreens by a lake beneath the snow-covered Tetons",
     "w": 960,
     "h": 720,
-    "caption": "Jackson Hole & Grand Teton (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The Tetons, Grand Teton National Park.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@toanchu?utm_source=wingaway_weekends&utm_medium=referral\">Toan Chu</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/green-trees-near-lake-and-snow-covered-mountain-during-daytime-8dvphKlzJ40?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "sun-valley": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1576883600124-64c5aa68b4bc?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTExMDk0fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Snow-covered mountain slopes at Sun Valley",
     "w": 960,
     "h": 720,
-    "caption": "Sun Valley & Ketchum (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Winter on the mountain at Sun Valley.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@drewbernard?utm_source=wingaway_weekends&utm_medium=referral\">Drew Bernard</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/mountain-covered-with-snow-ElltzvKGDl0?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "moab": {
     "slug": "https://images.unsplash.com/photo-1434730737257-3e97ad16f4b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzNjA5fA&ixlib=rb-4.1.0",

@@ -1229,3 +1229,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Mike L on Unsplash — https://unsplash.com/photos/a-rainbow-appears-over-a-road-with-a-mountain-in-the-background-U0mePEZPK-o
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Sedona, AZ
+
+## Santa Fe
+
+- Photo by Maddy Baker on Unsplash — https://unsplash.com/photos/trees-under-gray-sky-during-golden-hour-DVze54aeK9k
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Santa Fe
+
+## Jackson Hole & Grand Teton
+
+- Photo by Toan Chu on Unsplash — https://unsplash.com/photos/green-trees-near-lake-and-snow-covered-mountain-during-daytime-8dvphKlzJ40
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Grand Teton, WY
+
+## Sun Valley & Ketchum
+
+- Photo by Drew Bernard on Unsplash — https://unsplash.com/photos/mountain-covered-with-snow-ElltzvKGDl0
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Sun Valley, ID
