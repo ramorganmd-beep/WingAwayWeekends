@@ -3422,11 +3422,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "moosehead-kineo", "alt": "The cliffs of Mount Kineo rising from Moosehead Lake, Maine"}
 },
 {
  "name": "Rangeley Lakes",
