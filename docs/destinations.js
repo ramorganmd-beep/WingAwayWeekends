@@ -3612,11 +3612,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NM",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "santa-fe", "remote": "https://images.unsplash.com/photo-1508496869408-df596454df1d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzODA5fA&ixlib=rb-4.1.0", "alt": "Trees silhouetted against a golden-hour sky in Santa Fe", "pos": "50% 50%"}
 },
 {
  "name": "Jackson Hole & Grand Teton",
@@ -3636,11 +3632,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WY",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "jackson-hole", "remote": "https://images.unsplash.com/photo-1595131264251-63b7cf3b8564?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTExMDkxfA&ixlib=rb-4.1.0", "alt": "Evergreens by a lake beneath the snow-covered Tetons", "pos": "50% 50%"}
 },
 {
  "name": "Sun Valley & Ketchum",
@@ -3660,11 +3652,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sun-valley", "remote": "https://images.unsplash.com/photo-1576883600124-64c5aa68b4bc?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTExMDk0fA&ixlib=rb-4.1.0", "alt": "Snow-covered mountain slopes at Sun Valley", "pos": "50% 50%"}
 },
 {
  "name": "Moab, Arches & Canyonlands",
