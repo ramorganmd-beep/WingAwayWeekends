@@ -3572,5 +3572,150 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Aspen",
+ "state": "Colorado",
+ "airport": "KASE",
+ "lat": 39.2232,
+ "lon": -106.8688,
+ "desc": "A Rocky Mountain resort town at nearly 8,000 feet with the Maroon Bells, four ski mountains, a summer music festival and grand hotels.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Dining",
+  "Spa"
+ ],
+ "guide": "aspen/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Santa Fe",
+ "state": "New Mexico",
+ "airport": "KSAF",
+ "lat": 35.6171,
+ "lon": -106.0894,
+ "desc": "America's oldest capital city: adobe streets, Canyon Road galleries, the O'Keeffe Museum, green chile and a Japanese spa in the hills.",
+ "tags": [
+  "History",
+  "Dining",
+  "Spa",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "santa-fe/",
+ "stateCode": "NM",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Jackson Hole & Grand Teton",
+ "state": "Wyoming",
+ "airport": "KJAC",
+ "lat": 43.6073,
+ "lon": -110.7377,
+ "desc": "Land inside Grand Teton National Park: Teton views, wildlife, the tram at Teton Village, luxury lodges and Yellowstone to the north.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "jackson-hole/",
+ "stateCode": "WY",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sun Valley & Ketchum",
+ "state": "Idaho",
+ "airport": "KSUN",
+ "lat": 43.5044,
+ "lon": -114.2962,
+ "desc": "America's first destination ski resort: Sun Valley Lodge, Bald Mountain, Hemingway's Ketchum and the Sawtooths.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "sun-valley/",
+ "stateCode": "ID",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Moab, Arches & Canyonlands",
+ "state": "Utah",
+ "airport": "KCNY",
+ "lat": 38.755,
+ "lon": -109.7549,
+ "desc": "Red-rock country between Arches and Canyonlands, with Dead Horse Point, the Colorado River, scenic flights and a riverside ranch resort.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "moab/",
+ "stateCode": "UT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sedona",
+ "state": "Arizona",
+ "airport": "KSEZ",
+ "lat": 34.8486,
+ "lon": -111.7884,
+ "desc": "A mesa-top airport with a restaurant by the runway, red-rock hikes, creekside resorts and spas, Jeep tours and Tlaquepaque.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Spa",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "sedona/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
