@@ -1079,3 +1079,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Elkhart_Lake,_WI.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Manchester
+
+- Title: Manchester Village Vermont.jpg
+- Photographer: Skeezix1000
+- Source: https://commons.wikimedia.org/wiki/File:Manchester_Village_Vermont.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

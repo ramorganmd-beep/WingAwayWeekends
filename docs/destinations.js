@@ -2266,11 +2266,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VT",
  "region": "Northeast",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "manchester-village", "alt": "Manchester Village, Vermont, with the Equinox, the soldiers’ monument and Mount Equinox in the clouds"}
 },
 {
  "name": "Burlington",
