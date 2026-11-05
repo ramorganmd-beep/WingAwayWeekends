@@ -3403,11 +3403,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "DE",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "dover-legislative-hall", "alt": "Legislative Hall, Delaware’s state capitol, on a summer morning in Dover"}
 },
 {
  "name": "Moosehead Lake & Greenville",

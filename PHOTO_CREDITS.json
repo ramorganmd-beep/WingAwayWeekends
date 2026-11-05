@@ -4700,5 +4700,54 @@
   "date_taken": null,
   "files": [],
   "location": "Rangeley, ME (Unsplash location)"
+ },
+ {
+  "destination": "Dover",
+  "title": "2022-07-20 08 03 40 The east side of the Delaware Legislative Hall (Delaware Capitol Building) in Dover, Kent County, Delaware.jpg",
+  "photographer": "Famartin",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:2022-07-20_08_03_40_The_east_side_of_the_Delaware_Legislative_Hall_(Delaware_Capitol_Building)_in_Dover,_Kent_County,_Delaware.jpg",
+  "original_image_url": "https://commons.wikimedia.org/wiki/File:2022-07-20_08_03_40_The_east_side_of_the_Delaware_Legislative_Hall_(Delaware_Capitol_Building)_in_Dover,_Kent_County,_Delaware.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4032,
+   "height": 3024
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Legislative Hall, Delaware’s state capitol, on a summer morning in Dover",
+  "files": [
+   {
+    "path": "dist/assets/destinations/dover-legislative-hall-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 40074,
+    "sha256": "4cef6cadfdf6e05db91fce2debd2c444d22e4d89ef3d8af84f9cd060f7938ef2"
+   },
+   {
+    "path": "dist/assets/destinations/dover-legislative-hall-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 46342,
+    "sha256": "900a4bd0d0c0b135129decd1cdf462545f1909192fd46818c9974f1038deec68"
+   },
+   {
+    "path": "dist/assets/destinations/dover-legislative-hall-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 178540,
+    "sha256": "3435edc97495015f8f6bd0716fab61a519c420674838d24bec0ac222dfb73160"
+   },
+   {
+    "path": "dist/assets/destinations/dover-legislative-hall-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 210410,
+    "sha256": "bd0d6b826ca9870fa63945fc51bfb18f45f8dc4883d3c73463a0cfb99c9589f0"
+   }
+  ]
  }
 ]

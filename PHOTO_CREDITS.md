@@ -1187,3 +1187,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Oliver Fetter on Unsplash — https://unsplash.com/photos/black-and-brown-stone-fragment-zosCRGV3KcI
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Rangeley, ME (Unsplash location)
+
+## Dover
+
+- Title: 2022-07-20 08 03 40 The east side of the Delaware Legislative Hall (Delaware Capitol Building) in Dover, Kent County, Delaware.jpg
+- Photographer: Famartin
+- Source: https://commons.wikimedia.org/wiki/File:2022-07-20_08_03_40_The_east_side_of_the_Delaware_Legislative_Hall_(Delaware_Capitol_Building)_in_Dover,_Kent_County,_Delaware.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

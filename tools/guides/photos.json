@@ -2024,17 +2024,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2018699900/\">Winterthur Museum, Garden and Library, Winterthur, Delaware</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "dover-de": {
-    "slug": "cape-may-beach",
+    "slug": "dover-legislative-hall",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Legislative Hall, Delaware’s state capitol, on a summer morning in Dover",
     "w": 960,
     "h": 720,
-    "caption": "Dover (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Legislative Hall, Dover",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:2022-07-20_08_03_40_The_east_side_of_the_Delaware_Legislative_Hall_(Delaware_Capitol_Building)_in_Dover,_Kent_County,_Delaware.jpg\">2022-07-20 08 03 40 The east side of the Delaware Legislative Hall (Delaware Capitol Building) in Dover, Kent County, Delaware.jpg</a> — Famartin · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "moosehead-lake": {
     "slug": "cape-may-beach",
