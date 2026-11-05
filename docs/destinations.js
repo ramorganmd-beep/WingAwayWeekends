@@ -3366,11 +3366,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "DE",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bethany-beach", "remote": "https://images.unsplash.com/photo-1634332992892-548b965e9138?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkzfA&ixlib=rb-4.1.0", "alt": "The beach and ocean at Bethany Beach, Delaware", "pos": "50% 50%"}
 },
 {
  "name": "Brandywine Valley & Wilmington",
@@ -3389,11 +3385,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "DE",
  "region": "Mid-Atlantic",
  "family": false,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "brandywine-winterthur", "alt": "Winterthur, the du Pont estate, museum and garden in the Brandywine Valley"}
 },
 {
  "name": "Dover",

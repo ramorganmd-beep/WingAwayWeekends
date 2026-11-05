@@ -1999,30 +1999,29 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@mgeyerphotography?utm_source=wingaway_weekends&utm_medium=referral\">Michael Geyer</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-green-wave-crashes-on-the-shore-ianVZK_ldsw?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bethany-beach": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1634332992892-548b965e9138?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The beach and ocean at Bethany Beach, Delaware",
     "w": 960,
     "h": 720,
-    "caption": "Bethany Beach & the Quiet Resorts (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The beach at Bethany Beach",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@maxshein?utm_source=wingaway_weekends&utm_medium=referral\">Max Shein</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-the-beach-from-the-shore-of-the-ocean-pAGEM4TG52s?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "brandywine-valley": {
-    "slug": "cape-may-beach",
+    "slug": "brandywine-winterthur",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Winterthur, the du Pont estate, museum and garden in the Brandywine Valley",
     "w": 960,
     "h": 720,
-    "caption": "Brandywine Valley & Wilmington (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Winterthur Museum, Garden and Library",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2018699900/\">Winterthur Museum, Garden and Library, Winterthur, Delaware</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "dover-de": {
     "slug": "cape-may-beach",

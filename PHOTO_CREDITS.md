@@ -1161,3 +1161,17 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Michael Geyer on Unsplash — https://unsplash.com/photos/a-large-green-wave-crashes-on-the-shore-ianVZK_ldsw
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Rehoboth Beach, DE (Unsplash location)
+
+## Brandywine Valley & Wilmington
+
+- Title: Winterthur Museum, Garden and Library, Winterthur, Delaware
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018699900/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bethany Beach & the Quiet Resorts
+
+- Photo by Max Shein on Unsplash — https://unsplash.com/photos/a-view-of-the-beach-from-the-shore-of-the-ocean-pAGEM4TG52s
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Bethany Beach, DE (Unsplash location)
