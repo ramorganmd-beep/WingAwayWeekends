@@ -3909,10 +3909,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Central California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "paso-robles-carnegie-library", "alt": "The 1908 brick Carnegie Library under the oaks in downtown Paso Robles City Park"}
 },
 {
  "name": "Yosemite",
