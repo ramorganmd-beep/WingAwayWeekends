@@ -3866,5 +3866,104 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southern California",
  "family": true,
  "photo": {"slug": "san-diego", "remote": "https://images.unsplash.com/photo-1652800044894-fca07a3fac3c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjU1fA&ixlib=rb-4.1.0", "alt": "La Jolla Cove beach with a hotel above the water", "pos": "50% 50%"}
+},
+{
+ "name": "Monterey & Carmel",
+ "state": "California",
+ "airport": "KMRY",
+ "lat": 36.5552,
+ "lon": -121.9233,
+ "desc": "Cannery Row and the Monterey Bay Aquarium, storybook Carmel-by-the-Sea, 17-Mile Drive and Pebble Beach, and the coves of Point Lobos.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Golf",
+  "Scenic views",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "monterey-carmel/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Paso Robles Wine Country",
+ "state": "California",
+ "airport": "KPRB",
+ "lat": 35.6266,
+ "lon": -120.691,
+ "desc": "Rolling hills with 200-plus wineries, a walkable town square, a vineyard resort, Catch's seafood, a warbird museum on the field and Hearst Castle.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Aviation museums",
+  "Stays",
+  "Spa",
+  "Romance"
+ ],
+ "guide": "paso-robles/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Yosemite",
+ "state": "California",
+ "airport": "KMPI",
+ "lat": 37.7456,
+ "lon": -119.5936,
+ "desc": "Yosemite Valley, Half Dome, El Capitan, Glacier Point and the giant sequoias, with the Ahwahnee and a château in the foothills.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "History"
+ ],
+ "guide": "yosemite/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Big Sur",
+ "state": "California",
+ "airport": "KMRY",
+ "lat": 36.2704,
+ "lon": -121.8081,
+ "desc": "Cliffs and redwoods on Highway 1: Bixby Bridge, McWay Falls, Post Ranch Inn and Ventana, and Nepenthe's terrace above the Pacific.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Spa",
+  "Romance"
+ ],
+ "guide": "big-sur/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
