@@ -5260,5 +5260,54 @@
     "sha256": "7acab2dc288ee50221e55c68e48b13b5f7d34ed4bd47d94d6ca4952182d48ca8"
    }
   ]
+ },
+ {
+  "destination": "Drummond Island",
+  "title": "Drummond Island Ferry",
+  "photographer": "otisourcat",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Drummond_Island_Ferry.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Drummond_Island_Ferry.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1386,
+   "height": 644
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Drummond Islander IV car ferry crossing the St. Marys River as a lake freighter passes",
+  "files": [
+   {
+    "path": "dist/assets/destinations/drummond-island-ferry-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 19434,
+    "sha256": "cb8dcc047c2c86a64e6659b5a78bb7edb8c7ec1cd787c062e1891e0d89e57af7"
+   },
+   {
+    "path": "dist/assets/destinations/drummond-island-ferry-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 31094,
+    "sha256": "58a14029c3dc50d16d077254bd580ad2fd5bbd742f097c75b3fadaa7df44025e"
+   },
+   {
+    "path": "dist/assets/destinations/drummond-island-ferry-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 51426,
+    "sha256": "7107d09619368545f9ed32a0d447d6a0f132c7c7a2100e7a625f72ef8d58ea04"
+   },
+   {
+    "path": "dist/assets/destinations/drummond-island-ferry-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 99020,
+    "sha256": "9356ad66a07e54ab48cc623b730e4343ea7a333c67babbcb6e2d3621ebc64d2c"
+   }
+  ]
  }
 ]

@@ -3535,11 +3535,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "drummond-island-ferry", "alt": "The Drummond Islander IV car ferry crossing the St. Marys River as a lake freighter passes"}
 },
 {
  "name": "Gunflint Trail & Gunflint Lake",
