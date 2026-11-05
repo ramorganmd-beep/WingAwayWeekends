@@ -2084,5 +2084,57 @@
     "caption": "Downtown Havre de Grace",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@idlehaven?utm_source=wingaway_weekends&utm_medium=referral\">Dudley Dawson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/parked-vehicles-beside-road-LapdZdf3VtM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "long-lake-ny": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Long Lake & the Central Adirondacks (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "lake-wawasee": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Lake Wawasee (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "drummond-island": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Drummond Island (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
+  },
+  "gunflint-trail": {
+    "slug": "cape-may-beach",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Illustration of a wide beach and the Atlantic",
+    "w": 960,
+    "h": 720,
+    "caption": "Gunflint Trail & Gunflint Lake (illustration)",
+    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
+    "placeholder": true
   }
 }

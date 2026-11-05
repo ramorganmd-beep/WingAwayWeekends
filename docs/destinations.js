@@ -3479,5 +3479,98 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mid-Atlantic",
  "family": true,
  "photo": {"slug": "havre-de-grace", "remote": "https://images.unsplash.com/photo-1574180248960-c7535b968e30?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA1MjA4fA&ixlib=rb-4.1.0", "alt": "A downtown street in Havre de Grace, Maryland", "pos": "50% 50%"}
+},
+{
+ "name": "Long Lake & the Central Adirondacks",
+ "state": "New York",
+ "airport": "SLK",
+ "lat": 43.9751,
+ "lon": -74.4204,
+ "desc": "An Adirondack seaplane town with two public bases on a 14-mile lake, an 1850s hotel by the beach, the Adirondack Experience museum and Great Camp luxury.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "long-lake-ny/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Wawasee",
+ "state": "Indiana",
+ "airport": "GSH",
+ "lat": 41.4036,
+ "lon": -85.7061,
+ "desc": "Indiana's largest natural lake, with a public seaplane base, a lakeside resort with waterfront dining, history cruises and Amish country nearby.",
+ "tags": [
+  "Lake",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "lake-wawasee/",
+ "stateCode": "IN",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Drummond Island",
+ "state": "Michigan",
+ "airport": "DRM",
+ "lat": 46.0093,
+ "lon": -83.7439,
+ "desc": "A remote Lake Huron island with its own airport, two public seaplane bases, a golf resort, fossil-rich limestone shores and freighters passing by.",
+ "tags": [
+  "Lake",
+  "Golf",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "drummond-island/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Gunflint Trail & Gunflint Lake",
+ "state": "Minnesota",
+ "airport": "CKC",
+ "lat": 48.0853,
+ "lon": -90.7503,
+ "desc": "A Northwoods lodge on the Canadian border with its own seaplane base, Boundary Waters paddling, the Chik-Wauk museum, moose and dark skies.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "gunflint-trail/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

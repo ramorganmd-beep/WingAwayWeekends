@@ -786,6 +786,18 @@ PLANS = {
     'havre-de-grace': {
         'day': [('Arrive', 'Land at 0W3 or M06 mid-morning.'), ('Midday', 'The promenade and the lighthouse.'), ('Afternoon', 'The Decoy Museum, then back to the airport.')],
         'extra': [('Morning', 'Antique shops downtown.'), ('Afternoon', 'The waterfront.'), ('Evening', 'Dinner at MacGregor’s.')]},
+    'long-lake-ny': {
+        'day': [('Arrive', 'Land at SLK or NY9 mid-morning.'), ('Midday', 'Lunch on the Adirondack Hotel veranda.'), ('Afternoon', 'The town beach or a seaplane ride, then back to the airport.')],
+        'extra': [('Morning', 'The Adirondack Experience.'), ('Afternoon', 'Paddle Long Lake.'), ('Evening', 'Dinner in the Victorian Room.')]},
+    'lake-wawasee': {
+        'day': [('Arrive', 'Land at GSH or 01D mid-morning.'), ('Midday', 'Lunch at the Oakwood Resort on the lake.'), ('Afternoon', 'A lake cruise, then back to the airport.')],
+        'extra': [('Morning', 'Shipshewana.'), ('Afternoon', 'Bike the Pumpkinvine.'), ('Evening', 'The tiki bar at sunset.')]},
+    'drummond-island': {
+        'day': [('Arrive', 'Land at DRM or D22 mid-morning.'), ('Midday', 'Lunch at Pins Bar & Grill.'), ('Afternoon', 'Freighter watching, then back to the airport.')],
+        'extra': [('Morning', 'Paddle the heritage water trail.'), ('Afternoon', 'A round at The Rock.'), ('Evening', 'Dinner on the island.')]},
+    'gunflint-trail': {
+        'day': [('Arrive', "Land at M56 mid-morning (from CKC, the lodge is an hour's drive)."), ('Midday', 'Lunch on the patio at Gunflint Lodge.'), ('Afternoon', 'A short paddle, then back to the airport.')],
+        'extra': [('Morning', 'A Boundary Waters paddle.'), ('Afternoon', 'Chik-Wauk at the end of the trail.'), ('Evening', "Dinner at Justine's.")]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
