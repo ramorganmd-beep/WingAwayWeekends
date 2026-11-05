@@ -1883,56 +1883,56 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@hlandkammer?utm_source=wingaway_weekends&utm_medium=referral\">Holly Landkammer</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-body-of-water-surrounded-by-lots-of-trees-_rW9Z7n6xWA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "tulsa": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1474573892045-721452c3d98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzA4fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Downtown Tulsa from above",
     "w": 960,
     "h": 720,
-    "caption": "Tulsa (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Downtown Tulsa",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jongrogan110?utm_source=wingaway_weekends&utm_medium=referral\">Jon Grogan</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/birds-eye-view-of-city-buildings-mB_yu9FBVeo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "oklahoma-city": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1592276480286-08b843b65726?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzExfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Oklahoma City skyline over the water",
     "w": 960,
     "h": 720,
-    "caption": "Oklahoma City (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Oklahoma City skyline",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@alanv15?utm_source=wingaway_weekends&utm_medium=referral\">Alan Villegas</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/body-of-water-near-high-rise-buildings-during-daytime-kCN9S3ksy_E?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "wichita-mountains": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1730256403347-f10b6650c5ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzEzfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Mount Scott rising above a lake in the Wichita Mountains Wildlife Refuge",
     "w": 960,
     "h": 720,
-    "caption": "Wichita Mountains & Medicine Park (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Mount Scott, Wichita Mountains",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@chillypepper24?utm_source=wingaway_weekends&utm_medium=referral\">Lillian Fisher</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-body-of-water-surrounded-by-a-mountain-SPK5G5WQS8w?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "broken-bow": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1734192209880-192aea08c9ff?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzE2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A river winding through green forest near Broken Bow, Oklahoma",
     "w": 960,
     "h": 720,
-    "caption": "Broken Bow & Beavers Bend (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The river near Broken Bow",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@molliedefibaugh?utm_source=wingaway_weekends&utm_medium=referral\">Mollie Defibaugh</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-xpoUh7zqNW4?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "okoboji": {
     "slug": "cape-may-beach",

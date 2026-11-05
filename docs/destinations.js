@@ -3202,11 +3202,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OK",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "tulsa", "remote": "https://images.unsplash.com/photo-1474573892045-721452c3d98c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzA4fA&ixlib=rb-4.1.0", "alt": "Downtown Tulsa from above", "pos": "50% 50%"}
 },
 {
  "name": "Oklahoma City",
@@ -3224,11 +3220,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OK",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "oklahoma-city", "remote": "https://images.unsplash.com/photo-1592276480286-08b843b65726?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzExfA&ixlib=rb-4.1.0", "alt": "The Oklahoma City skyline over the water", "pos": "50% 50%"}
 },
 {
  "name": "Wichita Mountains & Medicine Park",
@@ -3246,11 +3238,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OK",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "wichita-mountains", "remote": "https://images.unsplash.com/photo-1730256403347-f10b6650c5ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzEzfA&ixlib=rb-4.1.0", "alt": "Mount Scott rising above a lake in the Wichita Mountains Wildlife Refuge", "pos": "50% 50%"}
 },
 {
  "name": "Broken Bow & Beavers Bend",
@@ -3269,11 +3257,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OK",
  "region": "Great Plains",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "broken-bow", "remote": "https://images.unsplash.com/photo-1734192209880-192aea08c9ff?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5NzE2fA&ixlib=rb-4.1.0", "alt": "A river winding through green forest near Broken Bow, Oklahoma", "pos": "50% 50%"}
 },
 {
  "name": "Okoboji & the Iowa Great Lakes",
