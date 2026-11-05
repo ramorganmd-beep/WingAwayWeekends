@@ -5096,5 +5096,22 @@
     "sha256": "580a5b7dd888ecb5da2e6da16d58c387399575e4c7ca687c1be9db77a11d20d5"
    }
   ]
+ },
+ {
+  "destination": "Red River Gorge & Natural Bridge",
+  "title": "Fall at Natural Bridge State Resort Park.",
+  "photographer": "Chandler Cruttenden",
+  "source_page_url": "https://unsplash.com/photos/autumn-forest-with-a-bridge-in-the-distance-V0D6RC3_lzs",
+  "original_image_url": "https://images.unsplash.com/photo-1762900630223-7c0bf755b635?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE0MTQ2fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Autumn forest around Natural Bridge in Natural Bridge State Resort Park",
+  "date_taken": null,
+  "files": [],
+  "location": "Geotagged Natural Bridge State Resort Park, Slade"
  }
 ]
