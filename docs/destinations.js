@@ -3120,7 +3120,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "wisconsin-dells", "remote": "https://images.unsplash.com/photo-1651385786844-904d30834e53?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg4MzI0fA&ixlib=rb-4.1.0", "alt": "Sandstone cliffs and pines along the Wisconsin River at the Dells", "pos": "50% 50%"}
 },
 {
@@ -3140,7 +3139,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "hayward-muskie", "alt": "The giant walk-through muskie at the National Fresh Water Fishing Hall of Fame in Hayward"}
 }
 ];
