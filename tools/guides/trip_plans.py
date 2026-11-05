@@ -699,6 +699,24 @@ PLANS = {
     'shawnee-hills': {
         'day': [('Arrive', 'Land at KMWA early.'), ('Midday', 'Lunch at Blue Sky Vineyard.'), ('Afternoon', 'A second winery, then back to the airport.')],
         'extra': [('Morning', 'Giant City’s sandstone trails.'), ('Afternoon', 'StarView and Rustle Hill.'), ('Evening', 'Dinner at Giant City Lodge.')]},
+    'bedford-springs': {
+        'day': [('Arrive', 'Land at KHMZ early.'), ('Midday', 'Lunch at Jean Bonnet Tavern.'), ('Afternoon', 'A soak in the resort’s indoor pool, then back to the airport.')],
+        'extra': [('Morning', 'Flight 93 National Memorial.'), ('Afternoon', 'Old Bedford Village.'), ('Evening', 'Dinner in the 1796 Room.')]},
+    'laurel-highlands': {
+        'day': [('Arrive', 'Land at KLBE early.'), ('Midday', 'Fallingwater.'), ('Afternoon', 'Kentuck Knob, then back to the airport.')],
+        'extra': [('Morning', 'Ohiopyle’s falls.'), ('Afternoon', 'Ligonier’s shops.'), ('Evening', 'Dinner at Ligonier Tavern.')]},
+    'pittsburgh': {
+        'day': [('Arrive', 'Land at KAGC mid-morning.'), ('Midday', 'The Duquesne Incline and lunch on Mount Washington.'), ('Afternoon', 'The Warhol Museum, then back to the airport.')],
+        'extra': [('Morning', 'The Strip District.'), ('Afternoon', 'Phipps Conservatory.'), ('Evening', 'Dinner at Eleven.')]},
+    'pine-creek-gorge': {
+        'day': [('Arrive', 'Land at N38 early.'), ('Midday', 'Leonard Harrison’s overlooks.'), ('Afternoon', 'Lunch on Main Street, then back to the airport.')],
+        'extra': [('Morning', 'Bike the Pine Creek Rail Trail.'), ('Afternoon', 'Colton Point.'), ('Evening', 'Dinner at The Steak House.')]},
+    'hershey': {
+        'day': [('Arrive', 'Land at KCXY mid-morning.'), ('Midday', 'Hershey Gardens.'), ('Afternoon', 'The Hershey Story, then back to the airport.')],
+        'extra': [('Morning', 'A spa treatment.'), ('Afternoon', 'Chocolate World and a winery.'), ('Evening', 'Dinner at The Circular.')]},
+    'erie': {
+        'day': [('Arrive', 'Land at KERI mid-morning.'), ('Midday', 'Presque Isle’s beaches.'), ('Afternoon', 'The Flagship Niagara, then back to the airport.')],
+        'extra': [('Morning', 'Wine country tastings.'), ('Afternoon', 'Tom Ridge Environmental Center.'), ('Evening', 'Dinner at Oliver’s Rooftop.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
