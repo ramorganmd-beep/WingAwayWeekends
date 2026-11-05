@@ -3717,5 +3717,92 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Red River Gorge & Natural Bridge",
+ "state": "Kentucky",
+ "airport": "KIOB",
+ "lat": 37.7778,
+ "lon": -83.6827,
+ "desc": "Kentucky's sandstone canyon country: natural arches, a state-park lodge beneath Natural Bridge, ridgetop hikes and a famous climbers' pizza joint.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "red-river-gorge/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bowling Green & Mammoth Cave",
+ "state": "Kentucky",
+ "airport": "KBWG",
+ "lat": 36.9645,
+ "lon": -86.4197,
+ "desc": "The National Corvette Museum, an underground boat ride at Lost River Cave and the world's longest known cave at Mammoth Cave National Park.",
+ "tags": [
+  "History",
+  "Outdoors"
+ ],
+ "guide": "bowling-green/",
+ "stateCode": "KY",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Buffalo National River",
+ "state": "Arkansas",
+ "airport": "KHRO",
+ "lat": 36.0622,
+ "lon": -93.3566,
+ "desc": "America's first national river: towering bluffs, float trips, Hawksbill Crag, Lost Valley and wild elk, with riverside cabins and a 1909 café.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "buffalo-river/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Mountain View & the Ozark Folk Center",
+ "state": "Arkansas",
+ "airport": "7M2",
+ "lat": 35.8645,
+ "lon": -92.0903,
+ "desc": "The folk-music capital of the Ozarks: a state park of mountain crafts and music, pickin' on the square, Blanchard Springs Caverns and White River trout.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Dining"
+ ],
+ "guide": "mountain-view-ar/",
+ "stateCode": "AR",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

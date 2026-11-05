@@ -816,6 +816,18 @@ PLANS = {
     'sedona': {
         'day': [('Arrive', 'Land at KSEZ mid-morning.'), ('Midday', 'Lunch at the Mesa Grill by the runway.'), ('Afternoon', 'Tlaquepaque, then back to the airport.')],
         'extra': [('Morning', 'Cathedral Rock.'), ('Afternoon', 'A Jeep tour.'), ('Evening', 'Sunset dinner at Mariposa.')]},
+    'red-river-gorge': {
+        'day': [('Arrive', 'Land at KIOB early and pick up the car.'), ('Midday', 'Natural Bridge and lunch at the lodge.'), ('Afternoon', 'Sky Bridge, then back to the airport.')],
+        'extra': [('Morning', 'Chimney Top Rock.'), ('Afternoon', 'The Nada Tunnel drive.'), ('Evening', "Pizza at Miguel's.")]},
+    'bowling-green': {
+        'day': [('Arrive', 'Land at KBWG mid-morning.'), ('Midday', 'The National Corvette Museum.'), ('Afternoon', 'A boat ride at Lost River Cave, then back to the airport.')],
+        'extra': [('Morning', 'A Mammoth Cave tour.'), ('Afternoon', "The park's surface trails."), ('Evening', 'Dinner at 440 Main.')]},
+    'buffalo-river': {
+        'day': [('Arrive', 'Land at KHRO early and pick up the car.'), ('Midday', 'Lost Valley Trail.'), ('Afternoon', 'Lunch at the Ozark Cafe in Jasper, then back to the airport.')],
+        'extra': [('Morning', 'Float from Ponca.'), ('Afternoon', 'Hawksbill Crag.'), ('Evening', 'Elk in the Boxley Valley.')]},
+    'mountain-view-ar': {
+        'day': [('Arrive', 'Land at 7M2 mid-morning.'), ('Midday', 'Lunch at the Skillet.'), ('Afternoon', 'The Folk Center crafts village, then back to the airport.')],
+        'extra': [('Morning', 'Blanchard Springs Caverns.'), ('Afternoon', 'White River trout fishing.'), ('Evening', "Pickin' on the square.")]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
