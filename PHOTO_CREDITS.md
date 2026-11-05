@@ -1181,3 +1181,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Dudley Dawson on Unsplash — https://unsplash.com/photos/parked-vehicles-beside-road-LapdZdf3VtM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Havre de Grace, MD (Unsplash location)
+
+## Rangeley Lakes
+
+- Photo by Oliver Fetter on Unsplash — https://unsplash.com/photos/black-and-brown-stone-fragment-zosCRGV3KcI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Rangeley, ME (Unsplash location)

@@ -3449,11 +3449,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ME",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "rangeley", "remote": "https://images.unsplash.com/photo-1615477561845-b63b01cfa515?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA1MjAyfA&ixlib=rb-4.1.0", "alt": "Clear water over colorful stones in a stream near Rangeley, Maine", "pos": "50% 50%"}
 },
 {
  "name": "Tavares & Mount Dora",
