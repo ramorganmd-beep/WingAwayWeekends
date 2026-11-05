@@ -1211,3 +1211,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:International_Peace_Garden,_North_Dakota-Manitoba_Border_(43925709902).jpg
 - License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Aspen
+
+- Photo by Mike Scheid on Unsplash — https://unsplash.com/photos/body-of-water-across-the-mountain-during-sunset-xoYPV4oVQJI
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Maroon Bells
+
+## Moab, Arches & Canyonlands
+
+- Photo by SoloTravelGoals on Unsplash — https://unsplash.com/photos/brown-concrete-structure-7kLufxYoqWk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Delicate Arch, Moab
+
+## Sedona
+
+- Photo by Mike L on Unsplash — https://unsplash.com/photos/a-rainbow-appears-over-a-road-with-a-mountain-in-the-background-U0mePEZPK-o
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Sedona, AZ

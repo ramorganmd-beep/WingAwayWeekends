@@ -3593,10 +3593,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "aspen", "remote": "https://images.unsplash.com/photo-1524429656589-6633a470097c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzNjA4fA&ixlib=rb-4.1.0", "alt": "The Maroon Bells reflected in Maroon Lake at sunset near Aspen", "pos": "50% 50%"}
 },
 {
  "name": "Santa Fe",
@@ -3688,10 +3685,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "moab", "remote": "https://images.unsplash.com/photo-1434730737257-3e97ad16f4b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzNjA5fA&ixlib=rb-4.1.0", "alt": "Delicate Arch under a dramatic desert sky in Arches National Park", "pos": "50% 50%"}
 },
 {
  "name": "Sedona",
@@ -3713,10 +3707,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sedona", "remote": "https://images.unsplash.com/photo-1719932608199-d33b77ef59b6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzNjEwfA&ixlib=rb-4.1.0", "alt": "A double rainbow over a road and red-rock buttes in Sedona after a summer storm", "pos": "50% 50%"}
 },
 {
  "name": "Red River Gorge & Natural Bridge",
