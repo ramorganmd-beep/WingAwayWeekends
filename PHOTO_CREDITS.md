@@ -1277,3 +1277,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Chandler Cruttenden on Unsplash — https://unsplash.com/photos/autumn-forest-with-a-bridge-in-the-distance-V0D6RC3_lzs
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Natural Bridge State Resort Park, Slade
+
+## Bowling Green & Mammoth Cave
+
+- Title: Mammoth Cave National Park WATERFAL
+- Photographer: National Park Service
+- Source: https://commons.wikimedia.org/wiki/File:Mammoth_Cave_National_Park_WATERFAL.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Buffalo National River
+
+- Title: Bluff at Buffalo Point (df108e5c-155d-4519-3e55-801e07f20058)
+- Photographer: National Park Service
+- Source: https://commons.wikimedia.org/wiki/File:Bluff_at_Buffalo_Point_%28df108e5c-155d-4519-3e55-801e07f20058%29.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Mountain View & the Ozark Folk Center
+
+- Title: Blanchard Springs Caverns by D.L.H. - panoramio - Dameon Hudson
+- Photographer: Dameon Hudson
+- Source: https://commons.wikimedia.org/wiki/File:Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

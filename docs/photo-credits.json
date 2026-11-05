@@ -5113,5 +5113,152 @@
   "date_taken": null,
   "files": [],
   "location": "Geotagged Natural Bridge State Resort Park, Slade"
+ },
+ {
+  "destination": "Bowling Green & Mammoth Cave",
+  "title": "Mammoth Cave National Park WATERFAL",
+  "photographer": "National Park Service",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Mammoth_Cave_National_Park_WATERFAL.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Mammoth_Cave_National_Park_WATERFAL.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1800,
+   "height": 2400
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A small waterfall over mossy rocks in Mammoth Cave National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/mammoth-cave-waterfall-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 67582,
+    "sha256": "f402020622094400ca63f58c4d9284a718b2f8d5500dfd180a60dc1eaf58ba05"
+   },
+   {
+    "path": "dist/assets/destinations/mammoth-cave-waterfall-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 72775,
+    "sha256": "02250cd31978351d3eb7e222b71ee8e57c86e91490794bb6c5f67c5e8afa2791"
+   },
+   {
+    "path": "dist/assets/destinations/mammoth-cave-waterfall-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 191528,
+    "sha256": "37709c2eeacc62662b3f8c3ff0fbff80a8141b91eefaf559a566d8419fb60e7a"
+   },
+   {
+    "path": "dist/assets/destinations/mammoth-cave-waterfall-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 207334,
+    "sha256": "11769df41bb5f8f622210a6600202406d1a9bea716d6c0dab85936c02429b376"
+   }
+  ]
+ },
+ {
+  "destination": "Buffalo National River",
+  "title": "Bluff at Buffalo Point (df108e5c-155d-4519-3e55-801e07f20058)",
+  "photographer": "National Park Service",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bluff_at_Buffalo_Point_%28df108e5c-155d-4519-3e55-801e07f20058%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/46/Bluff_at_Buffalo_Point_%28df108e5c-155d-4519-3e55-801e07f20058%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1500,
+   "height": 916
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Layered limestone bluff above the turquoise Buffalo River at Buffalo Point",
+  "files": [
+   {
+    "path": "dist/assets/destinations/buffalo-point-bluff-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 53882,
+    "sha256": "6ef550c395b1f0f52a76befd2b38a1fafb74799ba6851f89819924f56f13cf58"
+   },
+   {
+    "path": "dist/assets/destinations/buffalo-point-bluff-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56515,
+    "sha256": "c37870f8ed1da63992d56a88576c9ddb208cce2182a4f992e66c8605c1edd2f0"
+   },
+   {
+    "path": "dist/assets/destinations/buffalo-point-bluff-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 199406,
+    "sha256": "20a28c56ffbe3193f746761825cc471ec4ce831bd08be878666fba15d521299d"
+   },
+   {
+    "path": "dist/assets/destinations/buffalo-point-bluff-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 215080,
+    "sha256": "308fde2e717b91ae552f2dffd370e65b0c0dc96b161a675e3f06ef248d847a14"
+   }
+  ]
+ },
+ {
+  "destination": "Mountain View & the Ozark Folk Center",
+  "title": "Blanchard Springs Caverns by D.L.H. - panoramio - Dameon Hudson",
+  "photographer": "Dameon Hudson",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3782,
+   "height": 2034
+  },
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Lit columns and flowstone inside Blanchard Springs Caverns near Mountain View",
+  "files": [
+   {
+    "path": "dist/assets/destinations/blanchard-springs-caverns-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 54952,
+    "sha256": "1e69ba5cd4b32270056159eb41e71251f5ace928e21aafe535cd1aeafa671f5e"
+   },
+   {
+    "path": "dist/assets/destinations/blanchard-springs-caverns-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 59334,
+    "sha256": "0b5068fd19c617368d12db7468677e7cb155f42f0fe919a85a505d92ef45dd62"
+   },
+   {
+    "path": "dist/assets/destinations/blanchard-springs-caverns-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 166374,
+    "sha256": "30ee2ac78d41b88166c9880086c6a86e5165a13f611c12ce7d4d9558577728f9"
+   },
+   {
+    "path": "dist/assets/destinations/blanchard-springs-caverns-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 193810,
+    "sha256": "7acab2dc288ee50221e55c68e48b13b5f7d34ed4bd47d94d6ca4952182d48ca8"
+   }
+  ]
  }
 ]

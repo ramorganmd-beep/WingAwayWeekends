@@ -3715,11 +3715,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "KY",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "mammoth-cave-waterfall", "alt": "A small waterfall over mossy rocks in Mammoth Cave National Park"}
 },
 {
  "name": "Buffalo National River",
@@ -3737,11 +3733,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "buffalo-point-bluff", "alt": "Layered limestone bluff above the turquoise Buffalo River at Buffalo Point"}
 },
 {
  "name": "Mountain View & the Ozark Folk Center",
@@ -3759,10 +3751,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AR",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "blanchard-springs-caverns", "alt": "Lit columns and flowstone inside Blanchard Springs Caverns near Mountain View"}
 }
 ];
