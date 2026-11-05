@@ -2941,5 +2941,144 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": false,
  "photo": {"slug": "shawnee-hills", "remote": "https://images.unsplash.com/photo-1665252957415-383469d908af?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODI2MDgyfA&ixlib=rb-4.1.0", "alt": "Sandstone bluffs at Garden of the Gods in the Shawnee National Forest", "pos": "50% 50%"}
+},
+{
+ "name": "Omni Bedford Springs",
+ "state": "Pennsylvania",
+ "airport": "KHMZ",
+ "lat": 40.0187,
+ "lon": -78.5039,
+ "desc": "A historic 1806 mineral-springs resort with a spa and classic golf, an 18th-century tavern and the Flight 93 memorial nearby.",
+ "tags": [
+  "Spa",
+  "Golf",
+  "History",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "bedford-springs/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": false,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Laurel Highlands",
+ "state": "Pennsylvania",
+ "airport": "KLBE",
+ "lat": 40.2432,
+ "lon": -79.2375,
+ "desc": "Frank Lloyd Wright country: Fallingwater, Kentuck Knob, a night in a Wright house, Nemacolin resort and Ohiopyle’s falls.",
+ "tags": [
+  "History",
+  "Spa",
+  "Hiking",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "laurel-highlands/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Pittsburgh",
+ "state": "Pennsylvania",
+ "airport": "KAGC",
+ "lat": 40.4406,
+ "lon": -79.9959,
+ "desc": "Rivers and bridges: the Duquesne Incline, the Warhol and Carnegie museums, the Strip District and dinner on Mount Washington.",
+ "tags": [
+  "Dining",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "pittsburgh/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Pine Creek Gorge & Wellsboro",
+ "state": "Pennsylvania",
+ "airport": "N38",
+ "lat": 41.7487,
+ "lon": -77.3005,
+ "desc": "The Pennsylvania Grand Canyon: rim overlooks, the Pine Creek Rail Trail and a gas-lit Main Street with a historic hotel.",
+ "tags": [
+  "Scenic views",
+  "Hiking",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "pine-creek-gorge/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hershey",
+ "state": "Pennsylvania",
+ "airport": "KCXY",
+ "lat": 40.2859,
+ "lon": -76.6502,
+ "desc": "A grand 1933 hilltop hotel with a chocolate spa, Hershey Gardens, The Hershey Story and local wine.",
+ "tags": [
+  "Spa",
+  "Stays",
+  "Dining",
+  "Romance"
+ ],
+ "guide": "hershey/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Erie & Presque Isle",
+ "state": "Pennsylvania",
+ "airport": "KERI",
+ "lat": 42.1292,
+ "lon": -80.0851,
+ "desc": "Lake Erie beaches and lighthouses on Presque Isle, the Flagship Niagara, bayfront dining and the Lake Erie wine country.",
+ "tags": [
+  "Beach",
+  "Lake",
+  "Wine",
+  "Outdoors"
+ ],
+ "guide": "erie/",
+ "stateCode": "PA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
