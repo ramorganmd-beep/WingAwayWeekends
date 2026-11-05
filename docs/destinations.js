@@ -3805,7 +3805,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
  "photo": {"slug": "santa-barbara", "remote": "https://images.unsplash.com/photo-1540840430747-71880eb5b5ba?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjQ3fA&ixlib=rb-4.1.0", "alt": "Red-tile roofs, palms and the Santa Ynez Mountains seen from the Santa Barbara courthouse", "pos": "50% 50%"}
 },
 {
@@ -3825,7 +3824,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
  "photo": {"slug": "catalina-island", "remote": "https://images.unsplash.com/photo-1745907429414-56c75c35b30f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjUwfA&ixlib=rb-4.1.0", "alt": "Boats in Avalon Harbor with the Casino on the point, Catalina Island", "pos": "50% 50%"}
 },
 {
@@ -3847,7 +3845,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
  "photo": {"slug": "palm-springs", "remote": "https://images.unsplash.com/photo-1671904942522-8e2a0dbb709f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjUzfA&ixlib=rb-4.1.0", "alt": "A Palm Springs golf course with palms beneath the San Jacinto Mountains", "pos": "50% 50%"}
 },
 {
@@ -3868,7 +3865,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
  "photo": {"slug": "san-diego", "remote": "https://images.unsplash.com/photo-1652800044894-fca07a3fac3c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTE3MjU1fA&ixlib=rb-4.1.0", "alt": "La Jolla Cove beach with a hotel above the water", "pos": "50% 50%"}
 }
 ];
