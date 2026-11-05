@@ -81,3 +81,19 @@
   note.append(change);
   note.hidden = false;
 })();
+
+// Seaplane access boxes show only for floatplane/amphibian pilots (landing gear saved on the homepage).
+(function () {
+  var gear = 'land';
+  try { gear = window.WingAwayAircraft && window.WingAwayAircraft.loadGear ? window.WingAwayAircraft.loadGear() : 'land'; } catch (e) {}
+  var water = gear === 'float' || gear === 'amphib';
+  Array.prototype.forEach.call(document.querySelectorAll('[data-water]'), function (box) { box.hidden = !water; });
+  Array.prototype.forEach.call(document.querySelectorAll('[data-water-toggle]'), function (t) {
+    t.hidden = water;
+    var b = t.querySelector('button');
+    if (b) b.addEventListener('click', function () {
+      Array.prototype.forEach.call(document.querySelectorAll('[data-water]'), function (box) { box.hidden = false; });
+      t.hidden = true;
+    });
+  });
+})();
