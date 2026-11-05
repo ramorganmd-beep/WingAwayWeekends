@@ -1961,43 +1961,42 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@rsergis99?utm_source=wingaway_weekends&utm_medium=referral\">Rihards Sergis</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/an-aerial-view-of-a-city-at-sunset-AhiI9Cu3c-M?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "dubuque": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1696994205152-fc758ab372e7?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0Mjg1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A stone building with a clock tower in Dubuque, Iowa",
     "w": 960,
     "h": 720,
-    "caption": "Dubuque (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Historic Dubuque",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@vincentyuan87?utm_source=wingaway_weekends&utm_medium=referral\">Vincent Y @USA</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-stone-building-with-a-clock-tower-on-top-of-it-BV7DtVSd1Ow?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "amana-colonies": {
-    "slug": "cape-may-beach",
+    "slug": "amana-canal",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The canal in Amana, one of the seven Amana Colonies villages",
     "w": 960,
     "h": 720,
-    "caption": "Amana Colonies & Iowa City (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The canal in Amana",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2016630629/\">Canal in Amana, one of the Amana Colonies, seven villages in Iowa County, Iowa</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "rehoboth-lewes": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1760900089666-f2afb2e9e42d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA0MjkxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A green wave breaking on the beach at Rehoboth Beach",
     "w": 960,
     "h": 720,
-    "caption": "Rehoboth Beach & Lewes (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Surf at Rehoboth Beach",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@mgeyerphotography?utm_source=wingaway_weekends&utm_medium=referral\">Michael Geyer</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-large-green-wave-crashes-on-the-shore-ianVZK_ldsw?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bethany-beach": {
     "slug": "cape-may-beach",
