@@ -1757,17 +1757,17 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@yuhandu?utm_source=wingaway_weekends&utm_medium=referral\">Yuhan Du</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/red-and-black-train-on-bridge-over-body-of-water-during-daytime-yLcPSvJkGrM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "pine-creek-gorge": {
-    "slug": "cape-may-beach",
+    "slug": "https://images.unsplash.com/photo-1674566722734-ba820b64431c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg4MzMxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Pine Creek winding through the forested Pine Creek Gorge, seen from Leonard Harrison State Park",
     "w": 960,
     "h": 720,
-    "caption": "Pine Creek Gorge & Wellsboro (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Pine Creek Gorge from Leonard Harrison State Park",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@jethron?utm_source=wingaway_weekends&utm_medium=referral\">Jethro Nolt</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-eY6Pafb7h7I?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "hershey": {
     "slug": "https://images.unsplash.com/photo-1683828770165-99047c3202d2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg0NDA0fA&ixlib=rb-4.1.0",

@@ -3017,11 +3017,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "pine-creek-gorge", "remote": "https://images.unsplash.com/photo-1674566722734-ba820b64431c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODg4MzMxfA&ixlib=rb-4.1.0", "alt": "Pine Creek winding through the forested Pine Creek Gorge, seen from Leonard Harrison State Park", "pos": "50% 50%"}
 },
 {
  "name": "Hershey",

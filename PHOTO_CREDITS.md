@@ -1043,3 +1043,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Bedford_Springs_Resort_PA1.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Pine Creek Gorge & Wellsboro
+
+- Photo by Jethro Nolt on Unsplash — https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-eY6Pafb7h7I
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Leonard Harrison State Park, Wellsboro, PA (Unsplash location)
