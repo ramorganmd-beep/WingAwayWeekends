@@ -4749,5 +4749,54 @@
     "sha256": "bd0d6b826ca9870fa63945fc51bfb18f45f8dc4883d3c73463a0cfb99c9589f0"
    }
   ]
+ },
+ {
+  "destination": "Moosehead Lake & Greenville",
+  "title": "Mt Kineo.jpg",
+  "photographer": "Tkessler",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Mt_Kineo.jpg",
+  "original_image_url": "https://commons.wikimedia.org/wiki/File:Mt_Kineo.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3264,
+   "height": 2448
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The cliffs of Mount Kineo rising from Moosehead Lake, Maine",
+  "files": [
+   {
+    "path": "dist/assets/destinations/moosehead-kineo-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 23720,
+    "sha256": "75c36722eaa65bb2286f4ef3de1172fe182b6333ebb6ebc2ae541b2cf76b656b"
+   },
+   {
+    "path": "dist/assets/destinations/moosehead-kineo-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 30389,
+    "sha256": "efabcf9c0f1ea8e7620beb6a6443df3625e6161b5e6f767da46e53e354dd35a7"
+   },
+   {
+    "path": "dist/assets/destinations/moosehead-kineo-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 109728,
+    "sha256": "8737af402c079138cd958180ac546769f5b81ae080ac41e1ad1eb070aaff3051"
+   },
+   {
+    "path": "dist/assets/destinations/moosehead-kineo-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 140503,
+    "sha256": "e0adec786cd117f2dc93d6dc4c27d3d7e6fa0d01f27f94d3eac5ac53f3f857c7"
+   }
+  ]
  }
 ]
