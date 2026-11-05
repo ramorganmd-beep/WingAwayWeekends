@@ -1247,3 +1247,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Drew Bernard on Unsplash — https://unsplash.com/photos/mountain-covered-with-snow-ElltzvKGDl0
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Sun Valley, ID
+
+## Gunflint Trail & Gunflint Lake
+
+- Title: Camping on the Cliffs - Sea Gull Lake - Trails End Campground - Minnesota (52727258986)
+- Photographer: Tony Webster
+- Source: https://commons.wikimedia.org/wiki/File:Camping_on_the_Cliffs_-_Sea_Gull_Lake_-_Trails_End_Campground_-_Minnesota_%2852727258986%29.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Long Lake & the Central Adirondacks
+
+- Title: Long Lake, NY 12847, USA - panoramio (25)
+- Photographer: Idawriter
+- Source: https://commons.wikimedia.org/wiki/File:Long_Lake%2C_NY_12847%2C_USA_-_panoramio_%2825%29.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lake Wawasee
+
+- Title: Morning sunrise lake
+- Photographer: Tsams29149
+- Source: https://commons.wikimedia.org/wiki/File:Morning_sunrise_lake.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

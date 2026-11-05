@@ -2086,30 +2086,28 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@idlehaven?utm_source=wingaway_weekends&utm_medium=referral\">Dudley Dawson</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/parked-vehicles-beside-road-LapdZdf3VtM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "long-lake-ny": {
-    "slug": "cape-may-beach",
+    "slug": "long-lake-beach",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "The Long Lake town beach and the Adirondack Hotel among fall color",
     "w": 960,
     "h": 720,
-    "caption": "Long Lake & the Central Adirondacks (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The town beach and the Adirondack Hotel in October.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Long_Lake%2C_NY_12847%2C_USA_-_panoramio_%2825%29.jpg\">Long Lake, NY 12847, USA - panoramio (25)</a> — Idawriter · <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "lake-wawasee": {
-    "slug": "cape-may-beach",
+    "slug": "lake-wawasee-sunrise",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A pier and boat lifts on Lake Wawasee under a pink sunrise",
     "w": 960,
     "h": 720,
-    "caption": "Lake Wawasee (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sunrise from a pier on Lake Wawasee.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Morning_sunrise_lake.jpg\">Morning sunrise lake</a> — Tsams29149 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "drummond-island": {
     "slug": "cape-may-beach",
@@ -2125,17 +2123,16 @@
     "placeholder": true
   },
   "gunflint-trail": {
-    "slug": "cape-may-beach",
+    "slug": "gunflint-sea-gull-lake",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A pine on a granite ledge above Sea Gull Lake at the end of the Gunflint Trail",
     "w": 960,
     "h": 720,
-    "caption": "Gunflint Trail & Gunflint Lake (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Sea Gull Lake, at the end of the Gunflint Trail.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Camping_on_the_Cliffs_-_Sea_Gull_Lake_-_Trails_End_Campground_-_Minnesota_%2852727258986%29.jpg\">Camping on the Cliffs - Sea Gull Lake - Trails End Campground - Minnesota (52727258986)</a> — Tony Webster · <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Cropped to 4:3 and resized."
   },
   "aspen": {
     "slug": "https://images.unsplash.com/photo-1524429656589-6633a470097c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTEzNjA4fA&ixlib=rb-4.1.0",

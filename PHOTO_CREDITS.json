@@ -4949,5 +4949,152 @@
   "date_taken": null,
   "files": [],
   "location": "Geotagged Sun Valley, ID"
+ },
+ {
+  "destination": "Gunflint Trail & Gunflint Lake",
+  "title": "Camping on the Cliffs - Sea Gull Lake - Trails End Campground - Minnesota (52727258986)",
+  "photographer": "Tony Webster",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Camping_on_the_Cliffs_-_Sea_Gull_Lake_-_Trails_End_Campground_-_Minnesota_%2852727258986%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/61/Camping_on_the_Cliffs_-_Sea_Gull_Lake_-_Trails_End_Campground_-_Minnesota_%2852727258986%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 7832,
+   "height": 5224
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A pine on a granite ledge above Sea Gull Lake at the end of the Gunflint Trail",
+  "files": [
+   {
+    "path": "dist/assets/destinations/gunflint-sea-gull-lake-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 53490,
+    "sha256": "500b7fd442bd77616738c0b7274c0d1c467d30a8aa1831194a4926e6cc9544e0"
+   },
+   {
+    "path": "dist/assets/destinations/gunflint-sea-gull-lake-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57003,
+    "sha256": "369f96168d5d25a10cc81c992789765add3ff7d393fa943020dca0a4f917ace1"
+   },
+   {
+    "path": "dist/assets/destinations/gunflint-sea-gull-lake-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 215392,
+    "sha256": "9cae038953ad702678418593f395c7a5fef6fc72ef09abe171e1b5aad9c016ae"
+   },
+   {
+    "path": "dist/assets/destinations/gunflint-sea-gull-lake-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 233529,
+    "sha256": "1cb832f46e2ac94344f392d687197484a41f1fa076133b6c37b266a06a5e24d8"
+   }
+  ]
+ },
+ {
+  "destination": "Long Lake & the Central Adirondacks",
+  "title": "Long Lake, NY 12847, USA - panoramio (25)",
+  "photographer": "Idawriter",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Long_Lake%2C_NY_12847%2C_USA_-_panoramio_%2825%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Long_Lake%2C_NY_12847%2C_USA_-_panoramio_%2825%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4512,
+   "height": 3000
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Long Lake town beach and the Adirondack Hotel among fall color",
+  "files": [
+   {
+    "path": "dist/assets/destinations/long-lake-beach-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32804,
+    "sha256": "b418fcd6034b95a3e4f1e943fe267bf5eb62c1e4c4cb589fbccebf29ca87c3ed"
+   },
+   {
+    "path": "dist/assets/destinations/long-lake-beach-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 39838,
+    "sha256": "b1e7ef8813130f04c4d8fd3e46e37a9ba1f51f68937eaa24ae34659ddecbfa0a"
+   },
+   {
+    "path": "dist/assets/destinations/long-lake-beach-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 124918,
+    "sha256": "f7e469bdb780087df277fb70ffee171292e8534a4a0829046a175a887090f01b"
+   },
+   {
+    "path": "dist/assets/destinations/long-lake-beach-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 152521,
+    "sha256": "3c6084e56ffdf0b864ee1af90226575e69de7548b628ff05440987d0827d15e6"
+   }
+  ]
+ },
+ {
+  "destination": "Lake Wawasee",
+  "title": "Morning sunrise lake",
+  "photographer": "Tsams29149",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Morning_sunrise_lake.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Morning_sunrise_lake.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3024,
+   "height": 4032
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A pier and boat lifts on Lake Wawasee under a pink sunrise",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lake-wawasee-sunrise-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 21118,
+    "sha256": "18e500ed5c4f9325ba553821665a32af6295f0068d7fdbc0e3502f42327e5622"
+   },
+   {
+    "path": "dist/assets/destinations/lake-wawasee-sunrise-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 31963,
+    "sha256": "c883b81393865c28cc2388189584818bb275f31f96efc1777aa5fc283a3c1bf0"
+   },
+   {
+    "path": "dist/assets/destinations/lake-wawasee-sunrise-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 75002,
+    "sha256": "67a9fc3d0953272d0fb7056f33d3fc309b930993203d3660b65ccfb8716db674"
+   },
+   {
+    "path": "dist/assets/destinations/lake-wawasee-sunrise-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 112478,
+    "sha256": "580a5b7dd888ecb5da2e6da16d58c387399575e4c7ca687c1be9db77a11d20d5"
+   }
+  ]
  }
 ]
