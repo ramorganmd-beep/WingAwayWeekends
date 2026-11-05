@@ -1105,3 +1105,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Holly Landkammer on Unsplash — https://unsplash.com/photos/a-body-of-water-surrounded-by-lots-of-trees-_rW9Z7n6xWA
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Stillwater, MN (Unsplash location)
+
+## Tulsa
+
+- Photo by Jon Grogan on Unsplash — https://unsplash.com/photos/birds-eye-view-of-city-buildings-mB_yu9FBVeo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Tulsa, OK (Unsplash location)
+
+## Oklahoma City
+
+- Photo by Alan Villegas on Unsplash — https://unsplash.com/photos/body-of-water-near-high-rise-buildings-during-daytime-kCN9S3ksy_E
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Oklahoma City (Unsplash location)
+
+## Wichita Mountains & Medicine Park
+
+- Photo by Lillian Fisher on Unsplash — https://unsplash.com/photos/a-large-body-of-water-surrounded-by-a-mountain-SPK5G5WQS8w
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Mount Scott, Wichita Mountains Wildlife Refuge (Unsplash description)
+
+## Broken Bow & Beavers Bend
+
+- Photo by Mollie Defibaugh on Unsplash — https://unsplash.com/photos/a-river-running-through-a-lush-green-forest-xpoUh7zqNW4
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Broken Bow, OK (Unsplash location)
