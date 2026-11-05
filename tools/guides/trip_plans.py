@@ -738,6 +738,18 @@ PLANS = {
     'stillwater': {
         'day': [('Arrive', 'Land at 21D early.'), ('Midday', 'Walk the Lift Bridge loop.'), ('Afternoon', 'Lunch on Main Street, then back to the airport.')],
         'extra': [('Morning', 'A trolley tour.'), ('Afternoon', 'Bluffs at William O’Brien.'), ('Evening', 'Dinner at Domaćin.')]},
+    'tulsa': {
+        'day': [('Arrive', 'Land at KRVS mid-morning.'), ('Midday', 'The Gathering Place.'), ('Afternoon', 'The Bob Dylan Center, then back to the airport.')],
+        'extra': [('Morning', 'Philbrook’s villa and gardens.'), ('Afternoon', 'The Woody Guthrie Center.'), ('Evening', 'A show at Cain’s Ballroom.')]},
+    'oklahoma-city': {
+        'day': [('Arrive', 'Land at KPWA mid-morning.'), ('Midday', 'The National Memorial.'), ('Afternoon', 'Lunch at Cattlemen’s, then back to the airport.')],
+        'extra': [('Morning', 'The Cowboy & Western Heritage Museum.'), ('Afternoon', 'The First Americans Museum.'), ('Evening', 'Dinner at Vast.')]},
+    'wichita-mountains': {
+        'day': [('Arrive', 'Land at KLAW early.'), ('Midday', 'The wildlife refuge.'), ('Afternoon', 'A Meersburger, then back to the airport.')],
+        'extra': [('Morning', 'Mount Scott.'), ('Afternoon', 'Medicine Park’s creek.'), ('Evening', 'Dinner in Medicine Park.')]},
+    'broken-bow': {
+        'day': [('Arrive', 'Land at 4O4 early.'), ('Midday', 'Beavers Bend State Park.'), ('Afternoon', 'Pizza at Grateful Head, then back to the airport.')],
+        'extra': [('Morning', 'Paddle the Mountain Fork.'), ('Afternoon', 'Broken Bow Lake.'), ('Evening', 'Dinner at Abendigo’s.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
