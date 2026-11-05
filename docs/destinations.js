@@ -3185,5 +3185,94 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": false,
  "photo": {"slug": "stillwater", "remote": "https://images.unsplash.com/photo-1698457049375-561f3594ad9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODkxMjA0fA&ixlib=rb-4.1.0", "alt": "Fall color in Stillwater, Minnesota", "pos": "50% 50%"}
+},
+{
+ "name": "Tulsa",
+ "state": "Oklahoma",
+ "airport": "KRVS",
+ "lat": 36.154,
+ "lon": -95.9928,
+ "desc": "An art deco oil city on Route 66: the Gathering Place, Philbrook, the Bob Dylan and Woody Guthrie centers, Cain’s Ballroom and the 1925 Mayo Hotel.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "tulsa/",
+ "stateCode": "OK",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Oklahoma City",
+ "state": "Oklahoma",
+ "airport": "KPWA",
+ "lat": 35.4676,
+ "lon": -97.5164,
+ "desc": "The National Memorial, the First Americans Museum, the Cowboy & Western Heritage Museum, Cattlemen’s steaks and dinner atop the Devon Tower.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "oklahoma-city/",
+ "stateCode": "OK",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Wichita Mountains & Medicine Park",
+ "state": "Oklahoma",
+ "airport": "KLAW",
+ "lat": 34.729,
+ "lon": -98.5,
+ "desc": "Granite peaks on the prairie: bison and longhorn in a wildlife refuge, the Mount Scott drive, a cobblestone creek town and the Meersburger.",
+ "tags": [
+  "Hiking",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "wichita-mountains/",
+ "stateCode": "OK",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Broken Bow & Beavers Bend",
+ "state": "Oklahoma",
+ "airport": "4O4",
+ "lat": 34.125,
+ "lon": -94.748,
+ "desc": "Hot-tub cabins in the pines, Broken Bow Lake, the Mountain Fork River in Beavers Bend, a distillery and wood-fired pizza.",
+ "tags": [
+  "Lake",
+  "Romance",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "broken-bow/",
+ "stateCode": "OK",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
