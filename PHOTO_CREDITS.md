@@ -1035,3 +1035,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Venti Views on Unsplash — https://unsplash.com/photos/brown-wooden-bridge-over-river--_YNeuR56vM
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Fallingwater, Mill Run, PA (Unsplash location and description)
+
+## Omni Bedford Springs
+
+- Title: Bedford Springs Resort PA1.jpg
+- Photographer: Acroterion
+- Source: https://commons.wikimedia.org/wiki/File:Bedford_Springs_Resort_PA1.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

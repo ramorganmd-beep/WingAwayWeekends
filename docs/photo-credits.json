@@ -4085,5 +4085,54 @@
   "date_taken": null,
   "files": [],
   "location": "Fallingwater, Mill Run, PA (Unsplash location and description)"
+ },
+ {
+  "destination": "Omni Bedford Springs",
+  "title": "Bedford Springs Resort PA1.jpg",
+  "photographer": "Acroterion",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bedford_Springs_Resort_PA1.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/db/Bedford_Springs_Resort_PA1.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5472,
+   "height": 4800
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Omni Bedford Springs Resort and its formal gardens and fountain",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bedford-springs-resort-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 66174,
+    "sha256": "d24265a47acedc7926a37a736e0c65a983e8d90ce8e2dc47780beb052547ac05"
+   },
+   {
+    "path": "dist/assets/destinations/bedford-springs-resort-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 69213,
+    "sha256": "435239312c3bfa1be741afd63dcb8aee61b091d56c5992a8439603cba7228ab2"
+   },
+   {
+    "path": "dist/assets/destinations/bedford-springs-resort-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 297156,
+    "sha256": "7ebcff77a69e59ec725ae7958743374acbe5d4744436cf25cea46ba5d6322922"
+   },
+   {
+    "path": "dist/assets/destinations/bedford-springs-resort-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 310603,
+    "sha256": "537d0e6a2edb99313fd27447bcb8f7a7baedce3977c07095dc1ab6877c4dd590"
+   }
+  ]
  }
 ]
