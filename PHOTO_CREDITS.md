@@ -1309,3 +1309,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Drummond_Island_Ferry.jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Tavares & Mount Dora
+
+- Title: TE&G - Tavares Station
+- Photographer: Jackdude101
+- Source: https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

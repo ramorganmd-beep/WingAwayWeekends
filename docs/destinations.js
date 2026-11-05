@@ -3456,11 +3456,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "tavares-depot", "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees"}
 },
 {
  "name": "Havre de Grace",

@@ -5309,5 +5309,54 @@
     "sha256": "9356ad66a07e54ab48cc623b730e4343ea7a333c67babbcb6e2d3621ebc64d2c"
    }
   ]
+ },
+ {
+  "destination": "Tavares & Mount Dora",
+  "title": "TE&G - Tavares Station",
+  "photographer": "Jackdude101",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/TE%26G_-_Tavares_Station.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1920,
+   "height": 1080
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+  "files": [
+   {
+    "path": "dist/assets/destinations/tavares-depot-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 45230,
+    "sha256": "399e87eb9a486b0b5e84087e1727df0dc5601bba78e2e7687ef6861d7e5832f2"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-depot-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 52086,
+    "sha256": "ecc7658721816e7b68a858e3f83117f73afd07129cbf63528a20173fc3172cbc"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-depot-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 148198,
+    "sha256": "ca01283cc97c823c8515612dccddc9e5ced5f2672d2b60d7888a36dc8bf195c5"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-depot-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 178380,
+    "sha256": "79a3cb1591353267b861ea81edb9a51f262d982a22662dd75d9600eec592f444"
+   }
+  ]
  }
 ]
