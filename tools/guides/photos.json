@@ -2060,17 +2060,16 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@oliver_fetter?utm_source=wingaway_weekends&utm_medium=referral\">Oliver Fetter</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/black-and-brown-stone-fragment-zosCRGV3KcI?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "tavares": {
-    "slug": "cape-may-beach",
+    "slug": "tavares-depot",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
     "w": 960,
     "h": 720,
-    "caption": "Tavares & Mount Dora (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The restored depot in downtown Tavares.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "havre-de-grace": {
     "slug": "https://images.unsplash.com/photo-1574180248960-c7535b968e30?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTA1MjA4fA&ixlib=rb-4.1.0",
