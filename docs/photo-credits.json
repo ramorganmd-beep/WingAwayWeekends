@@ -4364,5 +4364,56 @@
     "sha256": "88d6a45577130312bf26a4ed1638117725c2e522342b18d4c7d939c5090e610b"
    }
   ]
+ },
+ {
+  "destination": "Grand Marais & the North Shore",
+  "title": "Sunset on Lake Superior, Grand Marais",
+  "photographer": "Andrew Ling",
+  "source_page_url": "https://unsplash.com/photos/body-of-water-under-white-sky-at-daytime-UPnovZLpTVg",
+  "original_image_url": "https://images.unsplash.com/photo-1570714176943-1a636f892c97?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODkxMTk5fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A wave splashing on the rocks at sunset on Lake Superior at Grand Marais",
+  "date_taken": null,
+  "files": [],
+  "location": "Grand Marais, MN (Unsplash location)"
+ },
+ {
+  "destination": "Minneapolis & St. Paul",
+  "title": "Downtown Minneapolis and the Mississippi",
+  "photographer": "Tom Conway",
+  "source_page_url": "https://unsplash.com/photos/curtain-wall-building-during-night-time-tKSYZE5RTzw",
+  "original_image_url": "https://images.unsplash.com/photo-1567693221917-fefc994808ce?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODk5MzM4fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Downtown Minneapolis above the Mississippi River at dusk",
+  "date_taken": null,
+  "files": [],
+  "location": "Minneapolis (Unsplash location and description)"
+ },
+ {
+  "destination": "Stillwater & the St. Croix",
+  "title": "Autumn in Stillwater",
+  "photographer": "Holly Landkammer",
+  "source_page_url": "https://unsplash.com/photos/a-body-of-water-surrounded-by-lots-of-trees-_rW9Z7n6xWA",
+  "original_image_url": "https://images.unsplash.com/photo-1698457049375-561f3594ad9e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzODkxMjA0fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Fall color in Stillwater, Minnesota",
+  "date_taken": null,
+  "files": [],
+  "location": "Stillwater, MN (Unsplash location)"
  }
 ]
