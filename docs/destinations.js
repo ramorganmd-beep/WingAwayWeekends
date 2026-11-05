@@ -3498,11 +3498,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "long-lake-beach", "alt": "The Long Lake town beach and the Adirondack Hotel among fall color"}
 },
 {
  "name": "Lake Wawasee",
@@ -3520,11 +3516,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "IN",
  "region": "Midwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-wawasee-sunrise", "alt": "A pier and boat lifts on Lake Wawasee under a pink sunrise"}
 },
 {
  "name": "Drummond Island",
@@ -3567,11 +3559,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MN",
  "region": "Heartland",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "gunflint-sea-gull-lake", "alt": "A pine on a granite ledge above Sea Gull Lake at the end of the Gunflint Trail"}
 },
 {
  "name": "Aspen",
