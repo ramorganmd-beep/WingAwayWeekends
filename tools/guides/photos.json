@@ -2226,42 +2226,39 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@chanphoto?utm_source=wingaway_weekends&utm_medium=referral\">Chandler Cruttenden</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/autumn-forest-with-a-bridge-in-the-distance-V0D6RC3_lzs?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "bowling-green": {
-    "slug": "cape-may-beach",
+    "slug": "mammoth-cave-waterfall",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "A small waterfall over mossy rocks in Mammoth Cave National Park",
     "w": 960,
     "h": 720,
-    "caption": "Bowling Green & Mammoth Cave (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "A stream in Mammoth Cave National Park.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Mammoth_Cave_National_Park_WATERFAL.jpg\">Mammoth Cave National Park WATERFAL</a> — National Park Service · Public domain. Cropped to 4:3 and resized."
   },
   "buffalo-river": {
-    "slug": "cape-may-beach",
+    "slug": "buffalo-point-bluff",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Layered limestone bluff above the turquoise Buffalo River at Buffalo Point",
     "w": 960,
     "h": 720,
-    "caption": "Buffalo National River (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "The bluff at Buffalo Point, Buffalo National River.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Bluff_at_Buffalo_Point_%28df108e5c-155d-4519-3e55-801e07f20058%29.jpg\">Bluff at Buffalo Point (df108e5c-155d-4519-3e55-801e07f20058)</a> — National Park Service · Public domain. Cropped to 4:3 and resized."
   },
   "mountain-view-ar": {
-    "slug": "cape-may-beach",
+    "slug": "blanchard-springs-caverns",
     "widths": [
       480,
       960
     ],
-    "alt": "Illustration of a wide beach and the Atlantic",
+    "alt": "Lit columns and flowstone inside Blanchard Springs Caverns near Mountain View",
     "w": 960,
     "h": 720,
-    "caption": "Mountain View & the Ozark Folk Center (illustration)",
-    "credit_html": "Illustration by WingAway Weekends, a placeholder until a photo is chosen.",
-    "placeholder": true
+    "caption": "Blanchard Springs Caverns, near Mountain View.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Blanchard_Springs_Caverns_by_D.L.H._-_panoramio_-_Dameon_Hudson.jpg\">Blanchard Springs Caverns by D.L.H. - panoramio - Dameon Hudson</a> — Dameon Hudson · <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a>. Cropped to 4:3 and resized."
   }
 }
