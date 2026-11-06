@@ -1023,6 +1023,39 @@ PLANS = {
     'granbury': {
         'day': [('Arrive', 'Land at KGDJ mid-morning.'), ('Midday', 'Lunch on the square.'), ('Afternoon', 'Lake Granbury, then back to the airport.')],
         'extra': [('Morning', 'Dinosaur Valley State Park.'), ('Afternoon', 'Shops on the square.'), ('Evening', 'A show at the Opera House.')]},
+    'coeur-dalene': {
+        'day': [('Arrive', 'Land at KCOE mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'mccall': {
+        'day': [('Arrive', 'Land at KMYL mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'sandpoint': {
+        'day': [('Arrive', 'Land at KSZT mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'cody': {
+        'day': [('Arrive', 'Land at KCOD mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'sheridan': {
+        'day': [('Arrive', 'Land at KSHR mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'saratoga-wy': {
+        'day': [('Arrive', 'Land at KSAA mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'seattle': {
+        'day': [('Arrive', 'Land at KBFI mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'walla-walla': {
+        'day': [('Arrive', 'Land at KALW mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'leavenworth': {
+        'day': [('Arrive', 'Land at KEAT mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'lake-chelan': {
+        'day': [('Arrive', 'Land at S10 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'port-townsend': {
+        'day': [('Arrive', 'Land at 0S9 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
