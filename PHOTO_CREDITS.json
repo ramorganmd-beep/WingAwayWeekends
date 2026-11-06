@@ -5628,5 +5628,446 @@
   "date_taken": null,
   "files": [],
   "location": "Geotagged Golden Gate Bridge"
+ },
+ {
+  "destination": "San Juan Islands",
+  "title": "Aerial Friday Harbor Washington August 2009",
+  "photographer": "Jelson25",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Aerial_Friday_Harbor_Washington_August_2009.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Aerial_Friday_Harbor_Washington_August_2009.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4601,
+   "height": 2914
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Aerial view of Friday Harbor, its marina and the San Juan Islands",
+  "files": [
+   {
+    "path": "dist/assets/destinations/friday-harbor-aerial-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 49542,
+    "sha256": "0ff017e5ea2f513dfa745e1960e591d25afaa186d0c7d038fa6bb8fe46828f05"
+   },
+   {
+    "path": "dist/assets/destinations/friday-harbor-aerial-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56127,
+    "sha256": "7f59fd2968260aba4a9a2431b6d03ef102e5f9d3dbaef34ea8d8206325f84e40"
+   },
+   {
+    "path": "dist/assets/destinations/friday-harbor-aerial-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 175748,
+    "sha256": "ae6275f3c672817c7d9e879f29eb1b7d85b1e7eea138213e71aeac90323cf696"
+   },
+   {
+    "path": "dist/assets/destinations/friday-harbor-aerial-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 206341,
+    "sha256": "e4eececbb37881dc77a603d97e741b0fe4b440c10dfb988dce1d59408a8ac1cb"
+   }
+  ]
+ },
+ {
+  "destination": "Hood River & the Columbia Gorge",
+  "title": "Mt. Hood Scenic Byway - Summertime in the Hood River Valley - NARA - 7720497",
+  "photographer": "U.S. National Archives (author not recorded)",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Mt._Hood_Scenic_Byway_-_Summertime_in_the_Hood_River_Valley_-_NARA_-_7720497.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Mt._Hood_Scenic_Byway_-_Summertime_in_the_Hood_River_Valley_-_NARA_-_7720497.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2048,
+   "height": 1377
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Mount Hood rising above forests and the Hood River Valley in summer",
+  "files": [
+   {
+    "path": "dist/assets/destinations/hood-river-valley-mt-hood-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34988,
+    "sha256": "7c35699a03e4a1decc8d5a99e81269934b5ea76122885626d9152ec31c4b061d"
+   },
+   {
+    "path": "dist/assets/destinations/hood-river-valley-mt-hood-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41252,
+    "sha256": "a516c436093ac43bcf5a61acd9e0abd0e8653c7cdcc64e46d9b1feac6a3141be"
+   },
+   {
+    "path": "dist/assets/destinations/hood-river-valley-mt-hood-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 121128,
+    "sha256": "06ffcfcf39e46ebc77c23040ceafb179153b25293f94c1620159bf71c0590a19"
+   },
+   {
+    "path": "dist/assets/destinations/hood-river-valley-mt-hood-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 151287,
+    "sha256": "24dbf4be3a91305d14caf5904fe26f51d5da6bb667dbae7e0a16f9abf05bf7d1"
+   }
+  ]
+ },
+ {
+  "destination": "Willamette Valley Wine Country",
+  "title": "Vines and wine-tasting shed at the Shilstone Wines vineyard, near Dayton in Oregon's Willamette Valley",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018698808/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/50600/50606r.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 640,
+   "height": 427
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A wine-tasting shed beside the vines at a vineyard near Dayton in the Willamette Valley",
+  "files": [
+   {
+    "path": "dist/assets/destinations/willamette-shilstone-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 35416,
+    "sha256": "2db725975df593bcdf955acc80896442c50dffef23f6dbab8c772b3669bd33f6"
+   },
+   {
+    "path": "dist/assets/destinations/willamette-shilstone-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 45347,
+    "sha256": "b45534f0f31b1827d2adb911325128dcb7f1ad9a97dc1823f363dc1e0e67e5a9"
+   },
+   {
+    "path": "dist/assets/destinations/willamette-shilstone-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 93552,
+    "sha256": "30c108aa437285d0537df5eee50cdbe4fc8f8c17395c748099de3c542bb7e9d7"
+   },
+   {
+    "path": "dist/assets/destinations/willamette-shilstone-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 131501,
+    "sha256": "5316aae13ca64f7ebecc38eb79c27bcc982ed323db71c92bf11655da2e4f4980"
+   }
+  ]
+ },
+ {
+  "destination": "Astoria & Cannon Beach",
+  "title": "Tidal rock columns known as \"sea stacks,\" off Cannon Beach on the Oregon Coast of the Pacific Ocean",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018698753/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/50500/50551r.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 640,
+   "height": 427
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Sea stacks reflected in the wet sand at Cannon Beach, Oregon",
+  "files": [
+   {
+    "path": "dist/assets/destinations/cannon-beach-sea-stacks-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 14000,
+    "sha256": "9f1db3cd47a9b5a5a578611baf5ea27dfa967adebed1f364010ab40a0993e6a6"
+   },
+   {
+    "path": "dist/assets/destinations/cannon-beach-sea-stacks-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 21451,
+    "sha256": "a85e7182ae54044bbc7e9075879ee9bf774847c14fcfc1e56a2acaaf3963ab24"
+   },
+   {
+    "path": "dist/assets/destinations/cannon-beach-sea-stacks-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 40216,
+    "sha256": "b7413b0f4b94e3405e61ece29d79c6bc900adc293c0c98f8ae26b8f20c1ae7d5"
+   },
+   {
+    "path": "dist/assets/destinations/cannon-beach-sea-stacks-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 68949,
+    "sha256": "8ea78d206ec3813a7460d0616a400ad63c532c371a3c67b41b03f2f352c5726f"
+   }
+  ]
+ },
+ {
+  "destination": "Talkeetna & Denali",
+  "title": "Ruth Gorge, Denali National Park, Alaska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630785/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:04800:04803/full/!1600,1600/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1600,
+   "height": 948
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Granite walls and the glacier of Ruth Gorge in Denali National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/denali-ruth-gorge-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 23986,
+    "sha256": "67d936854d1676109118583566509d19b6713b88cba98d584dcad7be3ebb2efa"
+   },
+   {
+    "path": "dist/assets/destinations/denali-ruth-gorge-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 33088,
+    "sha256": "a4a13d1386aca517a5ddae7844392bd5c27a546f20f7d8f909871c57f2ab33d4"
+   },
+   {
+    "path": "dist/assets/destinations/denali-ruth-gorge-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 70174,
+    "sha256": "6f72f2a67381f91fbbc4e81125e529eeeb135f208ebbe9733025a7ff57286e29"
+   },
+   {
+    "path": "dist/assets/destinations/denali-ruth-gorge-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 108323,
+    "sha256": "8f436a0b1821f6bf604b0e3ea5a063808296624c77030771ce0705f03b433a83"
+   }
+  ]
+ },
+ {
+  "destination": "Seward & Kenai Fjords",
+  "title": "Boat marina, Seward, Alaska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630960/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:04900:04981/full/!1600,1600/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1600,
+   "height": 1066
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Boats in the Seward marina beneath snowy peaks at dusk",
+  "files": [
+   {
+    "path": "dist/assets/destinations/seward-marina-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 29558,
+    "sha256": "02536a157120bf0ca71e79b2fbcc37703c5696578f728cf161b783f3ea4b0c6b"
+   },
+   {
+    "path": "dist/assets/destinations/seward-marina-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 38525,
+    "sha256": "452d7a28c0ded40ef4794cd3156be2ea63cb99a8030dd92f1ef0eb00c8d6ad11"
+   },
+   {
+    "path": "dist/assets/destinations/seward-marina-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 91668,
+    "sha256": "b3c61ef99572a58a6372fafce65d911e7d639b960737110be3348c7a51940b9b"
+   },
+   {
+    "path": "dist/assets/destinations/seward-marina-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 129773,
+    "sha256": "fe07833f3a7e87189b19709ae432874b68a35433b416869541963a516882da29"
+   }
+  ]
+ },
+ {
+  "destination": "Ketchikan & Misty Fjords",
+  "title": "Misty Fjords National Monument ENBLA14",
+  "photographer": "Enrico Blasutto",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Misty_Fjords_National_Monument_ENBLA14.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Misty_Fjords_National_Monument_ENBLA14.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 8688,
+   "height": 5792
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Colorful granite cliffs at the water's edge in Misty Fjords National Monument",
+  "files": [
+   {
+    "path": "dist/assets/destinations/misty-fjords-rock-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 73194,
+    "sha256": "8c6f11b914a722ae960c723ca13786a3d119eb5cbb4c8d59efa4d264618e11ef"
+   },
+   {
+    "path": "dist/assets/destinations/misty-fjords-rock-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 74125,
+    "sha256": "06019a24431fd1aab341326747f0da69c32b6f12ec9f1d77672fda8aad658332"
+   },
+   {
+    "path": "dist/assets/destinations/misty-fjords-rock-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 299348,
+    "sha256": "1c43fe36c567f265d0d91e18c4f57467073efbca0779f0dfdb536cfe0fd5ca06"
+   },
+   {
+    "path": "dist/assets/destinations/misty-fjords-rock-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 301346,
+    "sha256": "a7edab74dd0232ee689d010363e5e2b7c81013b35220f69d9e7cd0be0c099d1e"
+   }
+  ]
+ },
+ {
+  "destination": "Juneau & Mendenhall Glacier",
+  "title": "Skyline, Juneau, Alaska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630419/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:04400:04433/full/!1600,1600/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1600,
+   "height": 1118
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Juneau and Gastineau Channel beneath forested mountains",
+  "files": [
+   {
+    "path": "dist/assets/destinations/juneau-skyline-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 27380,
+    "sha256": "4f02f79a5f4cd620b72a1885402d3d74791abeae5b0f97e5a6803bbd1ff7051b"
+   },
+   {
+    "path": "dist/assets/destinations/juneau-skyline-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34384,
+    "sha256": "504e57183515c8b0696742cdbb2258f704ce928275ec4fd7909c793a9fa8e948"
+   },
+   {
+    "path": "dist/assets/destinations/juneau-skyline-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 100994,
+    "sha256": "9156e71ab8331689eecb186a2ece30991a191f68f32e70f3d419004a54eb9459"
+   },
+   {
+    "path": "dist/assets/destinations/juneau-skyline-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 129159,
+    "sha256": "ac535364b70dadfc5379186802ec23603130f40c6a2c07fd481d546187e6707e"
+   }
+  ]
+ },
+ {
+  "destination": "Fairbanks & Chena Hot Springs",
+  "title": "Chena Hot Springs Aerial View",
+  "photographer": "David Lippincott",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Chena_Hot_Springs_Aerial_View.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Chena_Hot_Springs_Aerial_View.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3273,
+   "height": 2229
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Aerial view of Chena Hot Springs Resort in the forested hills east of Fairbanks",
+  "files": [
+   {
+    "path": "dist/assets/destinations/chena-hot-springs-aerial-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 45074,
+    "sha256": "3c20ee7652c96820e3a1fc2cca303db2347b093a1be4cc4d4fa5e2d60e91fb24"
+   },
+   {
+    "path": "dist/assets/destinations/chena-hot-springs-aerial-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 49206,
+    "sha256": "9e33712bd7f6ad9a08272c34e8edfd92fd0b67251eb5ba946265eb48c012f59c"
+   },
+   {
+    "path": "dist/assets/destinations/chena-hot-springs-aerial-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 187574,
+    "sha256": "6ed1e4e86f12991e4ba32b4577485e311742c600b1431842b0b450e9a04079df"
+   },
+   {
+    "path": "dist/assets/destinations/chena-hot-springs-aerial-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 200068,
+    "sha256": "9938538bcf7dd9a74b1994ac121ecffd5cfbb38ec7dd56e6be977f65ae8af489"
+   }
+  ]
  }
 ]
