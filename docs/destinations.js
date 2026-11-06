@@ -4125,5 +4125,144 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Talkeetna & Denali",
+ "state": "Alaska",
+ "airport": "PATK",
+ "lat": 62.3214,
+ "lon": -150.0927,
+ "desc": "Alaska's flightseeing capital: glacier landings in the Alaska Range, Denali views, a riverside lodge and the 1917 Roadhouse.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "talkeetna-denali/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Homer & Kachemak Bay",
+ "state": "Alaska",
+ "airport": "PAHO",
+ "lat": 59.6455,
+ "lon": -151.4766,
+ "desc": "The end of the road: the Homer Spit, halibut fishing, glaciers across Kachemak Bay, the Saltry in Halibut Cove and a seaplane base on Beluga Lake.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Dining",
+  "Beach"
+ ],
+ "guide": "homer/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Seward & Kenai Fjords",
+ "state": "Alaska",
+ "airport": "PAWD",
+ "lat": 60.1043,
+ "lon": -149.4422,
+ "desc": "Gateway to Kenai Fjords National Park: glacier and wildlife cruises, Exit Glacier, the Alaska SeaLife Center and a harbor town ringed by mountains.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "seward/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ketchikan & Misty Fjords",
+ "state": "Alaska",
+ "airport": "PAKT",
+ "lat": 55.3422,
+ "lon": -131.6461,
+ "desc": "Alaska's floatplane town: Creek Street on stilts, the world's largest collection of standing totem poles and floatplane trips into Misty Fjords.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "History",
+  "Dining"
+ ],
+ "guide": "ketchikan/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Juneau & Mendenhall Glacier",
+ "state": "Alaska",
+ "airport": "PAJN",
+ "lat": 58.3019,
+ "lon": -134.4197,
+ "desc": "A capital reachable only by air or sea: Mendenhall Glacier near the airport, the Mount Roberts tram, humpback whales and king crab.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Hiking",
+  "Dining"
+ ],
+ "guide": "juneau/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Fairbanks & Chena Hot Springs",
+ "state": "Alaska",
+ "airport": "PAFA",
+ "lat": 64.8378,
+ "lon": -147.7164,
+ "desc": "Northern lights from a hot-spring pool, a riverboat on the Chena, midnight sun and gold-rush history in Interior Alaska.",
+ "tags": [
+  "Spa",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "History"
+ ],
+ "guide": "fairbanks/",
+ "stateCode": "AK",
+ "region": "Alaska",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
