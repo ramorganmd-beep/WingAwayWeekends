@@ -2501,16 +2501,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2010630785/\">Ruth Gorge, Denali National Park, Alaska</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "homer": {
-    "slug": "tavares-depot",
+    "slug": "sterling-highway-to-homer",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Mountains and a lake beneath low clouds along the Sterling Highway on the Kenai Peninsula",
     "w": 960,
     "h": 720,
-    "caption": "Homer & Kachemak Bay (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "On the Sterling Highway, the road to Homer.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2024642463/\">View of scenic mountains from Sterling Highway from Anchorage to Homer in Alaska</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "seward": {
     "slug": "seward-marina",
@@ -2561,52 +2561,52 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Chena_Hot_Springs_Aerial_View.jpg\">Chena Hot Springs Aerial View</a> — David Lippincott · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "las-vegas": {
-    "slug": "tavares-depot",
+    "slug": "las-vegas-strip-night",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Nighttime aerial view of the lit-up Las Vegas Strip",
     "w": 960,
     "h": 720,
-    "caption": "Las Vegas (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "The Las Vegas Strip at night.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011631883/\">Nighttime aerial view of the Las Vegas Strip, Las Vegas, Nevada</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "boulder-city": {
-    "slug": "tavares-depot",
+    "slug": "lake-mead-hoover-dam",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Aerial view of Lake Mead in its desert canyon above Hoover Dam",
     "w": 960,
     "h": 720,
-    "caption": "Boulder City & Hoover Dam (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Lake Mead, above Hoover Dam.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011634483/\">Lake Mead National Recreation Area, formed when Boulder Dam (now Hoover Dam) was built, Boulder City, Nevada</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "reno-virginia-city": {
-    "slug": "tavares-depot",
+    "slug": "virginia-city-chollar-mine",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "The weathered entrance of the 1861 Chollar Mine in Virginia City",
     "w": 960,
     "h": 720,
-    "caption": "Reno & Virginia City (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "The Chollar Mine, Virginia City.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011630213/\">Silver mine in Virginia City, Nevada, dates back to 1860</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "great-basin": {
-    "slug": "tavares-depot",
+    "slug": "great-basin-teresa-lake",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "An alpine lake below snowy peaks in Great Basin National Park",
     "w": 960,
     "h": 720,
-    "caption": "Great Basin National Park & Ely (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Alpine lakes below Wheeler Peak, Great Basin National Park.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Great_Basin_National_Park_-_53204765952.jpg\">Great Basin National Park - 53204765952</a> — John Manard · <a href=\"https://creativecommons.org/licenses/by-sa/2.0/\">CC BY-SA 2.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "redwood-coast": {
     "slug": "redwoods-rnsp",

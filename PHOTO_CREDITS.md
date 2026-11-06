@@ -1515,3 +1515,43 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2018698253/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Homer & Kachemak Bay
+
+- Title: View of scenic mountains from Sterling Highway from Anchorage to Homer in Alaska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2024642463/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Las Vegas
+
+- Title: Nighttime aerial view of the Las Vegas Strip, Las Vegas, Nevada
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011631883/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Boulder City & Hoover Dam
+
+- Title: Lake Mead National Recreation Area, formed when Boulder Dam (now Hoover Dam) was built, Boulder City, Nevada
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011634483/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Reno & Virginia City
+
+- Title: Silver mine in Virginia City, Nevada, dates back to 1860
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011630213/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Great Basin National Park & Ely
+
+- Title: Great Basin National Park - 53204765952
+- Photographer: John Manard
+- Source: https://commons.wikimedia.org/wiki/File:Great_Basin_National_Park_-_53204765952.jpg
+- License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
