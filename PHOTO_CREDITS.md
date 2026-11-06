@@ -1899,3 +1899,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Seattle_-_Bell_Street_Pier_and_Space_Needle_from_Elliott_Bay_01.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Sheridan & the Bighorns
+
+- Title: The Sheridan Inn hotel in Sheridan, Wyoming
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017884703/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

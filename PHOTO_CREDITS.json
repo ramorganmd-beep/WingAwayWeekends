@@ -8617,5 +8617,54 @@
     "sha256": "123f0917ca5a0e6c7648525ce757a0a2abd0d794a7570f4a41173a8edd1a8b8c"
    }
   ]
+ },
+ {
+  "destination": "Sheridan & the Bighorns",
+  "title": "The Sheridan Inn hotel in Sheridan, Wyoming",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017884703/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:48000:48072/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2172,
+   "height": 1448
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The long porch and gabled roof of the historic 1893 Sheridan Inn",
+  "files": [
+   {
+    "path": "dist/assets/destinations/sheridan-inn-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 39976,
+    "sha256": "482047d62b0f81089656c9d6059145c500ebb884a20e3c15a1595f7bdb7060e5"
+   },
+   {
+    "path": "dist/assets/destinations/sheridan-inn-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 46889,
+    "sha256": "228faeeb24b26ec38de17e1563cfa3181fdc75e591d98170881ec03773ae481a"
+   },
+   {
+    "path": "dist/assets/destinations/sheridan-inn-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 148006,
+    "sha256": "b55dfadde77baf54b1d0acf2ddb95228fdeb621d6fa813a50820972352e65af6"
+   },
+   {
+    "path": "dist/assets/destinations/sheridan-inn-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 175440,
+    "sha256": "8838ac7e1609a1faf0bb802bda745320bbb5f82094d85b0b7763300b5b886387"
+   }
+  ]
  }
 ]
