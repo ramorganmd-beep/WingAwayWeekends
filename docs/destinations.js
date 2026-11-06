@@ -4264,5 +4264,96 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Las Vegas",
+ "state": "Nevada",
+ "airport": "KHND",
+ "lat": 36.1147,
+ "lon": -115.1728,
+ "desc": "The Strip's grand resorts and shows, the Sphere, the Neon and Mob museums, steakhouses, and red-rock Valley of Fire, from a quieter executive airport.",
+ "tags": [
+  "Dining",
+  "Stays",
+  "Spa",
+  "Outdoors"
+ ],
+ "guide": "las-vegas/",
+ "stateCode": "NV",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Boulder City & Hoover Dam",
+ "state": "Nevada",
+ "airport": "KBVU",
+ "lat": 35.9786,
+ "lon": -114.8325,
+ "desc": "The town that built Hoover Dam: a 1933 hotel, dam tours, Lake Mead and Grand Canyon air tours from the airport.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "boulder-city/",
+ "stateCode": "NV",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Reno & Virginia City",
+ "state": "Nevada",
+ "airport": "KRNO",
+ "lat": 39.5296,
+ "lon": -119.8138,
+ "desc": "The Biggest Little City's riverwalk and Basque dinners, the Nevada Museum of Art, and Virginia City's Comstock Lode boomtown and steam train.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Spa"
+ ],
+ "guide": "reno-virginia-city/",
+ "stateCode": "NV",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Great Basin National Park & Ely",
+ "state": "Nevada",
+ "airport": "KELY",
+ "lat": 39.0057,
+ "lon": -114.2197,
+ "desc": "Lehman Caves, ancient bristlecone pines, Wheeler Peak and some of the darkest skies in the country, plus a working steam railroad in Ely.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "History"
+ ],
+ "guide": "great-basin/",
+ "stateCode": "NV",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
