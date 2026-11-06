@@ -6314,5 +6314,250 @@
     "sha256": "054df17634ec40aeba443d1f9466e56bf38dc90e1b3bbfed8cdf159627e481bb"
    }
   ]
+ },
+ {
+  "destination": "Homer & Kachemak Bay",
+  "title": "View of scenic mountains from Sterling Highway from Anchorage to Homer in Alaska",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2024642463/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/72900/72919v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Mountains and a lake beneath low clouds along the Sterling Highway on the Kenai Peninsula",
+  "files": [
+   {
+    "path": "dist/assets/destinations/sterling-highway-to-homer-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 45116,
+    "sha256": "e47bdf5ea8d48211f15bf9dfe060f6c4600b10b1131cd6157a1fb35dc9fcbdc7"
+   },
+   {
+    "path": "dist/assets/destinations/sterling-highway-to-homer-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50012,
+    "sha256": "649386fac59afbf34d2d73196068c519a6e3c51e38de9c9036563a25db7d6dfe"
+   },
+   {
+    "path": "dist/assets/destinations/sterling-highway-to-homer-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 176454,
+    "sha256": "581bb67a6ec09852606183c2bf835e7567421eb560f7a3abfc39a49754247df6"
+   },
+   {
+    "path": "dist/assets/destinations/sterling-highway-to-homer-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 194384,
+    "sha256": "04900d9e713e1905084e5cc5dd3f2c53f5d2bfb1b40ac8bcf2366ac789ea7c62"
+   }
+  ]
+ },
+ {
+  "destination": "Las Vegas",
+  "title": "Nighttime aerial view of the Las Vegas Strip, Las Vegas, Nevada",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011631883/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:13600:13689/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1376,
+   "height": 1713
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Nighttime aerial view of the lit-up Las Vegas Strip",
+  "files": [
+   {
+    "path": "dist/assets/destinations/las-vegas-strip-night-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 38450,
+    "sha256": "d893aa89fc6c61671212e81e878f51f012bfa6a475ea77396c0020a846997833"
+   },
+   {
+    "path": "dist/assets/destinations/las-vegas-strip-night-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 45662,
+    "sha256": "f409929bda27f2b494beb7a28b23e13f3fb5edcc0d7e5cc4fa7ec2c4d498537a"
+   },
+   {
+    "path": "dist/assets/destinations/las-vegas-strip-night-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 124490,
+    "sha256": "e7ad80d674d1b36878bdb3ae908fedef76e591163a54a334d21f387d1ce802c3"
+   },
+   {
+    "path": "dist/assets/destinations/las-vegas-strip-night-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 157899,
+    "sha256": "ccc376836e29c63c9ad0e5cef01814a1e93b5be83028e6abda2534d77d167428"
+   }
+  ]
+ },
+ {
+  "destination": "Boulder City & Hoover Dam",
+  "title": "Lake Mead National Recreation Area, formed when Boulder Dam (now Hoover Dam) was built, Boulder City, Nevada",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011634483/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:16200:16290/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1535,
+   "height": 1211
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Aerial view of Lake Mead in its desert canyon above Hoover Dam",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lake-mead-hoover-dam-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 37818,
+    "sha256": "75969ea9ad8bed6a3be8c1486630ba9c90d1d5c19707736aaa9ffb0f2cdc0fe5"
+   },
+   {
+    "path": "dist/assets/destinations/lake-mead-hoover-dam-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 44785,
+    "sha256": "e4160941775d73744599bed9f8761cff0a7c6eddbc0543be389f46626ba299ae"
+   },
+   {
+    "path": "dist/assets/destinations/lake-mead-hoover-dam-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 134314,
+    "sha256": "f46de8788f75ed4446407822c21595d09f8104473b5492926c855e9bcdebe37a"
+   },
+   {
+    "path": "dist/assets/destinations/lake-mead-hoover-dam-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 164429,
+    "sha256": "9bd183397e475117cb0b9092380e6f82277c7e2c65ebb69ee17f2158a7c45daa"
+   }
+  ]
+ },
+ {
+  "destination": "Reno & Virginia City",
+  "title": "Silver mine in Virginia City, Nevada, dates back to 1860",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011630213/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:12000:12017/full/pct:50/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2181,
+   "height": 1730
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The weathered entrance of the 1861 Chollar Mine in Virginia City",
+  "files": [
+   {
+    "path": "dist/assets/destinations/virginia-city-chollar-mine-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 51926,
+    "sha256": "f2574a30c9550f68b9708b35172a53155446d45b4acd169dda2f711c42d60103"
+   },
+   {
+    "path": "dist/assets/destinations/virginia-city-chollar-mine-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56986,
+    "sha256": "e88e9633ac883059dd36fc4a500dc3d049356372a2b70ca9202394991ecfb453"
+   },
+   {
+    "path": "dist/assets/destinations/virginia-city-chollar-mine-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 186540,
+    "sha256": "ad96ad802d52ea304edd5b7c3b4fdec9bf7038f86a292ae26797db6ae3dd3dce"
+   },
+   {
+    "path": "dist/assets/destinations/virginia-city-chollar-mine-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 211295,
+    "sha256": "041c53071223a07554421e08ef9733e953900e4246c4f20d6180e3827f073999"
+   }
+  ]
+ },
+ {
+  "destination": "Great Basin National Park & Ely",
+  "title": "Great Basin National Park - 53204765952",
+  "photographer": "John Manard",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Great_Basin_National_Park_-_53204765952.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Great_Basin_National_Park_-_53204765952.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5328,
+   "height": 4000
+  },
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "An alpine lake below snowy peaks in Great Basin National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/great-basin-teresa-lake-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 55948,
+    "sha256": "d90b3561b4c0c9a487d7dc8a2f578432a6be38edd4ffafbb78ca4193083c0d57"
+   },
+   {
+    "path": "dist/assets/destinations/great-basin-teresa-lake-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 62407,
+    "sha256": "30d589681d613671afe4ad86466126454404c8e2a7554924f12e36f80bad9ca8"
+   },
+   {
+    "path": "dist/assets/destinations/great-basin-teresa-lake-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 228250,
+    "sha256": "ed63a66b1faab81f497c35ac54d0626c79707696c724b8fc27229d0719d66585"
+   },
+   {
+    "path": "dist/assets/destinations/great-basin-teresa-lake-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 253045,
+    "sha256": "322285a6bfee5089983e1e88dc6fa7aab03f4e3bde82c489989af50a29c258a3"
+   }
+  ]
  }
 ]

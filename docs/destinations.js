@@ -4146,11 +4146,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sterling-highway-to-homer", "alt": "Mountains and a lake beneath low clouds along the Sterling Highway on the Kenai Peninsula"}
 },
 {
  "name": "Seward & Kenai Fjords",
@@ -4246,11 +4242,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NV",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "las-vegas-strip-night", "alt": "Nighttime aerial view of the lit-up Las Vegas Strip"}
 },
 {
  "name": "Boulder City & Hoover Dam",
@@ -4268,11 +4260,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NV",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-mead-hoover-dam", "alt": "Aerial view of Lake Mead in its desert canyon above Hoover Dam"}
 },
 {
  "name": "Reno & Virginia City",
@@ -4291,11 +4279,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NV",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "virginia-city-chollar-mine", "alt": "The weathered entrance of the 1861 Chollar Mine in Virginia City"}
 },
 {
  "name": "Great Basin National Park & Ely",
@@ -4314,11 +4298,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NV",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "great-basin-teresa-lake", "alt": "An alpine lake below snowy peaks in Great Basin National Park"}
 },
 {
  "name": "Redwood Coast",
