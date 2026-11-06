@@ -423,3 +423,8 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Self-hosted d3 v7.9.0, topojson-client v3.1.0 and us-atlas states-10m.json in docs/map/.
 
 - Eugene, OR (KEUG) added and published November 6, 2026 (Pacific Northwest). 236 guides live.
+
+## FBO listings (owner preference, November 6, 2026)
+- Owner prefers a named FBO in every guide's FBO box unless the field truly has none; use the airport/city only when it is the fuel provider.
+- Source: AirNav airport pages (FBO, Fuel Providers section); parser at scratchpad fbo.py. Extra FBOs go at the start of the first flight note ("Other FBOs: ...").
+- Updated 30 guides (AZ/NM drafts, CO/UT, plus AK, HI, NV, OR, MN, MI, CA older guides).
