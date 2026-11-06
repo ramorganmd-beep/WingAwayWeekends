@@ -5033,5 +5033,262 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "photo": {"slug": "granbury-square", "alt": "A red-brick Victorian bank building on the Granbury courthouse square"}
+},
+{
+ "name": "Coeur d’Alene",
+ "state": "Idaho",
+ "airport": "KCOE",
+ "lat": 47.6777,
+ "lon": -116.7805,
+ "desc": "A lake resort town in the Idaho Panhandle: the Coeur d'Alene Resort and its floating green, lake cruises, a lakeside boardwalk and the Silver Mountain gondola.",
+ "tags": [
+  "Lake",
+  "Golf",
+  "Stays",
+  "Spa",
+  "Dining",
+  "Romance"
+ ],
+ "guide": "coeur-dalene/",
+ "stateCode": "ID",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "McCall & Payette Lake",
+ "state": "Idaho",
+ "airport": "KMYL",
+ "lat": 44.9116,
+ "lon": -116.0987,
+ "desc": "A mountain lake town at 5,000 feet: Shore Lodge on Payette Lake, Ponderosa State Park, Brundage Mountain and Idaho's backcountry airstrips.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "mccall/",
+ "stateCode": "ID",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sandpoint & Lake Pend Oreille",
+ "state": "Idaho",
+ "airport": "KSZT",
+ "lat": 48.2766,
+ "lon": -116.5533,
+ "desc": "A small arts town on Idaho's largest lake: Lake Pend Oreille beaches, Schweitzer Mountain above town and the Festival at Sandpoint.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "sandpoint/",
+ "stateCode": "ID",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Cody & Yellowstone’s East Gate",
+ "state": "Wyoming",
+ "airport": "KCOD",
+ "lat": 44.5263,
+ "lon": -109.0565,
+ "desc": "Buffalo Bill's Wild West town: a nightly summer rodeo, the Buffalo Bill Center of the West, the historic Irma Hotel and the road to Yellowstone.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "cody/",
+ "stateCode": "WY",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Sheridan & the Bighorns",
+ "state": "Wyoming",
+ "airport": "KSHR",
+ "lat": 44.7972,
+ "lon": -106.9562,
+ "desc": "A real cowboy town below the Bighorns: King's Saddlery, the 1893 Sheridan Inn, Trail End mansion and a classic dude ranch.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "sheridan/",
+ "stateCode": "WY",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Saratoga Hot Springs",
+ "state": "Wyoming",
+ "airport": "KSAA",
+ "lat": 41.455,
+ "lon": -106.8064,
+ "desc": "A tiny Wyoming town with free hot springs on the North Platte, a hot-springs resort and brewery, the historic Hotel Wolf and trout fishing.",
+ "tags": [
+  "Spa",
+  "Outdoors",
+  "Stays",
+  "History"
+ ],
+ "guide": "saratoga-wy/",
+ "stateCode": "WY",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Seattle",
+ "state": "Washington",
+ "airport": "KBFI",
+ "lat": 47.6062,
+ "lon": -122.3321,
+ "desc": "Land at Boeing Field next to the Museum of Flight: Pike Place Market, the Space Needle, harbor cruises and Canlis.",
+ "tags": [
+  "Aviation museums",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "seattle/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Walla Walla Wine Country",
+ "state": "Washington",
+ "airport": "KALW",
+ "lat": 46.0646,
+ "lon": -118.343,
+ "desc": "More than 120 wineries around a charming downtown: tasting rooms on Main Street, wineries by the airport and the historic Marcus Whitman Hotel.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "walla-walla/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Leavenworth",
+ "state": "Washington",
+ "airport": "KEAT",
+ "lat": 47.5962,
+ "lon": -120.6615,
+ "desc": "A Bavarian-style village in the Cascades: alpine storefronts, German food and beer, Sleeping Lady resort, Oktoberfest and Christmas lights.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Dining",
+  "Spa"
+ ],
+ "guide": "leavenworth/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Chelan",
+ "state": "Washington",
+ "airport": "S10",
+ "lat": 47.8407,
+ "lon": -120.0165,
+ "desc": "A 50-mile glacial lake in sunny eastern Washington: lakefront resorts, hillside wineries and the boat to roadless Stehekin.",
+ "tags": [
+  "Lake",
+  "Wine",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "lake-chelan/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Port Townsend",
+ "state": "Washington",
+ "airport": "0S9",
+ "lat": 48.117,
+ "lon": -122.7604,
+ "desc": "A Victorian seaport with a café and aero museum on the airport: brick downtown, the Wooden Boat Festival, Fort Worden and Olympic National Park.",
+ "tags": [
+  "History",
+  "Aviation museums",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "port-townsend/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
