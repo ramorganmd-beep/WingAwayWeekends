@@ -7735,5 +7735,397 @@
     "sha256": "b45a4a2979ff54b4c14ad9633ebd897567c5b488e27ef3f36f84d8948372282c"
    }
   ]
+ },
+ {
+  "destination": "Austin",
+  "title": "Skyline of Austin, Texas",
+  "photographer": "Quintin Soloviev",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Skyline_of_Austin%2C_Texas.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Skyline_of_Austin%2C_Texas.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 853
+  },
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Austin skyline above Lady Bird Lake",
+  "files": [
+   {
+    "path": "dist/assets/destinations/austin-skyline-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 36500,
+    "sha256": "f198605a54713d105f02239a20385f323f9a2bf76829007ee9c32c85e084ad15"
+   },
+   {
+    "path": "dist/assets/destinations/austin-skyline-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 44994,
+    "sha256": "fee3949033a240b73adc5252c073caed0db449088139a1de5ffab3095c4ad8f7"
+   },
+   {
+    "path": "dist/assets/destinations/austin-skyline-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 142792,
+    "sha256": "2578c2be6f16f858af36df9415e2ba435dcd13f29a9884b63eac17a99679c87f"
+   },
+   {
+    "path": "dist/assets/destinations/austin-skyline-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 176542,
+    "sha256": "42cee852f557a2687feab9f6b521bbdd9f1365fee61616cc9049a6eb68eb138b"
+   }
+  ]
+ },
+ {
+  "destination": "Horseshoe Bay & Lake LBJ",
+  "title": "Lake lbj 2011",
+  "photographer": "Larry D. Moore",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Lake_lbj_2011.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/69/Lake_lbj_2011.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 854
+  },
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Blue water of Lake LBJ below Hill Country bluffs and lakeside homes",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lake-lbj-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 48994,
+    "sha256": "edb5c23a9342f8427f33070c0ea23cd43c41e79bcb81d6ee2ea2a2295f91e22b"
+   },
+   {
+    "path": "dist/assets/destinations/lake-lbj-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 54340,
+    "sha256": "32e84b825ec5c2919c20feb3f60d560e9f60c3f56d8185be1fef8339b4ba6edc"
+   },
+   {
+    "path": "dist/assets/destinations/lake-lbj-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 239390,
+    "sha256": "52ca0db1dcf2cc35ee2320b5da494855fe1c1d8d0adf62e2fa4b5fad31f62cef"
+   },
+   {
+    "path": "dist/assets/destinations/lake-lbj-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 249663,
+    "sha256": "81abb1f74d1bbe439c36794b97a07f185b5ca80bd007bd3713602c31698b4f43"
+   }
+  ]
+ },
+ {
+  "destination": "Port Aransas & Rockport",
+  "title": "Port Aransas Dock",
+  "photographer": "Liveon001 ©Travis Witt",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Port_Aransas_Dock.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/8/84/Port_Aransas_Dock.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Sport-fishing boats in the Port Aransas harbor under a blue sky",
+  "files": [
+   {
+    "path": "dist/assets/destinations/port-aransas-harbor-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32492,
+    "sha256": "5c47ad7d0277e1089f54c971c2edd0f17ef1909ebcb96dc7d6e560e571f1b4e8"
+   },
+   {
+    "path": "dist/assets/destinations/port-aransas-harbor-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42902,
+    "sha256": "71977632a21da19f3ac385de9771543269c13fc5c0266c13a4e5eaa6197456b3"
+   },
+   {
+    "path": "dist/assets/destinations/port-aransas-harbor-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 113284,
+    "sha256": "ea327145eeccebd7df5f0452610c3aa9d6b71fd0ad19b94a22b1b38ef2101f94"
+   },
+   {
+    "path": "dist/assets/destinations/port-aransas-harbor-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 154684,
+    "sha256": "1bc962c5ef996a99cc3ccfdb414984df4d1996e68ce41eabdc283460700d691f"
+   }
+  ]
+ },
+ {
+  "destination": "Jefferson & Caddo Lake",
+  "title": "The name of the 1872 \"House of the Seasons\" in Jefferson, Texas, derives from the play of light through its cupola's stained-glass windows, which produce effects that suggest all four seasons",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2015631183/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:30900:30947/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2246,
+   "height": 1683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The 1872 House of the Seasons, a Victorian mansion in Jefferson",
+  "files": [
+   {
+    "path": "dist/assets/destinations/jefferson-house-of-the-seasons-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 58614,
+    "sha256": "e286ec94f9848c05ffdfdd42b881c3be159299ed900b94cbd53ffeb608bff89d"
+   },
+   {
+    "path": "dist/assets/destinations/jefferson-house-of-the-seasons-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 63412,
+    "sha256": "20004232818c00a4c17e75d5dce4244ba59d1cd1ab44ea7ddc493c09d5040374"
+   },
+   {
+    "path": "dist/assets/destinations/jefferson-house-of-the-seasons-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 221062,
+    "sha256": "58f16a94ef8846e33d0ae32e9a962a59b9e627e316f815316ef40f2daa44c6f2"
+   },
+   {
+    "path": "dist/assets/destinations/jefferson-house-of-the-seasons-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 242807,
+    "sha256": "40c53237e3dc6839ac22d0032656f0a4b5df43359fb87aa3d7d0fbac2cb8abce"
+   }
+  ]
+ },
+ {
+  "destination": "Amarillo & Palo Duro Canyon",
+  "title": "Palo Duro Canyon from CCC Overlook 2024",
+  "photographer": "Larry D. Moore",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Palo_Duro_Canyon_from_CCC_Overlook_2024.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Palo_Duro_Canyon_from_CCC_Overlook_2024.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 854
+  },
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Red and orange cliffs of Palo Duro Canyon from the CCC Overlook",
+  "files": [
+   {
+    "path": "dist/assets/destinations/palo-duro-canyon-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 55168,
+    "sha256": "5fb50d31b0744bd28049443570fcf0e667edf6c352602acd19992072ee12ace5"
+   },
+   {
+    "path": "dist/assets/destinations/palo-duro-canyon-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 58951,
+    "sha256": "80eb2dd486cb3437eed738d53416b22da1d972e58f5b8a3063cb55d0a1ad4540"
+   },
+   {
+    "path": "dist/assets/destinations/palo-duro-canyon-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 252994,
+    "sha256": "085b237168b55d7972dcb0e8d04f38effddc988cc2719d66e26d923e91d8d73a"
+   },
+   {
+    "path": "dist/assets/destinations/palo-duro-canyon-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 267501,
+    "sha256": "a0e451e1cbd038df490eceb1365f24db051756c5716527a1bd21971f79019978"
+   }
+  ]
+ },
+ {
+  "destination": "New Braunfels & Gruene",
+  "title": "Built by Christian Herry in 1878, Gruene Hall in New Braunfels is one of the oldest dance halls in Texas",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2014632377/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:28100:28177/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1840,
+   "height": 1228
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The weathered wooden front of Gruene Hall, Texas’s oldest dance hall",
+  "files": [
+   {
+    "path": "dist/assets/destinations/gruene-hall-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 28934,
+    "sha256": "0a3a3140a26ddadf980bee723844fbca14bf20d1f85fa7711320a3af4956d71d"
+   },
+   {
+    "path": "dist/assets/destinations/gruene-hall-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 39207,
+    "sha256": "6e9fc6267e96d5c012d89245a3174525341535beb0c51706bc662ee399a1fe32"
+   },
+   {
+    "path": "dist/assets/destinations/gruene-hall-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 111860,
+    "sha256": "78b456cfe578db1d0cff545f3bee21ee0be97e9137caf22e6a49b2d748f86b79"
+   },
+   {
+    "path": "dist/assets/destinations/gruene-hall-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 144321,
+    "sha256": "56db0c5f9861240a1b07dfab9402ceb0fe10d0596c344ccb7306b66b90c83c5d"
+   }
+  ]
+ },
+ {
+  "destination": "Waco & the Silos",
+  "title": "The Dr Pepper Museum in Waco, Texas",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2015630507/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:30200:30271/full/pct:50/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2371,
+   "height": 2137
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The red-brick Dr Pepper Museum in downtown Waco",
+  "files": [
+   {
+    "path": "dist/assets/destinations/dr-pepper-museum-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 28604,
+    "sha256": "82da5298b67721f0b74f1628121911a4ab13e5b90ccc4c5f56266914b16e64d9"
+   },
+   {
+    "path": "dist/assets/destinations/dr-pepper-museum-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 38940,
+    "sha256": "4120ad26979fa2672702e70f157007aaef63fb402b4d78f29cbee291d08931cf"
+   },
+   {
+    "path": "dist/assets/destinations/dr-pepper-museum-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 96964,
+    "sha256": "55e176e18719f07ccdd942cc1e0d91b0ec7120c077c5b237eb22ffbe1af2619c"
+   },
+   {
+    "path": "dist/assets/destinations/dr-pepper-museum-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 142512,
+    "sha256": "bbe5c46dd1828743357a02c92b5666ee944137d47d8a910a26e4ae63d493c41d"
+   }
+  ]
+ },
+ {
+  "destination": "Granbury",
+  "title": "Granbury June 2018 33 (Red On the Square - Texas State Bank)",
+  "photographer": "Michael Barera",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Granbury_June_2018_33_%28Red_On_the_Square_-_Texas_State_Bank%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/52/Granbury_June_2018_33_%28Red_On_the_Square_-_Texas_State_Bank%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 853
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A red-brick Victorian bank building on the Granbury courthouse square",
+  "files": [
+   {
+    "path": "dist/assets/destinations/granbury-square-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 22918,
+    "sha256": "654e57e76886787241733ca60c299b7993d7cc40e9150efca03ff855fec0b02c"
+   },
+   {
+    "path": "dist/assets/destinations/granbury-square-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 31976,
+    "sha256": "a5cfa32798002b4b3644820373d4037557685bc70a82f02870f9321e150284e6"
+   },
+   {
+    "path": "dist/assets/destinations/granbury-square-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 81824,
+    "sha256": "b3b04a6d9d97ab92372baa7bcd3d2169183fbe6cb16bc3194da8a3fecea54215"
+   },
+   {
+    "path": "dist/assets/destinations/granbury-square-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 115344,
+    "sha256": "534c5386f914c7838bd3cbf8efd71e5c7c8cc86efaa31128f4d5ca9151809294"
+   }
+  ]
  }
 ]

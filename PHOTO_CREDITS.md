@@ -1755,3 +1755,67 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Stores_at_the_Fifth_Street_Public_Market_in_Eugene%2C_Oregon.jpg
 - License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Austin
+
+- Title: Skyline of Austin, Texas
+- Photographer: Quintin Soloviev
+- Source: https://commons.wikimedia.org/wiki/File:Skyline_of_Austin%2C_Texas.jpg
+- License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Horseshoe Bay & Lake LBJ
+
+- Title: Lake lbj 2011
+- Photographer: Larry D. Moore
+- Source: https://commons.wikimedia.org/wiki/File:Lake_lbj_2011.jpg
+- License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Port Aransas & Rockport
+
+- Title: Port Aransas Dock
+- Photographer: Liveon001 ©Travis Witt
+- Source: https://commons.wikimedia.org/wiki/File:Port_Aransas_Dock.JPG
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Jefferson & Caddo Lake
+
+- Title: The name of the 1872 "House of the Seasons" in Jefferson, Texas, derives from the play of light through its cupola's stained-glass windows, which produce effects that suggest all four seasons
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2015631183/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Amarillo & Palo Duro Canyon
+
+- Title: Palo Duro Canyon from CCC Overlook 2024
+- Photographer: Larry D. Moore
+- Source: https://commons.wikimedia.org/wiki/File:Palo_Duro_Canyon_from_CCC_Overlook_2024.jpg
+- License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## New Braunfels & Gruene
+
+- Title: Built by Christian Herry in 1878, Gruene Hall in New Braunfels is one of the oldest dance halls in Texas
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2014632377/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Waco & the Silos
+
+- Title: The Dr Pepper Museum in Waco, Texas
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2015630507/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Granbury
+
+- Title: Granbury June 2018 33 (Red On the Square - Texas State Bank)
+- Photographer: Michael Barera
+- Source: https://commons.wikimedia.org/wiki/File:Granbury_June_2018_33_%28Red_On_the_Square_-_Texas_State_Bank%29.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

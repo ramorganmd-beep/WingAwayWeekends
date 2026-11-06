@@ -4899,10 +4899,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "austin-skyline", "alt": "The Austin skyline above Lady Bird Lake"}
 },
 {
  "name": "Horseshoe Bay & Lake LBJ",
@@ -4923,10 +4920,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-lbj", "alt": "Blue water of Lake LBJ below Hill Country bluffs and lakeside homes"}
 },
 {
  "name": "Port Aransas & Rockport",
@@ -4946,10 +4940,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "port-aransas-harbor", "alt": "Sport-fishing boats in the Port Aransas harbor under a blue sky"}
 },
 {
  "name": "Jefferson & Caddo Lake",
@@ -4969,10 +4960,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "jefferson-house-of-the-seasons", "alt": "The 1872 House of the Seasons, a Victorian mansion in Jefferson"}
 },
 {
  "name": "Amarillo & Palo Duro Canyon",
@@ -4992,10 +4980,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "palo-duro-canyon", "alt": "Red and orange cliffs of Palo Duro Canyon from the CCC Overlook"}
 },
 {
  "name": "New Braunfels & Gruene",
@@ -5016,10 +5001,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "gruene-hall", "alt": "The white wooden front of Gruene Hall, Texas’s oldest dance hall"}
 },
 {
  "name": "Waco & the Silos",
@@ -5038,10 +5020,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "dr-pepper-museum", "alt": "The arched tan-brick facade of the Dr Pepper Museum in downtown Waco"}
 },
 {
  "name": "Granbury",
@@ -5061,9 +5040,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "granbury-square", "alt": "A red-brick Victorian bank building on the Granbury courthouse square"}
 }
 ];
