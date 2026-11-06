@@ -5135,10 +5135,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sheridan-inn", "alt": "The long porch and dormered roof of the 1893 Sheridan Inn, with a bronze dancing couple on the lawn"}
 },
 {
  "name": "Saratoga Hot Springs",
