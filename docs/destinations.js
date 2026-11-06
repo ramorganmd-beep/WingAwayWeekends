@@ -4048,11 +4048,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "friday-harbor-aerial", "alt": "Aerial view of Friday Harbor, its marina and the San Juan Islands"}
 },
 {
  "name": "Hood River & the Columbia Gorge",
@@ -4072,11 +4068,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hood-river-valley-mt-hood", "alt": "Mount Hood rising above forests and the Hood River Valley in summer"}
 },
 {
  "name": "Willamette Valley Wine Country",
@@ -4096,11 +4088,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "willamette-shilstone", "alt": "A wine-tasting shed beside the vines at a vineyard near Dayton in the Willamette Valley"}
 },
 {
  "name": "Astoria & Cannon Beach",
@@ -4120,11 +4108,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "cannon-beach-sea-stacks", "alt": "Sea stacks reflected in the wet sand at Cannon Beach, Oregon"}
 },
 {
  "name": "Talkeetna & Denali",
@@ -4143,11 +4127,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "denali-ruth-gorge", "alt": "Granite walls and the glacier of Ruth Gorge in Denali National Park"}
 },
 {
  "name": "Homer & Kachemak Bay",
@@ -4189,11 +4169,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "seward-marina", "alt": "Boats in the Seward marina beneath snowy peaks at dusk"}
 },
 {
  "name": "Ketchikan & Misty Fjords",
@@ -4212,11 +4188,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "misty-fjords-rock", "alt": "Colorful granite cliffs at the water's edge in Misty Fjords National Monument"}
 },
 {
  "name": "Juneau & Mendenhall Glacier",
@@ -4235,11 +4207,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "juneau-skyline", "alt": "Juneau and Gastineau Channel beneath forested mountains"}
 },
 {
  "name": "Fairbanks & Chena Hot Springs",
@@ -4259,11 +4227,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AK",
  "region": "Alaska",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "chena-hot-springs-aerial", "alt": "Aerial view of Chena Hot Springs Resort in the forested hills east of Fairbanks"}
 },
 {
  "name": "Las Vegas",

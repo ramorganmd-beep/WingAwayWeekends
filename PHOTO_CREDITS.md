@@ -1403,3 +1403,75 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Umer Sayyam on Unsplash — https://unsplash.com/photos/golden-gate-bridge-usa-SHP1t8EduMY
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Golden Gate Bridge
+
+## San Juan Islands
+
+- Title: Aerial Friday Harbor Washington August 2009
+- Photographer: Jelson25
+- Source: https://commons.wikimedia.org/wiki/File:Aerial_Friday_Harbor_Washington_August_2009.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Hood River & the Columbia Gorge
+
+- Title: Mt. Hood Scenic Byway - Summertime in the Hood River Valley - NARA - 7720497
+- Photographer: U.S. National Archives (author not recorded)
+- Source: https://commons.wikimedia.org/wiki/File:Mt._Hood_Scenic_Byway_-_Summertime_in_the_Hood_River_Valley_-_NARA_-_7720497.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Willamette Valley Wine Country
+
+- Title: Vines and wine-tasting shed at the Shilstone Wines vineyard, near Dayton in Oregon's Willamette Valley
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018698808/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Astoria & Cannon Beach
+
+- Title: Tidal rock columns known as "sea stacks," off Cannon Beach on the Oregon Coast of the Pacific Ocean
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018698753/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Talkeetna & Denali
+
+- Title: Ruth Gorge, Denali National Park, Alaska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630785/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Seward & Kenai Fjords
+
+- Title: Boat marina, Seward, Alaska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630960/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Ketchikan & Misty Fjords
+
+- Title: Misty Fjords National Monument ENBLA14
+- Photographer: Enrico Blasutto
+- Source: https://commons.wikimedia.org/wiki/File:Misty_Fjords_National_Monument_ENBLA14.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Juneau & Mendenhall Glacier
+
+- Title: Skyline, Juneau, Alaska
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630419/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Fairbanks & Chena Hot Springs
+
+- Title: Chena Hot Springs Aerial View
+- Photographer: David Lippincott
+- Source: https://commons.wikimedia.org/wiki/File:Chena_Hot_Springs_Aerial_View.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
