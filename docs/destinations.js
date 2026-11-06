@@ -4700,7 +4700,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "eugene-downtown-skinner-butte", "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park"}
 }
 ];
