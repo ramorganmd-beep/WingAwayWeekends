@@ -927,6 +927,21 @@ PLANS = {
     'bend-sunriver': {
         'day': [('Arrive', 'Land at S21 mid-morning.'), ('Midday', 'Lunch at the resort and a bike ride.'), ('Afternoon', 'The High Desert Museum, then back to the airport.')],
         'extra': [('Morning', 'Lava Butte.'), ('Afternoon', 'Mount Bachelor.'), ('Evening', 'Dinner at Pine Tavern in Bend.')]},
+    'lanai': {
+        'day': [('Arrive', 'Land at PHNY mid-morning (one-hour ramp limit without permission).'), ('Midday', 'Lunch in Lanai City.'), ('Afternoon', 'Hulopoe Bay, then back to the airport.')],
+        'extra': [('Morning', 'Snorkel Hulopoe Bay.'), ('Afternoon', 'Keahiakawelo by jeep.'), ('Evening', 'Dinner at the resort.')]},
+    'hana': {
+        'day': [('Arrive', 'Land at PHHN mid-morning.'), ('Midday', 'Waianapanapa black-sand beach (reservation).'), ('Afternoon', 'Lunch in Hana, then back to the airport.')],
+        'extra': [('Morning', 'The Pipiwai Trail at Kipahulu.'), ('Afternoon', 'The resort spa.'), ('Evening', 'Dinner at the resort.')]},
+    'molokai': {
+        'day': [('Arrive', 'Land at PHMK mid-morning.'), ('Midday', 'The Kalaupapa lookout at Palaau State Park.'), ('Afternoon', 'Kaunakakai, then back to the airport.')],
+        'extra': [('Morning', 'The east end toward Halawa.'), ('Afternoon', 'The wharf.'), ('Evening', 'Dinner at Hotel Molokai.')]},
+    'kauai': {
+        'day': [('Arrive', 'Land at PHLI early.'), ('Midday', 'Waimea Canyon overlooks.'), ('Afternoon', 'Lunch in Poipu, then back to the airport.')],
+        'extra': [('Morning', 'A Na Pali boat trip.'), ('Afternoon', 'Hanalei.'), ('Evening', "Dinner at Merriman's.")]},
+    'kona': {
+        'day': [('Arrive', 'Land at PHKO mid-morning.'), ('Midday', 'Puuhonua o Honaunau.'), ('Afternoon', 'A Kona coffee farm, then back to the airport.')],
+        'extra': [('Morning', 'Drive to Hawaii Volcanoes National Park.'), ('Afternoon', 'Kilauea crater.'), ('Evening', 'A manta-ray night snorkel.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

@@ -4400,5 +4400,126 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "photo": {"slug": "bend-whitewater-park", "alt": "Surfers and paddlers on the whitewater waves of the Deschutes River in Bend"}
+},
+{
+ "name": "Lanai",
+ "state": "Hawaii",
+ "airport": "PHNY",
+ "lat": 20.7432,
+ "lon": -156.9149,
+ "desc": "A quiet former pineapple island: Four Seasons above Hulopoe Bay, a plantation-town square, spinner dolphins and the red rocks of Keahiakawelo.",
+ "tags": [
+  "Beach",
+  "Stays",
+  "Spa",
+  "Romance",
+  "Scenic views"
+ ],
+ "guide": "lanai/",
+ "stateCode": "HI",
+ "region": "Hawaii",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hana, Maui",
+ "state": "Hawaii",
+ "airport": "PHHN",
+ "lat": 20.7578,
+ "lon": -155.9894,
+ "desc": "Fly past the winding Road to Hana: a black-sand beach, waterfalls and bamboo at Kipahulu, and a quiet oceanview resort.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Spa",
+  "Romance"
+ ],
+ "guide": "hana/",
+ "stateCode": "HI",
+ "region": "Hawaii",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Molokai",
+ "state": "Hawaii",
+ "airport": "PHMK",
+ "lat": 21.0906,
+ "lon": -157.0227,
+ "desc": "The Friendly Isle: no traffic lights, the world's tallest sea cliffs, the Kalaupapa peninsula and its history, and a seaside hotel.",
+ "tags": [
+  "History",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "molokai/",
+ "stateCode": "HI",
+ "region": "Hawaii",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Kauai",
+ "state": "Hawaii",
+ "airport": "PHLI",
+ "lat": 21.976,
+ "lon": -159.339,
+ "desc": "The Garden Isle: Waimea Canyon, the Na Pali Coast, Hanalei Bay, Poipu beaches and world-class flightseeing.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "kauai/",
+ "stateCode": "HI",
+ "region": "Hawaii",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Kona & the Big Island",
+ "state": "Hawaii",
+ "airport": "PHKO",
+ "lat": 19.6406,
+ "lon": -155.9956,
+ "desc": "The Big Island's sunny Kona coast: lava-field resorts, manta-ray night snorkels, Kona coffee and Hawaii Volcanoes National Park.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "Spa",
+  "History"
+ ],
+ "guide": "kona/",
+ "stateCode": "HI",
+ "region": "Hawaii",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

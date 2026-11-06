@@ -2667,5 +2667,65 @@
     "h": 720,
     "caption": "The whitewater park on the Deschutes River in Bend.",
     "credit_html": "<a href=\"https://www.loc.gov/item/2018698253/\">Water lovers enjoy several ways of tackling fairly tame rapids at a city-constructed whitewater park in Bend, Oregon</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
+  },
+  "lanai": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Lanai (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "hana": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Hana, Maui (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "molokai": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Molokai (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "kauai": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Kauai (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "kona": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Kona & the Big Island (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   }
 }
