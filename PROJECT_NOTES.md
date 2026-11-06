@@ -438,3 +438,6 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Published austin (KAUS), horseshoe-bay (KDZB), port-aransas (RAS; KRKP alt), jefferson (24F), palo-duro-canyon (KAMA), new-braunfels (KBAZ), waco (KACT), granbury (KGDJ). 253 guides live; Texas now 14.
 - KEDC shows CLSD INDEFLY in NASR, so Austin uses KAUS.
 - Owner wants official restaurant/hotel sites where possible; third-party (Texas Monthly etc.) only as a local-guide link.
+
+## Email links (November 6, 2026)
+- Owner reported email links "not working" (mailto does nothing without a default mail app). Added docs/contact.js on every page: mailto clicks open a chooser (email app, Gmail, Outlook.com, copy address). feedback.py now adds the script tag; MX records confirmed on Cloudflare Email Routing.
