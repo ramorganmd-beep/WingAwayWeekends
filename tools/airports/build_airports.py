@@ -20,6 +20,9 @@ for r in csv.DictReader(open(src, encoding='utf-8')):
         continue
     code = icao or faa
     alt = faa if icao and faa and 'K' + faa != icao else ''
+    pic = (r.get('icao_code') or gps).strip()
+    if not alt and state in ('AK', 'HI') and re.fullmatch(r'P[A-Z]{3}', pic):
+        alt = pic  # Alaska/Hawaii ICAO codes (e.g. PATK) as the alternate ID
     full = r['name'].strip()
     name = re.sub(r'\s*\bAirport\b\s*(?=-|$)', ' ', full).replace('  ', ' ').strip()
     if ' ' not in name.split(' - ')[0]:

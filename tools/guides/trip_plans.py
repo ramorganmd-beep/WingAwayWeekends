@@ -882,6 +882,24 @@ PLANS = {
     'oregon-coast': {
         'day': [('Arrive', 'Land at KAST mid-morning.'), ('Midday', 'The Columbia River Maritime Museum and lunch on the waterfront.'), ('Afternoon', 'The Astoria Column, then back to the airport.')],
         'extra': [('Morning', 'Haystack Rock at low tide.'), ('Afternoon', 'Ecola State Park.'), ('Evening', 'Dinner in Cannon Beach.')]},
+    'talkeetna-denali': {
+        'day': [('Arrive', 'Land at PATK mid-morning.'), ('Midday', 'A Denali flightseeing tour with a glacier landing.'), ('Afternoon', 'Main Street and pie at the Roadhouse, then back to the airport.')],
+        'extra': [('Morning', 'A river walk.'), ('Afternoon', 'A second flightseeing route or a float trip.'), ('Evening', 'Dinner at Denali Brewing.')]},
+    'homer': {
+        'day': [('Arrive', 'Land at PAHO or 5BL mid-morning.'), ('Midday', 'Lunch on the Spit.'), ('Afternoon', 'Eagles and otters at the harbor, then back to the airport.')],
+        'extra': [('Morning', 'A halibut charter.'), ('Afternoon', 'The ferry to Halibut Cove.'), ('Evening', 'Dinner at the Saltry.')]},
+    'seward': {
+        'day': [('Arrive', 'Land at PAWD early.'), ('Midday', 'A half-day glacier and wildlife cruise.'), ('Afternoon', 'The SeaLife Center, then back to the airport.')],
+        'extra': [('Morning', 'Exit Glacier.'), ('Afternoon', 'A longer fjords cruise.'), ('Evening', "Dinner at Ray's Waterfront.")]},
+    'ketchikan': {
+        'day': [('Arrive', 'Land at PAKT or 5KE mid-morning.'), ('Midday', 'Misty Fjords by floatplane.'), ('Afternoon', 'Creek Street, then back to the airport.')],
+        'extra': [('Morning', 'Totem Bight.'), ('Afternoon', 'Saxman totem poles.'), ('Evening', "Dinner at Annabelle's.")]},
+    'juneau': {
+        'day': [('Arrive', 'Land at PAJN mid-morning.'), ('Midday', 'Mendenhall Glacier and Nugget Falls.'), ('Afternoon', 'King crab downtown, then back to the airport.')],
+        'extra': [('Morning', 'Whale watching.'), ('Afternoon', 'The Mount Roberts tram.'), ('Evening', 'Dinner downtown.')]},
+    'fairbanks': {
+        'day': [('Arrive', 'Land at PAFA mid-morning.'), ('Midday', 'The Riverboat Discovery.'), ('Afternoon', 'Lunch on the river, then back to the airport.')],
+        'extra': [('Morning', 'Drive to Chena Hot Springs.'), ('Afternoon', 'A soak and the ice museum.'), ('Evening', 'Aurora watching (late August to April).')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
