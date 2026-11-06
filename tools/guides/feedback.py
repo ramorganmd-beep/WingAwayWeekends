@@ -51,5 +51,8 @@ for path in map(Path, sys.argv[1:]):
         brand = '<footer><a class="brand" href="#main">WingAway Weekends</a>'
         assert s.count(brand) == 1, path
         s = s.replace(brand, brand + f'<p class="feedback"><strong>Help us improve and grow.</strong> <a href="{link}">Suggest a correction or a destination</a></p>', 1)
+    tag = '<script src="/contact.js" defer></script>'
+    if tag not in s:
+        s = s.replace('</body>', tag + '</body>', 1)
     path.write_text(s)
     print('feedback link:', path)
