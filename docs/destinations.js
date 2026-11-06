@@ -4338,11 +4338,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Northern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "redwoods-rnsp", "alt": "Looking up the trunks of giant coast redwoods in Redwood National and State Parks"}
 },
 {
  "name": "Mount Shasta & McCloud",
@@ -4362,11 +4358,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Northern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "mount-shasta-peak", "alt": "Snow-capped Mount Shasta rising above pine forest"}
 },
 {
  "name": "Crater Lake & Klamath Falls",
@@ -4386,11 +4378,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "crater-lake-wizard-island", "alt": "Deep-blue Crater Lake and Wizard Island beneath snowy rim peaks"}
 },
 {
  "name": "Ashland & the Rogue Valley",
@@ -4410,11 +4398,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "ashland-varsity-theatre", "alt": "The art-deco Varsity Theatre on a downtown Ashland street"}
 },
 {
  "name": "Bend & Sunriver",
@@ -4435,10 +4419,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bend-whitewater-park", "alt": "Surfers and paddlers on the whitewater waves of the Deschutes River in Bend"}
 }
 ];
