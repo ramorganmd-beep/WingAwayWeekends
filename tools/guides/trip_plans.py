@@ -969,6 +969,9 @@ PLANS = {
     'bryce-canyon': {
         'day': [('Arrive', 'Land at KBCE mid-morning.'), ('Midday', 'Rim viewpoints.'), ('Afternoon', 'Part of the Navajo Loop, then back to the airport.')],
         'extra': [('Morning', 'Sunrise at Bryce Point.'), ('Afternoon', 'Scenic Byway 12.'), ('Evening', 'A ranger astronomy program.')]},
+    'eugene': {
+        'day': [('Arrive', 'Land at KEUG mid-morning.'), ('Midday', 'Lunch at the 5th Street Public Market.'), ('Afternoon', 'A walk up Skinner Butte, then back to the airport.')],
+        'extra': [('Morning', 'The Saturday Market.'), ('Afternoon', 'King Estate Winery.'), ('Evening', 'Dinner at Marché.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

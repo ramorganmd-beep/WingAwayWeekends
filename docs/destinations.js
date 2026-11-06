@@ -4681,5 +4681,29 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "photo": {"slug": "bryce-hoodoos", "alt": "Rows of orange hoodoo spires in Bryce Canyon"}
+},
+{
+ "name": "Eugene",
+ "state": "Oregon",
+ "airport": "KEUG",
+ "lat": 44.0521,
+ "lon": -123.0868,
+ "desc": "TrackTown USA: Hayward Field, the Saturday Market, the 5th Street Public Market, southern Willamette Valley wineries and the McKenzie River nearby.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Outdoors",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "eugene/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
