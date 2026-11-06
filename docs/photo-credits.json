@@ -6804,5 +6804,446 @@
     "sha256": "97448a0d57358ffb3dc6288631d97e3882ca44d548ca2c1f7af6dc914d3bcbe7"
    }
   ]
+ },
+ {
+  "destination": "Telluride",
+  "title": "Telluride's main street",
+  "photographer": "Woody Hibbard",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Telluride%27s_main_street.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Telluride%27s_main_street.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 782
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Brick storefronts on Telluride’s main street below green mountain peaks",
+  "files": [
+   {
+    "path": "dist/assets/destinations/telluride-main-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 60576,
+    "sha256": "ed2f76102be9b9c6d52ccb772e30baea431050077144c318f708760dc943705f"
+   },
+   {
+    "path": "dist/assets/destinations/telluride-main-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 66236,
+    "sha256": "5e2e2a1d514f7d378e99e721ee92f64828d79860db96ffa00e130512aca136e9"
+   },
+   {
+    "path": "dist/assets/destinations/telluride-main-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 268550,
+    "sha256": "f33749e0529658a63f97f05be42ba6bbe18fd3016cf40862ec8c1f23579d720c"
+   },
+   {
+    "path": "dist/assets/destinations/telluride-main-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 282679,
+    "sha256": "6868e6832d0e5be99e5d49b9cfb518bb67c34d422215bf6c7fd8389f1716e2e3"
+   }
+  ]
+ },
+ {
+  "destination": "Durango & Mesa Verde",
+  "title": "Steam engine on the Durango & Silverton Railroad sightseeing line, Durango, Colorado",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011635034/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:16800:16841/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1563,
+   "height": 1235
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A Durango & Silverton narrow-gauge steam locomotive",
+  "files": [
+   {
+    "path": "dist/assets/destinations/durango-silverton-steam-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26854,
+    "sha256": "7bd5583592d504087379497a5b96c0773a45566ee30d8d491787f2dcda428f47"
+   },
+   {
+    "path": "dist/assets/destinations/durango-silverton-steam-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 36012,
+    "sha256": "f4409f64dc696d8d3c702cd83603123644e79b2f48da74a9f871b7303f8157b4"
+   },
+   {
+    "path": "dist/assets/destinations/durango-silverton-steam-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 82966,
+    "sha256": "17985a2cfe6079d8c4461ee3bdc6f75df42529bdce8285b414c3e1c5f5ae7fd5"
+   },
+   {
+    "path": "dist/assets/destinations/durango-silverton-steam-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 119858,
+    "sha256": "b9b19ab0d009338b8c2d17889a00f42ab95721f8496fdf741c126621b376fb73"
+   }
+  ]
+ },
+ {
+  "destination": "Steamboat Springs",
+  "title": "Snowy Steamboat Springs, Colorado",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017686598/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:36100:36115/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2582,
+   "height": 1940
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Snow-covered Steamboat Springs in a mountain valley",
+  "files": [
+   {
+    "path": "dist/assets/destinations/steamboat-springs-snow-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 22076,
+    "sha256": "d55799e4374717cabaaf68bfb5a8dfb2f74fe96bfcb11ed2f6017b5f479cdf9a"
+   },
+   {
+    "path": "dist/assets/destinations/steamboat-springs-snow-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 30536,
+    "sha256": "887d7878abb74efe53f54dbca0c153700d5f7a4d3303bf60f3409f6f20fc6188"
+   },
+   {
+    "path": "dist/assets/destinations/steamboat-springs-snow-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 75554,
+    "sha256": "342310fd45badc8891c1f1939e2172e84e6f7e6f6d6cc448f69dfda490cb30e4"
+   },
+   {
+    "path": "dist/assets/destinations/steamboat-springs-snow-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 105889,
+    "sha256": "490c6d97f889fe51c934018a2d1e6c7d9f9dd860a8221b14985769f7837ca29a"
+   }
+  ]
+ },
+ {
+  "destination": "Colorado Springs & the Broadmoor",
+  "title": "Aerial view of the historic Broadmoor Hotel and Resort and surroundings in Colorado Springs, Colorado",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017885302/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:48600:48672/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1930,
+   "height": 1325
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Aerial view of the Broadmoor resort and its lake below Cheyenne Mountain",
+  "files": [
+   {
+    "path": "dist/assets/destinations/broadmoor-aerial-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 53524,
+    "sha256": "21a8b34d441b9c748c32ba292f740aba8b14e0f8e7f942f74296658e8742349b"
+   },
+   {
+    "path": "dist/assets/destinations/broadmoor-aerial-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56922,
+    "sha256": "a82e7791b20223f581b6eef58e500d25bf787c1483b0f80d13db886a80839345"
+   },
+   {
+    "path": "dist/assets/destinations/broadmoor-aerial-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 185284,
+    "sha256": "9e25d97a3497f1edf0dd81bdcdbf483948105c52ec2d28ad0022f5c8efe21237"
+   },
+   {
+    "path": "dist/assets/destinations/broadmoor-aerial-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 204873,
+    "sha256": "22c294022831f277a58443671a000ff761348e1645af8c9debdfce716d754aa1"
+   }
+  ]
+ },
+ {
+  "destination": "Estes Park & Rocky Mountain National Park",
+  "title": "The Stanley Hotel in Estes Park, a town on the eastern edge of Rocky Mountain National Park in north-central Colorado",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2015633407/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:33300:33392/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2151,
+   "height": 1042
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The white Stanley Hotel above Estes Park with mountains behind",
+  "files": [
+   {
+    "path": "dist/assets/destinations/stanley-hotel-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26792,
+    "sha256": "c93e921929c26dfd14349ebc665459ab9104b58f5d2af6dfa00284b8afbe1960"
+   },
+   {
+    "path": "dist/assets/destinations/stanley-hotel-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 36240,
+    "sha256": "1deab056d16de865a6df9bf427a953ecb4d0503aec19c350d34acc4a0acc776a"
+   },
+   {
+    "path": "dist/assets/destinations/stanley-hotel-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 88070,
+    "sha256": "b76d0b4044008c2a8ad890960c0bcb67faa004fb57c92ce571fe15801b5f7e80"
+   },
+   {
+    "path": "dist/assets/destinations/stanley-hotel-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 125425,
+    "sha256": "9e5dc97a87fa765cb1fb264acccbde8db165736e545e5a5d08b591614dc8ec08"
+   }
+  ]
+ },
+ {
+  "destination": "Crested Butte",
+  "title": "View of Meridian Lake and Mount Crested Butte above the Colorado city of Crested Butte on the high, dirt Washington Gulch Road in Gunnison County, Colorado",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017885589/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:48900:48959/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2172,
+   "height": 1448
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Meridian Lake below the peak of Mount Crested Butte",
+  "files": [
+   {
+    "path": "dist/assets/destinations/crested-butte-meridian-lake-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 32526,
+    "sha256": "cb0399397e4a15c9264a846e65ae482b1066b1ea9838293d07625b7fb49d82f8"
+   },
+   {
+    "path": "dist/assets/destinations/crested-butte-meridian-lake-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 40081,
+    "sha256": "306fa10f9a755187fc79b02c9a22203914ff9a0c6c645840205767779e9a04c1"
+   },
+   {
+    "path": "dist/assets/destinations/crested-butte-meridian-lake-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 117168,
+    "sha256": "2eaabd20d5d3cfea332b2e25129ae21a9ae4521b6b9b1fb2c8985a63adb708c7"
+   },
+   {
+    "path": "dist/assets/destinations/crested-butte-meridian-lake-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 146832,
+    "sha256": "ba8569524d6593f6dccc9e4e0743b6c1d4b7f5ff2815f86e21e3cd24dfd90743"
+   }
+  ]
+ },
+ {
+  "destination": "Park City",
+  "title": "View on Main Street in Park City Utah",
+  "photographer": "Saalebaer",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:View_on_Main_Street_in_Park_City_Utah.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/35/View_on_Main_Street_in_Park_City_Utah.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Colorful historic storefronts on Park City’s Main Street",
+  "files": [
+   {
+    "path": "dist/assets/destinations/park-city-main-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34638,
+    "sha256": "b9d6524d9356195275ba2f9ee4a6fe7ea01e90dc6b1f0ba6908953800029d1c1"
+   },
+   {
+    "path": "dist/assets/destinations/park-city-main-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43400,
+    "sha256": "3200955bd8db9719507cbd583a5d1e0706f532ff663b2def413d1636381734e7"
+   },
+   {
+    "path": "dist/assets/destinations/park-city-main-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 137804,
+    "sha256": "d06fe13d4042c7cac6aee4e28779e5a4b2ac1de0e13d93a2a1b718c0825b2d45"
+   },
+   {
+    "path": "dist/assets/destinations/park-city-main-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 169583,
+    "sha256": "0b5f30cb67c8e9d40d7263077a995f57bfe949cc6af6a085e07cb216b5bd7a2b"
+   }
+  ]
+ },
+ {
+  "destination": "Zion National Park & Springdale",
+  "title": "Zion National Park, Utah",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011633447/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:15200:15254/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1818,
+   "height": 1441
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Towering sandstone cliffs in Zion National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/zion-cliffs-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 44660,
+    "sha256": "e3357f5c6f88363507ad06e99ff3ead427df1e64f19c542cdbb66dbd87229c60"
+   },
+   {
+    "path": "dist/assets/destinations/zion-cliffs-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50239,
+    "sha256": "7f8c30e36bdc96cec97d354f13c14022fb7112d236fde98c13bf0991eac655f2"
+   },
+   {
+    "path": "dist/assets/destinations/zion-cliffs-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 155962,
+    "sha256": "38ea582ddb9b69bf0fc10bd4a1eb572b4de1f52d63d340799ad6839ea89db843"
+   },
+   {
+    "path": "dist/assets/destinations/zion-cliffs-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 182492,
+    "sha256": "5093eee5f2c66009b6c647350111d43e5afb981edf9ca4f71bf6e884808358ee"
+   }
+  ]
+ },
+ {
+  "destination": "Bryce Canyon",
+  "title": "Procession of 'hoodoo' formations in Bryce Canyon National Park in Utah",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011631987/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:13700:13793/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1842,
+   "height": 1445
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Rows of orange hoodoo spires in Bryce Canyon",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bryce-hoodoos-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 61352,
+    "sha256": "8aa679d692bbd55aba18949c3ff327373448533f8ac9538bfc72001399f04b48"
+   },
+   {
+    "path": "dist/assets/destinations/bryce-hoodoos-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 66474,
+    "sha256": "9550b9726b1e13e166228c92bb7a1f39266ca039b2d21bdb96a23d9d544c8f35"
+   },
+   {
+    "path": "dist/assets/destinations/bryce-hoodoos-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 206560,
+    "sha256": "eae2e93cf4d2f7e8761a60732ffc58e1c70b6d28ab21b9493a85fbaed3139d61"
+   },
+   {
+    "path": "dist/assets/destinations/bryce-hoodoos-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 232658,
+    "sha256": "36f53a5ae62c167d601d65bf7e19022d62cb9620e5a5ef62ac5a445c45751fe9"
+   }
+  ]
  }
 ]

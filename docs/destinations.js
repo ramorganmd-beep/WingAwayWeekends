@@ -4522,10 +4522,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "telluride-main-street", "alt": "Brick storefronts on Telluride’s main street below green mountain peaks"}
 },
 {
  "name": "Durango & Mesa Verde",
@@ -4546,10 +4543,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "durango-silverton-steam", "alt": "A Durango & Silverton narrow-gauge steam locomotive"}
 },
 {
  "name": "Steamboat Springs",
@@ -4570,10 +4564,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "steamboat-springs-snow", "alt": "Snow-covered Steamboat Springs in a mountain valley"}
 },
 {
  "name": "Colorado Springs & the Broadmoor",
@@ -4595,10 +4586,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "broadmoor-aerial", "alt": "Aerial view of the Broadmoor resort and its lake below Cheyenne Mountain"}
 },
 {
  "name": "Estes Park & Rocky Mountain National Park",
@@ -4619,10 +4607,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "stanley-hotel", "alt": "The white Stanley Hotel above Estes Park with mountains behind"}
 },
 {
  "name": "Crested Butte",
@@ -4642,10 +4627,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "crested-butte-meridian-lake", "alt": "Meridian Lake below the peak of Mount Crested Butte"}
 },
 {
  "name": "Park City",
@@ -4667,10 +4649,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "park-city-main-street", "alt": "Colorful historic storefronts on Park City’s Main Street"}
 },
 {
  "name": "Zion National Park & Springdale",
@@ -4690,10 +4669,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "zion-cliffs", "alt": "Towering sandstone cliffs in Zion National Park"}
 },
 {
  "name": "Bryce Canyon",
@@ -4713,9 +4689,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bryce-hoodoos", "alt": "Rows of orange hoodoo spires in Bryce Canyon"}
 }
 ];
