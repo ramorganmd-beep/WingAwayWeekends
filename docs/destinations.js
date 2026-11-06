@@ -5246,5 +5246,284 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "photo": {"slug": "port-townsend-palace-hotel", "alt": "The flower-trimmed entrance of the 1889 Palace Hotel in Port Townsend"}
+},
+{
+ "name": "Solvang & Santa Ynez Valley",
+ "state": "California",
+ "airport": "IZA",
+ "lat": 34.5958,
+ "lon": -120.1376,
+ "desc": "A Danish village and Sideways wine country: windmills and pastries, Los Olivos tasting rooms, the Hitching Post and a historic mission.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Stays",
+  "Romance",
+  "History"
+ ],
+ "guide": "solvang/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Temecula Wine Country",
+ "state": "California",
+ "airport": "F70",
+ "lat": 33.4936,
+ "lon": -117.1484,
+ "desc": "Southern California wine country: more than 40 wineries, winery resorts with spas, an Old West Old Town and sunrise balloon rides.",
+ "tags": [
+  "Wine",
+  "Stays",
+  "Spa",
+  "Dining",
+  "Romance"
+ ],
+ "guide": "temecula/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Big Bear Lake",
+ "state": "California",
+ "airport": "L35",
+ "lat": 34.2439,
+ "lon": -116.9114,
+ "desc": "A mountain lake at 6,750 feet above Los Angeles: skiing and an alpine slide, a lakeside village and cabins in the pines.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "big-bear/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ojai",
+ "state": "California",
+ "airport": "KOXR",
+ "lat": 34.448,
+ "lon": -119.2429,
+ "desc": "A quiet, artsy valley town: the Ojai Valley Inn, an open-air bookstore, pink-moment sunsets and a vintage-aircraft museum at Santa Paula.",
+ "tags": [
+  "Spa",
+  "Stays",
+  "Romance",
+  "Aviation museums",
+  "Scenic views"
+ ],
+ "guide": "ojai/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Wickenburg Dude Ranches",
+ "state": "Arizona",
+ "airport": "E25",
+ "lat": 33.9686,
+ "lon": -112.7296,
+ "desc": "Arizona's dude-ranch capital: desert horseback rides, cowboy cookouts and a fine Western art museum, close to the airport.",
+ "tags": [
+  "Outdoors",
+  "Stays",
+  "History",
+  "Golf"
+ ],
+ "guide": "wickenburg/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Payson & the Mogollon Rim",
+ "state": "Arizona",
+ "airport": "KPAN",
+ "lat": 34.2309,
+ "lon": -111.3251,
+ "desc": "A cool pine-country escape below the Mogollon Rim: Tonto Natural Bridge, Zane Grey's cabin and a café on the airport.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "History"
+ ],
+ "guide": "payson/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Havasu & the London Bridge",
+ "state": "Arizona",
+ "airport": "KHII",
+ "lat": 34.4839,
+ "lon": -114.3225,
+ "desc": "A desert lake town with the original London Bridge: boating, beach resorts, brewpubs and winter sunshine.",
+ "tags": [
+  "Lake",
+  "Beach",
+  "Outdoors",
+  "Dining"
+ ],
+ "guide": "lake-havasu/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Round Top & Brenham",
+ "state": "Texas",
+ "airport": "11R",
+ "lat": 30.0652,
+ "lon": -96.6961,
+ "desc": "Bluebonnet country: Round Top's antiques shows, Festival Hill concerts, Royers pie, a historic inn and Blue Bell in Brenham.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "round-top/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Crystal River & the Manatees",
+ "state": "Florida",
+ "airport": "KCGC",
+ "lat": 28.9025,
+ "lon": -82.5926,
+ "desc": "Swim with wild manatees: Three Sisters Springs, spring-fed rivers, Homosassa Springs and a waterfront resort.",
+ "tags": [
+  "Outdoors",
+  "Lake",
+  "Stays",
+  "Golf"
+ ],
+ "guide": "crystal-river/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Anna Maria Island",
+ "state": "Florida",
+ "airport": "KSRQ",
+ "lat": 27.5292,
+ "lon": -82.7309,
+ "desc": "A laid-back Gulf island with no high-rises: white-sand beaches, a free trolley, old piers and beachfront dining.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "anna-maria-island/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bear Lake",
+ "state": "Idaho",
+ "airport": "1U7",
+ "lat": 41.95,
+ "lon": -111.4,
+ "desc": "The Caribbean of the Rockies: a turquoise lake, raspberry shakes, glamping, Minnetonka Cave and Logan Canyon.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views"
+ ],
+ "guide": "bear-lake/",
+ "stateCode": "ID",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Red Lodge & the Beartooth Highway",
+ "state": "Montana",
+ "airport": "KRED",
+ "lat": 45.1858,
+ "lon": -109.2468,
+ "desc": "An old mining town at the foot of the Beartooth Highway: the 1893 Pollard Hotel, a brewery, skiing and a wildlife sanctuary.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "History",
+  "Stays"
+ ],
+ "guide": "red-lodge/",
+ "stateCode": "MT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

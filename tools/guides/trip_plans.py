@@ -1056,6 +1056,42 @@ PLANS = {
     'port-townsend': {
         'day': [('Arrive', 'Land at 0S9 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'solvang': {
+        'day': [('Arrive', 'Land at IZA mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'temecula': {
+        'day': [('Arrive', 'Land at F70 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'big-bear': {
+        'day': [('Arrive', 'Land at L35 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'ojai': {
+        'day': [('Arrive', 'Land at KOXR mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'wickenburg': {
+        'day': [('Arrive', 'Land at E25 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'payson': {
+        'day': [('Arrive', 'Land at KPAN mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'lake-havasu': {
+        'day': [('Arrive', 'Land at KHII mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'round-top': {
+        'day': [('Arrive', 'Land at 11R mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'crystal-river': {
+        'day': [('Arrive', 'Land at KCGC mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'anna-maria-island': {
+        'day': [('Arrive', 'Land at KSRQ mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'bear-lake': {
+        'day': [('Arrive', 'Land at 1U7 mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'red-lodge': {
+        'day': [('Arrive', 'Land at KRED mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
