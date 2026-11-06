@@ -5053,7 +5053,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "coeur-dalene-resort", "alt": "The Coeur d’Alene Resort tower and marina on the lakeshore"}
 },
 {
@@ -5074,7 +5073,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "mccall-payette-lake", "alt": "A sandy beach and lakeside path on Payette Lake in McCall"}
 },
 {
@@ -5094,7 +5092,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "sandpoint-city-beach", "alt": "City Beach on Lake Pend Oreille in Sandpoint, with mountains across the water"}
 },
 {
@@ -5114,7 +5111,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WY",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "cody-old-trail-town", "alt": "Weathered log cabins and old wagons at Old Trail Town in Cody"}
 },
 {
@@ -5134,7 +5130,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WY",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "sheridan-inn", "alt": "The long porch and dormered roof of the 1893 Sheridan Inn, with a bronze dancing couple on the lawn"}
 },
 {
@@ -5154,7 +5149,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WY",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "snowy-range-lake-marie", "alt": "Lake Marie below the peaks of Wyoming’s Snowy Range"}
 },
 {
@@ -5174,7 +5168,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "seattle-elliott-bay", "alt": "The Space Needle and Seattle waterfront seen from Elliott Bay"}
 },
 {
@@ -5194,7 +5187,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "walla-walla-pioneer-park", "alt": "A pond and gardens at Pioneer Park in Walla Walla"}
 },
 {
@@ -5215,7 +5207,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "leavenworth-front-street", "alt": "Bavarian-style buildings on Leavenworth’s main street with Cascade peaks behind"}
 },
 {
@@ -5235,7 +5226,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "stehekin-lake-chelan", "alt": "The head of Lake Chelan at Stehekin between steep forested mountains"}
 },
 {
@@ -5255,7 +5245,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WA",
  "region": "Pacific Northwest",
  "family": true,
- "draft": true,
  "photo": {"slug": "port-townsend-palace-hotel", "alt": "The flower-trimmed entrance of the 1889 Palace Hotel in Port Townsend"}
 }
 ];
