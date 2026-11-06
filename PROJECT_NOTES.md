@@ -451,3 +451,4 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 ## Newsletter (November 6, 2026)
 - Buttondown username: wingawayweekends. tools/guides/newsletter.py inserts the signup box above the footer (idempotent markers). Add it to the per-guide build loop after feedback.py: personalize trip_plans luxury maplinks feedback newsletter.
 - Held off main until the owner changes the Buttondown newsletter email from the personal Gmail to hello@wingawayweekends.com (it was visible in Buttondown page source).
+- Elkhart Lake: updates requested by The Osthoff Resort & Spa (Nov 6, 2026): official name, Concourse replaces Lola’s on the Lake, spa wording (no lake view).

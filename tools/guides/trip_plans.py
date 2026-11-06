@@ -722,7 +722,7 @@ PLANS = {
         'extra': [('Morning', 'Bike the Bearskin Trail.'), ('Afternoon', 'Wildwood Wildlife Park.'), ('Evening', 'The Min-Aqua Bats show.')]},
     'elkhart-lake': {
         'day': [('Arrive', 'Land at KSBM early.'), ('Midday', 'Swim at the village beach.'), ('Afternoon', 'Lunch at Off the Rail, then back to the airport.')],
-        'extra': [('Morning', 'Aspira Spa.'), ('Afternoon', 'Road America.'), ('Evening', 'Dinner at Lola’s on the Lake.')]},
+        'extra': [('Morning', 'Aspira Spa.'), ('Afternoon', 'Road America.'), ('Evening', 'Dinner at Concourse.')]},
     'wisconsin-dells': {
         'day': [('Arrive', 'Land at KDLL early.'), ('Midday', 'Hike the bluffs at Devil’s Lake.'), ('Afternoon', 'A Duck tour, then back to the airport.')],
         'extra': [('Morning', 'Paddle Mirror Lake.'), ('Afternoon', 'The International Crane Foundation.'), ('Evening', 'Sunset dinner at Ishnala.')]},
