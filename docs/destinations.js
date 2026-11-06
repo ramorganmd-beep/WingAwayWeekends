@@ -4029,5 +4029,101 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northern California",
  "family": true,
  "photo": {"slug": "san-francisco", "remote": "https://images.unsplash.com/photo-1450149632596-3ef25a62011a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjM0fA&ixlib=rb-4.1.0", "alt": "The Golden Gate Bridge glowing at golden hour", "pos": "50% 50%"}
+},
+{
+ "name": "San Juan Islands",
+ "state": "Washington",
+ "airport": "KFHR",
+ "lat": 48.5343,
+ "lon": -123.0171,
+ "desc": "Island-hop in the Salish Sea: walkable Friday Harbor, orca watching, lavender farms, Roche Harbor's marina resort and a seaplane base in town.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Stays",
+  "History",
+  "Romance"
+ ],
+ "guide": "san-juan-islands/",
+ "stateCode": "WA",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hood River & the Columbia Gorge",
+ "state": "Oregon",
+ "airport": "4S2",
+ "lat": 45.7054,
+ "lon": -121.5215,
+ "desc": "A wind-sports town in the Columbia Gorge with flying antique airplanes at WAAAM on the airport, the Fruit Loop's orchards and wineries, and waterfalls.",
+ "tags": [
+  "Aviation museums",
+  "Wine",
+  "Outdoors",
+  "Scenic views",
+  "Dining"
+ ],
+ "guide": "hood-river/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Willamette Valley Wine Country",
+ "state": "Oregon",
+ "airport": "KMMV",
+ "lat": 45.2098,
+ "lon": -123.1987,
+ "desc": "Oregon Pinot Noir country around McMinnville, with the Spruce Goose next to the airport, a luxury wine resort and the Dundee Hills.",
+ "tags": [
+  "Wine",
+  "Aviation museums",
+  "Dining",
+  "Spa",
+  "Stays"
+ ],
+ "guide": "willamette-valley/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Astoria & Cannon Beach",
+ "state": "Oregon",
+ "airport": "KAST",
+ "lat": 45.8918,
+ "lon": -123.9615,
+ "desc": "Where the Columbia meets the Pacific: Astoria's river town and maritime museum, Fort Clatsop, and Cannon Beach's Haystack Rock and oceanfront inns.",
+ "tags": [
+  "Beach",
+  "History",
+  "Scenic views",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "oregon-coast/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
