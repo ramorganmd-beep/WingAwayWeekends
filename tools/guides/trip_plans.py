@@ -999,6 +999,30 @@ PLANS = {
     'white-sands': {
         'day': [('Arrive', 'Land at KALM early.'), ('Midday', 'White Sands dunes.'), ('Afternoon', 'Museum of Space History, then back to the airport.')],
         'extra': [('Morning', 'Sled the dunes.'), ('Afternoon', 'Drive up to Cloudcroft.'), ('Evening', 'Dinner at The Lodge.')]},
+    'austin': {
+        'day': [('Arrive', 'Land at KAUS mid-morning.'), ('Midday', 'Barbecue for lunch.'), ('Afternoon', 'Barton Springs, then back to the airport.')],
+        'extra': [('Morning', 'The Capitol and LBJ Library.'), ('Afternoon', 'South Congress.'), ('Evening', 'Dinner at Uchi and live music.')]},
+    'horseshoe-bay': {
+        'day': [('Arrive', 'Land at KDZB mid-morning.'), ('Midday', 'Lunch at the resort.'), ('Afternoon', 'The lake beach, then back to the airport.')],
+        'extra': [('Morning', 'Golf.'), ('Afternoon', 'A boat on Lake LBJ.'), ('Evening', 'Dinner at the resort.')]},
+    'port-aransas': {
+        'day': [('Arrive', 'Land at RAS mid-morning.'), ('Midday', 'Seafood lunch by the harbor.'), ('Afternoon', 'The beach, then back to the airport.')],
+        'extra': [('Morning', 'A fishing charter.'), ('Afternoon', 'Mustang Island State Park.'), ('Evening', "Dinner at Virginia's on the Bay.")]},
+    'jefferson': {
+        'day': [('Arrive', 'Land at 24F mid-morning.'), ('Midday', 'Lunch downtown.'), ('Afternoon', 'Caddo Lake, then back to the airport.')],
+        'extra': [('Morning', 'Caddo Lake by boat.'), ('Afternoon', 'Antique shops.'), ('Evening', 'Barbecue at Riverport.')]},
+    'palo-duro-canyon': {
+        'day': [('Arrive', 'Land at KAMA early.'), ('Midday', 'Palo Duro Canyon.'), ('Afternoon', "Lunch at Tyler's, then back to the airport.")],
+        'extra': [('Morning', 'Hike to the Lighthouse.'), ('Afternoon', 'Panhandle-Plains Historical Museum.'), ('Evening', 'The TEXAS musical.')]},
+    'new-braunfels': {
+        'day': [('Arrive', 'Land at KBAZ mid-morning.'), ('Midday', 'Lunch at the Gristmill.'), ('Afternoon', 'Walk Gruene, then back to the airport.')],
+        'extra': [('Morning', 'Tube the Comal.'), ('Afternoon', 'Downtown New Braunfels.'), ('Evening', 'Gruene Hall.')]},
+    'waco': {
+        'day': [('Arrive', 'Land at KACT mid-morning.'), ('Midday', 'The Silos.'), ('Afternoon', 'The Dr Pepper Museum, then back to the airport.')],
+        'extra': [('Morning', 'Breakfast at Magnolia Table.'), ('Afternoon', 'Waco Mammoth National Monument.'), ('Evening', 'Dinner downtown.')]},
+    'granbury': {
+        'day': [('Arrive', 'Land at KGDJ mid-morning.'), ('Midday', 'Lunch on the square.'), ('Afternoon', 'Lake Granbury, then back to the airport.')],
+        'extra': [('Morning', 'Dinosaur Valley State Park.'), ('Afternoon', 'Shops on the square.'), ('Evening', 'A show at the Opera House.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
