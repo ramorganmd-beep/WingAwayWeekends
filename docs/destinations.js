@@ -3969,10 +3969,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northern California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "napa-sonoma", "remote": "https://images.unsplash.com/photo-1656873593110-58a8b76823b5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjI2fA&ixlib=rb-4.1.0", "alt": "Rows of vines stretching across Napa Valley toward the hills", "pos": "50% 50%"}
 },
 {
  "name": "Lake Tahoe & Truckee",
@@ -3993,10 +3990,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northern California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-tahoe", "remote": "https://images.unsplash.com/photo-1466576126689-233348602fb4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMzk1fA&ixlib=rb-4.1.0", "alt": "Wooden piers reaching into clear Lake Tahoe beneath the mountains", "pos": "50% 50%"}
 },
 {
  "name": "Mendocino Coast",
@@ -4018,10 +4012,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northern California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "mendocino", "remote": "https://images.unsplash.com/photo-1671919765599-fbdcef609392?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjMxfA&ixlib=rb-4.1.0", "alt": "Cliffs, a cove and beach on the Mendocino coast", "pos": "50% 50%"}
 },
 {
  "name": "San Francisco",

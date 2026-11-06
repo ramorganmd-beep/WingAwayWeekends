@@ -2389,40 +2389,43 @@
     "credit_html": "Photo by <a href=\"https://unsplash.com/@madbyte?utm_source=wingaway_weekends&utm_medium=referral\">Vladimir Kudinov</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/aerial-view-photography-of-mountain-near-body-of-water-5ZGz09tKguM?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "napa-sonoma": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1656873593110-58a8b76823b5?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjI2fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Rows of vines stretching across Napa Valley toward the hills",
     "w": 960,
     "h": 720,
-    "caption": "Napa & Sonoma Wine Country (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Vineyard rows in Napa Valley.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@weekendtripcreator?utm_source=wingaway_weekends&utm_medium=referral\">Lisha Riabinina</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/rows-of-trees-in-a-field-7WYOqn4XhGc?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "lake-tahoe": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1466576126689-233348602fb4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMzk1fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Wooden piers reaching into clear Lake Tahoe beneath the mountains",
     "w": 960,
     "h": 720,
-    "caption": "Lake Tahoe & Truckee (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Piers on Lake Tahoe.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@ampedimagery?utm_source=wingaway_weekends&utm_medium=referral\">Artur Westergren</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/body-of-water-near-mountain-U9U7wvIm0gY?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "mendocino": {
-    "slug": "tavares-depot",
+    "slug": "https://images.unsplash.com/photo-1671919765599-fbdcef609392?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjMxfA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Cliffs, a cove and beach on the Mendocino coast",
     "w": 960,
     "h": 720,
-    "caption": "Mendocino Coast (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "The headlands at Mendocino.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@diklein?utm_source=wingaway_weekends&utm_medium=referral\">David Klein</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-beach-with-houses-in-the-background-A65GqVtnpRU?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "san-francisco": {
     "slug": "tavares-depot",

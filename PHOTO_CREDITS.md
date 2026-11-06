@@ -1379,3 +1379,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Carnegie_Library%2C_Paso_Robles.jpg
 - License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Napa & Sonoma Wine Country
+
+- Photo by Lisha Riabinina on Unsplash — https://unsplash.com/photos/rows-of-trees-in-a-field-7WYOqn4XhGc
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Napa Valley
+
+## Lake Tahoe & Truckee
+
+- Photo by Artur Westergren on Unsplash — https://unsplash.com/photos/body-of-water-near-mountain-U9U7wvIm0gY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Lake Tahoe
+
+## Mendocino Coast
+
+- Photo by David Klein on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-with-houses-in-the-background-A65GqVtnpRU
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Mendocino
