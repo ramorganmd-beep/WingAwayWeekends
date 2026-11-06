@@ -2609,63 +2609,63 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "redwood-coast": {
-    "slug": "tavares-depot",
+    "slug": "redwoods-rnsp",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Looking up the trunks of giant coast redwoods in Redwood National and State Parks",
     "w": 960,
     "h": 720,
-    "caption": "Redwood Coast (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Coast redwoods, Redwood National and State Parks.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2013632243/\">The Redwood National and State Parks (RNSP) along the coast of northern California</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "mount-shasta": {
-    "slug": "tavares-depot",
+    "slug": "mount-shasta-peak",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Snow-capped Mount Shasta rising above pine forest",
     "w": 960,
     "h": 720,
-    "caption": "Mount Shasta & McCloud (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Mount Shasta, 14,162 feet.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011633490/\">Mount Shasta, at 14,162 feet the highest peak in the California Cascades</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "crater-lake": {
-    "slug": "tavares-depot",
+    "slug": "crater-lake-wizard-island",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Deep-blue Crater Lake and Wizard Island beneath snowy rim peaks",
     "w": 960,
     "h": 720,
-    "caption": "Crater Lake & Klamath Falls (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "Crater Lake and Wizard Island.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2018698096/\">Crystal-clear Crater Lake in Klamath County, Oregon</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "ashland": {
-    "slug": "tavares-depot",
+    "slug": "ashland-varsity-theatre",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "The art-deco Varsity Theatre on a downtown Ashland street",
     "w": 960,
     "h": 720,
-    "caption": "Ashland & the Rogue Valley (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "The Varsity Theatre in downtown Ashland.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2018698088/\">The Varsity Theatre in Ashland, Oregon</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "bend-sunriver": {
-    "slug": "tavares-depot",
+    "slug": "bend-whitewater-park",
     "widths": [
       480,
       960
     ],
-    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "alt": "Surfers and paddlers on the whitewater waves of the Deschutes River in Bend",
     "w": 960,
     "h": 720,
-    "caption": "Bend & Sunriver (illustration)",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+    "caption": "The whitewater park on the Deschutes River in Bend.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2018698253/\">Water lovers enjoy several ways of tackling fairly tame rapids at a city-constructed whitewater park in Bend, Oregon</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   }
 }

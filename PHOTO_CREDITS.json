@@ -6069,5 +6069,250 @@
     "sha256": "9938538bcf7dd9a74b1994ac121ecffd5cfbb38ec7dd56e6be977f65ae8af489"
    }
   ]
+ },
+ {
+  "destination": "Redwood Coast",
+  "title": "The Redwood National and State Parks (RNSP) along the coast of northern California",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2013632243/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:21700:21783/full/!1600,1600/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1600,
+   "height": 1067
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Looking up the trunks of giant coast redwoods in Redwood National and State Parks",
+  "files": [
+   {
+    "path": "dist/assets/destinations/redwoods-rnsp-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 62356,
+    "sha256": "2670286f22bb2b4208a618c5f907c1824962007a8afd16f12bf00ab3f179bad5"
+   },
+   {
+    "path": "dist/assets/destinations/redwoods-rnsp-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 64888,
+    "sha256": "dec0b306fcd515c0d35e903a919857a15f8f662bf2ca49373496ca8803812884"
+   },
+   {
+    "path": "dist/assets/destinations/redwoods-rnsp-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 225586,
+    "sha256": "a5bca1d4549cb39f9cf6b8bb92c790ed6a5c641d9367545787bce77d880fe376"
+   },
+   {
+    "path": "dist/assets/destinations/redwoods-rnsp-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 240587,
+    "sha256": "c68126204210377bb1bf21578f77f78b7d014e9342e92d1aa4b99b3b01858d64"
+   }
+  ]
+ },
+ {
+  "destination": "Mount Shasta & McCloud",
+  "title": "Mount Shasta, at 14,162 feet the highest peak in the California Cascades",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011633490/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:15200:15297/full/!1600,1600/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1314,
+   "height": 1600
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Snow-capped Mount Shasta rising above pine forest",
+  "files": [
+   {
+    "path": "dist/assets/destinations/mount-shasta-peak-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 29958,
+    "sha256": "290c3a07ca40973fed02480caf8e2f889148bef8b12f15467517761c77e0d23e"
+   },
+   {
+    "path": "dist/assets/destinations/mount-shasta-peak-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 37273,
+    "sha256": "b29823e6e61f0b5b5f156f28e65ff0b6469c7a06d6418a0ca963313f5e7f4231"
+   },
+   {
+    "path": "dist/assets/destinations/mount-shasta-peak-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 99030,
+    "sha256": "f7b4e97985703f96bd7127319667996e1292c88616bd96702f8791b59ddabefd"
+   },
+   {
+    "path": "dist/assets/destinations/mount-shasta-peak-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 130666,
+    "sha256": "e775422e8a78a6baec9521e051fb96e9ebc4d1b9612661b75b7779fd4026b320"
+   }
+  ]
+ },
+ {
+  "destination": "Crater Lake & Klamath Falls",
+  "title": "Crystal-clear Crater Lake in Klamath County, Oregon",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018698096/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/49800/49894v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 692
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Deep-blue Crater Lake and Wizard Island beneath snowy rim peaks",
+  "files": [
+   {
+    "path": "dist/assets/destinations/crater-lake-wizard-island-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 31258,
+    "sha256": "a907bfccf38f89aabf96ea925053271093f75233c66f002140485750982b0c4d"
+   },
+   {
+    "path": "dist/assets/destinations/crater-lake-wizard-island-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 39971,
+    "sha256": "ff8a51e68b04f49cb1639a8862c9d87766f44255cc609952cd8559c7f66ce336"
+   },
+   {
+    "path": "dist/assets/destinations/crater-lake-wizard-island-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 113750,
+    "sha256": "7332164988d444d6da61a14cf3847eeaabce1dee6f9f4cbf622bf8c8e9cc2998"
+   },
+   {
+    "path": "dist/assets/destinations/crater-lake-wizard-island-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 143875,
+    "sha256": "4c38eeb99d99121b44ccb780ccd140741370c85002404a10b1e1f21434ceaa23"
+   }
+  ]
+ },
+ {
+  "destination": "Ashland & the Rogue Valley",
+  "title": "The Varsity Theatre in Ashland, Oregon",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018698088/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/49800/49886v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 797
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The art-deco Varsity Theatre on a downtown Ashland street",
+  "files": [
+   {
+    "path": "dist/assets/destinations/ashland-varsity-theatre-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34860,
+    "sha256": "834675e3060bfeab2c53ddadb9d84bf117584898264ee3c484ab39135200624f"
+   },
+   {
+    "path": "dist/assets/destinations/ashland-varsity-theatre-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 44144,
+    "sha256": "d0a95457f7d0bf7753f5796d5b068282aa6d0300325c02c0d783a27954c0f615"
+   },
+   {
+    "path": "dist/assets/destinations/ashland-varsity-theatre-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 126324,
+    "sha256": "dac4151a2182fb2f6d2df14ce7b7ee7ef38dd008441b52f4c1c54f037cbfe01b"
+   },
+   {
+    "path": "dist/assets/destinations/ashland-varsity-theatre-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 159037,
+    "sha256": "e6483191d50e7ebab0139240853421fbb7fa236b38db29d595b74effc19c249f"
+   }
+  ]
+ },
+ {
+  "destination": "Bend & Sunriver",
+  "title": "Water lovers enjoy several ways of tackling fairly tame rapids at a city-constructed whitewater park in Bend, Oregon",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018698253/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/50000/50051v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Surfers and paddlers on the whitewater waves of the Deschutes River in Bend",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bend-whitewater-park-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 49266,
+    "sha256": "03bacbf861145cbba9fb1b73103dc45bdb11ccf261deb8114bae0131801b8a3f"
+   },
+   {
+    "path": "dist/assets/destinations/bend-whitewater-park-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 53732,
+    "sha256": "e3a68e93a5b9fdd89c3d18185c0dec6c14b1b00374a7f3b3b34f2d2d69fb91ec"
+   },
+   {
+    "path": "dist/assets/destinations/bend-whitewater-park-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 177620,
+    "sha256": "6ef52cd82fe78fd2dc30e2e99e3f4c825e518f72db152012b4e50eac68e81f12"
+   },
+   {
+    "path": "dist/assets/destinations/bend-whitewater-park-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 197968,
+    "sha256": "054df17634ec40aeba443d1f9466e56bf38dc90e1b3bbfed8cdf159627e481bb"
+   }
+  ]
  }
 ]

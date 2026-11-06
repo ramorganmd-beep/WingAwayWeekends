@@ -1475,3 +1475,43 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Chena_Hot_Springs_Aerial_View.jpg
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Redwood Coast
+
+- Title: The Redwood National and State Parks (RNSP) along the coast of northern California
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2013632243/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Mount Shasta & McCloud
+
+- Title: Mount Shasta, at 14,162 feet the highest peak in the California Cascades
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011633490/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Crater Lake & Klamath Falls
+
+- Title: Crystal-clear Crater Lake in Klamath County, Oregon
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018698096/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Ashland & the Rogue Valley
+
+- Title: The Varsity Theatre in Ashland, Oregon
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018698088/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bend & Sunriver
+
+- Title: Water lovers enjoy several ways of tackling fairly tame rapids at a city-constructed whitewater park in Bend, Oregon
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018698253/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
