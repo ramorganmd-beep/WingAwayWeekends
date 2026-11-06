@@ -900,6 +900,18 @@ PLANS = {
     'fairbanks': {
         'day': [('Arrive', 'Land at PAFA mid-morning.'), ('Midday', 'The Riverboat Discovery.'), ('Afternoon', 'Lunch on the river, then back to the airport.')],
         'extra': [('Morning', 'Drive to Chena Hot Springs.'), ('Afternoon', 'A soak and the ice museum.'), ('Evening', 'Aurora watching (late August to April).')]},
+    'las-vegas': {
+        'day': [('Arrive', 'Land at KHND mid-morning.'), ('Midday', 'Lunch at the Landings on the field, then the Strip.'), ('Afternoon', 'The Neon Museum, then back to the airport.')],
+        'extra': [('Morning', 'Valley of Fire.'), ('Afternoon', 'Pool time.'), ('Evening', 'A show and dinner.')]},
+    'boulder-city': {
+        'day': [('Arrive', 'Land at KBVU early.'), ('Midday', 'A Hoover Dam tour.'), ('Afternoon', 'The historic district, then back to the airport.')],
+        'extra': [('Morning', 'A Grand Canyon air tour.'), ('Afternoon', 'Lake Mead.'), ('Evening', 'Sunset from the bypass bridge.')]},
+    'reno-virginia-city': {
+        'day': [('Arrive', 'Land at KRNO mid-morning.'), ('Midday', 'Virginia City.'), ('Afternoon', 'The steam train, then back to the airport.')],
+        'extra': [('Morning', 'The Nevada Museum of Art.'), ('Afternoon', "Lake Tahoe's north shore."), ('Evening', "Dinner at Louis' Basque Corner.")]},
+    'great-basin': {
+        'day': [('Arrive', 'Land at KELY early and pick up the car.'), ('Midday', 'Lehman Caves tour.'), ('Afternoon', 'Back to Ely and the airport.')],
+        'extra': [('Morning', 'The bristlecone trail.'), ('Afternoon', 'A steam train in Ely.'), ('Evening', 'Stargazing in the park.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

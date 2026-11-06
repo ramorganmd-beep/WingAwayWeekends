@@ -2559,5 +2559,53 @@
     "h": 720,
     "caption": "Fairbanks & Chena Hot Springs (illustration)",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "las-vegas": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Las Vegas (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "boulder-city": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Boulder City & Hoover Dam (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "reno-virginia-city": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Reno & Virginia City (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "great-basin": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Great Basin National Park & Ely (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   }
 }
