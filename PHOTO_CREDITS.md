@@ -1907,3 +1907,99 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2017884703/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Solvang & Santa Ynez Valley
+
+- Title: Solvang mill (cropped)
+- Photographer: bossco
+- Source: https://commons.wikimedia.org/wiki/File:Solvang_mill_%28cropped%29.jpg
+- License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Ojai
+
+- Title: Downtown Ojai 2019-333
+- Photographer: Derek V. Schmalenberger
+- Source: https://commons.wikimedia.org/wiki/File:Downtown_Ojai_2019-333.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Wickenburg Dude Ranches
+
+- Title: Railroad bridge in a canyon outside Wickenburg, a small Arizona city northwest of Phoenix that was once a "rough and ready" western frontier town that still spotlights Old West scenes and dress and art and refers to its location as "out Wickenburg Way"
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018702355/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Payson & the Mogollon Rim
+
+- Title: The formerly abandoned Zane Grey Cabin, preserved at the Rim County Museum in Payson, Arizona
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018703428/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lake Havasu & the London Bridge
+
+- Title: Boat dock with London Bridge in background in Lake Havasu City, Arizona
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018703204/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Round Top & Brenham
+
+- Title: Royers -- Round Top, Texas
+- Photographer: Jim Evans
+- Source: https://commons.wikimedia.org/wiki/File:Royers_--_Round_Top%2C_Texas.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bear Lake
+
+- Title: Bear Lake and Beach - panoramio
+- Photographer: runt35
+- Source: https://commons.wikimedia.org/wiki/File:Bear_Lake_and_Beach_-_panoramio.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Red Lodge & the Beartooth Highway
+
+- Title: Red Lodge Main Street July 2000
+- Photographer: User:Velela
+- Source: https://commons.wikimedia.org/wiki/File:Red_Lodge_Main_Street_July_2000.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Temecula Wine Country
+
+- Title: Temecula valley balloon and wine festival
+- Photographer: Jon Sullivan
+- Source: https://commons.wikimedia.org/wiki/File:Temecula_valley_balloon_and_wine_festival.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Big Bear Lake
+
+- Title: Sunrise and Lake Reflections at Big Bear Lake, California
+- Photographer: DylanMoz49
+- Source: https://commons.wikimedia.org/wiki/File:Sunrise_and_Lake_Reflections_at_Big_Bear_Lake%2C_California.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Anna Maria Island
+
+- Title: Anna Maria Beach 1 www.florida-infos.com - panoramio
+- Photographer: Franz Stellbrink
+- Source: https://commons.wikimedia.org/wiki/File:Anna_Maria_Beach_1_www.florida-infos.com_-_panoramio.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Crystal River & the Manatees
+
+- Title: Crystal River NWR manatees (5120918943)
+- Photographer: U.S. Fish and Wildlife Service Headquarters
+- Source: https://commons.wikimedia.org/wiki/File:Crystal_River_NWR_manatees_%285120918943%29.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
