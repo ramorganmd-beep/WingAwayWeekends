@@ -4521,7 +4521,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "telluride-main-street", "alt": "Brick storefronts on Telluride’s main street below green mountain peaks"}
 },
 {
@@ -4542,7 +4541,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "durango-silverton-steam", "alt": "A Durango & Silverton narrow-gauge steam locomotive"}
 },
 {
@@ -4563,7 +4561,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "steamboat-springs-snow", "alt": "Snow-covered Steamboat Springs in a mountain valley"}
 },
 {
@@ -4585,7 +4582,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "broadmoor-aerial", "alt": "Aerial view of the Broadmoor resort and its lake below Cheyenne Mountain"}
 },
 {
@@ -4606,7 +4602,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "stanley-hotel", "alt": "The white Stanley Hotel above Estes Park with mountains behind"}
 },
 {
@@ -4626,7 +4621,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "crested-butte-meridian-lake", "alt": "Meridian Lake below the peak of Mount Crested Butte"}
 },
 {
@@ -4648,7 +4642,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "UT",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "park-city-main-street", "alt": "Colorful historic storefronts on Park City’s Main Street"}
 },
 {
@@ -4668,7 +4661,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "UT",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "zion-cliffs", "alt": "Towering sandstone cliffs in Zion National Park"}
 },
 {
@@ -4688,7 +4680,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "UT",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "bryce-hoodoos", "alt": "Rows of orange hoodoo spires in Bryce Canyon"}
 }
 ];
