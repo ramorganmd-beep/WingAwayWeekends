@@ -942,6 +942,33 @@ PLANS = {
     'kona': {
         'day': [('Arrive', 'Land at PHKO mid-morning.'), ('Midday', 'Puuhonua o Honaunau.'), ('Afternoon', 'A Kona coffee farm, then back to the airport.')],
         'extra': [('Morning', 'Drive to Hawaii Volcanoes National Park.'), ('Afternoon', 'Kilauea crater.'), ('Evening', 'A manta-ray night snorkel.')]},
+    'telluride': {
+        'day': [('Arrive', 'Land at KTEX in the morning.'), ('Midday', "Gondola to Mountain Village and lunch at Allred's."), ('Afternoon', 'Walk Colorado Avenue, then back to the airport.')],
+        'extra': [('Morning', 'Hike toward Bridal Veil Falls.'), ('Afternoon', 'A Jeep tour.'), ('Evening', 'Dinner at Cosmopolitan.')]},
+    'durango': {
+        'day': [('Arrive', 'Land at KDRO mid-morning.'), ('Midday', 'Lunch on Main Avenue.'), ('Afternoon', 'The Animas River Trail, then back to the airport.')],
+        'extra': [('Morning', 'The steam train to Silverton.'), ('Afternoon', 'Mesa Verde National Park.'), ('Evening', 'Dinner at the Ore House.')]},
+    'steamboat-springs': {
+        'day': [('Arrive', 'Land at KSBS mid-morning.'), ('Midday', 'Lunch on Lincoln Avenue.'), ('Afternoon', 'Fish Creek Falls, then back to the airport.')],
+        'extra': [('Morning', 'Strawberry Park Hot Springs.'), ('Afternoon', 'The gondola up Mount Werner.'), ('Evening', 'Dinner at Café Diva.')]},
+    'colorado-springs': {
+        'day': [('Arrive', 'Land at KCOS mid-morning.'), ('Midday', 'Garden of the Gods.'), ('Afternoon', 'Lunch in Manitou Springs, then back to the airport.')],
+        'extra': [('Morning', 'The cog railway up Pikes Peak.'), ('Afternoon', 'The Broadmoor spa.'), ('Evening', 'Dinner at the Penrose Room.')]},
+    'estes-park': {
+        'day': [('Arrive', 'Land at KFNL early.'), ('Midday', 'Drive to Estes Park and lunch.'), ('Afternoon', 'Bear Lake, then back to the airport.')],
+        'extra': [('Morning', 'Trail Ridge Road.'), ('Afternoon', 'A Stanley Hotel tour.'), ('Evening', 'Dinner at Bird & Jim.')]},
+    'crested-butte': {
+        'day': [('Arrive', 'Land at KGUC mid-morning.'), ('Midday', 'Drive up the valley and lunch on Elk Avenue.'), ('Afternoon', 'A short wildflower walk, then back to the airport.')],
+        'extra': [('Morning', 'A wildflower hike.'), ('Afternoon', "The ski area's summer lifts."), ('Evening', 'Dinner at Secret Stash.')]},
+    'park-city': {
+        'day': [('Arrive', 'Land at KHCR mid-morning.'), ('Midday', 'Lunch on Main Street.'), ('Afternoon', 'The Utah Olympic Park, then back to the airport.')],
+        'extra': [('Morning', 'Ski or hike Deer Valley.'), ('Afternoon', 'The Heber Valley Railroad.'), ('Evening', 'Dinner at Riverhorse on Main.')]},
+    'zion': {
+        'day': [('Arrive', 'Land at KSGU early.'), ('Midday', 'Drive to Springdale and ride the canyon shuttle.'), ('Afternoon', 'Emerald Pools, then back to the airport.')],
+        'extra': [('Morning', 'The Narrows.'), ('Afternoon', 'The Riverside Walk.'), ('Evening', 'Dinner at Bit & Spur.')]},
+    'bryce-canyon': {
+        'day': [('Arrive', 'Land at KBCE mid-morning.'), ('Midday', 'Rim viewpoints.'), ('Afternoon', 'Part of the Navajo Loop, then back to the airport.')],
+        'extra': [('Morning', 'Sunrise at Bryce Point.'), ('Afternoon', 'Scenic Byway 12.'), ('Evening', 'A ranger astronomy program.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

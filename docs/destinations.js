@@ -4501,5 +4501,221 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "photo": {"slug": "kona-coast-lava", "alt": "Black lava tide pools along the Kona coast under a blue sky"}
+},
+{
+ "name": "Telluride",
+ "state": "Colorado",
+ "airport": "KTEX",
+ "lat": 37.9375,
+ "lon": -107.8123,
+ "desc": "A Victorian mining town in a box canyon: a free gondola to Mountain Village, Bridal Veil Falls, summer festivals and skiing, from a mesa-top airport at 9,070 feet.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "Dining",
+  "Romance"
+ ],
+ "guide": "telluride/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Durango & Mesa Verde",
+ "state": "Colorado",
+ "airport": "KDRO",
+ "lat": 37.2753,
+ "lon": -107.8801,
+ "desc": "A Western railroad town: a steam train up the Animas canyon to Silverton, the 1887 Strater Hotel and Mesa Verde's cliff dwellings an hour west.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Scenic views",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "durango/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Steamboat Springs",
+ "state": "Colorado",
+ "airport": "KSBS",
+ "lat": 40.485,
+ "lon": -106.8317,
+ "desc": "A ranching town turned ski resort: hot springs in a forest creek, Fish Creek Falls, Western Main Street and champagne powder, a mile from the airport.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Spa",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "steamboat-springs/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Colorado Springs & the Broadmoor",
+ "state": "Colorado",
+ "airport": "KCOS",
+ "lat": 38.79,
+ "lon": -104.8508,
+ "desc": "The grand Broadmoor below Cheyenne Mountain, Garden of the Gods, the cog railway up Pikes Peak and an air and space museum next to the runway.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Golf",
+  "Scenic views",
+  "Aviation museums",
+  "Romance"
+ ],
+ "guide": "colorado-springs/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Estes Park & Rocky Mountain National Park",
+ "state": "Colorado",
+ "airport": "KFNL",
+ "lat": 40.3772,
+ "lon": -105.5217,
+ "desc": "The gateway to Rocky Mountain National Park: Trail Ridge Road above 12,000 feet, elk in the meadows and the historic Stanley Hotel.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays",
+  "History"
+ ],
+ "guide": "estes-park/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Crested Butte",
+ "state": "Colorado",
+ "airport": "KGUC",
+ "lat": 38.8697,
+ "lon": -106.9878,
+ "desc": "A colorful old mining town at the end of the road: Colorado's wildflower capital, painted storefronts on Elk Avenue, mountain biking and steep skiing.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "crested-butte/",
+ "stateCode": "CO",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Park City",
+ "state": "Utah",
+ "airport": "KHCR",
+ "lat": 40.6461,
+ "lon": -111.498,
+ "desc": "A silver-mining town turned Olympic ski resort: Historic Main Street, Deer Valley, the Utah Olympic Park and a whiskey saloon, 20 minutes from Heber Valley Airport.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Dining",
+  "Spa",
+  "History"
+ ],
+ "guide": "park-city/",
+ "stateCode": "UT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Zion National Park & Springdale",
+ "state": "Utah",
+ "airport": "KSGU",
+ "lat": 37.1889,
+ "lon": -112.9986,
+ "desc": "Towering sandstone walls above the Virgin River: the Narrows, Angels Landing and Emerald Pools, with lodges at the park gate in Springdale.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "zion/",
+ "stateCode": "UT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bryce Canyon",
+ "state": "Utah",
+ "airport": "KBCE",
+ "lat": 37.6728,
+ "lon": -112.1576,
+ "desc": "A forest of orange hoodoos, sunrise at Bryce Point, a 1920s park lodge and Scenic Byway 12, from an airport a few miles from the park gate.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "bryce-canyon/",
+ "stateCode": "UT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
