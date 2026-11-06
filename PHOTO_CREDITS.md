@@ -1595,3 +1595,75 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Kona_Hundestrand_Big_island%2C_Hawaii_%2831338175147%29.jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Telluride
+
+- Title: Telluride's main street
+- Photographer: Woody Hibbard
+- Source: https://commons.wikimedia.org/wiki/File:Telluride%27s_main_street.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Durango & Mesa Verde
+
+- Title: Steam engine on the Durango & Silverton Railroad sightseeing line, Durango, Colorado
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011635034/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Steamboat Springs
+
+- Title: Snowy Steamboat Springs, Colorado
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017686598/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Colorado Springs & the Broadmoor
+
+- Title: Aerial view of the historic Broadmoor Hotel and Resort and surroundings in Colorado Springs, Colorado
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017885302/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Estes Park & Rocky Mountain National Park
+
+- Title: The Stanley Hotel in Estes Park, a town on the eastern edge of Rocky Mountain National Park in north-central Colorado
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2015633407/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Crested Butte
+
+- Title: View of Meridian Lake and Mount Crested Butte above the Colorado city of Crested Butte on the high, dirt Washington Gulch Road in Gunnison County, Colorado
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017885589/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Park City
+
+- Title: View on Main Street in Park City Utah
+- Photographer: Saalebaer
+- Source: https://commons.wikimedia.org/wiki/File:View_on_Main_Street_in_Park_City_Utah.JPG
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Zion National Park & Springdale
+
+- Title: Zion National Park, Utah
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011633447/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bryce Canyon
+
+- Title: Procession of 'hoodoo' formations in Bryce Canyon National Park in Utah
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011631987/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
