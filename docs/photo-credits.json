@@ -8962,55 +8962,6 @@
   ]
  },
  {
-  "destination": "Bear Lake",
-  "title": "Bear Lake and Beach - panoramio",
-  "photographer": "runt35",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bear_Lake_and_Beach_-_panoramio.jpg",
-  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Bear_Lake_and_Beach_-_panoramio.jpg",
-  "downloaded_image_url": "1920px Wikimedia thumbnail",
-  "original_dimensions": {
-   "width": 2160,
-   "height": 1440
-  },
-  "license": "CC BY 3.0",
-  "license_url": "https://creativecommons.org/licenses/by/3.0/",
-  "commercial_reuse_verified": true,
-  "verification_date": "2026-11-03",
-  "requirements": "Credit photographer and title; link source and license; note changes.",
-  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
-  "alt": "The turquoise water and sandy shore of Bear Lake",
-  "files": [
-   {
-    "path": "dist/assets/destinations/bear-lake-beach-480.webp",
-    "width": 480,
-    "height": 360,
-    "bytes": 17340,
-    "sha256": "adef480c4df779c57fa7f509183c74c56ec51dd3d3053ca697344b6c99b4c7ee"
-   },
-   {
-    "path": "dist/assets/destinations/bear-lake-beach-480.jpg",
-    "width": 480,
-    "height": 360,
-    "bytes": 26607,
-    "sha256": "e6dd00e56ea986030e697e6a2c1fe99b5b8545a0ec7a4b801ccdc3222634ceaa"
-   },
-   {
-    "path": "dist/assets/destinations/bear-lake-beach-960.webp",
-    "width": 960,
-    "height": 720,
-    "bytes": 61590,
-    "sha256": "f8b7803aed70fb2c4195b982697562da2c7b80ac643dcf3a3403e5e4ba210d9e"
-   },
-   {
-    "path": "dist/assets/destinations/bear-lake-beach-960.jpg",
-    "width": 960,
-    "height": 720,
-    "bytes": 103528,
-    "sha256": "57a71efce7bf2bc616455524408b1a29b3c2a6d5a3011aa538f96442aa9beb33"
-   }
-  ]
- },
- {
   "destination": "Red Lodge & the Beartooth Highway",
   "title": "Red Lodge Main Street July 2000",
   "photographer": "User:Velela",
@@ -9254,5 +9205,22 @@
     "sha256": "aae121dc7d33ef87460bc5f3628cdaf462f86bf44b9901cbd40a0943b0310928"
    }
   ]
+ },
+ {
+  "destination": "Bear Lake",
+  "title": "A pioneer cabin above Bear Lake, near Paris, Idaho.",
+  "photographer": "Judy Beth Morris",
+  "source_page_url": "https://unsplash.com/photos/an-old-wooden-house-in-a-field-with-a-lake-in-the-background-NzAJOczkYJo",
+  "original_image_url": "https://images.unsplash.com/photo-1722453898346-82dc60535819?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTk5MTk3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A weathered pioneer cabin in green fields above the blue water of Bear Lake",
+  "date_taken": null,
+  "files": [],
+  "location": "Paris, Idaho, on the north end of Bear Lake"
  }
 ]

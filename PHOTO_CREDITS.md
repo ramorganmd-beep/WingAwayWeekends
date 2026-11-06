@@ -1956,13 +1956,6 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
 
-## Bear Lake
-
-- Title: Bear Lake and Beach - panoramio
-- Photographer: runt35
-- Source: https://commons.wikimedia.org/wiki/File:Bear_Lake_and_Beach_-_panoramio.jpg
-- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0/
-- Changes: cropped to 4:3, resized, converted to WebP/JPEG
 
 ## Red Lodge & the Beartooth Highway
 
@@ -2003,3 +1996,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Crystal_River_NWR_manatees_%285120918943%29.jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bear Lake
+
+- Photo by Judy Beth Morris on Unsplash — https://unsplash.com/photos/an-old-wooden-house-in-a-field-with-a-lake-in-the-background-NzAJOczkYJo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Paris, Idaho, on the north end of Bear Lake

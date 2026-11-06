@@ -5457,7 +5457,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "photo": {"slug": "bear-lake-beach", "alt": "The turquoise water and sandy shore of Bear Lake"}
+ "photo": {"slug": "bear-lake", "remote": "https://images.unsplash.com/photo-1722453898346-82dc60535819?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTk5MTk3fA&ixlib=rb-4.1.0", "alt": "A weathered pioneer cabin in green fields above the blue water of Bear Lake", "pos": "50% 50%"}
 },
 {
  "name": "Red Lodge & the Beartooth Highway",

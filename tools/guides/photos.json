@@ -3305,16 +3305,17 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Anna_Maria_Beach_1_www.florida-infos.com_-_panoramio.jpg\">Anna Maria Beach 1 www.florida-infos.com - panoramio</a> — Franz Stellbrink · <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a>. Cropped to 4:3 and resized."
   },
   "bear-lake": {
-    "slug": "bear-lake-beach",
+    "slug": "https://images.unsplash.com/photo-1722453898346-82dc60535819?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTk5MTk3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "The turquoise water and sandy shore of Bear Lake",
+    "alt": "A weathered pioneer cabin in green fields above the blue water of Bear Lake",
     "w": 960,
     "h": 720,
-    "caption": "Bear Lake’s famous blue water.",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Bear_Lake_and_Beach_-_panoramio.jpg\">Bear Lake and Beach - panoramio</a> — runt35 · <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a>. Cropped to 4:3 and resized."
+    "caption": "A pioneer cabin above Bear Lake, near Paris, Idaho.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@judy_beth_morris_idaho?utm_source=wingaway_weekends&utm_medium=referral\">Judy Beth Morris</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/an-old-wooden-house-in-a-field-with-a-lake-in-the-background-NzAJOczkYJo?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "red-lodge": {
     "slug": "red-lodge-broadway",
