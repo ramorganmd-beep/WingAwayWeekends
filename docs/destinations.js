@@ -5054,10 +5054,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "coeur-dalene-resort", "alt": "The Coeur d’Alene Resort tower and marina on the lakeshore"}
 },
 {
  "name": "McCall & Payette Lake",
@@ -5078,10 +5075,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "mccall-payette-lake", "alt": "A sandy beach and lakeside path on Payette Lake in McCall"}
 },
 {
  "name": "Sandpoint & Lake Pend Oreille",
@@ -5101,10 +5095,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "sandpoint-city-beach", "alt": "City Beach on Lake Pend Oreille in Sandpoint, with mountains across the water"}
 },
 {
  "name": "Cody & Yellowstone’s East Gate",
@@ -5124,10 +5115,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "cody-old-trail-town", "alt": "Weathered log cabins and old wagons at Old Trail Town in Cody"}
 },
 {
  "name": "Sheridan & the Bighorns",
@@ -5170,10 +5158,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "snowy-range-lake-marie", "alt": "Lake Marie below the peaks of Wyoming’s Snowy Range"}
 },
 {
  "name": "Seattle",
@@ -5193,10 +5178,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "seattle-elliott-bay", "alt": "The Space Needle and Seattle waterfront seen from Elliott Bay"}
 },
 {
  "name": "Walla Walla Wine Country",
@@ -5216,10 +5198,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "walla-walla-pioneer-park", "alt": "A pond and gardens at Pioneer Park in Walla Walla"}
 },
 {
  "name": "Leavenworth",
@@ -5240,10 +5219,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "leavenworth-front-street", "alt": "Bavarian-style buildings on Leavenworth’s main street with Cascade peaks behind"}
 },
 {
  "name": "Lake Chelan",
@@ -5263,10 +5239,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "stehekin-lake-chelan", "alt": "The head of Lake Chelan at Stehekin between steep forested mountains"}
 },
 {
  "name": "Port Townsend",
@@ -5286,9 +5259,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "port-townsend-palace-hotel", "alt": "The flower-trimmed entrance of the 1889 Palace Hotel in Port Townsend"}
 }
 ];

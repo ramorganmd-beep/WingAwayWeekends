@@ -8090,7 +8090,7 @@
    "width": 2000,
    "height": 1328
   },
-  "license": "Used with permission",
+  "license": "Used with permission (photo courtesy of the City of Tavares)",
   "license_url": "",
   "commercial_reuse_verified": true,
   "verification_date": "2026-11-03",
@@ -8125,6 +8125,496 @@
     "height": 720,
     "bytes": 140561,
     "sha256": "c72ecb4799f41ddb37938130f8d16a33112808057e1c35061cecfef370157629"
+   }
+  ]
+ },
+ {
+  "destination": "Coeur d’Alene",
+  "title": "Coeur d'Alene Resort (Main hotel; Facing southeast; 2023-02-16)",
+  "photographer": "Locke Cole",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Coeur_d%27Alene_Resort_%28Main_hotel%3B_Facing_southeast%3B_2023-02-16%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Coeur_d%27Alene_Resort_%28Main_hotel%3B_Facing_southeast%3B_2023-02-16%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Coeur d’Alene Resort tower and marina on the lakeshore",
+  "files": [
+   {
+    "path": "dist/assets/destinations/coeur-dalene-resort-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 45304,
+    "sha256": "b8e59e9306734cd9b9ae133955674c902868ca90978942da183286ed16f34075"
+   },
+   {
+    "path": "dist/assets/destinations/coeur-dalene-resort-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50803,
+    "sha256": "8e520ed6c9cb1d18c08c1ad1ff76777bc2ec8e662fca919971245b565669a2e1"
+   },
+   {
+    "path": "dist/assets/destinations/coeur-dalene-resort-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 199738,
+    "sha256": "0be5b506f5fe6685920c02ea2f8ba25bcc7b8b21415f25ce8e4433b813ade0d5"
+   },
+   {
+    "path": "dist/assets/destinations/coeur-dalene-resort-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 219363,
+    "sha256": "fba664fc1175ac29fc57e76a127f022b725272d518eba384ca3849890442bd41"
+   }
+  ]
+ },
+ {
+  "destination": "McCall & Payette Lake",
+  "title": "Mccall",
+  "photographer": "Karthikc123",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Mccall.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Mccall.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A sandy beach and lakeside path on Payette Lake in McCall",
+  "files": [
+   {
+    "path": "dist/assets/destinations/mccall-payette-lake-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26328,
+    "sha256": "b87bc7255757d1f719245e8691266a12c824974ed58c2855564afb36ba6031b0"
+   },
+   {
+    "path": "dist/assets/destinations/mccall-payette-lake-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 33084,
+    "sha256": "52a553379158b54c9a7811b7e0c1484e818e4844667d0ded491a8d5216468a39"
+   },
+   {
+    "path": "dist/assets/destinations/mccall-payette-lake-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 116268,
+    "sha256": "13574eb9871a645d4bed524f0978cd6847992f554691f5994d378007db4a5eea"
+   },
+   {
+    "path": "dist/assets/destinations/mccall-payette-lake-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 145075,
+    "sha256": "0c378cf499aabdcc01ef5dc418e9229ccd9743b624a54ef1e2dc7dabea106ab2"
+   }
+  ]
+ },
+ {
+  "destination": "Sandpoint & Lake Pend Oreille",
+  "title": "Sandpoint id city beach",
+  "photographer": "Epdp",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Sandpoint_id_city_beach.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sandpoint_id_city_beach.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "City Beach on Lake Pend Oreille in Sandpoint, with mountains across the water",
+  "files": [
+   {
+    "path": "dist/assets/destinations/sandpoint-city-beach-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 22994,
+    "sha256": "06c0cd8165f334b56b85e5c79b7e7472d6662c3cbe7abbd955ad2b50fd0ee580"
+   },
+   {
+    "path": "dist/assets/destinations/sandpoint-city-beach-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 30538,
+    "sha256": "802a66607af6869e404569f7f4692977758d71c28eca4b0894c541fd5b9c0cac"
+   },
+   {
+    "path": "dist/assets/destinations/sandpoint-city-beach-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 102272,
+    "sha256": "f005b24b11dacfa64c75d39f028f280bde0676baf36e7e5607d11738e9d689cc"
+   },
+   {
+    "path": "dist/assets/destinations/sandpoint-city-beach-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 130599,
+    "sha256": "32bbbe81064b98b8491a6b539573b56e5be0847e84878ce3e772f2b26de96ebe"
+   }
+  ]
+ },
+ {
+  "destination": "Cody & Yellowstone’s East Gate",
+  "title": "Scene from Old Trail Town, a historic museum complex in Cody, Wyoming",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017685760/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:35200:35277/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2172,
+   "height": 1448
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Weathered log cabins at Old Trail Town in Cody",
+  "files": [
+   {
+    "path": "dist/assets/destinations/cody-old-trail-town-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 29240,
+    "sha256": "f1004b25165f5a2bf728f8f3237ab7ed90049a2ed02bc2de55fd952ce59d224e"
+   },
+   {
+    "path": "dist/assets/destinations/cody-old-trail-town-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 35850,
+    "sha256": "7204157e7355d256ff893fce1479900f3fb9d1eb3e2d1202e871a651940a3513"
+   },
+   {
+    "path": "dist/assets/destinations/cody-old-trail-town-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 107070,
+    "sha256": "a8546566e6e8aff59c5db9e9d4094989ca3aabf33f60053a27500000365fd851"
+   },
+   {
+    "path": "dist/assets/destinations/cody-old-trail-town-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 134867,
+    "sha256": "9eb5203bede6467f743ea0581f0dec07fbfaae276f2b6b05901b49ca7ad2e47b"
+   }
+  ]
+ },
+ {
+  "destination": "Saratoga Hot Springs",
+  "title": "View of Lake Marie in Wyoming's Snowy Range, between Saratoga and Laramie",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2017884586/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:47900:47955/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2177,
+   "height": 2902
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Lake Marie below the peaks of Wyoming’s Snowy Range",
+  "files": [
+   {
+    "path": "dist/assets/destinations/snowy-range-lake-marie-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 44396,
+    "sha256": "358b00646936f2477e1daadb9c52d5c4c84eeed534c69b74e71ca72f7f586033"
+   },
+   {
+    "path": "dist/assets/destinations/snowy-range-lake-marie-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50010,
+    "sha256": "9cd46707bf8b418196c70b88171c45f3f9ad6cfc1a5883b6585aa1c29c3c72d1"
+   },
+   {
+    "path": "dist/assets/destinations/snowy-range-lake-marie-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 157462,
+    "sha256": "2ba984aac6c6ecb4afea4fa02af6d5615b049ca446b37c4864acb7ac2036d0fb"
+   },
+   {
+    "path": "dist/assets/destinations/snowy-range-lake-marie-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 182424,
+    "sha256": "2f0690a97c76fb52474ee299b96bd8fb2899898f149c01dd4311a8254c6ab2a3"
+   }
+  ]
+ },
+ {
+  "destination": "Walla Walla Wine Country",
+  "title": "Pioneer Park, the oldest recreational grounds in Walla Walla, Washington, which opened in 1902, features a large aviary, installed in the 1980s by the Walla Walla Valley Lionesses Club and other volunteers",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018699183/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/50900/50981v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 756
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Shady lawns and trees at Pioneer Park in Walla Walla",
+  "files": [
+   {
+    "path": "dist/assets/destinations/walla-walla-pioneer-park-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 44678,
+    "sha256": "c3a870a6d03529e91294642d7610f30c62313f1bf2acef03d73905fdc0497b47"
+   },
+   {
+    "path": "dist/assets/destinations/walla-walla-pioneer-park-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50837,
+    "sha256": "0baf3b230d8bb03b6eccacc200eb79fc62091d11698afc08b154c2109843b203"
+   },
+   {
+    "path": "dist/assets/destinations/walla-walla-pioneer-park-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 188242,
+    "sha256": "4a1d32326007b1a1acb9d7692296afec8dd6464f4b1196354bb782d3b94c50a6"
+   },
+   {
+    "path": "dist/assets/destinations/walla-walla-pioneer-park-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 208862,
+    "sha256": "37fbd3d9c3fae600581b67750066e11ed085191026e66f9b638e7d460fb85341"
+   }
+  ]
+ },
+ {
+  "destination": "Leavenworth",
+  "title": "Main street in Leavenworth, Washington (2023-06-18) (cropped)",
+  "photographer": "Roc0ast3r",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Main_street_in_Leavenworth%2C_Washington_%282023-06-18%29_%28cropped%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/Main_street_in_Leavenworth%2C_Washington_%282023-06-18%29_%28cropped%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 886
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Bavarian-style buildings on Leavenworth’s main street with Cascade peaks behind",
+  "files": [
+   {
+    "path": "dist/assets/destinations/leavenworth-front-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 38456,
+    "sha256": "14f1658ed92e26c551d700ff4cfcf0189d223e53a21ad889b12654921dd33000"
+   },
+   {
+    "path": "dist/assets/destinations/leavenworth-front-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 47856,
+    "sha256": "fe561428dcbb88530ad8b8071ff97501bd8b9d27320d82163c4937bd41be90fa"
+   },
+   {
+    "path": "dist/assets/destinations/leavenworth-front-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 146252,
+    "sha256": "6bfd176fff8aa7268aebcf2323f0d29326b8d5ce07eac61f0c98656742245d49"
+   },
+   {
+    "path": "dist/assets/destinations/leavenworth-front-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 181717,
+    "sha256": "924af22223cce713f7669d2416d6d1bf2c6de55f429795041dbf9bc6895012c2"
+   }
+  ]
+ },
+ {
+  "destination": "Lake Chelan",
+  "title": "Stehekin Chelan",
+  "photographer": "David Ansley",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Stehekin_Chelan.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/62/Stehekin_Chelan.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY 1.0",
+  "license_url": "https://creativecommons.org/licenses/by/1.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The head of Lake Chelan at Stehekin between steep forested mountains",
+  "files": [
+   {
+    "path": "dist/assets/destinations/stehekin-lake-chelan-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 25676,
+    "sha256": "bfd575463c9baefc5c10dd3c37f69adea9a5e28046be01930528702ee5d047fd"
+   },
+   {
+    "path": "dist/assets/destinations/stehekin-lake-chelan-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34154,
+    "sha256": "7a230dcc9bcc298b06fd4573063ecb5d1c7b8610a3b831293760adadd01fd20a"
+   },
+   {
+    "path": "dist/assets/destinations/stehekin-lake-chelan-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 101424,
+    "sha256": "f667bcf0a0065415a9380cd8bfdf870656c5c9699a36ebe6d770328afb05c537"
+   },
+   {
+    "path": "dist/assets/destinations/stehekin-lake-chelan-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 136681,
+    "sha256": "c4c2a074aa558e279175d880fe36552cc9cf613bc02527b447e5bc2d8fcbc4e0"
+   }
+  ]
+ },
+ {
+  "destination": "Port Townsend",
+  "title": "The 1889 Palace Hotel, now a boutique Victorian hotel (but once a bordello) in Port Townsend, on the northeast corner of Washington State's Olympic Peninsula",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018699106/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/50900/50904v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The red-brick 1889 Palace Hotel in downtown Port Townsend",
+  "files": [
+   {
+    "path": "dist/assets/destinations/port-townsend-palace-hotel-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 45768,
+    "sha256": "af20f0a369272b273491b5617367fc0ca1df00dd6e9110966f660f2d262b421b"
+   },
+   {
+    "path": "dist/assets/destinations/port-townsend-palace-hotel-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 54792,
+    "sha256": "47d373a625285537ef17e32f4e7f0818fe5e8adb552fa2e2ec4d22dfc221dcc9"
+   },
+   {
+    "path": "dist/assets/destinations/port-townsend-palace-hotel-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 179102,
+    "sha256": "5d9f2692a89ca33685e732ff4c526818a8c219fbc940b6986c7db8b222feb397"
+   },
+   {
+    "path": "dist/assets/destinations/port-townsend-palace-hotel-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 211718,
+    "sha256": "61ac415b44f6f219d8efc684912d1bc9b6f0c5ed0deb0fa06c09db65c1cb8380"
+   }
+  ]
+ },
+ {
+  "destination": "Seattle",
+  "title": "Seattle - Bell Street Pier and Space Needle from Elliott Bay 01",
+  "photographer": "Joe Mabel",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Seattle_-_Bell_Street_Pier_and_Space_Needle_from_Elliott_Bay_01.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Seattle_-_Bell_Street_Pier_and_Space_Needle_from_Elliott_Bay_01.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 850
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Space Needle and Seattle waterfront seen from Elliott Bay",
+  "files": [
+   {
+    "path": "dist/assets/destinations/seattle-elliott-bay-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 40362,
+    "sha256": "6188062b6272a6b326f686ab79ff7ec9be1719f1ec6c9f4563ab0922d97a2502"
+   },
+   {
+    "path": "dist/assets/destinations/seattle-elliott-bay-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 45126,
+    "sha256": "37d20b968d5d4bc24b0efce21aff4774ea3a2a08d1a00f65c834584d524521c8"
+   },
+   {
+    "path": "dist/assets/destinations/seattle-elliott-bay-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 155216,
+    "sha256": "85c9ae258907e6cedb93c6e9936f281dd23fb54fe1e6665e9ae89bf018c99071"
+   },
+   {
+    "path": "dist/assets/destinations/seattle-elliott-bay-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 180137,
+    "sha256": "123f0917ca5a0e6c7648525ce757a0a2abd0d794a7570f4a41173a8edd1a8b8c"
    }
   ]
  }
