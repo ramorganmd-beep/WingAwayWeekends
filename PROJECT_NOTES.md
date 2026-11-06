@@ -416,3 +416,8 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Photos: LOC (Highsmith) for Durango, Steamboat, Broadmoor, Stanley, Crested Butte, Zion, Bryce; Commons for Telluride (CC BY 2.0) and Park City (PD).
 - Dropped hijacked/dead links: klbzion.com, baldpateinn.com, dellaterramountainchateau.com (now a wedding venue), brycecanyonairport.com.
 - Coverage gaps still open: Arizona, New Mexico, Texas, then Idaho/Wyoming/Washington.
+
+## Destination map page (November 6, 2026)
+- New page docs/map/ (linked as "Map" in the homepage header, Fly to Lunch and the sitemap). Reads destinations.js live, so new guides appear automatically; drafts show only with ?preview=1.
+- Dropdown: whole country (d3.geoAlbersUsa with AK/HI insets) or any region (conic projection fitted to that region's guides, with labels). Region is kept in the URL hash, e.g. /map/#Texas. Dots and the list below link to each guide.
+- Self-hosted d3 v7.9.0, topojson-client v3.1.0 and us-atlas states-10m.json in docs/map/.
