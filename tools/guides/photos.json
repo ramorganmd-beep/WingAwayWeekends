@@ -2847,5 +2847,113 @@
     "h": 720,
     "caption": "Downtown Eugene and Skinner Butte from Hendricks Park.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg\">Downtown Eugene, Oregon and Skinner's Butte from Hendricks Park</a> — Rick Obst · <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Cropped to 4:3 and resized."
+  },
+  "scottsdale": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Scottsdale (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "tucson": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Tucson (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "bisbee": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Bisbee & Tombstone (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "grand-canyon": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Grand Canyon South Rim (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "prescott": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Prescott (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "taos": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Taos (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "albuquerque": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Albuquerque (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "ruidoso": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "Ruidoso (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "white-sands": {
+    "slug": "tavares-depot",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
+    "w": 960,
+    "h": 720,
+    "caption": "White Sands & Cloudcroft (illustration)",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg\">TE&G - Tavares Station</a> — Jackdude101 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   }
 }
