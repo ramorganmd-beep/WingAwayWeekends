@@ -5311,55 +5311,6 @@
   ]
  },
  {
-  "destination": "Tavares & Mount Dora",
-  "title": "TE&G - Tavares Station",
-  "photographer": "Jackdude101",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg",
-  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/39/TE%26G_-_Tavares_Station.jpg",
-  "downloaded_image_url": "1920px Wikimedia thumbnail",
-  "original_dimensions": {
-   "width": 1920,
-   "height": 1080
-  },
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "commercial_reuse_verified": true,
-  "verification_date": "2026-11-03",
-  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
-  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
-  "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees",
-  "files": [
-   {
-    "path": "dist/assets/destinations/tavares-depot-480.webp",
-    "width": 480,
-    "height": 360,
-    "bytes": 45230,
-    "sha256": "399e87eb9a486b0b5e84087e1727df0dc5601bba78e2e7687ef6861d7e5832f2"
-   },
-   {
-    "path": "dist/assets/destinations/tavares-depot-480.jpg",
-    "width": 480,
-    "height": 360,
-    "bytes": 52086,
-    "sha256": "ecc7658721816e7b68a858e3f83117f73afd07129cbf63528a20173fc3172cbc"
-   },
-   {
-    "path": "dist/assets/destinations/tavares-depot-960.webp",
-    "width": 960,
-    "height": 720,
-    "bytes": 148198,
-    "sha256": "ca01283cc97c823c8515612dccddc9e5ced5f2672d2b60d7888a36dc8bf195c5"
-   },
-   {
-    "path": "dist/assets/destinations/tavares-depot-960.jpg",
-    "width": 960,
-    "height": 720,
-    "bytes": 178380,
-    "sha256": "79a3cb1591353267b861ea81edb9a51f262d982a22662dd75d9600eec592f444"
-   }
-  ]
- },
- {
   "destination": "Whitefish & Glacier National Park",
   "title": "Grinnell Lake from the Grinnell Glacier trail, Glacier National Park.",
   "photographer": "Harrison Steen",
@@ -8125,6 +8076,55 @@
     "height": 720,
     "bytes": 115344,
     "sha256": "534c5386f914c7838bd3cbf8efd71e5c7c8cc86efaa31128f4d5ca9151809294"
+   }
+  ]
+ },
+ {
+  "destination": "Tavares & Mount Dora",
+  "title": "Seaplane landing at Wooton Park, Tavares",
+  "photographer": "City of Tavares",
+  "source_page_url": "https://www.tavaresfl.gov/",
+  "original_image_url": "https://www.tavaresfl.gov/",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2000,
+   "height": 1328
+  },
+  "license": "Used with permission (photo courtesy of the City of Tavares)",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+  "files": [
+   {
+    "path": "dist/assets/destinations/tavares-seaplane-landing-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34644,
+    "sha256": "62baa82c98a7af74cb449ac327b965deaaac2d381fa4704e1c75d805417b45fe"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-seaplane-landing-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 42903,
+    "sha256": "e2f0b5ad12a4206b69be8aaeef7aee22c8c3dd5079714bb0f84c2b0a1b7708bc"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-seaplane-landing-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 100442,
+    "sha256": "01734740f05ce57f5427e263791dbe80b8c995572deb87e2a14806790d706d88"
+   },
+   {
+    "path": "dist/assets/destinations/tavares-seaplane-landing-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 140561,
+    "sha256": "c72ecb4799f41ddb37938130f8d16a33112808057e1c35061cecfef370157629"
    }
   ]
  }

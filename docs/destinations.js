@@ -3456,7 +3456,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "photo": {"slug": "tavares-depot", "alt": "Visitors at the restored Tavares railroad depot beside the tracks and palm trees"}
+ "photo": {"slug": "tavares-seaplane-landing", "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront"}
 },
 {
  "name": "Havre de Grace",

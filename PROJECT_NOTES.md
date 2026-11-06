@@ -441,3 +441,5 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 
 ## Email links (November 6, 2026)
 - Owner reported email links "not working" (mailto does nothing without a default mail app). Added docs/contact.js on every page: mailto clicks open a chooser (email app, Gmail, Outlook.com, copy address). feedback.py now adds the script tag; MX records confirmed on Cloudflare Email Routing.
+
+- Tavares photo replaced with a seaplane landing at Wooton Park supplied by the City of Tavares communications director; credit "Photo courtesy of the City of Tavares" (used with permission). November 6, 2026.

@@ -1310,14 +1310,6 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
 
-## Tavares & Mount Dora
-
-- Title: TE&G - Tavares Station
-- Photographer: Jackdude101
-- Source: https://commons.wikimedia.org/wiki/File:TE%26G_-_Tavares_Station.jpg
-- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
-- Changes: cropped to 4:3, resized, converted to WebP/JPEG
-
 ## Whitefish & Glacier National Park
 
 - Photo by Harrison Steen on Unsplash — https://unsplash.com/photos/a-view-of-a-mountain-range-with-a-lake-in-the-foreground-d01xcR3puFA
@@ -1818,4 +1810,12 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photographer: Michael Barera
 - Source: https://commons.wikimedia.org/wiki/File:Granbury_June_2018_33_%28Red_On_the_Square_-_Texas_State_Bank%29.jpg
 - License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Tavares & Mount Dora
+
+- Title: Seaplane landing at Wooton Park, Tavares
+- Photographer: City of Tavares (photo courtesy of the City of Tavares)
+- Source: https://www.tavaresfl.gov/
+- License: Used with permission
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
