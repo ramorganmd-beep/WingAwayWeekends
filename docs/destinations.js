@@ -3949,5 +3949,101 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Central California",
  "family": true,
  "photo": {"slug": "big-sur", "remote": "https://images.unsplash.com/photo-1452313209253-2823ba17292f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIwODMwfA&ixlib=rb-4.1.0", "alt": "Aerial view of Big Sur's mountains dropping to the Pacific", "pos": "50% 50%"}
+},
+{
+ "name": "Napa & Sonoma Wine Country",
+ "state": "California",
+ "airport": "KAPC",
+ "lat": 38.4024,
+ "lon": -122.3631,
+ "desc": "America's most famous wine country: hundreds of wineries, Yountville's French Laundry and Bouchon, hillside resorts, the Wine Train and Sonoma Plaza.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Spa",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "napa-sonoma/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lake Tahoe & Truckee",
+ "state": "California",
+ "airport": "KTRK",
+ "lat": 39.2276,
+ "lon": -120.0918,
+ "desc": "A huge, clear alpine lake on the California–Nevada line: Sand Harbor, Emerald Bay, lakeside dining, ski resorts and historic Truckee.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "lake-tahoe/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Mendocino Coast",
+ "state": "California",
+ "airport": "KLLR",
+ "lat": 39.3077,
+ "lon": -123.7995,
+ "desc": "A Victorian village on ocean headlands near a small county airport: clifftop inns, Café Beaujolais, the Skunk Train, a lighthouse and gardens.",
+ "tags": [
+  "Beach",
+  "Scenic views",
+  "Stays",
+  "Dining",
+  "Romance",
+  "History"
+ ],
+ "guide": "mendocino/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "San Francisco",
+ "state": "California",
+ "airport": "KOAK",
+ "lat": 37.7946,
+ "lon": -122.3999,
+ "desc": "Cable cars and the Golden Gate: grand hotels, Alcatraz, the Ferry Building, historic restaurants and a VFR bay view on the way in.",
+ "tags": [
+  "Dining",
+  "History",
+  "Stays",
+  "Scenic views"
+ ],
+ "guide": "san-francisco/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
