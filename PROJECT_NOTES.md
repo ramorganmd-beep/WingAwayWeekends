@@ -447,3 +447,5 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 ## Idaho, Wyoming & Washington batch (November 6, 2026)
 - Published coeur-dalene (KCOE), mccall (KMYL), sandpoint (KSZT), cody (KCOD), sheridan (KSHR), saratoga-wy (KSAA), seattle (KBFI), walla-walla (KALW), leavenworth (KEAT), lake-chelan (S10), port-townsend (0S9). 264 guides live.
 - maplinks.py: town names with apostrophes must use double quotes (Coeur d'Alene broke the build once).
+
+- Elkhart Lake: updates requested by The Osthoff Resort & Spa (Nov 6, 2026): official name, Concourse replaces Lola’s on the Lake, spa wording (no lake view).

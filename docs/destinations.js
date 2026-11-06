@@ -3074,7 +3074,7 @@ window.WINGAWAY_DESTINATIONS=[
  "airport": "KSBM",
  "lat": 43.8336,
  "lon": -88.0179,
- "desc": "A clear spring-fed resort lake with the Osthoff Resort and its spa, Road America and a historic racing tavern.",
+ "desc": "A clear spring-fed resort lake with The Osthoff Resort & Spa, Road America and a historic racing tavern.",
  "tags": [
   "Lake",
   "Spa",
