@@ -1555,3 +1555,43 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Great_Basin_National_Park_-_53204765952.jpg
 - License: CC BY-SA 2.0 — https://creativecommons.org/licenses/by-sa/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lanai
+
+- Title: Lava Flows at Hulopoe Bay Lanai Hawaii 3
+- Photographer: Steve Jurvetson
+- Source: https://commons.wikimedia.org/wiki/File:Lava_Flows_at_Hulopoe_Bay_Lanai_Hawaii_3.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Hana, Maui
+
+- Title: Hasegawa General Store in Hana, Hawaii, a historic Hana landmark for a bit of shopping in Maui
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2024642012/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Molokai
+
+- Title: KALA Vanishing Treasures (17196312488)
+- Photographer: Lisa Sasser
+- Source: https://commons.wikimedia.org/wiki/File:KALA_Vanishing_Treasures_%2817196312488%29.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Kauai
+
+- Title: Beautiful Kauai is one of the many islands of Hawaii
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2024641846/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Kona & the Big Island
+
+- Title: Kona Hundestrand Big island, Hawaii (31338175147)
+- Photographer: dronepicr
+- Source: https://commons.wikimedia.org/wiki/File:Kona_Hundestrand_Big_island%2C_Hawaii_%2831338175147%29.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
