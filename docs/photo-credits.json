@@ -6559,5 +6559,250 @@
     "sha256": "322285a6bfee5089983e1e88dc6fa7aab03f4e3bde82c489989af50a29c258a3"
    }
   ]
+ },
+ {
+  "destination": "Lanai",
+  "title": "Lava Flows at Hulopoe Bay Lanai Hawaii 3",
+  "photographer": "Steve Jurvetson",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Lava_Flows_at_Hulopoe_Bay_Lanai_Hawaii_3.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Lava_Flows_at_Hulopoe_Bay_Lanai_Hawaii_3.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5495,
+   "height": 3744
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Red lava cliffs and turquoise water at Hulopoe Bay, Lanai",
+  "files": [
+   {
+    "path": "dist/assets/destinations/hulopoe-bay-lava-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 52330,
+    "sha256": "d950ed1e91b87ec2a9f033e1b155bc49a20c3db5eb12820944ddbcaf8e4a982c"
+   },
+   {
+    "path": "dist/assets/destinations/hulopoe-bay-lava-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 55556,
+    "sha256": "53e09e4f925cb9d981f52b1c8acb7d2b368e6de04a985701d4c78b53bcde86ea"
+   },
+   {
+    "path": "dist/assets/destinations/hulopoe-bay-lava-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 220620,
+    "sha256": "b099fb1a02ae43c277c7987f9efc726e403c6d3a15c9875b0b9afe62c268b896"
+   },
+   {
+    "path": "dist/assets/destinations/hulopoe-bay-lava-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 233736,
+    "sha256": "9ccceeb80ea82db9aba5c3afbd177ce4a8787e8d2efa64e9a0624a4bc4ad1abc"
+   }
+  ]
+ },
+ {
+  "destination": "Hana, Maui",
+  "title": "Hasegawa General Store in Hana, Hawaii, a historic Hana landmark for a bit of shopping in Maui",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2024642012/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/72400/72468v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The historic Hasegawa General Store under palms in Hana",
+  "files": [
+   {
+    "path": "dist/assets/destinations/hasegawa-general-store-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 46644,
+    "sha256": "aecf88da70bb95324807aeaa6e281cd774fbfe4c19dc5cdaf90e02f601025eb0"
+   },
+   {
+    "path": "dist/assets/destinations/hasegawa-general-store-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 53566,
+    "sha256": "6834b766c2f95ede20c72b17e605ef33e5750a8241a97f19ef5d63343fccdca5"
+   },
+   {
+    "path": "dist/assets/destinations/hasegawa-general-store-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 180540,
+    "sha256": "59097216cfd2c3c3783dc2a34f49e2a359339ad8793532157bfbba5e23dbe42d"
+   },
+   {
+    "path": "dist/assets/destinations/hasegawa-general-store-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 205172,
+    "sha256": "310e3296afc4de7698d564580800ee0661d3b57f26d844067e757052d4c57574"
+   }
+  ]
+ },
+ {
+  "destination": "Molokai",
+  "title": "KALA Vanishing Treasures (17196312488)",
+  "photographer": "Lisa Sasser",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:KALA_Vanishing_Treasures_%2817196312488%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/KALA_Vanishing_Treasures_%2817196312488%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3262,
+   "height": 2439
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Stone walls and palms at the Kalaupapa settlement below Molokai's sea cliffs",
+  "files": [
+   {
+    "path": "dist/assets/destinations/kalaupapa-settlement-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 49694,
+    "sha256": "463c5fe7c642031849a16dd97ddc0e53c69a2f3bfbc26372cfcceb99b9c8aa6b"
+   },
+   {
+    "path": "dist/assets/destinations/kalaupapa-settlement-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57317,
+    "sha256": "72314d745d9a6952dfcddde39709341181147a9b61a8268990487c708fda0113"
+   },
+   {
+    "path": "dist/assets/destinations/kalaupapa-settlement-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 195010,
+    "sha256": "424f8b3e15c8b85fac36b57830179f9a66eec095880b679ef00b7c703f85a62f"
+   },
+   {
+    "path": "dist/assets/destinations/kalaupapa-settlement-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 225943,
+    "sha256": "0b733ae2da45400f408bd58d0436a4b3549426c95137c06149d1e65481ca0c27"
+   }
+  ]
+ },
+ {
+  "destination": "Kauai",
+  "title": "Beautiful Kauai is one of the many islands of Hawaii",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2024641846/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/72300/72302v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Red and green canyon walls on Kauai",
+  "files": [
+   {
+    "path": "dist/assets/destinations/kauai-canyon-cliffs-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 57440,
+    "sha256": "d782d12e54ca9a93a0ec7f198928b6d25491650cf822aa96484100c82253be3f"
+   },
+   {
+    "path": "dist/assets/destinations/kauai-canyon-cliffs-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 61468,
+    "sha256": "3df4bcf44f559a3b4b9e17938089abe2f40a28d29c23d4112beb14309f057ce3"
+   },
+   {
+    "path": "dist/assets/destinations/kauai-canyon-cliffs-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 237354,
+    "sha256": "e392ed55cea7490a292d33f9dd29350d95ccd6f84abbf97504b7a8b55b1fc41e"
+   },
+   {
+    "path": "dist/assets/destinations/kauai-canyon-cliffs-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 246624,
+    "sha256": "013616f1da14691d3f54d7c67a074af0684c6001493294c79bdb22b9c560cde1"
+   }
+  ]
+ },
+ {
+  "destination": "Kona & the Big Island",
+  "title": "Kona Hundestrand Big island, Hawaii (31338175147)",
+  "photographer": "dronepicr",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Kona_Hundestrand_Big_island%2C_Hawaii_%2831338175147%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Kona_Hundestrand_Big_island%2C_Hawaii_%2831338175147%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 6240,
+   "height": 4160
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Black lava tide pools along the Kona coast under a blue sky",
+  "files": [
+   {
+    "path": "dist/assets/destinations/kona-coast-lava-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 35576,
+    "sha256": "2f4d63590820722da6dd26ab777010590b5ff76bc4a80e16ab9ece53272f08d9"
+   },
+   {
+    "path": "dist/assets/destinations/kona-coast-lava-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43153,
+    "sha256": "1875dccc9e7c4c775f53cd09670e7563a18f9f3b1e82db14639ce0e611852f8b"
+   },
+   {
+    "path": "dist/assets/destinations/kona-coast-lava-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 135870,
+    "sha256": "0711a0652b78eecacae700764d5815d940ee09f5ea52b0bddfba9a7c5f99f498"
+   },
+   {
+    "path": "dist/assets/destinations/kona-coast-lava-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 166251,
+    "sha256": "97448a0d57358ffb3dc6288631d97e3882ca44d548ca2c1f7af6dc914d3bcbe7"
+   }
+  ]
  }
 ]

@@ -4420,10 +4420,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hulopoe-bay-lava", "alt": "Red lava cliffs and turquoise water at Hulopoe Bay, Lanai"}
 },
 {
  "name": "Hana, Maui",
@@ -4445,10 +4442,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hasegawa-general-store", "alt": "The historic Hasegawa General Store under palms in Hana"}
 },
 {
  "name": "Molokai",
@@ -4467,10 +4461,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kalaupapa-settlement", "alt": "Stone walls and palms at the Kalaupapa settlement below Molokai's sea cliffs"}
 },
 {
  "name": "Kauai",
@@ -4492,10 +4483,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kauai-canyon-cliffs", "alt": "Red and green canyon walls on Kauai"}
 },
 {
  "name": "Kona & the Big Island",
@@ -4517,9 +4505,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Hawaii",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "kona-coast-lava", "alt": "Black lava tide pools along the Kona coast under a blue sky"}
 }
 ];
