@@ -870,6 +870,18 @@ PLANS = {
     'san-francisco': {
         'day': [('Arrive', 'Land at KOAK mid-morning.'), ('Midday', 'BART to the Ferry Building for lunch.'), ('Afternoon', 'A cable-car ride, then back to Oakland.')],
         'extra': [('Morning', 'Alcatraz.'), ('Afternoon', 'The Golden Gate Bridge.'), ('Evening', 'Dinner at Tadich Grill.')]},
+    'san-juan-islands': {
+        'day': [('Arrive', 'Land at KFHR or W33 mid-morning.'), ('Midday', 'Walk into town and the Whale Museum.'), ('Afternoon', 'Lime Kiln Point for whales, then back to the airport.')],
+        'extra': [('Morning', 'English Camp.'), ('Afternoon', 'Roche Harbor.'), ('Evening', "Dinner at McMillin's.")]},
+    'hood-river': {
+        'day': [('Arrive', 'Land at 4S2 mid-morning, before the wind builds.'), ('Midday', 'WAAAM on the airport.'), ('Afternoon', 'Lunch downtown, then back to the airport.')],
+        'extra': [('Morning', 'The Fruit Loop.'), ('Afternoon', 'Multnomah Falls.'), ('Evening', 'Dinner at Celilo.')]},
+    'willamette-valley': {
+        'day': [('Arrive', 'Land at KMMV mid-morning.'), ('Midday', 'The Spruce Goose next door.'), ('Afternoon', 'Two Dundee Hills wineries, then back to the airport.')],
+        'extra': [('Morning', 'Wineries with a driver.'), ('Afternoon', 'The spa at the Allison.'), ('Evening', 'Dinner at the Joel Palmer House.')]},
+    'oregon-coast': {
+        'day': [('Arrive', 'Land at KAST mid-morning.'), ('Midday', 'The Columbia River Maritime Museum and lunch on the waterfront.'), ('Afternoon', 'The Astoria Column, then back to the airport.')],
+        'extra': [('Morning', 'Haystack Rock at low tide.'), ('Afternoon', 'Ecola State Park.'), ('Evening', 'Dinner in Cannon Beach.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
