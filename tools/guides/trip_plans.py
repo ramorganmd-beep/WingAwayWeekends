@@ -912,6 +912,21 @@ PLANS = {
     'great-basin': {
         'day': [('Arrive', 'Land at KELY early and pick up the car.'), ('Midday', 'Lehman Caves tour.'), ('Afternoon', 'Back to Ely and the airport.')],
         'extra': [('Morning', 'The bristlecone trail.'), ('Afternoon', 'A steam train in Ely.'), ('Evening', 'Stargazing in the park.')]},
+    'redwood-coast': {
+        'day': [('Arrive', 'Land at KACV once the fog lifts.'), ('Midday', 'Prairie Creek redwoods and the elk meadows.'), ('Afternoon', 'Old Town Eureka, then back to the airport.')],
+        'extra': [('Morning', 'Fern Canyon.'), ('Afternoon', "Trinidad's harbor and lighthouse."), ('Evening', 'Dinner at Restaurant 301.')]},
+    'mount-shasta': {
+        'day': [('Arrive', 'Land at O46 mid-morning.'), ('Midday', 'The McCloud River falls.'), ('Afternoon', 'Lake Siskiyou, then back to the airport.')],
+        'extra': [('Morning', 'Everitt Memorial Highway.'), ('Afternoon', 'Mount Shasta city.'), ('Evening', 'Dinner at the McCloud Hotel.')]},
+    'crater-lake': {
+        'day': [('Arrive', 'Land at KLMT early.'), ('Midday', 'Drive to the rim and lunch at the lodge.'), ('Afternoon', 'Part of the Rim Drive, then back to the airport.')],
+        'extra': [('Morning', 'A boat tour to Wizard Island.'), ('Afternoon', 'Garfield Peak.'), ('Evening', 'Dinner at Crater Lake Lodge.')]},
+    'ashland': {
+        'day': [('Arrive', 'Land at S03 mid-morning.'), ('Midday', 'Lithia Park and lunch downtown.'), ('Afternoon', 'A matinee, then back to the airport.')],
+        'extra': [('Morning', 'Rogue Valley wineries.'), ('Afternoon', 'Jacksonville.'), ('Evening', 'Dinner at Amuse and a play.')]},
+    'bend-sunriver': {
+        'day': [('Arrive', 'Land at S21 mid-morning.'), ('Midday', 'Lunch at the resort and a bike ride.'), ('Afternoon', 'The High Desert Museum, then back to the airport.')],
+        'extra': [('Morning', 'Lava Butte.'), ('Afternoon', 'Mount Bachelor.'), ('Evening', 'Dinner at Pine Tavern in Bend.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
