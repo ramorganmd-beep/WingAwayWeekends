@@ -858,6 +858,18 @@ PLANS = {
     'big-sur': {
         'day': [('Arrive', 'Land at KMRY late morning.'), ('Midday', 'Bixby Bridge and lunch at Nepenthe.'), ('Afternoon', 'Back to Monterey before the evening fog.')],
         'extra': [('Morning', 'McWay Falls.'), ('Afternoon', 'Point Lobos.'), ('Evening', 'Sunset dinner at Sierra Mar.')]},
+    'napa-sonoma': {
+        'day': [('Arrive', 'Land at KAPC mid-morning.'), ('Midday', 'Lunch at Oxbow Public Market.'), ('Afternoon', 'Two wineries with a driver, then back to the airport.')],
+        'extra': [('Morning', 'Wineries up valley.'), ('Afternoon', 'The Wine Train.'), ('Evening', 'Dinner at Bouchon.')]},
+    'lake-tahoe': {
+        'day': [('Arrive', 'Land at KTRK early, before the afternoon density altitude.'), ('Midday', 'Lunch on the pier at Gar Woods.'), ('Afternoon', 'Sand Harbor, then back to the airport.')],
+        'extra': [('Morning', 'Emerald Bay.'), ('Afternoon', 'A paddle from Tahoe City.'), ('Evening', "Dinner at Moody's in Truckee.")]},
+    'mendocino': {
+        'day': [('Arrive', 'Land at KLLR once the fog lifts.'), ('Midday', 'Walk the headlands and lunch in the village.'), ('Afternoon', 'Point Cabrillo lighthouse, then back to the airport.')],
+        'extra': [('Morning', 'The Skunk Train.'), ('Afternoon', 'The botanical gardens.'), ('Evening', 'Dinner at Café Beaujolais.')]},
+    'san-francisco': {
+        'day': [('Arrive', 'Land at KOAK mid-morning.'), ('Midday', 'BART to the Ferry Building for lunch.'), ('Afternoon', 'A cable-car ride, then back to Oakland.')],
+        'extra': [('Morning', 'Alcatraz.'), ('Afternoon', 'The Golden Gate Bridge.'), ('Evening', 'Dinner at Tadich Grill.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
