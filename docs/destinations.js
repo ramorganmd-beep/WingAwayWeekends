@@ -4880,5 +4880,190 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "photo": {"slug": "white-sands-dunes", "alt": "Rippled white gypsum dunes at White Sands National Park"}
+},
+{
+ "name": "Austin",
+ "state": "Texas",
+ "airport": "KAUS",
+ "lat": 30.2672,
+ "lon": -97.7431,
+ "desc": "The live-music capital: honky-tonks, Franklin Barbecue, Barton Springs, the Capitol and the bats under Congress Avenue Bridge.",
+ "tags": [
+  "Dining",
+  "Stays",
+  "History",
+  "Romance"
+ ],
+ "guide": "austin/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Horseshoe Bay & Lake LBJ",
+ "state": "Texas",
+ "airport": "KDZB",
+ "lat": 30.5272,
+ "lon": -98.3589,
+ "desc": "A fly-in golf and lake resort in the Hill Country: a runway at the resort, three golf courses, a lake beach and a spa.",
+ "tags": [
+  "Golf",
+  "Lake",
+  "Stays",
+  "Spa",
+  "Romance"
+ ],
+ "guide": "horseshoe-bay/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Port Aransas & Rockport",
+ "state": "Texas",
+ "airport": "RAS",
+ "lat": 27.8339,
+ "lon": -97.0611,
+ "desc": "A laid-back island town: Mustang Island beaches, the 1886 Tarpon Inn, Gulf seafood, fishing charters and whooping cranes near Rockport.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "port-aransas/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Jefferson & Caddo Lake",
+ "state": "Texas",
+ "airport": "24F",
+ "lat": 32.7571,
+ "lon": -94.3452,
+ "desc": "An old steamboat port in the East Texas piney woods: brick streets, antiques, the 1858 Excelsior House and the cypress swamps of Caddo Lake.",
+ "tags": [
+  "History",
+  "Lake",
+  "Outdoors",
+  "Stays"
+ ],
+ "guide": "jefferson/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Amarillo & Palo Duro Canyon",
+ "state": "Texas",
+ "airport": "KAMA",
+ "lat": 34.9842,
+ "lon": -101.6886,
+ "desc": "The second-largest canyon in the country: hiking and horseback rides in Palo Duro, the TEXAS outdoor musical, Cadillac Ranch and the Big Texan.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "History"
+ ],
+ "guide": "palo-duro-canyon/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "New Braunfels & Gruene",
+ "state": "Texas",
+ "airport": "KBAZ",
+ "lat": 29.7036,
+ "lon": -98.1245,
+ "desc": "German heritage on spring-fed rivers: Gruene Hall, Texas's oldest dance hall, the Gristmill, river tubing and Wurstfest.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Outdoors",
+  "Romance"
+ ],
+ "guide": "new-braunfels/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Waco & the Silos",
+ "state": "Texas",
+ "airport": "KACT",
+ "lat": 31.5493,
+ "lon": -97.1467,
+ "desc": "Magnolia Market at the Silos, Magnolia Table, the Art Deco Hotel 1928, the Dr Pepper Museum and a mammoth national monument.",
+ "tags": [
+  "Dining",
+  "Stays",
+  "History"
+ ],
+ "guide": "waco/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Granbury",
+ "state": "Texas",
+ "airport": "KGDJ",
+ "lat": 32.4421,
+ "lon": -97.7942,
+ "desc": "A historic courthouse square on Lake Granbury: the 1886 Opera House, rooms on the square, a lakeside inn and dinosaur tracks nearby.",
+ "tags": [
+  "History",
+  "Lake",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "granbury/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
