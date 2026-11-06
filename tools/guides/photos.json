@@ -2837,16 +2837,16 @@
     "credit_html": "<a href=\"https://www.loc.gov/item/2011631987/\">Procession of 'hoodoo' formations in Bryce Canyon National Park in Utah</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
   },
   "eugene": {
-    "slug": "eugene-downtown-skinner-butte",
+    "slug": "eugene-fifth-street-market",
     "widths": [
       480,
       960
     ],
-    "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park",
+    "alt": "Brick shops and a clock tower at the 5th Street Public Market in downtown Eugene",
     "w": 960,
     "h": 720,
-    "caption": "Downtown Eugene and Skinner Butte from Hendricks Park.",
-    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg\">Downtown Eugene, Oregon and Skinner's Butte from Hendricks Park</a> — Rick Obst · <a href=\"https://creativecommons.org/licenses/by/2.0/\">CC BY 2.0</a>. Cropped to 4:3 and resized."
+    "caption": "The 5th Street Public Market, downtown Eugene.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Stores_at_the_Fifth_Street_Public_Market_in_Eugene%2C_Oregon.jpg\">Stores at the Fifth Street Public Market in Eugene, Oregon</a> — Rick Obst · <a href=\"https://creativecommons.org/licenses/by/4.0/\">CC BY 4.0</a>. Cropped to 4:3 and resized."
   },
   "scottsdale": {
     "slug": "taliesin-west",
