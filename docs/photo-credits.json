@@ -7294,5 +7294,446 @@
     "sha256": "a8e6c25eb50336693b7bbdd9580404777423a63ac5d86c1a97d9d52928a70483"
    }
   ]
+ },
+ {
+  "destination": "Scottsdale",
+  "title": "Taliesin West, Frank Lloyd Wright Boulevard, Scottsdale, Arizona",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2011631335/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:13100:13141/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2310,
+   "height": 1814
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Frank Lloyd Wright’s Taliesin West in the desert below the McDowell Mountains",
+  "files": [
+   {
+    "path": "dist/assets/destinations/taliesin-west-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 22356,
+    "sha256": "bf815ae0fb02d2711dc37245912f783f16d7451a880f43218037ddc7dd399e6d"
+   },
+   {
+    "path": "dist/assets/destinations/taliesin-west-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 31385,
+    "sha256": "b88f26f7ddacdd6cce8ea88376f28950999b66f4e078287169a7842088c8c6be"
+   },
+   {
+    "path": "dist/assets/destinations/taliesin-west-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 69086,
+    "sha256": "6ac61590387c566c659f8f33d8d338deab432cdd185df7d5202e8b06fc5e96ec"
+   },
+   {
+    "path": "dist/assets/destinations/taliesin-west-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 104916,
+    "sha256": "fd4f015ee38c3d1308d8ec006da118805d9e8f7ef1c9a2b2cfe62e9d19d54af1"
+   }
+  ]
+ },
+ {
+  "destination": "Tucson",
+  "title": "The Mission San Xavier del Bac, a Spanish Catholic mission, completed in 1797 on what is now the Tohono O'odham San Xavier Indian Reservation in Pima County, Arizona, just south of Tucson",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018663356/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/49600/49638v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 899
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The white towers of Mission San Xavier del Bac under a blue sky",
+  "files": [
+   {
+    "path": "dist/assets/destinations/san-xavier-mission-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 30336,
+    "sha256": "a51fd6a4fcbd94490d95bb3629a7ef50560b60a0015c73ef13f78a9572dcd9b1"
+   },
+   {
+    "path": "dist/assets/destinations/san-xavier-mission-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 40293,
+    "sha256": "5112d7fc520f7245acacfa9c741634da5fe5eaa58e8178bcff772d37390f7cda"
+   },
+   {
+    "path": "dist/assets/destinations/san-xavier-mission-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 108382,
+    "sha256": "9d39bdfd81b941ecc1b42bf61aa8766ef5b4ac60b8da8dc8344bfdfc8698ec05"
+   },
+   {
+    "path": "dist/assets/destinations/san-xavier-mission-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 142168,
+    "sha256": "a7f01a415edda6ff924247c7b86a41056af2d359196d19daac119d365197f73b"
+   }
+  ]
+ },
+ {
+  "destination": "Bisbee & Tombstone",
+  "title": "Bisbee, Arizona mainstreet",
+  "photographer": "Chad Johnson",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bisbee%2C_Arizona_mainstreet.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Bisbee%2C_Arizona_mainstreet.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 855
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Historic brick storefronts on Bisbee’s Main Street below the hills",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bisbee-main-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 48168,
+    "sha256": "e2cb83ea60e37314efffecc5e1e4bd5cc2ee457cff4e01eaaed684b627396b9f"
+   },
+   {
+    "path": "dist/assets/destinations/bisbee-main-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56872,
+    "sha256": "a71b24fb4c1072f6953585c2326112957373530cbf7e3f7706c9f7850a0bcdba"
+   },
+   {
+    "path": "dist/assets/destinations/bisbee-main-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 166324,
+    "sha256": "adba2b7cdf4e54b1c27363c1343f76416412fdb51dbfdb92b6a6ef43e64ec3a2"
+   },
+   {
+    "path": "dist/assets/destinations/bisbee-main-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 200827,
+    "sha256": "d65c6f212462ff2e0d20a832d6e76e24a6bac107fd4d33de9a1749e120ecd9f9"
+   }
+  ]
+ },
+ {
+  "destination": "Grand Canyon South Rim",
+  "title": "View from the South Rim of the spectacular Grand Canyon National Park",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018701697/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/53600/53661v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Layered red cliffs of the Grand Canyon seen from the South Rim",
+  "files": [
+   {
+    "path": "dist/assets/destinations/grand-canyon-south-rim-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 31526,
+    "sha256": "d496fef18952eee2f9c636a3b1ef918d36990f8039327bd8e347f4bc151bd848"
+   },
+   {
+    "path": "dist/assets/destinations/grand-canyon-south-rim-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 39300,
+    "sha256": "bbfa8e0338189bf7fd0f25c527c61b3fbe96633dd92b5fae6b9df70bde6953a4"
+   },
+   {
+    "path": "dist/assets/destinations/grand-canyon-south-rim-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 128588,
+    "sha256": "8a25c8481404426d5caab86ee7652b46e029119a864690ec45c0fec4376a81be"
+   },
+   {
+    "path": "dist/assets/destinations/grand-canyon-south-rim-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 154524,
+    "sha256": "7f7a3c6cccaaed7753e13bf4c6dabeb037bcfd247609dd04e8d9326560c0e481"
+   }
+  ]
+ },
+ {
+  "destination": "Prescott",
+  "title": "Prescott Whiskey Row2",
+  "photographer": "MB",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Prescott_Whiskey_Row2.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Prescott_Whiskey_Row2.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Historic saloons and storefronts along Prescott’s Whiskey Row",
+  "files": [
+   {
+    "path": "dist/assets/destinations/prescott-whiskey-row-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 42630,
+    "sha256": "e5c981c04781af7912b988d7e6efb03ae400dca8aa818ed49aee3e46f4bedf9c"
+   },
+   {
+    "path": "dist/assets/destinations/prescott-whiskey-row-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 51599,
+    "sha256": "17d4ecd2d4739e9181f088ff6850db6c58a7e60383fb9962c28cf5ab0e777989"
+   },
+   {
+    "path": "dist/assets/destinations/prescott-whiskey-row-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 110516,
+    "sha256": "f1dc1fce337ac0b6f30ec41e7b95b4bfd0ce829e47747d6245d6ba62b219d3b8"
+   },
+   {
+    "path": "dist/assets/destinations/prescott-whiskey-row-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 152264,
+    "sha256": "98f2d9ea334bcb8ab7d3fde6800024876768124e12bad8626125bcb732d5f645"
+   }
+  ]
+ },
+ {
+  "destination": "Taos",
+  "title": "Taos Pueblo 1992",
+  "photographer": "John Fyfe",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Taos_Pueblo_1992.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Taos_Pueblo_1992.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 865
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Multistory adobe buildings of Taos Pueblo with mountains behind",
+  "files": [
+   {
+    "path": "dist/assets/destinations/taos-pueblo-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 38828,
+    "sha256": "e0f2a298ed49c5f4c5ce96bd313ddde2378f9363575003f543947000556e7f83"
+   },
+   {
+    "path": "dist/assets/destinations/taos-pueblo-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 47475,
+    "sha256": "f549b8c4330a7f979f394efb7352aae51a28bdf53b61954241dc6983c4604842"
+   },
+   {
+    "path": "dist/assets/destinations/taos-pueblo-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 130774,
+    "sha256": "6da1225e0fa69d0750f870368774ff62dd918aa23b34f4e0d8acde60268c848b"
+   },
+   {
+    "path": "dist/assets/destinations/taos-pueblo-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 164004,
+    "sha256": "f37cee197eda552842d3213356cbc4e29e81c49d6c251dab43964c8f73a3960e"
+   }
+  ]
+ },
+ {
+  "destination": "Albuquerque",
+  "title": "Annual balloon festival, Albuquerque, New Mexico",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2010630855/",
+  "original_image_url": "https://tile.loc.gov/image-services/iiif/service:pnp:highsm:04800:04874/full/pct:25/0/default.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1536,
+   "height": 1024
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Hot-air balloons rising over the Albuquerque Balloon Fiesta",
+  "files": [
+   {
+    "path": "dist/assets/destinations/albuquerque-balloon-fiesta-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 27564,
+    "sha256": "6908337b94d0ed252d2a20a63f31f05f174bddcaf3101bc35f4c95b9741e2e61"
+   },
+   {
+    "path": "dist/assets/destinations/albuquerque-balloon-fiesta-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 37907,
+    "sha256": "d1197053f4fc8de5889de28eb1c978c081ad2d03b9c579e5f10a16eb44e06042"
+   },
+   {
+    "path": "dist/assets/destinations/albuquerque-balloon-fiesta-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 76134,
+    "sha256": "54c8f12c9a5846070e06bd1e2c149ffa75ed4dff8393d6fd9b8cea7c28b2aa78"
+   },
+   {
+    "path": "dist/assets/destinations/albuquerque-balloon-fiesta-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 118250,
+    "sha256": "92f81ec1a5434ef33fe1b0eb3283c9e2d569ebe93cf06233e97175c7892d222a"
+   }
+  ]
+ },
+ {
+  "destination": "Ruidoso",
+  "title": "Billy the Kid Trail - Downtown Ruidoso - NARA - 7717320",
+  "photographer": "Unknown authorUnknown author or not provided",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Billy_the_Kid_Trail_-_Downtown_Ruidoso_-_NARA_-_7717320.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Billy_the_Kid_Trail_-_Downtown_Ruidoso_-_NARA_-_7717320.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 840
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Downtown Ruidoso’s main street with pine-covered mountains behind",
+  "files": [
+   {
+    "path": "dist/assets/destinations/ruidoso-downtown-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33812,
+    "sha256": "16f2e71822fececc445f22ecf6ce2c08b2f93596b56b491dc429a7719b447a15"
+   },
+   {
+    "path": "dist/assets/destinations/ruidoso-downtown-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41912,
+    "sha256": "03006320cf14d6c287cb6d5f97aee319f8436535c6e3bb4fb4f0e18a7d3d7e91"
+   },
+   {
+    "path": "dist/assets/destinations/ruidoso-downtown-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 113832,
+    "sha256": "7789bdaaed637d2b8e07184838fa6f923b19326f0422c59c082887d1f5fb07da"
+   },
+   {
+    "path": "dist/assets/destinations/ruidoso-downtown-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 151367,
+    "sha256": "fe967354eed4864b85d66c67744848444b6f32449d6b822f6cb724234bb388b0"
+   }
+  ]
+ },
+ {
+  "destination": "White Sands & Cloudcroft",
+  "title": "Scene at White Sands National Park in southern New Mexico's Tularosa Basin",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2021755497/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/66600/66672v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Rippled white gypsum dunes at White Sands National Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/white-sands-dunes-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 29572,
+    "sha256": "4b0ff18d06e3d09dad147431b216eaf123b8bffd9f1ac460efbabf0ad1f68c08"
+   },
+   {
+    "path": "dist/assets/destinations/white-sands-dunes-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 36369,
+    "sha256": "bb93f865d8e3bd3141cf2ca8959df864a713d72cfac8e0008d42304f1d0b7446"
+   },
+   {
+    "path": "dist/assets/destinations/white-sands-dunes-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 125742,
+    "sha256": "dcf6245c4dc657eeba52619ad6bc9b5fb3363268936f13067019d4a5244e1b2a"
+   },
+   {
+    "path": "dist/assets/destinations/white-sands-dunes-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 147715,
+    "sha256": "a899980c7821479faa01e337d33914e8759f4f287eaa5871c6c85ffd18d901e9"
+   }
+  ]
  }
 ]

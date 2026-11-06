@@ -1675,3 +1675,75 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Scottsdale
+
+- Title: Taliesin West, Frank Lloyd Wright Boulevard, Scottsdale, Arizona
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011631335/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Tucson
+
+- Title: The Mission San Xavier del Bac, a Spanish Catholic mission, completed in 1797 on what is now the Tohono O'odham San Xavier Indian Reservation in Pima County, Arizona, just south of Tucson
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018663356/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Bisbee & Tombstone
+
+- Title: Bisbee, Arizona mainstreet
+- Photographer: Chad Johnson
+- Source: https://commons.wikimedia.org/wiki/File:Bisbee%2C_Arizona_mainstreet.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Grand Canyon South Rim
+
+- Title: View from the South Rim of the spectacular Grand Canyon National Park
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018701697/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Prescott
+
+- Title: Prescott Whiskey Row2
+- Photographer: MB
+- Source: https://commons.wikimedia.org/wiki/File:Prescott_Whiskey_Row2.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Taos
+
+- Title: Taos Pueblo 1992
+- Photographer: John Fyfe
+- Source: https://commons.wikimedia.org/wiki/File:Taos_Pueblo_1992.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Albuquerque
+
+- Title: Annual balloon festival, Albuquerque, New Mexico
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2010630855/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Ruidoso
+
+- Title: Billy the Kid Trail - Downtown Ruidoso - NARA - 7717320
+- Photographer: Unknown authorUnknown author or not provided
+- Source: https://commons.wikimedia.org/wiki/File:Billy_the_Kid_Trail_-_Downtown_Ruidoso_-_NARA_-_7717320.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## White Sands & Cloudcroft
+
+- Title: Scene at White Sands National Park in southern New Mexico's Tularosa Basin
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2021755497/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
