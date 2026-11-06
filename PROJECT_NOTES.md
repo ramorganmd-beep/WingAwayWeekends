@@ -428,3 +428,8 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Owner prefers a named FBO in every guide's FBO box unless the field truly has none; use the airport/city only when it is the fuel provider.
 - Source: AirNav airport pages (FBO, Fuel Providers section); parser at scratchpad fbo.py. Extra FBOs go at the start of the first flight note ("Other FBOs: ...").
 - Updated 30 guides (AZ/NM drafts, CO/UT, plus AK, HI, NV, OR, MN, MI, CA older guides).
+
+## Arizona & New Mexico batch (November 6, 2026)
+- Published scottsdale (KSDL), tucson (KTUS), bisbee (P04), grand-canyon (KGCN), prescott (KPRC), taos (KSKX), albuquerque (KAEG), ruidoso (KSRR), white-sands (KALM) in Mountain West. 245 guides live.
+- Page (KPGA) skipped: NASR shows the airport closed indefinitely.
+- Next gap: Texas, then Idaho/Wyoming/Washington.

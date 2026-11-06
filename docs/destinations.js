@@ -4720,7 +4720,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "taliesin-west", "alt": "Frank Lloyd Wright’s Taliesin West and its pool lit at dusk"}
 },
 {
@@ -4742,7 +4741,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "san-xavier-mission", "alt": "The white towers of Mission San Xavier del Bac under a blue sky"}
 },
 {
@@ -4762,7 +4760,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "bisbee-main-street", "alt": "Historic brick storefronts on Bisbee’s Main Street below the hills"}
 },
 {
@@ -4782,7 +4779,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "grand-canyon-south-rim", "alt": "Layered red cliffs of the Grand Canyon seen from the South Rim"}
 },
 {
@@ -4803,7 +4799,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "prescott-whiskey-row", "alt": "Historic saloons and storefronts along Prescott’s Whiskey Row"}
 },
 {
@@ -4825,7 +4820,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NM",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "taos-pueblo", "alt": "Multistory adobe buildings of Taos Pueblo with mountains behind"}
 },
 {
@@ -4846,7 +4840,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NM",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "albuquerque-balloon-fiesta", "alt": "Hot-air balloons rising over the Albuquerque Balloon Fiesta"}
 },
 {
@@ -4867,7 +4860,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NM",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "ruidoso-downtown", "alt": "Downtown Ruidoso’s main street with pine-covered mountains behind"}
 },
 {
@@ -4887,7 +4879,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NM",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "white-sands-dunes", "alt": "Rippled white gypsum dunes at White Sands National Park"}
 }
 ];
