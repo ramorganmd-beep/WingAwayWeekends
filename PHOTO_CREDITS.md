@@ -1747,3 +1747,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2021755497/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Eugene
+
+- Title: Stores at the Fifth Street Public Market in Eugene, Oregon
+- Photographer: Rick Obst
+- Source: https://commons.wikimedia.org/wiki/File:Stores_at_the_Fifth_Street_Public_Market_in_Eugene%2C_Oregon.jpg
+- License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

@@ -7735,5 +7735,54 @@
     "sha256": "a899980c7821479faa01e337d33914e8759f4f287eaa5871c6c85ffd18d901e9"
    }
   ]
+ },
+ {
+  "destination": "Eugene",
+  "title": "Stores at the Fifth Street Public Market in Eugene, Oregon",
+  "photographer": "Rick Obst",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Stores_at_the_Fifth_Street_Public_Market_in_Eugene%2C_Oregon.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Stores_at_the_Fifth_Street_Public_Market_in_Eugene%2C_Oregon.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 853
+  },
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Brick shops and a clock tower at the 5th Street Public Market in downtown Eugene",
+  "files": [
+   {
+    "path": "dist/assets/destinations/eugene-fifth-street-market-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 41044,
+    "sha256": "52f6edecb11b90589723b47f61a13158aa3b70533a92a21ecce9824f8cef892d"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-fifth-street-market-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 50605,
+    "sha256": "25eedffae31dccfb2eb2ddc3077b01e4cb15188894b361fbcd36d30c3883e830"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-fifth-street-market-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 155028,
+    "sha256": "82fc6f9b11129f15fcc0fbd7f0a8d0e6726ecf0c782b59d01fffa9c9a1391355"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-fifth-street-market-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 190931,
+    "sha256": "b45a4a2979ff54b4c14ad9633ebd897567c5b488e27ef3f36f84d8948372282c"
+   }
+  ]
  }
 ]

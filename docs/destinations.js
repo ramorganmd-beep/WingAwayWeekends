@@ -4700,7 +4700,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "OR",
  "region": "Pacific Northwest",
  "family": true,
- "photo": {"slug": "eugene-downtown-skinner-butte", "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park"}
+ "photo": {"slug": "eugene-fifth-street-market", "alt": "Brick shops and a clock tower at the 5th Street Public Market in downtown Eugene"}
 },
 {
  "name": "Scottsdale",
