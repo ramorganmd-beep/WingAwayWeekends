@@ -4319,5 +4319,126 @@ window.WINGAWAY_DESTINATIONS=[
   "slug": "cape-may-beach",
   "alt": "Illustration of a wide beach and the Atlantic"
  }
+},
+{
+ "name": "Redwood Coast",
+ "state": "California",
+ "airport": "KACV",
+ "lat": 41.3632,
+ "lon": -124.0189,
+ "desc": "The tallest trees on Earth: Redwood National and State Parks, Prairie Creek's elk and Fern Canyon, Victorian Eureka and the Carter House inns.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "History",
+  "Stays"
+ ],
+ "guide": "redwood-coast/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Mount Shasta & McCloud",
+ "state": "California",
+ "airport": "O46",
+ "lat": 41.3099,
+ "lon": -122.3106,
+ "desc": "A 14,179-foot volcano above far-northern California: alpine lakes, the McCloud River falls, a 1916 mill-town hotel, and skiing and hiking.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Lake",
+  "Stays"
+ ],
+ "guide": "mount-shasta/",
+ "stateCode": "CA",
+ "region": "Northern California",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Crater Lake & Klamath Falls",
+ "state": "Oregon",
+ "airport": "KLMT",
+ "lat": 42.9446,
+ "lon": -122.109,
+ "desc": "The deepest lake in the United States, in a collapsed volcano: the Rim Drive, Wizard Island boat tours and the historic lodge on the rim.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Lake",
+  "Stays"
+ ],
+ "guide": "crater-lake/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ashland & the Rogue Valley",
+ "state": "Oregon",
+ "airport": "S03",
+ "lat": 42.1946,
+ "lon": -122.7095,
+ "desc": "Home of the Oregon Shakespeare Festival: theater, Lithia Park and a historic hotel in a walkable town, with Rogue Valley wineries and Jacksonville.",
+ "tags": [
+  "History",
+  "Dining",
+  "Wine",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "ashland/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bend & Sunriver",
+ "state": "Oregon",
+ "airport": "S21",
+ "lat": 43.8763,
+ "lon": -121.4531,
+ "desc": "Central Oregon's high-desert playground: a resort with its own runway, Mount Bachelor, the Deschutes River, Bend breweries and the High Desert Museum.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Golf",
+  "Stays",
+  "Spa",
+  "Dining"
+ ],
+ "guide": "bend-sunriver/",
+ "stateCode": "OR",
+ "region": "Pacific Northwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
