@@ -7245,5 +7245,54 @@
     "sha256": "36f53a5ae62c167d601d65bf7e19022d62cb9620e5a5ef62ac5a445c45751fe9"
    }
   ]
+ },
+ {
+  "destination": "Eugene",
+  "title": "Downtown Eugene, Oregon and Skinner's Butte from Hendricks Park",
+  "photographer": "Rick Obst",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/10/Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 960
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park",
+  "files": [
+   {
+    "path": "dist/assets/destinations/eugene-downtown-skinner-butte-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 66076,
+    "sha256": "1cf9c1c1216aba3f9496edb9a726f2473838305ce655b376f956c055614c4cd4"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-downtown-skinner-butte-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 69026,
+    "sha256": "22988157694a901a92f9d747b72fce72df89929e6d39d4038d18197a9fbf064b"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-downtown-skinner-butte-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 265356,
+    "sha256": "c8dc0f301e41bdd89196d677991f6a254f8b211b82193c32300fe16caa9ee3a9"
+   },
+   {
+    "path": "dist/assets/destinations/eugene-downtown-skinner-butte-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 282194,
+    "sha256": "a8e6c25eb50336693b7bbdd9580404777423a63ac5d86c1a97d9d52928a70483"
+   }
+  ]
  }
 ]

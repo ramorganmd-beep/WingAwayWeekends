@@ -4701,9 +4701,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "eugene-downtown-skinner-butte", "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park"}
 }
 ];

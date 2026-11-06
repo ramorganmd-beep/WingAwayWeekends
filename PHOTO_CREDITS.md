@@ -1667,3 +1667,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.loc.gov/item/2011631987/
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Eugene
+
+- Title: Downtown Eugene, Oregon and Skinner's Butte from Hendricks Park
+- Photographer: Rick Obst
+- Source: https://commons.wikimedia.org/wiki/File:Downtown_Eugene%2C_Oregon_and_Skinner%27s_Butte_from_Hendricks_Park.jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
