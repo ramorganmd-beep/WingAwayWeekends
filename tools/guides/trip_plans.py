@@ -972,6 +972,33 @@ PLANS = {
     'eugene': {
         'day': [('Arrive', 'Land at KEUG mid-morning.'), ('Midday', 'Lunch at the 5th Street Public Market.'), ('Afternoon', 'A walk up Skinner Butte, then back to the airport.')],
         'extra': [('Morning', 'The Saturday Market.'), ('Afternoon', 'King Estate Winery.'), ('Evening', 'Dinner at Marché.')]},
+    'scottsdale': {
+        'day': [('Arrive', 'Land at KSDL mid-morning.'), ('Midday', 'Lunch in Old Town.'), ('Afternoon', 'Taliesin West, then back to the airport.')],
+        'extra': [('Morning', 'Desert Botanical Garden.'), ('Afternoon', 'Resort pool and spa.'), ('Evening', 'Dinner at FnB.')]},
+    'tucson': {
+        'day': [('Arrive', 'Land at KTUS mid-morning.'), ('Midday', 'Pima Air & Space Museum.'), ('Afternoon', 'Lunch at El Charro, then back to the airport.')],
+        'extra': [('Morning', 'Saguaro National Park.'), ('Afternoon', 'Mission San Xavier.'), ('Evening', 'Dinner at the Arizona Inn.')]},
+    'bisbee': {
+        'day': [('Arrive', 'Land at P04 mid-morning.'), ('Midday', 'Lunch on Main Street.'), ('Afternoon', 'The Copper Queen Mine Tour, then back to the airport.')],
+        'extra': [('Morning', 'Tombstone.'), ('Afternoon', 'Galleries and staircases.'), ('Evening', 'Dinner at Café Roka.')]},
+    'grand-canyon': {
+        'day': [('Arrive', 'Land at KGCN early.'), ('Midday', 'The Rim Trail from Mather Point.'), ('Afternoon', 'Lunch at the rim, then back to the airport.')],
+        'extra': [('Morning', 'Sunrise and Desert View.'), ('Afternoon', 'A walk down the Bright Angel Trail.'), ('Evening', 'Dinner at El Tovar.')]},
+    'prescott': {
+        'day': [('Arrive', 'Land at KPRC mid-morning.'), ('Midday', 'Lunch on the courthouse square.'), ('Afternoon', 'Watson Lake, then back to the airport.')],
+        'extra': [('Morning', 'Kayak the Granite Dells.'), ('Afternoon', 'Jerome.'), ('Evening', 'Dinner at The Barley Hound.')]},
+    'taos': {
+        'day': [('Arrive', 'Land at KSKX mid-morning.'), ('Midday', 'The Rio Grande Gorge Bridge.'), ('Afternoon', "Lunch at Doc Martin's, then back to the airport.")],
+        'extra': [('Morning', 'Taos Pueblo.'), ('Afternoon', 'Galleries on the plaza.'), ('Evening', 'Dinner at The Love Apple.')]},
+    'albuquerque': {
+        'day': [('Arrive', 'Land at KAEG mid-morning.'), ('Midday', 'Old Town and lunch at Church Street Café.'), ('Afternoon', 'The Balloon Museum, then back to the airport.')],
+        'extra': [('Morning', 'Indian Pueblo Cultural Center.'), ('Afternoon', 'Sandia Peak Tramway.'), ('Evening', 'Dinner at Campo.')]},
+    'ruidoso': {
+        'day': [('Arrive', 'Land at KSRR mid-morning.'), ('Midday', 'Lunch in Midtown Ruidoso.'), ('Afternoon', 'The Ski Apache gondola, then back to the airport.')],
+        'extra': [('Morning', 'Lincoln Historic Site.'), ('Afternoon', 'The races at Ruidoso Downs.'), ('Evening', 'Dinner at the Inn of the Mountain Gods.')]},
+    'white-sands': {
+        'day': [('Arrive', 'Land at KALM early.'), ('Midday', 'White Sands dunes.'), ('Afternoon', 'Museum of Space History, then back to the airport.')],
+        'extra': [('Morning', 'Sled the dunes.'), ('Afternoon', 'Drive up to Cloudcroft.'), ('Evening', 'Dinner at The Lodge.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

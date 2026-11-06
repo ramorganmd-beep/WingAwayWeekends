@@ -4701,5 +4701,220 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Pacific Northwest",
  "family": true,
  "photo": {"slug": "eugene-downtown-skinner-butte", "alt": "Downtown Eugene and Skinner Butte seen through trees from Hendricks Park"}
+},
+{
+ "name": "Scottsdale",
+ "state": "Arizona",
+ "airport": "KSDL",
+ "lat": 33.4942,
+ "lon": -111.9261,
+ "desc": "Desert resorts below Camelback, Old Town restaurants, Taliesin West, the Desert Botanical Garden and spring training.",
+ "tags": [
+  "Stays",
+  "Spa",
+  "Golf",
+  "Dining",
+  "Romance"
+ ],
+ "guide": "scottsdale/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Tucson",
+ "state": "Arizona",
+ "airport": "KTUS",
+ "lat": 32.2226,
+ "lon": -110.9747,
+ "desc": "Saguaro forests and Sonoran food: the Pima Air & Space Museum and boneyard, Saguaro National Park, Mission San Xavier and the 1930 Arizona Inn.",
+ "tags": [
+  "Aviation museums",
+  "Outdoors",
+  "Hiking",
+  "History",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "tucson/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Bisbee & Tombstone",
+ "state": "Arizona",
+ "airport": "P04",
+ "lat": 31.4418,
+ "lon": -109.9284,
+ "desc": "A copper-mining town stacked up a canyon: a mine tour, the 1902 Copper Queen Hotel, vintage trailers and galleries, with Tombstone nearby.",
+ "tags": [
+  "History",
+  "Stays",
+  "Dining",
+  "Scenic views"
+ ],
+ "guide": "bisbee/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Grand Canyon South Rim",
+ "state": "Arizona",
+ "airport": "KGCN",
+ "lat": 36.0544,
+ "lon": -112.1401,
+ "desc": "Land minutes from the South Rim: El Tovar on the edge, the Rim Trail, Desert View Watchtower and sunsets over a mile-deep canyon.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "grand-canyon/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Prescott",
+ "state": "Arizona",
+ "airport": "KPRC",
+ "lat": 34.54,
+ "lon": -112.4685,
+ "desc": "Arizona's territorial capital in the pines: Whiskey Row saloons, the 1927 Hassayampa Inn, the Granite Dells and Jerome nearby.",
+ "tags": [
+  "History",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "prescott/",
+ "stateCode": "AZ",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Taos",
+ "state": "New Mexico",
+ "airport": "KSKX",
+ "lat": 36.4072,
+ "lon": -105.5731,
+ "desc": "An adobe art town: the thousand-year-old Taos Pueblo, the Rio Grande Gorge Bridge, galleries, the Historic Taos Inn and Taos Ski Valley.",
+ "tags": [
+  "History",
+  "Scenic views",
+  "Stays",
+  "Dining",
+  "Spa",
+  "Outdoors"
+ ],
+ "guide": "taos/",
+ "stateCode": "NM",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Albuquerque",
+ "state": "New Mexico",
+ "airport": "KAEG",
+ "lat": 35.0844,
+ "lon": -106.6504,
+ "desc": "Balloon capital of the world: the October Balloon Fiesta, the Sandia Peak Tramway, Old Town, the Indian Pueblo Cultural Center and Los Poblanos.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Scenic views",
+  "Aviation museums"
+ ],
+ "guide": "albuquerque/",
+ "stateCode": "NM",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ruidoso",
+ "state": "New Mexico",
+ "airport": "KSRR",
+ "lat": 33.3317,
+ "lon": -105.673,
+ "desc": "A cool mountain town in the pines: Inn of the Mountain Gods, Ski Apache, Ruidoso Downs racing and Billy the Kid's Lincoln.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "Golf",
+  "History"
+ ],
+ "guide": "ruidoso/",
+ "stateCode": "NM",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "White Sands & Cloudcroft",
+ "state": "New Mexico",
+ "airport": "KALM",
+ "lat": 32.7797,
+ "lon": -106.1717,
+ "desc": "Glistening gypsum dunes for sledding and sunsets, the New Mexico Museum of Space History and a historic lodge in Cloudcroft.",
+ "tags": [
+  "Outdoors",
+  "Hiking",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "white-sands/",
+ "stateCode": "NM",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];
