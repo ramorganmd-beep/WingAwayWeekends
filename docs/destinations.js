@@ -5477,5 +5477,241 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "photo": {"slug": "red-lodge-broadway", "alt": "Historic brick storefronts along Broadway in Red Lodge, with mountains behind"}
+},
+{
+ "name": "Marquette & Pictured Rocks",
+ "state": "Michigan",
+ "airport": "KSAW",
+ "lat": 46.5436,
+ "lon": -87.3954,
+ "desc": "Lake Superior’s harbor town and the painted cliffs of Pictured Rocks: a 1930 harbor hotel, breweries, Presque Isle Park and a boat cruise under the cliffs.",
+ "tags": [
+  "Outdoors",
+  "Scenic views",
+  "Hiking",
+  "Lake",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "marquette/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Frankenmuth",
+ "state": "Michigan",
+ "airport": "KMBS",
+ "lat": 43.3317,
+ "lon": -83.738,
+ "desc": "Michigan’s Little Bavaria: chicken dinners at Zehnder’s and the Bavarian Inn, Bronner’s Christmas store, a riverboat and German festivals.",
+ "tags": [
+  "Dining",
+  "Stays",
+  "History"
+ ],
+ "guide": "frankenmuth/",
+ "stateCode": "MI",
+ "region": "Midwest",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Hermann Wine Country",
+ "state": "Missouri",
+ "airport": "63M",
+ "lat": 38.7042,
+ "lon": -91.4371,
+ "desc": "A German river town in Missouri wine country: historic wineries on the bluffs, a vineyard inn, bratwurst and Oktoberfest weekends.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Stays",
+  "Romance",
+  "History"
+ ],
+ "guide": "hermann/",
+ "stateCode": "MO",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Southport & Bald Head Island",
+ "state": "North Carolina",
+ "airport": "KSUT",
+ "lat": 33.9218,
+ "lon": -78.0203,
+ "desc": "A Cape Fear river town and a car-free island by ferry: Old Baldy lighthouse, golf carts, dockside seafood and the Battleship North Carolina.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "History",
+  "Scenic views"
+ ],
+ "guide": "southport/",
+ "stateCode": "NC",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Ocracoke Island",
+ "state": "North Carolina",
+ "airport": "W95",
+ "lat": 35.1146,
+ "lon": -75.981,
+ "desc": "A remote Outer Banks village with no bridge: a beachside NPS airstrip, an 1823 lighthouse, Banker ponies and Howard’s Pub.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Scenic views",
+  "History",
+  "Stays"
+ ],
+ "guide": "ocracoke/",
+ "stateCode": "NC",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Brainerd Lakes",
+ "state": "Minnesota",
+ "airport": "KBRD",
+ "lat": 46.437,
+ "lon": -94.346,
+ "desc": "Classic Minnesota lake resorts on Gull Lake: golf, boating, supper clubs, the Paul Bunyan Trail and Cuyuna mountain biking.",
+ "tags": [
+  "Lake",
+  "Golf",
+  "Outdoors",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "brainerd-lakes/",
+ "stateCode": "MN",
+ "region": "Heartland",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Thomasville",
+ "state": "Georgia",
+ "airport": "KTVI",
+ "lat": 30.8366,
+ "lon": -83.9788,
+ "desc": "South Georgia’s City of Roses: a brick downtown, Victorian inns, Pebble Hill Plantation, the Big Oak and Sweet Grass Dairy cheese.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "thomasville/",
+ "stateCode": "GA",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Callaway Gardens & Pine Mountain",
+ "state": "Georgia",
+ "airport": "KPIM",
+ "lat": 32.851,
+ "lon": -84.851,
+ "desc": "A garden resort in west Georgia: azaleas, a butterfly conservatory, a lake beach and FDR’s Little White House in Warm Springs.",
+ "tags": [
+  "Outdoors",
+  "Stays",
+  "History",
+  "Golf",
+  "Spa"
+ ],
+ "guide": "callaway-gardens/",
+ "stateCode": "GA",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Guthrie",
+ "state": "Oklahoma",
+ "airport": "KGOK",
+ "lat": 35.8789,
+ "lon": -97.4253,
+ "desc": "Oklahoma’s Victorian first capital: brick downtown, the Scottish Rite Temple, the Territorial Museum, the Pollard Theatre and a historic B&B.",
+ "tags": [
+  "History",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "guthrie/",
+ "stateCode": "OK",
+ "region": "Great Plains",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Lubbock & the Texas High Plains",
+ "state": "Texas",
+ "airport": "KLBB",
+ "lat": 33.5779,
+ "lon": -101.8552,
+ "desc": "Buddy Holly’s hometown and Texas wine-grape country: the Silent Wings glider museum, a windmill museum, wineries and brisket.",
+ "tags": [
+  "Aviation museums",
+  "Wine",
+  "Dining",
+  "History",
+  "Stays"
+ ],
+ "guide": "lubbock/",
+ "stateCode": "TX",
+ "region": "Texas",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

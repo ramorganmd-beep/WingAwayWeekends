@@ -3328,5 +3328,125 @@
     "h": 720,
     "caption": "Broadway, Red Lodge.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Red_Lodge_Main_Street_July_2000.jpg\">Red Lodge Main Street July 2000</a> — User:Velela · Public domain. Cropped to 4:3 and resized."
+  },
+  "marquette": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Marquette & Pictured Rocks (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "frankenmuth": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Frankenmuth (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "hermann": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Hermann Wine Country (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "southport": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Southport & Bald Head Island (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "ocracoke": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Ocracoke Island (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "brainerd-lakes": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Brainerd Lakes (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "thomasville": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Thomasville (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "callaway-gardens": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Callaway Gardens & Pine Mountain (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "guthrie": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Guthrie (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "lubbock": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Lubbock & the Texas High Plains (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
   }
 }

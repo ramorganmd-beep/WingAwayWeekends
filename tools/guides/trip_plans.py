@@ -1092,6 +1092,36 @@ PLANS = {
     'red-lodge': {
         'day': [('Arrive', 'Land at KRED mid-morning.'), ('Midday', 'Lunch in town.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'The main sight.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'marquette': {
+        'day': [('Arrive', 'Land at KSAW mid-morning.'), ('Midday', 'Lunch downtown in Marquette.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Pictured Rocks cruise from Munising.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'frankenmuth': {
+        'day': [('Arrive', 'Land at KMBS mid-morning.'), ('Midday', 'A chicken dinner at Zehnder’s.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Bronner’s CHRISTmas Wonderland.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'hermann': {
+        'day': [('Arrive', 'Land at 63M mid-morning.'), ('Midday', 'Bratwurst at the Hermann Wurst Haus.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Stone Hill Winery cellar tour.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'southport': {
+        'day': [('Arrive', 'Land at KSUT mid-morning.'), ('Midday', 'Steamed shrimp at Provision Company.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Ferry to Bald Head Island.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'ocracoke': {
+        'day': [('Arrive', 'Land at W95 mid-morning.'), ('Midday', 'Lunch in the village.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Bike to the lighthouse and beach.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'brainerd-lakes': {
+        'day': [('Arrive', 'Land at KBRD mid-morning.'), ('Midday', 'Lunch at a Gull Lake resort.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'A morning on Gull Lake.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'thomasville': {
+        'day': [('Arrive', 'Land at KTVI mid-morning.'), ('Midday', 'Shrimp and grits downtown.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Pebble Hill Plantation.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'callaway-gardens': {
+        'day': [('Arrive', 'Land at KPIM mid-morning.'), ('Midday', 'Lunch at the gardens.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Callaway’s Butterfly Center.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'guthrie': {
+        'day': [('Arrive', 'Land at KGOK mid-morning.'), ('Midday', 'Lunch downtown.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Scottish Rite Temple tour.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'lubbock': {
+        'day': [('Arrive', 'Land at KLBB mid-morning.'), ('Midday', 'Silent Wings Museum, then barbecue.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Buddy Holly Center.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
