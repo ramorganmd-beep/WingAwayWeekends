@@ -1819,3 +1819,83 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://www.tavaresfl.gov/
 - License: Used with permission
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Coeur d’Alene
+
+- Title: Coeur d'Alene Resort (Main hotel; Facing southeast; 2023-02-16)
+- Photographer: Locke Cole
+- Source: https://commons.wikimedia.org/wiki/File:Coeur_d%27Alene_Resort_%28Main_hotel%3B_Facing_southeast%3B_2023-02-16%29.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## McCall & Payette Lake
+
+- Title: Mccall
+- Photographer: Karthikc123
+- Source: https://commons.wikimedia.org/wiki/File:Mccall.JPG
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Sandpoint & Lake Pend Oreille
+
+- Title: Sandpoint id city beach
+- Photographer: Epdp
+- Source: https://commons.wikimedia.org/wiki/File:Sandpoint_id_city_beach.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Cody & Yellowstone’s East Gate
+
+- Title: Scene from Old Trail Town, a historic museum complex in Cody, Wyoming
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017685760/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Saratoga Hot Springs
+
+- Title: View of Lake Marie in Wyoming's Snowy Range, between Saratoga and Laramie
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2017884586/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Walla Walla Wine Country
+
+- Title: Pioneer Park, the oldest recreational grounds in Walla Walla, Washington, which opened in 1902, features a large aviary, installed in the 1980s by the Walla Walla Valley Lionesses Club and other volunteers
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018699183/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Leavenworth
+
+- Title: Main street in Leavenworth, Washington (2023-06-18) (cropped)
+- Photographer: Roc0ast3r
+- Source: https://commons.wikimedia.org/wiki/File:Main_street_in_Leavenworth%2C_Washington_%282023-06-18%29_%28cropped%29.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lake Chelan
+
+- Title: Stehekin Chelan
+- Photographer: David Ansley
+- Source: https://commons.wikimedia.org/wiki/File:Stehekin_Chelan.JPG
+- License: CC BY 1.0 — https://creativecommons.org/licenses/by/1.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Port Townsend
+
+- Title: The 1889 Palace Hotel, now a boutique Victorian hotel (but once a bordello) in Port Townsend, on the northeast corner of Washington State's Olympic Peninsula
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2018699106/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Seattle
+
+- Title: Seattle - Bell Street Pier and Space Needle from Elliott Bay 01
+- Photographer: Joe Mabel
+- Source: https://commons.wikimedia.org/wiki/File:Seattle_-_Bell_Street_Pier_and_Space_Needle_from_Elliott_Bay_01.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
