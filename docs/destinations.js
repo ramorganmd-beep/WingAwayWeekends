@@ -4419,7 +4419,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "HI",
  "region": "Hawaii",
  "family": true,
- "draft": true,
  "photo": {"slug": "hulopoe-bay-lava", "alt": "Red lava cliffs and turquoise water at Hulopoe Bay, Lanai"}
 },
 {
@@ -4441,7 +4440,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "HI",
  "region": "Hawaii",
  "family": true,
- "draft": true,
  "photo": {"slug": "hasegawa-general-store", "alt": "The historic Hasegawa General Store under palms in Hana"}
 },
 {
@@ -4460,7 +4458,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "HI",
  "region": "Hawaii",
  "family": true,
- "draft": true,
  "photo": {"slug": "kalaupapa-settlement", "alt": "Stone walls and palms at the Kalaupapa settlement below Molokai's sea cliffs"}
 },
 {
@@ -4482,7 +4479,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "HI",
  "region": "Hawaii",
  "family": true,
- "draft": true,
  "photo": {"slug": "kauai-canyon-cliffs", "alt": "Red and green canyon walls on Kauai"}
 },
 {
@@ -4504,7 +4500,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "HI",
  "region": "Hawaii",
  "family": true,
- "draft": true,
  "photo": {"slug": "kona-coast-lava", "alt": "Black lava tide pools along the Kona coast under a blue sky"}
 }
 ];
