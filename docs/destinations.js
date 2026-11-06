@@ -5265,11 +5265,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "solvang-windmill", "alt": "A Danish-style windmill and half-timbered shops with Danish flags in Solvang"}
 },
 {
  "name": "Temecula Wine Country",
@@ -5289,11 +5285,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "temecula-balloons", "alt": "Colorful hot-air balloons rising over a field at the Temecula Valley Balloon & Wine Festival"}
 },
 {
  "name": "Big Bear Lake",
@@ -5312,11 +5304,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "big-bear-lake-sunrise", "alt": "Pink clouds at sunrise reflected in still water on Big Bear Lake"}
 },
 {
  "name": "Ojai",
@@ -5336,11 +5324,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "ojai-arcade", "alt": "The Mission Revival arcade along Ojai Avenue in downtown Ojai"}
 },
 {
  "name": "Wickenburg Dude Ranches",
@@ -5359,11 +5343,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "wickenburg-canyon-bridge", "alt": "A railroad trestle across a rocky desert canyon outside Wickenburg"}
 },
 {
  "name": "Payson & the Mogollon Rim",
@@ -5382,11 +5362,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "payson-zane-grey-cabin", "alt": "The restored Zane Grey Cabin at the Rim Country Museum in Payson"}
 },
 {
  "name": "Lake Havasu & the London Bridge",
@@ -5405,11 +5381,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lake-havasu-london-bridge", "alt": "Personal watercraft at a dock with the London Bridge behind, Lake Havasu City"}
 },
 {
  "name": "Round Top & Brenham",
@@ -5428,11 +5400,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "round-top-royers", "alt": "The flag-draped porch of Royers Round Top Cafe"}
 },
 {
  "name": "Crystal River & the Manatees",
@@ -5451,11 +5419,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "crystal-river-manatees", "alt": "Dozens of manatees gathered in a clear spring at Crystal River, seen from above"}
 },
 {
  "name": "Anna Maria Island",
@@ -5474,11 +5438,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "anna-maria-beach", "alt": "Bright beach umbrellas on white sand at Anna Maria Island"}
 },
 {
  "name": "Bear Lake",
@@ -5497,11 +5457,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "ID",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bear-lake-beach", "alt": "The turquoise water and sandy shore of Bear Lake"}
 },
 {
  "name": "Red Lodge & the Beartooth Highway",
@@ -5520,10 +5476,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MT",
  "region": "Mountain West",
  "family": true,
- "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "red-lodge-broadway", "alt": "Historic brick storefronts along Broadway in Red Lodge, with mountains behind"}
 }
 ];

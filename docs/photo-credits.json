@@ -8666,5 +8666,593 @@
     "sha256": "8838ac7e1609a1faf0bb802bda745320bbb5f82094d85b0b7763300b5b886387"
    }
   ]
+ },
+ {
+  "destination": "Solvang & Santa Ynez Valley",
+  "title": "Solvang mill (cropped)",
+  "photographer": "bossco",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Solvang_mill_%28cropped%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Solvang_mill_%28cropped%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2130,
+   "height": 1834
+  },
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A Danish-style windmill and half-timbered shops with Danish flags in Solvang",
+  "files": [
+   {
+    "path": "dist/assets/destinations/solvang-windmill-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 44834,
+    "sha256": "1637eb8efafbfcd55e58c31f214199685df55f1caab543563dea3256fc63701c"
+   },
+   {
+    "path": "dist/assets/destinations/solvang-windmill-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 53979,
+    "sha256": "c1f238a54987c9767fb45c3d15712d89ae53bb12e488d5026c477502d8c53d16"
+   },
+   {
+    "path": "dist/assets/destinations/solvang-windmill-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 149188,
+    "sha256": "9036a918deaa5e35614b1e94e2f4f652261ec44bb3072137fcab3c82868d1a6e"
+   },
+   {
+    "path": "dist/assets/destinations/solvang-windmill-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 190588,
+    "sha256": "bd699f0724b7f608bc304391faa8956d0193948bb786631fe43931214747aa26"
+   }
+  ]
+ },
+ {
+  "destination": "Ojai",
+  "title": "Downtown Ojai 2019-333",
+  "photographer": "Derek V. Schmalenberger",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Downtown_Ojai_2019-333.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Downtown_Ojai_2019-333.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1496,
+   "height": 844
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Mission Revival arcade along Ojai Avenue in downtown Ojai",
+  "files": [
+   {
+    "path": "dist/assets/destinations/ojai-arcade-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26418,
+    "sha256": "8a4daf312870d791026823fcd221bee35ed78589dd2be0d77f74bc17a3e652f1"
+   },
+   {
+    "path": "dist/assets/destinations/ojai-arcade-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 37400,
+    "sha256": "45d59b00954fd97550f7acc1e9684486a9d05e8806acafb0307aa4b9d1ef35d7"
+   },
+   {
+    "path": "dist/assets/destinations/ojai-arcade-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 75746,
+    "sha256": "2f4bfa31d5cb8cc87bfb4aaa1ef15d46f86dabf7920155c4019fc5b83002288a"
+   },
+   {
+    "path": "dist/assets/destinations/ojai-arcade-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 120376,
+    "sha256": "836b8b2cad84f2344415e4aa327c8360d1e587f5e706e6021b481b4981d9be8a"
+   }
+  ]
+ },
+ {
+  "destination": "Wickenburg Dude Ranches",
+  "title": "Railroad bridge in a canyon outside Wickenburg, a small Arizona city northwest of Phoenix that was once a \"rough and ready\" western frontier town that still spotlights Old West scenes and dress and art and refers to its location as \"out Wickenburg Way\"",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018702355/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/54300/54319v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 650
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A railroad trestle across a rocky desert canyon outside Wickenburg",
+  "files": [
+   {
+    "path": "dist/assets/destinations/wickenburg-canyon-bridge-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 28314,
+    "sha256": "cc847fd2b8f1c76b103f903d5efb549571a2ba356db3799fe9bce18f83706747"
+   },
+   {
+    "path": "dist/assets/destinations/wickenburg-canyon-bridge-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34653,
+    "sha256": "1838e4941ac8248c3861433a0fa164417f0ee31b3c2e2bd04145cc9e7203d7dd"
+   },
+   {
+    "path": "dist/assets/destinations/wickenburg-canyon-bridge-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 118468,
+    "sha256": "5e8aaea2eea276ef1fd8ac4a0a6cf1c3cdd8750f46371cd6306b40376d3add98"
+   },
+   {
+    "path": "dist/assets/destinations/wickenburg-canyon-bridge-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 139014,
+    "sha256": "e1c07138962b258a5e82187cb7940827ddd19a4e03b51b5d82be0f127b5f68e5"
+   }
+  ]
+ },
+ {
+  "destination": "Payson & the Mogollon Rim",
+  "title": "The formerly abandoned Zane Grey Cabin, preserved at the Rim County Museum in Payson, Arizona",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018703428/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/55500/55505v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The restored Zane Grey Cabin at the Rim Country Museum in Payson",
+  "files": [
+   {
+    "path": "dist/assets/destinations/payson-zane-grey-cabin-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 41722,
+    "sha256": "ca705c6df9bc951bfb32ae044104657ba604487cfb1c6e757a88ad04c2985300"
+   },
+   {
+    "path": "dist/assets/destinations/payson-zane-grey-cabin-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 48157,
+    "sha256": "2961bd4c463c4f7fe5463518ae1b9b462dc354706411cd6b1903d93f45c5ac35"
+   },
+   {
+    "path": "dist/assets/destinations/payson-zane-grey-cabin-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 161362,
+    "sha256": "43a044ac7bf0db61a1d0a0f3e28b26c6a2aa073cca056ae8173416b2df0ee95e"
+   },
+   {
+    "path": "dist/assets/destinations/payson-zane-grey-cabin-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 187322,
+    "sha256": "f12b689f7fc9fdd258689ee5af56f273aae53aa4e7ed6e231d57c409283d6408"
+   }
+  ]
+ },
+ {
+  "destination": "Lake Havasu & the London Bridge",
+  "title": "Boat dock with London Bridge in background in Lake Havasu City, Arizona",
+  "photographer": "Carol M. Highsmith (Library of Congress)",
+  "source_page_url": "https://www.loc.gov/item/2018703204/",
+  "original_image_url": "https://tile.loc.gov/storage-services/service/pnp/highsm/55200/55216v.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 768
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Personal watercraft at a dock with the London Bridge behind, Lake Havasu City",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lake-havasu-london-bridge-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 34322,
+    "sha256": "902474673ea2abc81afe510931ade3b16537998880bb97d8783aa09f4937447a"
+   },
+   {
+    "path": "dist/assets/destinations/lake-havasu-london-bridge-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43868,
+    "sha256": "ad23e19ad7e54550e1bf80bcb1c16db25c67b906abbf6ea39ab2f91aad2ba605"
+   },
+   {
+    "path": "dist/assets/destinations/lake-havasu-london-bridge-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 127190,
+    "sha256": "afaeeea45cf75fc9ae6c82e72102903433221d6e14062919b940d55dbd8f85b6"
+   },
+   {
+    "path": "dist/assets/destinations/lake-havasu-london-bridge-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 161828,
+    "sha256": "d4e7f3f689ee39ba388540176041d50ca24cb96eb498350ae97cae047756c2c4"
+   }
+  ]
+ },
+ {
+  "destination": "Round Top & Brenham",
+  "title": "Royers -- Round Top, Texas",
+  "photographer": "Jim Evans",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Royers_--_Round_Top%2C_Texas.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Royers_--_Round_Top%2C_Texas.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2533,
+   "height": 1994
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The flag-draped porch of Royers Round Top Cafe",
+  "files": [
+   {
+    "path": "dist/assets/destinations/round-top-royers-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 48758,
+    "sha256": "de16b3143b0c72b243c1cc53a4377025ff3c867cbe405514622dbf3c9c6c9b63"
+   },
+   {
+    "path": "dist/assets/destinations/round-top-royers-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57222,
+    "sha256": "a29418b0ec2436e8e317b8cd0569f9a3d2cc65297db7834af3c544565205692e"
+   },
+   {
+    "path": "dist/assets/destinations/round-top-royers-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 193042,
+    "sha256": "675c2b7d38c271d8be6715d5d89ea572a4800fdaa21e60fca23d167efb3eb861"
+   },
+   {
+    "path": "dist/assets/destinations/round-top-royers-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 218516,
+    "sha256": "6892bafb1131ffa3dd0554cc79cd5dabd4a11782e2374af4a9fd5d0f24a53b08"
+   }
+  ]
+ },
+ {
+  "destination": "Bear Lake",
+  "title": "Bear Lake and Beach - panoramio",
+  "photographer": "runt35",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Bear_Lake_and_Beach_-_panoramio.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/6/64/Bear_Lake_and_Beach_-_panoramio.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2160,
+   "height": 1440
+  },
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The turquoise water and sandy shore of Bear Lake",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bear-lake-beach-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 17340,
+    "sha256": "adef480c4df779c57fa7f509183c74c56ec51dd3d3053ca697344b6c99b4c7ee"
+   },
+   {
+    "path": "dist/assets/destinations/bear-lake-beach-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 26607,
+    "sha256": "e6dd00e56ea986030e697e6a2c1fe99b5b8545a0ec7a4b801ccdc3222634ceaa"
+   },
+   {
+    "path": "dist/assets/destinations/bear-lake-beach-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 61590,
+    "sha256": "f8b7803aed70fb2c4195b982697562da2c7b80ac643dcf3a3403e5e4ba210d9e"
+   },
+   {
+    "path": "dist/assets/destinations/bear-lake-beach-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 103528,
+    "sha256": "57a71efce7bf2bc616455524408b1a29b3c2a6d5a3011aa538f96442aa9beb33"
+   }
+  ]
+ },
+ {
+  "destination": "Red Lodge & the Beartooth Highway",
+  "title": "Red Lodge Main Street July 2000",
+  "photographer": "User:Velela",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Red_Lodge_Main_Street_July_2000.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Red_Lodge_Main_Street_July_2000.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1520,
+   "height": 967
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Historic brick storefronts along Broadway in Red Lodge, with mountains behind",
+  "files": [
+   {
+    "path": "dist/assets/destinations/red-lodge-broadway-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 42028,
+    "sha256": "33b31cf61e4773c79187f44edcc78e12b53331f82a000aa8d61a0e719b63c49f"
+   },
+   {
+    "path": "dist/assets/destinations/red-lodge-broadway-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 51400,
+    "sha256": "e30a3ecbba00b7a57615bc90672872c3eadb2f1c7ebc7da6061c2def4c9fa3f7"
+   },
+   {
+    "path": "dist/assets/destinations/red-lodge-broadway-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 142260,
+    "sha256": "8a77f47809e66cd2d80a2e6d6066dea6c9efe6fc292cb9a8642a75d2fd808b4a"
+   },
+   {
+    "path": "dist/assets/destinations/red-lodge-broadway-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 180854,
+    "sha256": "1f45a1e6e0cae4d0571b62532c1f1631c7b044c59eef3f0816d0c67d5edba266"
+   }
+  ]
+ },
+ {
+  "destination": "Temecula Wine Country",
+  "title": "Temecula valley balloon and wine festival",
+  "photographer": "Jon Sullivan",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Temecula_valley_balloon_and_wine_festival.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/38/Temecula_valley_balloon_and_wine_festival.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 954,
+   "height": 977
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Colorful hot-air balloons rising over a field at the Temecula Valley Balloon & Wine Festival",
+  "files": [
+   {
+    "path": "dist/assets/destinations/temecula-balloons-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 30168,
+    "sha256": "d599ab38fed9adf4a24aa161863e09906198b1d141dbf45bef3fa01b0fafcfce"
+   },
+   {
+    "path": "dist/assets/destinations/temecula-balloons-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 41193,
+    "sha256": "24837bf6eb0ae9c8b29cf4698b98fd7547b9eb212dd79f945882bb68f7742699"
+   },
+   {
+    "path": "dist/assets/destinations/temecula-balloons-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 84064,
+    "sha256": "e8de0eecb154cb7b1267115cee4bc085cd083a4f3cf89e0c6148d150d6ea0e50"
+   },
+   {
+    "path": "dist/assets/destinations/temecula-balloons-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 123311,
+    "sha256": "232615c4961551bc6af2ec94ad99af8a642226d738aceba0b06c0b2253d6a97c"
+   }
+  ]
+ },
+ {
+  "destination": "Big Bear Lake",
+  "title": "Sunrise and Lake Reflections at Big Bear Lake, California",
+  "photographer": "DylanMoz49",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Sunrise_and_Lake_Reflections_at_Big_Bear_Lake%2C_California.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/1/11/Sunrise_and_Lake_Reflections_at_Big_Bear_Lake%2C_California.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1280,
+   "height": 884
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Pink clouds at sunrise reflected in still water on Big Bear Lake",
+  "files": [
+   {
+    "path": "dist/assets/destinations/big-bear-lake-sunrise-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 14640,
+    "sha256": "a2707f30ba81a7f92455339f64ffac63ac073a341b960ad27564c40b52730645"
+   },
+   {
+    "path": "dist/assets/destinations/big-bear-lake-sunrise-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 24658,
+    "sha256": "77820b9a1b48ef3204a88c2162b36042d56a2f851d5fe95dd2d3d734965c9626"
+   },
+   {
+    "path": "dist/assets/destinations/big-bear-lake-sunrise-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 39248,
+    "sha256": "b3e1727061a1bb7e002412ba389aeaae6c33ca9cedbadeac12e61e30a3df27ae"
+   },
+   {
+    "path": "dist/assets/destinations/big-bear-lake-sunrise-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 76747,
+    "sha256": "7ae71e6ea84150f831158bb85376637ae3b3aa8c55874a72438be2b4935e8332"
+   }
+  ]
+ },
+ {
+  "destination": "Anna Maria Island",
+  "title": "Anna Maria Beach 1 www.florida-infos.com - panoramio",
+  "photographer": "Franz Stellbrink",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Anna_Maria_Beach_1_www.florida-infos.com_-_panoramio.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Anna_Maria_Beach_1_www.florida-infos.com_-_panoramio.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 768,
+   "height": 576
+  },
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Bright beach umbrellas on white sand at Anna Maria Island",
+  "files": [
+   {
+    "path": "dist/assets/destinations/anna-maria-beach-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 17646,
+    "sha256": "3d100063e8633937d9ec2adb0c8157bb781695e97c24eb4b117d747ca72f2459"
+   },
+   {
+    "path": "dist/assets/destinations/anna-maria-beach-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 26337,
+    "sha256": "d0d8c0008db615d32538b105434f3b6dba6862e5e000caf1acfdada3dda16f8f"
+   },
+   {
+    "path": "dist/assets/destinations/anna-maria-beach-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 50620,
+    "sha256": "18f785c034612d42a6766b2c3b7710d973d81e5418ff002cdba940e9193a10c9"
+   },
+   {
+    "path": "dist/assets/destinations/anna-maria-beach-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 89061,
+    "sha256": "9b555a55b92fb588eb4b38a522b388c84d126c5ca0aa76a71b8f9d26c2af9870"
+   }
+  ]
+ },
+ {
+  "destination": "Crystal River & the Manatees",
+  "title": "Crystal River NWR manatees (5120918943)",
+  "photographer": "U.S. Fish and Wildlife Service Headquarters",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Crystal_River_NWR_manatees_%285120918943%29.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Crystal_River_NWR_manatees_%285120918943%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 1024,
+   "height": 683
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Dozens of manatees gathered in a clear spring at Crystal River, seen from above",
+  "files": [
+   {
+    "path": "dist/assets/destinations/crystal-river-manatees-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 54068,
+    "sha256": "68fe0a90f8b03e75eefe25a03090f2f6b8adbceeca1831c9f031484e6af0d8c4"
+   },
+   {
+    "path": "dist/assets/destinations/crystal-river-manatees-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 57555,
+    "sha256": "2884dc01534e0750040dd4eb96eec1a7cb514409638cd15fe4e3690b6f1c4d42"
+   },
+   {
+    "path": "dist/assets/destinations/crystal-river-manatees-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 149854,
+    "sha256": "5cee20853f9ada87ba0f801e6019b30e340b4076e02f54cf0710d8620be449ab"
+   },
+   {
+    "path": "dist/assets/destinations/crystal-river-manatees-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 180108,
+    "sha256": "aae121dc7d33ef87460bc5f3628cdaf462f86bf44b9901cbd40a0943b0310928"
+   }
+  ]
  }
 ]
