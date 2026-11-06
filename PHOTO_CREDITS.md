@@ -1397,3 +1397,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by David Klein on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-with-houses-in-the-background-A65GqVtnpRU
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Geotagged Mendocino
+
+## San Francisco
+
+- Photo by Umer Sayyam on Unsplash — https://unsplash.com/photos/golden-gate-bridge-usa-SHP1t8EduMY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Geotagged Golden Gate Bridge
