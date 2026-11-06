@@ -452,3 +452,9 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Buttondown username: wingawayweekends. tools/guides/newsletter.py inserts the signup box above the footer (idempotent markers). Add it to the per-guide build loop after feedback.py: personalize trip_plans luxury maplinks feedback newsletter.
 - Held off main until the owner changes the Buttondown newsletter email from the personal Gmail to hello@wingawayweekends.com (it was visible in Buttondown page source).
 - Elkhart Lake: updates requested by The Osthoff Resort & Spa (Nov 6, 2026): official name, Concourse replaces Lola’s on the Lake, spa wording (no lake view).
+
+## Stay22 affiliate links (November 2026)
+- Affiliate ID (AID): `wingawayweekend`. Link format: `https://www.stay22.com/allez/roam?aid=…&lat=…&lng=…&address=…&checkin=…&checkout=…&campaign=…`.
+- `tools/guides/stay22.py docs/<slug>/index.html` adds a labeled "Compare hotel prices near …" block (rel="sponsored", affiliate disclosure) after each guide's Where to stay cards. Idempotent; uses destinations.js coordinates; campaign `guide-<slug>`.
+- Add `stay22` to the guide post-processing loop after rebuilding a guide: `for t in personalize trip_plans luxury maplinks feedback stay22`.
+- The Northeast trip prototype (`docs/trips/northeast/`, noindex, unlinked) adds dated links per stop with campaign `trip-northeast`.
