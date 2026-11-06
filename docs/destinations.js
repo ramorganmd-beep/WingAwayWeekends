@@ -4721,10 +4721,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "taliesin-west", "alt": "Frank Lloyd Wright’s Taliesin West and its pool lit at dusk"}
 },
 {
  "name": "Tucson",
@@ -4746,10 +4743,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "san-xavier-mission", "alt": "The white towers of Mission San Xavier del Bac under a blue sky"}
 },
 {
  "name": "Bisbee & Tombstone",
@@ -4769,10 +4763,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bisbee-main-street", "alt": "Historic brick storefronts on Bisbee’s Main Street below the hills"}
 },
 {
  "name": "Grand Canyon South Rim",
@@ -4792,10 +4783,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "grand-canyon-south-rim", "alt": "Layered red cliffs of the Grand Canyon seen from the South Rim"}
 },
 {
  "name": "Prescott",
@@ -4816,10 +4804,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "prescott-whiskey-row", "alt": "Historic saloons and storefronts along Prescott’s Whiskey Row"}
 },
 {
  "name": "Taos",
@@ -4841,10 +4826,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "taos-pueblo", "alt": "Multistory adobe buildings of Taos Pueblo with mountains behind"}
 },
 {
  "name": "Albuquerque",
@@ -4865,10 +4847,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "albuquerque-balloon-fiesta", "alt": "Hot-air balloons rising over the Albuquerque Balloon Fiesta"}
 },
 {
  "name": "Ruidoso",
@@ -4889,10 +4868,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "ruidoso-downtown", "alt": "Downtown Ruidoso’s main street with pine-covered mountains behind"}
 },
 {
  "name": "White Sands & Cloudcroft",
@@ -4912,9 +4888,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mountain West",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "white-sands-dunes", "alt": "Rippled white gypsum dunes at White Sands National Park"}
 }
 ];
