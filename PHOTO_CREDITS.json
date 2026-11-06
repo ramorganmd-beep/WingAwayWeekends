@@ -5611,5 +5611,22 @@
   "date_taken": null,
   "files": [],
   "location": "Geotagged Mendocino"
+ },
+ {
+  "destination": "San Francisco",
+  "title": "The Golden Gate Bridge at golden hour.",
+  "photographer": "Umer Sayyam",
+  "source_page_url": "https://unsplash.com/photos/golden-gate-bridge-usa-SHP1t8EduMY",
+  "original_image_url": "https://images.unsplash.com/photo-1450149632596-3ef25a62011a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjM0fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Golden Gate Bridge glowing at golden hour",
+  "date_taken": null,
+  "files": [],
+  "location": "Geotagged Golden Gate Bridge"
  }
 ]

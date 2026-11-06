@@ -4032,9 +4032,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northern California",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "san-francisco", "remote": "https://images.unsplash.com/photo-1450149632596-3ef25a62011a?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzkzOTIzMjM0fA&ixlib=rb-4.1.0", "alt": "The Golden Gate Bridge glowing at golden hour", "pos": "50% 50%"}
 }
 ];
