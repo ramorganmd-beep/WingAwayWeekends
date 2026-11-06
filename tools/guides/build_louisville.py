@@ -33,7 +33,7 @@ GUIDE = dict(
                ('Louisville Slugger Museum & Factory', 'See bats being made.', 'https://www.sluggermuseum.com/', 'Museum'),
                ('Muhammad Ali Center', 'The champion’s life and values.', 'https://www.alicenter.org/', 'Ali Center'),
                ('Whiskey Row & the Urban Bourbon Trail', 'Distillery experiences and bourbon bars downtown.', 'https://www.gotolouisville.com/', 'Bourbon trail'),
-               ('Big Four Bridge', 'A pedestrian bridge over the Ohio, lit at night.', 'https://www.louisvillewaterfront.com/', 'Waterfront Park')]),
+               ('Big Four Bridge', 'A pedestrian bridge over the Ohio, lit at night.', 'https://ourwaterfront.org/', 'Waterfront Park')]),
     events=dict(url='https://www.gotolouisville.com/', button='Browse Louisville events',
         cards=[('First Saturday in May', 'Kentucky Derby', 'The biggest weekend of the year; book far ahead or avoid.', 'https://www.kentuckyderby.com/', 'Derby'),
                ('Spring & fall', 'Racing at Churchill Downs', 'Spring and fall meets.', 'https://www.churchilldowns.com/', 'Churchill Downs'),

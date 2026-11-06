@@ -84,7 +84,7 @@ P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes t
          'Rock City’s holiday light show on top of Lookout Mountain. Timed tickets often sell out.',
          'https://www.seerockcity.com/enchanted-garden-of-lights/') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the city calendar when choosing a weekend, and confirm dates and tickets with the organizer.</p></div>'
-    '<a class="button" href="https://www.chattanoogafun.com/" target="_blank" rel="noopener">Browse Chattanooga events</a></div></section>')
+    '<a class="button" href="https://www.visitchattanooga.com/" target="_blank" rel="noopener">Browse Chattanooga events</a></div></section>')
 
 P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday in. Sunday home.',
     'A sample Friday–Sunday weekend: the riverfront, the mountain and two excellent dinners. No bookings or availability confirmed.') +

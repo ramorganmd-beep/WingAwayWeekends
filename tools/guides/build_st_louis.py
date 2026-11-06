@@ -35,7 +35,7 @@ GUIDE = dict(
                ('Missouri Botanical Garden', 'One of the oldest botanical gardens in the country, with a Japanese garden.', 'https://www.missouribotanicalgarden.org/', 'Garden'),
                ('City Museum', 'A playground for adults built from salvaged architecture.', 'https://www.citymuseum.org/', 'City Museum')]),
     events=dict(url='https://www.explorestlouis.com/', button='Browse St. Louis events',
-        cards=[('July 4th weekend', 'Fair Saint Louis', 'Fireworks and music under the Arch.', 'https://www.fairsaintlouis.org/', 'Fair Saint Louis'),
+        cards=[('July 4th weekend', 'Fair Saint Louis', 'Fireworks and music under the Arch.', 'https://www.celebratesaintlouis.org/', 'Fair Saint Louis'),
                ('Summer', 'The Muny', 'Outdoor musicals in Forest Park.', 'https://muny.org/', 'The Muny'),
                ('Spring & fall', 'Best seasons', 'Summers are hot and humid.')]),
     itinerary=dict(intro='A sample long weekend: the Arch, Forest Park and The Hill. Plan three nights for the flight. No bookings or availability confirmed.',

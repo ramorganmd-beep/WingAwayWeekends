@@ -77,7 +77,7 @@ P.append('<section id="events">' + head('05', 'What’s happening', 'Sometimes t
     card('Year-round', 'Festivals',
          'Key West hosts festivals through the year that fill hotels. Check the calendar before booking.') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the destination calendar when choosing dates, and confirm details with the organizer.</p></div>'
-    '<a class="button" href="https://fla-keys.com/keywest/" target="_blank" rel="noopener">Browse Key West events</a></div></section>')
+    '<a class="button" href="https://visitfloridakeys.com/discover-the-keys/destinations/key-west" target="_blank" rel="noopener">Browse Key West events</a></div></section>')
 
 P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday in. Sunday home.',
     'A sample Friday–Sunday version. Given the flight, Key West works best as a longer stay; choose Longer stay on the homepage to see an extra day. No bookings or availability confirmed.') +

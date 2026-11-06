@@ -26,7 +26,7 @@ GUIDE = dict(
     eat=dict(title='Dinner downtown.', intro='Reserve weekend dinners.',
         cards=[('Friday dinner · Classic', 'Cotton Row', 'Refined Southern dining in an 1821 building on the Square.', 'https://www.cottonrowrestaurant.com/'),
                ('Saturday dinner · Southern', 'Revivalist', 'Southern cooking at 106 Jefferson.', 'https://www.revivalisthuntsville.com/'),
-               ('Drinks · Rooftop', 'Rhythm on Monroe', 'A rooftop restaurant and bar at the Von Braun Center.', 'https://www.rhythmonmonroe.com/')]),
+               ('Drinks · Rooftop', 'Rhythm on Monroe', 'A rooftop restaurant and bar at the Von Braun Center.', 'https://www.vonbrauncenter.com/rhythm-on-monroe/')]),
     explore=dict(title='Rockets, gardens and a mountain.', intro='One big museum and plenty of fresh air.',
         items=[('U.S. Space & Rocket Center', 'A Saturn V, the Space Shuttle Pathfinder and decades of rocketry. Allow most of a day.', 'https://www.rocketcenter.com/', 'Space center'),
                ('Huntsville Botanical Garden', 'Gardens, woodland paths and a butterfly house.', 'https://hsvbg.org/', 'Garden'),

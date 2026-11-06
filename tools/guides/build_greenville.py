@@ -89,7 +89,7 @@ P.append('<section id="events">' + head('06', 'Sports & what’s happening', 'So
     '<div class="grid three">' +
     card('Minor league baseball · Spring–summer', 'Greenville Drive',
          'Games at Fluor Field, a ballpark modeled on Fenway, walkable from downtown. Check the home schedule.',
-         'https://www.milb.com/greenville', 'Schedule & tickets') +
+         'https://www.mlb.com/milb/greenville', 'Schedule & tickets') +
     card('Performing arts', 'Peace Center',
          'Broadway tours, concerts and shows by the river, steps from Main Street. Check what is on for your dates.') +
     card('Fall festival', 'Fall for Greenville',

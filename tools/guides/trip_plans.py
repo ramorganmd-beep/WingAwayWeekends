@@ -761,7 +761,7 @@ PLANS = {
         'extra': [('Morning', 'The Field of Dreams.'), ('Afternoon', 'Wine at Stone Cliff.'), ('Evening', 'Dinner at Brazen.')]},
     'amana-colonies': {
         'day': [('Arrive', 'Land at KIOW early.'), ('Midday', 'The Amana villages.'), ('Afternoon', 'Family-style lunch at the Ox Yoke, then back to the airport.')],
-        'extra': [('Morning', 'The woolen mill and Millstream Brewing.'), ('Afternoon', 'Downtown Iowa City and Prairie Lights.'), ('Evening', 'Dinner at Clinton Street Social.')]},
+        'extra': [('Morning', 'The woolen mill and Millstream Brewing.'), ('Afternoon', 'Downtown Iowa City and Prairie Lights.'), ('Evening', 'Dinner in downtown Iowa City.')]},
     'rehoboth-lewes': {
         'day': [('Arrive', 'Land at KGED mid-morning.'), ('Midday', 'Walk historic Lewes.'), ('Afternoon', 'Lunch at Dogfish Head, then back to the airport.')],
         'extra': [('Morning', 'Bike Cape Henlopen.'), ('Afternoon', 'The Rehoboth boardwalk.'), ('Evening', 'Dinner at The Pines.')]},
