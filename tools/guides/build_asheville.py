@@ -115,7 +115,7 @@ P.append('<section id="events">' + head('08', 'Sports & what’s happening', 'So
          'https://www.biltmore.com/', 'Seasonal details') +
     card('Minor league baseball · Spring–summer', 'Asheville Tourists',
          'An easygoing evening at historic McCormick Field, a short drive from downtown. Check the home schedule.',
-         'https://www.milb.com/asheville', 'Schedule & tickets') +
+         'https://www.mlb.com/milb/asheville', 'Schedule & tickets') +
     '</div><div class="calendar"><div><h3>Concerts, festivals & local happenings</h3><p>Check the destination calendar when choosing a weekend, and confirm dates, location and tickets with the organizer.</p></div>'
     '<a class="button" href="https://www.exploreasheville.com/" target="_blank" rel="noopener">Browse Asheville events</a></div></section>')
 
