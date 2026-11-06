@@ -4898,7 +4898,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "austin-skyline", "alt": "The Austin skyline above Lady Bird Lake"}
 },
 {
@@ -4919,7 +4918,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "lake-lbj", "alt": "Blue water of Lake LBJ below Hill Country bluffs and lakeside homes"}
 },
 {
@@ -4939,7 +4937,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "port-aransas-harbor", "alt": "Sport-fishing boats in the Port Aransas harbor under a blue sky"}
 },
 {
@@ -4959,7 +4956,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "jefferson-house-of-the-seasons", "alt": "The 1872 House of the Seasons, a Victorian mansion in Jefferson"}
 },
 {
@@ -4979,7 +4975,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "palo-duro-canyon", "alt": "Red and orange cliffs of Palo Duro Canyon from the CCC Overlook"}
 },
 {
@@ -5000,7 +4995,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "gruene-hall", "alt": "The white wooden front of Gruene Hall, Texas’s oldest dance hall"}
 },
 {
@@ -5019,7 +5013,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "dr-pepper-museum", "alt": "The arched tan-brick facade of the Dr Pepper Museum in downtown Waco"}
 },
 {
@@ -5039,7 +5032,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
- "draft": true,
  "photo": {"slug": "granbury-square", "alt": "A red-brick Victorian bank building on the Granbury courthouse square"}
 }
 ];

@@ -433,3 +433,8 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Published scottsdale (KSDL), tucson (KTUS), bisbee (P04), grand-canyon (KGCN), prescott (KPRC), taos (KSKX), albuquerque (KAEG), ruidoso (KSRR), white-sands (KALM) in Mountain West. 245 guides live.
 - Page (KPGA) skipped: NASR shows the airport closed indefinitely.
 - Next gap: Texas, then Idaho/Wyoming/Washington.
+
+## Texas batch (November 6, 2026)
+- Published austin (KAUS), horseshoe-bay (KDZB), port-aransas (RAS; KRKP alt), jefferson (24F), palo-duro-canyon (KAMA), new-braunfels (KBAZ), waco (KACT), granbury (KGDJ). 253 guides live; Texas now 14.
+- KEDC shows CLSD INDEFLY in NASR, so Austin uses KAUS.
+- Owner wants official restaurant/hotel sites where possible; third-party (Texas Monthly etc.) only as a local-guide link.
