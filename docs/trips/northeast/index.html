@@ -39,7 +39,7 @@
 <div><label for="home">Home airport</label><input id="home" list="home-list" autocomplete="off" placeholder="e.g. KMYR"><datalist id="home-list"></datalist></div>
 <div><label for="start">Start date</label><input id="start" type="date"></div>
 <div><label for="ac">Aircraft</label><select id="ac"></select></div>
-<div><label for="pace">Most flying in a day</label><select id="pace"><option value="3">3 hours</option><option value="4" selected>4 hours</option><option value="5">5 hours</option><option value="6">6 hours</option></select></div>
+<div><label for="mode">Trip starts</label><select id="mode"><option value="home">From my home airport</option><option value="stop">At the first stop</option></select></div><div><label for="pace">Most flying in a day</label><select id="pace"><option value="3">3 hours</option><option value="4" selected>4 hours</option><option value="5">5 hours</option><option value="6">6 hours</option></select></div>
 </section>
 <div class="tp-sum" id="sum" aria-live="polite"></div>
 <div class="tp-map"><svg id="m" viewBox="0 0 900 620" role="img" aria-label="Map of the trip route"></svg></div>
@@ -48,10 +48,10 @@
 <p class="tp-msg" id="msg" aria-live="polite"></p>
 <div class="tp-tips"><h2>Before you go</h2>
 <p><b>Build in a weather day.</b> Northeast summers bring afternoon thunderstorms and coastal fog; plan at least one spare day on a week-long trip, and fly the long legs in the morning.</p>
-<p><b>These are planning estimates.</b> Distances are straight lines, times assume no wind, and fuel-stop flags use your aircraft profile with its reserve. Check weather, NOTAMs, the chart supplement, airspace and performance for every leg. Nothing here is booked or confirmed.</p>
+<p><b>These are planning estimates.</b> Distances are straight lines, times assume no wind, and fuel-stop flags use your aircraft profile with its reserve, and suggested fuel stops come from FAA airport data, so call ahead to confirm fuel and hours. Check weather, NOTAMs, the chart supplement, airspace and performance for every leg. Nothing here is booked or confirmed.</p>
 <p><b>About hotel links.</b> “Compare hotels” links go to our partner Stay22 with your dates filled in. They are affiliate links: we may earn a commission at no cost to you. The hotels in each guide are our own picks and are never paid.</p></div>
 </main>
 <footer><a class="brand" href="../../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Northeast%20Flying%20Trip">Tell us what you think of trip planning</a></p></footer>
-<script src="../../destinations.js"></script><script src="../../airports-us.js"></script><script src="../../airport-suggest.js"></script><script src="../../aircraft.js"></script><script src="../../map/d3.min.js"></script><script src="../../map/topojson-client.min.js"></script>
+<script src="../../destinations.js"></script><script src="../../airports-us.js"></script><script src="../../airport-suggest.js"></script><script src="../../aircraft.js"></script><script src="../fuel-airports.js"></script><script src="../../map/d3.min.js"></script><script src="../../map/topojson-client.min.js"></script>
 <script>window.TRIP={"id": "northeast", "route": [["cape-may", 1, ["annapolis", "st-michaels", "rehoboth-lewes", "bucks-county"]], ["newport", 2, ["mystic", "watch-hill", "block-island", "providence"]], ["nantucket", 1, ["marthas-vineyard", "chatham", "block-island"]], ["bar-harbor", 2, ["camden", "portland-maine", "kennebunkport", "portsmouth"]], ["stowe", 1, ["burlington-vt", "woodstock-vt", "manchester-vt", "lake-placid", "north-conway"]]], "regions": ["Northeast", "Mid-Atlantic"], "season": {"stowe": [1, 2, 3, 6, 7, 8, 9, 10, 12], "woodstock-vt": [1, 2, 3, 5, 6, 7, 8, 9, 10, 12], "north-conway": [1, 2, 3, 6, 7, 8, 9, 10], "lake-placid": [1, 2, 3, 6, 7, 8, 9, 10], "annapolis": [4, 5, 6, 7, 8, 9, 10], "st-michaels": [4, 5, 6, 7, 8, 9, 10], "bucks-county": [4, 5, 6, 7, 8, 9, 10, 11, 12], "providence": [4, 5, 6, 7, 8, 9, 10, 11, 12], "burlington-vt": [6, 7, 8, 9, 10], "bar-harbor": [6, 7, 8, 9, 10], "camden": [6, 7, 8, 9, 10]}, "defaultSeason": [5, 6, 7, 8, 9, 10]};</script><script src="../trip.js"></script>
 <script src="/contact.js" defer></script></body></html>
