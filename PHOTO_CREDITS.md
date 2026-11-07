@@ -2002,3 +2002,73 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Judy Beth Morris on Unsplash — https://unsplash.com/photos/an-old-wooden-house-in-a-field-with-a-lake-in-the-background-NzAJOczkYJo
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Paris, Idaho, on the north end of Bear Lake
+
+## Frankenmuth
+
+- Title: Fudge and kite store, Frankenmuth, Michigan, 2015-01-11
+- Photographer: Crisco 1492
+- Source: https://commons.wikimedia.org/wiki/File:Fudge_and_kite_store,_Frankenmuth,_Michigan,_2015-01-11.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Southport & Bald Head Island
+
+- Title: Old Baldy Lighthouse, Bald Head Island
+- Photographer: Gareth Rasberry
+- Source: https://commons.wikimedia.org/wiki/File:Old_Baldy_Lighthouse,_Bald_Head_Island.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Lubbock & the Texas High Plains
+
+- Title: LubbockSkyline2013
+- Photographer: user:Redraiderengineer
+- Source: https://commons.wikimedia.org/wiki/File:LubbockSkyline2013.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Thomasville
+
+- Title: The Big Oak, Thomasville, GA, US
+- Photographer: Jud McCranie
+- Source: https://commons.wikimedia.org/wiki/File:The_Big_Oak,_Thomasville,_GA,_US.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Callaway Gardens & Pine Mountain
+
+- Title: Callaway boathouse1
+- Photographer: Dsdugan
+- Source: https://commons.wikimedia.org/wiki/File:Callaway_boathouse1.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Guthrie
+
+- Title: Carnegie Library (Guthrie, Oklahoma)
+- Photographer: Jim Rosebery
+- Source: https://commons.wikimedia.org/wiki/File:Carnegie_Library_(Guthrie,_Oklahoma).jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Hermann Wine Country
+
+- Title: OLD STONE HILL HISTORIC DISTRICT
+- Photographer: JERRYE & ROY KLOTZ MD
+- Source: https://commons.wikimedia.org/wiki/File:OLD_STONE_HILL_HISTORIC_DISTRICT.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Brainerd Lakes
+
+- Title: Gull Lake sunset
+- Photographer: Onorem
+- Source: https://commons.wikimedia.org/wiki/File:Gull_Lake_sunset.JPG
+- License: CC BY-SA 3.0 — http://creativecommons.org/licenses/by-sa/3.0/
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Marquette & Pictured Rocks
+
+- Photo by Gary Meulemans on Unsplash — https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-buildings-during-daytime-flC-jZUNWaQ
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Marquette, Michigan

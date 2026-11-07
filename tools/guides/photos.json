@@ -3330,52 +3330,53 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Red_Lodge_Main_Street_July_2000.jpg\">Red Lodge Main Street July 2000</a> — User:Velela · Public domain. Cropped to 4:3 and resized."
   },
   "marquette": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "https://images.unsplash.com/photo-1602868667516-f01b0618a74e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDAwMTI3fA&ixlib=rb-4.1.0",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "Historic brick storefronts along a downtown street in Marquette, Michigan",
     "w": 960,
     "h": 720,
-    "caption": "Marquette & Pictured Rocks (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "Downtown Marquette.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@anakin1814?utm_source=wingaway_weekends&utm_medium=referral\">Gary Meulemans</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-buildings-during-daytime-flC-jZUNWaQ?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   },
   "frankenmuth": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "frankenmuth-main-street",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "A Bavarian-style shop with painted murals on Main Street in Frankenmuth",
     "w": 960,
     "h": 720,
-    "caption": "Frankenmuth (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "Bavarian-style shops on Main Street.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Fudge_and_kite_store,_Frankenmuth,_Michigan,_2015-01-11.jpg\">Fudge and kite store, Frankenmuth, Michigan, 2015-01-11</a> — Crisco 1492 · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "hermann": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "hermann-stone-hill",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "A historic brick building at Stone Hill in Hermann, Missouri",
     "w": 960,
     "h": 720,
-    "caption": "Hermann Wine Country (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "The Old Stone Hill Historic District, Hermann.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:OLD_STONE_HILL_HISTORIC_DISTRICT.jpg\">OLD STONE HILL HISTORIC DISTRICT</a> — JERRYE & ROY KLOTZ MD · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "southport": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "bald-head-old-baldy",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "Old Baldy lighthouse rising above the maritime forest on Bald Head Island",
     "w": 960,
     "h": 720,
-    "caption": "Southport & Bald Head Island (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "Old Baldy, North Carolina’s oldest standing lighthouse.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Old_Baldy_Lighthouse,_Bald_Head_Island.jpg\">Old Baldy Lighthouse, Bald Head Island</a> — Gareth Rasberry · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "ocracoke": {
     "slug": "tavares-seaplane-landing",
@@ -3390,63 +3391,63 @@
     "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
   },
   "brainerd-lakes": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "brainerd-gull-lake-sunset",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "The sun setting over Gull Lake near Brainerd, Minnesota",
     "w": 960,
     "h": 720,
-    "caption": "Brainerd Lakes (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "Sunset on Gull Lake.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Gull_Lake_sunset.JPG\">Gull Lake sunset</a> — Onorem · <a href=\"http://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "thomasville": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "thomasville-big-oak",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "The spreading limbs of the Big Oak, a live oak more than 300 years old, in Thomasville",
     "w": 960,
     "h": 720,
-    "caption": "Thomasville (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "The Big Oak, Thomasville.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Big_Oak,_Thomasville,_GA,_US.jpg\">The Big Oak, Thomasville, GA, US</a> — Jud McCranie · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "callaway-gardens": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "callaway-boathouse",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "Canoes and boats tied up inside the stone boathouse at Callaway Gardens",
     "w": 960,
     "h": 720,
-    "caption": "Callaway Gardens & Pine Mountain (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "The boathouse at Callaway Gardens.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Callaway_boathouse1.jpg\">Callaway boathouse1</a> — Dsdugan · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   },
   "guthrie": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "guthrie-carnegie-library",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "The domed Carnegie Library, home of the Oklahoma Territorial Museum, in Guthrie",
     "w": 960,
     "h": 720,
-    "caption": "Guthrie (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "The Carnegie Library, Guthrie.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Carnegie_Library_(Guthrie,_Oklahoma).jpg\">Carnegie Library (Guthrie, Oklahoma)</a> — Jim Rosebery · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>. Cropped to 4:3 and resized."
   },
   "lubbock": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "lubbock-skyline",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "The Lubbock skyline above Texas Tech-area streets and apartments",
     "w": 960,
     "h": 720,
-    "caption": "Lubbock & the Texas High Plains (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "The Lubbock skyline.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:LubbockSkyline2013.jpg\">LubbockSkyline2013</a> — user:Redraiderengineer · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
   }
 }
