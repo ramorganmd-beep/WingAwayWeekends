@@ -5866,5 +5866,30 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Mid-Atlantic",
  "family": true,
  "photo": {"slug": "smith-mountain-lake-marina", "alt": "Docks, a pool and the wide lake at Smith Mountain Lake with wooded hills beyond"}
+},
+{
+ "name": "Seneca Lake & Geneva",
+ "state": "New York",
+ "airport": "0G7",
+ "lat": 42.8687,
+ "lon": -76.9777,
+ "desc": "Finger Lakes wine country: Belhurst Castle on Seneca Lake, Riesling wineries, Geneva’s restaurants and Watkins Glen.",
+ "tags": [
+  "Wine",
+  "Lake",
+  "Romance",
+  "Stays",
+  "Dining",
+  "Spa"
+ ],
+ "guide": "seneca-lake/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

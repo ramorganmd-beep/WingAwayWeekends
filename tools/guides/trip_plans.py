@@ -1152,6 +1152,9 @@ PLANS = {
     'smith-mountain-lake': {
         'day': [('Arrive', 'Land at W91 mid-morning.'), ('Midday', 'Lunch by the lake.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'A day on a pontoon boat.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'seneca-lake': {
+        'day': [('Arrive', 'Land at 0G7 mid-morning.'), ('Midday', 'Lunch and a tasting at Belhurst Castle.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Seneca Lake wine trail.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

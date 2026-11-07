@@ -4,7 +4,7 @@
 const T=window.TRIP;const ROUTE=T.route;
 const SEASON=T.season||{};const DEF=T.defaultSeason||[5,6,7,8,9,10];
 const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
-const ALL=(window.WINGAWAY_DESTINATIONS||[]).filter(d=>d.guide&&!d.draft&&isFinite(d.lat));
+const PREVIEW=/[?&]preview=1/.test(location.search);const ALL=(window.WINGAWAY_DESTINATIONS||[]).filter(d=>d.guide&&(PREVIEW||!d.draft)&&isFinite(d.lat));
 const BY={};ALL.forEach(d=>BY[d.guide.replace(/\/$/,'')]=d);
 const NE=ALL.filter(d=>T.regions.includes(d.region));
 const AP=window.WINGAWAY_AIRPORTS||[];const APX=new Map();AP.forEach(a=>{APX.set(a[0],a);if(a[1])APX.set(a[1],a)});
@@ -33,8 +33,8 @@ function startHome(){return $('mode').value!=='stop';}
 function fromURL(){const q=new URLSearchParams(location.search);const s=q.get('stops');
   if(s){const out=[];s.split(',').forEach(t=>{const [slug,n]=t.split(':');const r=ROUTE.find(x=>x[0]===slug||x[2].includes(slug));if(BY[slug])out.push({slug,nights:Math.min(4,Math.max(1,+n||1)),alts:r?[r[0],...r[2]].filter(x=>x!==slug):[]});});if(out.length)stops=out;}
   if(q.get('home'))$('home').value=q.get('home');if(q.get('start'))$('start').value=q.get('start');if(q.get('ac')&&[...$('ac').options].some(o=>o.value===q.get('ac')))$('ac').value=q.get('ac');if(q.get('pace'))$('pace').value=q.get('pace');if(q.get('from')==='stop')$('mode').value='stop';}
-function toURL(){const q=new URLSearchParams();q.set('stops',stops.map(s=>s.slug+':'+s.nights).join(','));if(home)q.set('home',home.code);if($('start').value)q.set('start',$('start').value);q.set('ac',$('ac').value);q.set('pace',$('pace').value);if(!startHome())q.set('from','stop');history.replaceState(null,'','?'+q.toString());return location.href;}
-function defaults(){stops=ROUTE.map(([slug,n,alts])=>({slug,nights:n,alts:alts.filter(a=>BY[a])}));}
+function toURL(){const q=new URLSearchParams();q.set('stops',stops.map(s=>s.slug+':'+s.nights).join(','));if(home)q.set('home',home.code);if($('start').value)q.set('start',$('start').value);q.set('ac',$('ac').value);q.set('pace',$('pace').value);if(!startHome())q.set('from','stop');if(PREVIEW)q.set('preview','1');history.replaceState(null,'','?'+q.toString());return location.href;}
+function defaults(){stops=ROUTE.filter(([slug])=>BY[slug]).map(([slug,n,alts])=>({slug,nights:n,alts:alts.filter(a=>BY[a])}));}
 function legs(){const S=stops.map(s=>BY[s.slug]);const pts=startHome()?[home,...S,home]:S;const p=profile(),pace=+$('pace').value;const out=[];
   for(let i=0;i<pts.length-1;i++){const a=pts[i],b=pts[i+1];const d=nm(a,b);const e=A.estimate(d,p);out.push({d,e,long:e.hours>pace,a,b});}return out;}
 function draw(){
