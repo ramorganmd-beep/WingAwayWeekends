@@ -43,8 +43,8 @@ const W=975,H=610;
 REGIONS.forEach(([n])=>{const k=D.filter(d=>d.region===n).length;if(!k)return;const o=document.createElement('option');o.value=n;o.textContent=n+' ('+k+')';sel.appendChild(o);});
 const leg=document.getElementById('legend');
 [...new Map(REGIONS.map(([n,c])=>[n.includes('California')?'California':n,c]))].forEach(([n,c])=>{const s=document.createElement('span');s.innerHTML='<i style="background:'+c+'"></i>'+n;s.onclick=()=>{sel.value=n==='California'?'Central California':n;draw();};leg.appendChild(s);});
-let states=null;
-d3.json('states-10m.json').then(us=>{states=topojson.feature(us,us.objects.states).features;fromHash();draw();});
+let states=null,canada=null;
+Promise.all([d3.json('states-10m.json'),d3.json('canada-50m.json').catch(()=>null)]).then(([us,ca])=>{states=topojson.feature(us,us.objects.states).features;if(ca)canada=topojson.feature(ca,ca.objects.canada);fromHash();draw();});
 function fromHash(){const m=decodeURIComponent(location.hash.replace(/^#/,''));if([...sel.options].some(o=>o.value===m))sel.value=m;}
 window.addEventListener('hashchange',()=>{fromHash();draw();});
 sel.addEventListener('change',()=>{history.replaceState(null,'',sel.value?'#'+encodeURIComponent(sel.value):location.pathname+location.search);draw();});
@@ -58,13 +58,16 @@ function draw(){
   if(!r){proj=d3.geoAlbersUsa().fitExtent([[10,10],[W-10,H-10]],{type:'FeatureCollection',features:states.filter(f=>!['60','66','69','72','78'].includes(f.id))});}
   else{const c=d3.geoCentroid(bbox(pts));proj=d3.geoConicConformal().parallels([c[1]-3,c[1]+3]).rotate([-c[0],0]).fitExtent([[20,20],[W-20,H-20]],bbox(pts));}
   const path=d3.geoPath(proj);
+  // Canada: the whole-country view uses Albers USA, which cannot draw Canada, so use the matching plain Albers projection there.
+  const cproj=r?proj:d3.geoAlbers().scale(proj.scale()).translate(proj.translate()).clipExtent([[0,0],[W,H]]);
+  if(canada)svg.append('path').datum(canada).attr('class','ca').attr('d',d3.geoPath(cproj)).attr('fill',r==='Canada'?'#e2d6cc':'#efece6').attr('stroke','#fff').attr('stroke-width',1);
   svg.append('g').selectAll('path').data(states).join('path').attr('class','st').attr('d',path)
     .attr('fill',d=>{const c=COLOR[d.id]||'#ebe8e1';if(!r)return c;const reg=REGIONS.find(x=>x[0]===r);return reg&&reg[2].includes(d.id)?c:'#ebe8e1';});
   const g=svg.append('g');const P=[];
-  pts.forEach(d=>{const xy=proj([d.lon,d.lat]);if(!xy)return;P.push([d,xy]);});
+  pts.forEach(d=>{const xy=(d.region==='Canada'?cproj:proj)([d.lon,d.lat]);if(!xy)return;P.push([d,xy]);});
   const a=g.selectAll('a').data(P).join('a').attr('href',([d])=>'../'+d.guide+(preview?'?preview=1':'')).attr('aria-label',([d])=>d.name+', '+d.state);
   a.append('circle').attr('class','dot').attr('cx',([,p])=>p[0]).attr('cy',([,p])=>p[1]).attr('r',r?6.5:4.8)
-   .on('mouseenter',(e,[d])=>{const b=box.getBoundingClientRect(),s=b.width/W;tip.textContent=d.name+' · '+d.airport;tip.style.left=(proj([d.lon,d.lat])[0]*s)+'px';tip.style.top=(proj([d.lon,d.lat])[1]*s)+'px';tip.style.display='block';})
+   .on('mouseenter',(e,[d,p])=>{const b=box.getBoundingClientRect(),s=b.width/W;tip.textContent=d.name+' · '+d.airport;tip.style.left=(p[0]*s)+'px';tip.style.top=(p[1]*s)+'px';tip.style.display='block';})
    .on('mouseleave',()=>{tip.style.display='none';});
   if(r){const placed=P.map(([,p])=>[p[0]-6,p[1]-6,p[0]+6,p[1]+6]);const hit=b=>b[0]<2||b[2]>W-2||b[1]<2||b[3]>H-2||placed.some(q=>!(b[2]<q[0]||b[0]>q[2]||b[3]<q[1]||b[1]>q[3]));
     P.slice().sort((a,b)=>a[1][0]-b[1][0]).forEach(([d,p])=>{const t=d.name.replace(/ & .*| National Park.*|,.*/,'');const w=t.length*6.3;
