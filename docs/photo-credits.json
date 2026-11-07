@@ -9631,5 +9631,54 @@
   "date_taken": null,
   "files": [],
   "location": "Marquette, Michigan"
+ },
+ {
+  "destination": "Ocracoke Island",
+  "title": "Ocracoke Part 2 098",
+  "photographer": "Sedna10387 (talk)",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Ocracoke_Part_2_098.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Ocracoke_Part_2_098.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2816,
+   "height": 2112
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Sunset over the docks and boats of Silver Lake harbor on Ocracoke",
+  "files": [
+   {
+    "path": "dist/assets/destinations/ocracoke-silver-lake-sunset-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 23390,
+    "sha256": "48338827ff8dda9c66012503735d306b771f097f8db511c29cafb48f1d265c76"
+   },
+   {
+    "path": "dist/assets/destinations/ocracoke-silver-lake-sunset-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34655,
+    "sha256": "7f42797ca86930cc3272e8ca310a12c1417fe8a1a6b4a7fa14078b2c05fbaea9"
+   },
+   {
+    "path": "dist/assets/destinations/ocracoke-silver-lake-sunset-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 88754,
+    "sha256": "135009ddd947ca9a835b8563d60101ffe2872dc50a88c50f342a3c6b7fca53dc"
+   },
+   {
+    "path": "dist/assets/destinations/ocracoke-silver-lake-sunset-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 128193,
+    "sha256": "d552e6014709a6e9b49f3869846060f796ffb6276af7c1d964d0003e7dd5b6ea"
+   }
+  ]
  }
 ]
