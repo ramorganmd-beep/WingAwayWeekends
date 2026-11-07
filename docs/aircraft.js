@@ -83,6 +83,7 @@
 
   // Landing gear is kept separately so it also works with the default estimate.
   function loadGear() {
+    if (CIRRUS_ONLY) return 'land';
     try { var g = localStorage.getItem(GEAR_KEY); return GEARS[g] ? g : 'land'; } catch (e) { return 'land'; }
   }
 
@@ -92,5 +93,5 @@
     return g;
   }
 
-  window.WingAwayAircraft = { PRESETS: PRESETS, FIELDS: FIELDS, GEARS: GEARS, valid: valid, load: load, save: save, loadGear: loadGear, saveGear: saveGear, estimate: estimate, formatTime: formatTime, summary: summary };
+  window.WingAwayAircraft = { CIRRUS_ONLY: CIRRUS_ONLY, PRESETS: PRESETS, FIELDS: FIELDS, GEARS: GEARS, valid: valid, load: load, save: save, loadGear: loadGear, saveGear: saveGear, estimate: estimate, formatTime: formatTime, summary: summary };
 })();

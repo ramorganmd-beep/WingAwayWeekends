@@ -468,4 +468,4 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - Canada guides (region "Canada"): run `python3 tools/guides/border.py` after rebuilding to add the "Flying to Canada" checklist section (return customs airports are in RETURN in that script). Add `border` to the post-processing loop.
 
 ## Cirrus-only aircraft menu (temporary, Nov 2026)
-For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so the homepage and trip-planner menus list only the SR20, SR22, SR22T and Vision Jet SF50. All other presets are still defined; set it to `false` (and bump `aircraft.js?v=` in docs/index.html) to restore the full list. Empty Floatplane/Amphibian groups are hidden on the homepage.
+For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so the homepage and trip-planner menus list only the SR20, SR22, SR22T and Vision Jet SF50. All other presets are still defined; set it to `false` (and bump `aircraft.js?v=` in docs/index.html) to restore the full list. Empty Floatplane/Amphibian groups and the Landing gear menu are hidden on the homepage, and gear is treated as Landplane.
