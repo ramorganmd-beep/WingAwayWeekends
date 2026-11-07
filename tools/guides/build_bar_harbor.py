@@ -16,7 +16,7 @@ GUIDE = dict(
         intro='KBHB, Hancock County–Bar Harbor, sits on the mainland in Trenton, about 20 minutes from downtown Bar Harbor.',
         fbo=('Modern Aviation · Bar Harbor', '112 Caruso Drive, Trenton, ME 04605', '207-667-5534', 'https://bhbairport.com/general.html'),
         notes=['Ask the FBO about rental cars, overnight parking and fees. No live fuel price is shown.',
-               'This is a long trip, about 800 nm from Myrtle Beach; plan at least one fuel stop and consider making it a three-night weekend. Coastal fog is frequent in summer. Review the sectional and current NOTAMs.'],
+               'This is a long trip, about 800 nm from Myrtle Beach; you may need a fuel stop depending on your aircraft, and it’s worth considering a three-night weekend. Coastal fog is frequent in summer. Review the sectional and current NOTAMs.'],
         around_title='A car, then the park shuttle.',
         around='Rent a car for the weekend. In season, the free Island Explorer buses link Bar Harbor with the park’s trailheads and beaches.'),
     stay=dict(title='On the harbor or in town.', intro='Harborfront hotels and a gracious inn. Rates and availability need travel dates.',
@@ -43,7 +43,7 @@ GUIDE = dict(
               ('SAT', 'Acadia', [('Sunrise', 'Cadillac Mountain, with a vehicle reservation.'), ('Morning', 'Ocean Path to Thunder Hole, then popovers at Jordan Pond House.'), ('Afternoon & evening', 'Bike the carriage roads, then lobster at Thurston’s.')]),
               ('SUN', 'An easy departure', [('Morning', 'Bar Island at low tide, or a whale watch.'), ('Before leaving', 'Return the car and allow time at the FBO.'), ('Fly home', 'A long trip home. Start early and let weather set the plan.')])]),
     know=[('Book in this order', 'Lodging and a car first, then the Cadillac reservation and dinners.'),
-          ('Long flight', 'About 800 nm. Plan fuel stops and consider a third night.'),
+          ('Long flight', 'About 800 nm. Check whether your aircraft needs a fuel stop, and consider a third night.'),
           ('Seasons', 'Many restaurants and the Island Explorer run late spring to mid-October.'),
           ('Coastal fog', 'Summer fog is common. Keep a backup day.')])
 
