@@ -5498,10 +5498,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "marquette", "remote": "https://images.unsplash.com/photo-1602868667516-f01b0618a74e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDAwMTI3fA&ixlib=rb-4.1.0", "alt": "Historic brick storefronts along a downtown street in Marquette, Michigan", "pos": "50% 50%"}
 },
 {
  "name": "Frankenmuth",
@@ -5520,10 +5517,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Midwest",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "frankenmuth-main-street", "alt": "A Bavarian-style shop with painted murals on Main Street in Frankenmuth"}
 },
 {
  "name": "Hermann Wine Country",
@@ -5544,10 +5538,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "hermann-stone-hill", "alt": "A historic brick building at Stone Hill in Hermann, Missouri"}
 },
 {
  "name": "Southport & Bald Head Island",
@@ -5568,10 +5559,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "bald-head-old-baldy", "alt": "Old Baldy lighthouse rising above the maritime forest on Bald Head Island"}
 },
 {
  "name": "Ocracoke Island",
@@ -5616,10 +5604,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Heartland",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "brainerd-gull-lake-sunset", "alt": "The sun setting over Gull Lake near Brainerd, Minnesota"}
 },
 {
  "name": "Thomasville",
@@ -5639,10 +5624,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "thomasville-big-oak", "alt": "The spreading limbs of the Big Oak, a live oak more than 300 years old, in Thomasville"}
 },
 {
  "name": "Callaway Gardens & Pine Mountain",
@@ -5663,10 +5645,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "callaway-boathouse", "alt": "Canoes and boats tied up inside the stone boathouse at Callaway Gardens"}
 },
 {
  "name": "Guthrie",
@@ -5685,10 +5664,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Great Plains",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "guthrie-carnegie-library", "alt": "The domed Carnegie Library, home of the Oklahoma Territorial Museum, in Guthrie"}
 },
 {
  "name": "Lubbock & the Texas High Plains",
@@ -5709,9 +5685,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "lubbock-skyline", "alt": "The Lubbock skyline above Texas Tech-area streets and apartments"}
 }
 ];

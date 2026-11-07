@@ -9222,5 +9222,414 @@
   "date_taken": null,
   "files": [],
   "location": "Paris, Idaho, on the north end of Bear Lake"
+ },
+ {
+  "destination": "Frankenmuth",
+  "title": "Fudge and kite store, Frankenmuth, Michigan, 2015-01-11",
+  "photographer": "Crisco 1492",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Fudge_and_kite_store,_Frankenmuth,_Michigan,_2015-01-11.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Fudge_and_kite_store%2C_Frankenmuth%2C_Michigan%2C_2015-01-11.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3667,
+   "height": 2421
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A Bavarian-style shop with painted murals on Main Street in Frankenmuth",
+  "files": [
+   {
+    "path": "dist/assets/destinations/frankenmuth-main-street-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 43996,
+    "sha256": "ef11ca8b0643d2ddb6f736c6e217cdc3d55ad1c2dde001bf6e1951f721cbaac1"
+   },
+   {
+    "path": "dist/assets/destinations/frankenmuth-main-street-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 52007,
+    "sha256": "bd68f8e6cc1a4a7a0f0c0825334db485a5e464e316100ed20e731e79c968c467"
+   },
+   {
+    "path": "dist/assets/destinations/frankenmuth-main-street-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 161662,
+    "sha256": "e1091acd4e1747e0beaa892f3740cc3d54b1182f4641edb397e2f0abf955bea9"
+   },
+   {
+    "path": "dist/assets/destinations/frankenmuth-main-street-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 194579,
+    "sha256": "39ddcd438e10c864908e49fec862402d71b25e998317c42168b6a17b4a0234de"
+   }
+  ]
+ },
+ {
+  "destination": "Southport & Bald Head Island",
+  "title": "Old Baldy Lighthouse, Bald Head Island",
+  "photographer": "Gareth Rasberry",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Old_Baldy_Lighthouse,_Bald_Head_Island.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/Old_Baldy_Lighthouse%2C_Bald_Head_Island.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 4910,
+   "height": 2132
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Old Baldy lighthouse rising above the maritime forest on Bald Head Island",
+  "files": [
+   {
+    "path": "dist/assets/destinations/bald-head-old-baldy-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 46318,
+    "sha256": "4c66d017608ae95b2cfa50ec2e65598d4409a80c67d3258ee33186a5ea866fd4"
+   },
+   {
+    "path": "dist/assets/destinations/bald-head-old-baldy-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 53671,
+    "sha256": "229139ad4ac8a73dd8bc98634830d2cbcf9639966353608e2fa5acb06ebbdfa1"
+   },
+   {
+    "path": "dist/assets/destinations/bald-head-old-baldy-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 163900,
+    "sha256": "b3d11aa389673197fc9c7beb9c7a493a2352efee7d8f2f0cc290f1157c388bde"
+   },
+   {
+    "path": "dist/assets/destinations/bald-head-old-baldy-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 192578,
+    "sha256": "6f78dcd2cb92c28647847bae12dce232f7035bccf2729779e530ad3b1d1e270a"
+   }
+  ]
+ },
+ {
+  "destination": "Lubbock & the Texas High Plains",
+  "title": "LubbockSkyline2013",
+  "photographer": "user:Redraiderengineer",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:LubbockSkyline2013.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/LubbockSkyline2013.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2953,
+   "height": 2213
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The Lubbock skyline above Texas Tech-area streets and apartments",
+  "files": [
+   {
+    "path": "dist/assets/destinations/lubbock-skyline-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 37346,
+    "sha256": "983ea2f78c75f82f5d5b77793a35612f60903fb914e857a3638bdd205f9d02ef"
+   },
+   {
+    "path": "dist/assets/destinations/lubbock-skyline-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 46835,
+    "sha256": "3a002b9c2ad35f33dcb9413af69b81c86df0c4181f6f754eddcebb06f13fb6e4"
+   },
+   {
+    "path": "dist/assets/destinations/lubbock-skyline-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 132856,
+    "sha256": "9001936e1c9be132129fe82796594e9f63b0eb8e469ce87d6b791ac441cd9b0a"
+   },
+   {
+    "path": "dist/assets/destinations/lubbock-skyline-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 172979,
+    "sha256": "e5a210408614c19ad46e79a1adcee14022bd296c830375d860845f0235a84646"
+   }
+  ]
+ },
+ {
+  "destination": "Thomasville",
+  "title": "The Big Oak, Thomasville, GA, US",
+  "photographer": "Jud McCranie",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:The_Big_Oak,_Thomasville,_GA,_US.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/The_Big_Oak%2C_Thomasville%2C_GA%2C_US.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5941,
+   "height": 4016
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The spreading limbs of the Big Oak, a live oak more than 300 years old, in Thomasville",
+  "files": [
+   {
+    "path": "dist/assets/destinations/thomasville-big-oak-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 56706,
+    "sha256": "d67086f9e4925178be7367d65a987c6cf03752d9e562d93aff96ae2460153d26"
+   },
+   {
+    "path": "dist/assets/destinations/thomasville-big-oak-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 62104,
+    "sha256": "9e2703cd6714cf024b3b2f0acf216eea82791f8401e899c173c2278986dac69d"
+   },
+   {
+    "path": "dist/assets/destinations/thomasville-big-oak-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 239878,
+    "sha256": "de158927bce0b909b7ae5546de1df0f4b72c08119208c48d61ebf693c05b65cb"
+   },
+   {
+    "path": "dist/assets/destinations/thomasville-big-oak-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 260856,
+    "sha256": "ab07d1d057f1b106ecbd6ec0cf20d390a6864391b85e4583e5f5036c60740d6c"
+   }
+  ]
+ },
+ {
+  "destination": "Callaway Gardens & Pine Mountain",
+  "title": "Callaway boathouse1",
+  "photographer": "Dsdugan",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Callaway_boathouse1.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/d/da/Callaway_boathouse1.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 2048,
+   "height": 1367
+  },
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Canoes and boats tied up inside the stone boathouse at Callaway Gardens",
+  "files": [
+   {
+    "path": "dist/assets/destinations/callaway-boathouse-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 26408,
+    "sha256": "5acb5350a0ea900c6b5c1a65a9dac252d7e04393c60e55c31eec21e054dafa1c"
+   },
+   {
+    "path": "dist/assets/destinations/callaway-boathouse-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 36682,
+    "sha256": "9c6cb8b0c345856f74cf41a1df59884b1936862ba0dc6426a1d38a7668b7e3d7"
+   },
+   {
+    "path": "dist/assets/destinations/callaway-boathouse-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 93830,
+    "sha256": "807b055dccc3dcabe6a5b19572583bac5fa10e0b2575adfb243fb504fc146c2a"
+   },
+   {
+    "path": "dist/assets/destinations/callaway-boathouse-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 133765,
+    "sha256": "8518c87128ea434f6a0293abdbd4c0ba587fd223f45439f5ca3025c5a50de030"
+   }
+  ]
+ },
+ {
+  "destination": "Guthrie",
+  "title": "Carnegie Library (Guthrie, Oklahoma)",
+  "photographer": "Jim Rosebery",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Carnegie_Library_(Guthrie,_Oklahoma).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Carnegie_Library_%28Guthrie%2C_Oklahoma%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3456,
+   "height": 2592
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The domed Carnegie Library, home of the Oklahoma Territorial Museum, in Guthrie",
+  "files": [
+   {
+    "path": "dist/assets/destinations/guthrie-carnegie-library-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33370,
+    "sha256": "299859efde730a2ba34f803cb1c09490ea9aa018e17af4c850b78869ce1caf14"
+   },
+   {
+    "path": "dist/assets/destinations/guthrie-carnegie-library-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43759,
+    "sha256": "359333ee154ff26a154a21091d07904a3d49cca7524542cb2680af95f6dc64e4"
+   },
+   {
+    "path": "dist/assets/destinations/guthrie-carnegie-library-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 124712,
+    "sha256": "40c92bc589cec9cea4ccd47a23b3b5ce74aa8ca67dd9e95118fe126a77edeca0"
+   },
+   {
+    "path": "dist/assets/destinations/guthrie-carnegie-library-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 165691,
+    "sha256": "6c754d669ecd575d642cdbf0aed076b6e99a8eee5f8983a49f0f7c920ff64687"
+   }
+  ]
+ },
+ {
+  "destination": "Hermann Wine Country",
+  "title": "OLD STONE HILL HISTORIC DISTRICT",
+  "photographer": "JERRYE & ROY KLOTZ MD",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:OLD_STONE_HILL_HISTORIC_DISTRICT.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/OLD_STONE_HILL_HISTORIC_DISTRICT.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5245,
+   "height": 3484
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A historic brick building at Stone Hill in Hermann, Missouri",
+  "files": [
+   {
+    "path": "dist/assets/destinations/hermann-stone-hill-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 50342,
+    "sha256": "9f73af2df833d386e68f472795c6a8bcd094fbc88eb3dbf0de6101184f07f575"
+   },
+   {
+    "path": "dist/assets/destinations/hermann-stone-hill-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 56792,
+    "sha256": "3b02e7b76a69e8cc07474d9c0216f77f5567931b49fe3e82ca036c15a61a7ba0"
+   },
+   {
+    "path": "dist/assets/destinations/hermann-stone-hill-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 197034,
+    "sha256": "0888621523b2b66ae8e3bafd42d7def84ef61a085663f572299165d86b936d48"
+   },
+   {
+    "path": "dist/assets/destinations/hermann-stone-hill-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 220596,
+    "sha256": "424af2ca525df8bd536a390e842c9ffdf46e4193f920298c271163a8a59fb7f8"
+   }
+  ]
+ },
+ {
+  "destination": "Brainerd Lakes",
+  "title": "Gull Lake sunset",
+  "photographer": "Onorem",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Gull_Lake_sunset.JPG",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Gull_Lake_sunset.JPG",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 3072,
+   "height": 2304
+  },
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes. Adaptations remain under the same license.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "The sun setting over Gull Lake near Brainerd, Minnesota",
+  "files": [
+   {
+    "path": "dist/assets/destinations/brainerd-gull-lake-sunset-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 25372,
+    "sha256": "873b50cf9449e05a7d9081dc65f7aeca60794de849bba9d11d4f396c2eb0870f"
+   },
+   {
+    "path": "dist/assets/destinations/brainerd-gull-lake-sunset-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 34519,
+    "sha256": "29295b640839603a2147e6c7ee0ead8daa08851d020aaa29e1fbb6b0d9085486"
+   },
+   {
+    "path": "dist/assets/destinations/brainerd-gull-lake-sunset-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 102402,
+    "sha256": "68dde400df21f87490570dad9d38879d5485eb1d1544e08d5dcdd1cdcf9a4bcf"
+   },
+   {
+    "path": "dist/assets/destinations/brainerd-gull-lake-sunset-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 137494,
+    "sha256": "9009a83f5d11facaab598a690b9386d3132faa0d7214a39af8dc678df3006124"
+   }
+  ]
+ },
+ {
+  "destination": "Marquette & Pictured Rocks",
+  "title": "Downtown Marquette.",
+  "photographer": "Gary Meulemans",
+  "source_page_url": "https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-buildings-during-daytime-flC-jZUNWaQ",
+  "original_image_url": "https://images.unsplash.com/photo-1602868667516-f01b0618a74e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDAwMTI3fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Historic brick storefronts along a downtown street in Marquette, Michigan",
+  "date_taken": null,
+  "files": [],
+  "location": "Marquette, Michigan"
  }
 ]
