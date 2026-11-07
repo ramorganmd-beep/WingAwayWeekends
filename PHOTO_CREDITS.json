@@ -10138,5 +10138,54 @@
     "sha256": "baac9990509ca30dea685bd5933cffdcee4fad55d3ac9ece49d280f0c1120790"
    }
   ]
+ },
+ {
+  "destination": "Seneca Lake & Geneva",
+  "title": "Belhurst Castle",
+  "photographer": "RochesterNY",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/4/45/Belhurst_Castle.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 639,
+   "height": 505
+  },
+  "license": "Public domain",
+  "license_url": "",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "Belhurst Castle’s stone tower and lit windows at dusk on the shore of Seneca Lake",
+  "files": [
+   {
+    "path": "dist/assets/destinations/belhurst-castle-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 33894,
+    "sha256": "2fff603985bc1301917f6c5b645bb6fc54d1af209aa588825e3003e6155165e0"
+   },
+   {
+    "path": "dist/assets/destinations/belhurst-castle-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 43412,
+    "sha256": "a56b81a8b37cac661fa34e04e7765ae3262d7a5a41f32c029d565170f2bc735f"
+   },
+   {
+    "path": "dist/assets/destinations/belhurst-castle-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 90216,
+    "sha256": "cdd723c771395d291aa5aae7ca6e2689cfca70bab9898421c95ff404701bf100"
+   },
+   {
+    "path": "dist/assets/destinations/belhurst-castle-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 129606,
+    "sha256": "d531ff2a44e19608fb307d3d15e03a38fe72c0a900497b4203818dc4ca4b4647"
+   }
+  ]
  }
 ]

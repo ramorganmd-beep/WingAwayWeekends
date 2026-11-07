@@ -5887,9 +5887,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "belhurst-castle", "alt": "Belhurst Castle’s stone tower and lit windows at dusk on the shore of Seneca Lake"}
 }
 ];
