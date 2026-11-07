@@ -5673,5 +5673,208 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Texas",
  "family": true,
  "photo": {"slug": "lubbock-skyline", "alt": "The Lubbock skyline above Texas Tech-area streets and apartments"}
+},
+{
+ "name": "Williamsburg & Jamestown",
+ "state": "Virginia",
+ "airport": "KJGG",
+ "lat": 37.2707,
+ "lon": -76.7075,
+ "desc": "Colonial Williamsburg, Jamestown and Yorktown, a riverfront golf resort and a diner right on the airport.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Golf"
+ ],
+ "guide": "williamsburg/",
+ "stateCode": "VA",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "williamsburg-duke-of-gloucester", "alt": "Colonial shops and brick buildings along Duke of Gloucester Street after a snowfall"}
+},
+{
+ "name": "Provincetown",
+ "state": "Massachusetts",
+ "airport": "KPVC",
+ "lat": 42.0584,
+ "lon": -70.1787,
+ "desc": "The tip of Cape Cod: an airport in the dunes, whale watching, the Pilgrim Monument and lobster on the wharf.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Scenic views",
+  "Outdoors"
+ ],
+ "guide": "provincetown/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "provincetown-harbor", "alt": "Fishing boats and the long breakwater in Provincetown Harbor"}
+},
+{
+ "name": "Cooperstown",
+ "state": "New York",
+ "airport": "K23",
+ "lat": 42.7006,
+ "lon": -74.9243,
+ "desc": "The Baseball Hall of Fame on Otsego Lake, a grand lakeside resort, Brewery Ommegang and summer opera.",
+ "tags": [
+  "History",
+  "Lake",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "cooperstown/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "cooperstown-main-street", "alt": "Brick storefronts and flags at Main and Pioneer streets in Cooperstown"}
+},
+{
+ "name": "Thousand Islands",
+ "state": "New York",
+ "airport": "KART",
+ "lat": 44.2395,
+ "lon": -76.0858,
+ "desc": "Castles and wooden boats on the St. Lawrence: Boldt Castle, the Antique Boat Museum and river cruises.",
+ "tags": [
+  "Scenic views",
+  "History",
+  "Stays",
+  "Outdoors"
+ ],
+ "guide": "thousand-islands/",
+ "stateCode": "NY",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "thousand-islands-zavikon", "alt": "Two tiny islands joined by a short footbridge in the St. Lawrence River"}
+},
+{
+ "name": "Chincoteague & Assateague",
+ "state": "Virginia",
+ "airport": "KMFV",
+ "lat": 37.9332,
+ "lon": -75.3788,
+ "desc": "Wild ponies, the Assateague Lighthouse, empty beaches, oysters and ice cream on Virginia’s Eastern Shore.",
+ "tags": [
+  "Beach",
+  "Outdoors",
+  "Scenic views",
+  "Stays"
+ ],
+ "guide": "chincoteague/",
+ "stateCode": "VA",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "assateague-lighthouse", "alt": "The red-and-white striped Assateague Lighthouse among bare trees"}
+},
+{
+ "name": "Elkins & Snowshoe",
+ "state": "West Virginia",
+ "airport": "KEKN",
+ "lat": 38.9259,
+ "lon": -79.8467,
+ "desc": "West Virginia highlands: excursion trains, the Cass Scenic Railroad, the Green Bank telescope and Snowshoe Mountain.",
+ "tags": [
+  "Outdoors",
+  "Scenic views",
+  "History",
+  "Hiking",
+  "Stays"
+ ],
+ "guide": "elkins/",
+ "stateCode": "WV",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "cass-shay-locomotive", "alt": "A black Shay steam locomotive at the Cass Scenic Railroad"}
+},
+{
+ "name": "Missoula",
+ "state": "Montana",
+ "airport": "KMSO",
+ "lat": 46.8721,
+ "lon": -113.994,
+ "desc": "The Museum of Mountain Flying and the Smokejumper center at the airport, a river town and a luxury ranch.",
+ "tags": [
+  "Aviation museums",
+  "Outdoors",
+  "Hiking",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "missoula/",
+ "stateCode": "MT",
+ "region": "Mountain West",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "missoula-downtown", "alt": "Downtown Missoula buildings beside a riverside park, with mountains behind"}
+},
+{
+ "name": "Tullahoma & Lynchburg",
+ "state": "Tennessee",
+ "airport": "KTHA",
+ "lat": 35.362,
+ "lon": -86.2094,
+ "desc": "The Beechcraft Heritage Museum on the field, Jack Daniel’s, George Dickel and a boarding-house dinner.",
+ "tags": [
+  "Aviation museums",
+  "History",
+  "Dining"
+ ],
+ "guide": "tullahoma/",
+ "stateCode": "TN",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "beechcraft-heritage-museum", "alt": "A log cabin and gardens at the Beechcraft Heritage Museum, with a sign for sod from the Beech factory in Wichita"}
+},
+{
+ "name": "Kiawah Island",
+ "state": "South Carolina",
+ "airport": "KJZI",
+ "lat": 32.6082,
+ "lon": -80.0848,
+ "desc": "A barrier-island golf and beach resort near Charleston: the Ocean Course, the Sanctuary and ten miles of beach.",
+ "tags": [
+  "Golf",
+  "Beach",
+  "Spa",
+  "Stays",
+  "Romance"
+ ],
+ "guide": "kiawah-island/",
+ "stateCode": "SC",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "kiawah-island", "remote": "https://images.unsplash.com/photo-1598461445380-5b3096cd8b3f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDIyMTgzfA&ixlib=rb-4.1.0", "alt": "A wooden boardwalk bridge over the marsh toward the sea on Kiawah Island", "pos": "50% 50%"}
+},
+{
+ "name": "Smith Mountain Lake",
+ "state": "Virginia",
+ "airport": "W91",
+ "lat": 37.1817,
+ "lon": -79.6172,
+ "desc": "A Blue Ridge lake with its own airport: lake resorts, dinner by boat and the Blue Ridge Parkway nearby.",
+ "tags": [
+  "Lake",
+  "Outdoors",
+  "Stays",
+  "Dining"
+ ],
+ "guide": "smith-mountain-lake/",
+ "stateCode": "VA",
+ "region": "Mid-Atlantic",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "smith-mountain-lake-marina", "alt": "Docks, a pool and the wide lake at Smith Mountain Lake with wooded hills beyond"}
 }
 ];

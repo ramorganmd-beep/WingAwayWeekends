@@ -3449,5 +3449,126 @@
     "h": 720,
     "caption": "The Lubbock skyline.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:LubbockSkyline2013.jpg\">LubbockSkyline2013</a> — user:Redraiderengineer · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "williamsburg": {
+    "slug": "williamsburg-duke-of-gloucester",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Colonial shops and brick buildings along Duke of Gloucester Street after a snowfall",
+    "w": 960,
+    "h": 720,
+    "caption": "Duke of Gloucester Street, Colonial Williamsburg.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Duke_of_Gloucester_Street,_Colonial_Williamsburg,_Virginia_-_panoramio.jpg\">Duke of Gloucester Street, Colonial Williamsburg, Virginia - panoramio</a> — David Broad · <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Cropped to 4:3 and resized."
+  },
+  "provincetown": {
+    "slug": "provincetown-harbor",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Fishing boats and the long breakwater in Provincetown Harbor",
+    "w": 960,
+    "h": 720,
+    "caption": "Provincetown Harbor.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Provincetown_Harbor,_Massachusetts._-_panoramio.jpg\">Provincetown Harbor, Massachusetts. - panoramio</a> — Bob Linsdell · <a href=\"https://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Cropped to 4:3 and resized."
+  },
+  "cooperstown": {
+    "slug": "cooperstown-main-street",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Brick storefronts and flags at Main and Pioneer streets in Cooperstown",
+    "w": 960,
+    "h": 720,
+    "caption": "Main Street, Cooperstown.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Main_Street_and_Pioneer_Street_Cooperstown.jpg\">Main Street and Pioneer Street Cooperstown</a> — Beyond My Ken · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "thousand-islands": {
+    "slug": "thousand-islands-zavikon",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Two tiny islands joined by a short footbridge in the St. Lawrence River",
+    "w": 960,
+    "h": 720,
+    "caption": "Zavikon Island in the Thousand Islands, on the Canadian side of the river.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Thousand_Islands.-_Zavikon_Island_in_Ontario.jpg\">Thousand Islands.- Zavikon Island in Ontario</a> — Pierre André Leclercq · <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "chincoteague": {
+    "slug": "assateague-lighthouse",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "The red-and-white striped Assateague Lighthouse among bare trees",
+    "w": 960,
+    "h": 720,
+    "caption": "The Assateague Lighthouse.",
+    "credit_html": "<a href=\"https://www.loc.gov/item/2011630346/\">Lighthouse on Assateague Island, Virginia</a> — Carol M. Highsmith (Library of Congress) · Public domain. Cropped to 4:3 and resized."
+  },
+  "elkins": {
+    "slug": "cass-shay-locomotive",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A black Shay steam locomotive at the Cass Scenic Railroad",
+    "w": 960,
+    "h": 720,
+    "caption": "A Shay locomotive at Cass Scenic Railroad.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Cass_Scenic_Railroad_State_Park_-_Shay_3_-_03.jpg\">Cass Scenic Railroad State Park - Shay 3 - 03</a> — Jarek Tuszyński · <a href=\"https://creativecommons.org/licenses/by/4.0\">CC BY 4.0</a>. Cropped to 4:3 and resized."
+  },
+  "missoula": {
+    "slug": "missoula-downtown",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Downtown Missoula buildings beside a riverside park, with mountains behind",
+    "w": 960,
+    "h": 720,
+    "caption": "Downtown Missoula.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Downtown_Missoula_center.jpg\">Downtown Missoula center</a> — Missoulian · <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a> (photo adaptations under the same license). Cropped to 4:3 and resized."
+  },
+  "tullahoma": {
+    "slug": "beechcraft-heritage-museum",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A log cabin and gardens at the Beechcraft Heritage Museum, with a sign for sod from the Beech factory in Wichita",
+    "w": 960,
+    "h": 720,
+    "caption": "The Beechcraft Heritage Museum grounds, Tullahoma.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52464478391).jpg\">Beechcraft Heritage Museum (52464478391)</a> — Eric Friedebach · <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>. Cropped to 4:3 and resized."
+  },
+  "kiawah-island": {
+    "slug": "https://images.unsplash.com/photo-1598461445380-5b3096cd8b3f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDIyMTgzfA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A wooden boardwalk bridge over the marsh toward the sea on Kiawah Island",
+    "w": 960,
+    "h": 720,
+    "caption": "A boardwalk on Kiawah Island.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@mitchmcm?utm_source=wingaway_weekends&utm_medium=referral\">lorimcm</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-wooden-bridge-over-the-sea-during-daytime-WgZZUkMWqtw?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "smith-mountain-lake": {
+    "slug": "smith-mountain-lake-marina",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Docks, a pool and the wide lake at Smith Mountain Lake with wooded hills beyond",
+    "w": 960,
+    "h": 720,
+    "caption": "Smith Mountain Lake.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:SmithMtnLake_VA.JPG\">SmithMtnLake VA</a> — Jay White · Public domain. Cropped to 4:3 and resized."
   }
 }

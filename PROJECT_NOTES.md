@@ -462,3 +462,6 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 ## Multi-stop trips (November 2026)
 - Live at /trips/ (index plus six routes: northeast, lowcountry, florida, rockies, california, great-lakes). Linked as "Trips" in the homepage, map and Fly to Lunch headers; in the sitemap.
 - Edit routes in `tools/trips/build_trips.py` (ROUTES), then run `python3 tools/trips/build_trips.py`. Page shell: `tools/trips/template.html`; index shell: `tools/trips/index_template.html`; logic: `docs/trips/trip.js` (window.TRIP config per page).
+
+- Fuel stops: `docs/trips/fuel-airports.js` comes from FAA NASR (`python3 tools/trips/build_fuel.py <nasr dir>`); trip.js suggests a balanced fuel stop with the right fuel, or the farthest reachable one when a leg needs several. "Trip starts" can be home or the first stop (`from=stop` in the URL).
+- Guides on a route get a "Make it a longer trip" box: `python3 tools/guides/trips_link.py docs/*/index.html` (run after changing routes; add `trips_link` to the guide post-processing loop).

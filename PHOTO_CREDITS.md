@@ -2080,3 +2080,81 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Ocracoke_Part_2_098.JPG
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Williamsburg & Jamestown
+
+- Title: Duke of Gloucester Street, Colonial Williamsburg, Virginia - panoramio
+- Photographer: David Broad
+- Source: https://commons.wikimedia.org/wiki/File:Duke_of_Gloucester_Street,_Colonial_Williamsburg,_Virginia_-_panoramio.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Provincetown
+
+- Title: Provincetown Harbor, Massachusetts. - panoramio
+- Photographer: Bob Linsdell
+- Source: https://commons.wikimedia.org/wiki/File:Provincetown_Harbor,_Massachusetts._-_panoramio.jpg
+- License: CC BY 3.0 — https://creativecommons.org/licenses/by/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Cooperstown
+
+- Title: Main Street and Pioneer Street Cooperstown
+- Photographer: Beyond My Ken
+- Source: https://commons.wikimedia.org/wiki/File:Main_Street_and_Pioneer_Street_Cooperstown.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Thousand Islands
+
+- Title: Thousand Islands.- Zavikon Island in Ontario
+- Photographer: Pierre André Leclercq
+- Source: https://commons.wikimedia.org/wiki/File:Thousand_Islands.-_Zavikon_Island_in_Ontario.jpg
+- License: CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Chincoteague & Assateague
+
+- Title: Lighthouse on Assateague Island, Virginia
+- Photographer: Carol M. Highsmith (Library of Congress)
+- Source: https://www.loc.gov/item/2011630346/
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Elkins & Snowshoe
+
+- Title: Cass Scenic Railroad State Park - Shay 3 - 03
+- Photographer: Jarek Tuszyński
+- Source: https://commons.wikimedia.org/wiki/File:Cass_Scenic_Railroad_State_Park_-_Shay_3_-_03.jpg
+- License: CC BY 4.0 — https://creativecommons.org/licenses/by/4.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Missoula
+
+- Title: Downtown Missoula center
+- Photographer: Missoulian
+- Source: https://commons.wikimedia.org/wiki/File:Downtown_Missoula_center.jpg
+- License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Tullahoma & Lynchburg
+
+- Title: Beechcraft Heritage Museum (52464478391)
+- Photographer: Eric Friedebach
+- Source: https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52464478391).jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Smith Mountain Lake
+
+- Title: SmithMtnLake VA
+- Photographer: Jay White
+- Source: https://commons.wikimedia.org/wiki/File:SmithMtnLake_VA.JPG
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Kiawah Island
+
+- Photo by lorimcm on Unsplash — https://unsplash.com/photos/brown-wooden-bridge-over-the-sea-during-daytime-WgZZUkMWqtw
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kiawah Island, South Carolina
