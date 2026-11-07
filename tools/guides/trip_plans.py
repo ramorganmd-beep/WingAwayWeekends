@@ -1122,6 +1122,36 @@ PLANS = {
     'lubbock': {
         'day': [('Arrive', 'Land at KLBB mid-morning.'), ('Midday', 'Silent Wings Museum, then barbecue.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'Buddy Holly Center.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'williamsburg': {
+        'day': [('Arrive', 'Land at KJGG mid-morning.'), ('Midday', 'Lunch at Charly’s on the field.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Colonial Williamsburg.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'provincetown': {
+        'day': [('Arrive', 'Land at KPVC mid-morning.'), ('Midday', 'Lobster at The Lobster Pot.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Whale watch from MacMillan Pier.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'cooperstown': {
+        'day': [('Arrive', 'Land at K23 mid-morning.'), ('Midday', 'Lunch on Main Street.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Baseball Hall of Fame.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'thousand-islands': {
+        'day': [('Arrive', 'Land at KART mid-morning.'), ('Midday', 'Lunch in Clayton.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Boat to Boldt Castle.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'chincoteague': {
+        'day': [('Arrive', 'Land at KMFV mid-morning.'), ('Midday', 'Seafood on the island.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Bike the wildlife refuge.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'elkins': {
+        'day': [('Arrive', 'Land at KEKN mid-morning.'), ('Midday', 'Lunch downtown in Elkins.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Cass Scenic Railroad.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'missoula': {
+        'day': [('Arrive', 'Land at KMSO mid-morning.'), ('Midday', 'Museum of Mountain Flying, then lunch downtown.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Smokejumper Visitor Center.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'tullahoma': {
+        'day': [('Arrive', 'Land at KTHA mid-morning.'), ('Midday', 'Beechcraft Heritage Museum, on the field.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Jack Daniel’s tour.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'kiawah-island': {
+        'day': [('Arrive', 'Land at KJZI mid-morning.'), ('Midday', 'Lunch at Freshfields Village.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Golf or the beach.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'smith-mountain-lake': {
+        'day': [('Arrive', 'Land at W91 mid-morning.'), ('Midday', 'Lunch by the lake.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'A day on a pontoon boat.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
