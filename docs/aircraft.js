@@ -11,7 +11,10 @@
   var PRESETS = [
     ['c172', 'Cessna 172S Skyhawk', 122, 8.5, 15, 2, 53, 45, 'land'],
     ['pa28', 'Piper PA-28-181 Archer', 125, 10, 15, 2, 48, 45, 'land'],
+    ['sr20', 'Cirrus SR20', 155, 11, 15, 2, 56, 45, 'land'],
     ['sr22', 'Cirrus SR22', 175, 16.5, 15, 3, 92, 45, 'land'],
+    ['sr22t', 'Cirrus SR22T', 190, 18, 15, 3, 92, 45, 'land'],
+    ['sf50', 'Cirrus Vision Jet SF50 (Jet A)', 300, 60, 20, 15, 296, 45, 'land'],
     ['a36', 'Beechcraft Bonanza A36', 165, 15, 15, 3, 74, 45, 'land'],
     ['m20j', 'Mooney M20J 201', 150, 9.5, 15, 2, 64, 45, 'land'],
     ['tbm960', 'Daher TBM 960 (Jet A)', 300, 55, 20, 15, 291, 45, 'land'],
@@ -26,6 +29,11 @@
   ].map(function (p) {
     return { id: p[0], label: p[1], tas: p[2], gph: p[3], allowMin: p[4], allowGal: p[5], usable: p[6], reserve: p[7], gear: p[8] };
   });
+
+  // Temporary: show only Cirrus models in the aircraft menus (Cirrus presentation).
+  // Set to false to bring back the full list.
+  var CIRRUS_ONLY = true;
+  if (CIRRUS_ONLY) PRESETS = PRESETS.filter(function (p) { return /^Cirrus/.test(p.label); });
 
   var GEARS = { land: 'Landplane', float: 'Floatplane', amphib: 'Amphibian' };
   var GEAR_KEY = 'wingaway-gear';
