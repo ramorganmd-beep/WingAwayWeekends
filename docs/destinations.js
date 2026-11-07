@@ -5907,10 +5907,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Canada",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "niagara-on-the-lake", "remote": "https://images.unsplash.com/photo-1581630504140-9831ebc960a0?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MTg5fA&ixlib=rb-4.1.0", "alt": "A historic brick and stone building under a blue sky in Niagara-on-the-Lake", "pos": "50% 50%"}
 },
 {
  "name": "Québec City",
@@ -5931,10 +5928,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Canada",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "quebec-city", "remote": "https://images.unsplash.com/photo-1710881710078-d25d578fedc3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjAwfA&ixlib=rb-4.1.0", "alt": "Aerial view of the Château Frontenac above Old Québec and the St. Lawrence River", "pos": "50% 50%"}
 },
 {
  "name": "Victoria, BC",
@@ -5955,9 +5949,6 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Canada",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "victoria-bc", "remote": "https://images.unsplash.com/photo-1688713866885-4cb1310b4939?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjA1fA&ixlib=rb-4.1.0", "alt": "Boats in Victoria’s Inner Harbour with flower baskets in the foreground", "pos": "50% 50%"}
 }
 ];
