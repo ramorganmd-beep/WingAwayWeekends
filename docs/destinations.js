@@ -5691,7 +5691,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
  "photo": {"slug": "williamsburg-duke-of-gloucester", "alt": "Colonial shops and brick buildings along Duke of Gloucester Street after a snowfall"}
 },
 {
@@ -5712,7 +5711,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MA",
  "region": "Northeast",
  "family": true,
- "draft": true,
  "photo": {"slug": "provincetown-harbor", "alt": "Fishing boats and the long breakwater in Provincetown Harbor"}
 },
 {
@@ -5732,7 +5730,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "draft": true,
  "photo": {"slug": "cooperstown-main-street", "alt": "Brick storefronts and flags at Main and Pioneer streets in Cooperstown"}
 },
 {
@@ -5752,7 +5749,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "NY",
  "region": "Northeast",
  "family": true,
- "draft": true,
  "photo": {"slug": "thousand-islands-zavikon", "alt": "Two tiny islands joined by a short footbridge in the St. Lawrence River"}
 },
 {
@@ -5772,7 +5768,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
  "photo": {"slug": "assateague-lighthouse", "alt": "The red-and-white striped Assateague Lighthouse among bare trees"}
 },
 {
@@ -5793,7 +5788,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
  "photo": {"slug": "cass-shay-locomotive", "alt": "A black Shay steam locomotive at the Cass Scenic Railroad"}
 },
 {
@@ -5814,7 +5808,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MT",
  "region": "Mountain West",
  "family": true,
- "draft": true,
  "photo": {"slug": "missoula-downtown", "alt": "Downtown Missoula buildings beside a riverside park, with mountains behind"}
 },
 {
@@ -5833,8 +5826,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TN",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {"slug": "beechcraft-heritage-museum", "alt": "A log cabin and gardens at the Beechcraft Heritage Museum, with a sign for sod from the Beech factory in Wichita"}
+ "photo": {"slug": "beechcraft-bonanza-tullahoma", "alt": "A Beechcraft Bonanza on display in the hangar of the Beechcraft Heritage Museum"}
 },
 {
  "name": "Kiawah Island",
@@ -5854,7 +5846,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SC",
  "region": "Southeast",
  "family": true,
- "draft": true,
  "photo": {"slug": "kiawah-island", "remote": "https://images.unsplash.com/photo-1598461445380-5b3096cd8b3f?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDIyMTgzfA&ixlib=rb-4.1.0", "alt": "A wooden boardwalk bridge over the marsh toward the sea on Kiawah Island", "pos": "50% 50%"}
 },
 {
@@ -5874,7 +5865,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
- "draft": true,
  "photo": {"slug": "smith-mountain-lake-marina", "alt": "Docks, a pool and the wide lake at Smith Mountain Lake with wooded hills beyond"}
 }
 ];

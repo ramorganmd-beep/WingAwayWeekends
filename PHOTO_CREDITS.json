@@ -10025,55 +10025,6 @@
   ]
  },
  {
-  "destination": "Tullahoma & Lynchburg",
-  "title": "Beechcraft Heritage Museum (52464478391)",
-  "photographer": "Eric Friedebach",
-  "source_page_url": "https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52464478391).jpg",
-  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Beechcraft_Heritage_Museum_%2852464478391%29.jpg",
-  "downloaded_image_url": "1920px Wikimedia thumbnail",
-  "original_dimensions": {
-   "width": 4950,
-   "height": 3220
-  },
-  "license": "CC BY 2.0",
-  "license_url": "https://creativecommons.org/licenses/by/2.0",
-  "commercial_reuse_verified": true,
-  "verification_date": "2026-11-03",
-  "requirements": "Credit photographer and title; link source and license; note changes.",
-  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
-  "alt": "A log cabin and gardens at the Beechcraft Heritage Museum, with a sign for sod from the Beech factory in Wichita",
-  "files": [
-   {
-    "path": "dist/assets/destinations/beechcraft-heritage-museum-480.webp",
-    "width": 480,
-    "height": 360,
-    "bytes": 67452,
-    "sha256": "71fada35fdebb48b49e16cd86db79afe3fd41f5da6a7069499d22ff495e06d88"
-   },
-   {
-    "path": "dist/assets/destinations/beechcraft-heritage-museum-480.jpg",
-    "width": 480,
-    "height": 360,
-    "bytes": 69846,
-    "sha256": "04d03abe0b452bc989468e8d93c33c3555527ff7dda82766086fd611676d1dea"
-   },
-   {
-    "path": "dist/assets/destinations/beechcraft-heritage-museum-960.webp",
-    "width": 960,
-    "height": 720,
-    "bytes": 270714,
-    "sha256": "ab34ad6a61606f760da857cf64b0168efae5becc66027d612782b07670ef0b22"
-   },
-   {
-    "path": "dist/assets/destinations/beechcraft-heritage-museum-960.jpg",
-    "width": 960,
-    "height": 720,
-    "bytes": 285675,
-    "sha256": "423e8777c653d5a53f27f023aa986793b190ae8a5c65299df9bbd45d5697ff68"
-   }
-  ]
- },
- {
   "destination": "Smith Mountain Lake",
   "title": "SmithMtnLake VA",
   "photographer": "Jay White",
@@ -10138,5 +10089,54 @@
   "date_taken": null,
   "files": [],
   "location": "Kiawah Island, South Carolina"
+ },
+ {
+  "destination": "Tullahoma & Lynchburg",
+  "title": "Beechcraft Heritage Museum (52463992572)",
+  "photographer": "Eric Friedebach",
+  "source_page_url": "https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52463992572).jpg",
+  "original_image_url": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Beechcraft_Heritage_Museum_%2852463992572%29.jpg",
+  "downloaded_image_url": "1920px Wikimedia thumbnail",
+  "original_dimensions": {
+   "width": 5568,
+   "height": 3202
+  },
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Credit photographer and title; link source and license; note changes.",
+  "changes": "Cropped to 4:3, resized to 480 and 960 pixels wide, converted to WebP and progressive JPEG. No retouching or color alteration.",
+  "alt": "A Beechcraft Bonanza on display in the hangar of the Beechcraft Heritage Museum",
+  "files": [
+   {
+    "path": "dist/assets/destinations/beechcraft-bonanza-tullahoma-480.webp",
+    "width": 480,
+    "height": 360,
+    "bytes": 31064,
+    "sha256": "933638b26acbb112844ed7958deaa10d8a0baee7834c0ad8b9ca863a5d02778c"
+   },
+   {
+    "path": "dist/assets/destinations/beechcraft-bonanza-tullahoma-480.jpg",
+    "width": 480,
+    "height": 360,
+    "bytes": 44099,
+    "sha256": "134d7316142afadb0ecec9b30c8fe8881b478a6e229855042c1f4a6503706aaa"
+   },
+   {
+    "path": "dist/assets/destinations/beechcraft-bonanza-tullahoma-960.webp",
+    "width": 960,
+    "height": 720,
+    "bytes": 90738,
+    "sha256": "f66c29ced34b7ec60f8228e1eb8d192e5eed84793e90dd9f01cc81bd164db4ee"
+   },
+   {
+    "path": "dist/assets/destinations/beechcraft-bonanza-tullahoma-960.jpg",
+    "width": 960,
+    "height": 720,
+    "bytes": 141400,
+    "sha256": "baac9990509ca30dea685bd5933cffdcee4fad55d3ac9ece49d280f0c1120790"
+   }
+  ]
  }
 ]
