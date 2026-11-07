@@ -1155,6 +1155,15 @@ PLANS = {
     'seneca-lake': {
         'day': [('Arrive', 'Land at 0G7 mid-morning.'), ('Midday', 'Lunch and a tasting at Belhurst Castle.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'Seneca Lake wine trail.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'niagara-on-the-lake': {
+        'day': [('Arrive', 'Land at CYSN and clear Canadian customs.'), ('Midday', 'Lunch on Queen Street.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Bike the wineries.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'quebec-city': {
+        'day': [('Arrive', 'Land at CYQB and clear Canadian customs.'), ('Midday', 'Lunch in Old Québec.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Walk the ramparts.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'victoria-bc': {
+        'day': [('Arrive', 'Land at CYYJ and clear Canadian customs.'), ('Midday', 'Fish and chips on the harbor.'), ('Afternoon', 'A short walk, then back to the airport.')],
+        'extra': [('Morning', 'Butchart Gardens.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

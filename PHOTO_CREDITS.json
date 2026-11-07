@@ -10187,5 +10187,56 @@
     "sha256": "d531ff2a44e19608fb307d3d15e03a38fe72c0a900497b4203818dc4ca4b4647"
    }
   ]
+ },
+ {
+  "destination": "Niagara-on-the-Lake",
+  "title": "Niagara-on-the-Lake, Ontario.",
+  "photographer": "Dalma Dioszegi",
+  "source_page_url": "https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-ehqtlveUoHk",
+  "original_image_url": "https://images.unsplash.com/photo-1581630504140-9831ebc960a0?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MTg5fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "A historic brick and stone building under a blue sky in Niagara-on-the-Lake",
+  "date_taken": null,
+  "files": [],
+  "location": "Niagara-on-the-Lake, Ontario"
+ },
+ {
+  "destination": "Québec City",
+  "title": "The Château Frontenac, Québec City.",
+  "photographer": "Nathan Feyssat",
+  "source_page_url": "https://unsplash.com/photos/an-aerial-view-of-a-large-building-with-a-clock-tower-tKhphNkxK00",
+  "original_image_url": "https://images.unsplash.com/photo-1710881710078-d25d578fedc3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjAwfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Aerial view of the Château Frontenac above Old Québec and the St. Lawrence River",
+  "date_taken": null,
+  "files": [],
+  "location": "Château Frontenac, Québec City"
+ },
+ {
+  "destination": "Victoria, BC",
+  "title": "Victoria’s Inner Harbour.",
+  "photographer": "Vlad D",
+  "source_page_url": "https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-and-lots-of-flowers-qb1yWj0GZ8I",
+  "original_image_url": "https://images.unsplash.com/photo-1688713866885-4cb1310b4939?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjA1fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-03",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Boats in Victoria’s Inner Harbour with flower baskets in the foreground",
+  "date_taken": null,
+  "files": [],
+  "location": "Victoria, British Columbia"
  }
 ]

@@ -3582,5 +3582,44 @@
     "h": 720,
     "caption": "Belhurst Castle, Geneva.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg\">Belhurst Castle</a> — RochesterNY · Public domain. Cropped to 4:3 and resized."
+  },
+  "niagara-on-the-lake": {
+    "slug": "https://images.unsplash.com/photo-1581630504140-9831ebc960a0?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MTg5fA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A historic brick and stone building under a blue sky in Niagara-on-the-Lake",
+    "w": 960,
+    "h": 720,
+    "caption": "Niagara-on-the-Lake, Ontario.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@dalma95?utm_source=wingaway_weekends&utm_medium=referral\">Dalma Dioszegi</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-ehqtlveUoHk?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "quebec-city": {
+    "slug": "https://images.unsplash.com/photo-1710881710078-d25d578fedc3?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjAwfA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Aerial view of the Château Frontenac above Old Québec and the St. Lawrence River",
+    "w": 960,
+    "h": 720,
+    "caption": "The Château Frontenac, Québec City.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@nathan_feyssat?utm_source=wingaway_weekends&utm_medium=referral\">Nathan Feyssat</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/an-aerial-view-of-a-large-building-with-a-clock-tower-tKhphNkxK00?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "victoria-bc": {
+    "slug": "https://images.unsplash.com/photo-1688713866885-4cb1310b4939?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjA1fA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Boats in Victoria’s Inner Harbour with flower baskets in the foreground",
+    "w": 960,
+    "h": 720,
+    "caption": "Victoria’s Inner Harbour.",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@hiking_corgi?utm_source=wingaway_weekends&utm_medium=referral\">Vlad D</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-and-lots-of-flowers-qb1yWj0GZ8I?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }

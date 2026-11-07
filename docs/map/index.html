@@ -34,7 +34,7 @@
 <script src="../destinations.js"></script><script src="d3.min.js"></script><script src="topojson-client.min.js"></script>
 <script>
 (function(){
-const REGIONS=[['Southeast','#d9e4ea',['37','45','13','47','01','28','22']],['Florida','#cfe7e2',['12']],['Mid-Atlantic','#efd9b4',['51','54','24','34','10','11']],['Northeast','#dfe8d3',['42','36','50','33','25','09','44','23']],['Midwest','#ead7e2',['21','39','26','18','17','55']],['Heartland','#e6dcc8',['29','19','27','05']],['Texas','#f0d2c6',['48']],['Great Plains','#e4e6c3',['38','46','31','20','40']],['Mountain West','#ddd6ec',['08','35','56','16','49','04','30','32']],['Southern California','#f3e3b3',['06']],['Central California','#f3e3b3',['06']],['Northern California','#f3e3b3',['06']],['Pacific Northwest','#cfe0d6',['41','53']],['Alaska','#d6e3ef',['02']],['Hawaii','#f6dfe6',['15']]];
+const REGIONS=[['Southeast','#d9e4ea',['37','45','13','47','01','28','22']],['Florida','#cfe7e2',['12']],['Mid-Atlantic','#efd9b4',['51','54','24','34','10','11']],['Northeast','#dfe8d3',['42','36','50','33','25','09','44','23']],['Midwest','#ead7e2',['21','39','26','18','17','55']],['Heartland','#e6dcc8',['29','19','27','05']],['Texas','#f0d2c6',['48']],['Great Plains','#e4e6c3',['38','46','31','20','40']],['Mountain West','#ddd6ec',['08','35','56','16','49','04','30','32']],['Southern California','#f3e3b3',['06']],['Central California','#f3e3b3',['06']],['Northern California','#f3e3b3',['06']],['Pacific Northwest','#cfe0d6',['41','53']],['Alaska','#d6e3ef',['02']],['Hawaii','#f6dfe6',['15']],['Canada','#e2d6cc',[]]];
 const COLOR={};REGIONS.forEach(([n,c,ids])=>ids.forEach(i=>COLOR[i]=c));
 const preview=/[?&]preview=1/.test(location.search);
 const D=(window.WINGAWAY_DESTINATIONS||[]).filter(d=>d.guide&&(preview||!d.draft)&&isFinite(d.lat)&&isFinite(d.lon));
@@ -71,7 +71,7 @@ function draw(){
       const opts=[[p[0]+9,p[1]+4,'start'],[p[0]-9,p[1]+4,'end'],[p[0],p[1]-10,'middle'],[p[0],p[1]+19,'middle']];
       for(const [x,y,an] of opts){const x0=an==='start'?x:an==='end'?x-w:x-w/2;const b=[x0,y-11,x0+w,y+2];if(hit(b))continue;placed.push(b);
         g.append('text').attr('class','lbl').attr('x',x).attr('y',y).attr('text-anchor',an).text(t);break;}});}
-  document.getElementById('count').textContent=pts.length+' guide'+(pts.length===1?'':'s')+(r?' in '+r:' in all 50 states');
+  document.getElementById('count').textContent=pts.length+' guide'+(pts.length===1?'':'s')+(r?' in '+r:' in all 50 states'+(D.some(d=>d.region==='Canada')?' and Canada':''));
   const L=document.getElementById('list');const groups=r?[[r,pts]]:REGIONS.map(([n])=>[n,D.filter(d=>d.region===n)]).filter(x=>x[1].length);
   L.innerHTML='<ul class="map-list">'+groups.map(([n,ds])=>'<li><h3>'+n+'</h3></li>'+ds.slice().sort((x,y)=>x.name.localeCompare(y.name)).map(d=>'<li><a href="../'+d.guide+(preview?'?preview=1':'')+'">'+esc(d.name)+'</a><small>'+esc(d.state)+' · '+esc(d.airport)+'</small></li>').join('')).join('')+'</ul>';
 }

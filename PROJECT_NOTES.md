@@ -465,3 +465,4 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 
 - Fuel stops: `docs/trips/fuel-airports.js` comes from FAA NASR (`python3 tools/trips/build_fuel.py <nasr dir>`); trip.js suggests a balanced fuel stop with the right fuel, or the farthest reachable one when a leg needs several. "Trip starts" can be home or the first stop (`from=stop` in the URL).
 - Guides on a route get a "Make it a longer trip" box: `python3 tools/guides/trips_link.py docs/*/index.html` (run after changing routes; add `trips_link` to the guide post-processing loop).
+- Canada guides (region "Canada"): run `python3 tools/guides/border.py` after rebuilding to add the "Flying to Canada" checklist section (return customs airports are in RETURN in that script). Add `border` to the post-processing loop.

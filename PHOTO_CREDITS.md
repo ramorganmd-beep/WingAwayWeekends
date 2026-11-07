@@ -2167,3 +2167,21 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg
 - License: Public domain
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Niagara-on-the-Lake
+
+- Photo by Dalma Dioszegi on Unsplash — https://unsplash.com/photos/brown-and-white-concrete-building-under-blue-sky-during-daytime-ehqtlveUoHk
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Niagara-on-the-Lake, Ontario
+
+## Québec City
+
+- Photo by Nathan Feyssat on Unsplash — https://unsplash.com/photos/an-aerial-view-of-a-large-building-with-a-clock-tower-tKhphNkxK00
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Château Frontenac, Québec City
+
+## Victoria, BC
+
+- Photo by Vlad D on Unsplash — https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-and-lots-of-flowers-qb1yWj0GZ8I
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Victoria, British Columbia

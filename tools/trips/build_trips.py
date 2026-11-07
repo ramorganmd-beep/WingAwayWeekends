@@ -101,7 +101,7 @@ ROUTES = [
   wx='Summer is the dry, clear season; the rest of the year brings low ceilings, rain and icing in the mountains. Watch for marine stratus on summer mornings and plan Cascade crossings carefully.',
   regions=['Pacific Northwest'], defaultSeason=[6, 7, 8, 9],
   route=[['seattle', 1, ['leavenworth', 'lake-chelan']],
-         ['san-juan-islands', 2, ['port-townsend']],
+         ['san-juan-islands', 2, ['port-townsend', 'victoria-bc']],
          ['port-townsend', 1, ['oregon-coast']],
          ['willamette-valley', 2, ['oregon-coast', 'eugene', 'bend-sunriver']],
          ['hood-river', 1, ['walla-walla', 'bend-sunriver', 'crater-lake']]]),
@@ -120,10 +120,10 @@ ROUTES = [
   desc='A seven-night flying trip through upstate New York and the Finger Lakes wine country, with dates, legs, fuel-stop flags and a guide for every stop.',
   wx='Summer and early fall are the season; watch for lake-effect showers, morning valley fog, summer thunderstorms and the high terrain of the Adirondacks. Plan a spare day.',
   regions=['Northeast'], defaultSeason=[6, 7, 8, 9, 10],
-  route=[['cooperstown', 1, ['hudson-valley', 'saratoga']],
+  route=[['cooperstown', 1, ['hudson-valley', 'saratoga', 'niagara-on-the-lake']],
          ['finger-lakes', 1, ['seneca-lake']],
          ['seneca-lake', 2, ['finger-lakes']],
-         ['thousand-islands', 2, ['long-lake-ny']],
+         ['thousand-islands', 2, ['long-lake-ny', 'quebec-city']],
          ['lake-placid', 1, ['saratoga', 'long-lake-ny']]]),
 ]
 def main():
