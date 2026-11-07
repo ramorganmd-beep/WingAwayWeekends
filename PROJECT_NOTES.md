@@ -472,3 +472,6 @@ For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so th
 
 ## Cirrus owners preview page
 `docs/cirrus/index.html` (built by `tools/cirrus/build_cirrus.py` from destinations.js) is a noindex preview for the Cirrus partnership discussion: pick-your-Cirrus buttons that save the aircraft profile, six getaways, six week-long trips and a sample Great Smoky Mountains fly-out near KTYS (sign-up disabled). Not in the sitemap or site navigation; it states that WingAway Weekends is not affiliated with or endorsed by Cirrus Aircraft. Remove or rebuild after the trial discussion.
+
+## Homepage hero layout (Nov 2026)
+Matches the deck cover: on screens over 760px the hero keeps the photo's proportions (`aspect-ratio:2000/1175`, image `0 62%/100% auto`) so the whole SR22 shows, with the eyebrow, headline (one line) and tagline over the sky under a top-down dark gradient. 561–760px: the photo is a strip (`.hero::before`, 43% tall) with the text below it. 560px and under: the original phone strip layout. Previous version saved at the commit before this one.
