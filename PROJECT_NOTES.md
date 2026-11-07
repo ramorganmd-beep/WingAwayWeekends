@@ -472,3 +472,6 @@ For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so th
 
 ## Runway lengths on cards
 `tools/guides/runways.py <nasr-folder>` writes `"rwy"` (longest land runway, ft) and `"rwySurf"` (only when unpaved, e.g. "turf") next to each `"airport"` in docs/destinations.js, from FAA NASR APT_BASE/APT_RWY (ICAO codes map to FAA IDs; water lanes ignored). Homepage cards show "KJWN · 6,001 ft rwy · ~2 hr 39 min · ~43 gal". Re-run after adding destinations or a new NASR cycle, and bump `destinations.js?v=` in docs/index.html.
+
+## Cirrus owners preview page
+`docs/cirrus/index.html` (built by `tools/cirrus/build_cirrus.py` from destinations.js) is a noindex preview for the Cirrus partnership discussion: pick-your-Cirrus buttons that save the aircraft profile, six getaways, six week-long trips and a sample Bar Harbor fly-out (sign-up disabled). Not in the sitemap or site navigation; it states that WingAway Weekends is not affiliated with or endorsed by Cirrus Aircraft. Remove or rebuild after the trial discussion.
