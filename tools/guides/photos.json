@@ -3570,5 +3570,17 @@
     "h": 720,
     "caption": "Smith Mountain Lake.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:SmithMtnLake_VA.JPG\">SmithMtnLake VA</a> — Jay White · Public domain. Cropped to 4:3 and resized."
+  },
+  "seneca-lake": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Seneca Lake & Geneva (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
   }
 }
