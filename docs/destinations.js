@@ -5834,7 +5834,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
  "draft": true,
- "photo": {"slug": "beechcraft-heritage-museum", "alt": "A log cabin and gardens at the Beechcraft Heritage Museum, with a sign for sod from the Beech factory in Wichita"}
+ "photo": {"slug": "beechcraft-bonanza-tullahoma", "alt": "A Beechcraft Bonanza on display in the hangar of the Beechcraft Heritage Museum"}
 },
 {
  "name": "Kiawah Island",

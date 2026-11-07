@@ -2137,13 +2137,6 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: CC BY-SA 3.0 — https://creativecommons.org/licenses/by-sa/3.0
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
 
-## Tullahoma & Lynchburg
-
-- Title: Beechcraft Heritage Museum (52464478391)
-- Photographer: Eric Friedebach
-- Source: https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52464478391).jpg
-- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
-- Changes: cropped to 4:3, resized, converted to WebP/JPEG
 
 ## Smith Mountain Lake
 
@@ -2158,3 +2151,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by lorimcm on Unsplash — https://unsplash.com/photos/brown-wooden-bridge-over-the-sea-during-daytime-WgZZUkMWqtw
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Kiawah Island, South Carolina
+
+## Tullahoma & Lynchburg
+
+- Title: Beechcraft Heritage Museum (52463992572)
+- Photographer: Eric Friedebach
+- Source: https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52463992572).jpg
+- License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
