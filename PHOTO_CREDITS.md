@@ -2159,3 +2159,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Source: https://commons.wikimedia.org/wiki/File:Beechcraft_Heritage_Museum_(52463992572).jpg
 - License: CC BY 2.0 — https://creativecommons.org/licenses/by/2.0
 - Changes: cropped to 4:3, resized, converted to WebP/JPEG
+
+## Seneca Lake & Geneva
+
+- Title: Belhurst Castle
+- Photographer: RochesterNY
+- Source: https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG

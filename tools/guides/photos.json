@@ -3572,15 +3572,15 @@
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:SmithMtnLake_VA.JPG\">SmithMtnLake VA</a> — Jay White · Public domain. Cropped to 4:3 and resized."
   },
   "seneca-lake": {
-    "slug": "tavares-seaplane-landing",
+    "slug": "belhurst-castle",
     "widths": [
       480,
       960
     ],
-    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "alt": "Belhurst Castle’s stone tower and lit windows at dusk on the shore of Seneca Lake",
     "w": 960,
     "h": 720,
-    "caption": "Seneca Lake & Geneva (illustration)",
-    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+    "caption": "Belhurst Castle, Geneva.",
+    "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg\">Belhurst Castle</a> — RochesterNY · Public domain. Cropped to 4:3 and resized."
   }
 }
