@@ -5887,5 +5887,77 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
  "photo": {"slug": "belhurst-castle", "alt": "Belhurst Castle’s stone tower and lit windows at dusk on the shore of Seneca Lake"}
+},
+{
+ "name": "Niagara-on-the-Lake",
+ "state": "Ontario",
+ "airport": "CYSN",
+ "lat": 43.255,
+ "lon": -79.0717,
+ "desc": "Ontario wine country on Lake Ontario: Victorian inns, the Shaw Festival, icewine and Niagara Falls nearby.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "Stays",
+  "History",
+  "Romance"
+ ],
+ "guide": "niagara-on-the-lake/",
+ "stateCode": "ON",
+ "region": "Canada",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Québec City",
+ "state": "Québec",
+ "airport": "CYQB",
+ "lat": 46.8139,
+ "lon": -71.208,
+ "desc": "North America’s walled old city: Château Frontenac, cobblestone lanes, French food and Montmorency Falls.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Romance",
+  "Scenic views"
+ ],
+ "guide": "quebec-city/",
+ "stateCode": "QC",
+ "region": "Canada",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
+},
+{
+ "name": "Victoria, BC",
+ "state": "British Columbia",
+ "airport": "CYYJ",
+ "lat": 48.4284,
+ "lon": -123.3656,
+ "desc": "Vancouver Island’s harbor capital: the Fairmont Empress, Butchart Gardens, whale watching and a downtown seaplane harbor.",
+ "tags": [
+  "Scenic views",
+  "Outdoors",
+  "Stays",
+  "Dining",
+  "History"
+ ],
+ "guide": "victoria-bc/",
+ "stateCode": "BC",
+ "region": "Canada",
+ "family": true,
+ "draft": true,
+ "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

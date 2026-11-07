@@ -3582,5 +3582,41 @@
     "h": 720,
     "caption": "Belhurst Castle, Geneva.",
     "credit_html": "<a href=\"https://commons.wikimedia.org/wiki/File:Belhurst_Castle.jpg\">Belhurst Castle</a> — RochesterNY · Public domain. Cropped to 4:3 and resized."
+  },
+  "niagara-on-the-lake": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Niagara-on-the-Lake (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "quebec-city": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Québec City (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
+  },
+  "victoria-bc": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Victoria, BC (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
   }
 }
