@@ -5580,10 +5580,7 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
  "draft": true,
- "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+ "photo": {"slug": "ocracoke-silver-lake-sunset", "alt": "Sunset over the docks and boats of Silver Lake harbor on Ocracoke"}
 },
 {
  "name": "Brainerd Lakes",

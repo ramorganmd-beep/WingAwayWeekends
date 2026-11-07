@@ -2072,3 +2072,11 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Gary Meulemans on Unsplash — https://unsplash.com/photos/cars-parked-on-side-of-the-road-near-buildings-during-daytime-flC-jZUNWaQ
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Marquette, Michigan
+
+## Ocracoke Island
+
+- Title: Ocracoke Part 2 098
+- Photographer: Sedna10387 (talk)
+- Source: https://commons.wikimedia.org/wiki/File:Ocracoke_Part_2_098.JPG
+- License: Public domain
+- Changes: cropped to 4:3, resized, converted to WebP/JPEG
