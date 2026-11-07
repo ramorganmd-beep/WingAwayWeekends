@@ -466,3 +466,6 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 
 ## Cirrus-only aircraft menu (temporary, Nov 2026)
 For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so the homepage and trip-planner menus list only the SR20, SR22, SR22T and Vision Jet SF50. All other presets are still defined; set it to `false` (and bump `aircraft.js?v=` in docs/index.html) to restore the full list. Empty Floatplane/Amphibian groups and the Landing gear menu are hidden on the homepage, and gear is treated as Landplane.
+
+## Runway lengths on cards
+`tools/guides/runways.py <nasr-folder>` writes `"rwy"` (longest land runway, ft) and `"rwySurf"` (only when unpaved, e.g. "turf") next to each `"airport"` in docs/destinations.js, from FAA NASR APT_BASE/APT_RWY (ICAO codes map to FAA IDs; water lanes ignored). Homepage cards show "KJWN · 6,001 ft rwy · ~2 hr 39 min · ~43 gal". Re-run after adding destinations or a new NASR cycle, and bump `destinations.js?v=` in docs/index.html.

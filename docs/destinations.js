@@ -4,7 +4,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Nashville",
   "state": "Tennessee",
-  "airport": "KJWN",
+  "airport": "KJWN", "rwy": 6001,
   "lat": 36.1824,
   "lon": -86.8867,
   "desc": "Live music, memorable dining and a lively weekend in Music City.",
@@ -26,7 +26,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Savannah",
   "state": "Georgia",
-  "airport": "KSAV",
+  "airport": "KSAV", "rwy": 9351,
   "lat": 32.1276,
   "lon": -81.2021,
   "desc": "Historic squares, exceptional dining, romantic inns and riverfront evenings.",
@@ -49,7 +49,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Charleston",
   "state": "South Carolina",
-  "airport": "KCHS",
+  "airport": "KCHS", "rwy": 9001,
   "lat": 32.8986,
   "lon": -80.0405,
   "desc": "Cobblestone streets, acclaimed restaurants and beautifully restored hotels.",
@@ -72,7 +72,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Asheville",
   "state": "North Carolina",
-  "airport": "KAVL",
+  "airport": "KAVL", "rwy": 8002,
   "lat": 35.4362,
   "lon": -82.5418,
   "desc": "Mountain views, destination spas, arts and memorable food.",
@@ -98,7 +98,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Beaufort",
   "state": "South Carolina",
-  "airport": "KARW",
+  "airport": "KARW", "rwy": 3434,
   "lat": 32.4121,
   "lon": -80.6344,
   "desc": "Lowcountry waterfront charm, intimate inns and unhurried afternoons.",
@@ -122,7 +122,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "St. Augustine",
   "state": "Florida",
-  "airport": "KSGJ",
+  "airport": "KSGJ", "rwy": 8001,
   "lat": 29.9592,
   "lon": -81.3397,
   "desc": "Centuries of history, walkable streets and coastal experiences.",
@@ -145,7 +145,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Charlottesville",
   "state": "Virginia",
-  "airport": "KCHO",
+  "airport": "KCHO", "rwy": 6801,
   "lat": 38.1386,
   "lon": -78.4529,
   "desc": "Wine country, elegant inns and scenic Blue Ridge escapes.",
@@ -169,7 +169,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Greenville",
   "state": "South Carolina",
-  "airport": "KGMU",
+  "airport": "KGMU", "rwy": 5393,
   "lat": 34.8479,
   "lon": -82.35,
   "desc": "A lively walkable downtown, restaurants and nearby mountain scenery.",
@@ -193,7 +193,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Pinehurst",
   "state": "North Carolina",
-  "airport": "KSOP",
+  "airport": "KSOP", "rwy": 6503,
   "lat": 35.2374,
   "lon": -79.3912,
   "desc": "Legendary golf, relaxed resort stays and spa time.",
@@ -215,7 +215,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Outer Banks",
   "state": "North Carolina",
-  "airport": "KMQI",
+  "airport": "KMQI", "rwy": 4306,
   "lat": 35.9188,
   "lon": -75.6957,
   "desc": "Where flight began: wild beaches, towering dunes and the Wright Brothers National Memorial.",
@@ -240,7 +240,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Amelia Island",
   "state": "Florida",
-  "airport": "KFHB",
+  "airport": "KFHB", "rwy": 5301,
   "lat": 30.6118,
   "lon": -81.4612,
   "desc": "A walkable Victorian seaport, quiet beaches and resort spas, minutes from the airport.",
@@ -267,7 +267,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Yadkin Valley",
   "state": "North Carolina",
-  "airport": "KZEF",
+  "airport": "KZEF", "rwy": 4001,
   "lat": 36.28,
   "lon": -80.7861,
   "desc": "North Carolina wine country: estate wineries, vineyard dinners and foothills views, minutes from the runway.",
@@ -294,7 +294,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Virginia Hunt Country",
   "state": "Virginia",
-  "airport": "KJYO",
+  "airport": "KJYO", "rwy": 5500,
   "lat": 39.078,
   "lon": -77.5575,
   "desc": "Middleburg horse country, Loudoun’s best wineries, historic inns and the Udvar-Hazy Center.",
@@ -322,7 +322,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Dahlonega",
   "state": "Georgia",
-  "airport": "KGVL",
+  "airport": "KGVL", "rwy": 5496,
   "lat": 34.2726,
   "lon": -83.8302,
   "desc": "North Georgia mountain wineries, a gold-rush town square and waterfall hikes.",
@@ -350,7 +350,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Gulf Shores",
   "state": "Alabama",
-  "airport": "KJKA",
+  "airport": "KJKA", "rwy": 6962,
   "lat": 30.2905,
   "lon": -87.6718,
   "desc": "Sugar-white beaches, Gulf seafood, state-park trails and the National Naval Aviation Museum nearby.",
@@ -376,7 +376,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Chattanooga",
   "state": "Tennessee",
-  "airport": "KCHA",
+  "airport": "KCHA", "rwy": 7400,
   "lat": 35.0353,
   "lon": -85.2038,
   "desc": "A walkable riverfront, Lookout Mountain views and some of the best dining in Tennessee.",
@@ -402,7 +402,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Great Smoky Mountains",
   "state": "Tennessee",
-  "airport": "KGKT",
+  "airport": "KGKT", "rwy": 5506,
   "lat": 35.8578,
   "lon": -83.5287,
   "desc": "Mountain inns, Cades Cove at sunrise, waterfall hikes and a Blackberry Farm splurge.",
@@ -427,7 +427,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Lake Lure",
   "state": "North Carolina",
-  "airport": "KFQD",
+  "airport": "KFQD", "rwy": 5000,
   "lat": 35.4282,
   "lon": -81.9351,
   "desc": "A mountain lake below Chimney Rock, reopened in 2026 after Helene, with a historic 1927 inn.",
@@ -452,7 +452,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Lake Keowee & Jocassee",
   "state": "South Carolina",
-  "airport": "KCEU",
+  "airport": "KCEU", "rwy": 5000,
   "lat": 34.6719,
   "lon": -82.8865,
   "desc": "Clear mountain lakes at the foot of the Blue Ridge, with waterfalls you reach by boat.",
@@ -476,7 +476,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Lake Lanier",
   "state": "Georgia",
-  "airport": "KGVL",
+  "airport": "KGVL", "rwy": 5496,
   "lat": 34.2726,
   "lon": -83.8302,
   "desc": "A day on a pontoon, dinners on Gainesville’s square and Dahlonega wine country nearby.",
@@ -502,7 +502,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Harpers Ferry",
   "state": "West Virginia",
-  "airport": "KMRB",
+  "airport": "KMRB", "rwy": 8815,
   "lat": 39.4019,
   "lon": -77.9846,
   "desc": "A historic river town where the Potomac meets the Shenandoah, with mountain overlooks and Shepherdstown dinners.",
@@ -527,7 +527,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Hilton Head",
   "state": "South Carolina",
-  "airport": "KHXD",
+  "airport": "KHXD", "rwy": 5000,
   "lat": 32.2244,
   "lon": -80.6975,
   "desc": "Wide beaches, bike paths under the live oaks, Harbour Town’s lighthouse and Lowcountry sunset dinners.",
@@ -553,7 +553,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Highlands–Cashiers",
   "state": "North Carolina",
-  "airport": "K1A5",
+  "airport": "K1A5", "rwy": 5002,
   "lat": 35.2226,
   "lon": -83.419,
   "desc": "Mountain inns, waterfalls you can walk behind, Whiteside Mountain and fine dining on the Blue Ridge plateau.",
@@ -580,7 +580,7 @@ window.WINGAWAY_DESTINATIONS=[
  {
   "name": "Key West",
   "state": "Florida",
-  "airport": "KEYW",
+  "airport": "KEYW", "rwy": 5076,
   "lat": 24.5561,
   "lon": -81.7596,
   "desc": "Island evenings, historic streets, waterfront dining and time on the water.",
@@ -606,7 +606,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "St. Michaels & Easton",
  "state": "Maryland",
- "airport": "KESN",
+ "airport": "KESN", "rwy": 5500,
  "lat": 38.8042,
  "lon": -76.069,
  "desc": "Chesapeake harbor towns, a waterfront inn, crab feasts, the Maritime Museum and the little Oxford ferry.",
@@ -627,7 +627,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Cape May",
  "state": "New Jersey",
- "airport": "KWWD",
+ "airport": "KWWD", "rwy": 5252,
  "lat": 39.0085,
  "lon": -74.9083,
  "desc": "Victorian inns, wide beaches, the lighthouse, wineries and a World War II hangar museum on the field.",
@@ -649,7 +649,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Shenandoah & Luray",
  "state": "Virginia",
- "airport": "KLUA",
+ "airport": "KLUA", "rwy": 3126,
  "lat": 38.6671,
  "lon": -78.5006,
  "desc": "Skyline Drive, Luray Caverns, mountain lodges and short hikes to summit views.",
@@ -669,7 +669,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "The Homestead",
  "state": "Virginia",
- "airport": "KHSP",
+ "airport": "KHSP", "rwy": 5600,
  "lat": 37.9514,
  "lon": -79.8339,
  "desc": "A historic grand resort, the Warm Springs Pools, mountain golf and a spa in the Alleghenies.",
@@ -690,7 +690,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "The Greenbrier",
  "state": "West Virginia",
- "airport": "KLWB",
+ "airport": "KLWB", "rwy": 7003,
  "lat": 37.8579,
  "lon": -80.4004,
  "desc": "A legendary resort with a Cold War bunker, mineral baths, golf and nearby Lewisburg.",
@@ -711,7 +711,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Newport",
  "state": "Rhode Island",
- "airport": "KUUU",
+ "airport": "KUUU", "rwy": 2999,
  "lat": 41.5322,
  "lon": -71.281,
  "desc": "Gilded Age mansions, the Cliff Walk, sunset sails and oceanfront inns.",
@@ -732,7 +732,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Nantucket",
  "state": "Massachusetts",
- "airport": "KACK",
+ "airport": "KACK", "rwy": 6303,
  "lat": 41.2531,
  "lon": -70.0602,
  "desc": "A cobblestone island town, lighthouses, bike paths and beaches 30 miles out to sea.",
@@ -753,7 +753,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bar Harbor & Acadia",
  "state": "Maine",
- "airport": "KBHB",
+ "airport": "KBHB", "rwy": 5200,
  "lat": 44.45,
  "lon": -68.3615,
  "desc": "Acadia’s granite coast, Cadillac Mountain sunrise, carriage roads, popovers and lobster.",
@@ -773,7 +773,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Stowe",
  "state": "Vermont",
- "airport": "KMVL",
+ "airport": "KMVL", "rwy": 4200,
  "lat": 44.5346,
  "lon": -72.614,
  "desc": "A New England village below Mount Mansfield, with mountain resorts, spas and famous fall color.",
@@ -794,7 +794,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Saratoga Springs",
  "state": "New York",
- "airport": "5B2",
+ "airport": "5B2", "rwy": 4699,
  "lat": 43.0513,
  "lon": -73.8612,
  "desc": "Summer horse racing, mineral spa baths, Victorian Broadway and concerts under the trees.",
@@ -813,7 +813,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Gettysburg",
  "state": "Pennsylvania",
- "airport": "KW05",
+ "airport": "KW05", "rwy": 3100,
  "lat": 39.8412,
  "lon": -77.2747,
  "desc": "A private battlefield guide, Eisenhower’s farm, a 1776 tavern and Adams County orchards.",
@@ -832,7 +832,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lancaster & Amish Country",
  "state": "Pennsylvania",
- "airport": "KLNS",
+ "airport": "KLNS", "rwy": 6933,
  "lat": 40.1217,
  "lon": -76.2961,
  "desc": "Amish farmland, a steam railroad, America’s oldest farmers market and farm-to-table dinners.",
@@ -851,7 +851,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hudson Valley",
  "state": "New York",
- "airport": "KPOU",
+ "airport": "KPOU", "rwy": 5001,
  "lat": 41.6266,
  "lon": -73.8842,
  "desc": "River estates, the Culinary Institute, art, farm dinners and vintage airplanes at Old Rhinebeck.",
@@ -872,7 +872,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Mystic",
  "state": "Connecticut",
- "airport": "KGON",
+ "airport": "KGON", "rwy": 5000,
  "lat": 41.3301,
  "lon": -72.0451,
  "desc": "Tall ships at Mystic Seaport, a drawbridge town, lobster rolls and the first nuclear submarine.",
@@ -891,7 +891,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Portsmouth",
  "state": "New Hampshire",
- "airport": "KPSM",
+ "airport": "KPSM", "rwy": 11322,
  "lat": 43.0779,
  "lon": -70.8233,
  "desc": "A 400-year-old harbor town with a great food scene, Strawbery Banke and a grand seaside hotel.",
@@ -911,7 +911,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kennebunkport",
  "state": "Maine",
- "airport": "KSFM",
+ "airport": "KSFM", "rwy": 6389,
  "lat": 43.3939,
  "lon": -70.708,
  "desc": "A classic Maine harbor village, a rocky coast drive, lobster shacks, beaches and a celebrated inn.",
@@ -931,7 +931,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "The Berkshires",
  "state": "Massachusetts",
- "airport": "KPSF",
+ "airport": "KPSF", "rwy": 5792,
  "lat": 42.4268,
  "lon": -73.2929,
  "desc": "Tanglewood concerts, the Norman Rockwell Museum, grand estates, spas and country inns.",
@@ -951,7 +951,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Placid",
  "state": "New York",
- "airport": "KLKP",
+ "airport": "KLKP", "rwy": 4196,
  "lat": 44.2645,
  "lon": -73.9619,
  "desc": "A two-time Olympic village on Mirror Lake, Adirondack peaks, lodges and spas.",
@@ -973,7 +973,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Martha’s Vineyard",
  "state": "Massachusetts",
- "airport": "KMVY",
+ "airport": "KMVY", "rwy": 5504,
  "lat": 41.3931,
  "lon": -70.6143,
  "desc": "Edgartown’s captains’ houses, gingerbread cottages, the Aquinnah cliffs and Menemsha sunsets.",
@@ -994,7 +994,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bardstown & Bourbon Country",
  "state": "Kentucky",
- "airport": "KBRY",
+ "airport": "KBRY", "rwy": 5003,
  "lat": 37.8143,
  "lon": -85.4996,
  "desc": "The Bourbon Capital of the World: distillery tours, a 1779 tavern, Maker’s Mark and My Old Kentucky Home.",
@@ -1013,7 +1013,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Dayton",
  "state": "Ohio",
- "airport": "KMGY",
+ "airport": "KMGY", "rwy": 5000,
  "lat": 39.589,
  "lon": -84.2249,
  "desc": "The National Museum of the U.S. Air Force, the Wright brothers’ workshops and flying field, and Yellow Springs.",
@@ -1032,7 +1032,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Mackinac Island",
  "state": "Michigan",
- "airport": "KMCD",
+ "airport": "KMCD", "rwy": 3501,
  "lat": 45.8649,
  "lon": -84.6373,
  "desc": "A car-free island of horse-drawn carriages, the Grand Hotel’s porch, a historic fort, bikes and fudge.",
@@ -1053,7 +1053,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "French Lick",
  "state": "Indiana",
- "airport": "KFRH",
+ "airport": "KFRH", "rwy": 5500,
  "lat": 38.5062,
  "lon": -86.6369,
  "desc": "Two restored historic spa hotels, West Baden’s famous dome, Pete Dye golf and mineral spas.",
@@ -1073,7 +1073,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Galena",
  "state": "Illinois",
- "airport": "KDBQ",
+ "airport": "KDBQ", "rwy": 6502,
  "lat": 42.402,
  "lon": -90.7095,
  "desc": "A 19th-century river town of brick shops, Grant’s home, rolling hills, wineries and the Mississippi.",
@@ -1094,7 +1094,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Door County",
  "state": "Wisconsin",
- "airport": "KSUE",
+ "airport": "KSUE", "rwy": 4599,
  "lat": 44.8437,
  "lon": -87.4215,
  "desc": "Harbor villages, cherry orchards, lighthouses, a fish boil and goats on a restaurant roof.",
@@ -1115,7 +1115,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Branson & Table Rock Lake",
  "state": "Missouri",
- "airport": "KBBG",
+ "airport": "KBBG", "rwy": 7140,
  "lat": 36.5321,
  "lon": -93.2005,
  "desc": "A wilderness lodge on Table Rock Lake, Top of the Rock sunsets, Dogwood Canyon and live shows.",
@@ -1136,7 +1136,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake of the Ozarks",
  "state": "Missouri",
- "airport": "KAIZ",
+ "airport": "KAIZ", "rwy": 6497,
  "lat": 38.096,
  "lon": -92.5495,
  "desc": "A huge winding lake, castle ruins at Ha Ha Tonka, caves, boating and lakeside resorts.",
@@ -1156,7 +1156,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hot Springs",
  "state": "Arkansas",
- "airport": "KHOT",
+ "airport": "KHOT", "rwy": 6595,
  "lat": 34.4788,
  "lon": -93.0963,
  "desc": "Thermal baths on Bathhouse Row in a national park, historic hotels and a brewery in a bathhouse.",
@@ -1176,7 +1176,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bentonville & Crystal Bridges",
  "state": "Arkansas",
- "airport": "KVBT",
+ "airport": "KVBT", "rwy": 5053,
  "lat": 36.3457,
  "lon": -94.2193,
  "desc": "Crystal Bridges Museum of American Art, forest bike trails, a lively square and coffee on the airfield.",
@@ -1196,7 +1196,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Eureka Springs",
  "state": "Arkansas",
- "airport": "4M1",
+ "airport": "4M1", "rwy": 3555,
  "lat": 36.3813,
  "lon": -93.6246,
  "desc": "A Victorian spa town on Ozark hillsides, the 1886 Crescent Hotel, Thorncrown Chapel and a vintage railway.",
@@ -1216,7 +1216,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Duluth & the North Shore",
  "state": "Minnesota",
- "airport": "KDLH",
+ "airport": "KDLH", "rwy": 10591,
  "lat": 46.8419,
  "lon": -92.1987,
  "desc": "Lake Superior, ore ships under the Aerial Lift Bridge, Glensheen, Split Rock Lighthouse and waterfalls.",
@@ -1237,7 +1237,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Naples",
  "state": "Florida",
- "airport": "KAPF",
+ "airport": "KAPF", "rwy": 6600,
  "lat": 26.1526,
  "lon": -81.7753,
  "desc": "Gulf beaches, sunset at the 1888 pier, Fifth Avenue dining and a cypress-swamp boardwalk.",
@@ -1258,7 +1258,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sanibel & Captiva",
  "state": "Florida",
- "airport": "KFMY",
+ "airport": "KFMY", "rwy": 6406,
  "lat": 26.5866,
  "lon": -81.8633,
  "desc": "World-famous shelling, a wildlife refuge, island bike paths and Captiva sunsets.",
@@ -1278,7 +1278,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Islamorada",
  "state": "Florida",
- "airport": "KMTH",
+ "airport": "KMTH", "rwy": 5008,
  "lat": 24.726,
  "lon": -81.0514,
  "desc": "The sport-fishing capital of the Keys: oceanfront resorts, tarpon, reef snorkeling and sunsets in the sand.",
@@ -1299,7 +1299,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Palm Beach",
  "state": "Florida",
- "airport": "KLNA",
+ "airport": "KLNA", "rwy": 3489,
  "lat": 26.593,
  "lon": -80.0851,
  "desc": "The Breakers, Worth Avenue, Flagler’s Gilded Age mansion and the Lake Trail.",
@@ -1319,7 +1319,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Cedar Key",
  "state": "Florida",
- "airport": "KCDK",
+ "airport": "KCDK", "rwy": 2302,
  "lat": 29.1341,
  "lon": -83.0508,
  "desc": "A tiny Old Florida island town: a short runway by the water, golf carts, clams, kayaking and sunsets.",
@@ -1338,7 +1338,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Seaside & 30A",
  "state": "Florida",
- "airport": "KECP",
+ "airport": "KECP", "rwy": 10000,
  "lat": 30.3571,
  "lon": -85.7954,
  "desc": "Sugar-white beaches, pastel beach towns, coastal dune lakes and a bike path along Scenic Highway 30A.",
@@ -1359,7 +1359,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Fredericksburg & the Hill Country",
  "state": "Texas",
- "airport": "KT82",
+ "airport": "KT82", "rwy": 5002,
  "lat": 30.2432,
  "lon": -98.9092,
  "desc": "A WWII-themed hotel on the airport, the National Museum of the Pacific War, Hill Country wineries and Enchanted Rock.",
@@ -1380,7 +1380,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "San Antonio",
  "state": "Texas",
- "airport": "KSSF",
+ "airport": "KSSF", "rwy": 5000,
  "lat": 29.337,
  "lon": -98.4711,
  "desc": "Spanish missions next to a historic airfield, the Alamo, the River Walk and the Pearl.",
@@ -1399,7 +1399,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Fort Worth & the Stockyards",
  "state": "Texas",
- "airport": "KFTW",
+ "airport": "KFTW", "rwy": 7502,
  "lat": 32.8199,
  "lon": -97.3608,
  "desc": "A daily cattle drive, a honky-tonk, steakhouses, world-class art and a vintage aircraft museum on the field.",
@@ -1418,7 +1418,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Galveston",
  "state": "Texas",
- "airport": "KGLS",
+ "airport": "KGLS", "rwy": 6001,
  "lat": 29.2653,
  "lon": -94.8604,
  "desc": "A Victorian island city: the Strand, grand mansions, a tall ship, the seawall and Gulf seafood.",
@@ -1438,7 +1438,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "South Padre Island",
  "state": "Texas",
- "airport": "KPIL",
+ "airport": "KPIL", "rwy": 8001,
  "lat": 26.1662,
  "lon": -97.3459,
  "desc": "Texas’s southernmost beaches, rescued sea turtles, dolphins, a lighthouse and bayside sunsets.",
@@ -1457,7 +1457,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Marfa & Big Bend",
  "state": "Texas",
- "airport": "KMRF",
+ "airport": "KMRF", "rwy": 6203,
  "lat": 30.3696,
  "lon": -104.0159,
  "desc": "A high-desert art town, the Marfa Lights, observatory star parties and Big Bend National Park.",
@@ -1477,7 +1477,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "New Orleans",
  "state": "Louisiana",
- "airport": "KNEW",
+ "airport": "KNEW", "rwy": 6879,
  "lat": 30.0424,
  "lon": -90.0283,
  "desc": "Jazz, Creole dining, the French Quarter, the Garden District and the National WWII Museum, 15 minutes from a 1934 lakefront airport.",
@@ -1496,7 +1496,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Natchez",
  "state": "Mississippi",
- "airport": "KHEZ",
+ "airport": "KHEZ", "rwy": 6500,
  "lat": 31.6137,
  "lon": -91.2973,
  "desc": "Antebellum mansions and historic inns on a bluff above the Mississippi, plus the Natchez Trace.",
@@ -1515,7 +1515,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Oxford",
  "state": "Mississippi",
- "airport": "KUOX",
+ "airport": "KUOX", "rwy": 5600,
  "lat": 34.3843,
  "lon": -89.5368,
  "desc": "A literary college town: the Square, Faulkner’s Rowan Oak, Square Books and a celebrated food scene.",
@@ -1533,7 +1533,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bay St. Louis",
  "state": "Mississippi",
- "airport": "KHSA",
+ "airport": "KHSA", "rwy": 8498,
  "lat": 30.3678,
  "lon": -89.4546,
  "desc": "An artsy Gulf Coast town: Old Town galleries, seafood on the bay and NASA’s INFINITY Science Center.",
@@ -1552,7 +1552,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "St. Francisville",
  "state": "Louisiana",
- "airport": "KBTR",
+ "airport": "KBTR", "rwy": 7500,
  "lat": 30.7877,
  "lon": -91.3765,
  "desc": "Historic inns, oak-lined gardens, Audubon’s Oakley House and the Tunica Hills in Louisiana’s plantation country.",
@@ -1571,7 +1571,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lafayette & Cajun Country",
  "state": "Louisiana",
- "airport": "KLFT",
+ "airport": "KLFT", "rwy": 8000,
  "lat": 30.205,
  "lon": -91.9878,
  "desc": "Cajun and zydeco dance halls, boudin, swamp tours at Lake Martin and Avery Island’s Tabasco.",
@@ -1590,7 +1590,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Fairhope & Mobile Bay",
  "state": "Alabama",
- "airport": "KCQF",
+ "airport": "KCQF", "rwy": 6604,
  "lat": 30.4605,
  "lon": -87.877,
  "desc": "A flower-filled bayside town: the Grand Hotel at Point Clear, the pier at sunset, Bellingrath Gardens and the USS Alabama.",
@@ -1610,7 +1610,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Huntsville",
  "state": "Alabama",
- "airport": "KHSV",
+ "airport": "KHSV", "rwy": 12600,
  "lat": 34.6372,
  "lon": -86.7751,
  "desc": "Rocket City: a Saturn V at the U.S. Space & Rocket Center, a botanical garden, Monte Sano and downtown dining.",
@@ -1629,7 +1629,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Martin",
  "state": "Alabama",
- "airport": "KALX",
+ "airport": "KALX", "rwy": 5422,
  "lat": 32.9148,
  "lon": -85.9629,
  "desc": "A clear, quiet lake: cottage rentals, boating, SpringHouse dinners and the Smith Mountain fire tower.",
@@ -1648,7 +1648,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Birmingham",
  "state": "Alabama",
- "airport": "KBHM",
+ "airport": "KBHM", "rwy": 12007,
  "lat": 33.5639,
  "lon": -86.7523,
  "desc": "Award-winning restaurants, the Civil Rights District, the Southern Museum of Flight and Barber’s motorcycle museum.",
@@ -1668,7 +1668,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Memphis",
  "state": "Tennessee",
- "airport": "KMEM",
+ "airport": "KMEM", "rwy": 11120,
  "lat": 35.0424,
  "lon": -89.9767,
  "desc": "Blues on Beale Street, Graceland, Sun Studio, Stax, the Civil Rights Museum and Memphis barbecue.",
@@ -1686,7 +1686,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Golden Isles",
  "state": "Georgia",
- "airport": "KSSI",
+ "airport": "KSSI", "rwy": 5584,
  "lat": 31.152,
  "lon": -81.391,
  "desc": "St. Simons, Sea Island and Jekyll Island: a lighthouse, Driftwood Beach, historic resorts and live-oak marshes.",
@@ -1706,7 +1706,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Clarksdale",
  "state": "Mississippi",
- "airport": "KCKM",
+ "airport": "KCKM", "rwy": 5404,
  "lat": 34.2997,
  "lon": -90.5123,
  "desc": "The heart of the Delta blues: juke joints, the Delta Blues Museum, the Crossroads and the Shack Up Inn.",
@@ -1724,7 +1724,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Natchitoches",
  "state": "Louisiana",
- "airport": "KIER",
+ "airport": "KIER", "rwy": 5003,
  "lat": 31.7357,
  "lon": -93.0992,
  "desc": "The oldest town in the Louisiana Purchase: Front Street on Cane River Lake, historic B&Bs, meat pies and Creole plantations.",
@@ -1742,7 +1742,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Little Rock",
  "state": "Arkansas",
- "airport": "KLIT",
+ "airport": "KLIT", "rwy": 8273,
  "lat": 34.7294,
  "lon": -92.2248,
  "desc": "A river city: Central High School’s civil rights history, the Clinton Center, the Big Dam Bridge and Pinnacle Mountain.",
@@ -1762,7 +1762,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "St. Louis",
  "state": "Missouri",
- "airport": "KCPS",
+ "airport": "KCPS", "rwy": 7002,
  "lat": 38.5704,
  "lon": -90.1551,
  "desc": "The Gateway Arch, Forest Park’s free museums, the Botanical Garden, The Hill and Ted Drewes.",
@@ -1781,7 +1781,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kansas City",
  "state": "Missouri",
- "airport": "KMKC",
+ "airport": "KMKC", "rwy": 6827,
  "lat": 39.1229,
  "lon": -94.5928,
  "desc": "Barbecue, jazz at 18th & Vine, the Nelson-Atkins, the WWI Museum and the TWA Museum at the downtown airport.",
@@ -1800,7 +1800,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Annapolis",
  "state": "Maryland",
- "airport": "KANP",
+ "airport": "KANP", "rwy": 2505,
  "lat": 38.9429,
  "lon": -76.5684,
  "desc": "America’s sailing capital: the Naval Academy, the colonial State House, a sunset schooner sail and crab cakes.",
@@ -1819,7 +1819,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ocean City & Berlin",
  "state": "Maryland",
- "airport": "KOXB",
+ "airport": "KOXB", "rwy": 4074,
  "lat": 38.3105,
  "lon": -75.124,
  "desc": "A classic boardwalk beach town, bayside sunsets, Assateague’s wild horses and historic Berlin.",
@@ -1838,7 +1838,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Deep Creek Lake",
  "state": "Maryland",
- "airport": "2G4",
+ "airport": "2G4", "rwy": 5000,
  "lat": 39.5808,
  "lon": -79.3359,
  "desc": "A cool mountain lake in western Maryland: a lakefront inn, Swallow Falls, Wisp Resort and lake days.",
@@ -1857,7 +1857,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "New River Gorge",
  "state": "West Virginia",
- "airport": "KBKW",
+ "airport": "KBKW", "rwy": 6750,
  "lat": 37.7873,
  "lon": -81.1242,
  "desc": "America’s newest national park: the New River Gorge Bridge, whitewater rafting, cliffside trails and cabins.",
@@ -1876,7 +1876,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Berkeley Springs",
  "state": "West Virginia",
- "airport": "KMRB",
+ "airport": "KMRB", "rwy": 8815,
  "lat": 39.4024,
  "lon": -77.983,
  "desc": "America’s first spa: warm mineral springs, historic Roman baths, galleries and mountain views.",
@@ -1895,7 +1895,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lexington & Horse Country",
  "state": "Kentucky",
- "airport": "KLEX",
+ "airport": "KLEX", "rwy": 7004,
  "lat": 38.0367,
  "lon": -84.6086,
  "desc": "Keeneland across from the airport, thoroughbred farms, Woodford Reserve and Shaker Village.",
@@ -1914,7 +1914,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Louisville",
  "state": "Kentucky",
- "airport": "KLOU",
+ "airport": "KLOU", "rwy": 4358,
  "lat": 38.228,
  "lon": -85.6637,
  "desc": "Churchill Downs, Whiskey Row, the Hot Brown at the Brown Hotel and the Muhammad Ali Center.",
@@ -1932,7 +1932,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Paducah",
  "state": "Kentucky",
- "airport": "KPAH",
+ "airport": "KPAH", "rwy": 6500,
  "lat": 37.0603,
  "lon": -88.773,
  "desc": "A UNESCO Creative City on the Ohio: the National Quilt Museum, floodwall murals and the LowerTown Arts District.",
@@ -1950,7 +1950,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Finger Lakes",
  "state": "New York",
- "airport": "KITH",
+ "airport": "KITH", "rwy": 6977,
  "lat": 42.4914,
  "lon": -76.4587,
  "desc": "Gorges and waterfalls, Cayuga and Seneca lake wineries, a lakeside resort and Ithaca’s farmers market.",
@@ -1970,7 +1970,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "New Hope & Bucks County",
  "state": "Pennsylvania",
- "airport": "KDYL",
+ "airport": "KDYL", "rwy": 3004,
  "lat": 40.3331,
  "lon": -75.1223,
  "desc": "A Delaware River arts town, historic inns, the Bucks County Playhouse and Washington Crossing.",
@@ -1988,7 +1988,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Pocono Mountains",
  "state": "Pennsylvania",
- "airport": "KMPO",
+ "airport": "KMPO", "rwy": 5001,
  "lat": 41.1377,
  "lon": -75.3801,
  "desc": "A grand mountain lodge, an adults-only spa resort, Bushkill Falls and the Delaware Water Gap.",
@@ -2007,7 +2007,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Camden & Midcoast Maine",
  "state": "Maine",
- "airport": "KRKD",
+ "airport": "KRKD", "rwy": 5412,
  "lat": 44.0601,
  "lon": -69.0997,
  "desc": "A classic harbor town, windjammer sails, Mount Battie, the Farnsworth and the Owls Head Transportation Museum.",
@@ -2026,7 +2026,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Portland, Maine",
  "state": "Maine",
- "airport": "KPWM",
+ "airport": "KPWM", "rwy": 7200,
  "lat": 43.6456,
  "lon": -70.3086,
  "desc": "A small city with a big food scene: the Old Port, oysters, Portland Head Light and island ferries.",
@@ -2045,7 +2045,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Chatham & Cape Cod",
  "state": "Massachusetts",
- "airport": "KCQX",
+ "airport": "KCQX", "rwy": 3001,
  "lat": 41.6883,
  "lon": -69.9897,
  "desc": "A classic Cape Cod town: a grand beach resort, seal tours, Monomoy, a lighthouse and fresh fish off the pier.",
@@ -2065,7 +2065,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Princeton",
  "state": "New Jersey",
- "airport": "39N",
+ "airport": "39N", "rwy": 3499,
  "lat": 40.3991,
  "lon": -74.659,
  "desc": "A gracious college town: the campus and art museum, historic inns, McCarter Theatre and Grounds For Sculpture.",
@@ -2083,7 +2083,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Block Island",
  "state": "Rhode Island",
- "airport": "KBID",
+ "airport": "KBID", "rwy": 2502,
  "lat": 41.1681,
  "lon": -71.5778,
  "desc": "A car-free-feeling island: Mohegan Bluffs, two lighthouses, Victorian hotels, bike rides and sunset dinners.",
@@ -2102,7 +2102,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Providence",
  "state": "Rhode Island",
- "airport": "KPVD",
+ "airport": "KPVD", "rwy": 8700,
  "lat": 41.7223,
  "lon": -71.4277,
  "desc": "WaterFire on the rivers, Federal Hill’s Italian restaurants, Al Forno, the RISD Museum and Benefit Street’s Mile of History.",
@@ -2120,7 +2120,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Watch Hill & Westerly",
  "state": "Rhode Island",
- "airport": "KWST",
+ "airport": "KWST", "rwy": 4010,
  "lat": 41.3496,
  "lon": -71.8034,
  "desc": "A grand seaside resort, the country’s oldest flying-horse carousel, Napatree Point and a lighthouse on the rocks.",
@@ -2139,7 +2139,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "New Haven",
  "state": "Connecticut",
- "airport": "KHVN",
+ "airport": "KHVN", "rwy": 5600,
  "lat": 41.2637,
  "lon": -72.8877,
  "desc": "America’s pizza capital: Pepe’s and Sally’s, Yale’s free art museums, the Peabody, theater and Louis’ Lunch.",
@@ -2156,7 +2156,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Essex & the Connecticut River",
  "state": "Connecticut",
- "airport": "KSNC",
+ "airport": "KSNC", "rwy": 2722,
  "lat": 41.3837,
  "lon": -72.5058,
  "desc": "Riverside villages, a 1776 inn, a steam train and riverboat, Gillette Castle, Goodspeed Opera House and the Old Lyme art colony.",
@@ -2175,7 +2175,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Litchfield Hills",
  "state": "Connecticut",
- "airport": "KOXC",
+ "airport": "KOXC", "rwy": 5801,
  "lat": 41.4783,
  "lon": -73.1352,
  "desc": "Country luxury in northwest Connecticut: the Mayflower Inn & Spa, Winvian Farm, Lake Waramaug, vineyards and village greens.",
@@ -2195,7 +2195,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Asbury Park & Spring Lake",
  "state": "New Jersey",
- "airport": "KBLM",
+ "airport": "KBLM", "rwy": 7345,
  "lat": 40.1868,
  "lon": -74.1246,
  "desc": "A revived Jersey Shore music town: the Stone Pony, a boardwalk, boutique hotels and quiet Victorian Spring Lake.",
@@ -2213,7 +2213,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Atlantic City",
  "state": "New Jersey",
- "airport": "KACY",
+ "airport": "KACY", "rwy": 10001,
  "lat": 39.4576,
  "lon": -74.5772,
  "desc": "Resort casinos and spas, the original boardwalk, a historic steakhouse, oysters and the Absecon Lighthouse.",
@@ -2232,7 +2232,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Woodstock",
  "state": "Vermont",
- "airport": "KLEB",
+ "airport": "KLEB", "rwy": 5496,
  "lat": 43.6259,
  "lon": -72.3042,
  "desc": "A storybook Vermont village: the Woodstock Inn, Billings Farm, a national park, Quechee Gorge and Simon Pearce glassblowing.",
@@ -2251,7 +2251,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Manchester",
  "state": "Vermont",
- "airport": "KDDH",
+ "airport": "KDDH", "rwy": 3704,
  "lat": 42.8913,
  "lon": -73.2464,
  "desc": "A classic Green Mountain town: The Equinox resort and spa, Lincoln’s Hildene, Skyline Drive, the Northshire Bookstore and village inns.",
@@ -2271,7 +2271,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Burlington",
  "state": "Vermont",
- "airport": "KBTV",
+ "airport": "KBTV", "rwy": 8319,
  "lat": 44.472,
  "lon": -73.1533,
  "desc": "A lively lake city: Church Street, Lake Champlain sunsets, Shelburne Farms, the Shelburne Museum and farm-to-table dining.",
@@ -2290,7 +2290,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bretton Woods & Franconia Notch",
  "state": "New Hampshire",
- "airport": "KHIE",
+ "airport": "KHIE", "rwy": 4001,
  "lat": 44.3676,
  "lon": -71.5458,
  "desc": "The grand Mount Washington Hotel, the Cog Railway to the summit, Franconia Notch’s Flume Gorge, Cannon’s tram and country inns.",
@@ -2309,7 +2309,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Winnipesaukee",
  "state": "New Hampshire",
- "airport": "KLCI",
+ "airport": "KLCI", "rwy": 5890,
  "lat": 43.573,
  "lon": -71.4178,
  "desc": "New Hampshire’s great lake: lakeside inns in Meredith and Wolfeboro, a classic steamer cruise, Castle in the Clouds and Squam Lake.",
@@ -2328,7 +2328,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "North Conway & Jackson",
  "state": "New Hampshire",
- "airport": "KIZG",
+ "airport": "KIZG", "rwy": 4200,
  "lat": 43.9911,
  "lon": -70.9479,
  "desc": "A White Mountains valley: Jackson’s covered bridge and inns, the Conway Scenic Railroad, the Kancamagus Highway and the Mount Washington Auto Road.",
@@ -2347,7 +2347,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Black Hills & Custer State Park",
  "state": "South Dakota",
- "airport": "KRAP",
+ "airport": "KRAP", "rwy": 8701,
  "lat": 43.7666,
  "lon": -103.6022,
  "desc": "Mount Rushmore, bison on Custer State Park’s Wildlife Loop, the Needles Highway, Crazy Horse and historic park lodges.",
@@ -2367,7 +2367,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Deadwood & Spearfish Canyon",
  "state": "South Dakota",
- "airport": "KSPF",
+ "airport": "KSPF", "rwy": 6401,
  "lat": 44.3767,
  "lon": -103.7296,
  "desc": "The Old West town of Wild Bill Hickok, historic hotels and saloons, and the waterfalls of Spearfish Canyon.",
@@ -2385,7 +2385,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Badlands",
  "state": "South Dakota",
- "airport": "KRAP",
+ "airport": "KRAP", "rwy": 8701,
  "lat": 43.7489,
  "lon": -101.9415,
  "desc": "Eroded pinnacles and prairie in Badlands National Park, a cabin lodge inside the park, dark-sky programs, a Cold War missile site and Wall Drug.",
@@ -2403,7 +2403,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sioux Falls",
  "state": "South Dakota",
- "airport": "KFSD",
+ "airport": "KFSD", "rwy": 9000,
  "lat": 43.5446,
  "lon": -96.7311,
  "desc": "Pink quartzite waterfalls in the middle of town, a sculpture walk, a boutique hotel and a lively downtown.",
@@ -2421,7 +2421,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Medora & Theodore Roosevelt NP",
  "state": "North Dakota",
- "airport": "KDIK",
+ "airport": "KDIK", "rwy": 7301,
  "lat": 46.9139,
  "lon": -103.5244,
  "desc": "Theodore Roosevelt National Park’s badlands and wild horses, the Medora Musical, a pitchfork steak fondue and the new Theodore Roosevelt Presidential Library.",
@@ -2439,7 +2439,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Fargo",
  "state": "North Dakota",
- "airport": "KFAR",
+ "airport": "KFAR", "rwy": 9001,
  "lat": 46.8772,
  "lon": -96.7898,
  "desc": "A lively downtown: the art-filled Hotel Donaldson, the Fargo Theatre, the Fargo Air Museum and the Plains Art Museum.",
@@ -2457,7 +2457,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bismarck & Mandan",
  "state": "North Dakota",
- "airport": "KBIS",
+ "airport": "KBIS", "rwy": 8794,
  "lat": 46.8083,
  "lon": -100.7837,
  "desc": "Lewis and Clark country on the Missouri: the State Museum, Fort Abraham Lincoln and On-A-Slant Village, the Capitol and riverside dining.",
@@ -2474,7 +2474,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "International Peace Garden & Turtle Mountains",
  "state": "North Dakota",
- "airport": "D09",
+ "airport": "D09", "rwy": 3700,
  "lat": 48.9926,
  "lon": -100.0596,
  "desc": "A garden straddling the Canadian border, quiet lakes and forest in the Turtle Mountains, and cabins at Lake Metigoshe.",
@@ -2492,7 +2492,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Omaha",
  "state": "Nebraska",
- "airport": "KMLE",
+ "airport": "KMLE", "rwy": 3801,
  "lat": 41.2565,
  "lon": -95.9345,
  "desc": "The cobblestone Old Market, a world-class zoo, the Joslyn Art Museum, Lauritzen Gardens and the SAC Aerospace Museum.",
@@ -2511,7 +2511,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lincoln",
  "state": "Nebraska",
- "airport": "KLNK",
+ "airport": "KLNK", "rwy": 12901,
  "lat": 40.8136,
  "lon": -96.7026,
  "desc": "A capital with a landmark art deco capitol tower, the Haymarket district, the Sheldon Museum of Art and the International Quilt Museum.",
@@ -2528,7 +2528,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Scotts Bluff & Chimney Rock",
  "state": "Nebraska",
- "airport": "KBFF",
+ "airport": "KBFF", "rwy": 8279,
  "lat": 41.8343,
  "lon": -103.7068,
  "desc": "Landmarks of the Oregon Trail: Scotts Bluff National Monument, Chimney Rock, wagon ruts and wide-open western Nebraska.",
@@ -2546,7 +2546,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Valentine & the Niobrara",
  "state": "Nebraska",
- "airport": "KVTN",
+ "airport": "KVTN", "rwy": 4705,
  "lat": 42.8728,
  "lon": -100.551,
  "desc": "The Sandhills and the Niobrara National Scenic River: canoeing and tubing, Smith Falls, a bison refuge and dark skies.",
@@ -2563,7 +2563,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Wichita",
  "state": "Kansas",
- "airport": "KICT",
+ "airport": "KICT", "rwy": 10302,
  "lat": 37.6872,
  "lon": -97.3301,
  "desc": "The Air Capital of the World: the Kansas Aviation Museum, the Keeper of the Plains, Botanica, Old Town and a French bistro.",
@@ -2581,7 +2581,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Flint Hills",
  "state": "Kansas",
- "airport": "KEMP",
+ "airport": "KEMP", "rwy": 5005,
  "lat": 38.3714,
  "lon": -96.5422,
  "desc": "The last great tallgrass prairie: Tallgrass Prairie National Preserve, a historic small-town hotel, an 1857 restaurant and the Symphony in the Flint Hills.",
@@ -2600,7 +2600,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lawrence",
  "state": "Kansas",
- "airport": "KLWC",
+ "airport": "KLWC", "rwy": 5701,
  "lat": 38.9717,
  "lon": -95.2353,
  "desc": "A lively college town: the historic Eldridge Hotel, Massachusetts Street, a famous brewpub, the Spencer Museum of Art and Liberty Hall.",
@@ -2618,7 +2618,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lindsborg & Abilene",
  "state": "Kansas",
- "airport": "KSLN",
+ "airport": "KSLN", "rwy": 12301,
  "lat": 38.5736,
  "lon": -97.6745,
  "desc": "“Little Sweden, USA” with dala horses and a Sandzén gallery, plus Abilene’s Eisenhower Presidential Library and the Seelye Mansion.",
@@ -2635,7 +2635,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Traverse City",
  "state": "Michigan",
- "airport": "KTVC",
+ "airport": "KTVC", "rwy": 7016,
  "lat": 44.7631,
  "lon": -85.6206,
  "desc": "Northern Michigan’s wine and cherry country: Sleeping Bear Dunes, Old Mission and Leelanau wineries, a winery inn and farm-to-table dining on the bay.",
@@ -2655,7 +2655,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Saugatuck & Holland",
  "state": "Michigan",
- "airport": "KBIV",
+ "airport": "KBIV", "rwy": 6002,
  "lat": 42.6556,
  "lon": -86.2014,
  "desc": "An arts town on Lake Michigan: Oval Beach, dune rides, a riverboat, historic inns and Holland’s tulips and Dutch windmill.",
@@ -2673,7 +2673,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Harbor Springs & Petoskey",
  "state": "Michigan",
- "airport": "KMGN",
+ "airport": "KMGN", "rwy": 4149,
  "lat": 45.4317,
  "lon": -84.9917,
  "desc": "Little Traverse Bay: a historic Petoskey hotel, the Tunnel of Trees drive to Legs Inn, Petoskey stones and a classic resort town.",
@@ -2691,7 +2691,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kohler",
  "state": "Wisconsin",
- "airport": "KSBM",
+ "airport": "KSBM", "rwy": 6801,
  "lat": 43.7389,
  "lon": -87.7815,
  "desc": "A five-star resort village: The American Club, the Kohler Waters Spa, Whistling Straits golf, an arts center and Lake Michigan.",
@@ -2710,7 +2710,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Geneva",
  "state": "Wisconsin",
- "airport": "KBUU",
+ "airport": "KBUU", "rwy": 4300,
  "lat": 42.5917,
  "lon": -88.4334,
  "desc": "Chicago’s classic lake retreat: Gilded Age mansions on a 21-mile shore path, mail-boat cruises, resort spas and lakefront dining.",
@@ -2729,7 +2729,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Madison",
  "state": "Wisconsin",
- "airport": "KMSN",
+ "airport": "KMSN", "rwy": 9006,
  "lat": 43.0747,
  "lon": -89.3842,
  "desc": "A lively capital on an isthmus between two lakes: the Capitol Square farmers’ market, the Memorial Union Terrace, a lakefront hotel and Frank Lloyd Wright’s Taliesin nearby.",
@@ -2747,7 +2747,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bayfield & the Apostle Islands",
  "state": "Wisconsin",
- "airport": "KASX",
+ "airport": "KASX", "rwy": 5197,
  "lat": 46.8108,
  "lon": -90.8182,
  "desc": "A Lake Superior harbor town: sea caves in the Apostle Islands, the Madeline Island ferry, orchards and a Victorian inn.",
@@ -2766,7 +2766,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Put-in-Bay & the Lake Erie Islands",
  "state": "Ohio",
- "airport": "3W2",
+ "airport": "3W2", "rwy": 2870,
  "lat": 41.6545,
  "lon": -82.813,
  "desc": "Land right on South Bass Island: golf carts, island wineries, Perry’s Victory memorial and Lake Erie sunsets.",
@@ -2785,7 +2785,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hocking Hills",
  "state": "Ohio",
- "airport": "KLHQ",
+ "airport": "KLHQ", "rwy": 5003,
  "lat": 39.4351,
  "lon": -82.539,
  "desc": "Sandstone gorges, waterfalls and caves, an adults-only inn, cabins and a spa in the southeast Ohio hills.",
@@ -2805,7 +2805,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Cleveland",
  "state": "Ohio",
- "airport": "KBKL",
+ "airport": "KBKL", "rwy": 6604,
  "lat": 41.4993,
  "lon": -81.6944,
  "desc": "A downtown lakefront landing beside the Rock Hall, a world-class orchestra and art museum, Playhouse Square and the West Side Market.",
@@ -2823,7 +2823,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Indianapolis",
  "state": "Indiana",
- "airport": "KEYE",
+ "airport": "KEYE", "rwy": 4200,
  "lat": 39.7684,
  "lon": -86.1581,
  "desc": "The Speedway museum, the Cultural Trail, Newfields, St. Elmo and a boutique hotel in an old bottling plant.",
@@ -2841,7 +2841,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Brown County & Bloomington",
  "state": "Indiana",
- "airport": "KBMG",
+ "airport": "KBMG", "rwy": 6500,
  "lat": 39.2073,
  "lon": -86.2511,
  "desc": "An artists’ village in the hills: Brown County State Park, a historic country inn, wineries and Bloomington dining.",
@@ -2861,7 +2861,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Indiana Dunes",
  "state": "Indiana",
- "airport": "KMGC",
+ "airport": "KMGC", "rwy": 4099,
  "lat": 41.6106,
  "lon": -87.0642,
  "desc": "A national park on Lake Michigan: dunes, 15 miles of beaches and sunsets with the Chicago skyline on the horizon.",
@@ -2880,7 +2880,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Chicago",
  "state": "Illinois",
- "airport": "KPWK",
+ "airport": "KPWK", "rwy": 5001,
  "lat": 41.8781,
  "lon": -87.6298,
  "desc": "The big-city weekend: an architecture river cruise, the Art Institute, deep dish and a tasting menu, and a landmark hotel.",
@@ -2899,7 +2899,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Starved Rock",
  "state": "Illinois",
- "airport": "KVYS",
+ "airport": "KVYS", "rwy": 5999,
  "lat": 41.3184,
  "lon": -88.9821,
  "desc": "Sandstone canyons and waterfalls on the Illinois River, a 1930s log lodge, Utica wineries and winter eagle watching.",
@@ -2918,7 +2918,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Shawnee Hills Wine Trail",
  "state": "Illinois",
- "airport": "KMWA",
+ "airport": "KMWA", "rwy": 8012,
  "lat": 37.5317,
  "lon": -89.2531,
  "desc": "A dozen wineries in southern Illinois’ hill country, Garden of the Gods, Giant City and a schoolhouse inn.",
@@ -2937,7 +2937,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Omni Bedford Springs",
  "state": "Pennsylvania",
- "airport": "KHMZ",
+ "airport": "KHMZ", "rwy": 5006,
  "lat": 40.0187,
  "lon": -78.5039,
  "desc": "A historic 1806 mineral-springs resort with a spa and classic golf, an 18th-century tavern and the Flight 93 memorial nearby.",
@@ -2957,7 +2957,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Laurel Highlands",
  "state": "Pennsylvania",
- "airport": "KLBE",
+ "airport": "KLBE", "rwy": 8222,
  "lat": 40.2432,
  "lon": -79.2375,
  "desc": "Frank Lloyd Wright country: Fallingwater, Kentuck Knob, a night in a Wright house, Nemacolin resort and Ohiopyle’s falls.",
@@ -2977,7 +2977,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Pittsburgh",
  "state": "Pennsylvania",
- "airport": "KAGC",
+ "airport": "KAGC", "rwy": 6501,
  "lat": 40.4406,
  "lon": -79.9959,
  "desc": "Rivers and bridges: the Duquesne Incline, the Warhol and Carnegie museums, the Strip District and dinner on Mount Washington.",
@@ -2995,7 +2995,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Pine Creek Gorge & Wellsboro",
  "state": "Pennsylvania",
- "airport": "N38",
+ "airport": "N38", "rwy": 3597,
  "lat": 41.7487,
  "lon": -77.3005,
  "desc": "The Pennsylvania Grand Canyon: rim overlooks, the Pine Creek Rail Trail and a gas-lit Main Street with a historic hotel.",
@@ -3014,7 +3014,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hershey",
  "state": "Pennsylvania",
- "airport": "KCXY",
+ "airport": "KCXY", "rwy": 5000,
  "lat": 40.2859,
  "lon": -76.6502,
  "desc": "A grand 1933 hilltop hotel with a chocolate spa, Hershey Gardens, The Hershey Story and local wine.",
@@ -3033,7 +3033,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Erie & Presque Isle",
  "state": "Pennsylvania",
- "airport": "KERI",
+ "airport": "KERI", "rwy": 8420,
  "lat": 42.1292,
  "lon": -80.0851,
  "desc": "Lake Erie beaches and lighthouses on Presque Isle, the Flagship Niagara, bayfront dining and the Lake Erie wine country.",
@@ -3052,7 +3052,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Minocqua & the Northwoods",
  "state": "Wisconsin",
- "airport": "KARV",
+ "airport": "KARV", "rwy": 5150,
  "lat": 45.8711,
  "lon": -89.711,
  "desc": "An island town in a Northwoods chain of lakes: a water-ski show, supper clubs, a lakefront hotel and an all-inclusive lodge.",
@@ -3071,7 +3071,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Elkhart Lake",
  "state": "Wisconsin",
- "airport": "KSBM",
+ "airport": "KSBM", "rwy": 6801,
  "lat": 43.8336,
  "lon": -88.0179,
  "desc": "A clear spring-fed resort lake with The Osthoff Resort & Spa, Road America and a historic racing tavern.",
@@ -3090,7 +3090,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Wisconsin Dells & Devil’s Lake",
  "state": "Wisconsin",
- "airport": "KDLL",
+ "airport": "KDLL", "rwy": 5010,
  "lat": 43.6275,
  "lon": -89.771,
  "desc": "Sandstone river gorges, Devil’s Lake bluffs, an adults-only spa inn and supper clubs, one on Mirror Lake.",
@@ -3109,7 +3109,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hayward Lakes",
  "state": "Wisconsin",
- "airport": "KHYR",
+ "airport": "KHYR", "rwy": 5003,
  "lat": 46.013,
  "lon": -91.4846,
  "desc": "Northwoods lake cabins on the Chippewa Flowage, supper clubs, the giant muskie and the Lumberjack World Championships.",
@@ -3128,7 +3128,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Grand Marais & the North Shore",
  "state": "Minnesota",
- "airport": "KCKC",
+ "airport": "KCKC", "rwy": 5002,
  "lat": 47.7505,
  "lon": -90.3343,
  "desc": "Lake Superior’s North Shore: a harbor arts town, waterfalls, a historic lakeside resort, a 1920s lodge and the Gunflint Trail.",
@@ -3148,7 +3148,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Minneapolis & St. Paul",
  "state": "Minnesota",
- "airport": "KSTP",
+ "airport": "KSTP", "rwy": 6491,
  "lat": 44.9537,
  "lon": -93.09,
  "desc": "Two river cities: a grand 1910 hotel, the Walker sculpture garden, Minnehaha Falls, Owamni and the original Jucy Lucy.",
@@ -3166,7 +3166,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Stillwater & the St. Croix",
  "state": "Minnesota",
- "airport": "21D",
+ "airport": "21D", "rwy": 3504,
  "lat": 45.0564,
  "lon": -92.806,
  "desc": "A brick river town on the St. Croix: boutique hotels, a wine bar, the Lift Bridge and river bluffs.",
@@ -3185,7 +3185,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Tulsa",
  "state": "Oklahoma",
- "airport": "KRVS",
+ "airport": "KRVS", "rwy": 5101,
  "lat": 36.154,
  "lon": -95.9928,
  "desc": "An art deco oil city on Route 66: the Gathering Place, Philbrook, the Bob Dylan and Woody Guthrie centers, Cain’s Ballroom and the 1925 Mayo Hotel.",
@@ -3203,7 +3203,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Oklahoma City",
  "state": "Oklahoma",
- "airport": "KPWA",
+ "airport": "KPWA", "rwy": 7199,
  "lat": 35.4676,
  "lon": -97.5164,
  "desc": "The National Memorial, the First Americans Museum, the Cowboy & Western Heritage Museum, Cattlemen’s steaks and dinner atop the Devon Tower.",
@@ -3221,7 +3221,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Wichita Mountains & Medicine Park",
  "state": "Oklahoma",
- "airport": "KLAW",
+ "airport": "KLAW", "rwy": 8599,
  "lat": 34.729,
  "lon": -98.5,
  "desc": "Granite peaks on the prairie: bison and longhorn in a wildlife refuge, the Mount Scott drive, a cobblestone creek town and the Meersburger.",
@@ -3239,7 +3239,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Broken Bow & Beavers Bend",
  "state": "Oklahoma",
- "airport": "4O4",
+ "airport": "4O4", "rwy": 5002,
  "lat": 34.125,
  "lon": -94.748,
  "desc": "Hot-tub cabins in the pines, Broken Bow Lake, the Mountain Fork River in Beavers Bend, a distillery and wood-fired pizza.",
@@ -3258,7 +3258,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Okoboji & the Iowa Great Lakes",
  "state": "Iowa",
- "airport": "KSPW",
+ "airport": "KSPW", "rwy": 6001,
  "lat": 43.372,
  "lon": -95.135,
  "desc": "Iowa’s clear blue lake country: lakeside resorts, the Queen II steamer, a classic 1930 coaster and summer theatre.",
@@ -3276,7 +3276,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Des Moines",
  "state": "Iowa",
- "airport": "KIKV",
+ "airport": "KIKV", "rwy": 6001,
  "lat": 41.5868,
  "lon": -93.625,
  "desc": "A golden-domed capital: a design hotel, a sculpture park, a botanical dome, a huge Saturday market and the Iowa State Fair.",
@@ -3294,7 +3294,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Dubuque",
  "state": "Iowa",
- "airport": "KDBQ",
+ "airport": "KDBQ", "rwy": 6502,
  "lat": 42.5006,
  "lon": -90.6646,
  "desc": "A Mississippi bluff town: the shortest, steepest railway, a river museum, a historic hotel, a riverside winery and the Field of Dreams.",
@@ -3312,7 +3312,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Amana Colonies & Iowa City",
  "state": "Iowa",
- "airport": "KIOW",
+ "airport": "KIOW", "rwy": 5002,
  "lat": 41.7998,
  "lon": -91.871,
  "desc": "Seven historic German villages with family-style dinners, a woolen mill and a brewery, plus Iowa City’s bookstores.",
@@ -3330,7 +3330,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Rehoboth Beach & Lewes",
  "state": "Delaware",
- "airport": "KGED",
+ "airport": "KGED", "rwy": 5500,
  "lat": 38.7209,
  "lon": -75.076,
  "desc": "Delaware’s favorite beach towns: Rehoboth’s boardwalk and dining, historic Lewes, Cape Henlopen and a Dogfish Head inn.",
@@ -3349,7 +3349,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bethany Beach & the Quiet Resorts",
  "state": "Delaware",
- "airport": "KGED",
+ "airport": "KGED", "rwy": 5500,
  "lat": 38.5396,
  "lon": -75.0552,
  "desc": "Delaware’s Quiet Resorts: a small boardwalk, oceanfront suites, a 1901 Victorian B&B and the Fenwick Island lighthouse.",
@@ -3367,7 +3367,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Brandywine Valley & Wilmington",
  "state": "Delaware",
- "airport": "KILG",
+ "airport": "KILG", "rwy": 7275,
  "lat": 39.7391,
  "lon": -75.5398,
  "desc": "Du Pont country: Winterthur, Nemours, Hagley, Longwood Gardens, the grand Hotel du Pont and a village inn.",
@@ -3386,7 +3386,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Dover",
  "state": "Delaware",
- "airport": "33N",
+ "airport": "33N", "rwy": 4201,
  "lat": 39.1582,
  "lon": -75.5244,
  "desc": "A pilot’s favorite: the Air Mobility Command Museum at Dover AFB, the Monster Mile, a colonial capital and Bombay Hook.",
@@ -3404,7 +3404,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Moosehead Lake & Greenville",
  "state": "Maine",
- "airport": "3B1",
+ "airport": "3B1", "rwy": 4000,
  "lat": 45.459,
  "lon": -69.59,
  "desc": "A classic seaplane town on Maine’s biggest lake: two seaplane bases, the International Seaplane Fly-In, a Relais & Châteaux inn and a 1914 steamboat.",
@@ -3423,7 +3423,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Rangeley Lakes",
  "state": "Maine",
- "airport": "8B0",
+ "airport": "8B0", "rwy": 4299,
  "lat": 44.9659,
  "lon": -70.6428,
  "desc": "A mountain lake town with a public seaplane base, scenic floatplane flights, a historic inn and the Height of Land overlook.",
@@ -3442,7 +3442,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Tavares & Mount Dora",
  "state": "Florida",
- "airport": "KLEE",
+ "airport": "KLEE", "rwy": 6300,
  "lat": 28.8042,
  "lon": -81.7256,
  "desc": "“America’s Seaplane City” with a downtown seaplane base, plus Mount Dora’s 1883 Lakeside Inn, antiques and lakeside dining.",
@@ -3461,7 +3461,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Havre de Grace",
  "state": "Maryland",
- "airport": "0W3",
+ "airport": "0W3", "rwy": 3354,
  "lat": 39.5493,
  "lon": -76.0916,
  "desc": "A Chesapeake town with a public seaplane base, an 1827 lighthouse, the Decoy Museum, a Victorian inn and waterfront dining.",
@@ -3479,7 +3479,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Long Lake & the Central Adirondacks",
  "state": "New York",
- "airport": "SLK",
+ "airport": "SLK", "rwy": 6573,
  "lat": 43.9751,
  "lon": -74.4204,
  "desc": "An Adirondack seaplane town with two public bases on a 14-mile lake, an 1850s hotel by the beach, the Adirondack Experience museum and Great Camp luxury.",
@@ -3499,7 +3499,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Wawasee",
  "state": "Indiana",
- "airport": "GSH",
+ "airport": "GSH", "rwy": 6008,
  "lat": 41.4036,
  "lon": -85.7061,
  "desc": "Indiana's largest natural lake, with a public seaplane base, a lakeside resort with waterfront dining, history cruises and Amish country nearby.",
@@ -3517,7 +3517,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Drummond Island",
  "state": "Michigan",
- "airport": "DRM",
+ "airport": "DRM", "rwy": 4000,
  "lat": 46.0093,
  "lon": -83.7439,
  "desc": "A remote Lake Huron island with its own airport, two public seaplane bases, a golf resort, fossil-rich limestone shores and freighters passing by.",
@@ -3536,7 +3536,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Gunflint Trail & Gunflint Lake",
  "state": "Minnesota",
- "airport": "CKC",
+ "airport": "CKC", "rwy": 5002,
  "lat": 48.0853,
  "lon": -90.7503,
  "desc": "A Northwoods lodge on the Canadian border with its own seaplane base, Boundary Waters paddling, the Chik-Wauk museum, moose and dark skies.",
@@ -3556,7 +3556,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Aspen",
  "state": "Colorado",
- "airport": "KASE",
+ "airport": "KASE", "rwy": 8006,
  "lat": 39.2232,
  "lon": -106.8688,
  "desc": "A Rocky Mountain resort town at nearly 8,000 feet with the Maroon Bells, four ski mountains, a summer music festival and grand hotels.",
@@ -3577,7 +3577,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Santa Fe",
  "state": "New Mexico",
- "airport": "KSAF",
+ "airport": "KSAF", "rwy": 8366,
  "lat": 35.6171,
  "lon": -106.0894,
  "desc": "America's oldest capital city: adobe streets, Canyon Road galleries, the O'Keeffe Museum, green chile and a Japanese spa in the hills.",
@@ -3597,7 +3597,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Jackson Hole & Grand Teton",
  "state": "Wyoming",
- "airport": "KJAC",
+ "airport": "KJAC", "rwy": 6300,
  "lat": 43.6073,
  "lon": -110.7377,
  "desc": "Land inside Grand Teton National Park: Teton views, wildlife, the tram at Teton Village, luxury lodges and Yellowstone to the north.",
@@ -3617,7 +3617,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sun Valley & Ketchum",
  "state": "Idaho",
- "airport": "KSUN",
+ "airport": "KSUN", "rwy": 7550,
  "lat": 43.5044,
  "lon": -114.2962,
  "desc": "America's first destination ski resort: Sun Valley Lodge, Bald Mountain, Hemingway's Ketchum and the Sawtooths.",
@@ -3637,7 +3637,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Moab, Arches & Canyonlands",
  "state": "Utah",
- "airport": "KCNY",
+ "airport": "KCNY", "rwy": 7360,
  "lat": 38.755,
  "lon": -109.7549,
  "desc": "Red-rock country between Arches and Canyonlands, with Dead Horse Point, the Colorado River, scenic flights and a riverside ranch resort.",
@@ -3656,7 +3656,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sedona",
  "state": "Arizona",
- "airport": "KSEZ",
+ "airport": "KSEZ", "rwy": 5132,
  "lat": 34.8486,
  "lon": -111.7884,
  "desc": "A mesa-top airport with a restaurant by the runway, red-rock hikes, creekside resorts and spas, Jeep tours and Tlaquepaque.",
@@ -3677,7 +3677,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Red River Gorge & Natural Bridge",
  "state": "Kentucky",
- "airport": "KIOB",
+ "airport": "KIOB", "rwy": 5000,
  "lat": 37.7778,
  "lon": -83.6827,
  "desc": "Kentucky's sandstone canyon country: natural arches, a state-park lodge beneath Natural Bridge, ridgetop hikes and a famous climbers' pizza joint.",
@@ -3695,7 +3695,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bowling Green & Mammoth Cave",
  "state": "Kentucky",
- "airport": "KBWG",
+ "airport": "KBWG", "rwy": 6501,
  "lat": 36.9645,
  "lon": -86.4197,
  "desc": "The National Corvette Museum, an underground boat ride at Lost River Cave and the world's longest known cave at Mammoth Cave National Park.",
@@ -3712,7 +3712,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Buffalo National River",
  "state": "Arkansas",
- "airport": "KHRO",
+ "airport": "KHRO", "rwy": 6161,
  "lat": 36.0622,
  "lon": -93.3566,
  "desc": "America's first national river: towering bluffs, float trips, Hawksbill Crag, Lost Valley and wild elk, with riverside cabins and a 1909 café.",
@@ -3730,7 +3730,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Mountain View & the Ozark Folk Center",
  "state": "Arkansas",
- "airport": "7M2",
+ "airport": "7M2", "rwy": 4502,
  "lat": 35.8645,
  "lon": -92.0903,
  "desc": "The folk-music capital of the Ozarks: a state park of mountain crafts and music, pickin' on the square, Blanchard Springs Caverns and White River trout.",
@@ -3748,7 +3748,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Whitefish & Glacier National Park",
  "state": "Montana",
- "airport": "KGPI",
+ "airport": "KGPI", "rwy": 9007,
  "lat": 48.4111,
  "lon": -114.3376,
  "desc": "A lake-and-ski town at the gateway to Glacier: Going-to-the-Sun Road, Lake McDonald, a lakeside lodge, a mountain resort and Flathead Lake.",
@@ -3768,7 +3768,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bozeman & Big Sky",
  "state": "Montana",
- "airport": "KBZN",
+ "airport": "KBZN", "rwy": 8994,
  "lat": 45.6796,
  "lon": -111.0386,
  "desc": "A lively mountain college town, Big Sky's ski and summer resort, the Museum of the Rockies, Chico Hot Springs and the north side of Yellowstone.",
@@ -3789,7 +3789,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Santa Barbara",
  "state": "California",
- "airport": "KSBA",
+ "airport": "KSBA", "rwy": 6052,
  "lat": 34.4208,
  "lon": -119.6982,
  "desc": "The American Riviera: Spanish-revival streets, the Old Mission, a courthouse tower view, the Urban Wine Trail and Santa Ynez wine country.",
@@ -3810,7 +3810,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Catalina Island",
  "state": "California",
- "airport": "KAVX",
+ "airport": "KAVX", "rwy": 3000,
  "lat": 33.405,
  "lon": -118.4158,
  "desc": "The Airport in the Sky: a ridgetop runway, buffalo burgers at the DC-3 Grill, then Avalon's harbor, the 1929 Casino and clear-water coves.",
@@ -3829,7 +3829,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Palm Springs",
  "state": "California",
- "airport": "KPSP",
+ "airport": "KPSP", "rwy": 10000,
  "lat": 33.8297,
  "lon": -116.5067,
  "desc": "Mid-century desert style: design hotels and pools, a warbird museum on the field, the aerial tramway and Joshua Tree.",
@@ -3850,7 +3850,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "San Diego & Coronado",
  "state": "California",
- "airport": "KMYF",
+ "airport": "KMYF", "rwy": 4598,
  "lat": 32.6859,
  "lon": -117.1831,
  "desc": "Carriers and beaches: the USS Midway Museum, Balboa Park, the San Diego Zoo, La Jolla Cove and the Hotel del Coronado.",
@@ -3870,7 +3870,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Monterey & Carmel",
  "state": "California",
- "airport": "KMRY",
+ "airport": "KMRY", "rwy": 7175,
  "lat": 36.5552,
  "lon": -121.9233,
  "desc": "Cannery Row and the Monterey Bay Aquarium, storybook Carmel-by-the-Sea, 17-Mile Drive and Pebble Beach, and the coves of Point Lobos.",
@@ -3891,7 +3891,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Paso Robles Wine Country",
  "state": "California",
- "airport": "KPRB",
+ "airport": "KPRB", "rwy": 6008,
  "lat": 35.6266,
  "lon": -120.691,
  "desc": "Rolling hills with 200-plus wineries, a walkable town square, a vineyard resort, Catch's seafood, a warbird museum on the field and Hearst Castle.",
@@ -3912,7 +3912,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Yosemite",
  "state": "California",
- "airport": "KMPI",
+ "airport": "KMPI", "rwy": 3305,
  "lat": 37.7456,
  "lon": -119.5936,
  "desc": "Yosemite Valley, Half Dome, El Capitan, Glacier Point and the giant sequoias, with the Ahwahnee and a château in the foothills.",
@@ -3932,7 +3932,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Big Sur",
  "state": "California",
- "airport": "KMRY",
+ "airport": "KMRY", "rwy": 7175,
  "lat": 36.2704,
  "lon": -121.8081,
  "desc": "Cliffs and redwoods on Highway 1: Bixby Bridge, McWay Falls, Post Ranch Inn and Ventana, and Nepenthe's terrace above the Pacific.",
@@ -3953,7 +3953,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Napa & Sonoma Wine Country",
  "state": "California",
- "airport": "KAPC",
+ "airport": "KAPC", "rwy": 5930,
  "lat": 38.4024,
  "lon": -122.3631,
  "desc": "America's most famous wine country: hundreds of wineries, Yountville's French Laundry and Bouchon, hillside resorts, the Wine Train and Sonoma Plaza.",
@@ -3973,7 +3973,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Tahoe & Truckee",
  "state": "California",
- "airport": "KTRK",
+ "airport": "KTRK", "rwy": 7001,
  "lat": 39.2276,
  "lon": -120.0918,
  "desc": "A huge, clear alpine lake on the California–Nevada line: Sand Harbor, Emerald Bay, lakeside dining, ski resorts and historic Truckee.",
@@ -3993,7 +3993,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Mendocino Coast",
  "state": "California",
- "airport": "KLLR",
+ "airport": "KLLR", "rwy": 5249,
  "lat": 39.3077,
  "lon": -123.7995,
  "desc": "A Victorian village on ocean headlands near a small county airport: clifftop inns, Café Beaujolais, the Skunk Train, a lighthouse and gardens.",
@@ -4014,7 +4014,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "San Francisco",
  "state": "California",
- "airport": "KOAK",
+ "airport": "KOAK", "rwy": 10520,
  "lat": 37.7946,
  "lon": -122.3999,
  "desc": "Cable cars and the Golden Gate: grand hotels, Alcatraz, the Ferry Building, historic restaurants and a VFR bay view on the way in.",
@@ -4033,7 +4033,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "San Juan Islands",
  "state": "Washington",
- "airport": "KFHR",
+ "airport": "KFHR", "rwy": 3402,
  "lat": 48.5343,
  "lon": -123.0171,
  "desc": "Island-hop in the Salish Sea: walkable Friday Harbor, orca watching, lavender farms, Roche Harbor's marina resort and a seaplane base in town.",
@@ -4053,7 +4053,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hood River & the Columbia Gorge",
  "state": "Oregon",
- "airport": "4S2",
+ "airport": "4S2", "rwy": 3040,
  "lat": 45.7054,
  "lon": -121.5215,
  "desc": "A wind-sports town in the Columbia Gorge with flying antique airplanes at WAAAM on the airport, the Fruit Loop's orchards and wineries, and waterfalls.",
@@ -4073,7 +4073,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Willamette Valley Wine Country",
  "state": "Oregon",
- "airport": "KMMV",
+ "airport": "KMMV", "rwy": 5420,
  "lat": 45.2098,
  "lon": -123.1987,
  "desc": "Oregon Pinot Noir country around McMinnville, with the Spruce Goose next to the airport, a luxury wine resort and the Dundee Hills.",
@@ -4093,7 +4093,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Astoria & Cannon Beach",
  "state": "Oregon",
- "airport": "KAST",
+ "airport": "KAST", "rwy": 5794,
  "lat": 45.8918,
  "lon": -123.9615,
  "desc": "Where the Columbia meets the Pacific: Astoria's river town and maritime museum, Fort Clatsop, and Cannon Beach's Haystack Rock and oceanfront inns.",
@@ -4113,7 +4113,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Talkeetna & Denali",
  "state": "Alaska",
- "airport": "PATK",
+ "airport": "PATK", "rwy": 3500,
  "lat": 62.3214,
  "lon": -150.0927,
  "desc": "Alaska's flightseeing capital: glacier landings in the Alaska Range, Denali views, a riverside lodge and the 1917 Roadhouse.",
@@ -4132,7 +4132,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Homer & Kachemak Bay",
  "state": "Alaska",
- "airport": "PAHO",
+ "airport": "PAHO", "rwy": 6701,
  "lat": 59.6455,
  "lon": -151.4766,
  "desc": "The end of the road: the Homer Spit, halibut fishing, glaciers across Kachemak Bay, the Saltry in Halibut Cove and a seaplane base on Beluga Lake.",
@@ -4151,7 +4151,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Seward & Kenai Fjords",
  "state": "Alaska",
- "airport": "PAWD",
+ "airport": "PAWD", "rwy": 4249,
  "lat": 60.1043,
  "lon": -149.4422,
  "desc": "Gateway to Kenai Fjords National Park: glacier and wildlife cruises, Exit Glacier, the Alaska SeaLife Center and a harbor town ringed by mountains.",
@@ -4170,7 +4170,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ketchikan & Misty Fjords",
  "state": "Alaska",
- "airport": "PAKT",
+ "airport": "PAKT", "rwy": 7500,
  "lat": 55.3422,
  "lon": -131.6461,
  "desc": "Alaska's floatplane town: Creek Street on stilts, the world's largest collection of standing totem poles and floatplane trips into Misty Fjords.",
@@ -4189,7 +4189,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Juneau & Mendenhall Glacier",
  "state": "Alaska",
- "airport": "PAJN",
+ "airport": "PAJN", "rwy": 8857,
  "lat": 58.3019,
  "lon": -134.4197,
  "desc": "A capital reachable only by air or sea: Mendenhall Glacier near the airport, the Mount Roberts tram, humpback whales and king crab.",
@@ -4208,7 +4208,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Fairbanks & Chena Hot Springs",
  "state": "Alaska",
- "airport": "PAFA",
+ "airport": "PAFA", "rwy": 11800,
  "lat": 64.8378,
  "lon": -147.7164,
  "desc": "Northern lights from a hot-spring pool, a riverboat on the Chena, midnight sun and gold-rush history in Interior Alaska.",
@@ -4228,7 +4228,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Las Vegas",
  "state": "Nevada",
- "airport": "KHND",
+ "airport": "KHND", "rwy": 6501,
  "lat": 36.1147,
  "lon": -115.1728,
  "desc": "The Strip's grand resorts and shows, the Sphere, the Neon and Mob museums, steakhouses, and red-rock Valley of Fire, from a quieter executive airport.",
@@ -4247,7 +4247,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Boulder City & Hoover Dam",
  "state": "Nevada",
- "airport": "KBVU",
+ "airport": "KBVU", "rwy": 5103,
  "lat": 35.9786,
  "lon": -114.8325,
  "desc": "The town that built Hoover Dam: a 1933 hotel, dam tours, Lake Mead and Grand Canyon air tours from the airport.",
@@ -4265,7 +4265,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Reno & Virginia City",
  "state": "Nevada",
- "airport": "KRNO",
+ "airport": "KRNO", "rwy": 11001,
  "lat": 39.5296,
  "lon": -119.8138,
  "desc": "The Biggest Little City's riverwalk and Basque dinners, the Nevada Museum of Art, and Virginia City's Comstock Lode boomtown and steam train.",
@@ -4284,7 +4284,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Great Basin National Park & Ely",
  "state": "Nevada",
- "airport": "KELY",
+ "airport": "KELY", "rwy": 6017,
  "lat": 39.0057,
  "lon": -114.2197,
  "desc": "Lehman Caves, ancient bristlecone pines, Wheeler Peak and some of the darkest skies in the country, plus a working steam railroad in Ely.",
@@ -4303,7 +4303,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Redwood Coast",
  "state": "California",
- "airport": "KACV",
+ "airport": "KACV", "rwy": 6046,
  "lat": 41.3632,
  "lon": -124.0189,
  "desc": "The tallest trees on Earth: Redwood National and State Parks, Prairie Creek's elk and Fern Canyon, Victorian Eureka and the Carter House inns.",
@@ -4323,7 +4323,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Mount Shasta & McCloud",
  "state": "California",
- "airport": "O46",
+ "airport": "O46", "rwy": 5000,
  "lat": 41.3099,
  "lon": -122.3106,
  "desc": "A 14,179-foot volcano above far-northern California: alpine lakes, the McCloud River falls, a 1916 mill-town hotel, and skiing and hiking.",
@@ -4343,7 +4343,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Crater Lake & Klamath Falls",
  "state": "Oregon",
- "airport": "KLMT",
+ "airport": "KLMT", "rwy": 10302,
  "lat": 42.9446,
  "lon": -122.109,
  "desc": "The deepest lake in the United States, in a collapsed volcano: the Rim Drive, Wizard Island boat tours and the historic lodge on the rim.",
@@ -4363,7 +4363,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ashland & the Rogue Valley",
  "state": "Oregon",
- "airport": "S03",
+ "airport": "S03", "rwy": 3603,
  "lat": 42.1946,
  "lon": -122.7095,
  "desc": "Home of the Oregon Shakespeare Festival: theater, Lithia Park and a historic hotel in a walkable town, with Rogue Valley wineries and Jacksonville.",
@@ -4383,7 +4383,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bend & Sunriver",
  "state": "Oregon",
- "airport": "S21",
+ "airport": "S21", "rwy": 5460,
  "lat": 43.8763,
  "lon": -121.4531,
  "desc": "Central Oregon's high-desert playground: a resort with its own runway, Mount Bachelor, the Deschutes River, Bend breweries and the High Desert Museum.",
@@ -4404,7 +4404,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lanai",
  "state": "Hawaii",
- "airport": "PHNY",
+ "airport": "PHNY", "rwy": 5001,
  "lat": 20.7432,
  "lon": -156.9149,
  "desc": "A quiet former pineapple island: Four Seasons above Hulopoe Bay, a plantation-town square, spinner dolphins and the red rocks of Keahiakawelo.",
@@ -4424,7 +4424,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hana, Maui",
  "state": "Hawaii",
- "airport": "PHHN",
+ "airport": "PHHN", "rwy": 3606,
  "lat": 20.7578,
  "lon": -155.9894,
  "desc": "Fly past the winding Road to Hana: a black-sand beach, waterfalls and bamboo at Kipahulu, and a quiet oceanview resort.",
@@ -4445,7 +4445,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Molokai",
  "state": "Hawaii",
- "airport": "PHMK",
+ "airport": "PHMK", "rwy": 4494,
  "lat": 21.0906,
  "lon": -157.0227,
  "desc": "The Friendly Isle: no traffic lights, the world's tallest sea cliffs, the Kalaupapa peninsula and its history, and a seaside hotel.",
@@ -4463,7 +4463,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kauai",
  "state": "Hawaii",
- "airport": "PHLI",
+ "airport": "PHLI", "rwy": 6500,
  "lat": 21.976,
  "lon": -159.339,
  "desc": "The Garden Isle: Waimea Canyon, the Na Pali Coast, Hanalei Bay, Poipu beaches and world-class flightseeing.",
@@ -4484,7 +4484,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kona & the Big Island",
  "state": "Hawaii",
- "airport": "PHKO",
+ "airport": "PHKO", "rwy": 11000,
  "lat": 19.6406,
  "lon": -155.9956,
  "desc": "The Big Island's sunny Kona coast: lava-field resorts, manta-ray night snorkels, Kona coffee and Hawaii Volcanoes National Park.",
@@ -4505,7 +4505,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Telluride",
  "state": "Colorado",
- "airport": "KTEX",
+ "airport": "KTEX", "rwy": 7111,
  "lat": 37.9375,
  "lon": -107.8123,
  "desc": "A Victorian mining town in a box canyon: a free gondola to Mountain Village, Bridal Veil Falls, summer festivals and skiing, from a mesa-top airport at 9,070 feet.",
@@ -4526,7 +4526,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Durango & Mesa Verde",
  "state": "Colorado",
- "airport": "KDRO",
+ "airport": "KDRO", "rwy": 9201,
  "lat": 37.2753,
  "lon": -107.8801,
  "desc": "A Western railroad town: a steam train up the Animas canyon to Silverton, the 1887 Strater Hotel and Mesa Verde's cliff dwellings an hour west.",
@@ -4546,7 +4546,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Steamboat Springs",
  "state": "Colorado",
- "airport": "KSBS",
+ "airport": "KSBS", "rwy": 4452,
  "lat": 40.485,
  "lon": -106.8317,
  "desc": "A ranching town turned ski resort: hot springs in a forest creek, Fish Creek Falls, Western Main Street and champagne powder, a mile from the airport.",
@@ -4566,7 +4566,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Colorado Springs & the Broadmoor",
  "state": "Colorado",
- "airport": "KCOS",
+ "airport": "KCOS", "rwy": 13500,
  "lat": 38.79,
  "lon": -104.8508,
  "desc": "The grand Broadmoor below Cheyenne Mountain, Garden of the Gods, the cog railway up Pikes Peak and an air and space museum next to the runway.",
@@ -4587,7 +4587,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Estes Park & Rocky Mountain National Park",
  "state": "Colorado",
- "airport": "KFNL",
+ "airport": "KFNL", "rwy": 8500,
  "lat": 40.3772,
  "lon": -105.5217,
  "desc": "The gateway to Rocky Mountain National Park: Trail Ridge Road above 12,000 feet, elk in the meadows and the historic Stanley Hotel.",
@@ -4607,7 +4607,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Crested Butte",
  "state": "Colorado",
- "airport": "KGUC",
+ "airport": "KGUC", "rwy": 9400,
  "lat": 38.8697,
  "lon": -106.9878,
  "desc": "A colorful old mining town at the end of the road: Colorado's wildflower capital, painted storefronts on Elk Avenue, mountain biking and steep skiing.",
@@ -4626,7 +4626,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Park City",
  "state": "Utah",
- "airport": "KHCR",
+ "airport": "KHCR", "rwy": 6898,
  "lat": 40.6461,
  "lon": -111.498,
  "desc": "A silver-mining town turned Olympic ski resort: Historic Main Street, Deer Valley, the Utah Olympic Park and a whiskey saloon, 20 minutes from Heber Valley Airport.",
@@ -4647,7 +4647,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Zion National Park & Springdale",
  "state": "Utah",
- "airport": "KSGU",
+ "airport": "KSGU", "rwy": 9300,
  "lat": 37.1889,
  "lon": -112.9986,
  "desc": "Towering sandstone walls above the Virgin River: the Narrows, Angels Landing and Emerald Pools, with lodges at the park gate in Springdale.",
@@ -4666,7 +4666,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bryce Canyon",
  "state": "Utah",
- "airport": "KBCE",
+ "airport": "KBCE", "rwy": 7395,
  "lat": 37.6728,
  "lon": -112.1576,
  "desc": "A forest of orange hoodoos, sunrise at Bryce Point, a 1920s park lodge and Scenic Byway 12, from an airport a few miles from the park gate.",
@@ -4685,7 +4685,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Eugene",
  "state": "Oregon",
- "airport": "KEUG",
+ "airport": "KEUG", "rwy": 8009,
  "lat": 44.0521,
  "lon": -123.0868,
  "desc": "TrackTown USA: Hayward Field, the Saturday Market, the 5th Street Public Market, southern Willamette Valley wineries and the McKenzie River nearby.",
@@ -4705,7 +4705,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Scottsdale",
  "state": "Arizona",
- "airport": "KSDL",
+ "airport": "KSDL", "rwy": 8249,
  "lat": 33.4942,
  "lon": -111.9261,
  "desc": "Desert resorts below Camelback, Old Town restaurants, Taliesin West, the Desert Botanical Garden and spring training.",
@@ -4725,7 +4725,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Tucson",
  "state": "Arizona",
- "airport": "KTUS",
+ "airport": "KTUS", "rwy": 10996,
  "lat": 32.2226,
  "lon": -110.9747,
  "desc": "Saguaro forests and Sonoran food: the Pima Air & Space Museum and boneyard, Saguaro National Park, Mission San Xavier and the 1930 Arizona Inn.",
@@ -4746,7 +4746,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bisbee & Tombstone",
  "state": "Arizona",
- "airport": "P04",
+ "airport": "P04", "rwy": 5929,
  "lat": 31.4418,
  "lon": -109.9284,
  "desc": "A copper-mining town stacked up a canyon: a mine tour, the 1902 Copper Queen Hotel, vintage trailers and galleries, with Tombstone nearby.",
@@ -4765,7 +4765,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Grand Canyon South Rim",
  "state": "Arizona",
- "airport": "KGCN",
+ "airport": "KGCN", "rwy": 8999,
  "lat": 36.0544,
  "lon": -112.1401,
  "desc": "Land minutes from the South Rim: El Tovar on the edge, the Rim Trail, Desert View Watchtower and sunsets over a mile-deep canyon.",
@@ -4784,7 +4784,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Prescott",
  "state": "Arizona",
- "airport": "KPRC",
+ "airport": "KPRC", "rwy": 7619,
  "lat": 34.54,
  "lon": -112.4685,
  "desc": "Arizona's territorial capital in the pines: Whiskey Row saloons, the 1927 Hassayampa Inn, the Granite Dells and Jerome nearby.",
@@ -4804,7 +4804,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Taos",
  "state": "New Mexico",
- "airport": "KSKX",
+ "airport": "KSKX", "rwy": 8600,
  "lat": 36.4072,
  "lon": -105.5731,
  "desc": "An adobe art town: the thousand-year-old Taos Pueblo, the Rio Grande Gorge Bridge, galleries, the Historic Taos Inn and Taos Ski Valley.",
@@ -4825,7 +4825,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Albuquerque",
  "state": "New Mexico",
- "airport": "KAEG",
+ "airport": "KAEG", "rwy": 7398,
  "lat": 35.0844,
  "lon": -106.6504,
  "desc": "Balloon capital of the world: the October Balloon Fiesta, the Sandia Peak Tramway, Old Town, the Indian Pueblo Cultural Center and Los Poblanos.",
@@ -4845,7 +4845,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ruidoso",
  "state": "New Mexico",
- "airport": "KSRR",
+ "airport": "KSRR", "rwy": 8120,
  "lat": 33.3317,
  "lon": -105.673,
  "desc": "A cool mountain town in the pines: Inn of the Mountain Gods, Ski Apache, Ruidoso Downs racing and Billy the Kid's Lincoln.",
@@ -4865,7 +4865,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "White Sands & Cloudcroft",
  "state": "New Mexico",
- "airport": "KALM",
+ "airport": "KALM", "rwy": 9207,
  "lat": 32.7797,
  "lon": -106.1717,
  "desc": "Glistening gypsum dunes for sledding and sunsets, the New Mexico Museum of Space History and a historic lodge in Cloudcroft.",
@@ -4884,7 +4884,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Austin",
  "state": "Texas",
- "airport": "KAUS",
+ "airport": "KAUS", "rwy": 12250,
  "lat": 30.2672,
  "lon": -97.7431,
  "desc": "The live-music capital: honky-tonks, Franklin Barbecue, Barton Springs, the Capitol and the bats under Congress Avenue Bridge.",
@@ -4903,7 +4903,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Horseshoe Bay & Lake LBJ",
  "state": "Texas",
- "airport": "KDZB",
+ "airport": "KDZB", "rwy": 5977,
  "lat": 30.5272,
  "lon": -98.3589,
  "desc": "A fly-in golf and lake resort in the Hill Country: a runway at the resort, three golf courses, a lake beach and a spa.",
@@ -4923,7 +4923,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Port Aransas & Rockport",
  "state": "Texas",
- "airport": "RAS",
+ "airport": "RAS", "rwy": 3482,
  "lat": 27.8339,
  "lon": -97.0611,
  "desc": "A laid-back island town: Mustang Island beaches, the 1886 Tarpon Inn, Gulf seafood, fishing charters and whooping cranes near Rockport.",
@@ -4942,7 +4942,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Jefferson & Caddo Lake",
  "state": "Texas",
- "airport": "24F",
+ "airport": "24F", "rwy": 3200,
  "lat": 32.7571,
  "lon": -94.3452,
  "desc": "An old steamboat port in the East Texas piney woods: brick streets, antiques, the 1858 Excelsior House and the cypress swamps of Caddo Lake.",
@@ -4961,7 +4961,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Amarillo & Palo Duro Canyon",
  "state": "Texas",
- "airport": "KAMA",
+ "airport": "KAMA", "rwy": 13502,
  "lat": 34.9842,
  "lon": -101.6886,
  "desc": "The second-largest canyon in the country: hiking and horseback rides in Palo Duro, the TEXAS outdoor musical, Cadillac Ranch and the Big Texan.",
@@ -4980,7 +4980,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "New Braunfels & Gruene",
  "state": "Texas",
- "airport": "KBAZ",
+ "airport": "KBAZ", "rwy": 6503,
  "lat": 29.7036,
  "lon": -98.1245,
  "desc": "German heritage on spring-fed rivers: Gruene Hall, Texas's oldest dance hall, the Gristmill, river tubing and Wurstfest.",
@@ -5000,7 +5000,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Waco & the Silos",
  "state": "Texas",
- "airport": "KACT",
+ "airport": "KACT", "rwy": 7107,
  "lat": 31.5493,
  "lon": -97.1467,
  "desc": "Magnolia Market at the Silos, Magnolia Table, the Art Deco Hotel 1928, the Dr Pepper Museum and a mammoth national monument.",
@@ -5018,7 +5018,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Granbury",
  "state": "Texas",
- "airport": "KGDJ",
+ "airport": "KGDJ", "rwy": 5201,
  "lat": 32.4421,
  "lon": -97.7942,
  "desc": "A historic courthouse square on Lake Granbury: the 1886 Opera House, rooms on the square, a lakeside inn and dinosaur tracks nearby.",
@@ -5037,7 +5037,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Coeur d’Alene",
  "state": "Idaho",
- "airport": "KCOE",
+ "airport": "KCOE", "rwy": 7400,
  "lat": 47.6777,
  "lon": -116.7805,
  "desc": "A lake resort town in the Idaho Panhandle: the Coeur d'Alene Resort and its floating green, lake cruises, a lakeside boardwalk and the Silver Mountain gondola.",
@@ -5058,7 +5058,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "McCall & Payette Lake",
  "state": "Idaho",
- "airport": "KMYL",
+ "airport": "KMYL", "rwy": 6101,
  "lat": 44.9116,
  "lon": -116.0987,
  "desc": "A mountain lake town at 5,000 feet: Shore Lodge on Payette Lake, Ponderosa State Park, Brundage Mountain and Idaho's backcountry airstrips.",
@@ -5078,7 +5078,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sandpoint & Lake Pend Oreille",
  "state": "Idaho",
- "airport": "KSZT",
+ "airport": "KSZT", "rwy": 5501,
  "lat": 48.2766,
  "lon": -116.5533,
  "desc": "A small arts town on Idaho's largest lake: Lake Pend Oreille beaches, Schweitzer Mountain above town and the Festival at Sandpoint.",
@@ -5097,7 +5097,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Cody & Yellowstone’s East Gate",
  "state": "Wyoming",
- "airport": "KCOD",
+ "airport": "KCOD", "rwy": 8268,
  "lat": 44.5263,
  "lon": -109.0565,
  "desc": "Buffalo Bill's Wild West town: a nightly summer rodeo, the Buffalo Bill Center of the West, the historic Irma Hotel and the road to Yellowstone.",
@@ -5116,7 +5116,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Sheridan & the Bighorns",
  "state": "Wyoming",
- "airport": "KSHR",
+ "airport": "KSHR", "rwy": 8301,
  "lat": 44.7972,
  "lon": -106.9562,
  "desc": "A real cowboy town below the Bighorns: King's Saddlery, the 1893 Sheridan Inn, Trail End mansion and a classic dude ranch.",
@@ -5135,7 +5135,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Saratoga Hot Springs",
  "state": "Wyoming",
- "airport": "KSAA",
+ "airport": "KSAA", "rwy": 8801,
  "lat": 41.455,
  "lon": -106.8064,
  "desc": "A tiny Wyoming town with free hot springs on the North Platte, a hot-springs resort and brewery, the historic Hotel Wolf and trout fishing.",
@@ -5154,7 +5154,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Seattle",
  "state": "Washington",
- "airport": "KBFI",
+ "airport": "KBFI", "rwy": 10007,
  "lat": 47.6062,
  "lon": -122.3321,
  "desc": "Land at Boeing Field next to the Museum of Flight: Pike Place Market, the Space Needle, harbor cruises and Canlis.",
@@ -5173,7 +5173,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Walla Walla Wine Country",
  "state": "Washington",
- "airport": "KALW",
+ "airport": "KALW", "rwy": 6527,
  "lat": 46.0646,
  "lon": -118.343,
  "desc": "More than 120 wineries around a charming downtown: tasting rooms on Main Street, wineries by the airport and the historic Marcus Whitman Hotel.",
@@ -5192,7 +5192,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Leavenworth",
  "state": "Washington",
- "airport": "KEAT",
+ "airport": "KEAT", "rwy": 7000,
  "lat": 47.5962,
  "lon": -120.6615,
  "desc": "A Bavarian-style village in the Cascades: alpine storefronts, German food and beer, Sleeping Lady resort, Oktoberfest and Christmas lights.",
@@ -5212,7 +5212,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Chelan",
  "state": "Washington",
- "airport": "S10",
+ "airport": "S10", "rwy": 3506,
  "lat": 47.8407,
  "lon": -120.0165,
  "desc": "A 50-mile glacial lake in sunny eastern Washington: lakefront resorts, hillside wineries and the boat to roadless Stehekin.",
@@ -5231,7 +5231,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Port Townsend",
  "state": "Washington",
- "airport": "0S9",
+ "airport": "0S9", "rwy": 3000,
  "lat": 48.117,
  "lon": -122.7604,
  "desc": "A Victorian seaport with a café and aero museum on the airport: brick downtown, the Wooden Boat Festival, Fort Worden and Olympic National Park.",
@@ -5250,7 +5250,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Solvang & Santa Ynez Valley",
  "state": "California",
- "airport": "IZA",
+ "airport": "IZA", "rwy": 2803,
  "lat": 34.5958,
  "lon": -120.1376,
  "desc": "A Danish village and Sideways wine country: windmills and pastries, Los Olivos tasting rooms, the Hitching Post and a historic mission.",
@@ -5270,7 +5270,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Temecula Wine Country",
  "state": "California",
- "airport": "F70",
+ "airport": "F70", "rwy": 6000,
  "lat": 33.4936,
  "lon": -117.1484,
  "desc": "Southern California wine country: more than 40 wineries, winery resorts with spas, an Old West Old Town and sunrise balloon rides.",
@@ -5290,7 +5290,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Big Bear Lake",
  "state": "California",
- "airport": "L35",
+ "airport": "L35", "rwy": 5850,
  "lat": 34.2439,
  "lon": -116.9114,
  "desc": "A mountain lake at 6,750 feet above Los Angeles: skiing and an alpine slide, a lakeside village and cabins in the pines.",
@@ -5309,7 +5309,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ojai",
  "state": "California",
- "airport": "KOXR",
+ "airport": "KOXR", "rwy": 5953,
  "lat": 34.448,
  "lon": -119.2429,
  "desc": "A quiet, artsy valley town: the Ojai Valley Inn, an open-air bookstore, pink-moment sunsets and a vintage-aircraft museum at Santa Paula.",
@@ -5329,7 +5329,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Wickenburg Dude Ranches",
  "state": "Arizona",
- "airport": "E25",
+ "airport": "E25", "rwy": 6101,
  "lat": 33.9686,
  "lon": -112.7296,
  "desc": "Arizona's dude-ranch capital: desert horseback rides, cowboy cookouts and a fine Western art museum, close to the airport.",
@@ -5348,7 +5348,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Payson & the Mogollon Rim",
  "state": "Arizona",
- "airport": "KPAN",
+ "airport": "KPAN", "rwy": 5504,
  "lat": 34.2309,
  "lon": -111.3251,
  "desc": "A cool pine-country escape below the Mogollon Rim: Tonto Natural Bridge, Zane Grey's cabin and a café on the airport.",
@@ -5367,7 +5367,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lake Havasu & the London Bridge",
  "state": "Arizona",
- "airport": "KHII",
+ "airport": "KHII", "rwy": 8000,
  "lat": 34.4839,
  "lon": -114.3225,
  "desc": "A desert lake town with the original London Bridge: boating, beach resorts, brewpubs and winter sunshine.",
@@ -5386,7 +5386,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Round Top & Brenham",
  "state": "Texas",
- "airport": "11R",
+ "airport": "11R", "rwy": 6003,
  "lat": 30.0652,
  "lon": -96.6961,
  "desc": "Bluebonnet country: Round Top's antiques shows, Festival Hill concerts, Royers pie, a historic inn and Blue Bell in Brenham.",
@@ -5405,7 +5405,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Crystal River & the Manatees",
  "state": "Florida",
- "airport": "KCGC",
+ "airport": "KCGC", "rwy": 4557,
  "lat": 28.9025,
  "lon": -82.5926,
  "desc": "Swim with wild manatees: Three Sisters Springs, spring-fed rivers, Homosassa Springs and a waterfront resort.",
@@ -5424,7 +5424,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Anna Maria Island",
  "state": "Florida",
- "airport": "KSRQ",
+ "airport": "KSRQ", "rwy": 9500,
  "lat": 27.5292,
  "lon": -82.7309,
  "desc": "A laid-back Gulf island with no high-rises: white-sand beaches, a free trolley, old piers and beachfront dining.",
@@ -5443,7 +5443,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Bear Lake",
  "state": "Idaho",
- "airport": "1U7",
+ "airport": "1U7", "rwy": 5728,
  "lat": 41.95,
  "lon": -111.4,
  "desc": "The Caribbean of the Rockies: a turquoise lake, raspberry shakes, glamping, Minnetonka Cave and Logan Canyon.",
@@ -5462,7 +5462,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Red Lodge & the Beartooth Highway",
  "state": "Montana",
- "airport": "KRED",
+ "airport": "KRED", "rwy": 4000,
  "lat": 45.1858,
  "lon": -109.2468,
  "desc": "An old mining town at the foot of the Beartooth Highway: the 1893 Pollard Hotel, a brewery, skiing and a wildlife sanctuary.",
@@ -5481,7 +5481,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Marquette & Pictured Rocks",
  "state": "Michigan",
- "airport": "KSAW",
+ "airport": "KSAW", "rwy": 9072,
  "lat": 46.5436,
  "lon": -87.3954,
  "desc": "Lake Superior’s harbor town and the painted cliffs of Pictured Rocks: a 1930 harbor hotel, breweries, Presque Isle Park and a boat cruise under the cliffs.",
@@ -5502,7 +5502,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Frankenmuth",
  "state": "Michigan",
- "airport": "KMBS",
+ "airport": "KMBS", "rwy": 8002,
  "lat": 43.3317,
  "lon": -83.738,
  "desc": "Michigan’s Little Bavaria: chicken dinners at Zehnder’s and the Bavarian Inn, Bronner’s Christmas store, a riverboat and German festivals.",
@@ -5520,7 +5520,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Hermann Wine Country",
  "state": "Missouri",
- "airport": "63M",
+ "airport": "63M", "rwy": 3198,
  "lat": 38.7042,
  "lon": -91.4371,
  "desc": "A German river town in Missouri wine country: historic wineries on the bluffs, a vineyard inn, bratwurst and Oktoberfest weekends.",
@@ -5540,7 +5540,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Southport & Bald Head Island",
  "state": "North Carolina",
- "airport": "KSUT",
+ "airport": "KSUT", "rwy": 5505,
  "lat": 33.9218,
  "lon": -78.0203,
  "desc": "A Cape Fear river town and a car-free island by ferry: Old Baldy lighthouse, golf carts, dockside seafood and the Battleship North Carolina.",
@@ -5560,7 +5560,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Ocracoke Island",
  "state": "North Carolina",
- "airport": "W95",
+ "airport": "W95", "rwy": 2998,
  "lat": 35.1146,
  "lon": -75.981,
  "desc": "A remote Outer Banks village with no bridge: a beachside NPS airstrip, an 1823 lighthouse, Banker ponies and Howard’s Pub.",
@@ -5580,7 +5580,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Brainerd Lakes",
  "state": "Minnesota",
- "airport": "KBRD",
+ "airport": "KBRD", "rwy": 7100,
  "lat": 46.437,
  "lon": -94.346,
  "desc": "Classic Minnesota lake resorts on Gull Lake: golf, boating, supper clubs, the Paul Bunyan Trail and Cuyuna mountain biking.",
@@ -5600,7 +5600,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Thomasville",
  "state": "Georgia",
- "airport": "KTVI",
+ "airport": "KTVI", "rwy": 6004,
  "lat": 30.8366,
  "lon": -83.9788,
  "desc": "South Georgia’s City of Roses: a brick downtown, Victorian inns, Pebble Hill Plantation, the Big Oak and Sweet Grass Dairy cheese.",
@@ -5619,7 +5619,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Callaway Gardens & Pine Mountain",
  "state": "Georgia",
- "airport": "KPIM",
+ "airport": "KPIM", "rwy": 5002,
  "lat": 32.851,
  "lon": -84.851,
  "desc": "A garden resort in west Georgia: azaleas, a butterfly conservatory, a lake beach and FDR’s Little White House in Warm Springs.",
@@ -5639,7 +5639,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Guthrie",
  "state": "Oklahoma",
- "airport": "KGOK",
+ "airport": "KGOK", "rwy": 5201,
  "lat": 35.8789,
  "lon": -97.4253,
  "desc": "Oklahoma’s Victorian first capital: brick downtown, the Scottish Rite Temple, the Territorial Museum, the Pollard Theatre and a historic B&B.",
@@ -5657,7 +5657,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Lubbock & the Texas High Plains",
  "state": "Texas",
- "airport": "KLBB",
+ "airport": "KLBB", "rwy": 11500,
  "lat": 33.5779,
  "lon": -101.8552,
  "desc": "Buddy Holly’s hometown and Texas wine-grape country: the Silent Wings glider museum, a windmill museum, wineries and brisket.",
@@ -5677,7 +5677,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Williamsburg & Jamestown",
  "state": "Virginia",
- "airport": "KJGG",
+ "airport": "KJGG", "rwy": 3204,
  "lat": 37.2707,
  "lon": -76.7075,
  "desc": "Colonial Williamsburg, Jamestown and Yorktown, a riverfront golf resort and a diner right on the airport.",
@@ -5696,7 +5696,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Provincetown",
  "state": "Massachusetts",
- "airport": "KPVC",
+ "airport": "KPVC", "rwy": 3502,
  "lat": 42.0584,
  "lon": -70.1787,
  "desc": "The tip of Cape Cod: an airport in the dunes, whale watching, the Pilgrim Monument and lobster on the wharf.",
@@ -5716,7 +5716,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Cooperstown",
  "state": "New York",
- "airport": "K23",
+ "airport": "K23", "rwy": 2337, "rwySurf": "turf",
  "lat": 42.7006,
  "lon": -74.9243,
  "desc": "The Baseball Hall of Fame on Otsego Lake, a grand lakeside resort, Brewery Ommegang and summer opera.",
@@ -5735,7 +5735,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Thousand Islands",
  "state": "New York",
- "airport": "KART",
+ "airport": "KART", "rwy": 7001,
  "lat": 44.2395,
  "lon": -76.0858,
  "desc": "Castles and wooden boats on the St. Lawrence: Boldt Castle, the Antique Boat Museum and river cruises.",
@@ -5754,7 +5754,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Chincoteague & Assateague",
  "state": "Virginia",
- "airport": "KMFV",
+ "airport": "KMFV", "rwy": 5000,
  "lat": 37.9332,
  "lon": -75.3788,
  "desc": "Wild ponies, the Assateague Lighthouse, empty beaches, oysters and ice cream on Virginia’s Eastern Shore.",
@@ -5773,7 +5773,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Elkins & Snowshoe",
  "state": "West Virginia",
- "airport": "KEKN",
+ "airport": "KEKN", "rwy": 4544,
  "lat": 38.9259,
  "lon": -79.8467,
  "desc": "West Virginia highlands: excursion trains, the Cass Scenic Railroad, the Green Bank telescope and Snowshoe Mountain.",
@@ -5793,7 +5793,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Missoula",
  "state": "Montana",
- "airport": "KMSO",
+ "airport": "KMSO", "rwy": 9501,
  "lat": 46.8721,
  "lon": -113.994,
  "desc": "The Museum of Mountain Flying and the Smokejumper center at the airport, a river town and a luxury ranch.",
@@ -5813,7 +5813,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Tullahoma & Lynchburg",
  "state": "Tennessee",
- "airport": "KTHA",
+ "airport": "KTHA", "rwy": 5501,
  "lat": 35.362,
  "lon": -86.2094,
  "desc": "The Beechcraft Heritage Museum on the field, Jack Daniel’s, George Dickel and a boarding-house dinner.",
@@ -5831,7 +5831,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Kiawah Island",
  "state": "South Carolina",
- "airport": "KJZI",
+ "airport": "KJZI", "rwy": 5350,
  "lat": 32.6082,
  "lon": -80.0848,
  "desc": "A barrier-island golf and beach resort near Charleston: the Ocean Course, the Sanctuary and ten miles of beach.",
@@ -5851,7 +5851,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Smith Mountain Lake",
  "state": "Virginia",
- "airport": "W91",
+ "airport": "W91", "rwy": 3058,
  "lat": 37.1817,
  "lon": -79.6172,
  "desc": "A Blue Ridge lake with its own airport: lake resorts, dinner by boat and the Blue Ridge Parkway nearby.",
@@ -5870,7 +5870,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Seneca Lake & Geneva",
  "state": "New York",
- "airport": "0G7",
+ "airport": "0G7", "rwy": 4592,
  "lat": 42.8687,
  "lon": -76.9777,
  "desc": "Finger Lakes wine country: Belhurst Castle on Seneca Lake, Riesling wineries, Geneva’s restaurants and Watkins Glen.",
@@ -5891,7 +5891,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Niagara-on-the-Lake",
  "state": "Ontario",
- "airport": "CYSN",
+ "airport": "CYSN", "rwy": 5000,
  "lat": 43.255,
  "lon": -79.0717,
  "desc": "Ontario wine country on Lake Ontario: Victorian inns, the Shaw Festival, icewine and Niagara Falls nearby.",
@@ -5911,7 +5911,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Québec City",
  "state": "Québec",
- "airport": "CYQB",
+ "airport": "CYQB", "rwy": 9000,
  "lat": 46.8139,
  "lon": -71.208,
  "desc": "North America’s walled old city: Château Frontenac, cobblestone lanes, French food and Montmorency Falls.",
@@ -5931,7 +5931,7 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Victoria, BC",
  "state": "British Columbia",
- "airport": "CYYJ",
+ "airport": "CYYJ", "rwy": 6998,
  "lat": 48.4284,
  "lon": -123.3656,
  "desc": "Vancouver Island’s harbor capital: the Fairmont Empress, Butchart Gardens, whale watching and a downtown seaplane harbor.",
