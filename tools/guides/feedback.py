@@ -41,7 +41,7 @@ for path in map(Path, sys.argv[1:]):
         assert s.count(a) == 1, path
         if '<div class="foot-brand">' not in s:
             s = s.replace(a, '<div class="foot-brand">' + a + '</div>')
-        s = s.replace(a, a + f'<p class="feedback" style="margin:8px 0 0;color:#e6edf1;font-size:.9rem"><strong>Help us improve and grow.</strong> <a href="{link}" style="color:#ffffff">Suggest a destination or a correction</a> · {EMAIL}</p>')
+        s = s.replace(a, a + f'<p class="feedback" style="margin:8px 0 0;color:#e6edf1;font-size:.9rem"><strong>Help us improve and grow.</strong> <a href="{link}" style="color:#ffffff">Suggest a destination or a correction</a> · <a href="partner/" style="color:#ffffff">Partner with us</a> · {EMAIL}</p>')
     else:
         name = re.search(r'<h1>([^<]+)</h1>', s).group(1)
         link = mailto(f'WingAway feedback: {name} guide')

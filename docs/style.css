@@ -5,4 +5,5 @@
 
 .header-right{display:flex;align-items:center;gap:22px}.header-link{font-size:14px;font-weight:700;color:#8a571c;text-decoration:none;white-space:nowrap}.header-link:hover{text-decoration:underline}
 @media(max-width:760px){.header-right .header-note{display:none}}
-.water-head{margin-top:28px;padding-top:20px;border-top:1px solid #e0e7ec}.water-block[hidden],.water-toggle[hidden]{display:none}.water-toggle button{background:none;border:0;padding:0;font:inherit;color:#18548c;text-decoration:underline;cursor:pointer;font-weight:700}
+.water-head{margin-top:28px;padding-top:20px;border-top:1px solid #e0e7ec}.water-block[hidden],.water-toggle[hidden]{display:none}.water-toggle button{background:none;border:0;padding:0;font:inherit;color:#18548c;text-decoration:underline;cursor:pointer;font-weight:700}/* Small phones: keep header links on one line without widening the page. */
+@media (max-width:480px){header .header-right{gap:12px!important;font-size:13px}header .header-right .header-link{white-space:nowrap}header .header-right .header-link[href="../"]:not(:first-child){display:none}}

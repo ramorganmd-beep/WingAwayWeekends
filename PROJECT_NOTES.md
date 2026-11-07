@@ -458,3 +458,7 @@ The homepage defaults flight time to "Any distance" for every trip length while 
 - `tools/guides/stay22.py docs/<slug>/index.html` adds a labeled "Compare hotel prices near …" block (rel="sponsored", affiliate disclosure) after each guide's Where to stay cards. Idempotent; uses destinations.js coordinates; campaign `guide-<slug>`.
 - Add `stay22` to the guide post-processing loop after rebuilding a guide: `for t in personalize trip_plans luxury maplinks feedback stay22`.
 - The Northeast trip prototype (`docs/trips/northeast/`, noindex, unlinked) adds dated links per stop with campaign `trip-northeast`.
+
+## Multi-stop trips (November 2026)
+- Live at /trips/ (index plus six routes: northeast, lowcountry, florida, rockies, california, great-lakes). Linked as "Trips" in the homepage, map and Fly to Lunch headers; in the sitemap.
+- Edit routes in `tools/trips/build_trips.py` (ROUTES), then run `python3 tools/trips/build_trips.py`. Page shell: `tools/trips/template.html`; index shell: `tools/trips/index_template.html`; logic: `docs/trips/trip.js` (window.TRIP config per page).
