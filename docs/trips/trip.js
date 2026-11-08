@@ -6,7 +6,8 @@ const SEASON=T.season||{};const DEF=T.defaultSeason||[5,6,7,8,9,10];
 const MON=['January','February','March','April','May','June','July','August','September','October','November','December'];
 const PREVIEW=/[?&]preview=1/.test(location.search);const ALL=(window.WINGAWAY_DESTINATIONS||[]).filter(d=>d.guide&&(PREVIEW||!d.draft)&&isFinite(d.lat));
 const BY={};ALL.forEach(d=>BY[d.guide.replace(/\/$/,'')]=d);
-const NE=ALL.filter(d=>T.regions.includes(d.region));
+const CUSTOM=!!T.custom;const NE=CUSTOM?ALL:ALL.filter(d=>T.regions.includes(d.region));
+function nearAlts(slug){const o=BY[slug];return NE.filter(d=>d!==o).map(d=>[d.guide.replace(/\/$/,''),nm(o,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4).map(x=>x[0]);}
 const AP=window.WINGAWAY_AIRPORTS||[];const APX=new Map();AP.forEach(a=>{APX.set(a[0],a);if(a[1])APX.set(a[1],a)});
 const A=window.WingAwayAircraft;const FUEL=window.WINGAWAY_FUEL||[];
 const $=id=>document.getElementById(id);
@@ -31,17 +32,21 @@ function fuelText(r){const f=r.f;return esc(f[0])+' ('+esc(f[1])+', '+esc(f[2])+
 function startHome(){return $('mode').value!=='stop';}
 // State in the URL so a trip can be shared.
 function fromURL(){const q=new URLSearchParams(location.search);const s=q.get('stops');
-  if(s){const out=[];s.split(',').forEach(t=>{const [slug,n]=t.split(':');const r=ROUTE.find(x=>x[0]===slug||x[2].includes(slug));if(BY[slug])out.push({slug,nights:Math.min(4,Math.max(1,+n||1)),alts:r?[r[0],...r[2]].filter(x=>x!==slug):[]});});if(out.length)stops=out;}
+  if(s){const out=[];s.split(',').forEach(t=>{const [slug,n]=t.split(':');const r=ROUTE.find(x=>x[0]===slug||x[2].includes(slug));if(BY[slug])out.push({slug,nights:Math.min(4,Math.max(1,+n||1)),alts:r?[r[0],...r[2]].filter(x=>x!==slug):(CUSTOM?nearAlts(slug):[])});});if(out.length)stops=out;}
   if(q.get('home'))$('home').value=q.get('home');if(q.get('start'))$('start').value=q.get('start');if(q.get('ac')&&[...$('ac').options].some(o=>o.value===q.get('ac')))$('ac').value=q.get('ac');if(q.get('pace'))$('pace').value=q.get('pace');if(q.get('from')==='stop')$('mode').value='stop';}
 function toURL(){const q=new URLSearchParams();q.set('stops',stops.map(s=>s.slug+':'+s.nights).join(','));if(home)q.set('home',home.code);if($('start').value)q.set('start',$('start').value);q.set('ac',$('ac').value);q.set('pace',$('pace').value);if(!startHome())q.set('from','stop');if(PREVIEW)q.set('preview','1');history.replaceState(null,'','?'+q.toString());return location.href;}
-function defaults(){stops=ROUTE.filter(([slug])=>BY[slug]).map(([slug,n,alts])=>({slug,nights:n,alts:alts.filter(a=>BY[a])}));}
-function legs(){const S=stops.map(s=>BY[s.slug]);const pts=startHome()?[home,...S,home]:S;const p=profile(),pace=+$('pace').value;const out=[];
+function defaults(){if(CUSTOM){stops=[];return;}stops=ROUTE.filter(([slug])=>BY[slug]).map(([slug,n,alts])=>({slug,nights:n,alts:alts.filter(a=>BY[a])}));}
+function legs(){if(!stops.length)return [];const S=stops.map(s=>BY[s.slug]);const pts=startHome()?[home,...S,home]:S;const p=profile(),pace=+$('pace').value;const out=[];
   for(let i=0;i<pts.length-1;i++){const a=pts[i],b=pts[i+1];const d=nm(a,b);const e=A.estimate(d,p);out.push({d,e,long:e.hours>pace,a,b});}return out;}
 function draw(){
   home=lookup($('home').value)||lookup('KMYR');
   const L=legs(),start=$('start').value?new Date($('start').value+'T12:00:00'):addDays(new Date(),7);
   const nights=stops.reduce((s,x)=>s+x.nights,0),totNm=L.reduce((s,l)=>s+l.d,0),totH=L.reduce((s,l)=>s+l.e.hours,0),fuel=L.filter(l=>l.e.stop).length;
-  $('sum').innerHTML='<span><b>'+nights+'</b> nights · <b>'+stops.length+'</b> stops</span><span><b>'+Math.round(totNm).toLocaleString()+'</b> nm total</span><span>About <b>'+A.formatTime(totH)+'</b> flying</span><span><b>'+fuel+'</b> leg'+(fuel===1?'':'s')+' likely need'+(fuel===1?'s':'')+' a fuel stop</span><span>'+esc(A.summary(profile()))+'</span>';
+  $('sum').innerHTML='<span><b>'+nights+'</b> nights · <b>'+stops.length+'</b> stop'+(stops.length===1?'':'s')+'</span><span><b>'+Math.round(totNm).toLocaleString()+'</b> nm total</span><span>About <b>'+A.formatTime(totH)+'</b> flying</span><span><b>'+fuel+'</b> leg'+(fuel===1?'':'s')+' likely need'+(fuel===1?'s':'')+' a fuel stop</span><span>'+esc(A.summary(profile()))+'</span>';
+  if(!stops.length){$('sum').innerHTML='<span>Start by choosing your first stop below.</span><span>'+esc(A.summary(profile()))+'</span>';
+    const near=NE.map(d=>[d,nm(home,d)]).sort((a,b)=>a[1]-b[1]);
+    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first"><label>Choose your first stop: <select data-first="1"><option value="">Choose a destination…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+(d.stateCode?', '+esc(d.stateCode):'')+' · '+Math.round(n)+' nm</option>').join('')+'</select></label><p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p></li>';
+    drawMap([]);toURL();return;}
   const H=startHome();let day=start,html=H?'<li class="tp-home">Day 1 · '+fmtDate(day)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li>':'<li class="tp-home">Day 1 · '+fmtDate(day)+': trip starts at '+esc(BY[stops[0].slug].name)+' ('+esc(BY[stops[0].slug].airport)+')</li>';
   stops.forEach((s,i)=>{const d=BY[s.slug],l=H?L[i]:L[i-1];
     if(l)html+=legHTML(l);
@@ -50,7 +55,7 @@ function draw(){
     const opts=[s.slug,...s.alts].map(x=>'<option value="'+x+'"'+(x===s.slug?' selected':'')+'>'+esc(BY[x].name)+' ('+esc(BY[x].airport)+')</option>').join('');
     html+='<li class="tp-stop"><img src="'+img+'" alt="'+esc(d.photo?d.photo.alt:'')+'" loading="lazy"><div><span class="when">Stop '+(i+1)+' · '+fmtDate(arrive)+' – '+fmtDate(leave)+'</span><h3><a href="../../'+d.guide+'">'+esc(d.name)+'</a></h3><p>'+esc(d.desc||'')+'</p>'+
       (ok?'':'<p class="tp-warn">Heads up: '+MON[m-1]+' is outside the usual season here. Check what’s open.</p>')+
-      '<div class="tp-ctl"><label>Stop <select data-swap="'+i+'">'+opts+'</select></label><label>Nights <select data-n="'+i+'">'+[1,2,3,4].map(n=>'<option'+(n===s.nights?' selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(stops.length>2?'<button data-rm="'+i+'">Remove stop</button>':'')+'<a href="../../'+d.guide+'">Open the guide</a><a href="'+s22(d,arrive,leave)+'" target="_blank" rel="sponsored noopener">Compare hotels for these dates →</a></div></div></li>';
+      '<div class="tp-ctl"><label>Stop <select data-swap="'+i+'">'+opts+'</select></label><label>Nights <select data-n="'+i+'">'+[1,2,3,4].map(n=>'<option'+(n===s.nights?' selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(stops.length>(CUSTOM?0:2)?'<button data-rm="'+i+'">Remove stop</button>':'')+'<a href="../../'+d.guide+'">Open the guide</a><a href="'+s22(d,arrive,leave)+'" target="_blank" rel="sponsored noopener">Compare hotels for these dates →</a></div></div></li>';
     html+=addHTML(i);
     day=leave;});
   if(H){html+=legHTML(L[L.length-1]);html+='<li class="tp-home">Day '+(nights+1)+' · '+fmtDate(day)+': home to '+esc(home.code)+'</li>';}
@@ -65,13 +70,14 @@ function legHTML(l){const p=profile();let w='';
   return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+'</span></li>';}
 function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat,lng:d.lon,address:d.name.replace(/ & .*|,.*/,'')+', '+d.state,checkin:ymd(a),checkout:ymd(b),campaign:'trip-'+T.id});return 'https://www.stay22.com/allez/roam?'+q.toString();}
 function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));
-  const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,10);
+  const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
 function drawMap(L){if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
-  const H=startHome();const pts=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);
-  const fc={type:'FeatureCollection',features:pts.map(p=>({type:'Feature',geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
-  const lo=d3.extent(pts,p=>p.lon),la=d3.extent(pts,p=>p.lat);const proj=d3.geoConicConformal().parallels([la[0],la[1]+0.01]).rotate([-(lo[0]+lo[1])/2,0]).fitExtent([[40,40],[860,580]],fc);const path=d3.geoPath(proj);
+  const H=startHome()||!stops.length;const pts=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);if(!pts.length)return;
+  const box=pts.length>1?pts:[{lon:pts[0].lon-6,lat:pts[0].lat-4},{lon:pts[0].lon+6,lat:pts[0].lat+4}];
+  const fc={type:'FeatureCollection',features:box.map(p=>({type:'Feature',geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
+  const lo=d3.extent(box,p=>p.lon),la=d3.extent(box,p=>p.lat);const proj=d3.geoConicConformal().parallels([la[0],la[1]+0.01]).rotate([-(lo[0]+lo[1])/2,0]).fitExtent([[40,40],[860,580]],fc);const path=d3.geoPath(proj);
   svg.append('g').selectAll('path').data(states).join('path').attr('class','st').attr('d',path);
   const g=svg.append('g');
   L.forEach(l=>g.append('path').attr('class','leg').attr('d',path({type:'LineString',coordinates:[[l.a.lon,l.a.lat],[l.b.lon,l.b.lat]]})));
@@ -84,7 +90,7 @@ function drawMap(L){if(!states)return;const svg=d3.select('#m');svg.selectAll('*
 // Controls
 const acSel=$('ac');const saved=A.load();
 acSel.innerHTML=(saved?'<option value="saved">My aircraft: '+esc(saved.label)+'</option>':'')+'<option value="default">Default (150 kt, no fuel check)</option>'+A.PRESETS.filter(p=>p.gear==='land').map(p=>'<option value="'+p.id+'">'+esc(p.label)+'</option>').join('');
-acSel.value=saved?'saved':'pa28';
+const pref=['pa28','sr22'].find(id=>A.PRESETS.some(p=>p.id===id));acSel.value=saved?'saved':(pref||'default');
 let hc='';try{hc=localStorage.getItem('wingaway-home')||''}catch(e){}$('home').value=hc||'KMYR';
 if(window.WingAwaySuggest)WingAwaySuggest($('home'),$('home-list'),AP);
 (function(){let d=addDays(new Date(),7);for(let k=0;k<400&&!DEF.includes(d.getMonth()+1);k++)d=addDays(d,1);while(d.getDay()!==5)d=addDays(d,1);$('start').value=ymd(d);})();
@@ -93,16 +99,17 @@ defaults();fromURL();
 $('days').addEventListener('change',e=>{const t=e.target;
   if(t.dataset.swap!=null){const i=+t.dataset.swap,old=stops[i].slug;stops[i].alts=[old,...stops[i].alts].filter(x=>x!==t.value);stops[i].slug=t.value;}
   else if(t.dataset.n!=null)stops[+t.dataset.n].nights=+t.value;
+  else if(t.dataset.first!=null&&t.value){stops=[{slug:t.value,nights:2,alts:nearAlts(t.value)}];}
   else if(t.dataset.add!=null&&t.value){const i=+t.dataset.add,from=BY[stops[i].slug];const alts=NE.filter(d=>d.guide!==t.value+'/').map(d=>[d.guide.replace(/\/$/,''),nm(BY[t.value],d)]).sort((a,b)=>a[1]-b[1]).slice(1,5).map(x=>x[0]);stops.splice(i+1,0,{slug:t.value,nights:1,alts});}
   draw();});
 $('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
-$('ff').onclick=()=>copy((startHome()?[home.code,...stops.map(s=>BY[s.slug].airport),home.code]:stops.map(s=>BY[s.slug].airport)).join(' '),'Route copied. Paste it into ForeFlight’s route field.');
+$('ff').onclick=()=>stops.length?copy((startHome()?[home.code,...stops.map(s=>BY[s.slug].airport),home.code]:stops.map(s=>BY[s.slug].airport)).join(' '),'Route copied. Paste it into ForeFlight’s route field.'):say('Add a stop first.');
 $('print').onclick=()=>window.print();
 $('reset').onclick=()=>{defaults();draw();};
-$('ics').onclick=()=>{const start=new Date($('start').value+'T12:00:00');let day=start;const ev=[],stamp=new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z';
+$('ics').onclick=()=>{if(!stops.length){say('Add a stop first.');return;}const start=new Date($('start').value+'T12:00:00');let day=start;const ev=[],stamp=new Date().toISOString().replace(/[-:]/g,'').slice(0,15)+'Z';
   const f=d=>ymd(d).replace(/-/g,'');
   stops.forEach((s,i)=>{const d=BY[s.slug],out=addDays(day,s.nights);
     ev.push('BEGIN:VEVENT\r\nUID:wingaway-'+f(day)+'-'+s.slug+'@wingawayweekends.com\r\nDTSTAMP:'+stamp+'\r\nDTSTART;VALUE=DATE:'+f(day)+'\r\nDTEND;VALUE=DATE:'+f(out)+'\r\nSUMMARY:'+d.name.replace(/[,;]/g,' ')+' ('+d.airport+')\r\nDESCRIPTION:WingAway Weekends guide: https://wingawayweekends.com/'+d.guide+'\r\nEND:VEVENT');day=out;});

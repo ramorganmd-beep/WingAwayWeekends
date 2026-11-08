@@ -478,3 +478,6 @@ For the Cirrus presentation, `docs/aircraft.js` sets `CIRRUS_ONLY = true`, so th
 
 ## Homepage hero layout (Nov 2026)
 Matches the deck cover: on screens over 760px the hero keeps the photo's proportions (`aspect-ratio:2000/1175`, image `0 62%/100% auto`) so the whole SR22 shows, with the eyebrow, headline (one line) and tagline over the sky under a top-down dark gradient. 561–760px: the photo is a strip (`.hero::before`, 43% tall) with the text below it. 560px and under: the original phone strip layout. Previous version saved at the commit before this one.
+
+## Build your own trip
+`docs/trips/build/` (built by `build_custom()` in tools/trips/build_trips.py) uses trip.js with `TRIP.custom=true`: it starts with no stops and shows a first-stop picker of every destination sorted by distance from home; the add-stop list offers the 20 nearest; swap options are the 4 nearest; stops can be removed down to none. The trips index has a "Build your own trip" banner above the route cards (index_template.html). trip.js now defaults the aircraft to pa28 or, when the menu is Cirrus-only, sr22.
