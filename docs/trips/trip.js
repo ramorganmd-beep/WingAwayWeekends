@@ -7,6 +7,15 @@ const MON=['January','February','March','April','May','June','July','August','Se
 const PREVIEW=/[?&]preview=1/.test(location.search);const ALL=(window.WINGAWAY_DESTINATIONS||[]).filter(d=>d.guide&&(PREVIEW||!d.draft)&&isFinite(d.lat));
 const BY={};ALL.forEach(d=>BY[d.guide.replace(/\/$/,'')]=d);
 const CUSTOM=!!T.custom;const NE=CUSTOM?ALL:ALL.filter(d=>T.regions.includes(d.region));
+function labelOf(d){return d.name+(d.stateCode?', '+d.stateCode:'')+' ('+d.airport+')';}
+const SLUG=d=>d.guide.replace(/\/$/,'');
+function pickHTML(kind,i,from,prompt){const used=new Set(stops.map(s=>s.slug));const list=NE.filter(d=>!used.has(SLUG(d))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]);const id='dl-'+kind+'-'+i;
+  return '<label for="in-'+kind+'-'+i+'">'+prompt+'</label> <span class="tp-pick"><input id="in-'+kind+'-'+i+'" data-'+kind+'="'+i+'" list="'+id+'" placeholder="Town, state or airport code" autocomplete="off" spellcheck="false"><button type="button" data-go="'+kind+'" data-i="'+i+'">Add</button></span><datalist id="'+id+'">'+list.map(([d,n])=>'<option value="'+esc(labelOf(d))+'" label="'+Math.round(n)+' nm"></option>').join('')+'</datalist>';}
+function resolve(text){const t=(text||'').trim().toLowerCase();if(!t)return null;const used=new Set(stops.map(s=>s.slug));const pool=NE.filter(d=>!used.has(SLUG(d)));
+  let m=pool.find(d=>labelOf(d).toLowerCase()===t);if(m)return m;
+  const code=t.toUpperCase();m=pool.find(d=>d.airport===code||d.airport==='K'+code);if(m)return m;
+  const starts=pool.filter(d=>d.name.toLowerCase().startsWith(t));if(starts.length)return starts[0];
+  const has=pool.filter(d=>labelOf(d).toLowerCase().includes(t)||(d.state||'').toLowerCase()===t);return has.length===1?has[0]:null;}
 function nearAlts(slug){const o=BY[slug];return NE.filter(d=>d!==o).map(d=>[d.guide.replace(/\/$/,''),nm(o,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4).map(x=>x[0]);}
 const AP=window.WINGAWAY_AIRPORTS||[];const APX=new Map();AP.forEach(a=>{APX.set(a[0],a);if(a[1])APX.set(a[1],a)});
 const A=window.WingAwayAircraft;const FUEL=window.WINGAWAY_FUEL||[];
@@ -44,8 +53,7 @@ function draw(){
   const nights=stops.reduce((s,x)=>s+x.nights,0),totNm=L.reduce((s,l)=>s+l.d,0),totH=L.reduce((s,l)=>s+l.e.hours,0),fuel=L.filter(l=>l.e.stop).length;
   $('sum').innerHTML='<span><b>'+nights+'</b> nights · <b>'+stops.length+'</b> stop'+(stops.length===1?'':'s')+'</span><span><b>'+Math.round(totNm).toLocaleString()+'</b> nm total</span><span>About <b>'+A.formatTime(totH)+'</b> flying</span><span><b>'+fuel+'</b> leg'+(fuel===1?'':'s')+' likely need'+(fuel===1?'s':'')+' a fuel stop</span><span>'+esc(A.summary(profile()))+'</span>';
   if(!stops.length){$('sum').innerHTML='<span>Start by choosing your first stop below.</span><span>'+esc(A.summary(profile()))+'</span>';
-    const near=NE.map(d=>[d,nm(home,d)]).sort((a,b)=>a[1]-b[1]);
-    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first"><label>Choose your first stop: <select data-first="1"><option value="">Choose a destination…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+(d.stateCode?', '+esc(d.stateCode):'')+' · '+Math.round(n)+' nm</option>').join('')+'</select></label><p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p></li>';
+    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first">'+pickHTML('first',0,home,'Choose your first stop:')+'<p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p></li>';
     drawMap([]);toURL();return;}
   const H=startHome();let day=start,html=H?'<li class="tp-home">Day 1 · '+fmtDate(day)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li>':'<li class="tp-home">Day 1 · '+fmtDate(day)+': trip starts at '+esc(BY[stops[0].slug].name)+' ('+esc(BY[stops[0].slug].airport)+')</li>';
   stops.forEach((s,i)=>{const d=BY[s.slug],l=H?L[i]:L[i-1];
@@ -69,7 +77,7 @@ function legHTML(l){const p=profile();let w='';
   if(l.long)w+=' <span class="tp-warn">Longer than your daily limit; plan an overnight on the way'+((l.a===home||l.b===home)?', or set “Trip starts” to the first stop':'')+'.</span>';
   return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+'</span></li>';}
 function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat,lng:d.lon,address:d.name.replace(/ & .*|,.*/,'')+', '+d.state,checkin:ymd(a),checkout:ymd(b),campaign:'trip-'+T.id});return 'https://www.stay22.com/allez/roam?'+q.toString();}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+'</li>';
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
@@ -99,10 +107,13 @@ defaults();fromURL();
 $('days').addEventListener('change',e=>{const t=e.target;
   if(t.dataset.swap!=null){const i=+t.dataset.swap,old=stops[i].slug;stops[i].alts=[old,...stops[i].alts].filter(x=>x!==t.value);stops[i].slug=t.value;}
   else if(t.dataset.n!=null)stops[+t.dataset.n].nights=+t.value;
-  else if(t.dataset.first!=null&&t.value){stops=[{slug:t.value,nights:2,alts:nearAlts(t.value)}];}
+  else if(t.tagName==='INPUT'&&(t.dataset.first!=null||t.dataset.add!=null)){pick(t);return;}
   else if(t.dataset.add!=null&&t.value){const i=+t.dataset.add,from=BY[stops[i].slug];const alts=NE.filter(d=>d.guide!==t.value+'/').map(d=>[d.guide.replace(/\/$/,''),nm(BY[t.value],d)]).sort((a,b)=>a[1]-b[1]).slice(1,5).map(x=>x[0]);stops.splice(i+1,0,{slug:t.value,nights:1,alts});}
   draw();});
-$('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
+function pick(inp){const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
+  const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();}
+$('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
+$('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
