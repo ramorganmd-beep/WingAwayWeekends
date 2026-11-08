@@ -36,7 +36,7 @@ trips = ''.join(f'<a class="cx-trip" href="../trips/{t}/"><strong>{e(n)}</strong
 models = ''.join(f'<button type="button" class="cx-model" data-id="{i}">{e(n)}</button>' for i, n in MODELS)
 
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40">
-<meta name="robots" content="noindex,nofollow"><meta name="description" content="A preview of a WingAway Weekends page for Cirrus owners: aircraft profiles, a getaway collection and a sample group fly-out.">
+<meta name="robots" content="noindex,nofollow"><meta name="description" content="A preview of a WingAway Weekends page for Cirrus owners: aircraft profiles, a getaway collection and a sample group fly-in.">
 <title>For Cirrus Owners (Preview) | WingAway Weekends</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
 <style>
 .cx{{max-width:1080px;padding:44px 0 70px}}.cx h1{{margin:10px 0 12px}}.cx h2{{margin:44px 0 6px}}.cx .sub{{margin:0 0 16px;color:#51666f}}
@@ -77,11 +77,11 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 
 <h2>4. Fly together</h2>
 <div class="cx-fly">
-<div><span class="tag">Sample fly-out · example only</span><h3>The Great Smoky Mountains, a group weekend</h3>
+<div><span class="tag">Sample Cirrus-hosted fly-in · example only</span><h3>The Great Smoky Mountains, a group weekend</h3>
 <p>A short hop for most of the Southeast and Midwest. Fly in on Friday to Gatlinburg–Pigeon Forge (KGKT), or to Knoxville (KTYS), home of the Cirrus Vision Center, 23 nm away. Saturday in the park: Cades Cove at sunrise, a picnic and a waterfall hike, then dinner together in Townsend.</p>
 <p><a href="../smoky-mountains/">See the Great Smoky Mountains guide</a> · Nearby: <a href="../asheville/">Asheville</a>, <a href="../highlands-cashiers/">Highlands–Cashiers</a></p>
 <button class="cx-signup" type="button" disabled>Sign-up opens when dates are announced</button></div>
-<ul><li>Dates, host and event details to be set</li><li>Arrival at KGKT (5,506 ft) or KTYS</li><li>An optional stop at the Cirrus Vision Center, if Cirrus hosts</li><li>Route and fuel options for each Cirrus model</li><li>Lodging and dining picks from the guide</li><li>See who’s flying in before you go</li></ul>
+<ul><li>Dates, host and event details to be set</li><li>Arrival at KGKT (5,506 ft) or KTYS</li><li>An optional stop at the Cirrus Vision Center, if Cirrus hosts</li><li>Route and fuel options for each Cirrus model; pilots cover their own flying and lodging</li><li>Lodging and dining picks from the guide</li><li>See who’s flying in before you go</li></ul>
 </div>
 
 <p class="cx-note">This page is a preview prepared for discussion. WingAway Weekends is independent and is not affiliated with or endorsed by Cirrus Aircraft. Times and fuel are planning estimates, not flight plans.</p>
