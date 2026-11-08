@@ -20,7 +20,7 @@ GUIDE = dict(
         around_title='Leave the car behind.',
         around='The French Quarter is best on foot; the St. Charles streetcar reaches the Garden District, and a rideshare from the airport takes about 15 minutes.'),
     stay=dict(title='A grand hotel or a French Quarter classic.', intro='Rates and availability need travel dates. Book early for festival weekends.',
-        cards=[('CBD · Luxury', 'Windsor Court Hotel', 'A refined, art-filled hotel a short walk from the Quarter, with afternoon tea and a spa.', 'https://www.windsorcourthotel.com/'),
+        cards=[('CBD · Luxury', 'Windsor Court Hotel', 'A refined, art-filled hotel a short walk from the Quarter, with afternoon tea and a spa.', 'https://thewindsorcourt.com/'),
                ('French Quarter · Since 1886', 'Hotel Monteleone', 'A family-owned landmark on Royal Street, home of the revolving Carousel Bar.', 'https://www.hotelmonteleone.com/'),
                ('CBD · Historic', 'The Roosevelt New Orleans', 'A gilded 1893 grand hotel with the Sazerac Bar and a spa.', 'https://www.theroosevelthotel.com/')]),
     eat=dict(title='Creole classics and jazz brunch.', intro='Reserve weekend dinners and brunch well ahead; several old-line restaurants keep a dress code.',

@@ -21,7 +21,7 @@ GUIDE = dict(
         around='Old Town is walkable; a car covers the airport, INFINITY and Ocean Springs.'),
     stay=dict(title='A small inn or a resort on the coast.', intro='Rates and availability need travel dates.',
         cards=[('Old Town · Inn', 'The Bay Town Inn', 'A small inn across from the beach in Old Town.', 'https://baytowninn.com/'),
-               ('Bay St. Louis · Resort', 'Hollywood Casino Gulf Coast', 'A resort on the bay with a golf course and pools.', 'https://www.hollywoodgulfcoast.com/'),
+               ('Bay St. Louis · Resort', 'Hollywood Casino Gulf Coast', 'A resort on the bay with a golf course and pools.', 'https://www.pennentertainment.com/hollywood-gulf-coast/'),
                ('Biloxi · Luxury', 'Beau Rivage', 'A large resort with a spa, about 45 minutes east.', 'https://beaurivage.mgmresorts.com/')]),
     eat=dict(title='Seafood on Beach Boulevard.', intro='Reserve weekend dinners.',
         cards=[('Friday dinner · On the bay', '200 North Beach', 'Seafood, steaks and cocktails with views of the bay.', 'https://200northbeach.com/'),

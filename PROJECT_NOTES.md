@@ -482,3 +482,6 @@ Matches the deck cover: on screens over 760px the hero keeps the photo's proport
 ## Build your own trip
 `docs/trips/build/` (built by `build_custom()` in tools/trips/build_trips.py) uses trip.js with `TRIP.custom=true`: it starts with no stops and shows a first-stop picker of every destination sorted by distance from home; the add-stop list offers the 20 nearest; swap options are the 4 nearest; stops can be removed down to none. The trips index has a "Build your own trip" banner above the route cards (index_template.html). trip.js now defaults the aircraft to pa28 or, when the menu is Cirrus-only, sr22.
 On the build page, the first-stop and add-stop pickers are text inputs with a datalist (all destinations, nearest first); typing a name, a partial name, an airport code (with or without K) or a state resolves to a destination on Enter, Add or a datalist pick.
+
+## Link check
+`python3 tools/guides/linkcheck.py [--workers 16]` checks every outside link on docs/*/index.html (skipping our own pages, photo-credit links, Google Maps, Stay22 and mailto) with the honest WingAwayWeekends-linkcheck/1.0 User-Agent, and writes `reports/linkcheck-YYYY-MM-DD.md` listing only broken, parked and redirecting links by page, plus a list of sites that block automated checks. Intended to run monthly.
