@@ -96,7 +96,7 @@ P.append('<section id="breweries">' + head('07', 'Breweries & craft drinks', 'Ma
     '<div class="grid three">' +
     card('Mills River · Near the airport', 'Sierra Nevada Brewing',
          'The California brewer’s large East Coast brewery, with a restaurant, gardens and tours, just minutes from KAVL. An easy first or last stop of the weekend. Check tour times and hours.',
-         'https://sierranevada.com/visit/mills-river-nc/') +
+         'https://sierranevada.com/visit/mills-river') +
     card('Downtown · South Slope', 'South Slope breweries',
          'A cluster of taprooms on the south side of downtown, walkable from many restaurants. Check current openings on the visitor bureau’s site.',
          'https://www.exploreasheville.com/', 'Explore Asheville') +
