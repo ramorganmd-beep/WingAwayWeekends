@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40">
+<meta name="description" content="Plan your own multi-stop flying trip from any WingAway Weekends destinations, with dates, legs, fuel-stop flags and a guide for every stop.">
+<title>Build Your Own Flying Trip | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/trips/build/"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../../style.css">
+<style>
+.tp{max-width:980px}.tp-intro{max-width:820px;padding:52px 0 8px}.tp-intro h1{margin:10px 0 12px}
+.tp-badge{display:inline-block;background:#ba7d2f;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:3px;margin-left:8px;vertical-align:middle}
+.tp-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px 20px;padding:18px 22px;background:#eef2f4;border:1px solid #dbe3e9;border-radius:3px;margin:18px 0}
+.tp-bar label{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#526471;margin-bottom:6px}
+.tp-bar input,.tp-bar select{font-size:16px;padding:9px 11px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40;width:100%;box-sizing:border-box}
+.tp-sum{display:flex;flex-wrap:wrap;gap:10px 26px;font-size:15px;color:#33475a;margin:4px 0 16px}.tp-sum b{color:#102d40}
+.tp-map{background:#f7f4ee;border:1px solid #e3ddd1;border-radius:3px;overflow:hidden}.tp-map svg{display:block;width:100%;height:auto;overflow:hidden}
+.tp-map path.st{fill:#ebe8e1;stroke:#fff;stroke-width:1}.tp-map path.leg{fill:none;stroke:#ba7d2f;stroke-width:2.2;stroke-dasharray:6 4}
+.tp-map circle.stop{fill:#173e51;stroke:#fff;stroke-width:2}.tp-map circle.home{fill:#ba7d2f;stroke:#fff;stroke-width:2}
+.tp-map text{font:700 11px system-ui,sans-serif;fill:#fff;pointer-events:none}.tp-map text.nm{fill:#102d40;font-weight:600;paint-order:stroke;stroke:#f7f4ee;stroke-width:3.5px}
+.tp-days{list-style:none;margin:22px 0 0;padding:0}
+.tp-leg{display:flex;gap:12px;align-items:flex-start;padding:12px 16px;margin:0 0 10px 28px;border-left:3px dashed #d7b98a;font-size:15px;color:#33475a}
+.tp-leg b{color:#102d40}.tp-warn{color:#8a3b12;font-weight:600}
+.tp-stop{display:grid;grid-template-columns:200px 1fr;gap:18px;background:#fff;border:1px solid #dbe3e9;border-radius:3px;padding:14px;margin:0 0 10px}
+.tp-stop img{width:200px;aspect-ratio:4/3;object-fit:cover;border-radius:2px;display:block;background:#eef2f4}
+.tp-stop h3{margin:2px 0 4px;font-size:21px}.tp-stop .when{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:#8a571c}
+.tp-stop p{margin:6px 0;font-size:15px;line-height:1.45;color:#33475a}
+.tp-ctl{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin-top:10px;font-size:14px}
+.tp-ctl select{font-size:14px;padding:6px 8px;border:1px solid #bac9d4;border-radius:3px;background:#fff;max-width:100%}
+.tp-ctl button,.tp-actions button{font:inherit;font-size:14px;padding:7px 12px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40;cursor:pointer}
+.tp-add{margin:0 0 10px 28px;font-size:14px}.tp-add select{font-size:14px;padding:6px 8px;border:1px solid #bac9d4;border-radius:3px;max-width:100%}
+.tp-home{background:#102d40;color:#fff;border-radius:3px;padding:14px 18px;margin:0 0 10px;font-size:16px}
+.tp-actions{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 10px}.tp-actions button.primary{background:#102d40;color:#fff;border-color:#102d40}
+.tp-tips{background:#fbf6ec;border:1px solid #eadcc0;border-radius:3px;padding:16px 20px;margin:20px 0 50px;font-size:15px;line-height:1.55;color:#33475a}
+.tp-tips h2{font-size:20px;margin:0 0 8px}.tp-msg{font-size:14px;color:#2d6a3e;min-height:20px}
+@media (max-width:640px){.tp-intro{padding-top:30px}.tp-stop{grid-template-columns:minmax(0,1fr)}.tp-stop>div{min-width:0}.tp-ctl label{max-width:100%}.tp-ctl select{width:100%}.tp-stop img{width:100%}.tp-leg,.tp-add{margin-left:8px}}
+@media print{header,footer,.tp-bar,.tp-ctl,.tp-add,.tp-actions,.skip{display:none!important}.tp-stop{break-inside:avoid}}
+</style></head><body>
+<a class="skip" href="#main">Skip to the trip</a><header><a href="../../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:14px"><a class="header-link" href="../">Trips</a><a class="header-link" href="../../map/">Map</a><a class="header-link" href="../../fly-to-lunch/">Fly to lunch</a></span></header>
+<main id="main" class="tp">
+<div class="tp-intro"><span class="eyebrow"><a href="../">Multi-stop trips</a></span><h1>Build your own trip</h1>
+<p class="lede">Start from your home airport, choose your first stop from any of our destinations, then add stops one at a time. Every leg shows distance, time and fuel for your airplane.</p>
+<p>Pick your start date and aircraft first. Your trip link keeps every choice, so you can share it or come back to it later.</p></div>
+<section class="tp-bar" aria-label="Trip settings">
+<div><label for="home">Home airport</label><input id="home" list="home-list" autocomplete="off" placeholder="e.g. KMYR"><datalist id="home-list"></datalist></div>
+<div><label for="start">Start date</label><input id="start" type="date"></div>
+<div><label for="ac">Aircraft</label><select id="ac"></select></div>
+<div><label for="mode">Trip starts</label><select id="mode"><option value="home">From my home airport</option><option value="stop">At the first stop</option></select></div><div><label for="pace">Most flying in a day</label><select id="pace"><option value="3">3 hours</option><option value="4" selected>4 hours</option><option value="5">5 hours</option><option value="6">6 hours</option></select></div>
+</section>
+<div class="tp-sum" id="sum" aria-live="polite"></div>
+<div class="tp-map"><svg id="m" viewBox="0 0 900 620" role="img" aria-label="Map of the trip route"></svg></div>
+<ol class="tp-days" id="days"></ol>
+<div class="tp-actions"><button class="primary" id="share">Copy trip link</button><button id="ff">Copy route for ForeFlight</button><button id="ics">Add to calendar (.ics)</button><button id="print">Print</button><button id="reset">Reset trip</button></div>
+<p class="tp-msg" id="msg" aria-live="polite"></p>
+<div class="tp-tips"><h2>Before you go</h2>
+<p><b>Build in a weather day.</b> Leave a spare day somewhere in the trip, and check each leg’s weather the day before you fly it.</p>
+<p><b>These are planning estimates.</b> Distances are straight lines, times assume no wind, and fuel-stop flags use your aircraft profile with its reserve, and suggested fuel stops come from FAA airport data, so call ahead to confirm fuel and hours. Check weather, NOTAMs, the chart supplement, airspace and performance for every leg. Nothing here is booked or confirmed.</p>
+<p><b>About hotel links.</b> “Compare hotels” links go to our partner Stay22 with your dates filled in. They are affiliate links: we may earn a commission at no cost to you. The hotels in each guide are our own picks and are never paid.</p></div>
+</main>
+<footer><a class="brand" href="../../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Build%20Your%20Own%20Flying%20Trip">Tell us what you think of trip planning</a></p></footer>
+<script src="../../destinations.js"></script><script src="../../airports-us.js"></script><script src="../../airport-suggest.js"></script><script src="../../aircraft.js"></script><script src="../fuel-airports.js"></script><script src="../../map/d3.min.js"></script><script src="../../map/topojson-client.min.js"></script>
+<script>window.TRIP={"id": "build", "custom": true, "route": [], "regions": []};</script><script src="../trip.js"></script>
+<script src="/contact.js" defer></script></body></html>

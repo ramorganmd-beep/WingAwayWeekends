@@ -141,7 +141,26 @@ def main():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html)
         print('wrote', out.relative_to(ROOT))
+    build_custom()
     return ROUTES
+
+CUSTOM = dict(id='build', title='Build Your Own Flying Trip', h1='Build your own trip',
+    desc='Plan your own multi-stop flying trip from any WingAway Weekends destinations, with dates, legs, fuel-stop flags and a guide for every stop.',
+    lede='Start from your home airport, choose your first stop from any of our destinations, then add stops one at a time. Every leg shows distance, time and fuel for your airplane.',
+    wx='Leave a spare day somewhere in the trip, and check each leg’s weather the day before you fly it.')
+def build_custom():
+    r = CUSTOM
+    cfg = {'id': r['id'], 'custom': True, 'route': [], 'regions': []}
+    html = TPL
+    for k, v in [('__TRIP__', json.dumps(cfg)), ('__TITLE__', r['title']), ('__DESC__', r['desc']), ('__H1__', r['h1']),
+                 ('__LEDE__', r['lede']), ('__WX__', r['wx']), ('__SUBJ__', urllib.parse.quote(r['title'])), ('__ID__', r['id'])]:
+        html = html.replace(k, v)
+    html = html.replace('<p>Pick your start date and aircraft. Swap any stop, change the nights or add a stop, and the dates, legs and fuel-stop flags update.</p>',
+                        '<p>Pick your start date and aircraft first. Your trip link keeps every choice, so you can share it or come back to it later.</p>')
+    out = ROOT / 'docs/trips/build/index.html'
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(html)
+    print('wrote', out.relative_to(ROOT))
 if __name__ == '__main__':
     main()
 
