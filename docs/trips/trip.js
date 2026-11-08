@@ -14,6 +14,7 @@ function pickHTML(kind,i,from,prompt){const used=new Set(stops.map(s=>s.slug));c
 function resolve(text){const t=(text||'').trim().toLowerCase();if(!t)return null;const used=new Set(stops.map(s=>s.slug));const pool=NE.filter(d=>!used.has(SLUG(d)));
   let m=pool.find(d=>labelOf(d).toLowerCase()===t);if(m)return m;
   const code=t.toUpperCase();m=pool.find(d=>d.airport===code||d.airport==='K'+code);if(m)return m;
+  if(/^[a-z0-9]{3,4}$/i.test(t)){const ap=(window.WINGAWAY_AIRPORTS||[]).find(a=>a[0]===code||a[1]===code||a[0]==='K'+code);if(ap){const o={lat:ap[5],lon:ap[6]};const near=pool.map(d=>[d,nm(o,d)]).sort((a,b)=>a[1]-b[1])[0];if(near&&near[1]<=40){resolveNote=ap[0]+' ('+ap[2]+') is '+Math.round(near[1])+' nm from our '+near[0].name+' guide, which uses '+near[0].airport+'. Added '+near[0].name+'; the legs are figured to '+near[0].airport+'.';return near[0];}}}
   const starts=pool.filter(d=>d.name.toLowerCase().startsWith(t));if(starts.length)return starts[0];
   const has=pool.filter(d=>labelOf(d).toLowerCase().includes(t)||(d.state||'').toLowerCase()===t);return has.length===1?has[0]:null;}
 function nearAlts(slug){const o=BY[slug];return NE.filter(d=>d!==o).map(d=>[d.guide.replace(/\/$/,''),nm(o,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4).map(x=>x[0]);}
@@ -110,11 +111,12 @@ $('days').addEventListener('change',e=>{const t=e.target;
   else if(t.tagName==='INPUT'&&(t.dataset.first!=null||t.dataset.add!=null)){pick(t);return;}
   else if(t.dataset.add!=null&&t.value){const i=+t.dataset.add,from=BY[stops[i].slug];const alts=NE.filter(d=>d.guide!==t.value+'/').map(d=>[d.guide.replace(/\/$/,''),nm(BY[t.value],d)]).sort((a,b)=>a[1]-b[1]).slice(1,5).map(x=>x[0]);stops.splice(i+1,0,{slug:t.value,nights:1,alts});}
   draw();});
-function pick(inp){const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
-  const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();}
+let resolveNote='';
+function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
+  const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
 $('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
-function say(m){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},4000);}
+function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
 $('ff').onclick=()=>stops.length?copy((startHome()?[home.code,...stops.map(s=>BY[s.slug].airport),home.code]:stops.map(s=>BY[s.slug].airport)).join(' '),'Route copied. Paste it into ForeFlight’s route field.'):say('Add a stop first.');
