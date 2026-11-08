@@ -22,7 +22,7 @@ GUIDE = dict(
     stay=dict(title='A brewhouse, a grande dame or a riverside hideaway.', intro='Rates and availability need travel dates.',
         cards=[('The Pearl · Luxury', 'Hotel Emma', 'A celebrated hotel in an 1894 brewhouse at the Pearl, on the River Walk’s quieter northern stretch.', 'https://thehotelemma.com/'),
                ('Downtown · Historic', 'The St. Anthony', 'A grand 1909 hotel downtown, now a Luxury Collection hotel, with a rooftop pool.', 'https://www.marriott.com/en-us/hotels/satlc-the-st-anthony-a-luxury-collection-hotel-san-antonio/overview/'),
-               ('River Walk · Boutique', 'Hotel Havana', 'A small 1914 hotel on the River Walk with a moody bar.', 'https://www.bunkhousehotels.com/hotel-havana/')]),
+               ('River Walk · Boutique', 'Hotel Valencia Riverwalk', 'A Spanish-colonial boutique hotel on Houston Street, with river-view balconies and a tequila and mezcal bar on the River Walk.', 'https://www.hotelvalencia-riverwalk.com/')]),
     eat=dict(title='Two dinners. One Tex-Mex institution.', intro='Reserve weekend dinners.',
         cards=[('Friday dinner · The Pearl', 'Supper', 'Seasonal American cooking at Hotel Emma.', 'https://www.supperatemma.com/'),
                ('Saturday dinner · River Walk', 'Boudro’s Texas Bistro', 'A River Walk favorite known for tableside guacamole and Texas dishes.', 'https://www.boudros.com/'),
