@@ -29,8 +29,8 @@ SKIP_PAGES = {'photo-options', 'hero-options', 'cirrus'}
 PARKED = ('domain is for sale', 'buy this domain', 'this domain may be for sale', 'hugedomains.com', 'sedoparking',
           'afternic.com', 'parkingcrew', 'bodis.com', 'this domain has expired', 'domain has expired and is pending',
           'godaddy.com/domainsearch', 'is parked free', 'this web page is parked')
-CLOSED = ('permanently closed', 'closed permanently', 'closed for good', 'has closed its doors', 'have closed our doors',
-          'we have closed', 'is now closed', 'ceased operations')
+CLOSED = ('is permanently closed', 'are permanently closed', 'has permanently closed', 'have permanently closed',
+          'closed permanently', 'closed for good', 'has closed its doors', 'have closed our doors', 'ceased operations')
 A_RE = re.compile(r'<a\b[^>]*href="(https?://[^"#]+)[^"]*"[^>]*>(.*?)</a>', re.S | re.I)
 
 def base(host):
@@ -69,7 +69,8 @@ def check(url):
             if code in (404, 410) or code >= 500:
                 last = ('broken', f'HTTP {code}', r.url)
                 continue
-            if any(p in body for p in CLOSED):
+            text = re.sub(r'<(script|style)\b.*?</\1>', ' ', body, flags=re.S)
+            if any(p in text for p in CLOSED):
                 return 'closed', 'page mentions a closure', r.url
             if any(p in body for p in PARKED):
                 return 'parked', 'looks like a parked or for-sale domain', r.url
