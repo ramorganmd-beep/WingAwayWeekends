@@ -113,7 +113,7 @@ $('days').addEventListener('change',e=>{const t=e.target;
   draw();});
 let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
-  const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
+  inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
 $('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
