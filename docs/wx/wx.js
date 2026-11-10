@@ -546,6 +546,15 @@
       if (k === 'me' && f === 'xw') A.saveXwind(S.me.xw);
       saveSets(S); draw();
     });
+    // Save button: reads every box in the table (the boxes also save as you leave them) and confirms.
+    $('minssave').addEventListener('click', () => {
+      const S = readSets();
+      document.querySelectorAll('#minsbox [data-m]').forEach(el => { const [k, f] = el.dataset.m.split('.'); S[k][f] = f === 'day' ? el.value === '1' : Math.max(0, +el.value || 0); });
+      saveSets(S); A.saveXwind(S.me.xw);
+      const btn = $('minssave'); btn.textContent = 'Saved ✓'; btn.classList.add('saved'); $('minsmsg').textContent = 'Your minimums are saved in this browser.';
+      setTimeout(() => { btn.textContent = 'Save my minimums'; btn.classList.remove('saved'); $('minsmsg').textContent = ''; }, 3000);
+      draw();
+    });
     $('minsreset').addEventListener('click', () => { try { localStorage.removeItem(SETS_KEY); } catch (e) {} $('minsbox').innerHTML = minsTable(readSets()); draw(); });
     $('flown').addEventListener('change', () => { const t = findAirport($('to').value); if (t) setFlown(t.code, $('flown').checked); draw(); });
     // Aircraft: the profile saved on the homepage, any preset, or the default estimate. Picking one here
