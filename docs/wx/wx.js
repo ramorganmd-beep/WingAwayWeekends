@@ -344,13 +344,72 @@
     return h + '<p class="wx-confirm">Advisories are checked against a straight line, not your filed route, and only within 25 nm of it. Confirm with your flight planning resources and an official briefing.</p></div>';
   }
 
+  // ---------- weather window chart (concept inspired by Logan Greenlee's Weather Window) ----------
+  // One bar per departure hour from 6 AM on the planned day to 9 PM the next day. Bars above the line are
+  // within the pilot's settings (taller = more margin on crosswind); below the line need a look or are
+  // outside them. Runs of 2+ good hours are boxed as windows. Tapping a bar plans that departure time.
+  const tzInput = (t, tz) => { const q = parts(t, tz); return q.year + '-' + pad(q.month) + '-' + pad(q.day) + 'T' + pad(q.hour % 24) + ':00'; };
+  function score(r, limit) {
+    if (!r.lvl) return null;
+    if (r.lvl === 'outlook') return { s: 0.7, c: 'out' };
+    if (r.lvl === 'check') return { s: -1, c: 'chk' };
+    if (r.lvl === 'below') {
+      const severe = [r.pd, r.pa].some(p => p && ((p.tstm || 0) >= 40 || (p.kind === 's' && category(p) === 'LIFR')));
+      return { s: severe ? -3 : -2, c: severe ? 'sev' : 'bad' };
+    }
+    const xs = [r.ad.x, r.aa.x].filter(x => x && !x.calm).map(x => x.xg), xg = xs.length ? Math.max(...xs) : 0;
+    return { s: 1 + 2 * Math.max(0, (limit - xg) / limit), c: 'ok' };
+  }
+  function windowChart(rate, from, to, depT, tzF, tzT, limit, field) {
+    const q = parts(depT, tzF), start = toUTC(q.year + '-' + pad(q.month) + '-' + pad(q.day) + 'T06:00', tzF), n = 40;
+    const bars = Array.from({ length: n }, (_, i) => { const r = rate(start + i * H, null); return Object.assign(r, { sc: score(r, limit), i }); });
+    if (!bars.some(b => b.sc)) return '';
+    const W = 960, x0 = 36, bw = (W - x0 - 8) / n, mid = 92, u = 22, Hh = 196;
+    const col = { ok: '#3f8f4f', out: '#b9c3cb', chk: '#d39a2c', bad: '#c2462b', sev: '#7a3a8c' };
+    let g = '';
+    // night shading at the departure airport
+    bars.forEach(b => { const sn = sun(from, b.dep, tzF); if (sn && (b.dep > sn.dusk || b.dep < sn.dawn)) g += '<rect x="' + (x0 + b.i * bw) + '" y="8" width="' + bw + '" height="' + (Hh - 40) + '" fill="#e6eaee"/>'; });
+    g += '<line x1="' + x0 + '" x2="' + (W - 8) + '" y1="' + mid + '" y2="' + mid + '" stroke="#9aa7b2" stroke-width="1"/>';
+    // windows: 2+ consecutive good hours
+    const wins = []; let cur = null;
+    // Boxed windows are daylight only (take-off and landing both before dark); night bars still show their color.
+    const dark = b => { const d1 = daylight(from, b.dep, tzF, ''), d2 = daylight(to, b.arr, tzT, ''); return (d1 && d1.night) || (d2 && d2.night); };
+    bars.forEach(b => { if (b.sc && b.sc.c === 'ok' && !dark(b)) { if (!cur) wins.push(cur = [b]); else cur.push(b); } else cur = null; });
+    const W2 = wins.filter(w => w.length >= 2);
+    W2.forEach(w => {
+      const a = w[0], z = w[w.length - 1], avg = w.reduce((s, b) => s + b.sc.s, 0) / w.length, xa = x0 + a.i * bw - 1, xz = x0 + (z.i + 1) * bw + 1;
+      g += '<rect x="' + xa + '" y="10" width="' + (xz - xa) + '" height="' + (mid + 6 - 10) + '" rx="6" fill="none" stroke="#2a5d9f" stroke-width="1.5"/>';
+      g += '<text x="' + ((xa + xz) / 2) + '" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#2a5d9f">' + (avg >= 2.3 ? 'Great' : 'Good') + '</text>';
+    });
+    bars.forEach(b => {
+      if (!b.sc) return;
+      const hgt = Math.abs(b.sc.s) * u, y = b.sc.s > 0 ? mid - hgt : mid, x = x0 + b.i * bw + 1.5;
+      const L = LEVEL[b.lvl][0] + ' · leave ' + fmtT(b.dep, tzF) + ', land ' + fmtT(b.arr, tzT) + (b.ad.notes.concat(b.aa.notes).length ? ' · ' + b.ad.notes.concat(b.aa.notes).join(' · ') : '');
+      g += '<rect class="wx-bar-h" data-pick="' + field + '" data-t="' + tzInput(b.dep, tzF) + '" x="' + x + '" y="' + y + '" width="' + (bw - 3) + '" height="' + Math.max(2, hgt) + '" rx="2" fill="' + col[b.sc.c] + '"><title>' + esc(L) + '</title></rect>';
+    });
+    // planned departure marker
+    const pi = Math.round((depT - start) / H);
+    if (pi >= 0 && pi < n) g += '<path d="M' + (x0 + (pi + 0.5) * bw) + ' ' + (Hh - 30) + 'l-6 9h12z" fill="#102d40"/>';
+    // hour labels every 3 hours, day names at 6 AM
+    bars.forEach(b => {
+      const hr = parts(b.dep, tzF).hour % 24;
+      if (hr % 3 === 0) g += '<text x="' + (x0 + (b.i + 0.5) * bw) + '" y="' + (Hh - 34) + '" text-anchor="middle" font-size="10" fill="#647784">' + (hr === 0 ? '12a' : hr === 12 ? '12p' : hr > 12 ? (hr - 12) + 'p' : hr + 'a') + '</text>';
+      if (hr === 6) g += '<text x="' + (x0 + b.i * bw) + '" y="' + (Hh - 4) + '" font-size="11" font-weight="700" fill="#102d40">' + esc(new Date(b.dep).toLocaleDateString([], { timeZone: tzF, weekday: 'short', month: 'short', day: 'numeric' })) + '</text>';
+    });
+    g += '<text x="4" y="' + (mid - 30) + '" font-size="10" fill="#647784">Good</text><text x="4" y="' + (mid + 44) + '" font-size="10" fill="#647784">Look</text>';
+    const sum = W2.length ? W2.length + ' window' + (W2.length > 1 ? 's' : '') + ': ' + W2.map(w => fmtT(w[0].dep, tzF) + '–' + new Date(w[w.length - 1].dep + H).toLocaleTimeString([], { timeZone: tzF, hour: 'numeric', minute: '2-digit' })).join(' · ') : 'No departure window within your settings in this range';
+    return '<div class="wx-win"><div class="wx-win-head"><strong>Departure windows</strong> <span>' + esc(sum) + '</span></div>' +
+      '<svg viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="' + esc('Departure window chart from ' + from.code + ' to ' + to.code + '. ' + sum) + '">' + g + '</svg>' +
+      '<p class="wx-key">Bars are departure hours from ' + esc(from.code) + ': <span style="color:#3f8f4f">▲ within your settings</span> (taller = more crosswind margin) · <span style="color:#d39a2c">▼ check closely</span> · <span style="color:#c2462b">▼ outside your settings</span> · <span style="color:#7a3a8c">▼ storms or LIFR</span> · <span style="color:#8a96a0">▲ outlook only</span> · shaded = dark at ' + esc(from.code) + ' · boxes = daylight windows of 2+ hours · ▲ under the axis = your planned time. Tap a bar to plan that time.</p>' +
+      '<p class="wx-credit">Weather window concept inspired by Logan Greenlee.</p></div>';
+  }
+
   async function leg(title, from, to, depT, win, prof, mins, limit, dayOnly) {
     const [sf, st] = await Promise.all([stationFor(from), stationFor(to)]);
     const tzF = zoneOf(from), tzT = zoneOf(to);
     const dist = nm(from, to), est = A.estimate(dist, prof), blockH = est.hours;
-    const rows = [];
-    for (let o = -win; o <= win; o++) {
-      const dep = depT + o * H, arr = dep + blockH * H;
+    const rate = (dep, o) => {
+      const arr = dep + blockH * H;
       const pd = sf && point(sf.rec, dep), pa = st && point(st.rec, arr);
       const ad = pd ? assess(from, pd, mins, limit) : null, aa = pa ? assess(to, pa, mins, limit) : null;
       const order = ['good', 'outlook', 'check', 'below'];
@@ -361,8 +420,10 @@
         if (dayOnly) { const l = d.night ? 'below' : 'check'; if (order.indexOf(l) > order.indexOf(a.level)) a.level = l; }
       });
       const lvl = !ad || !aa ? null : order[Math.max(order.indexOf(ad.level), order.indexOf(aa.level))];
-      rows.push({ o, dep, arr, pd, pa, ad, aa, lvl });
-    }
+      return { o, dep, arr, pd, pa, ad, aa, lvl };
+    };
+    const rows = [];
+    for (let o = -win; o <= win; o++) rows.push(rate(depT + o * H, o));
     const plan = rows.find(r => r.o === 0);
     let verdict;
     if (!plan.lvl) verdict = 'The forecast doesn’t reach this time yet. NBM station forecasts run about 8 days ahead; check back closer to the trip.';
@@ -377,6 +438,7 @@
     h += '<p class="wx-meta">' + esc(fmtDay(depT, tzF)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
+    h += windowChart(rate, from, to, depT, tzF, tzT, limit, title === 'Going' ? 'dep' : 'ret');
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
@@ -438,6 +500,7 @@
       '<option value="default">Default estimate (150 kt)</option>';
     ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
     try { $('night').value = localStorage.getItem('wingaway-night') === 'day' ? 'day' : 'ok'; } catch (e) {}
+    $('out').addEventListener('click', e => { const b = e.target.closest('[data-pick]'); if (!b) return; $(b.dataset.pick).value = b.dataset.t; draw(); });
     ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw', 'ac', 'night'].forEach(id => $(id).addEventListener('change', draw));
     draw();
   }
