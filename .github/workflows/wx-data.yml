@@ -1,0 +1,50 @@
+# GitHub Pages backup site + weather outlook data.
+# Publishes docs/ (the same files Cloudflare serves at wingawayweekends.com) to
+# https://ramorganmd-beep.github.io/WingAwayWeekends/, and adds wx/data/: the latest NOAA National
+# Blend of Models station guidance, trimmed to U.S. airports and WingAway destinations
+# (tools/wx/nbm.py), and wx/data/adv.json: current AIRMETs, SIGMETs, CWAs and PIREPs (tools/wx/advisories.py).
+# Runs on every push to main and every hour for fresh forecasts and advisories.
+# Requires Settings > Pages > Source: "GitHub Actions".
+name: Weather data (NBM)
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '25 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: wx-data
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Copy the website
+        run: cp -r docs site
+      - name: Fetch and trim the NBM run
+        continue-on-error: true   # if NOAA is down, still publish the website
+        run: python3 tools/wx/nbm.py site/wx/data
+      - name: Fetch current advisories
+        continue-on-error: true
+        run: python3 tools/wx/advisories.py site/wx/data
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
