@@ -93,5 +93,18 @@
     return g;
   }
 
-  window.WingAwayAircraft = { CIRRUS_ONLY: CIRRUS_ONLY, PRESETS: PRESETS, FIELDS: FIELDS, GEARS: GEARS, valid: valid, load: load, save: save, loadGear: loadGear, saveGear: saveGear, estimate: estimate, formatTime: formatTime, summary: summary };
+  // Crosswind limit (knots) for the weather outlook. Kept apart from the performance profile so it also
+  // works with the default estimate. A pilot's own limit, not a POH value.
+  var XWIND_KEY = 'wingaway-xwind', XWIND_DEFAULT = 15;
+  function loadXwind() {
+    try { var v = Number(localStorage.getItem(XWIND_KEY)); return v >= 3 && v <= 50 ? v : XWIND_DEFAULT; } catch (e) { return XWIND_DEFAULT; }
+  }
+  function saveXwind(v) {
+    v = Math.round(Number(v));
+    if (!(v >= 3 && v <= 50)) v = XWIND_DEFAULT;
+    try { if (v === XWIND_DEFAULT) localStorage.removeItem(XWIND_KEY); else localStorage.setItem(XWIND_KEY, String(v)); } catch (e) {}
+    return v;
+  }
+
+  window.WingAwayAircraft = { XWIND_DEFAULT: XWIND_DEFAULT, loadXwind: loadXwind, saveXwind: saveXwind, CIRRUS_ONLY: CIRRUS_ONLY, PRESETS: PRESETS, FIELDS: FIELDS, GEARS: GEARS, valid: valid, load: load, save: save, loadGear: loadGear, saveGear: saveGear, estimate: estimate, formatTime: formatTime, summary: summary };
 })();
