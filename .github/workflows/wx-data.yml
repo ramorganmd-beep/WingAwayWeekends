@@ -1,8 +1,13 @@
-# Weather outlook data: every 3 hours, fetch the latest NOAA National Blend of Models station
-# guidance, trim it to U.S. airports and WingAway destinations (tools/wx/nbm.py), and publish the
-# small JSON files on GitHub Pages, where the weather outlook page reads them.
+# GitHub Pages backup site + weather outlook data.
+# Publishes docs/ (the same files Cloudflare serves at wingawayweekends.com) to
+# https://ramorganmd-beep.github.io/WingAwayWeekends/, and adds wx/data/: the latest NOAA National
+# Blend of Models station guidance, trimmed to U.S. airports and WingAway destinations
+# (tools/wx/nbm.py). Runs on every push to main and every 3 hours for fresh forecasts.
+# Requires Settings > Pages > Source: "GitHub Actions".
 name: Weather data (NBM)
 on:
+  push:
+    branches: [main]
   schedule:
     - cron: '25 */3 * * *'
   workflow_dispatch:
@@ -22,8 +27,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Copy the website
+        run: cp -r docs site
       - name: Fetch and trim the NBM run
-        run: python3 tools/wx/nbm.py site/data
+        continue-on-error: true   # if NOAA is down, still publish the website
+        run: python3 tools/wx/nbm.py site/wx/data
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
