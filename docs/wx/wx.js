@@ -188,13 +188,20 @@
     return h + '</div></section>';
   }
 
+  function selectedProfile() {
+    const v = $('ac').value;
+    if (v === 'saved') return A.load();
+    if (v === 'default') return null;
+    return A.PRESETS.find(x => x.id === v) || null;
+  }
+
   async function draw() {
     const from = findAirport($('from').value), to = findAirport($('to').value), out = $('out');
     if (!from || !to) { out.innerHTML = '<p class="wx-verdict">Enter a departure airport and a destination.</p>'; return; }
     const mins = { cig: Math.max(0, +$('mcig').value || 0), vis: Math.max(0, +$('mvis').value || 0) }; saveMins(mins);
     const limit = A.saveXwind($('xw').value); $('xw').value = limit;
-    const prof = A.load(), win = +$('win').value, dep = Date.parse($('dep').value), ret = Date.parse($('ret').value);
-    const q = new URLSearchParams({ from: from.code, to: to.guide ? to.guide.replace(/\/$/, '') : to.code, dep: $('dep').value, ret: $('ret').value, win });
+    const prof = selectedProfile(), win = +$('win').value, dep = Date.parse($('dep').value), ret = Date.parse($('ret').value);
+    const q = new URLSearchParams({ from: from.code, to: to.guide ? to.guide.replace(/\/$/, '') : to.code, dep: $('dep').value, ret: $('ret').value, win, ac: $('ac').value });
     history.replaceState(null, '', '?' + q);
     out.innerHTML = '<p class="wx-meta">Loading forecast…</p>';
     let h = '';
@@ -216,8 +223,14 @@
     $('to').value = td ? destLabel(td) : tg || destLabel(DEST.find(d => d.guide === 'charleston/') || DEST[0]);
     $('dep').value = p.get('dep') || d0; $('ret').value = p.get('ret') || r0; $('win').value = p.get('win') || '3';
     $('mcig').value = m.cig; $('mvis').value = m.vis; $('xw').value = A.loadXwind();
-    const prof = A.load(); $('acname').textContent = prof ? prof.label + ' (' + prof.tas + ' kt)' : 'Default estimate (150 kt). Set your airplane on the homepage.';
-    ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw'].forEach(id => $(id).addEventListener('change', draw));
+    // Aircraft: the profile saved on the homepage, any preset, or the default estimate. Picking one here
+    // only sets the flight time on this page; the homepage panel still owns the saved profile.
+    const saved = A.load(), ac = $('ac');
+    ac.innerHTML = (saved ? '<option value="saved">' + esc(saved.label) + ' (my saved numbers)</option>' : '') +
+      A.PRESETS.filter(x => !x.gear || x.gear === 'land').map(x => '<option value="' + esc(x.id) + '">' + esc(x.label) + '</option>').join('') +
+      '<option value="default">Default estimate (150 kt)</option>';
+    ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
+    ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw', 'ac'].forEach(id => $(id).addEventListener('change', draw));
     draw();
   }
   init();

@@ -7,7 +7,7 @@
 .wx-badge{display:inline-block;background:#ba7d2f;color:#fff;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 8px;border-radius:3px;margin-left:8px;vertical-align:middle}
 .wx-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px 20px;padding:18px 22px;background:#eef2f4;border:1px solid #dbe3e9;border-radius:3px;margin:18px 0 8px}
 .wx-bar label{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#526471;margin-bottom:6px}
-.wx-bar input,.wx-bar select{font-size:16px;padding:9px 11px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40;width:100%;box-sizing:border-box}
+.wx-bar>div{min-width:0}.wx-bar input[type=datetime-local]{-webkit-appearance:none;appearance:none;min-height:42px;text-align:left}.wx-bar input,.wx-bar select{max-width:100%;min-width:0;font-size:16px;padding:9px 11px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40;width:100%;box-sizing:border-box}
 .wx-mine{font-size:14px;color:#526471;margin:0 0 18px}
 .wx-leg{margin:26px 0 8px}.wx-leg h2{font-size:24px;margin:0 0 4px}
 .wx-meta{font-size:14px;color:#526471;margin:4px 0}
@@ -38,9 +38,10 @@
 <div><label for="win">Search either side</label><select id="win"><option value="0">Planned time only</option><option value="2">2 hours</option><option value="3">3 hours</option><option value="4">4 hours</option><option value="6">6 hours</option></select></div>
 <div><label for="mcig">My min ceiling (ft)</label><input id="mcig" type="number" inputmode="numeric" min="0" step="100"></div>
 <div><label for="mvis">My min visibility (mi)</label><input id="mvis" type="number" inputmode="decimal" min="0" step="0.5"></div>
+<div><label for="ac">Aircraft</label><select id="ac"></select></div>
 <div><label for="xw">My max crosswind (kt)</label><input id="xw" type="number" inputmode="numeric" min="3" max="50" step="1"></div>
 </div>
-<p class="wx-mine">Aircraft: <span id="acname"></span> · Times are in your time zone · Forecast run: <span id="run"></span></p>
+<p class="wx-mine">Times are in your time zone · Forecast run: <span id="run"></span></p>
 <div id="out" aria-live="polite"></div>
 <p class="wx-fine"><strong>A planning outlook, not a weather briefing.</strong> Forecasts come from NOAA’s National Blend of Models station guidance: ceiling and visibility every 3 hours out to 3 days, then wind, gusts, sky cover, rain and thunderstorm chances every 12 hours out to about 8 days. Long-range forecasts change from run to run. Crosswinds use the gust speed on the runway with the least crosswind (FAA runway data; true headings). Flight categories: VFR above 3,000 ft and 5 mi; MVFR 1,000–3,000 ft or 3–5 mi; IFR 500–999 ft or 1–3 mi; LIFR below that. Always get an official briefing (ForeFlight, Garmin Pilot or 1800wxbrief.com) before you fly; the pilot in command makes the go or no-go decision.</p>
 </main>
