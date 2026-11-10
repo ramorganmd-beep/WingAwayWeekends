@@ -2185,3 +2185,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Vlad D on Unsplash — https://unsplash.com/photos/a-harbor-filled-with-lots-of-boats-and-lots-of-flowers-qb1yWj0GZ8I
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Victoria, British Columbia
+
+## Plymouth
+
+- Photo by Bernd 📷 Dittrich on Unsplash — https://unsplash.com/photos/a-large-wooden-boat-docked-at-a-pier-rrKLt8Pk-AY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Mayflower Street, Plymouth, MA; photographer’s description: Mayflower2 in Plymouth

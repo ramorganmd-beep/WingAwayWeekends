@@ -73,7 +73,7 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
             f'<nav class="jump" aria-label="Destination sections">{nav_html}</nav>')
 
 
-def page_end(*, number, place, credit_html, note='Several official links could not be opened during research; check each one, and confirm hours, prices and availability directly before booking.', reviewed=None):
+def page_end(*, number, place, credit_html, note='Several official links could not be opened during research; check each one, and confirm hours, prices and availability directly before booking.', reviewed=None, researched='November 1, 2026'):
     """Closing review note and footer. Pass reviewed='Month D, YYYY' once the owner has reviewed the guide."""
     safety = ('<p class="note">WingAway Weekends helps you discover the destination. Use ForeFlight and current official aviation information for route, performance, weather, NOTAMs and preflight decisions. Flight planning and PIC responsibility stay with the pilot.</p></div></main>')
     if reviewed:
@@ -82,7 +82,7 @@ def page_end(*, number, place, credit_html, note='Several official links could n
         label = 'Couples guide'
     else:
         box = (f'<div class="prototype-note"><span class="eyebrow">Testing / Destination {number:02d}</span><h3>Draft for review.</h3>'
-               f'<p>Research-based selections, not personal-visit endorsements. Researched November 1, 2026. {note}</p>')
+               f'<p>Research-based selections, not personal-visit endorsements. Researched {researched}. {note}</p>')
         label = 'Couples prototype'
     return (box + safety +
             f'<footer><a class="brand" href="#main">WingAway Weekends</a><p>{place} · {label}</p><details><summary>Photo credit</summary>'

@@ -74,5 +74,5 @@ def build(g, out):
              know(g['know']) + '</section>')
     P.append(page_end(number=g['number'], place=g['place'], reviewed=reviewed,
                       note='Confirm hours, prices and availability directly with each place before booking.',
-                      credit_html=photo['credit_html']))
+                      credit_html=photo['credit_html'], **({'researched': g['researched']} if g.get('researched') else {})))
     Path(out).write_text('\n'.join(P))
