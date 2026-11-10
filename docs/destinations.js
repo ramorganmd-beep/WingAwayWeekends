@@ -5947,5 +5947,26 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Canada",
  "family": true,
  "photo": {"slug": "victoria-bc", "remote": "https://images.unsplash.com/photo-1688713866885-4cb1310b4939?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MDU4MjA1fA&ixlib=rb-4.1.0", "alt": "Boats in Victoria’s Inner Harbour with flower baskets in the foreground", "pos": "50% 50%"}
+},
+{
+ "name": "Plymouth",
+ "state": "Massachusetts",
+ "airport": "KPYM", "rwy": 4650,
+ "lat": 41.9088,
+ "lon": -70.7276,
+ "desc": "America’s Hometown on Cape Cod Bay: the Mayflower II, Plymouth Rock, Plimoth Patuxet, seafood on the harbor and a spa resort in The Pinehills.",
+ "tags": [
+  "History",
+  "Dining",
+  "Stays",
+  "Spa",
+  "Scenic views"
+ ],
+ "guide": "plymouth/",
+ "stateCode": "MA",
+ "region": "Northeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "plymouth", "remote": "https://images.unsplash.com/photo-1653991011661-e1b96d9e7018?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MzMzMDY1fA&ixlib=rb-4.1.0", "alt": "The Mayflower II, a full-scale replica of the Pilgrims’ ship, moored at the Plymouth waterfront", "pos": "50% 60%"}
 }
 ];
