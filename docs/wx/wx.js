@@ -36,7 +36,7 @@
   }
 
   // ---------- forecast data ----------
-  // Forecast files: published every 3 hours by the "Weather data (NBM)" GitHub Action. The copy in
+  // Forecast files: published every hour by the "Weather data (NBM)" GitHub Action. The copy in
   // data/ next to this page is a fallback snapshot, used only if the live files can't be reached.
   const LIVE = 'https://ramorganmd-beep.github.io/WingAwayWeekends/wx/data/';
   let BASE = LIVE, RUN = null; const cache = {};
@@ -371,7 +371,7 @@
     for (const hrs of [12, 24]) {
       try { const r = await fetch(BASE + 'prev' + hrs + '/run.json', { cache: 'no-cache' }); if (r.ok) PREV.push({ hrs, base: BASE + 'prev' + hrs + '/', run: await r.json(), cache: {} }); } catch (e) {}
     }
-    $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run' + (BASE === LIVE ? ', updated every 3 hours)' : ', saved copy)');
+    $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run' + (BASE === LIVE ? ', updated hourly)' : ', saved copy)');
     $('dl').innerHTML = DEST.map(d => '<option value="' + esc(destLabel(d)) + '">').join('');
     if (window.WingAwaySuggest) WingAwaySuggest($('from'), $('fromlist'), AP);
     const p = new URLSearchParams(location.search), [d0, r0] = defaults(), m = readMins();
