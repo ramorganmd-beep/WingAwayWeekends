@@ -58,7 +58,7 @@ function draw(){
     drawMap([]);toURL();return;}
   const H=startHome();let day=start,html=H?'<li class="tp-home">Day 1 · '+fmtDate(day)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li>':'<li class="tp-home">Day 1 · '+fmtDate(day)+': trip starts at '+esc(BY[stops[0].slug].name)+' ('+esc(BY[stops[0].slug].airport)+')</li>';
   stops.forEach((s,i)=>{const d=BY[s.slug],l=H?L[i]:L[i-1];
-    if(l)html+=legHTML(l);
+    if(l)html+=legHTML(l,day);
     const arrive=day,leave=addDays(day,s.nights),m=arrive.getMonth()+1,ok=season(s.slug).includes(m);
     const img=d.photo&&d.photo.remote?d.photo.remote+'&w=400&h=300&fit=crop&q=75':d.photo?'../../assets/destinations/'+d.photo.slug+'-480.jpg':'';
     const opts=[s.slug,...s.alts].map(x=>'<option value="'+x+'"'+(x===s.slug?' selected':'')+'>'+esc(BY[x].name)+' ('+esc(BY[x].airport)+')</option>').join('');
@@ -67,16 +67,16 @@ function draw(){
       '<div class="tp-ctl"><label>Stop <select data-swap="'+i+'">'+opts+'</select></label><label>Nights <select data-n="'+i+'">'+[1,2,3,4].map(n=>'<option'+(n===s.nights?' selected':'')+'>'+n+'</option>').join('')+'</select></label>'+(stops.length>(CUSTOM?0:2)?'<button data-rm="'+i+'">Remove stop</button>':'')+'<a href="../../'+d.guide+'">Open the guide</a><a href="'+s22(d,arrive,leave)+'" target="_blank" rel="sponsored noopener">Compare hotels for these dates →</a></div></div></li>';
     html+=addHTML(i);
     day=leave;});
-  if(H){html+=legHTML(L[L.length-1]);html+='<li class="tp-home">Day '+(nights+1)+' · '+fmtDate(day)+': home to '+esc(home.code)+'</li>';}
+  if(H){html+=legHTML(L[L.length-1],day);html+='<li class="tp-home">Day '+(nights+1)+' · '+fmtDate(day)+': home to '+esc(home.code)+'</li>';}
   else html+='<li class="tp-home">Day '+(nights+1)+' · '+fmtDate(day)+': trip ends at '+esc(BY[stops[stops.length-1].slug].name)+'</li>';
   $('days').innerHTML=html;
   drawMap(L);toURL();
 }
-function legHTML(l){const p=profile();let w='';
+function legHTML(l,dt){const p=profile();let w='';
   if(l.e.stop){const r=fuelStop(l.a,l.b,p);w+=' <span class="tp-warn">'+(r?(r.one?'Fuel stop needed. Suggested: ':'Needs more than one fuel stop. First suggestion: ')+fuelText(r)+'. Confirm fuel and hours before you go.':'Likely fuel stop; no suitable fuel airport found along the route.')+'</span>';}
   else if(!p)w+=' <span>Set an aircraft to check fuel.</span>';
   if(l.long)w+=' <span class="tp-warn">Longer than your daily limit; plan an overnight on the way'+((l.a===home||l.b===home)?', or set “Trip starts” to the first stop':'')+'.</span>';
-  return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+'</span></li>';}
+  return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+(dt?' <a class="tp-wx" href="../../wx/?'+new URLSearchParams({from:l.a.code||l.a.airport,to:l.b.code||l.b.airport,dep:ymd(dt)+'T10:00',ret:''})+'">Weather for this leg →</a>':'')+'</span></li>';}
 function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat,lng:d.lon,address:d.name.replace(/ & .*|,.*/,'')+', '+d.state,checkin:ymd(a),checkout:ymd(b),campaign:'trip-'+T.id});return 'https://www.stay22.com/allez/roam?'+q.toString();}
 function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+'</li>';
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);

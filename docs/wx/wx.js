@@ -227,7 +227,7 @@
     $('from').value = p.get('from') || home || 'KMYR';
     const tg = p.get('to'), td = tg && DEST.find(d => d.guide === tg.replace(/\/?$/, '/'));
     $('to').value = td ? destLabel(td) : tg || destLabel(DEST.find(d => d.guide === 'charleston/') || DEST[0]);
-    $('dep').value = p.get('dep') || d0; $('ret').value = p.get('ret') || r0; $('win').value = p.get('win') || '3';
+    $('dep').value = p.get('dep') || d0; $('ret').value = p.has('ret') ? p.get('ret') : r0; $('win').value = p.get('win') || '3';
     $('mcig').value = m.cig; $('mvis').value = m.vis; $('xw').value = A.loadXwind();
     // Aircraft: the profile saved on the homepage, any preset, or the default estimate. Picking one here
     // only sets the flight time on this page; the homepage panel still owns the saved profile.
