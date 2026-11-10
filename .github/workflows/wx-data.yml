@@ -1,0 +1,38 @@
+# Weather outlook data: every 3 hours, fetch the latest NOAA National Blend of Models station
+# guidance, trim it to U.S. airports and WingAway destinations (tools/wx/nbm.py), and publish the
+# small JSON files on GitHub Pages, where the weather outlook page reads them.
+name: Weather data (NBM)
+on:
+  schedule:
+    - cron: '25 */3 * * *'
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: wx-data
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch and trim the NBM run
+        run: python3 tools/wx/nbm.py site/data
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
