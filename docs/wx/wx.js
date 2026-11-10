@@ -36,10 +36,13 @@
   }
 
   // ---------- forecast data ----------
-  let RUN = null; const cache = {};
+  // Forecast files: published every 3 hours by the "Weather data (NBM)" GitHub Action. The copy in
+  // data/ next to this page is a fallback snapshot, used only if the live files can't be reached.
+  const LIVE = 'https://ramorganmd-beep.github.io/WingAwayWeekends/data/';
+  let BASE = LIVE, RUN = null; const cache = {};
   const bucket = id => id.length === 4 && id[0] === 'K' ? id.slice(0, 3) : id.slice(0, 2);
   function loadBucket(b) {
-    if (!cache[b]) cache[b] = fetch('data/st/' + b + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
+    if (!cache[b]) cache[b] = fetch(BASE + 'st/' + b + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
     return cache[b];
   }
   async function station(id) { const d = await loadBucket(bucket(id)); return d[id] || null; }
@@ -212,8 +215,11 @@
   }
 
   async function init() {
-    try { RUN = await (await fetch('data/run.json')).json(); } catch (e) { $('out').innerHTML = '<p class="wx-verdict">The forecast data could not be loaded.</p>'; return; }
-    $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run)';
+    for (const base of [LIVE, 'data/']) {
+      try { const r = await fetch(base + 'run.json', { cache: 'no-cache' }); if (r.ok) { RUN = await r.json(); BASE = base; break; } } catch (e) {}
+    }
+    if (!RUN) { $('out').innerHTML = '<p class="wx-verdict">The forecast data could not be loaded.</p>'; return; }
+    $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run' + (BASE === LIVE ? ', updated every 3 hours)' : ', saved copy)');
     $('dl').innerHTML = DEST.map(d => '<option value="' + esc(destLabel(d)) + '">').join('');
     if (window.WingAwaySuggest) WingAwaySuggest($('from'), $('fromlist'), AP);
     const p = new URLSearchParams(location.search), [d0, r0] = defaults(), m = readMins();
