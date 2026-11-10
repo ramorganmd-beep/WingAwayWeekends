@@ -1,6 +1,7 @@
 """Fetch the National Blend of Models (NBM) station text guidance and write compact JSON for the weather outlook.
 
-Usage: python3 tools/wx/nbm.py OUT_DIR [--cycle YYYYMMDDHH] [--src DIR]
+Usage: python3 tools/wx/nbm.py OUT_DIR [--cycle YYYYMMDDHH] [--src DIR] [--prev 12,24]
+(also writes the runs 12 and 24 hours older to OUT_DIR/prev12 and prev24, for the forecast trend)
 
 Reads two NOAA bulletins for one model run:
   NBS (short range): every 3 hours to 72 hours, with ceiling, visibility, wind, gusts, sky, rain, thunder.
@@ -79,25 +80,23 @@ def wanted():
     ids.update(re.findall(r'"airport": "([A-Z0-9]+)"', (ROOT / 'docs/destinations.js').read_text()))
     return ids
 
-def main():
-    ap = argparse.ArgumentParser(); ap.add_argument('out'); ap.add_argument('--cycle'); ap.add_argument('--src')
-    a = ap.parse_args()
-    cyc = a.cycle or latest_cycle()
+def build(cyc, out, src=None):
+    """Parse one NBM run (cycle YYYYMMDDHH) and write run.json + st/<bucket>.json under out."""
     d, h = cyc[:8], cyc[8:]
     def bulletin(kind):
-        if a.src:
-            return Path(a.src, f'{kind}.txt').read_text(errors='ignore')
+        if src:
+            return Path(src, f'{kind}.txt').read_text(errors='ignore')
         return get(f'{BASE}/blend.{d}/{h}/text/blend_{kind}.t{h}z')
     nbs, nbe = parse(bulletin('nbstx'), NBS_ROWS), parse(bulletin('nbetx'), NBE_ROWS)
-    out = Path(a.out); (out / 'st').mkdir(parents=True, exist_ok=True)
+    out = Path(out); (out / 'st').mkdir(parents=True, exist_ok=True)
     keep = wanted()
     fs = max((v['fhr'] for v in nbs.values()), key=len); fe = max((v['fhr'] for v in nbe.values()), key=len)
     buckets = defaultdict(dict)
     for sid in sorted((set(nbs) | set(nbe)) & keep):
         rec = {}
-        for k, src, f in (('s', nbs, fs), ('e', nbe, fe)):
-            if sid in src and src[sid]['fhr'] == f:
-                rec[k] = {r: v for r, v in src[sid].items() if r != 'fhr'}
+        for k, src_, f in (('s', nbs, fs), ('e', nbe, fe)):
+            if sid in src_ and src_[sid]['fhr'] == f:
+                rec[k] = {r: v for r, v in src_[sid].items() if r != 'fhr'}
         if rec:
             buckets[bucket(sid)][sid] = rec
     for b, recs in buckets.items():
@@ -106,7 +105,24 @@ def main():
     n = sum(len(v) for v in buckets.values())
     (out / 'run.json').write_text(json.dumps({'run': run.strftime('%Y-%m-%dT%H:00Z'), 'fhrS': fs, 'fhrE': fe, 'stations': n,
                                              'source': 'NOAA/NWS National Blend of Models'}, separators=(',', ':')))
-    print(f'run {cyc}: {len(nbs)} NBS, {len(nbe)} NBE stations, {len(buckets)} files', file=sys.stderr)
+    print(f'run {cyc}: {len(nbs)} NBS, {len(nbe)} NBE stations, {len(buckets)} files -> {out}', file=sys.stderr)
+
+
+def main():
+    ap = argparse.ArgumentParser(); ap.add_argument('out'); ap.add_argument('--cycle'); ap.add_argument('--src')
+    ap.add_argument('--prev', default='12,24', help='also write the runs this many hours older to OUT/prev<H>/ (for the trend); "" for none')
+    a = ap.parse_args()
+    cyc = a.cycle or latest_cycle()
+    build(cyc, a.out, a.src)
+    t0 = dt.datetime.strptime(cyc, '%Y%m%d%H')
+    for hrs in [int(x) for x in a.prev.split(',') if x.strip()]:
+        for extra in (0, 1, 2):  # an older run may lack a bulletin; step back an hour or two
+            c = (t0 - dt.timedelta(hours=hrs + extra)).strftime('%Y%m%d%H')
+            try:
+                build(c, Path(a.out) / f'prev{hrs}')
+                break
+            except Exception as e:
+                print(f'prev{hrs}: run {c} unavailable ({type(e).__name__})', file=sys.stderr)
 
 if __name__ == '__main__':
     main()

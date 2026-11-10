@@ -40,6 +40,8 @@
   // data/ next to this page is a fallback snapshot, used only if the live files can't be reached.
   const LIVE = 'https://ramorganmd-beep.github.io/WingAwayWeekends/wx/data/';
   let BASE = LIVE, RUN = null; const cache = {};
+  // Older runs (12 and 24 hours before the current one) for the trend; each has its own files and cache.
+  let PREV = [];
   const bucket = id => id.length === 4 && id[0] === 'K' ? id.slice(0, 3) : id.slice(0, 2);
   function loadBucket(b) {
     if (!cache[b]) cache[b] = fetch(BASE + 'st/' + b + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
@@ -54,10 +56,11 @@
     for (const [a, d] of near) for (const id of [a[0], a[1]].filter(Boolean)) { const s = await station(id); if (s) return { id, dist: d, rec: s }; }
     return null;
   }
-  const run0 = () => Date.parse(RUN.run);
+
   // Forecast closest to time t: the 3-hourly short range (ceiling and visibility) when it reaches, else the 12-hourly outlook.
-  function point(rec, t) {
-    const r0 = run0(), fs = RUN.fhrS, fe = RUN.fhrE;
+  function point(rec, t, R) {
+    R = R || RUN;
+    const r0 = Date.parse(R.run), fs = R.fhrS, fe = R.fhrE;
     const nearest = (f, slack) => { let best = -1, bd = Infinity; f.forEach((h, i) => { const d = Math.abs(r0 + h * H - t); if (d < bd) { bd = d; best = i; } }); return bd <= slack * H ? best : -1; };
     if (rec.s) {
       const i = nearest(fs, 3);
@@ -158,6 +161,47 @@
     return [localInput(d), localInput(r)];
   }
 
+  // ---------- trend: how the forecast for the same time has changed over the last runs ----------
+  async function prevPoint(P, id, t) {
+    if (!P.cache[bucket(id)]) P.cache[bucket(id)] = fetch(P.base + 'st/' + bucket(id) + '.json').then(r => r.ok ? r.json() : {}).catch(() => ({}));
+    const rec = (await P.cache[bucket(id)])[id];
+    return rec ? point(rec, t, P.run) : null;
+  }
+  // Compare the current forecast for one airport and time with an older run's. Returns change phrases.
+  function changes(now, was, apt) {
+    const out = [], cats = ['LIFR', 'IFR', 'MVFR', 'VFR'];
+    if (now.kind === 's' && was.kind === 's') {
+      const a = category(now), b = category(was);
+      if (a !== b) out.push((cats.indexOf(a) < cats.indexOf(b) ? 'worse: ' : 'better: ') + b + ' → ' + a);
+    }
+    const g = p => Math.max(p.gst || 0, p.wsp || 0);
+    if (now.wsp != null && was.wsp != null && Math.abs(g(now) - g(was)) >= 5) out.push('gusts ' + (g(now) > g(was) ? 'up' : 'down') + ' ' + Math.abs(g(now) - g(was)) + ' kt (' + g(was) + ' → ' + g(now) + ')');
+    const xa = crosswind(apt, now), xb = crosswind(apt, was);
+    if (xa && xb && !xa.calm && !xb.calm && Math.abs(xa.xg - xb.xg) >= 4) out.push('crosswind ' + (xa.xg > xb.xg ? 'up' : 'down') + ' ' + Math.abs(xa.xg - xb.xg) + ' kt (' + xb.xg + ' → ' + xa.xg + ')');
+    if (now.tstm != null && was.tstm != null && Math.abs(now.tstm - was.tstm) >= 15) out.push('storm chance ' + was.tstm + '% → ' + now.tstm + '%');
+    if (now.rain != null && was.rain != null && Math.abs(now.rain - was.rain) >= 25) out.push('rain chance ' + was.rain + '% → ' + now.rain + '%');
+    if (now.kind === 'e' && was.kind === 'e' && now.sky != null && was.sky != null && Math.abs(now.sky - was.sky) >= 35) out.push(skyWord(was.sky).toLowerCase() + ' → ' + skyWord(now.sky).toLowerCase());
+    return out;
+  }
+  async function trend(from, sf, depT, to, st, arrT) {
+    if (!PREV.length || !sf || !st) return '';
+    const parts = [];
+    for (const P of PREV) {
+      const nowD = point(sf.rec, depT), nowA = point(st.rec, arrT);
+      const wasD = await prevPoint(P, sf.id, depT), wasA = await prevPoint(P, st.id, arrT);
+      if (!nowD || !nowA || !wasD || !wasA) continue;
+      const cd = changes(nowD, wasD, from), ca = changes(nowA, wasA, to);
+      parts.push({ hrs: P.hrs, txt: [cd.length ? esc(from.code) + ' ' + cd.join(', ') : '', ca.length ? esc(to.code) + ' ' + ca.join(', ') : ''].filter(Boolean).join('; ') });
+    }
+    if (!parts.length) return '';
+    const p24 = parts.find(x => x.hrs === 24), p12 = parts.find(x => x.hrs === 12);
+    const steady = parts.every(x => !x.txt);
+    let h = '<p class="wx-trend"><strong>Forecast trend for your planned time:</strong> ';
+    if (steady) h += 'steady. The ' + parts.map(x => x.hrs + '-hour-old').join(' and ') + ' forecast' + (parts.length > 1 ? 's' : '') + ' looked about the same.';
+    else h += parts.map(x => 'since ' + x.hrs + ' hours ago: ' + (x.txt || 'about the same')).join(' · ') + '.';
+    return h + '</p>';
+  }
+
   async function leg(title, from, to, depT, win, prof, mins, limit) {
     const [sf, st] = await Promise.all([stationFor(from), stationFor(to)]);
     const dist = nm(from, to), est = A.estimate(dist, prof), blockH = est.hours;
@@ -183,6 +227,7 @@
     let h = '<section class="wx-leg"><h2>' + esc(title) + ': ' + esc(from.code) + ' → ' + esc(to.code) + '</h2>';
     h += '<p class="wx-meta">' + esc(fmtDay(depT)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
+    h += await trend(from, sf, depT, to, st, depT + blockH * H);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
@@ -219,6 +264,9 @@
       try { const r = await fetch(base + 'run.json', { cache: 'no-cache' }); if (r.ok) { RUN = await r.json(); BASE = base; break; } } catch (e) {}
     }
     if (!RUN) { $('out').innerHTML = '<p class="wx-verdict">The forecast data could not be loaded.</p>'; return; }
+    for (const hrs of [12, 24]) {
+      try { const r = await fetch(BASE + 'prev' + hrs + '/run.json', { cache: 'no-cache' }); if (r.ok) PREV.push({ hrs, base: BASE + 'prev' + hrs + '/', run: await r.json(), cache: {} }); } catch (e) {}
+    }
     $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run' + (BASE === LIVE ? ', updated every 3 hours)' : ', saved copy)');
     $('dl').innerHTML = DEST.map(d => '<option value="' + esc(destLabel(d)) + '">').join('');
     if (window.WingAwaySuggest) WingAwaySuggest($('from'), $('fromlist'), AP);
