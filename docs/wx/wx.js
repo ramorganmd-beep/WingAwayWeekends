@@ -361,11 +361,9 @@
     return { s: 1 + 2 * Math.max(0, (limit - xg) / limit), c: 'ok' };
   }
   function windowChart(rate, from, to, depT, tzF, tzT, limit, field, span) {
-    // Covers the whole trip: 6 AM on the first day to 9 PM on the last (at least two days, at most about eight).
-    const day0 = parts(span[0], tzF), day1 = parts(span[1], tzF);
-    const start = toUTC(day0.year + '-' + pad(day0.month) + '-' + pad(day0.day) + 'T06:00', tzF);
-    const end = toUTC(day1.year + '-' + pad(day1.month) + '-' + pad(day1.day) + 'T21:00', tzF);
-    const n = Math.max(40, Math.min(200, Math.round((end - start) / H) + 1));
+    // Centered on the planned time: 24 hours for the trip out (12 either side), 48 for the trip home (24 either side).
+    const half = span, n = 2 * half;
+    const start = Math.floor((depT - half * H) / H) * H;
     const bars = Array.from({ length: n }, (_, i) => { const r = rate(start + i * H, null); return Object.assign(r, { sc: score(r, limit), i }); });
     if (!bars.some(b => b.sc)) return '';
     const W = 960, x0 = 36, bw = (W - x0 - 8) / n, mid = 92, u = 22, Hh = 196;
@@ -397,8 +395,8 @@
     // hour labels every 3 hours, day names at 6 AM
     bars.forEach(b => {
       const hr = parts(b.dep, tzF).hour % 24;
-      if (hr % (n > 80 ? 6 : 3) === 0) g += '<text x="' + (x0 + (b.i + 0.5) * bw) + '" y="' + (Hh - 34) + '" text-anchor="middle" font-size="10" fill="#647784">' + (hr === 0 ? '12a' : hr === 12 ? '12p' : hr > 12 ? (hr - 12) + 'p' : hr + 'a') + '</text>';
-      if (hr === 6) g += '<text x="' + (x0 + b.i * bw) + '" y="' + (Hh - 4) + '" font-size="11" font-weight="700" fill="#102d40">' + esc(new Date(b.dep).toLocaleDateString([], { timeZone: tzF, weekday: 'short', month: 'short', day: 'numeric' })) + '</text>';
+      if (hr % 3 === 0) g += '<text x="' + (x0 + (b.i + 0.5) * bw) + '" y="' + (Hh - 34) + '" text-anchor="middle" font-size="10" fill="#647784">' + (hr === 0 ? '12a' : hr === 12 ? '12p' : hr > 12 ? (hr - 12) + 'p' : hr + 'a') + '</text>';
+      if (hr === 0 || (b.i === 0 && hr >= 1 && hr <= 20)) g += '<text x="' + (x0 + b.i * bw) + '" y="' + (Hh - 4) + '" font-size="11" font-weight="700" fill="#102d40">' + esc(new Date(b.dep).toLocaleDateString([], { timeZone: tzF, weekday: 'short', month: 'short', day: 'numeric' })) + '</text>';
     });
     g += '<text x="4" y="' + (mid - 30) + '" font-size="10" fill="#647784">Good</text><text x="4" y="' + (mid + 44) + '" font-size="10" fill="#647784">Look</text>';
     const sum = W2.length ? W2.length + ' window' + (W2.length > 1 ? 's' : '') + ': ' + W2.map(w => fmtT(w[0].dep, tzF) + '–' + new Date(w[w.length - 1].dep + H).toLocaleTimeString([], { timeZone: tzF, hour: 'numeric', minute: '2-digit' })).join(' · ') : 'No departure window within your settings in this range';
@@ -442,7 +440,7 @@
     h += '<p class="wx-meta">' + esc(fmtDay(depT, tzF)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
-    h += windowChart(rate, from, to, depT, tzF, tzT, limit, title === 'Going' ? 'dep' : 'ret', span || [depT, depT]);
+    h += windowChart(rate, from, to, depT, tzF, tzT, limit, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
