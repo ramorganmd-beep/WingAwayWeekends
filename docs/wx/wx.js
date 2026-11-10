@@ -38,7 +38,7 @@
   // ---------- forecast data ----------
   // Forecast files: published every 3 hours by the "Weather data (NBM)" GitHub Action. The copy in
   // data/ next to this page is a fallback snapshot, used only if the live files can't be reached.
-  const LIVE = 'https://ramorganmd-beep.github.io/WingAwayWeekends/data/';
+  const LIVE = 'https://ramorganmd-beep.github.io/WingAwayWeekends/wx/data/';
   let BASE = LIVE, RUN = null; const cache = {};
   const bucket = id => id.length === 4 && id[0] === 'K' ? id.slice(0, 3) : id.slice(0, 2);
   function loadBucket(b) {
