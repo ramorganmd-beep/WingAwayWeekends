@@ -202,6 +202,107 @@
     return h + '</p>';
   }
 
+  // ---------- advisories along the route (AIRMETs, SIGMETs, CWAs, PIREPs) ----------
+  let ADV = null, STATES = null;
+  const SEV = { LGT: 'light', 'LGT-MOD': 'light to moderate', MOD: 'moderate', 'MOD-SEV': 'moderate to severe', SEV: 'severe' };
+  const ft = v => typeof v === 'number' ? (v === 0 ? 'surface' : v.toLocaleString() + ' ft') : v === 'SFC' ? 'surface' : v === 'FZL' ? 'the freezing level' : v;
+  function band(a) {
+    if (a.base == null && a.top == null) return '';
+    if (a.base === 'FZL' && a.fzl && a.fzl[0] != null) return ', freezing level (' + ft(a.fzl[0]) + (a.fzl[1] != null && a.fzl[1] !== a.fzl[0] ? '–' + ft(a.fzl[1]) : '') + ') to ' + ft(a.top);
+    if (a.base == null) return ', up to ' + ft(a.top);
+    if (a.top == null) return ', from ' + ft(a.base);
+    return ', ' + ft(a.base) + ' to ' + ft(a.top);
+  }
+  function advLabel(a) {
+    const sev = SEV[a.sev] ? SEV[a.sev] + ' ' : '';
+    if (a.k === 'gairmet') {
+      const L = { ICE: ['AIRMET', sev + 'icing'], 'TURB-LO': ['AIRMET', sev + 'turbulence'], 'TURB-HI': ['AIRMET', sev + 'turbulence at high altitude'],
+        IFR: ['AIRMET', 'IFR conditions' + (a.due ? ' (' + a.due.replace('CIG BLW 010', 'ceiling below 1,000 ft').replace('VIS BLW 3SM', 'visibility below 3 mi').toLowerCase() + ')' : '')],
+        MT_OBSC: ['AIRMET', 'mountains obscured'], LLWS: ['AIRMET', 'low-level wind shear'], SFC_WND: ['AIRMET', 'sustained surface winds over 30 kt'] }[a.hz] || ['AIRMET', a.hz];
+      return { kind: L[0], text: L[1].charAt(0).toUpperCase() + L[1].slice(1) + (a.hz === 'IFR' || a.hz === 'MT_OBSC' ? '' : band(a)), rank: 3 };
+    }
+    if (a.k === 'cwa') return { kind: 'Center Weather Advisory' + (a.by ? ' (' + a.by + ' Center)' : ''), text: (a.hz === 'TS' ? 'Thunderstorms' : a.hz === 'IFR' ? 'IFR conditions' : a.hz === 'TURB' ? 'Turbulence' : a.hz === 'ICE' ? 'Icing' : a.hz) + band(a), rank: 2 };
+    if (a.hz === 'CONVECTIVE') return { kind: 'Convective SIGMET', text: 'Thunderstorms' + (a.top ? ', tops to ' + ft(a.top) : ''), rank: 1 };
+    return { kind: 'SIGMET', text: (a.hz === 'ICE' ? 'Severe icing' : a.hz === 'TURB' ? 'Severe turbulence' : a.hz) + band(a), rank: 1 };
+  }
+  // Route geometry in a local flat projection (nautical miles); fine for a 25 nm corridor check.
+  function routeSamples(from, to) {
+    const n = Math.max(2, Math.ceil(nm(from, to) / 10));
+    return Array.from({ length: n + 1 }, (_, i) => ({ lat: from.lat + (to.lat - from.lat) * i / n, lon: from.lon + (to.lon - from.lon) * i / n, f: i / n }));
+  }
+  function inPoly(pt, P) {
+    let inside = false;
+    for (let i = 0, j = P.length - 1; i < P.length; j = i++) {
+      const [yi, xi] = P[i], [yj, xj] = P[j];
+      if ((yi > pt.lat) !== (yj > pt.lat) && pt.lon < (xj - xi) * (pt.lat - yi) / (yj - yi) + xi) inside = !inside;
+    }
+    return inside;
+  }
+  function distToPoly(pt, P) {
+    const k = Math.cos(rad(pt.lat)) * 60, X = p => [(p[1] - pt.lon) * k, (p[0] - pt.lat) * 60];
+    let best = Infinity;
+    for (let i = 0; i < P.length; i++) {
+      const a = X(P[i]), b = X(P[(i + 1) % P.length]), dx = b[0] - a[0], dy = b[1] - a[1], L = dx * dx + dy * dy;
+      const t = L ? Math.max(0, Math.min(1, -(a[0] * dx + a[1] * dy) / L)) : 0;
+      best = Math.min(best, Math.hypot(a[0] + t * dx, a[1] + t * dy));
+    }
+    return best;
+  }
+  function where(fs, from, to) {
+    const lo = Math.min(...fs), hi = Math.max(...fs);
+    if (lo <= 0.15 && hi >= 0.85) return 'along most of the route';
+    if (hi <= 0.35) return 'near ' + from.code;
+    if (lo >= 0.65) return 'near ' + to.code;
+    return lo < 0.35 ? 'over the first part of the route' : hi > 0.65 ? 'over the last part of the route' : 'over the middle of the route';
+  }
+  function routeAdvisories(from, to, dep, arr) {
+    const now = Date.now(), out = { items: [], pireps: [], shapes: [] };
+    if (!ADV || dep - now > 13 * H || arr < now - H) return null;
+    const S = routeSamples(from, to);
+    const groups = {};
+    ADV.adv.forEach(a => {
+      if (a.t1 < dep || a.t0 > arr || a.p.length < 3) return;
+      const hit = S.filter(pt => inPoly(pt, a.p) || distToPoly(pt, a.p) <= 25).map(pt => pt.f);
+      if (!hit.length) return;
+      const L = advLabel(a), key = L.kind + '|' + L.text;
+      (groups[key] = groups[key] || { L, fs: [], a }).fs.push(...hit);
+      out.shapes.push(a);
+    });
+    out.items = Object.values(groups).sort((x, y) => x.L.rank - y.L.rank).map(g => ({ kind: g.L.kind, text: g.L.text, where: where(g.fs, from, to), rank: g.L.rank }));
+    out.pchk = Math.abs(dep - now) <= 3 * H;
+    if (out.pchk) out.pireps = ADV.pireps.filter(r => S.some(pt => nm(pt, r) <= 25)).sort((a, b) => b.t - a.t).slice(0, 6);
+    return out;
+  }
+  function advMap(from, to, shapes, pireps) {
+    if (!window.d3 || !STATES) return '';
+    const W = 640, Hh = 300, route = { type: 'LineString', coordinates: [[from.lon, from.lat], [to.lon, to.lat]] };
+    const pad = Math.max(1.2, nm(from, to) / 60 * 0.35);
+    const box = { type: 'MultiPoint', coordinates: [[Math.min(from.lon, to.lon) - pad, Math.min(from.lat, to.lat) - pad], [Math.max(from.lon, to.lon) + pad, Math.max(from.lat, to.lat) + pad]] };
+    const proj = d3.geoMercator().fitExtent([[10, 10], [W - 10, Hh - 10]], box), path = d3.geoPath(proj);
+    const col = a => a.k === 'gairmet' ? (a.hz === 'ICE' ? '#2a5d9f' : a.hz.startsWith('TURB') ? '#b7791f' : a.hz === 'IFR' ? '#a33a1f' : '#6b5b95') : '#a33a1f';
+    let g = STATES.map(f => '<path d="' + path(f) + '" fill="#f1eee7" stroke="#fff" stroke-width="1"/>').join('');
+    // Advisory areas drawn as flat polygons from projected corners (avoids spherical winding surprises).
+    g += shapes.map(a => { const c = col(a); return '<polygon points="' + a.p.map(q => proj([q[1], q[0]]).map(v => v.toFixed(1)).join(',')).join(' ') + '" fill="' + c + '" fill-opacity=".14" stroke="' + c + '" stroke-width="1.2"/>'; }).join('');
+    g += '<path d="' + path(route) + '" fill="none" stroke="#102d40" stroke-width="2.5" stroke-dasharray="6 4"/>';
+    g += pireps.map(r => { const [x, y] = proj([r.lon, r.lat]); return '<circle cx="' + x + '" cy="' + y + '" r="4" fill="#fff" stroke="#102d40" stroke-width="1.5"/>'; }).join('');
+    [from, to].forEach(a => { const [x, y] = proj([a.lon, a.lat]); g += '<circle cx="' + x + '" cy="' + y + '" r="5" fill="#ba7d2f" stroke="#fff" stroke-width="2"/><text x="' + (x + 8) + '" y="' + (y - 8) + '" font-size="12" font-weight="700" fill="#102d40" paint-order="stroke" stroke="#fff" stroke-width="3">' + esc(a.code) + '</text>'; });
+    return '<svg class="wx-map" viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="Route with advisory areas"><defs><clipPath id="wxclip"><rect width="' + W + '" height="' + Hh + '"/></clipPath></defs><g clip-path="url(#wxclip)">' + g + '</g></svg>' +
+      '<p class="wx-key"><span style="color:#2a5d9f">■</span> icing <span style="color:#b7791f">■</span> turbulence <span style="color:#a33a1f">■</span> IFR, storms, SIGMETs <span style="color:#6b5b95">■</span> other · ○ pilot report · dashed line: straight-line route</p>';
+  }
+  function advHTML(from, to, dep, arr) {
+    const r = routeAdvisories(from, to, dep, arr);
+    let h = '<div class="wx-adv"><h3>Advisories near your route</h3>';
+    if (!ADV) return h + '<p class="wx-meta">Advisories could not be loaded right now.</p></div>';
+    if (!r) return h + '<p class="wx-meta">AIRMETs, SIGMETs and pilot reports along the straight-line route show here from about 12 hours before departure.</p></div>';
+    if (!r.items.length && !r.pireps.length) h += '<p class="wx-meta">No AIRMETs, SIGMETs or Center Weather Advisories within 25 nm of the straight-line route for your flight time' + (r.pchk ? ', and no recent icing or turbulence reports.' : '.') + '</p>';
+    else {
+      h += '<ul class="wx-advlist">' + r.items.map(i => '<li class="wx-r' + i.rank + '"><b>' + esc(i.kind) + ':</b> ' + esc(i.text) + ' <span>' + esc(i.where) + '</span></li>').join('') + '</ul>';
+      if (r.pireps.length) h += '<p class="wx-meta"><b>Recent pilot reports within 25 nm:</b></p><ul class="wx-advlist">' + r.pireps.map(p => '<li>' + esc(new Date(p.t).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })) + ' · ' + esc(p.ac || 'aircraft') + (p.fl ? ' at ' + (p.fl * 100).toLocaleString() + ' ft' : '') + ': ' + esc([p.ice ? (SEV[p.ice] || p.ice.toLowerCase()) + ' icing' : '', p.turb ? (SEV[p.turb] || p.turb.toLowerCase()) + ' turbulence' : ''].filter(Boolean).join(', ')) + '</li>').join('') + '</ul>';
+      h += advMap(from, to, r.shapes, r.pireps);
+    }
+    return h + '<p class="wx-confirm">Advisories are checked against a straight line, not your filed route, and only within 25 nm of it. Confirm with your flight planning resources and an official briefing.</p></div>';
+  }
+
   async function leg(title, from, to, depT, win, prof, mins, limit) {
     const [sf, st] = await Promise.all([stationFor(from), stationFor(to)]);
     const dist = nm(from, to), est = A.estimate(dist, prof), blockH = est.hours;
@@ -233,7 +334,8 @@
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
       h += '<div class="wx-row' + (r.o === 0 ? ' wx-plan' : '') + '" role="row"><div class="wx-time">' + esc(fmtT(r.dep)) + (r.o === 0 ? '<span class="wx-tag">Planned</span>' : '') + '</div>' + cell(from, r.pd, r.ad || { notes: [] }) + '<div class="wx-time">' + esc(fmtT(r.arr)) + '</div>' + cell(to, r.pa, r.aa || { notes: [] }) + '<div><span class="wx-level ' + L[1] + '">' + L[0] + '</span></div></div>';
     });
-    return h + '</div></section>';
+    h += '</div>' + advHTML(from, to, depT, depT + blockH * H);
+    return h + '</section>';
   }
 
   function selectedProfile() {
@@ -264,6 +366,8 @@
       try { const r = await fetch(base + 'run.json', { cache: 'no-cache' }); if (r.ok) { RUN = await r.json(); BASE = base; break; } } catch (e) {}
     }
     if (!RUN) { $('out').innerHTML = '<p class="wx-verdict">The forecast data could not be loaded.</p>'; return; }
+    try { const r = await fetch(BASE + 'adv.json', { cache: 'no-cache' }); if (r.ok) ADV = await r.json(); } catch (e) {}
+    try { if (window.d3 && window.topojson) { const us = await d3.json('../map/states-10m.json'); STATES = topojson.feature(us, us.objects.states).features; } } catch (e) {}
     for (const hrs of [12, 24]) {
       try { const r = await fetch(BASE + 'prev' + hrs + '/run.json', { cache: 'no-cache' }); if (r.ok) PREV.push({ hrs, base: BASE + 'prev' + hrs + '/', run: await r.json(), cache: {} }); } catch (e) {}
     }
