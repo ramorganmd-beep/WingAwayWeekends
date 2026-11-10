@@ -560,11 +560,14 @@
     // Aircraft: the profile saved on the homepage, any preset, or the default estimate. Picking one here
     // only sets the flight time on this page; the homepage panel still owns the saved profile.
     const saved = A.load(), ac = $('ac');
-    ac.innerHTML = (saved ? '<option value="saved">' + esc(saved.label) + ' (my saved numbers)</option>' : '') +
+    ac.innerHTML = (saved ? '<option value="saved">' + esc(saved.id === 'custom' ? 'Custom aircraft' : saved.label) + ' (my saved numbers)</option>' : '') +
       A.PRESETS.filter(x => !x.gear || x.gear === 'land').map(x => '<option value="' + esc(x.id) + '">' + esc(x.label) + '</option>').join('') +
+      (saved && saved.id === 'custom' ? '' : '<option value="custom">Custom aircraft (enter your numbers on the homepage)</option>') +
       '<option value="default">Default estimate (150 kt)</option>';
     ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
     $('out').addEventListener('click', e => { const b = e.target.closest('[data-pick]'); if (!b) return; $(b.dataset.pick).value = b.dataset.t; draw(); });
+    // "Custom aircraft" with no saved numbers yet: open the homepage aircraft panel to enter them.
+    ac.addEventListener('change', () => { if (ac.value === 'custom') location.href = '../#aircraft'; });
     ['from', 'to', 'dep', 'ret', 'win', 'ac'].forEach(id => $(id).addEventListener('change', draw));
     draw();
   }
