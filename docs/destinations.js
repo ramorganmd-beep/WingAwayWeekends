@@ -5966,7 +5966,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "MA",
  "region": "Northeast",
  "family": true,
- "draft": true,
- "photo": {"slug": "plymouth", "remote": "https://images.unsplash.com/photo-1653991011661-e1b96d9e7018?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MzMzMDY1fA&ixlib=rb-4.1.0", "alt": "The Mayflower II, a full-scale replica of the Pilgrims’ ship, moored at the Plymouth waterfront", "pos": "50% 60%"}
+  "photo": {"slug": "plymouth", "remote": "https://images.unsplash.com/photo-1653991011661-e1b96d9e7018?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MzMzMDY1fA&ixlib=rb-4.1.0", "alt": "The Mayflower II, a full-scale replica of the Pilgrims’ ship, moored at the Plymouth waterfront", "pos": "50% 60%"}
 }
 ];
