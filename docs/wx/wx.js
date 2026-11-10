@@ -98,7 +98,8 @@
     }));
     return best;
   }
-  function assess(apt, p, mins, limit) {
+  function assess(apt, p, M) {
+    const mins = M, limit = M.xw;
     const notes = []; let level = p.kind === 's' ? 'good' : 'outlook';
     const worse = l => { const o = ['good', 'outlook', 'check', 'below']; if (o.indexOf(l) > o.indexOf(level)) level = l; };
     let cat = null;
@@ -115,6 +116,9 @@
       else if (x.xg > limit - 3) { worse('check'); notes.push('Crosswind near your ' + limit + ' kt limit'); }
       if (x.tail) notes.push('Tailwind on every runway');
     }
+    const gust = Math.max(p.gst || 0, p.wsp || 0);
+    if (M.gust && gust > M.gust) { worse('below'); notes.push('Gusts ' + gust + ' kt, above your ' + M.gust + ' kt limit'); }
+    else if (M.gust && gust > M.gust - 3 && gust >= 10) { worse('check'); notes.push('Gusts near your ' + M.gust + ' kt limit'); }
     if (p.tstm >= 40) { worse('below'); notes.push(p.tstm + '% thunderstorm chance'); }
     else if (p.tstm >= 15) { worse('check'); notes.push(p.tstm + '% thunderstorm chance'); }
     return { level, cat, x, notes };
@@ -190,6 +194,39 @@
   }
 
   // ---------- page ----------
+  // ---------- personal minimums by trip type (suggested by Logan Greenlee) ----------
+  // Three sets the pilot fills in once: flying alone or with an experienced copilot, with family, and with family
+  // into an airport they haven't flown into before. "New airport" applies only at an airport that is new to them:
+  // never their home (the From airport), and not one they've ticked "I've flown into it before".
+  const SETS_KEY = 'wingaway-minsets', WHO_KEY = 'wingaway-who', SEEN_KEY = 'wingaway-flown';
+  const SET_NAMES = { me: 'Me / experienced copilot', fam: 'With family', famnew: 'Family + new airport' };
+  const FIELDS_M = ['cig', 'vis', 'xw', 'gust', 'day'];
+  function defaultSets() {
+    const xw = A.loadXwind();
+    return { me: { cig: 1500, vis: 3, xw, gust: 25, day: false }, fam: { cig: 3000, vis: 5, xw: Math.min(xw, 12), gust: 20, day: true },
+      famnew: { cig: 3500, vis: 7, xw: Math.min(xw, 10), gust: 15, day: true } };
+  }
+  function readSets() {
+    const d = defaultSets();
+    try { const s = JSON.parse(localStorage.getItem(SETS_KEY) || 'null'); if (s) Object.keys(d).forEach(k => { if (s[k]) Object.assign(d[k], s[k]); }); } catch (e) {}
+    return d;
+  }
+  function saveSets(S) { try { localStorage.setItem(SETS_KEY, JSON.stringify(S)); } catch (e) {} }
+  function flown() { try { return JSON.parse(localStorage.getItem(SEEN_KEY) || '[]'); } catch (e) { return []; } }
+  function setFlown(code, yes) { const f = flown().filter(c => c !== code); if (yes) f.push(code); try { localStorage.setItem(SEEN_KEY, JSON.stringify(f)); } catch (e) {} }
+  function setFor(S, who, apt, home) {
+    if (who !== 'famnew') return Object.assign({ label: who === 'me' ? 'your own minimums' : 'family minimums' }, S[who]);
+    const known = apt.code === home.code || flown().includes(apt.code);
+    return known ? Object.assign({ label: 'family minimums (familiar airport)' }, S.fam) : Object.assign({ label: 'family + new airport minimums' }, S.famnew);
+  }
+  let WHO = 'me';
+  function minsTable(S) {
+    const row = (f, lab, step) => '<tr><th>' + lab + '</th>' + Object.keys(SET_NAMES).map(k => f === 'day'
+      ? '<td><select data-m="' + k + '.day"><option value="0"' + (S[k].day ? '' : ' selected') + '>OK</option><option value="1"' + (S[k].day ? ' selected' : '') + '>Daylight only</option></select></td>'
+      : '<td><input data-m="' + k + '.' + f + '" type="number" inputmode="decimal" min="0" step="' + step + '" value="' + S[k][f] + '"></td>').join('') + '</tr>';
+    return '<table class="wx-mins"><tr><th></th>' + Object.values(SET_NAMES).map(n => '<th>' + n + '</th>').join('') + '</tr>' +
+      row('cig', 'Min ceiling (ft)', 100) + row('vis', 'Min visibility (mi)', 0.5) + row('xw', 'Max crosswind (kt)', 1) + row('gust', 'Max gusts (kt)', 1) + row('day', 'Night', 1) + '</table>';
+  }
   function readMins() { try { const m = JSON.parse(localStorage.getItem(MINS_KEY) || 'null'); if (m && m.cig >= 0 && m.vis >= 0) return m; } catch (e) {} return { cig: 3000, vis: 5 }; }
   function saveMins(m) { try { localStorage.setItem(MINS_KEY, JSON.stringify(m)); } catch (e) {} }
   const pad = n => String(n).padStart(2, '0');
@@ -349,7 +386,7 @@
   // within the pilot's settings (taller = more margin on crosswind); below the line need a look or are
   // outside them. Runs of 2+ good hours are boxed as windows. Tapping a bar plans that departure time.
   const tzInput = (t, tz) => { const q = parts(t, tz); return q.year + '-' + pad(q.month) + '-' + pad(q.day) + 'T' + pad(q.hour % 24) + ':00'; };
-  function score(r, limit) {
+  function score(r, MF, MT) {
     if (!r.lvl) return null;
     if (r.lvl === 'outlook') return { s: 0.7, c: 'out' };
     if (r.lvl === 'check') return { s: -1, c: 'chk' };
@@ -357,14 +394,14 @@
       const severe = [r.pd, r.pa].some(p => p && ((p.tstm || 0) >= 40 || (p.kind === 's' && category(p) === 'LIFR')));
       return { s: severe ? -3 : -2, c: severe ? 'sev' : 'bad' };
     }
-    const xs = [r.ad.x, r.aa.x].filter(x => x && !x.calm).map(x => x.xg), xg = xs.length ? Math.max(...xs) : 0;
-    return { s: 1 + 2 * Math.max(0, (limit - xg) / limit), c: 'ok' };
+    const m = [[r.ad.x, MF.xw], [r.aa.x, MT.xw]].map(([x, l]) => x && !x.calm ? Math.max(0, (l - x.xg) / l) : 1);
+    return { s: 1 + 2 * Math.min(...m), c: 'ok' };
   }
-  function windowChart(rate, from, to, depT, tzF, tzT, limit, field, span) {
+  function windowChart(rate, from, to, depT, tzF, tzT, MF, MT, field, span) {
     // Centered on the planned time: 24 hours for the trip out (12 either side), 48 for the trip home (24 either side).
     const half = span, n = 2 * half;
     const start = Math.floor((depT - half * H) / H) * H;
-    const bars = Array.from({ length: n }, (_, i) => { const r = rate(start + i * H, null); return Object.assign(r, { sc: score(r, limit), i }); });
+    const bars = Array.from({ length: n }, (_, i) => { const r = rate(start + i * H, null); return Object.assign(r, { sc: score(r, MF, MT), i }); });
     if (!bars.some(b => b.sc)) return '';
     const W = 960, x0 = 36, bw = (W - x0 - 8) / n, mid = 92, u = 22, Hh = 196;
     const col = { ok: '#3f8f4f', out: '#b9c3cb', chk: '#d39a2c', bad: '#c2462b', sev: '#7a3a8c' };
@@ -406,20 +443,20 @@
       '<p class="wx-credit">Weather window concept inspired by Logan Greenlee.</p></div>';
   }
 
-  async function leg(title, from, to, depT, win, prof, mins, limit, dayOnly, span) {
+  async function leg(title, from, to, depT, win, prof, MF, MT, span) {
     const [sf, st] = await Promise.all([stationFor(from), stationFor(to)]);
     const tzF = zoneOf(from), tzT = zoneOf(to);
     const dist = nm(from, to), est = A.estimate(dist, prof), blockH = est.hours;
     const rate = (dep, o) => {
       const arr = dep + blockH * H;
       const pd = sf && point(sf.rec, dep), pa = st && point(st.rec, arr);
-      const ad = pd ? assess(from, pd, mins, limit) : null, aa = pa ? assess(to, pa, mins, limit) : null;
+      const ad = pd ? assess(from, pd, MF) : null, aa = pa ? assess(to, pa, MT) : null;
       const order = ['good', 'outlook', 'check', 'below'];
       // Daylight at take-off and landing: always noted; with "Daylight only" it lowers the rating.
-      [[ad, daylight(from, dep, tzF, 'Takes off')], [aa, daylight(to, arr, tzT, 'Lands')]].forEach(([a, d]) => {
+      [[ad, daylight(from, dep, tzF, 'Takes off'), MF], [aa, daylight(to, arr, tzT, 'Lands'), MT]].forEach(([a, d, M]) => {
         if (!a || !d) return;
         a.notes.push(d.note);
-        if (dayOnly) { const l = d.night ? 'below' : 'check'; if (order.indexOf(l) > order.indexOf(a.level)) a.level = l; }
+        if (M.day) { const l = d.night ? 'below' : 'check'; if (order.indexOf(l) > order.indexOf(a.level)) a.level = l; }
       });
       const lvl = !ad || !aa ? null : order[Math.max(order.indexOf(ad.level), order.indexOf(aa.level))];
       return { o, dep, arr, pd, pa, ad, aa, lvl };
@@ -439,8 +476,9 @@
     let h = '<section class="wx-leg"><h2>' + esc(title) + ': ' + esc(from.code) + ' → ' + esc(to.code) + '</h2>';
     h += '<p class="wx-meta">' + esc(fmtDay(depT, tzF)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
+    h += '<p class="wx-meta">Minimums: ' + esc(from.code) + ' ' + esc(MF.label) + ' · ' + esc(to.code) + ' ' + esc(MT.label) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
-    h += windowChart(rate, from, to, depT, tzF, tzT, limit, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24);
+    h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
@@ -460,16 +498,17 @@
   async function draw() {
     const from = findAirport($('from').value), to = findAirport($('to').value), out = $('out');
     if (!from || !to) { out.innerHTML = '<p class="wx-verdict">Enter a departure airport and a destination.</p>'; return; }
-    const mins = { cig: Math.max(0, +$('mcig').value || 0), vis: Math.max(0, +$('mvis').value || 0) }; saveMins(mins);
-    const limit = A.saveXwind($('xw').value); $('xw').value = limit;
+    const S = readSets();
+    try { localStorage.setItem(WHO_KEY, WHO); } catch (e) {}
+    const fl = $('flownbox'); fl.hidden = WHO !== 'famnew' || to.code === from.code;
+    $('flownlab').textContent = 'I’ve flown into ' + to.code + ' before'; $('flown').checked = flown().includes(to.code);
     const prof = selectedProfile(), win = +$('win').value, dep = toUTC($('dep').value, zoneOf(from)), ret = toUTC($('ret').value, zoneOf(to));
-    const dayOnly = $('night').value === 'day'; try { localStorage.setItem('wingaway-night', $('night').value); } catch (e) {}
-    const q = new URLSearchParams({ from: from.code, to: to.guide ? to.guide.replace(/\/$/, '') : to.code, dep: $('dep').value, ret: $('ret').value, win, ac: $('ac').value });
+    const q = new URLSearchParams({ from: from.code, to: to.guide ? to.guide.replace(/\/$/, '') : to.code, dep: $('dep').value, ret: $('ret').value, win, ac: $('ac').value, who: WHO });
     history.replaceState(null, '', '?' + q);
     out.innerHTML = '<p class="wx-meta">Loading forecast…</p>';
     let h = '';
-    if (isFinite(dep)) h += await leg('Going', from, to, dep, win, prof, mins, limit, dayOnly, [dep, isFinite(ret) ? ret : dep]);
-    if (isFinite(ret)) h += await leg('Coming home', to, from, ret, win, prof, mins, limit, dayOnly, [isFinite(dep) ? dep : ret, ret]);
+    if (isFinite(dep)) h += await leg('Going', from, to, dep, win, prof, setFor(S, WHO, from, from), setFor(S, WHO, to, from), [dep, isFinite(ret) ? ret : dep]);
+    if (isFinite(ret)) h += await leg('Coming home', to, from, ret, win, prof, setFor(S, WHO, to, from), setFor(S, WHO, from, from), [isFinite(dep) ? dep : ret, ret]);
     if (to.guide) h += '<p class="wx-meta"><a href="../' + esc(to.guide) + '">Open the ' + esc(to.town) + ' guide</a></p>';
     out.innerHTML = h;
   }
@@ -487,13 +526,28 @@
     $('run').textContent = new Date(RUN.run).toLocaleString([], { weekday: 'short', month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }) + ' (NBM ' + RUN.run.slice(11, 13) + 'Z run' + (BASE === LIVE ? ', updated hourly)' : ', saved copy)');
     $('dl').innerHTML = DEST.map(d => '<option value="' + esc(destLabel(d)) + '">').join('');
     if (window.WingAwaySuggest) WingAwaySuggest($('from'), $('fromlist'), AP);
-    const p = new URLSearchParams(location.search), [d0, r0] = defaults(), m = readMins();
+    const p = new URLSearchParams(location.search), [d0, r0] = defaults();
     let home = ''; try { home = localStorage.getItem('wingaway-home') || ''; } catch (e) {}
     $('from').value = p.get('from') || home || 'KMYR';
     const tg = p.get('to'), td = tg && DEST.find(d => d.guide === tg.replace(/\/?$/, '/'));
     $('to').value = td ? destLabel(td) : tg || destLabel(DEST.find(d => d.guide === 'charleston/') || DEST[0]);
     $('dep').value = p.get('dep') || d0; $('ret').value = p.has('ret') ? p.get('ret') : r0; $('win').value = p.get('win') || '3';
-    $('mcig').value = m.cig; $('mvis').value = m.vis; $('xw').value = A.loadXwind();
+    try { WHO = localStorage.getItem(WHO_KEY) || 'me'; } catch (e) {}
+    if (SET_NAMES[p.get('who')]) WHO = p.get('who');
+    if (!SET_NAMES[WHO]) WHO = 'me';
+    const paintWho = () => document.querySelectorAll('[data-who]').forEach(b => b.setAttribute('aria-pressed', String(b.dataset.who === WHO)));
+    paintWho();
+    document.querySelectorAll('[data-who]').forEach(b => b.addEventListener('click', () => { WHO = b.dataset.who; paintWho(); draw(); }));
+    $('minsbox').innerHTML = minsTable(readSets());
+    $('minsbox').addEventListener('change', e => {
+      const el = e.target.closest('[data-m]'); if (!el) return;
+      const [k, f] = el.dataset.m.split('.'), S = readSets();
+      S[k][f] = f === 'day' ? el.value === '1' : Math.max(0, +el.value || 0);
+      if (k === 'me' && f === 'xw') A.saveXwind(S.me.xw);
+      saveSets(S); draw();
+    });
+    $('minsreset').addEventListener('click', () => { try { localStorage.removeItem(SETS_KEY); } catch (e) {} $('minsbox').innerHTML = minsTable(readSets()); draw(); });
+    $('flown').addEventListener('change', () => { const t = findAirport($('to').value); if (t) setFlown(t.code, $('flown').checked); draw(); });
     // Aircraft: the profile saved on the homepage, any preset, or the default estimate. Picking one here
     // only sets the flight time on this page; the homepage panel still owns the saved profile.
     const saved = A.load(), ac = $('ac');
@@ -501,9 +555,8 @@
       A.PRESETS.filter(x => !x.gear || x.gear === 'land').map(x => '<option value="' + esc(x.id) + '">' + esc(x.label) + '</option>').join('') +
       '<option value="default">Default estimate (150 kt)</option>';
     ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
-    try { $('night').value = localStorage.getItem('wingaway-night') === 'day' ? 'day' : 'ok'; } catch (e) {}
     $('out').addEventListener('click', e => { const b = e.target.closest('[data-pick]'); if (!b) return; $(b.dataset.pick).value = b.dataset.t; draw(); });
-    ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw', 'ac', 'night'].forEach(id => $(id).addEventListener('change', draw));
+    ['from', 'to', 'dep', 'ret', 'win', 'ac'].forEach(id => $(id).addEventListener('change', draw));
     draw();
   }
   init();
