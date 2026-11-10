@@ -121,8 +121,49 @@
   }
 
   // ---------- formatting ----------
-  const fmtT = t => new Date(t).toLocaleString([], { weekday: 'short', hour: 'numeric', minute: '2-digit' });
-  const fmtDay = t => new Date(t).toLocaleDateString([], { weekday: 'long', month: 'short', day: 'numeric' });
+  // ---------- time zones: every time is read and shown in the local time of its airport ----------
+  const TZ = window.WINGAWAY_TZ || { z: [], a: {} }, HOME_TZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  function zoneOf(apt) {
+    for (const k of [apt.code, apt.alt, apt.code.length === 4 && apt.code[0] === 'K' ? apt.code.slice(1) : '', apt.code.length === 3 ? 'K' + apt.code : ''])
+      if (k && TZ.a[k] != null) return TZ.z[TZ.a[k]];
+    return HOME_TZ;
+  }
+  const dtf = {};
+  function parts(t, tz) {
+    const f = dtf[tz] || (dtf[tz] = new Intl.DateTimeFormat('en-US', { timeZone: tz, hourCycle: 'h23', year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }));
+    const o = {}; f.formatToParts(t).forEach(x => { o[x.type] = +x.value; }); return o;
+  }
+  const offset = (t, tz) => { const q = parts(t, tz); return Date.UTC(q.year, q.month - 1, q.day, q.hour % 24, q.minute, q.second) - Math.floor(t / 1000) * 1000; };
+  // "2026-11-13T14:00" read as local time at the airport's time zone -> UTC milliseconds.
+  function toUTC(str, tz) {
+    const m = /^(\d{4})-(\d\d)-(\d\d)T(\d\d):(\d\d)/.exec(str || ''); if (!m) return NaN;
+    const g = Date.UTC(+m[1], m[2] - 1, +m[3], +m[4], +m[5]); let t = g - offset(g, tz); t = g - offset(t, tz); return t;
+  }
+  const fmtT = (t, tz) => new Date(t).toLocaleString([], { timeZone: tz, weekday: 'short', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
+  const fmtDay = (t, tz) => new Date(t).toLocaleDateString([], { timeZone: tz, weekday: 'long', month: 'short', day: 'numeric' });
+  const fmtClock = (t, tz) => new Date(t).toLocaleTimeString([], { timeZone: tz, hour: 'numeric', minute: '2-digit' });
+
+  // ---------- daylight: sunrise, sunset and civil twilight (NOAA-style approximation, within a minute or two) ----------
+  function sun(apt, t, tz) {
+    const q = parts(t, tz), JD = Date.UTC(q.year, q.month - 1, q.day, 12) / 864e5 + 2440587.5;
+    const n = Math.round(JD - 2451545 + 0.0008), Js = n - apt.lon / 360;
+    const M = (357.5291 + 0.98560028 * Js) % 360, Mr = rad(M);
+    const C = 1.9148 * Math.sin(Mr) + 0.02 * Math.sin(2 * Mr) + 0.0003 * Math.sin(3 * Mr);
+    const lam = rad((M + C + 180 + 102.9372) % 360);
+    const Jt = 2451545 + Js + 0.0053 * Math.sin(Mr) - 0.0069 * Math.sin(2 * lam);
+    const sd = Math.sin(lam) * Math.sin(rad(23.4397)), cd = Math.cos(Math.asin(sd)), phi = rad(apt.lat);
+    const ev = z => { const c = (Math.cos(rad(z)) - Math.sin(phi) * sd) / (Math.cos(phi) * cd); if (c < -1 || c > 1) return null; const w = Math.acos(c) * 180 / Math.PI; return [(Jt - w / 360 - 2440587.5) * 864e5, (Jt + w / 360 - 2440587.5) * 864e5]; };
+    const a = ev(90.833), b = ev(96);
+    return a && b ? { rise: a[0], set: a[1], dawn: b[0], dusk: b[1] } : null;
+  }
+  function daylight(apt, t, tz, what) {
+    const s = sun(apt, t, tz); if (!s) return null;
+    if (t > s.dusk) return { night: true, note: what + ' after dark (civil twilight ends ' + fmtClock(s.dusk, tz) + ')' };
+    if (t < s.dawn) return { night: true, note: what + ' before first light (' + fmtClock(s.dawn, tz) + ')' };
+    if (t > s.set) return { note: what + ' after sunset (' + fmtClock(s.set, tz) + ')' };
+    if (t < s.rise) return { note: what + ' before sunrise (' + fmtClock(s.rise, tz) + ')' };
+    return null;
+  }
   const LEVEL = { good: ['Looks good', 'wx-good'], check: ['Check closely', 'wx-check'], below: ['Outside your settings', 'wx-below'], outlook: ['Outlook only', 'wx-outlook'] };
   const skyWord = s => s == null ? '' : s < 10 ? 'Clear' : s < 30 ? 'Mostly clear' : s < 60 ? 'Partly cloudy' : s < 90 ? 'Mostly cloudy' : 'Overcast';
   function wind(p) {
@@ -289,7 +330,7 @@
     return '<svg class="wx-map" viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="Route with advisory areas"><defs><clipPath id="wxclip"><rect width="' + W + '" height="' + Hh + '"/></clipPath></defs><g clip-path="url(#wxclip)">' + g + '</g></svg>' +
       '<p class="wx-key"><span style="color:#2a5d9f">■</span> icing <span style="color:#b7791f">■</span> turbulence <span style="color:#a33a1f">■</span> IFR, storms, SIGMETs <span style="color:#6b5b95">■</span> other · ○ pilot report · dashed line: straight-line route</p>';
   }
-  function advHTML(from, to, dep, arr) {
+  function advHTML(from, to, dep, arr, tz) {
     const r = routeAdvisories(from, to, dep, arr);
     let h = '<div class="wx-adv"><h3>Advisories near your route</h3>';
     if (!ADV) return h + '<p class="wx-meta">Advisories could not be loaded right now.</p></div>';
@@ -297,14 +338,15 @@
     if (!r.items.length && !r.pireps.length) h += '<p class="wx-meta">No AIRMETs, SIGMETs or Center Weather Advisories within 25 nm of the straight-line route for your flight time' + (r.pchk ? ', and no recent icing or turbulence reports.' : '.') + '</p>';
     else {
       h += '<ul class="wx-advlist">' + r.items.map(i => '<li class="wx-r' + i.rank + '"><b>' + esc(i.kind) + ':</b> ' + esc(i.text) + ' <span>' + esc(i.where) + '</span></li>').join('') + '</ul>';
-      if (r.pireps.length) h += '<p class="wx-meta"><b>Recent pilot reports within 25 nm:</b></p><ul class="wx-advlist">' + r.pireps.map(p => '<li>' + esc(new Date(p.t).toLocaleTimeString([], { hour: 'numeric', minute: '2-digit' })) + ' · ' + esc(p.ac || 'aircraft') + (p.fl ? ' at ' + (p.fl * 100).toLocaleString() + ' ft' : '') + ': ' + esc([p.ice ? (SEV[p.ice] || p.ice.toLowerCase()) + ' icing' : '', p.turb ? (SEV[p.turb] || p.turb.toLowerCase()) + ' turbulence' : ''].filter(Boolean).join(', ')) + '</li>').join('') + '</ul>';
+      if (r.pireps.length) h += '<p class="wx-meta"><b>Recent pilot reports within 25 nm:</b></p><ul class="wx-advlist">' + r.pireps.map(p => '<li>' + esc(fmtClock(p.t, tz)) + ' · ' + esc(p.ac || 'aircraft') + (p.fl ? ' at ' + (p.fl * 100).toLocaleString() + ' ft' : '') + ': ' + esc([p.ice ? (SEV[p.ice] || p.ice.toLowerCase()) + ' icing' : '', p.turb ? (SEV[p.turb] || p.turb.toLowerCase()) + ' turbulence' : ''].filter(Boolean).join(', ')) + '</li>').join('') + '</ul>';
       h += advMap(from, to, r.shapes, r.pireps);
     }
     return h + '<p class="wx-confirm">Advisories are checked against a straight line, not your filed route, and only within 25 nm of it. Confirm with your flight planning resources and an official briefing.</p></div>';
   }
 
-  async function leg(title, from, to, depT, win, prof, mins, limit) {
+  async function leg(title, from, to, depT, win, prof, mins, limit, dayOnly) {
     const [sf, st] = await Promise.all([stationFor(from), stationFor(to)]);
+    const tzF = zoneOf(from), tzT = zoneOf(to);
     const dist = nm(from, to), est = A.estimate(dist, prof), blockH = est.hours;
     const rows = [];
     for (let o = -win; o <= win; o++) {
@@ -312,6 +354,12 @@
       const pd = sf && point(sf.rec, dep), pa = st && point(st.rec, arr);
       const ad = pd ? assess(from, pd, mins, limit) : null, aa = pa ? assess(to, pa, mins, limit) : null;
       const order = ['good', 'outlook', 'check', 'below'];
+      // Daylight at take-off and landing: always noted; with "Daylight only" it lowers the rating.
+      [[ad, daylight(from, dep, tzF, 'Takes off')], [aa, daylight(to, arr, tzT, 'Lands')]].forEach(([a, d]) => {
+        if (!a || !d) return;
+        a.notes.push(d.note);
+        if (dayOnly) { const l = d.night ? 'below' : 'check'; if (order.indexOf(l) > order.indexOf(a.level)) a.level = l; }
+      });
       const lvl = !ad || !aa ? null : order[Math.max(order.indexOf(ad.level), order.indexOf(aa.level))];
       rows.push({ o, dep, arr, pd, pa, ad, aa, lvl });
     }
@@ -322,19 +370,19 @@
     else if (plan.lvl === 'outlook') verdict = 'Too far out for ceilings and visibility, which are forecast within 3 days. Wind, gusts, rain and storm chances are shown as an early outlook.';
     else {
       const alt = rows.filter(r => r.lvl === 'good').sort((a, b) => Math.abs(a.o) - Math.abs(b.o))[0];
-      verdict = (plan.lvl === 'below' ? 'Your planned time is outside your settings.' : 'Your planned time needs a closer look.') + (alt ? ' Better: leave ' + fmtT(alt.dep) + ' (' + Math.abs(alt.o) + ' hr ' + (alt.o < 0 ? 'earlier' : 'later') + ').' : ' No time in this window looks better.');
+      verdict = (plan.lvl === 'below' ? 'Your planned time is outside your settings.' : 'Your planned time needs a closer look.') + (alt ? ' Better: leave ' + fmtT(alt.dep, tzF) + ' (' + Math.abs(alt.o) + ' hr ' + (alt.o < 0 ? 'earlier' : 'later') + ').' : ' No time in this window looks better.');
     }
     const src = (s, apt) => !s ? ' <span class="wx-src">no forecast within 30 nm</span>' : s.dist ? ' <span class="wx-src">using ' + esc(s.id) + ', ' + Math.round(s.dist) + ' nm away</span>' : '';
     let h = '<section class="wx-leg"><h2>' + esc(title) + ': ' + esc(from.code) + ' → ' + esc(to.code) + '</h2>';
-    h += '<p class="wx-meta">' + esc(fmtDay(depT)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
+    h += '<p class="wx-meta">' + esc(fmtDay(depT, tzF)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
-      h += '<div class="wx-row' + (r.o === 0 ? ' wx-plan' : '') + '" role="row"><div class="wx-time">' + esc(fmtT(r.dep)) + (r.o === 0 ? '<span class="wx-tag">Planned</span>' : '') + '</div>' + cell(from, r.pd, r.ad || { notes: [] }) + '<div class="wx-time">' + esc(fmtT(r.arr)) + '</div>' + cell(to, r.pa, r.aa || { notes: [] }) + '<div><span class="wx-level ' + L[1] + '">' + L[0] + '</span></div></div>';
+      h += '<div class="wx-row' + (r.o === 0 ? ' wx-plan' : '') + '" role="row"><div class="wx-time">' + esc(fmtT(r.dep, tzF)) + (r.o === 0 ? '<span class="wx-tag">Planned</span>' : '') + '</div>' + cell(from, r.pd, r.ad || { notes: [] }) + '<div class="wx-time">' + esc(fmtT(r.arr, tzT)) + '</div>' + cell(to, r.pa, r.aa || { notes: [] }) + '<div><span class="wx-level ' + L[1] + '">' + L[0] + '</span></div></div>';
     });
-    h += '</div>' + advHTML(from, to, depT, depT + blockH * H);
+    h += '</div>' + advHTML(from, to, depT, depT + blockH * H, tzF);
     return h + '</section>';
   }
 
@@ -350,13 +398,14 @@
     if (!from || !to) { out.innerHTML = '<p class="wx-verdict">Enter a departure airport and a destination.</p>'; return; }
     const mins = { cig: Math.max(0, +$('mcig').value || 0), vis: Math.max(0, +$('mvis').value || 0) }; saveMins(mins);
     const limit = A.saveXwind($('xw').value); $('xw').value = limit;
-    const prof = selectedProfile(), win = +$('win').value, dep = Date.parse($('dep').value), ret = Date.parse($('ret').value);
+    const prof = selectedProfile(), win = +$('win').value, dep = toUTC($('dep').value, zoneOf(from)), ret = toUTC($('ret').value, zoneOf(to));
+    const dayOnly = $('night').value === 'day'; try { localStorage.setItem('wingaway-night', $('night').value); } catch (e) {}
     const q = new URLSearchParams({ from: from.code, to: to.guide ? to.guide.replace(/\/$/, '') : to.code, dep: $('dep').value, ret: $('ret').value, win, ac: $('ac').value });
     history.replaceState(null, '', '?' + q);
     out.innerHTML = '<p class="wx-meta">Loading forecast…</p>';
     let h = '';
-    if (isFinite(dep)) h += await leg('Going', from, to, dep, win, prof, mins, limit);
-    if (isFinite(ret)) h += await leg('Coming home', to, from, ret, win, prof, mins, limit);
+    if (isFinite(dep)) h += await leg('Going', from, to, dep, win, prof, mins, limit, dayOnly);
+    if (isFinite(ret)) h += await leg('Coming home', to, from, ret, win, prof, mins, limit, dayOnly);
     if (to.guide) h += '<p class="wx-meta"><a href="../' + esc(to.guide) + '">Open the ' + esc(to.town) + ' guide</a></p>';
     out.innerHTML = h;
   }
@@ -388,7 +437,8 @@
       A.PRESETS.filter(x => !x.gear || x.gear === 'land').map(x => '<option value="' + esc(x.id) + '">' + esc(x.label) + '</option>').join('') +
       '<option value="default">Default estimate (150 kt)</option>';
     ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
-    ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw', 'ac'].forEach(id => $(id).addEventListener('change', draw));
+    try { $('night').value = localStorage.getItem('wingaway-night') === 'day' ? 'day' : 'ok'; } catch (e) {}
+    ['from', 'to', 'dep', 'ret', 'win', 'mcig', 'mvis', 'xw', 'ac', 'night'].forEach(id => $(id).addEventListener('change', draw));
     draw();
   }
   init();
