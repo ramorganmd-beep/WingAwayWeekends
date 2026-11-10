@@ -67,7 +67,7 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 .cx-note{{margin-top:40px;font-size:13px;color:#647784;border-top:1px solid #dbe3e9;padding-top:14px}}
 @media(max-width:760px){{.cx-fly{{grid-template-columns:1fr}}}}
 </style></head><body>
-<a class="skip" href="#main">Skip to content</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:18px"><a class="header-link" href="../trips/">Trips</a><a class="header-link" href="../map/">Map</a></span></header>
+<a class="skip" href="#main">Skip to content</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:18px"><a class="header-link" href="../trips/">Trips</a><a class="header-link" href="../map/">Map</a><a class="header-link" href="../wx/">Weather</a></span></header>
 <main id="main"><div class="cx">
 <span class="cx-preview">Preview · For discussion</span>
 <h1>Where to fly your Cirrus next</h1>
