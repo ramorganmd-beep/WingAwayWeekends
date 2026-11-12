@@ -430,10 +430,14 @@
     const arrT = depT + (blockH || 0) * H, xAt = t => x0 + ((t - start) / H + 0.5) * bw, xMax = x0 + n * bw;
     const xd = xAt(depT), xa0 = xAt(arrT), xa = Math.max(xa0, xd + 28);
     // a dashed line through the bars at each time, with a larger marker below the axis so it reads on a phone or iPad
-    const mark = (xl, x, emo, t) => '<line x1="' + xl + '" x2="' + xl + '" y1="8" y2="' + (Hh - 46) + '" stroke="#102d40" stroke-width="1.5" stroke-dasharray="4 3"/>' +
-      '<text x="' + x + '" y="' + (Hh - 13) + '" text-anchor="middle" font-size="24"><title>' + t + '</title>' + emo + '</text>';
-    if (xd >= x0 && xd <= xMax) g += mark(xd, xd, '🛫', 'Planned departure');
-    if (blockH && xa0 >= x0 && xa0 <= xMax) g += mark(xa0, xa, '🛬', 'Estimated arrival');
+    // The icons sit in HTML over the chart, not inside the SVG, so they keep their size when the chart shrinks on a phone.
+    let mk = '';
+    const mark = (xl, x, emo, t) => {
+      g += '<line x1="' + xl + '" x2="' + xl + '" y1="8" y2="' + (Hh - 46) + '" stroke="#102d40" stroke-width="1.5" stroke-dasharray="4 3" vector-effect="non-scaling-stroke"/>';
+      mk += '<span class="wx-mk" style="left:' + (x / W * 100).toFixed(2) + '%" title="' + t + '" aria-hidden="true">' + emo + '</span>';
+    };
+    if (xd >= x0 && xd <= xMax) mark(xd, xd, '🛫', 'Planned departure');
+    if (blockH && xa0 >= x0 && xa0 <= xMax) mark(xa0, xa, '🛬', 'Estimated arrival');
     // hour labels every 3 hours, day names at 6 AM
     bars.forEach(b => {
       const hr = parts(b.dep, tzF).hour % 24;
@@ -443,7 +447,7 @@
     g += '<text x="4" y="' + (mid - 30) + '" font-size="10" fill="#647784">Good</text><text x="4" y="' + (mid + 44) + '" font-size="10" fill="#647784">Look</text>';
     const sum = W2.length ? W2.length + ' window' + (W2.length > 1 ? 's' : '') + ': ' + W2.map(w => fmtT(w[0].dep, tzF) + '–' + new Date(w[w.length - 1].dep + H).toLocaleTimeString([], { timeZone: tzF, hour: 'numeric', minute: '2-digit' })).join(' · ') : 'No departure window within your settings in this range';
     return '<div class="wx-win"><div class="wx-win-head"><strong>Departure windows</strong> <span>🛫 Leave ' + esc(fmtT(depT, tzF)) + ' · 🛬 Land ' + esc(fmtT(arrT, tzT)) + '</span><br><span>' + esc(sum) + '</span></div>' +
-      '<svg viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="' + esc('Departure window chart from ' + from.code + ' to ' + to.code + '. ' + sum) + '">' + g + '</svg>' +
+      '<div class="wx-svgw"><div class="wx-svgi"><svg viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="' + esc('Departure window chart from ' + from.code + ' to ' + to.code + '. ' + sum) + '">' + g + '</svg>' + mk + '</div></div>' +
       '<p class="wx-key">Bars are departure hours from ' + esc(from.code) + ': <span style="color:#3f8f4f">▲ within your settings</span> (taller = more crosswind margin) · <span style="color:#d39a2c">▼ check closely</span> · <span style="color:#c2462b">▼ outside your settings</span> · <span style="color:#7a3a8c">▼ storms or LIFR</span> · <span style="color:#8a96a0">▲ outlook only</span> · shaded = dark at ' + esc(from.code) + ' · boxes = daylight windows of 2+ hours · 🛫 planned departure · 🛬 estimated arrival. Tap a bar to plan that time.</p>' +
       '<p class="wx-credit">Weather window concept inspired by Logan Greenlee.</p></div>';
   }
@@ -516,6 +520,8 @@
     if (isFinite(ret)) h += await leg('Coming home', to, from, ret, win, prof, setFor(S, WHO, to, from), setFor(S, WHO, from, from), [isFinite(dep) ? dep : ret, ret]);
     if (to.guide) h += '<p class="wx-meta"><a href="../' + esc(to.guide) + '">Open the ' + esc(to.town) + ' guide</a></p>';
     out.innerHTML = h;
+    // On a phone the chart scrolls sideways: open it with the takeoff marker in view.
+    out.querySelectorAll('.wx-svgw').forEach(w => { const m = w.querySelector('.wx-mk'); if (m && w.scrollWidth > w.clientWidth) w.scrollLeft = Math.max(0, m.offsetLeft - w.clientWidth / 3); });
   }
 
   async function init() {
