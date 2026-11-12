@@ -51,17 +51,17 @@
 
 <h2>4. Fly together</h2>
 <div class="cx-fly">
-<div><span class="tag">Sample Cirrus-hosted fly-in · example only</span><h3>The Great Smoky Mountains, a group weekend</h3>
-<p>A short hop for most of the Southeast and Midwest. Fly in on Friday to Gatlinburg–Pigeon Forge (KGKT), or to Knoxville (KTYS), home of the Cirrus Vision Center, 23 nm away. Saturday in the park: Cades Cove at sunrise, a picnic and a waterfall hike, then dinner together in Townsend.</p>
-<p><a href="../smoky-mountains/">See the Great Smoky Mountains guide</a> · Nearby: <a href="../asheville/">Asheville</a>, <a href="../highlands-cashiers/">Highlands–Cashiers</a></p>
+<div><span class="tag">Sample Cirrus-hosted fly-in · example only</span><h3>Knoxville and the Smokies, a group weekend</h3>
+<p>A short hop for most of the Southeast and Midwest. Fly in on Friday to Knoxville (KTYS), home of the Cirrus Vision Center, with its 10,000 ft runway. Dinner together downtown on Market Square, then Saturday in the Great Smoky Mountains, about an hour away.</p>
+<p><a href="../knoxville/">See the Knoxville guide</a> · Other fly-in options nearby: <a href="../smoky-mountains/">Gatlinburg and the Smokies</a>, <a href="../asheville/">Asheville</a>, <a href="../chattanooga/">Chattanooga</a></p>
 <button class="cx-signup" type="button" disabled>Sign-up opens when dates are announced</button></div>
-<ul><li>Dates, host and event details to be set</li><li>Arrival at KGKT (5,506 ft) or KTYS</li><li>An optional stop at the Cirrus Vision Center, if Cirrus hosts</li><li>Route and fuel options for each Cirrus model; pilots cover their own flying and lodging</li><li>Lodging and dining picks from the guide</li><li>See who’s flying in before you go</li></ul>
+<ul><li>Dates, host and event details to be set</li><li>Arrival at KTYS, Signature Knoxville FBO</li><li>An optional visit to the Cirrus Vision Center, if Cirrus hosts</li><li>Route and fuel options for each Cirrus model; pilots cover their own flying and lodging</li><li>Lodging and dining picks from the guide</li><li>See who’s flying in before you go</li></ul>
 </div>
 
 <div class="cx-signup-demo" id="signup">
 <div class="cx-demo-tag">Sample sign-up · preview only, no registrations are saved</div>
 <h3>Join the fly-in</h3>
-<p class="sub">Each pilot registers once and gets a personal route to KGKT with time and fuel for their airplane.</p>
+<p class="sub">Each pilot registers once and gets a personal route to KTYS with time and fuel for their airplane.</p>
 <form id="cx-form" class="cx-form" autocomplete="off" onsubmit="return false">
 <label>Name<input id="f-name" placeholder="Your name"></label>
 <label>Home airport<input id="f-home" list="f-home-list" placeholder="e.g. KMYR" spellcheck="false"><datalist id="f-home-list"></datalist></label>
@@ -73,14 +73,14 @@
 <div id="f-out" class="cx-out" aria-live="polite"></div>
 <button class="cx-signup" type="button" disabled>Register (opens when dates are announced)</button>
 <h4>Who’s flying in <span>example</span></h4>
-<ul class="cx-who"><li><b>SR22T</b> from KMYR, Myrtle Beach, SC · 2 aboard</li><li><b>Vision Jet</b> from KDAL, Dallas, TX · 3 aboard</li><li><b>SR20</b> from KTYS, Knoxville, TN · 1 aboard</li><li><b>SR22</b> from KPDK, Atlanta, GA · 2 aboard</li></ul>
+<ul class="cx-who"><li><b>SR22T</b> from KMYR, Myrtle Beach, SC · 2 aboard</li><li><b>Vision Jet</b> from KDAL, Dallas, TX · 3 aboard</li><li><b>SR20</b> from KBNA, Nashville, TN · 1 aboard</li><li><b>SR22</b> from KPDK, Atlanta, GA · 2 aboard</li></ul>
 </div>
 
 
 <p class="cx-note">This page is a preview prepared for discussion. WingAway Weekends is independent and is not affiliated with or endorsed by Cirrus Aircraft. Times and fuel are planning estimates, not flight plans.</p>
 </div></main>
 <footer><a class="brand" href="../">WingAway Weekends</a><p>A short flight. A slower weekend.</p></footer>
-<script src="../aircraft.js?v=202611071530"></script><script src="../destinations.js?v=202611071600"></script><script src="../airports-us.js?v=202611071353"></script><script src="../airport-suggest.js?v=202611071353"></script>
+<script src="../aircraft.js?v=202611121500"></script><script src="../destinations.js?v=202611121500"></script><script src="../airports-us.js?v=202611121500"></script><script src="../airport-suggest.js?v=202611121500"></script>
 <script>
 (function(){var A=window.WingAwayAircraft,st=document.getElementById('cx-status'),bs=document.querySelectorAll('.cx-model');
 function mark(id){bs.forEach(function(b){b.setAttribute('aria-pressed',b.dataset.id===id?'true':'false')})}
@@ -89,7 +89,7 @@ bs.forEach(function(b){b.addEventListener('click',function(){var p=A.PRESETS.fil
 st.innerHTML='Saved: '+p.label+', '+p.tas+' kt, '+p.gph+' gal/hr. <a href="../">See getaways from your home airport →</a>'})})})();
 </script>
 <script>
-(function(){var A=window.WingAwayAircraft,AP=window.WINGAWAY_AIRPORTS||[],D=(window.WINGAWAY_DESTINATIONS||[]).find(function(d){return d.guide==='smoky-mountains/'});
+(function(){var A=window.WingAwayAircraft,AP=window.WINGAWAY_AIRPORTS||[],D=(window.WINGAWAY_DESTINATIONS||[]).find(function(d){return d.guide==='knoxville/'});
 var X=new Map();AP.forEach(function(a){X.set(a[0],a);if(a[1])X.set(a[1],a)});
 var $=function(i){return document.getElementById(i)};if(window.WingAwaySuggest)WingAwaySuggest($('f-home'),$('f-home-list'),AP);
 try{var h=localStorage.getItem('wingaway-home');if(h)$('f-home').value=h;var c=A.load();if(c&&/^(sr20|sr22|sr22t|sf50)$/.test(c.id))$('f-ac').value=c.id;}catch(e){}
@@ -99,8 +99,8 @@ $('f-go').addEventListener('click',function(){var code=$('f-home').value.trim().
  if(!a){out.innerHTML='<span class="warn">We don’t recognize that airport. Try its code, like KMYR.</span>';return;}
  if(!D){out.textContent='';return;}
  var p=A.PRESETS.filter(function(x){return x.id===$('f-ac').value})[0],home={lat:+a[5],lon:+a[6]},d=nm(home,D),e=A.estimate(d,p);
- var name=$('f-name').value.trim(),tail=$('f-tail').value.trim().toUpperCase(),link='../trips/build/?stops=smoky-mountains%3A2&home='+encodeURIComponent(a[0])+'&ac='+p.id+'&pace=4';
- out.innerHTML='<div class="cx-route">'+(name?'<b>'+esc(name)+'</b>, here’s your route':'Here’s your route')+(tail?' in '+esc(tail):'')+': <b>'+esc(a[0])+' → KGKT</b> · '+Math.round(d)+' nm · about '+A.formatTime(e.hours)+' · about '+Math.round(e.gal)+' gal in a '+esc(p.label)+'.'+(e.stop?' <span class="warn">This leg likely needs a fuel stop; the trip planner suggests one.</span>':' Nonstop with your reserve.')+'<br><a href="'+link+'">Open the full trip plan with dates and hotels →</a></div>';});
+ var name=$('f-name').value.trim(),tail=$('f-tail').value.trim().toUpperCase(),link='../trips/build/?stops=knoxville%3A2&home='+encodeURIComponent(a[0])+'&ac='+p.id+'&pace=4';
+ out.innerHTML='<div class="cx-route">'+(name?'<b>'+esc(name)+'</b>, here’s your route':'Here’s your route')+(tail?' in '+esc(tail):'')+': <b>'+esc(a[0])+' → KTYS</b> · '+Math.round(d)+' nm · about '+A.formatTime(e.hours)+' · about '+Math.round(e.gal)+' gal in a '+esc(p.label)+'.'+(e.stop?' <span class="warn">This leg likely needs a fuel stop; the trip planner suggests one.</span>':' Nonstop with your reserve.')+'<br><a href="'+link+'">Open the full trip plan with dates and hotels →</a></div>';});
 })();
 </script>
 
