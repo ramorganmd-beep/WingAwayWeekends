@@ -13,6 +13,9 @@ from pathlib import Path
 
 LUXURY = {
     'savannah': [
+        ('Forsyth Park · Luxury', 'Hotel Bardo Savannah',
+         'A luxury hotel at 700 Drayton Street beside Forsyth Park, with the Saltgrass Spa, a pool and several restaurants and bars.',
+         'https://www.staybardo.com/'),
         ('Luxury Collection · Historic district', 'Perry Lane Hotel',
          'Savannah’s Luxury Collection hotel on East Perry Street, with art-filled rooms, a rooftop bar and a short walk to the squares.',
          'https://www.marriott.com/en-us/hotels/savlc-perry-lane-hotel-a-luxury-collection-hotel-savannah/overview/'),
@@ -148,7 +151,9 @@ LUXURY = {
          'https://www.theinnatlittlewashington.com/')],
 }
 
-ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">.*?</div>(?=</section>)', re.S)
+# The row is the heading, its grid and the cards inside it; match exactly that, so re-running on a finished
+# guide (where the stay section no longer ends right after the row) can't eat the sections that follow.
+ROW_RE = re.compile(r'<h3 class="subhead" data-lux>Luxury alternatives</h3><div class="grid three">(?:<article\b.*?</article>)*</div>', re.S)
 
 
 def card(tag, name, body, href=None, link_text='Official details'):
