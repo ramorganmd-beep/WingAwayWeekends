@@ -428,9 +428,12 @@
     });
     // planned departure (🛫) and estimated arrival (🛬) under the time axis
     const arrT = depT + (blockH || 0) * H, xAt = t => x0 + ((t - start) / H + 0.5) * bw, xMax = x0 + n * bw;
-    const xd = xAt(depT), xa0 = xAt(arrT), xa = Math.max(xa0, xd + 20);
-    if (xd >= x0 && xd <= xMax) g += '<text x="' + xd + '" y="' + (Hh - 16) + '" text-anchor="middle" font-size="17"><title>Planned departure</title>🛫</text>';
-    if (blockH && xa0 >= x0 && xa0 <= xMax) g += '<text x="' + xa + '" y="' + (Hh - 16) + '" text-anchor="middle" font-size="17"><title>Estimated arrival</title>🛬</text>';
+    const xd = xAt(depT), xa0 = xAt(arrT), xa = Math.max(xa0, xd + 28);
+    // a dashed line through the bars at each time, with a larger marker below the axis so it reads on a phone or iPad
+    const mark = (xl, x, emo, t) => '<line x1="' + xl + '" x2="' + xl + '" y1="8" y2="' + (Hh - 46) + '" stroke="#102d40" stroke-width="1.5" stroke-dasharray="4 3"/>' +
+      '<text x="' + x + '" y="' + (Hh - 13) + '" text-anchor="middle" font-size="24"><title>' + t + '</title>' + emo + '</text>';
+    if (xd >= x0 && xd <= xMax) g += mark(xd, xd, '🛫', 'Planned departure');
+    if (blockH && xa0 >= x0 && xa0 <= xMax) g += mark(xa0, xa, '🛬', 'Estimated arrival');
     // hour labels every 3 hours, day names at 6 AM
     bars.forEach(b => {
       const hr = parts(b.dep, tzF).hour % 24;
