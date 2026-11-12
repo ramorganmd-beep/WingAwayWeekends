@@ -397,7 +397,7 @@
     const m = [[r.ad.x, MF.xw], [r.aa.x, MT.xw]].map(([x, l]) => x && !x.calm ? Math.max(0, (l - x.xg) / l) : 1);
     return { s: 1 + 2 * Math.min(...m), c: 'ok' };
   }
-  function windowChart(rate, from, to, depT, tzF, tzT, MF, MT, field, span) {
+  function windowChart(rate, from, to, depT, tzF, tzT, MF, MT, field, span, blockH) {
     // Centered on the planned time: 24 hours for the trip out (12 either side), 48 for the trip home (24 either side).
     const half = span, n = 2 * half;
     const start = Math.floor((depT - half * H) / H) * H;
@@ -426,9 +426,11 @@
       const L = LEVEL[b.lvl][0] + ' · leave ' + fmtT(b.dep, tzF) + ', land ' + fmtT(b.arr, tzT) + (b.ad.notes.concat(b.aa.notes).length ? ' · ' + b.ad.notes.concat(b.aa.notes).join(' · ') : '');
       g += '<rect class="wx-bar-h" data-pick="' + field + '" data-t="' + tzInput(b.dep, tzF) + '" x="' + x + '" y="' + y + '" width="' + Math.max(1, bw - (bw > 8 ? 3 : 1)) + '" height="' + Math.max(2, hgt) + '" rx="2" fill="' + col[b.sc.c] + '"><title>' + esc(L) + '</title></rect>';
     });
-    // planned departure marker
-    const pi = Math.round((depT - start) / H);
-    if (pi >= 0 && pi < n) g += '<path d="M' + (x0 + (pi + 0.5) * bw) + ' ' + (Hh - 30) + 'l-6 9h12z" fill="#102d40"/>';
+    // planned departure (🛫) and estimated arrival (🛬) under the time axis
+    const arrT = depT + (blockH || 0) * H, xAt = t => x0 + ((t - start) / H + 0.5) * bw, xMax = x0 + n * bw;
+    const xd = xAt(depT), xa0 = xAt(arrT), xa = Math.max(xa0, xd + 20);
+    if (xd >= x0 && xd <= xMax) g += '<text x="' + xd + '" y="' + (Hh - 16) + '" text-anchor="middle" font-size="17"><title>Planned departure</title>🛫</text>';
+    if (blockH && xa0 >= x0 && xa0 <= xMax) g += '<text x="' + xa + '" y="' + (Hh - 16) + '" text-anchor="middle" font-size="17"><title>Estimated arrival</title>🛬</text>';
     // hour labels every 3 hours, day names at 6 AM
     bars.forEach(b => {
       const hr = parts(b.dep, tzF).hour % 24;
@@ -437,9 +439,9 @@
     });
     g += '<text x="4" y="' + (mid - 30) + '" font-size="10" fill="#647784">Good</text><text x="4" y="' + (mid + 44) + '" font-size="10" fill="#647784">Look</text>';
     const sum = W2.length ? W2.length + ' window' + (W2.length > 1 ? 's' : '') + ': ' + W2.map(w => fmtT(w[0].dep, tzF) + '–' + new Date(w[w.length - 1].dep + H).toLocaleTimeString([], { timeZone: tzF, hour: 'numeric', minute: '2-digit' })).join(' · ') : 'No departure window within your settings in this range';
-    return '<div class="wx-win"><div class="wx-win-head"><strong>Departure windows</strong> <span>' + esc(sum) + '</span></div>' +
+    return '<div class="wx-win"><div class="wx-win-head"><strong>Departure windows</strong> <span>🛫 Leave ' + esc(fmtT(depT, tzF)) + ' · 🛬 Land ' + esc(fmtT(arrT, tzT)) + '</span><br><span>' + esc(sum) + '</span></div>' +
       '<svg viewBox="0 0 ' + W + ' ' + Hh + '" role="img" aria-label="' + esc('Departure window chart from ' + from.code + ' to ' + to.code + '. ' + sum) + '">' + g + '</svg>' +
-      '<p class="wx-key">Bars are departure hours from ' + esc(from.code) + ': <span style="color:#3f8f4f">▲ within your settings</span> (taller = more crosswind margin) · <span style="color:#d39a2c">▼ check closely</span> · <span style="color:#c2462b">▼ outside your settings</span> · <span style="color:#7a3a8c">▼ storms or LIFR</span> · <span style="color:#8a96a0">▲ outlook only</span> · shaded = dark at ' + esc(from.code) + ' · boxes = daylight windows of 2+ hours · ▲ under the axis = your planned time. Tap a bar to plan that time.</p>' +
+      '<p class="wx-key">Bars are departure hours from ' + esc(from.code) + ': <span style="color:#3f8f4f">▲ within your settings</span> (taller = more crosswind margin) · <span style="color:#d39a2c">▼ check closely</span> · <span style="color:#c2462b">▼ outside your settings</span> · <span style="color:#7a3a8c">▼ storms or LIFR</span> · <span style="color:#8a96a0">▲ outlook only</span> · shaded = dark at ' + esc(from.code) + ' · boxes = daylight windows of 2+ hours · 🛫 planned departure · 🛬 estimated arrival. Tap a bar to plan that time.</p>' +
       '<p class="wx-credit">Weather window concept inspired by Logan Greenlee.</p></div>';
   }
 
@@ -478,8 +480,8 @@
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
     h += '<p class="wx-meta">Minimums: ' + esc(from.code) + ' ' + esc(MF.label) + ' · ' + esc(to.code) + ' ' + esc(MT.label) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
-    h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24);
-    h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
+    h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24, blockH);
+    h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">🛫 Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">🛬 Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
       h += '<div class="wx-row' + (r.o === 0 ? ' wx-plan' : '') + '" role="row"><div class="wx-time">' + esc(fmtT(r.dep, tzF)) + (r.o === 0 ? '<span class="wx-tag">Planned</span>' : '') + '</div>' + cell(from, r.pd, r.ad || { notes: [] }) + '<div class="wx-time">' + esc(fmtT(r.arr, tzT)) + '</div>' + cell(to, r.pa, r.aa || { notes: [] }) + '<div><span class="wx-level ' + L[1] + '">' + L[0] + '</span></div></div>';
