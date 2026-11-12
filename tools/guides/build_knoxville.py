@@ -6,20 +6,20 @@ from simple_guide import build  # noqa: E402
 GUIDE = {
     'slug': 'knoxville', 'name': 'Knoxville', 'state': 'Tennessee', 'number': 302, 'reviewed': None,
     'researched': 'November 12, 2026',
-    'airport': 'KDKX', 'nm': 280, 'flight_time': '~2 hr 7 <small>min</small>', 'style': 'Uber + walks',
+    'airport': 'KTYS', 'nm': 281, 'flight_time': '~2 hr 7 <small>min</small>', 'style': 'Rental car or Uber',
     'place': 'Knoxville, Tennessee',
-    'description': 'A curated Knoxville getaway for GA pilots and their partners, from KMYR to KDKX. Land on the river minutes from downtown: Market Square, a James Beard chef’s wood-fired kitchen, the Sunsphere, the Urban Wilderness and the Smokies an hour away.',
-    'lede': 'Land on the river, minutes from Market Square.',
-    'intro': 'Knoxville’s Downtown Island Airport sits on the Tennessee River a few minutes from Market Square and Gay Street. Stay downtown, eat at J.C. Holdway, walk World’s Fair Park to the Sunsphere and hike the Urban Wilderness at Ijams. The Great Smoky Mountains are about an hour away, and Cirrus’s Vision Center is across town at McGhee Tyson.',
-    'pills': ['Downtown airport', 'Food & music', 'Smokies nearby'],
+    'description': 'A curated Knoxville getaway for GA pilots and their partners, from KMYR to KTYS. Land at McGhee Tyson, home of Cirrus’s Vision Center, then head downtown for Market Square, a James Beard chef’s wood-fired kitchen, the Sunsphere, the Urban Wilderness and the Smokies an hour away.',
+    'lede': 'Fly in where Cirrus delivers its airplanes, then head downtown.',
+    'intro': 'McGhee Tyson Airport is home to Cirrus’s Vision Center, where the company delivers airplanes and trains and supports owners. From there it is about 25 minutes to Market Square and Gay Street. Stay downtown, eat at J.C. Holdway, walk World’s Fair Park to the Sunsphere and hike the Urban Wilderness at Ijams. The Great Smoky Mountains are about an hour away.',
+    'pills': ['Cirrus Vision Center', 'Food & music', 'Smokies nearby'],
     'flight': {
-        'title': 'Land on the river.',
-        'intro': 'KDKX, Knoxville Downtown Island Airport, is a non-towered field on an island in the Tennessee River with one paved runway (08/26, 3,499 ft), a few minutes from downtown. For a longer runway, a tower or the Cirrus Vision Center, use McGhee Tyson (KTYS, 9,000 and 10,000 ft) about 25 minutes south.',
-        'fbo': ['Knoxville Downtown Island Airport', 'Metropolitan Knoxville Airport Authority · 100LL and Jet A', '865-577-4461'],
-        'notes': ['Confirm FBO hours, fees, parking and ground transportation. No live fuel price is shown.',
-                  'Mind the 3,499 ft runway and the river and ridgelines around it; check density altitude and your performance numbers. About 280 nm from Myrtle Beach, roughly two hours over the mountains.'],
-        'around_title': 'Uber and walking.',
-        'around': 'Take an Uber from the airport; downtown, Market Square, the Old City and World’s Fair Park are walkable.',
+        'title': 'Land at McGhee Tyson.',
+        'intro': 'KTYS, McGhee Tyson Airport, is a towered airport in Class C airspace with two long runways (05L/23R, 10,000 ft, and 05R/23L, 9,000 ft), about 25 minutes south of downtown. Cirrus’s Vision Center (sales, delivery, training and service) is on the field. For an airport minutes from downtown, Knoxville Downtown Island Airport (KDKX, non-towered, 3,499 ft runway) sits on the Tennessee River.',
+        'fbo': ['Signature Knoxville', '2343 W General Aviation Drive, Alcoa, TN · open 24 hours', '865-970-9000', 'https://www.signatureaviation.com/locations/tys'],
+        'notes': ['Confirm FBO fees, parking and ground transportation. No live fuel price is shown.',
+                  'Class C airspace: contact approach before entering. About 280 nm from Myrtle Beach, roughly two hours over the mountains; check winds, ceilings and terrain.'],
+        'around_title': 'Rental car or Uber.',
+        'around': 'Rent a car or take an Uber the 25 minutes downtown; downtown, Market Square, the Old City and World’s Fair Park are walkable. A car also makes the Smokies an easy day trip.',
     },
     'stay': {
         'title': 'Downtown luxury or a boutique on Market Square.',
@@ -62,7 +62,7 @@ GUIDE = {
         'intro': 'A sample weekend: downtown, the Urban Wilderness and dinner at J.C. Holdway. No bookings or availability confirmed.',
         'days': [
             ('DAY 1', 'Arrive & Market Square', [
-                ('Arrival', 'Land at KDKX, subject to weather, runway length and your actual flight plan.'),
+                ('Arrival', 'Land at KTYS, subject to weather and your actual flight plan; drive downtown.'),
                 ('Afternoon', 'Market Square and Gay Street.'),
                 ('Evening', 'Dinner at J.C. Holdway.')]),
             ('DAY 2', 'Trails & the Sunsphere', [
@@ -76,10 +76,10 @@ GUIDE = {
         ],
     },
     'know': [
-        ('Book in this order', 'Lodging first (check the football schedule), then J.C. Holdway.'),
-        ('Short runway', 'KDKX has 3,499 ft; McGhee Tyson (KTYS) is the long-runway, towered option.'),
+        ('Book in this order', 'Lodging first (check the football schedule), then J.C. Holdway and a rental car.'),
+        ('Two airports', 'KTYS has the long runways, the tower and the Cirrus Vision Center; KDKX (3,499 ft) is closer to downtown.'),
         ('Mountain flying', 'About 280 nm from Myrtle Beach over the Appalachians: check winds, ceilings and terrain.'),
-        ('Cirrus owners', 'Cirrus’s Vision Center (sales, delivery, training and service) is at KTYS.'),
+        ('Cirrus owners', 'The Vision Center is on the field at KTYS; contact Cirrus ahead about a visit.'),
     ],
 }
 
