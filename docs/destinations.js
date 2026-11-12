@@ -5971,10 +5971,10 @@ window.WINGAWAY_DESTINATIONS=[
 {
  "name": "Knoxville",
  "state": "Tennessee",
- "airport": "KDKX", "rwy": 3499,
- "lat": 35.9638,
- "lon": -83.8737,
- "desc": "A river airport minutes from downtown: Market Square, J.C. Holdway, the Sunsphere, the Urban Wilderness and the Smokies an hour away.",
+ "airport": "KTYS", "rwy": 10000,
+ "lat": 35.8111,
+ "lon": -83.9941,
+ "desc": "Home of Cirrus’s Vision Center at McGhee Tyson, 25 minutes from Market Square, J.C. Holdway, the Sunsphere, the Urban Wilderness and the Smokies.",
  "tags": [
   "Dining",
   "Outdoors",
