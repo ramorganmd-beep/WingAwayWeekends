@@ -2191,3 +2191,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Bernd 📷 Dittrich on Unsplash — https://unsplash.com/photos/a-large-wooden-boat-docked-at-a-pier-rrKLt8Pk-AY
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Mayflower Street, Plymouth, MA; photographer’s description: Mayflower2 in Plymouth
+
+## Knoxville
+
+- Photo by Elijah Crouch on Unsplash — https://unsplash.com/photos/the-sunsphere-of-knoxville-tennessee-stands-tall-ePOuR3NLUZs
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Knoxville, TN; photographer’s description: The Sunsphere in Knoxville

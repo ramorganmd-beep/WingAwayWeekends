@@ -5967,5 +5967,26 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Northeast",
  "family": true,
   "photo": {"slug": "plymouth", "remote": "https://images.unsplash.com/photo-1653991011661-e1b96d9e7018?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0MzMzMDY1fA&ixlib=rb-4.1.0", "alt": "The Mayflower II, a full-scale replica of the Pilgrims’ ship, moored at the Plymouth waterfront", "pos": "50% 60%"}
+},
+{
+ "name": "Knoxville",
+ "state": "Tennessee",
+ "airport": "KDKX", "rwy": 3499,
+ "lat": 35.9638,
+ "lon": -83.8737,
+ "desc": "A river airport minutes from downtown: Market Square, J.C. Holdway, the Sunsphere, the Urban Wilderness and the Smokies an hour away.",
+ "tags": [
+  "Dining",
+  "Outdoors",
+  "Hiking",
+  "Stays",
+  "History"
+ ],
+ "guide": "knoxville/",
+ "stateCode": "TN",
+ "region": "Southeast",
+ "family": true,
+ "draft": true,
+ "photo": {"slug": "knoxville", "remote": "https://images.unsplash.com/photo-1750569397248-e11c54d0d118?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NDg5MTMyfA&ixlib=rb-4.1.0", "alt": "The gold-glass Sunsphere in World’s Fair Park, Knoxville", "pos": "50% 45%"}
 }
 ];
