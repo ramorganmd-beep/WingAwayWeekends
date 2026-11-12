@@ -5986,7 +5986,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "TN",
  "region": "Southeast",
  "family": true,
- "draft": true,
- "photo": {"slug": "knoxville", "remote": "https://images.unsplash.com/photo-1750569397248-e11c54d0d118?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NDg5MTMyfA&ixlib=rb-4.1.0", "alt": "The gold-glass Sunsphere in World’s Fair Park, Knoxville", "pos": "50% 45%"}
+  "photo": {"slug": "knoxville", "remote": "https://images.unsplash.com/photo-1750569397248-e11c54d0d118?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NDg5MTMyfA&ixlib=rb-4.1.0", "alt": "The gold-glass Sunsphere in World’s Fair Park, Knoxville", "pos": "50% 45%"}
 }
 ];
