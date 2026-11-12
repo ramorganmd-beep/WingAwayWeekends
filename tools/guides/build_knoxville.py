@@ -4,7 +4,7 @@ sys.path.insert(0, __file__.rsplit("/", 1)[0])
 from simple_guide import build  # noqa: E402
 
 GUIDE = {
-    'slug': 'knoxville', 'name': 'Knoxville', 'state': 'Tennessee', 'number': 302, 'reviewed': None,
+    'slug': 'knoxville', 'name': 'Knoxville', 'state': 'Tennessee', 'number': 302, 'reviewed': 'November 12, 2026',
     'researched': 'November 12, 2026',
     'airport': 'KTYS', 'nm': 281, 'flight_time': '~2 hr 7 <small>min</small>', 'style': 'Rental car or Uber',
     'place': 'Knoxville, Tennessee',
