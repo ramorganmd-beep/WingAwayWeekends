@@ -32,8 +32,8 @@ PACK = [
 def box(name, sections):
     jump = ' '.join(f'<a href="#{sid}">{label}</a>' for sid, label in sections)
     items = ''.join(f'<li>{t}</li>' for t in PACK)
-    return ('<!--wa-pax-box--><div class="wa-pax-box" aria-label="Your weekend">'
-            f'<h2>Your weekend in {name}</h2>'
+    return ('<!--wa-pax-box--><div class="wa-pax-box" aria-label="Our weekend">'
+            f'<h2>Our weekend in {name}</h2>'
             '<p data-pax-flight>In our plane it’s a short flight.</p>'
             f'<p class="wa-pax-jump">{jump}</p>'
             '<h3 class="subhead" style="margin:14px 0 4px">What you need to know for this flight</h3>'
