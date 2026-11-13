@@ -517,6 +517,11 @@ On the build page, the first-stop and add-stop pickers are text inputs with a da
 
 ## Getting into town (Nov 13, 2026)
 
-- `tools/guides/ground.py` adds a "Getting into town" box under the route and weather links: FBO, crew car, rental car, rideshare, time into town, "No rental car needed?" and (only when confirmed) pilot perks, each with the month checked and "call the FBO". Data lives in the `GROUND` dict in that file. Live for Knoxville, the Smokies, Asheville and Chattanooga. **Guide rebuild loop is now:** personalize trip_plans luxury maplinks feedback stay22 trips_link border wx_link wx_nav ground.
+- `tools/guides/ground.py` adds a "Getting into town" box under the route and weather links: FBO, crew car, rental car, rideshare, time into town, "No rental car needed?" and (only when confirmed) pilot perks, each with the month checked and "call the FBO". Data lives in the `GROUND` dict in that file. Live for Knoxville, the Smokies, Asheville and Chattanooga. **Guide rebuild loop is now:** personalize trip_plans luxury maplinks feedback stay22 trips_link border wx_link wx_nav ground shop.
 - `/rental-cars/` explains booking a car at the FBO (Enterprise/National, Hertz, Go Rentals, Avis, AOPA discount, FlightBridge, crew-car etiquette); every box links to it. No paid relationships.
 - Next: the 12 Cirrus featured destinations, then the most-visited guides; add the homepage "No rental car needed" filter once enough guides have boxes. Possible later partnership: FlightBridge (handoff link or referral), after the Cirrus meeting.
+
+## Shopping & take home (Nov 13, 2026)
+
+- `tools/guides/shop.py` (data in `SHOP`): for guides that already have a `#shopping` section it adds a "Local flavors to take home" row (`food`) and any extra shop cards (`add`); for guides without one it inserts a full "Shopping & take home" section before Events (or Itinerary), adds "Shop" to the section menu and renumbers the section eyebrows. One link per card: official site, or "Website & map" when there is none.
+- Live: Charleston (City Market card names local lotions, soaps and crafts, the owner's wife's favorite), Savannah, Asheville, Knoxville. Next batch: Beaufort, Nashville, Pinehurst. Then destinations known for shopping (Nantucket, Carmel, Santa Fe, Fredericksburg TX, Highlands–Cashiers, New Hope). Wanted: verified local hot sauces; a homepage "Shopping" interest once enough guides have it.

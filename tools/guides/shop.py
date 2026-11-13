@@ -99,9 +99,34 @@ SHOP = {
              'https://www.visitknoxville.com/things-to-do/popular-spots/market-square/', 'Market Square, Knoxville, TN'),
         ],
     },
+    'beaufort': {
+        'food': [
+            ('Take home · Local shrimp', 'Gay Fish Company',
+             'A family shrimp dock on St. Helena Island since 1948. Fresh local shrimp, plus grits, hot sauce, spices and Frogmore Stew fixings to take home. Ask them to pack shrimp on ice for the flight.',
+             '', 'Gay Fish Company, 1948 Sea Island Parkway, St. Helena Island, SC'),
+        ],
+    },
+    'nashville': {
+        'food': [
+            ('Take home · Candy since 1912', 'Goo Goo Chocolate Co.',
+             'The home of the Goo Goo Cluster, just south of Broadway on Third Avenue, with shop-only flavors and candy-making experiences.',
+             'https://googoo.com/', 'Goo Goo Chocolate Co., 3rd Avenue South, Nashville, TN'),
+            ('Take home · Chocolate', 'Olive & Sinclair',
+             'Bean-to-bar Southern chocolate made in East Nashville; the factory at 1628 Fatherland Street offers tours and tastings. Try the brittle.',
+             'https://oliveandsinclair.com/', 'Olive & Sinclair Chocolate, 1628 Fatherland St, Nashville, TN'),
+        ],
+    },
+    'pinehurst': {
+        'add': [
+            ('Seagrove · Pottery', 'North Carolina Pottery Center',
+             'About 45 minutes north, Seagrove is the heart of North Carolina’s handmade pottery tradition. Start at the center, at 233 East Avenue, then visit working potters nearby. Open Tuesday–Saturday.',
+             'https://www.ncpotterycenter.org/', 'North Carolina Pottery Center, Seagrove, NC'),
+        ],
+    },
 }
 
 MARK = re.compile(r'<!--wa-shop-->.*?<!--/wa-shop-->\n?', re.S)
+ADDMARK = re.compile(r'<!--wa-shopadd-->.*?<!--/wa-shopadd-->', re.S)
 NAVMARK = '<a href="#shopping">Shop</a>'
 
 
@@ -151,12 +176,18 @@ def main(paths):
         key = p.parent.name
         if key not in SHOP:
             continue
-        s = MARK.sub('', p.read_text()).replace(NAVMARK, '')
+        s = ADDMARK.sub('', MARK.sub('', p.read_text())).replace(NAVMARK, '')
+        d = SHOP[key]
         if '<section id="shopping"' in s:
-            # The guide already has a Shopping section: add the take-home foods inside it.
+            # The guide already has a Shopping section: add extra shops to its cards and the take-home foods below.
             i = s.index('<section id="shopping"')
             j = s.index('</section>', i)
-            s = s[:j] + food_block(SHOP[key]) + s[j:]
+            if d.get('add'):
+                k = s.rindex('</article>', i, j) + len('</article>')
+                s = s[:k] + '<!--wa-shopadd-->' + ''.join(card(*c) for c in d['add']) + '<!--/wa-shopadd-->' + s[k:]
+                j = s.index('</section>', i)
+            if d.get('food'):
+                s = s[:j] + food_block(d) + s[j:]
             p.write_text(s)
             print('shop (take-home added):', p)
             continue
