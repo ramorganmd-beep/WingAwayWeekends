@@ -520,7 +520,7 @@ On the build page, the first-stop and add-stop pickers are text inputs with a da
 
 ## Getting into town (Nov 13, 2026)
 
-- `tools/guides/ground.py` adds a "Getting into town" box under the route and weather links: FBO, crew car, rental car, rideshare, time into town, "No rental car needed?" and (only when confirmed) pilot perks, each with the month checked and "call the FBO". Data lives in the `GROUND` dict in that file. Live for Knoxville, the Smokies, Asheville and Chattanooga. **Guide rebuild loop is now:** personalize trip_plans luxury maplinks feedback stay22 trips_link border wx_link wx_nav ground shop.
+- `tools/guides/ground.py` adds a "Getting into town" box under the route and weather links: FBO, crew car, rental car, rideshare, time into town, "No rental car needed?" and (only when confirmed) pilot perks, each with the month checked and "call the FBO". Data lives in the `GROUND` dict in that file. Live for Knoxville, the Smokies, Asheville and Chattanooga. **Guide rebuild loop is now:** personalize trip_plans luxury maplinks feedback stay22 trips_link border wx_link wx_nav ground shop passenger.
 - `/rental-cars/` explains booking a car at the FBO (Enterprise/National, Hertz, Go Rentals, Avis, AOPA discount, FlightBridge, crew-car etiquette); every box links to it. No paid relationships.
 - Next: the 12 Cirrus featured destinations, then the most-visited guides; add the homepage "No rental car needed" filter once enough guides have boxes. Possible later partnership: FlightBridge (handoff link or referral), after the Cirrus meeting.
 
@@ -530,3 +530,11 @@ On the build page, the first-stop and add-stop pickers are text inputs with a da
 - Live: Charleston (City Market card names local lotions, soaps and crafts, the owner's wife's favorite), Savannah, Asheville, Knoxville. Next batch: Beaufort, Nashville, Pinehurst. Then destinations known for shopping (Nantucket, Carmel, Santa Fe, Fredericksburg TX, Highlands–Cashiers, New Hope). Wanted: verified local hot sauces; a homepage "Shopping" interest once enough guides have it.
 
 - Nov 13, 2026: the Getting into town box now appears on all 302 guides. Hand-checked boxes (the `GROUND` dict) stay for Knoxville, the Smokies, Asheville and Chattanooga; every other guide gets an automatic box built from what the guide already says: the FBO and phone, "ask the FBO" for crew car and rental delivery/fees, the guide's own "getting around" summary (the WEEKEND STYLE line), and a "No rental car needed?" answer derived from it (Likely / No / left out when the guide gives both options). Replace an automatic box by adding the guide to `GROUND` once its details are checked.
+
+## Backburner (Nov 13, 2026)
+
+- FBO perks for readers (owner wants this later, not now): start with local FBO managers (Signature Knoxville for the Cirrus fly-in, Atlantic Charleston, Sheltair Savannah, Signature Key West, Beach Aviation at KMYR) rather than corporate. Ask for published fee-waiver rules, a small "say WingAway" perk, and group fly-in packages; list confirmed perks in the guide's "Pilot perks" row and the newsletter; perks never affect recommendations. Possible extras: an FBO section on the partner page and an "FBO tips" note (fee waivers, loyalty programs) on /rental-cars/. Stronger after a Cirrus partnership.
+
+## Passenger view (Nov 13, 2026)
+
+- `tools/guides/passenger.py` adds "Send to my passenger" to every guide's hero. It shares (phone share sheet) or copies the guide link with `?for=passenger` (plus the pilot's home airport as `&from=`). That view hides the route box, weather link, Getting into town box and Aviation section, and shows an "Our weekend in …" box: the flight in plain words (time from the route box; long trips mention fuel stops), quick links to stay, dinner, things to do, shopping and the plan, and "Flying with a pilot: what to know" packing tips. A Pilot view / Passenger view switch in the hero toggles between them in both views (keeping `from=`). Part of the guide rebuild loop (after ground and shop).
