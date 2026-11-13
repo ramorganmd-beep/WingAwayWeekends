@@ -126,6 +126,115 @@ SHOP = {
              'https://www.ncpotterycenter.org/', 'North Carolina Pottery Center, Seagrove, NC'),
         ],
     },
+    'nantucket': {
+        'h2': 'Lightship baskets, Nantucket Reds and island-made treats.',
+        'intro': 'Main Street’s cobblestones are the shopping district. Many shops shorten hours off-season; call ahead in winter.',
+        'shops': [
+            ('Island craft · Heirloom', 'Nantucket lightship baskets',
+             'The island’s signature keepsake: hand-woven baskets and the miniature gold basket jewelry they inspired. Real ones start around $500; buy from island makers or ask for a certificate of authenticity.',
+             '', 'Nantucket Lightship Basket Museum, Nantucket, MA'),
+            ('Main Street · Island classic', 'Murray’s Toggery Shop',
+             'Home of Nantucket Reds, the faded-red cotton that became the island’s uniform. A classic, wearable souvenir.',
+             'https://www.nantucketreds.com/', 'Murray’s Toggery Shop, Main Street, Nantucket, MA'),
+            ('Downtown · Books', 'Mitchell’s Book Corner',
+             'An island bookshop with a strong Nantucket and maritime section, good for a beach read or a local history to take home.',
+             'https://www.mitchellsbookcorner.com/', 'Mitchell’s Book Corner, Nantucket, MA'),
+        ],
+        'food': [
+            ('Take home · Farm market', 'Bartlett’s Farm',
+             'Nantucket’s oldest and largest family farm, farming since 1843, with a market, bakery and gift baskets. Tomatoes and corn in season.',
+             'https://bartlettsfarm.com/', 'Bartlett’s Farm, Nantucket, MA'),
+            ('Take home · Island spirits & wine', 'Cisco Brewers',
+             'Beer, Nantucket Vineyard wines and Triple Eight spirits, all made on the island. A bottle travels well in the baggage compartment.',
+             'https://www.ciscobrewers.com/', 'Cisco Brewers, Bartlett Farm Road, Nantucket, MA'),
+        ],
+    },
+    'monterey-carmel': {
+        'h2': 'Galleries, courtyards and a taste of Monterey County.',
+        'intro': 'Carmel-by-the-Sea packs dozens of galleries and small shops into a few walkable blocks; there are no street addresses, so use the map links.',
+        'shops': [
+            ('Carmel · Art', 'Carmel’s galleries',
+             'Around 80 to 100 galleries in about a square mile, from plein-air painting to ceramics and photography. Pick a street and wander; many artists are local.',
+             '', 'art galleries, Carmel-by-the-Sea, CA'),
+            ('Carmel · Courtyard shops', 'Carmel Plaza',
+             'An open-air plaza at Ocean and Junipero with independent boutiques, fashion and home shops.',
+             'https://carmelplaza.com/', 'Carmel Plaza, Carmel-by-the-Sea, CA'),
+        ],
+        'food': [
+            ('Take home · Monterey wines', 'A Taste of Monterey',
+             'A wine market and tasting room on Cannery Row pouring wines from more than 60 Monterey County wineries, with a view of the bay. Taste first, then pick a bottle to fly home.',
+             'https://atasteofmonterey.com/', 'A Taste of Monterey, Cannery Row, Monterey, CA'),
+        ],
+    },
+    'santa-fe': {
+        'h2': 'Pueblo pottery, turquoise and red chile.',
+        'intro': 'Buy directly from Native artists under the Palace portal, browse the galleries off the Plaza and on Canyon Road, and leave room for chile.',
+        'shops': [
+            ('Plaza · Native artists', 'Native American Artisans Portal',
+             'Under the portal of the Palace of the Governors, Native artists sell jewelry, pottery and crafts they made themselves, a tradition the museum oversees. The best place to buy directly from the maker.',
+             'https://www.nmhistorymuseum.dca.nm.gov/', 'Palace of the Governors, Santa Fe, NM'),
+            ('Near the Plaza · Fine pottery', 'Andrea Fisher Fine Pottery',
+             'Historic and contemporary Pueblo pottery, including the work of Maria Martinez of San Ildefonso, with knowledgeable staff. A high-end keepsake with a story.',
+             'https://www.andreafisherpottery.com/', 'Andrea Fisher Fine Pottery, Santa Fe, NM'),
+            ('East Side · Galleries', 'Canyon Road',
+             'Half a mile of galleries in old adobes: Native American art, painting, sculpture and ceramics. Best on a slow morning walk.',
+             '', 'Canyon Road, Santa Fe, NM'),
+        ],
+        'food': [
+            ('Take home · Chile & spices', 'Santa Fe School of Cooking market',
+             'Red and green chile, spices, cookbooks and cookware at 125 North Guadalupe Street, a short walk from the Plaza.',
+             'https://santafeschoolofcooking.com/', 'Santa Fe School of Cooking, 125 N Guadalupe St, Santa Fe, NM'),
+            ('Take home · Chocolate', 'Kakawa Chocolate House',
+             'Historic drinking-chocolate elixirs, truffles and chile chocolates, with gift sets to take home.',
+             'https://kakawachocolates.com/', 'Kakawa Chocolate House, Santa Fe, NM'),
+        ],
+    },
+    'fredericksburg': {
+        'h2': 'Main Street boutiques and a Hill Country pantry.',
+        'intro': 'Main Street is lined with boutiques, galleries and food shops. Peach season runs roughly May through August.',
+        'shops': [
+            ('Downtown · Shopping street', 'Main Street',
+             'Blocks of boutiques, home and gift shops, galleries and German-heritage storefronts. Easy to walk from the inns and B&Bs.',
+             '', 'Main Street, Fredericksburg, TX'),
+        ],
+        'food': [
+            ('Take home · Jams & sauces', 'Fischer & Wieser',
+             'Started in 1969 as a roadside peach stand; taste jams, preserves and sauces at Das Peach Haus or the shop on Main Street.',
+             'https://fwfarmstead.com/', 'Das Peach Haus, Fredericksburg, TX'),
+            ('Take home · Texas gourmet', 'Rustlin’ Rob’s',
+             'Hundreds of Texas foods to sample before you buy, from dips and salsas to jellies, at 121 East Main Street. Closed Sundays.',
+             'https://www.rustlinrobs.com/', 'Rustlin’ Rob’s, 121 E Main St, Fredericksburg, TX'),
+        ],
+    },
+    'highlands-cashiers': {
+        'h2': 'Mountain galleries and handmade pottery.',
+        'intro': 'Highlands’ Main Street and the side streets around it hold galleries, boutiques and gourmet shops; Cashiers adds more galleries 10 miles east.',
+        'shops': [
+            ('Highlands · Pottery & crafts', 'Peak Experience',
+             'Known for the area’s largest selection of handmade pottery, plus American handcrafts and estate jewelry, at 2820 Dillard Road. A good stop for one-of-a-kind mugs.',
+             '', 'Peak Experience, 2820 Dillard Road, Highlands, NC'),
+            ('Highlands · Main Street', 'Main Street shops & galleries',
+             'Boutiques, galleries, outfitters and specialty shops along Main Street, with more on Spring Street, Fourth Street and Carolina Way.',
+             'https://www.highlandschamber.org/things-to-do/shopping/', 'Main Street, Highlands, NC'),
+        ],
+    },
+    'bucks-county': {
+        'h2': 'Potters’ studios, galleries and a country market.',
+        'intro': 'New Hope’s galleries line Main and Mechanic Streets; Peddler’s Village in Lahaska is 10 minutes away.',
+        'shops': [
+            ('New Hope · Pottery studio', 'Goose Creek Pottery',
+             'A working studio and gallery where porcelain and stoneware are made on site. A good place for a handmade mug.',
+             'https://www.goosecreekpottery.com/', 'Goose Creek Pottery, 17 W Ferry St, New Hope, PA'),
+            ('Lahaska · Village shops', 'Peddler’s Village',
+             'More than 60 shops and boutiques in a garden village, most of them small and locally owned.',
+             'https://peddlersvillage.com/shop/', 'Peddler’s Village, Lahaska, PA'),
+        ],
+        'food': [
+            ('Take home · Country market', 'Rice’s Market',
+             'A market of more than 150 years outside New Hope with hundreds of vendors: produce, baked goods, antiques and collectibles. Tuesdays and Saturdays, 7 a.m. to 1 p.m., March through December.',
+             'https://www.ricesmarket.com/', 'Rice’s Market, New Hope, PA'),
+        ],
+    },
 }
 
 MARK = re.compile(r'<!--wa-shop-->.*?<!--/wa-shop-->\n?', re.S)
@@ -149,13 +258,12 @@ def card(tag, name, text, url, q):
 
 def section(d):
     shops = ''.join(card(*c) for c in d['shops'])
-    food = ''.join(card(*c) for c in d['food'])
+    food = ''.join(card(*c) for c in d.get('food', []))
     return ('<!--wa-shop--><section id="shopping"><div class="section-head"><div><span class="eyebrow">00 / Shopping &amp; take home</span>'
             f'<h2>{esc(d["h2"])}</h2></div><p>{esc(d["intro"])}</p></div>'
             f'<div class="grid three">{shops}</div>'
-            '<h3 class="subhead">Local flavors to take home</h3>'
-            f'<div class="grid three">{food}</div>'
-            '<p class="estimate">Hours change with the season; check before you go. No paid placements.</p></section><!--/wa-shop-->\n')
+            + (f'<h3 class="subhead">Local flavors to take home</h3><div class="grid three">{food}</div>' if food else '')
+            + '<p class="estimate">Hours change with the season; check before you go. No paid placements.</p></section><!--/wa-shop-->\n')
 
 
 def renumber(s):
