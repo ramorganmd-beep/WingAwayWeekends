@@ -18,7 +18,7 @@ HEAD = ('<!--wa-pax-head--><script>if(/[?&]for=passenger\\b/.test(location.searc
         'border:1px solid #dbe3e9;border-left:4px solid #efbd70;border-radius:3px}.wa-pax-box h2{margin:0 0 8px;font-size:1.5rem}'
         '.wa-pax-box ul{margin:8px 0 10px;padding-left:20px;line-height:1.65;color:#33475a}.wa-pax-box p{margin:6px 0;color:#33475a}'
         '.wa-pax-box .wa-pax-jump a{margin-right:14px;font-weight:600}.wa-pax-box .wa-pax-note{font-size:.85rem;color:#647784}'
-        '.wa-pax-send{font:inherit;font-size:14px;cursor:pointer;background:none;border:0;padding:0;color:#18548c;text-decoration:underline;text-underline-offset:4px}.wa-pax-sent{margin-left:10px;font-size:.9rem;color:#3f6d4f}</style><!--/wa-pax-head-->')
+        '.wa-pax-send{font:inherit;font-size:14px;cursor:pointer;background:none;border:0;padding:0;color:#18548c;text-decoration:underline;text-underline-offset:4px}.wa-pax-sent{margin-left:10px;font-size:.9rem;color:#3f6d4f}.wa-pax-toggle{display:inline-flex;border:1px solid #102d40;border-radius:999px;overflow:hidden}.wa-pax-toggle a{padding:6px 14px;font-size:14px;font-weight:600;color:#102d40;text-decoration:none;white-space:nowrap}html:not(.wa-pax) .wa-pax-toggle a[data-pax-view=pilot],html.wa-pax .wa-pax-toggle a[data-pax-view=pax]{background:#102d40;color:#fff}</style><!--/wa-pax-head-->')
 
 PACK = [
     'Pack light in soft bags.',
@@ -38,11 +38,15 @@ def box(name, sections):
             f'<p class="wa-pax-jump">{jump}</p>'
             '<h3 class="subhead" style="margin:14px 0 4px">What you need to know for this flight</h3>'
             f'<ul>{items}</ul>'
-            '<p class="wa-pax-note">I’ll handle the flight planning; you handle the fun planning! '
-            '<a href="?">Pilot view</a></p></div><!--/wa-pax-box-->')
+            '<p class="wa-pax-note">I’ll handle the flight planning; you handle the fun planning!</p></div><!--/wa-pax-box-->')
 
 
 SCRIPT = ('<!--wa-pax-js--><script>(function(){var d=document,pax=d.documentElement.classList.contains("wa-pax");'
+          'var fr=new URLSearchParams(location.search).get("from");try{fr=fr||localStorage.getItem("wingaway-home")}catch(e){}'
+          'fr=fr&&/^[A-Za-z0-9]{3,4}$/.test(fr)?fr.toUpperCase():"";'
+          'd.querySelectorAll("[data-pax-view]").forEach(function(a){var v=a.getAttribute("data-pax-view");'
+          'a.href=location.pathname+(v==="pax"?"?for=passenger"+(fr?"&from="+fr:""):(fr?"?from="+fr:""));'
+          'if((v==="pax")===pax)a.setAttribute("aria-current","page");});'
           'if(pax){var t=d.querySelector("[data-time]"),f=d.querySelector("[data-pax-flight]"),l=d.querySelector(".intro .lede");if(l)l.textContent="Our exciting weekend!";'
           'setTimeout(function(){if(t&&f){var x=t.textContent.replace(/\\s+/g," ").trim();'
           'var hr=+((x.match(/(\\d+) hr/)||[0,0])[1]);f.textContent="In our plane it will be about "+x.replace(/^~/,"")+(hr>=4?" of flying, with a stop or two for fuel along the way.":".");}},400);return;}'
@@ -70,7 +74,9 @@ def main(paths):
         s = s.replace('</head>', HEAD + '</head>', 1)
         i = s.index('<div class="hero-actions">')
         j = s.index('</div>', i)
-        s = s[:j] + ('<!--wa-pax-btn--><button type="button" class="secondary wa-pax-send">Send to my passenger</button>'
+        s = s[:j] + ('<!--wa-pax-btn--><span class="wa-pax-toggle" role="group" aria-label="View">'
+                     '<a href="?" data-pax-view="pilot">Pilot view</a><a href="?for=passenger" data-pax-view="pax">Passenger view</a></span>'
+                     '<button type="button" class="secondary wa-pax-send">Send to my passenger</button>'
                      '<!--/wa-pax-btn-->') + s[j:]
         s = s.replace('<div class="snapshot"', box(name, sections) + '<div class="snapshot"', 1)
         s = s.replace('</body>', SCRIPT + '</body>', 1)
