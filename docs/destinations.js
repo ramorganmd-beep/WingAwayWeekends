@@ -13,7 +13,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Wine",
    "History",
    "Stays",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "nashville/",
   "stateCode": "TN",
@@ -37,7 +38,8 @@ window.WINGAWAY_DESTINATIONS=[
    "History",
    "Stays",
    "Aviation museums",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "savannah/",
   "photo": {
@@ -61,7 +63,8 @@ window.WINGAWAY_DESTINATIONS=[
    "History",
    "Stays",
    "Aviation museums",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "charleston/",
   "stateCode": "SC",
@@ -87,7 +90,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Aviation museums",
    "Hiking",
    "Scenic views",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "asheville/",
   "stateCode": "NC",
@@ -112,7 +116,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Stays",
    "Outdoors",
    "Beach",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "beaufort/",
   "stateCode": "SC",
@@ -137,7 +142,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "Outdoors",
    "Beach",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "st-augustine/",
   "stateCode": "FL",
@@ -185,7 +191,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Outdoors",
    "Stays",
    "Hiking",
-   "Scenic views"
+   "Scenic views",
+   "No rental car"
   ],
   "guide": "greenville/",
   "stateCode": "SC",
@@ -260,7 +267,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Golf",
    "Outdoors",
    "History",
-   "Beach"
+   "Beach",
+   "No rental car"
   ],
   "guide": "amelia-island/",
   "stateCode": "FL",
@@ -395,7 +403,8 @@ window.WINGAWAY_DESTINATIONS=[
    "History",
    "Outdoors",
    "Hiking",
-   "Scenic views"
+   "Scenic views",
+   "No rental car"
   ],
   "guide": "chattanooga/",
   "stateCode": "TN",
@@ -545,7 +554,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "Spa",
    "Romance",
-   "Outdoors"
+   "Outdoors",
+   "No rental car"
   ],
   "guide": "hilton-head/",
   "stateCode": "SC",
@@ -601,7 +611,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Stays",
    "Beach",
    "Scenic views",
-   "Shopping"
+   "Shopping",
+   "No rental car"
   ],
   "guide": "key-west/",
   "stateCode": "FL",
@@ -689,7 +700,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf",
   "History",
   "Outdoors",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "homestead/",
  "stateCode": "VA",
@@ -710,7 +722,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf",
   "History",
   "Dining",
-  "Outdoors"
+  "Outdoors",
+  "No rental car"
  ],
  "guide": "greenbrier/",
  "stateCode": "WV",
@@ -753,7 +766,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Outdoors",
   "Scenic views",
-  "Shopping"
+  "Shopping",
+  "No rental car"
  ],
  "guide": "nantucket/",
  "stateCode": "MA",
@@ -995,7 +1009,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "History",
   "Scenic views",
-  "Outdoors"
+  "Outdoors",
+  "No rental car"
  ],
  "guide": "marthas-vineyard/",
  "stateCode": "MA",
@@ -1014,7 +1029,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Dining",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "bardstown/",
  "stateCode": "KY",
@@ -1054,7 +1070,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Scenic views",
   "Lake",
-  "Dining"
+  "Dining",
+  "No rental car"
  ],
  "guide": "mackinac/",
  "stateCode": "MI",
@@ -1074,7 +1091,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa",
   "Golf",
   "History",
-  "Dining"
+  "Dining",
+  "No rental car"
  ],
  "guide": "french-lick/",
  "stateCode": "IN",
@@ -1197,7 +1215,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Hiking",
   "Stays",
-  "History"
+  "History",
+  "No rental car"
  ],
  "guide": "bentonville/",
  "stateCode": "AR",
@@ -1339,7 +1358,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Scenic views",
   "Dining",
-  "History"
+  "History",
+  "No rental car"
  ],
  "guide": "cedar-key/",
  "stateCode": "FL",
@@ -1401,7 +1421,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Dining",
   "Stays",
-  "Outdoors"
+  "Outdoors",
+  "No rental car"
  ],
  "guide": "san-antonio/",
  "stateCode": "TX",
@@ -1420,7 +1441,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Dining",
   "Stays",
-  "Aviation museums"
+  "Aviation museums",
+  "No rental car"
  ],
  "guide": "fort-worth/",
  "stateCode": "TX",
@@ -1498,7 +1520,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "History",
   "Stays",
-  "Spa"
+  "Spa",
+  "No rental car"
  ],
  "guide": "new-orleans/",
  "stateCode": "LA",
@@ -1822,7 +1845,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Stays",
   "Scenic views",
-  "Shopping"
+  "Shopping",
+  "No rental car"
  ],
  "guide": "annapolis/",
  "stateCode": "MD",
@@ -2049,7 +2073,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Scenic views",
   "History",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "portland-maine/",
  "stateCode": "ME",
@@ -2106,7 +2131,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Outdoors",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "block-island/",
  "stateCode": "RI",
@@ -2124,7 +2150,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "History",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "providence/",
  "stateCode": "RI",
@@ -2160,7 +2187,8 @@ window.WINGAWAY_DESTINATIONS=[
  "desc": "America’s pizza capital: Pepe’s and Sally’s, Yale’s free art museums, the Peabody, theater and Louis’ Lunch.",
  "tags": [
   "Dining",
-  "History"
+  "History",
+  "No rental car"
  ],
  "guide": "new-haven/",
  "stateCode": "CT",
@@ -2236,7 +2264,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Spa",
   "Dining",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "atlantic-city/",
  "stateCode": "NJ",
@@ -2294,7 +2323,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Lake",
   "Outdoors",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "burlington-vt/",
  "stateCode": "VT",
@@ -2425,7 +2455,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "Outdoors",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "sioux-falls/",
  "stateCode": "SD",
@@ -2461,7 +2492,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Aviation museums",
   "Dining",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "fargo/",
  "stateCode": "ND",
@@ -2532,7 +2564,8 @@ window.WINGAWAY_DESTINATIONS=[
  "desc": "A capital with a landmark art deco capitol tower, the Haymarket district, the Sheldon Museum of Art and the International Quilt Museum.",
  "tags": [
   "History",
-  "Dining"
+  "Dining",
+  "No rental car"
  ],
  "guide": "lincoln-ne/",
  "stateCode": "NE",
@@ -2622,7 +2655,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "History",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "lawrence/",
  "stateCode": "KS",
@@ -2751,7 +2785,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "Lake",
-  "History"
+  "History",
+  "No rental car"
  ],
  "guide": "madison/",
  "stateCode": "WI",
@@ -2789,7 +2824,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Lake",
   "Wine",
   "History",
-  "Dining"
+  "Dining",
+  "No rental car"
  ],
  "guide": "put-in-bay/",
  "stateCode": "OH",
@@ -2827,7 +2863,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "History",
-  "Lake"
+  "Lake",
+  "No rental car"
  ],
  "guide": "cleveland/",
  "stateCode": "OH",
@@ -2903,7 +2940,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "History",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "chicago/",
  "stateCode": "IL",
@@ -2999,7 +3037,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "History",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "pittsburgh/",
  "stateCode": "PA",
@@ -3170,7 +3209,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Dining",
   "History",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "twin-cities/",
  "stateCode": "MN",
@@ -3581,7 +3621,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views",
   "Stays",
   "Dining",
-  "Spa"
+  "Spa",
+  "No rental car"
  ],
  "guide": "aspen/",
  "stateCode": "CO",
@@ -3834,7 +3875,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Scenic views",
   "Outdoors",
-  "Romance"
+  "Romance",
+  "No rental car"
  ],
  "guide": "catalina-island/",
  "stateCode": "CA",
@@ -4138,7 +4180,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views",
   "Outdoors",
   "Hiking",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "talkeetna-denali/",
  "stateCode": "AK",
@@ -4176,7 +4219,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views",
   "Outdoors",
   "Hiking",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "seward/",
  "stateCode": "AK",
@@ -4195,7 +4239,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views",
   "Outdoors",
   "History",
-  "Dining"
+  "Dining",
+  "No rental car"
  ],
  "guide": "ketchikan/",
  "stateCode": "AK",
@@ -4430,7 +4475,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays",
   "Spa",
   "Romance",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "lanai/",
  "stateCode": "HI",
@@ -4532,7 +4578,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views",
   "Stays",
   "Dining",
-  "Romance"
+  "Romance",
+  "No rental car"
  ],
  "guide": "telluride/",
  "stateCode": "CO",
@@ -4929,7 +4976,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Lake",
   "Stays",
   "Spa",
-  "Romance"
+  "Romance",
+  "No rental car"
  ],
  "guide": "horseshoe-bay/",
  "stateCode": "TX",
@@ -5084,7 +5132,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Hiking",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "mccall/",
  "stateCode": "ID",
@@ -5160,7 +5209,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa",
   "Outdoors",
   "Stays",
-  "History"
+  "History",
+  "No rental car"
  ],
  "guide": "saratoga-wy/",
  "stateCode": "WY",
@@ -5179,7 +5229,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Aviation museums",
   "Dining",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "No rental car"
  ],
  "guide": "seattle/",
  "stateCode": "WA",
@@ -5586,7 +5637,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Scenic views",
   "History",
-  "Stays"
+  "Stays",
+  "No rental car"
  ],
  "guide": "ocracoke/",
  "stateCode": "NC",
@@ -5722,7 +5774,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Stays",
   "Scenic views",
-  "Outdoors"
+  "Outdoors",
+  "No rental car"
  ],
  "guide": "provincetown/",
  "stateCode": "MA",
@@ -5998,7 +6051,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Hiking",
   "Stays",
   "History",
-  "Shopping"
+  "Shopping",
+  "No rental car"
  ],
  "guide": "knoxville/",
  "stateCode": "TN",
