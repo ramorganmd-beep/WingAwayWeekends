@@ -12,7 +12,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "Wine",
    "History",
-   "Stays"
+   "Stays",
+   "Shopping"
   ],
   "guide": "nashville/",
   "stateCode": "TN",
@@ -35,7 +36,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "History",
    "Stays",
-   "Aviation museums"
+   "Aviation museums",
+   "Shopping"
   ],
   "guide": "savannah/",
   "photo": {
@@ -58,7 +60,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "History",
    "Stays",
-   "Aviation museums"
+   "Aviation museums",
+   "Shopping"
   ],
   "guide": "charleston/",
   "stateCode": "SC",
@@ -83,7 +86,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance",
    "Aviation museums",
    "Hiking",
-   "Scenic views"
+   "Scenic views",
+   "Shopping"
   ],
   "guide": "asheville/",
   "stateCode": "NC",
@@ -107,7 +111,8 @@ window.WINGAWAY_DESTINATIONS=[
    "History",
    "Stays",
    "Outdoors",
-   "Beach"
+   "Beach",
+   "Shopping"
   ],
   "guide": "beaufort/",
   "stateCode": "SC",
@@ -131,7 +136,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance",
    "Dining",
    "Outdoors",
-   "Beach"
+   "Beach",
+   "Shopping"
   ],
   "guide": "st-augustine/",
   "stateCode": "FL",
@@ -155,7 +161,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Stays",
    "History",
    "Hiking",
-   "Scenic views"
+   "Scenic views",
+   "Shopping"
   ],
   "guide": "charlottesville/",
   "stateCode": "VA",
@@ -200,7 +207,8 @@ window.WINGAWAY_DESTINATIONS=[
   "tags": [
    "Golf",
    "Spa",
-   "Romance"
+   "Romance",
+   "Shopping"
   ],
   "guide": "pinehurst/",
   "stateCode": "NC",
@@ -564,7 +572,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance",
    "Hiking",
    "Scenic views",
-   "Outdoors"
+   "Outdoors",
+   "Shopping"
   ],
   "guide": "highlands-cashiers/",
   "stateCode": "NC",
@@ -591,7 +600,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Outdoors",
    "Stays",
    "Beach",
-   "Scenic views"
+   "Scenic views",
+   "Shopping"
   ],
   "guide": "key-west/",
   "stateCode": "FL",
@@ -742,7 +752,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "History",
   "Outdoors",
-  "Scenic views"
+  "Scenic views",
+  "Shopping"
  ],
  "guide": "nantucket/",
  "stateCode": "MA",
@@ -920,7 +931,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Beach",
   "Spa",
-  "Scenic views"
+  "Scenic views",
+  "Shopping"
  ],
  "guide": "kennebunkport/",
  "stateCode": "ME",
@@ -1369,7 +1381,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Wine",
   "Stays",
   "Hiking",
-  "Dining"
+  "Dining",
+  "Shopping"
  ],
  "guide": "fredericksburg/",
  "stateCode": "TX",
@@ -1808,7 +1821,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Dining",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "Shopping"
  ],
  "guide": "annapolis/",
  "stateCode": "MD",
@@ -1977,7 +1991,8 @@ window.WINGAWAY_DESTINATIONS=[
  "tags": [
   "Stays",
   "History",
-  "Dining"
+  "Dining",
+  "Shopping"
  ],
  "guide": "bucks-county/",
  "stateCode": "PA",
@@ -3586,7 +3601,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Spa",
   "Stays",
-  "Romance"
+  "Romance",
+  "Shopping"
  ],
  "guide": "santa-fe/",
  "stateCode": "NM",
@@ -3880,7 +3896,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf",
   "Scenic views",
   "Stays",
-  "Romance"
+  "Romance",
+  "Shopping"
  ],
  "guide": "monterey-carmel/",
  "stateCode": "CA",
@@ -5980,7 +5997,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Hiking",
   "Stays",
-  "History"
+  "History",
+  "Shopping"
  ],
  "guide": "knoxville/",
  "stateCode": "TN",
