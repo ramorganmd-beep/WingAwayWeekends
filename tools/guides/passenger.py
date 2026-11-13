@@ -18,7 +18,7 @@ HEAD = ('<!--wa-pax-head--><script>if(/[?&]for=passenger\\b/.test(location.searc
         'border:1px solid #dbe3e9;border-left:4px solid #efbd70;border-radius:3px}.wa-pax-box h2{margin:0 0 8px;font-size:1.5rem}'
         '.wa-pax-box ul{margin:8px 0 10px;padding-left:20px;line-height:1.65;color:#33475a}.wa-pax-box p{margin:6px 0;color:#33475a}'
         '.wa-pax-box .wa-pax-jump a{margin-right:14px;font-weight:600}.wa-pax-box .wa-pax-note{font-size:.85rem;color:#647784}'
-        '.wa-pax-send{font:inherit;font-size:14px;cursor:pointer;background:none;border:0;padding:0;color:#18548c;text-decoration:underline;text-underline-offset:4px}.wa-pax-sent{margin-left:10px;font-size:.9rem;color:#3f6d4f}.wa-pax-toggle{display:inline-flex;border:1px solid #102d40;border-radius:999px;overflow:hidden}.wa-pax-toggle a{padding:6px 14px;font-size:14px;font-weight:600;color:#102d40;text-decoration:none;white-space:nowrap}html:not(.wa-pax) .wa-pax-toggle a[data-pax-view=pilot],html.wa-pax .wa-pax-toggle a[data-pax-view=pax]{background:#102d40;color:#fff}</style><!--/wa-pax-head-->')
+        '.wa-pax-send{font:inherit;font-size:14px;cursor:pointer;background:none;border:0;padding:0;color:#18548c;text-decoration:underline;text-underline-offset:4px}.wa-pax-sent{margin-left:10px;font-size:.9rem;color:#3f6d4f}.wa-pax-toggle{display:inline-grid;grid-template-columns:1fr 1fr;border:1px solid #102d40;border-radius:999px;overflow:hidden}.wa-pax-toggle a{padding:6px 16px;font-size:14px;font-weight:600;color:#102d40;text-decoration:none;white-space:nowrap;text-align:center}html:not(.wa-pax) .wa-pax-toggle a[data-pax-view=pilot],html.wa-pax .wa-pax-toggle a[data-pax-view=pax]{background:#102d40;color:#fff}</style><!--/wa-pax-head-->')
 
 PACK = [
     'Pack light in soft bags.',
