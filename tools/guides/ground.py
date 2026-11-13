@@ -70,7 +70,7 @@ def block(g):
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
             f'<dl><dt>FBO</dt><dd>{esc(g["fbo"])}</dd>{rows}</dl>'
             f'<p>Checked {esc(g["checked"])}. Crew cars and pilot perks change often: call the FBO before you go. '
-            'Know something we missed? <a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
+            '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · Know something we missed? <a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
             '</div><!--/wa-ground-->')
 
 
