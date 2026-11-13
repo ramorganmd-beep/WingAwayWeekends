@@ -2,6 +2,12 @@
 
 Updated: November 1, 2026 (after migration from ChatGPT to Claude and GitHub Pages).
 
+## Guiding principle
+
+**“Powerful underneath, effortless on the surface.”** (adopted November 13, 2026)
+
+The owner’s motto for WingAway Weekends and the test for every change. Underneath, the site does real work: FAA airport data, NOAA forecasts, aircraft performance, personal minimums, fuel stops, time zones and checked links. On the surface, a pilot or passenger sees a simple, calm page: pick a place, see the time and fuel, see whether the weekend works. When a feature adds power, hide the machinery; when a page feels busy, simplify what shows, not what it knows. Plain words over jargon, one clear next step, and nothing a first-time visitor has to figure out.
+
 ## Goals and agreed direction
 
 WingAway Weekends helps general aviation pilots and their travel companions discover worthwhile short getaways. The experience connects an appealing destination with practical arrival, lodging, dining and activity information, with an initial emphasis on couples.
