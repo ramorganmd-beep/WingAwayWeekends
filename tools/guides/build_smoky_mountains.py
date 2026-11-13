@@ -23,7 +23,7 @@ P.append('<section id="flight">' + head('01', 'Aviation & getting around', 'Land
     'KGKT, Gatlinburg-Pigeon Forge Airport, is in Sevierville, about 30 minutes from Gatlinburg and the park entrance. For Blackberry Farm and Townsend, Knoxville’s McGhee Tyson (KTYS) is closer.') +
     '<div class="arrival-grid"><div class="arrival-main"><h3>The FBO</h3>' +
     fbo('Gatlinburg-Pigeon Forge Airport', '134 Air Museum Way, Sevierville, TN 37862', '865-453-8393') +
-    '<p class="note">Pilots report no courtesy car, but an Enterprise rental desk serves the airport; call the local office ahead and the car can be waiting at the airplane. Recent reviews mention a new runway and FBO building. Ask about two-night parking and fees. No live fuel price is shown.</p>'
+    '<p class="note">Recent pilot reports (2025–26) mention a courtesy car for short trips; call ahead. For the weekend, an Enterprise rental desk serves the airport; call the local office ahead and the car can be waiting at the airplane. Recent reviews mention a new runway and FBO building. Ask about two-night parking and fees. No live fuel price is shown.</p>'
     '<p class="note">The Great Smoky Mountains rise above 6,000 feet just south of the field. Review terrain, density altitude in summer, the sectional and current NOTAMs, and plan around mountain weather and low clouds.</p></div>'
     '<aside><span class="eyebrow">Getting around</span><h3>A car is essential.</h3><p>The park, the towns and the inns are spread out. Rent a car for the weekend, and buy a park parking tag, required to park anywhere in the national park for more than 15 minutes.</p></aside></div></section>')
 
