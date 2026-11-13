@@ -37,7 +37,7 @@ for path in map(Path, sys.argv[1:]):
             assert n == 1, path
     if path.parent.name == 'docs':  # homepage
         link = mailto('WingAway Weekends feedback')
-        a = 'WingAway Weekends · A short flight. A slower weekend.'
+        a = 'WingAway Weekends · A short flight. A longer weekend.'
         assert s.count(a) == 1, path
         if '<div class="foot-brand">' not in s:
             s = s.replace(a, '<div class="foot-brand">' + a + '</div>')

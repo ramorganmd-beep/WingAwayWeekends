@@ -116,7 +116,7 @@ page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name
 
 <p class="cx-note">This page is a preview prepared for discussion. WingAway Weekends is independent and is not affiliated with or endorsed by Cirrus Aircraft. Times and fuel are planning estimates, not flight plans.</p>
 </div></main>
-<footer><a class="brand" href="../">WingAway Weekends</a><p>A short flight. A slower weekend.</p></footer>
+<footer><a class="brand" href="../">WingAway Weekends</a><p>A short flight. A longer weekend.</p></footer>
 <script src="../aircraft.js?v=202611071530"></script><script src="../destinations.js?v=202611071600"></script><script src="../airports-us.js?v=202611071353"></script><script src="../airport-suggest.js?v=202611071353"></script>
 <script>
 (function(){{var A=window.WingAwayAircraft,st=document.getElementById('cx-status'),bs=document.querySelectorAll('.cx-model');
