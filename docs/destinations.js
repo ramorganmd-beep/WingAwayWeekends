@@ -136,7 +136,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance",
    "Dining",
    "Outdoors",
-   "Beach"
+   "Beach",
+   "Shopping"
   ],
   "guide": "st-augustine/",
   "stateCode": "FL",
@@ -160,7 +161,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Stays",
    "History",
    "Hiking",
-   "Scenic views"
+   "Scenic views",
+   "Shopping"
   ],
   "guide": "charlottesville/",
   "stateCode": "VA",
@@ -598,7 +600,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Outdoors",
    "Stays",
    "Beach",
-   "Scenic views"
+   "Scenic views",
+   "Shopping"
   ],
   "guide": "key-west/",
   "stateCode": "FL",
@@ -928,7 +931,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Beach",
   "Spa",
-  "Scenic views"
+  "Scenic views",
+  "Shopping"
  ],
  "guide": "kennebunkport/",
  "stateCode": "ME",
@@ -1817,7 +1821,8 @@ window.WINGAWAY_DESTINATIONS=[
   "History",
   "Dining",
   "Stays",
-  "Scenic views"
+  "Scenic views",
+  "Shopping"
  ],
  "guide": "annapolis/",
  "stateCode": "MD",

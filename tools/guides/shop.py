@@ -235,6 +235,79 @@ SHOP = {
              'https://www.ricesmarket.com/', 'Rice’s Market, New Hope, PA'),
         ],
     },
+    'st-augustine': {
+        'h2': 'Datil heat, chocolate and the old town’s shops.',
+        'intro': 'St. George Street is the pedestrian heart; Aviles Street, the oldest street in town, holds the galleries.',
+        'shops': [
+            ('Historic district · Pedestrian street', 'St. George Street',
+             'Shops, sweets and souvenirs in the old town’s car-free main street. Go early or late to avoid the midday crowds.',
+             '', 'St. George Street, St. Augustine, FL'),
+            ('Historic district · Galleries', 'Aviles Street',
+             'Small galleries and local art on the oldest street in the city, a short walk south of the Plaza.',
+             '', 'Aviles Street, St. Augustine, FL'),
+        ],
+        'food': [
+            ('Take home · Datil pepper sauce', 'Dat’l Do-It',
+             'St. Augustine’s own hot sauce, made with the datil pepper the city’s Minorcan families have grown for generations. Sweet heat; sold around town and online.',
+             'https://www.datldoit.com/', ''),
+            ('Take home · Chocolate', 'Whetstone Chocolates',
+             'A local chocolate maker with tasting tours and gift boxes; the shop is at 139 King Street.',
+             'https://www.whetstonechocolates.com/', 'Whetstone Chocolates, 139 King St, St. Augustine, FL'),
+        ],
+    },
+    'key-west': {
+        'h2': 'Key lime everything, island pottery and handmade sandals.',
+        'intro': 'Duval Street is the main drag; the best local shops are on the side streets around it.',
+        'shops': [
+            ('Old Town · Studio & gallery', 'Key West Pottery',
+             'A working pottery studio and gallery: handmade mugs, vases and island-inspired ceramics. A good one-of-a-kind souvenir.',
+             'https://www.keywestpottery.com/', 'Key West Pottery, Key West, FL'),
+            ('Old Town · Since 1966', 'Kino Sandals',
+             'Leather sandals still cut and assembled in the little factory at Greene and Fitzpatrick Streets since 1966. Inexpensive and very Key West.',
+             'https://kinosandals.com/', 'Kino Sandal Factory, Key West, FL'),
+        ],
+        'food': [
+            ('Take home · Key lime', 'Kermit’s Key West Key Lime Shoppe',
+             'Key lime pie, pie bars, candy, cookies, juice and pantry goods. Pick up a frozen pie for the flight home if you have a cooler.',
+             'https://kermitskeylime.com/', 'Kermit’s Key West Key Lime Shoppe, Key West, FL'),
+        ],
+    },
+    'charlottesville': {
+        'h2': 'Local pottery on the Downtown Mall.',
+        'intro': 'The Downtown Mall, one of the country’s longest pedestrian malls, is the place to browse; it’s an easy walk between shops, galleries and dinner.',
+        'shops': [
+            ('Downtown Mall · Pedestrian street', 'The Downtown Mall',
+             'Eight blocks of brick pedestrian street lined with independent shops, galleries, bookstores and restaurants.',
+             '', 'Downtown Mall, Charlottesville, VA'),
+            ('Downtown Mall · Local artists', 'C’ville Arts Cooperative Gallery',
+             'A cooperative gallery of more than 60 local artists: pottery, jewelry and prints. A good place for a handmade mug.',
+             'https://www.cvillearts.org/', 'C’ville Arts Cooperative Gallery, Charlottesville, VA'),
+        ],
+    },
+    'annapolis': {
+        'h2': 'Pottery, boutiques and the Maryland Avenue shops.',
+        'intro': 'Main Street runs from the State House down to the harbor; Maryland Avenue, behind the State House, has the smaller specialty shops.',
+        'shops': [
+            ('State Circle · Pottery', 'The Annapolis Pottery',
+             'A pottery studio and shop at 40 State Circle, with pieces from Maryland blue crabs to bold contemporary glazes. Mugs make an easy carry-home.',
+             'https://annapolispottery.com/', 'The Annapolis Pottery, 40 State Circle, Annapolis, MD'),
+            ('Historic district · Specialty shops', 'Maryland Avenue',
+             'More than twenty small specialty stores, boutiques and galleries in historic storefronts.',
+             'https://www.visitannapolis.org/plan/landmarks-and-neighborhoods/maryland-avenue/', 'Maryland Avenue, Annapolis, MD'),
+        ],
+    },
+    'kennebunkport': {
+        'h2': 'Dock Square galleries and Maine-made crafts.',
+        'intro': 'Dock Square’s shops fill old houses and 18th-century warehouses by the river; many keep shorter hours off-season.',
+        'shops': [
+            ('Dock Square · Shopping', 'Dock Square',
+             'The village’s hub: boutiques, galleries and specialty shops selling art, clothing, jewelry and Maine-made gifts.',
+             '', 'Dock Square, Kennebunkport, ME'),
+            ('Dock Square · American crafts', 'Abacus Gallery',
+             'A Maine gallery of American handmade crafts and jewelry, with a shop in Kennebunkport. Good for pottery, glass and gifts.',
+             'https://abacusgallery.com/', 'Abacus Gallery, Kennebunkport, ME'),
+        ],
+    },
 }
 
 MARK = re.compile(r'<!--wa-shop-->.*?<!--/wa-shop-->\n?', re.S)
