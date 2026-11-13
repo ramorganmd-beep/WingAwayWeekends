@@ -135,7 +135,7 @@ parts.append('<section id="shopping">' + head('05', 'Shopping & boutiques', 'Bri
     card('Historic shopping street', 'King Street',
          'Walk it in sections rather than end to end. Lower King, below Market Street, suits antiques and fine jewelry; middle King has boutiques and well-known brands; Upper King leans toward design shops and restaurants.') +
     card('Market stalls · Local crafts', 'Charleston City Market',
-         'One of the country’s oldest public markets, with local artisans, sweetgrass baskets and gifts. Open daily; ask about its evening night market for your dates.') +
+         'A favorite: one of the country’s oldest public markets, four blocks of open market halls with more than 300 vendors. Many sell what they make: local lotions and soaps, jewelry, art and crafts. Buy sweetgrass baskets from the weavers themselves. Open daily; ask about its evening night market for your dates.') +
     card('Fine jewelry · Since 1919', 'Croghan’s Jewel Box',
          'A family-owned King Street jeweler and a Charleston institution for estate pieces and gifts. A memorable stop on a couples weekend.',
          'https://www.croghansjewelbox.com/') +
