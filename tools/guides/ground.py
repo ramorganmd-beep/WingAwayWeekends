@@ -74,17 +74,53 @@ def block(g):
             '</div><!--/wa-ground-->')
 
 
+NEEDS_CAR = re.compile(r'rental|\bcar\b', re.I)
+NO_CAR = re.compile(r'walk|shuttle|rideshare|\bride\b|pickup|transfer|uber|lyft|taxi|trolley|bike|golf cart|boat|ferry|van|tram|resort', re.I)
+
+
+def auto_block(s):
+    """A plainer box for guides without hand-checked details, built from what the guide already says."""
+    m = re.search(r'<div class="fbo"><div><strong>([^<]+)</strong>.*?</div>(?:<a href="(tel:[^"]+)">([^<]+)</a>)?', s, re.S)
+    t = re.search(r'data-transport="([^"]+)"', s) or re.search(r'WEEKEND STYLE</span><strong[^>]*>[^<]*<small>· ([^<]+)</small>', s)
+    if not m or not t:
+        return ''
+    fbo = m.group(1) + (f' · <a href="{m.group(2)}">{m.group(3)}</a>' if m.group(2) else '')
+    way = t.group(1)
+    plain = re.sub(r'crew car|courtesy car', '', way, flags=re.I)
+    if NEEDS_CAR.search(plain) and (not NO_CAR.search(plain) or re.match(r'(rental )?car( and| \+)', plain, re.I)):
+        norental = 'No: plan on a rental car'
+    elif not NEEDS_CAR.search(plain):
+        norental = 'Likely: ' + way[0].lower() + way[1:]
+    else:
+        norental = ''
+    rows = [('FBO', fbo), ('Crew car', 'Ask when you call the FBO ahead'),
+            ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee'),
+            ('Getting around', way), ('No rental car needed?', norental)]
+    dl = ''.join(f'<dt>{k}</dt><dd>{esc(v) if k != "FBO" else v}</dd>' for k, v in rows if v)
+    return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
+            f'<dl>{dl}</dl>'
+            '<p>More in <a href="#flight">Aviation &amp; getting around</a> below. Crew cars change often: call the FBO before you go. '
+            '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · Know something we missed? '
+            '<a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
+            '</div><!--/wa-ground-->')
+
+
 def main(paths):
+    n = 0
     for p in map(Path, paths):
         key = p.parent.name
-        if key not in GROUND:
-            continue
         s = MARK.sub('', p.read_text())
         anchor = '<!--/wa-wx-->'
-        assert s.count(anchor) == 1, p
-        s = s.replace(anchor, anchor + block(GROUND[key]))
+        if s.count(anchor) != 1 or 'data-dest=' not in s:
+            continue
+        b = block(GROUND[key]) if key in GROUND else auto_block(s)
+        if not b:
+            print('ground: skipped (no FBO or transport found):', p)
+            continue
+        s = s.replace(anchor, anchor + b)
         p.write_text(s)
-        print('ground:', p)
+        n += 1
+    print(f'ground: {n} guides')
 
 
 if __name__ == '__main__':
