@@ -382,7 +382,7 @@
   }
 
   // ---------- weather window chart (concept inspired by Logan Greenlee's Weather Window) ----------
-  // One bar per departure hour from 6 AM on the planned day to 9 PM the next day. Bars above the line are
+  // One bar per departure hour around the planned time (6 hours either side going, 12 coming home). Bars above the line are
   // within the pilot's settings (taller = more margin on crosswind); below the line need a look or are
   // outside them. Runs of 2+ good hours are boxed as windows. Tapping a bar plans that departure time.
   const tzInput = (t, tz) => { const q = parts(t, tz); return q.year + '-' + pad(q.month) + '-' + pad(q.day) + 'T' + pad(q.hour % 24) + ':00'; };
@@ -398,12 +398,12 @@
     return { s: 1 + 2 * Math.min(...m), c: 'ok' };
   }
   function windowChart(rate, from, to, depT, tzF, tzT, MF, MT, field, span, blockH) {
-    // Centered on the planned time: 24 hours for the trip out (12 either side), 48 for the trip home (24 either side).
+    // Centered on the planned time: 12 hours for the trip out (6 either side), 24 for the trip home (12 either side).
     const half = span, n = 2 * half;
     const start = Math.floor((depT - half * H) / H) * H;
     const bars = Array.from({ length: n }, (_, i) => { const r = rate(start + i * H, null); return Object.assign(r, { sc: score(r, MF, MT), i }); });
     if (!bars.some(b => b.sc)) return '';
-    const W = 960, x0 = 36, bw = (W - x0 - 8) / n, mid = 92, u = 22, Hh = 196;
+    const W = 960, x0 = 36, bw = (W - x0 - 8) / n, mid = 92, u = 22, Hh = 214;
     const col = { ok: '#3f8f4f', out: '#b9c3cb', chk: '#d39a2c', bad: '#c2462b', sev: '#7a3a8c' };
     let g = '';
     // night shading at the departure airport
@@ -438,10 +438,11 @@
     };
     if (xd >= x0 && xd <= xMax) mark(xd, xd, '🛫', 'Planned departure');
     if (blockH && xa0 >= x0 && xa0 <= xMax) mark(xa0, xa, '🛬', 'Estimated arrival');
-    // hour labels every 3 hours, day names at 6 AM
+    // hour labels (every hour when zoomed in, else every 2 or 3), day names at midnight
+    const step = n <= 12 ? 1 : n <= 24 ? 2 : 3;
     bars.forEach(b => {
       const hr = parts(b.dep, tzF).hour % 24;
-      if (hr % 3 === 0) g += '<text x="' + (x0 + (b.i + 0.5) * bw) + '" y="' + (Hh - 34) + '" text-anchor="middle" font-size="10" fill="#647784">' + (hr === 0 ? '12a' : hr === 12 ? '12p' : hr > 12 ? (hr - 12) + 'p' : hr + 'a') + '</text>';
+      if (hr % step === 0) g += '<text x="' + (x0 + (b.i + 0.5) * bw) + '" y="' + (Hh - 34) + '" text-anchor="middle" font-size="12" fill="#647784">' + (hr === 0 ? '12a' : hr === 12 ? '12p' : hr > 12 ? (hr - 12) + 'p' : hr + 'a') + '</text>';
       if (hr === 0 || (b.i === 0 && hr >= 1 && hr <= 20)) g += '<text x="' + (x0 + b.i * bw) + '" y="' + (Hh - 4) + '" font-size="11" font-weight="700" fill="#102d40">' + esc(new Date(b.dep).toLocaleDateString([], { timeZone: tzF, weekday: 'short', month: 'short', day: 'numeric' })) + '</text>';
     });
     g += '<text x="4" y="' + (mid - 30) + '" font-size="10" fill="#647784">Good</text><text x="4" y="' + (mid + 44) + '" font-size="10" fill="#647784">Look</text>';
@@ -487,7 +488,7 @@
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
     h += '<p class="wx-meta">Minimums: ' + esc(from.code) + ' ' + esc(MF.label) + ' · ' + esc(to.code) + ' ' + esc(MT.label) + '</p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
-    h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 12 : 24, blockH);
+    h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 6 : 12, blockH);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">🛫 Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">🛬 Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
     rows.forEach(r => {
       const L = r.lvl ? LEVEL[r.lvl] : ['No forecast yet', 'wx-outlook'];
