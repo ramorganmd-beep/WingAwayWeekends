@@ -17,7 +17,7 @@
     '.wk-box a{font-weight:600}.wk-line{margin:6px 0 0;font-size:.85rem;color:#33475a;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}' +
     '.wk{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.8rem;font-weight:600;border:1px solid}' +
     '.wk.good{background:#e8f4ec;border-color:#9fcdb0;color:#24603a}.wk.mixed{background:#fdf3e2;border-color:#e9c98d;color:#7a5414}' +
-    '.wk.poor{background:#fbe9e7;border-color:#e3aaa2;color:#8a2c20}.wk-line a{font-size:.8rem;margin-left:auto}';
+    '.wk.poor{background:#fbe9e7;border-color:#e3aaa2;color:#8a2c20}.wk-line a{font-size:.8rem;margin-left:auto;position:relative;z-index:6;padding:6px 0}';
   document.head.appendChild(css);
 
   // ---------- data ----------
