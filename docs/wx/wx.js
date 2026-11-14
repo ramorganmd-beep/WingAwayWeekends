@@ -231,11 +231,23 @@
   function saveMins(m) { try { localStorage.setItem(MINS_KEY, JSON.stringify(m)); } catch (e) {} }
   const pad = n => String(n).padStart(2, '0');
   const localInput = t => { const d = new Date(t); return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()) + 'T' + pad(d.getHours()) + ':00'; };
+  // Default trip dates: the coming weekend for the trip length chosen on the homepage (Day trip = Saturday,
+  // Weekend = Fri–Sun, Longer stay = Thu–Mon). If it has already started, start today (in a couple of hours);
+  // after 3 p.m., count from tomorrow, so late Sunday rolls to next weekend.
   function defaults() {
-    const d = new Date(); d.setHours(14, 0, 0, 0);
-    const toFri = (5 - d.getDay() + 7) % 7 || (new Date().getHours() < 12 ? 0 : 7);
-    d.setDate(d.getDate() + toFri);
-    const r = new Date(d); r.setDate(r.getDate() + 2);
+    let trip = 'Weekend'; try { trip = localStorage.getItem('wingaway-trip') || trip; } catch (e) {}
+    const now = new Date(), shift = now.getHours() >= 15 ? 1 : 0, base = new Date(now);
+    base.setHours(0, 0, 0, 0); base.setDate(base.getDate() + shift);
+    const dow = base.getDay();
+    const offs = trip === 'Day trip' ? (dow === 0 || dow === 6 ? [0] : [6 - dow])
+      : trip === 'Longer stay' ? (dow === 0 ? [0, 1] : [Math.max(0, 4 - dow), 8 - dow])
+      : (dow === 0 ? [0] : [Math.max(0, 5 - dow), 7 - dow]);
+    const first = offs[0], last = offs[offs.length - 1];
+    const d = new Date(base); d.setDate(d.getDate() + first);
+    const wd = d.getDay(), today = first + shift === 0;
+    d.setHours(today ? Math.min(Math.max(now.getHours() + 2, 9), 16) : (wd === 4 || wd === 5) ? 14 : 10, 0, 0, 0);
+    const r = new Date(base); r.setDate(r.getDate() + last);
+    r.setHours(last === first ? Math.min(Math.max(d.getHours() + 4, 16), 20) : 14, 0, 0, 0);
     return [localInput(d), localInput(r)];
   }
 
