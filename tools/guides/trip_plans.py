@@ -1173,6 +1173,18 @@ PLANS = {
     'destin': {
         'day': [('Morning', 'Land at KDTS and visit the Air Force Armament Museum.'), ('Lunch', 'Lunch at The Back Porch on the beach.'), ('Afternoon', 'HarborWalk Village, then fly home.')],
         'extra': [('Morning', 'A boat to Crab Island.'), ('Afternoon', 'The Village of Baytowne Wharf at Sandestin.'), ('Evening', 'Dinner at Harbor Docks.')]},
+    'marathon': {
+        'day': [('Morning', 'Land at KMTH and visit the Turtle Hospital.'), ('Lunch', 'Lunch at Keys Fisheries on the docks.'), ('Afternoon', 'Pigeon Key and the old Seven Mile Bridge, then fly home.')],
+        'extra': [('Morning', 'Dolphin Research Center.'), ('Afternoon', 'Sombrero Beach.'), ('Evening', 'Sunset at the Seven Mile Bridge.')]},
+    'st-petersburg': {
+        'day': [('Morning', 'Land at KSPG and walk to the Dalí Museum.'), ('Lunch', 'Lunch on the St. Pete Pier.'), ('Afternoon', 'The Museum of Fine Arts, then walk back to the FBO.')],
+        'extra': [('Morning', 'Fort De Soto Park.'), ('Afternoon', 'St. Pete Beach and the Don CeSar.'), ('Evening', 'Rooftop drinks at the Canopy.')]},
+    'vero-beach': {
+        'day': [('Morning', 'Land at KVRB and head to the beach.'), ('Lunch', 'Lunch at Waldo’s at the Driftwood.'), ('Afternoon', 'McKee Botanical Garden, then fly home.')],
+        'extra': [('Morning', 'The National Navy SEAL Museum.'), ('Afternoon', 'The Vero Beach Museum of Art.'), ('Evening', 'Dinner at Ocean Grill.')]},
+    'fort-lauderdale': {
+        'day': [('Morning', 'Land at KFXE and Uber to the beach.'), ('Lunch', 'Lunch on Las Olas Boulevard.'), ('Afternoon', 'The water taxi, then fly home.')],
+        'extra': [('Morning', 'Bonnet House Museum & Gardens.'), ('Afternoon', 'The beach promenade.'), ('Evening', 'Dinner at Shooters Waterfront.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

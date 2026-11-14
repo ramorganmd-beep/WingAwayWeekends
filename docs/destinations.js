@@ -6115,5 +6115,81 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "photo": {"slug": "destin", "remote": "https://images.unsplash.com/photo-1616984366240-479bd31d60ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODU2fA&ixlib=rb-4.1.0", "alt": "Boats anchored in clear emerald water off Destin", "pos": "50% 50%"}
+},
+{
+ "name": "Marathon",
+ "state": "Florida",
+ "airport": "KMTH",
+ "lat": 24.726,
+ "lon": -81.0514,
+ "desc": "The heart of the Keys: the Turtle Hospital, the Seven Mile Bridge at sunset and seafood on the docks.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Outdoors",
+  "Scenic views"
+ ],
+ "guide": "marathon/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "marathon", "remote": "https://images.unsplash.com/photo-1740989973080-95c282ab1b16?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NjkzOTc4fA&ixlib=rb-4.1.0", "alt": "The Seven Mile Bridge running across turquoise water in the Florida Keys", "pos": "50% 50%"}
+},
+{
+ "name": "St. Petersburg",
+ "state": "Florida",
+ "airport": "KSPG",
+ "lat": 27.7651,
+ "lon": -82.627,
+ "desc": "Land on the downtown waterfront and walk to the Dalí Museum and the St. Pete Pier.",
+ "tags": [
+  "Dining",
+  "History",
+  "Beach",
+  "No rental car"
+ ],
+ "guide": "st-petersburg/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "st-petersburg", "remote": "https://images.unsplash.com/photo-1650416942198-35d0d4b7ccfa?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NjkzOTUwfA&ixlib=rb-4.1.0", "alt": "The St. Pete Pier reaching into Tampa Bay at dusk", "pos": "50% 55%"}
+},
+{
+ "name": "Vero Beach",
+ "state": "Florida",
+ "airport": "KVRB",
+ "lat": 27.6556,
+ "lon": -80.4179,
+ "desc": "A quiet, old-Florida beach town at the home of Piper Aircraft, with Ocean Grill and McKee Garden.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Outdoors",
+  "Aviation museums"
+ ],
+ "guide": "vero-beach/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "vero-beach", "remote": "https://images.unsplash.com/photo-1578264691760-5564958a2db2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NjkzOTUzfA&ixlib=rb-4.1.0", "alt": "A couple walking on the beach at sunset in Vero Beach", "pos": "50% 50%"}
+},
+{
+ "name": "Fort Lauderdale",
+ "state": "Florida",
+ "airport": "KFXE",
+ "lat": 26.1973,
+ "lon": -80.1707,
+ "desc": "Beaches, canals and Las Olas, with a water taxi and dinner on the Intracoastal.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "No rental car"
+ ],
+ "guide": "fort-lauderdale/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "fort-lauderdale", "remote": "https://images.unsplash.com/photo-1766373165231-8807829cd12b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NjkzOTgwfA&ixlib=rb-4.1.0", "alt": "Canals lined with boats and palms leading to the Fort Lauderdale skyline", "pos": "50% 50%"}
 }
 ];

@@ -2217,3 +2217,27 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Matthew Hernandez on Unsplash — https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-on-the-beach-n8sDBf8qDIE
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Panama City Beach, FL, USA
+
+## Marathon
+
+- Photo by Zoshua Colah on Unsplash — https://unsplash.com/photos/an-aerial-view-of-a-road-running-through-the-ocean-RWJxrQ4WZ2g
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Seven Mile Bridge, Marathon, Florida
+
+## St. Petersburg
+
+- Photo by AK on Unsplash — https://unsplash.com/photos/a-pier-with-a-building-on-top-of-it-WTEE-56TPQo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: St. Pete Pier, St. Petersburg, FL
+
+## Vero Beach
+
+- Photo by Will Walker on Unsplash — https://unsplash.com/photos/couple-walking-on-shore-during-golden-hour-U4xJJSJ221M
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Seaside, Vero Beach
+
+## Fort Lauderdale
+
+- Photo by MARTLEY U on Unsplash — https://unsplash.com/photos/city-skyline-over-a-canal-with-boats-and-boats-lj4KbgcOkWY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Fort Lauderdale
