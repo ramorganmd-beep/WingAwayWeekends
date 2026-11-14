@@ -2204,14 +2204,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Myrtle Beach, SC, USA; shows the SkyWheel and oceanfront
 
-## Panama City Beach
-
-- Photo by Craig Cameron on Unsplash — https://unsplash.com/photos/buildings-near-body-of-water-under-blue-sky-DTavHR-d-tA
-- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
-- Location: Unsplash location tag: Panama City Beach, USA
 
 ## Destin
 
 - Photo by Tamara Malaniy on Unsplash — https://unsplash.com/photos/aerial-view-of-boats-on-sea-shore-during-daytime-Wo1Tvu3LQ1Q
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Destin, Florida, USA
+
+## Panama City Beach
+
+- Photo by Koushalya Karthikeyan on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-at-sunset-with-a-pier-in-the-distance-pO0iuJejZ1E
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Panama City Beach, FL, USA

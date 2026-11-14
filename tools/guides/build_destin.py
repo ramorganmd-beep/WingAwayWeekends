@@ -34,18 +34,18 @@ GUIDE = {
         'title': 'Seafood on the harbor and the beach.',
         'intro': 'Reserve weekend dinners in season.',
         'cards': [
-            ('Friday dinner · Harbor', 'Boshamps', 'A seafood and oyster house on Destin Harbor.', 'https://www.boshamps.com/'),
             ('Lunch · Beachfront', 'The Back Porch', 'Casual seafood on the beach with Gulf views.', 'https://www.theback-porch.com/'),
+            ('Friday dinner · Harbor', 'Boshamps', 'A seafood and oyster house on Destin Harbor.', 'https://www.boshamps.com/'),
             ('Local seafood', 'Dewey Destin’s', 'Fresh local seafood from a long-time Destin fishing family.', 'https://www.destinseafood.com/'),
             ('Saturday dinner · Harbor', 'Harbor Docks', 'Seafood and sushi on the harbor.', 'https://www.harbordocks.com/'),
         ],
     },
     'explore': {
-        'title': 'The harbor, Crab Island and the Armament Museum.',
+        'title': 'Crab Island, the harbor and the Armament Museum.',
         'intro': 'Boats, beach and a stop for the aviation buffs.',
         'items': [
-            ('Air Force Armament Museum', 'Aircraft and weapons history outside Eglin Air Force Base, a short drive from Destin.', 'https://www.google.com/maps/search/?api=1&query=Air+Force+Armament+Museum+Eglin+FL', 'Map'),
             ('Crab Island', 'A shallow sandbar near the Destin bridge where boats anchor in clear water; go by boat rental or tour.', 'https://www.google.com/maps/search/?api=1&query=Crab+Island+Destin+FL', 'Map'),
+            ('Air Force Armament Museum', 'Aircraft and weapons history outside Eglin Air Force Base, a short drive from Destin.', 'https://www.google.com/maps/search/?api=1&query=Air+Force+Armament+Museum+Eglin+FL', 'Map'),
             ('HarborWalk Village', 'Restaurants, shops and charter boats along Destin Harbor.', 'https://www.google.com/maps/search/?api=1&query=HarborWalk+Village+Destin+FL', 'Map'),
             ('Henderson Beach State Park', 'Dunes and a quiet stretch of beach in town.', 'https://www.google.com/maps/search/?api=1&query=Henderson+Beach+State+Park+Destin+FL', 'Map'),
             ('The Village of Baytowne Wharf', 'A pedestrian village at Sandestin with shops, dining and events.', 'https://www.baytownewharf.com/', 'Baytowne Wharf'),

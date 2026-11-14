@@ -10291,23 +10291,6 @@
   "location": "Unsplash location tag: Myrtle Beach, SC, USA; shows the SkyWheel and oceanfront"
  },
  {
-  "destination": "Panama City Beach",
-  "title": "Panama City Beach",
-  "photographer": "Craig Cameron",
-  "source_page_url": "https://unsplash.com/photos/buildings-near-body-of-water-under-blue-sky-DTavHR-d-tA",
-  "original_image_url": "https://images.unsplash.com/photo-1562678845-e8af0857435d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODc0fA&ixlib=rb-4.1.0",
-  "license": "Unsplash License",
-  "license_url": "https://unsplash.com/license",
-  "commercial_reuse_verified": true,
-  "verification_date": "2026-11-14",
-  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
-  "changes": "Not copied; served from Unsplash with crop parameters.",
-  "alt": "Emerald Gulf water and white sand along Panama City Beach, with beachfront towers in the distance",
-  "date_taken": null,
-  "files": [],
-  "location": "Unsplash location tag: Panama City Beach, USA"
- },
- {
   "destination": "Destin",
   "title": "Boats in the emerald water off Destin",
   "photographer": "Tamara Malaniy",
@@ -10323,5 +10306,22 @@
   "date_taken": null,
   "files": [],
   "location": "Unsplash location tag: Destin, Florida, USA"
+ },
+ {
+  "destination": "Panama City Beach",
+  "title": "Sunset over the Gulf, Panama City Beach",
+  "photographer": "Koushalya Karthikeyan",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-at-sunset-with-a-pier-in-the-distance-pO0iuJejZ1E",
+  "original_image_url": "https://images.unsplash.com/photo-1703556891303-99ed089279e6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg3ODIyfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-14",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "Sunset over the Gulf at Panama City Beach, with the pier in the distance",
+  "date_taken": null,
+  "files": [],
+  "location": "Unsplash location tag: Panama City Beach, FL, USA"
  }
 ]
