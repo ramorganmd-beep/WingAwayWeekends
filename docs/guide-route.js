@@ -80,6 +80,9 @@
   change.href = '../'; change.textContent = 'Change airport or aircraft';
   note.append(change);
   note.hidden = false;
+  // With an aircraft profile the note above gives the real speed, so hide the generic 150 KTAS line.
+  var generic = document.querySelector('p.estimate:not(#route-note)');
+  if (generic) generic.hidden = !!aircraft;
 })();
 
 // Seaplane access boxes show only for floatplane/amphibian pilots (landing gear saved on the homepage).
