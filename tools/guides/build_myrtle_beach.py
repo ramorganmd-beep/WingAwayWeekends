@@ -49,7 +49,7 @@ GUIDE = {
             ('Murrells Inlet MarshWalk', 'A boardwalk along the salt marsh lined with restaurants and live music; best at sunset.', 'https://www.marshwalk.com/', 'MarshWalk'),
             ('Huntington Beach State Park', 'An unspoiled beach, a salt-marsh boardwalk for birding and historic Atalaya.', 'https://southcarolinaparks.com/huntington-beach', 'SC State Parks'),
             ('The Market Common & Warbird Park', 'Shops and restaurants on the old air base next to the airport, and Warbird Park’s A-10 Warthog, F-100 and A-7 on display. The park is free and open in daylight.', 'https://www.marketcommonmb.com/', 'The Market Common'),
-            ('Dunes Golf & Beach Club', 'A classic oceanside course in the Golf Capital of the World.', 'https://www.thedunesclub.net/', 'Dunes Club'),
+            ('Grande Dunes Resort Course', 'A public course high above the Intracoastal Waterway at Grande Dunes, in the Golf Capital of the World. Book tee times ahead.', 'https://www.grandedunesgolf.com/', 'Grande Dunes Golf'),
         ],
     },
     'events': {
