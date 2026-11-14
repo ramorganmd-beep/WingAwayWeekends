@@ -131,7 +131,7 @@
       });
       const a = document.createElement('a');
       a.href = 'wx/?from=' + encodeURIComponent(home) + '&to=' + encodeURIComponent((card.dataset.guide || apt).replace(/\/$/, ''));
-      a.textContent = 'Plan the timing →';
+      a.textContent = 'Best times to fly →';
       p.append(a);
       const meta = card.querySelector('.card-meta'); if (meta) meta.after(p);
     }));
