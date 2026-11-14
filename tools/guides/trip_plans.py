@@ -1167,6 +1167,12 @@ PLANS = {
     'myrtle-beach': {
         'day': [('Morning', 'Land at KMYR and head to the beach.'), ('Lunch', 'Lunch at Drunken Jack’s on the inlet in Murrells Inlet.'), ('Afternoon', 'The Boardwalk, then fly home before the afternoon storms in summer.')],
         'extra': [('Morning', 'Brookgreen Gardens.'), ('Afternoon', 'The Market Common next to the airport.'), ('Evening', 'Dinner at Sea Captain’s House on the oceanfront.')]},
+    'panama-city-beach': {
+        'day': [('Morning', 'Land at KECP and head to the beach.'), ('Lunch', 'Lunch at Pineapple Willy’s by the City Pier.'), ('Afternoon', 'St. Andrews State Park, then fly home before the summer storms.')],
+        'extra': [('Morning', 'Shuttle boat to Shell Island.'), ('Afternoon', 'Pier Park.'), ('Evening', 'Dinner at Capt. Anderson’s on the Grand Lagoon.')]},
+    'destin': {
+        'day': [('Morning', 'Land at KDTS and visit the Air Force Armament Museum.'), ('Lunch', 'Lunch at The Back Porch on the beach.'), ('Afternoon', 'HarborWalk Village, then fly home.')],
+        'extra': [('Morning', 'A boat to Crab Island.'), ('Afternoon', 'The Village of Baytowne Wharf at Sandestin.'), ('Evening', 'Dinner at Harbor Docks.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),

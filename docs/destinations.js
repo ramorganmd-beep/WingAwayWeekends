@@ -6078,5 +6078,42 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
   "photo": {"slug": "myrtle-beach", "remote": "https://images.unsplash.com/photo-1727862210575-541700749bd2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njc4NTMzfA&ixlib=rb-4.1.0", "alt": "The Myrtle Beach oceanfront, with the pier, the SkyWheel and beachfront hotels", "pos": "50% 55%"}
+},
+{
+ "name": "Panama City Beach",
+ "state": "Florida",
+ "airport": "KECP",
+ "lat": 30.3571,
+ "lon": -85.7954,
+ "desc": "White sand and emerald water, a boat to Shell Island and seafood on the Grand Lagoon.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "panama-city-beach/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "panama-city-beach", "remote": "https://images.unsplash.com/photo-1562678845-e8af0857435d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODc0fA&ixlib=rb-4.1.0", "alt": "Emerald Gulf water and white sand along Panama City Beach, with beachfront towers in the distance", "pos": "50% 55%"}
+},
+{
+ "name": "Destin",
+ "state": "Florida",
+ "airport": "KDTS",
+ "lat": 30.4001,
+ "lon": -86.4715,
+ "desc": "Emerald water, harbor seafood, Crab Island and the Air Force Armament Museum, minutes from the runway.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Aviation museums",
+  "Golf"
+ ],
+ "guide": "destin/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {"slug": "destin", "remote": "https://images.unsplash.com/photo-1616984366240-479bd31d60ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODU2fA&ixlib=rb-4.1.0", "alt": "Boats anchored in clear emerald water off Destin", "pos": "50% 50%"}
 }
 ];

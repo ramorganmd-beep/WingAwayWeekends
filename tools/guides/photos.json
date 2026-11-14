@@ -3660,5 +3660,31 @@
     "caption": "The Myrtle Beach oceanfront",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@hightidecontent?utm_source=wingaway_weekends&utm_medium=referral\">High Tide Content</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-view-of-a-beach-with-a-ferris-wheel-in-the-distance-T9Y61ABO2QY?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "panama-city-beach": {
+    "slug": "https://images.unsplash.com/photo-1562678845-e8af0857435d?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODc0fA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Emerald Gulf water and white sand along Panama City Beach, with beachfront towers in the distance",
+    "w": 960,
+    "h": 720,
+    "caption": "Panama City Beach",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@craigcpcb?utm_source=wingaway_weekends&utm_medium=referral\">Craig Cameron</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/buildings-near-body-of-water-under-blue-sky-DTavHR-d-tA?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "destin": {
+    "slug": "https://images.unsplash.com/photo-1616984366240-479bd31d60ef?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg1ODU2fA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "Boats anchored in clear emerald water off Destin",
+    "w": 960,
+    "h": 720,
+    "caption": "Boats in the emerald water off Destin",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@tamarushphotos?utm_source=wingaway_weekends&utm_medium=referral\">Tamara Malaniy</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/aerial-view-of-boats-on-sea-shore-during-daytime-Wo1Tvu3LQ1Q?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }
