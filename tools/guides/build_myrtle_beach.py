@@ -10,7 +10,7 @@ GUIDE = {
     'place': 'Myrtle Beach, South Carolina',
     'description': 'A curated Myrtle Beach getaway for GA pilots and their partners. Land at Myrtle Beach International, minutes from the sand, then stay on the Intracoastal or the oceanfront, eat seafood on the Murrells Inlet MarshWalk and play some of the Grand Strand’s famous golf.',
     'lede': '60 miles of beach, the Golf Capital of the World, great seafood and lots of fun things to do.',
-    'intro': 'Myrtle Beach International sits on the old air force base at the south end of town, a few minutes from the ocean. Next door at the Market Common, Warbird Park displays an A-10 Warthog, an F-100 and an A-7 from the base’s flying days. Stay at a resort at Grande Dunes, spend an evening on the Murrells Inlet MarshWalk and save a morning for the Boardwalk or a round of golf in the Golf Capital of the World.',
+    'intro': 'Myrtle Beach International sits on the old Air Force base at the south end of town, a few minutes from the ocean. Next door at the Market Common, Warbird Park displays an A-10 Warthog, an F-100 and an A-7 from the base’s flying days. Stay at a resort at Grande Dunes, spend an evening on the Murrells Inlet MarshWalk and save a morning for the Boardwalk or a round of golf in the Golf Capital of the World.',
     'pills': ['Beach', 'Golf Capital of the World', 'Seafood'],
     'flight': {
         'title': 'Land minutes from the beach.',
@@ -42,12 +42,11 @@ GUIDE = {
         ],
     },
     'explore': {
-        'title': 'The MarshWalk, the state park and the golf.',
+        'title': 'The MarshWalk, the Boardwalk and the golf courses.',
         'intro': 'Beach days, salt marsh and some of the best-known golf on the East Coast.',
         'items': [
-            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('Murrells Inlet MarshWalk', 'A boardwalk along the salt marsh lined with restaurants and live music; best at sunset.', 'https://www.marshwalk.com/', 'MarshWalk'),
-            ('Huntington Beach State Park', 'An unspoiled beach, a salt-marsh boardwalk for birding and historic Atalaya.', 'https://southcarolinaparks.com/huntington-beach', 'SC State Parks'),
+            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('The Market Common & Warbird Park', 'Shops and restaurants on the old air base next to the airport, and Warbird Park’s A-10 Warthog, F-100 and A-7 on display. The park is free and open in daylight.', 'https://www.marketcommonmb.com/', 'The Market Common'),
             ('Grande Dunes Resort Course', 'A public course high above the Intracoastal Waterway at Grande Dunes, in the Golf Capital of the World. Book tee times ahead.', 'https://www.grandedunesgolf.com/', 'Grande Dunes Golf'),
         ],
