@@ -498,7 +498,7 @@
     let h = '<section class="wx-leg"><h2>' + esc(title) + ': ' + esc(from.code) + ' → ' + esc(to.code) + '</h2>';
     h += '<p class="wx-meta">' + esc(fmtDay(depT, tzF)) + ' · ~' + Math.round(dist) + ' nm · about ' + A.formatTime(blockH) + ' with ' + esc(prof ? prof.label : 'the default 150 kt estimate') + '</p>';
     h += '<p class="wx-verdict wx-v-' + (plan.lvl || 'none') + '">' + esc(verdict) + '</p>';
-    h += '<p class="wx-meta">Minimums: ' + esc(from.code) + ' ' + esc(MF.label) + ' · ' + esc(to.code) + ' ' + esc(MT.label) + '</p>';
+    h += '<p class="wx-meta">Minimums: ' + esc(from.code) + ' ' + esc(MF.label) + ' · ' + esc(to.code) + ' ' + esc(MT.label) + ' · <a href="#minsedit" data-openmins>Edit my minimums</a></p>';
     h += await trend(from, sf, depT, to, st, depT + blockH * H);
     h += windowChart(rate, from, to, depT, tzF, tzT, MF, MT, title === 'Going' ? 'dep' : 'ret', title === 'Going' ? 6 : 12, blockH);
     h += '<div class="wx-table" role="table"><div class="wx-row wx-head" role="row"><div role="columnheader">🛫 Leave</div><div role="columnheader">At ' + esc(from.code) + src(sf) + '</div><div role="columnheader">🛬 Land</div><div role="columnheader">At ' + esc(to.code) + src(st) + '</div><div role="columnheader">Overall</div></div>';
@@ -596,4 +596,9 @@
     draw();
   }
   init();
+
+  // "Edit my minimums" links (in the results, or #minsedit from other pages): open the editor and scroll to it.
+  function openMins() { const d = document.getElementById('minsedit'); if (!d) return; d.open = true; d.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  document.addEventListener('click', e => { const a = e.target.closest && e.target.closest('[data-openmins]'); if (a) { e.preventDefault(); openMins(); } });
+  if (location.hash === '#minsedit') setTimeout(openMins, 300);
 })();
