@@ -1,4 +1,4 @@
-"""Add a "Getting into town" box under each guide's route box.
+"""Add a "Getting into town" block to each guide's aviation section, under the FBO panel.
 
 Usage: python3 tools/guides/ground.py docs/<guide>/index.html [...]
 
@@ -89,7 +89,7 @@ GROUND = {
 ROWS = [('crew', 'Crew car'), ('rental', 'Rental car'), ('ride', 'Rideshare'), ('town', 'Into town'),
         ('norental', 'No rental car needed?'), ('perks', 'Pilot perks')]
 MARK = re.compile(r'<!--wa-ground-->.*?<!--/wa-ground-->', re.S)
-STYLE = ('<style>.wa-ground{margin:14px 0 4px;padding:14px 18px;background:#fff;border:1px solid #dbe3e9;'
+STYLE = ('<style>.wa-ground{margin:16px 0 12px;padding:14px 18px;background:#fff;border:1px solid #dbe3e9;'
          'border-left:4px solid #efbd70;border-radius:3px;font-size:.95rem}.wa-ground h3{margin:0 0 8px;font-size:1rem;'
          'color:#102d40}.wa-ground dl{display:grid;grid-template-columns:max-content 1fr;gap:4px 14px;margin:0}'
          '.wa-ground dt{font-weight:700;color:#102d40}.wa-ground dd{margin:0;color:#33475a}.wa-ground p{margin:8px 0 0;'
@@ -104,7 +104,7 @@ def esc(t):
 def block(g):
     rows = ''.join(f'<dt>{label}</dt><dd>{esc(g[k])}</dd>' for k, label in ROWS if g.get(k))
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
-            f'<dl><dt>FBO</dt><dd>{esc(g["fbo"])}</dd>{rows}</dl>'
+            f'<dl>{rows}</dl>'
             f'<p>Checked {esc(g["checked"])}. Crew cars and pilot perks change often: call the FBO before you go. '
             '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · Know something we missed? <a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
             '</div><!--/wa-ground-->')
@@ -129,13 +129,13 @@ def auto_block(s):
         norental = 'Likely: ' + way[0].lower() + way[1:]
     else:
         norental = ''
-    rows = [('FBO', fbo), ('Crew car', 'Ask when you call the FBO ahead'),
+    rows = [('Crew car', 'Ask when you call the FBO ahead'),
             ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee'),
-            ('Getting around', way), ('No rental car needed?', norental)]
-    dl = ''.join(f'<dt>{k}</dt><dd>{esc(v) if k != "FBO" else v}</dd>' for k, v in rows if v)
+            ('No rental car needed?', norental)]
+    dl = ''.join(f'<dt>{k}</dt><dd>{esc(v)}</dd>' for k, v in rows if v)
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
             f'<dl>{dl}</dl>'
-            '<p>More in <a href="#flight">Aviation &amp; getting around</a> below. Crew cars change often: call the FBO before you go. '
+            '<p>Crew cars change often: call the FBO before you go. '
             '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · Know something we missed? '
             '<a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
             '</div><!--/wa-ground-->')
@@ -146,14 +146,23 @@ def main(paths):
     for p in map(Path, paths):
         key = p.parent.name
         s = MARK.sub('', p.read_text())
-        anchor = '<!--/wa-wx-->'
-        if s.count(anchor) != 1 or 'data-dest=' not in s:
+        i = s.find('<section id="flight"')
+        if i < 0 or 'data-dest=' not in s:
+            continue
+        j = s.index('</section>', i)
+        k = s.find('<div class="arrival-main">', i, j)
+        if k < 0:
+            print('ground: skipped (no aviation section):', p)
             continue
         b = block(GROUND[key]) if key in GROUND else auto_block(s)
         if not b:
             print('ground: skipped (no FBO or transport found):', p)
             continue
-        s = s.replace(anchor, anchor + b)
+        # after the last FBO card in the aviation section (before its notes)
+        nt = s.find('<p class="note">', k, j)
+        end = s.find('</div><aside>', k, j)
+        at = nt if nt >= 0 else (end if end >= 0 else j)
+        s = s[:at] + b + s[at:]
         p.write_text(s)
         n += 1
     print(f'ground: {n} guides')
