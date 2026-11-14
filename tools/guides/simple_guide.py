@@ -46,7 +46,7 @@ def build(g, out):
              f'<aside><span class="eyebrow">Getting around</span><h3>{f["around_title"]}</h3><p>{f["around"]}</p></aside></div></section>')
     s = g['stay']
     P.append('<section id="stay">' + head('02', 'Where to stay', s['title'], s['intro']) +
-             '<div class="grid three">' + _cards(s['cards']) + '</div></section>')
+             f'<div class="grid {"four" if len(s["cards"]) == 4 else "three"}">' + _cards(s['cards']) + '</div></section>')
     e = g['eat']
     P.append('<section id="eat">' + head('03', 'Where to eat', e['title'], e['intro']) +
              f'<div class="grid {"four" if len(e["cards"]) == 4 else "three"}">' + _cards(e['cards']) + '</div></section>')

@@ -26,6 +26,7 @@ GUIDE = {
         'intro': 'Rates and availability need travel dates. Summer weekends and spring golf season fill early.',
         'cards': [
             ('Grande Dunes · Resort', 'Marina Inn at Grande Dunes', 'A full-service resort on the Intracoastal Waterway, with a marina, pools and the Grande Dunes golf nearby.', 'https://www.marinainnatgrandedunes.com/'),
+            ('Oceanfront · Resort & spa', 'Marriott Myrtle Beach Resort & Spa at Grande Dunes', 'An oceanfront resort at Grande Dunes with indoor and outdoor pools and the Hibiscus Spa.', 'https://www.marriott.com/en-us/hotels/myrgd-marriott-myrtle-beach-resort-and-spa-at-grande-dunes/overview/'),
             ('Oceanfront · Resort', 'The Breakers Resort', 'A long-running resort with pools, right on the beach.', 'https://www.breakers.com/'),
             ('Oceanfront · Family', 'The Caravelle Resort', 'An oceanfront resort with breakfast on site and a poolside bar, popular with families.', 'https://www.thecaravelle.com/'),
         ],
