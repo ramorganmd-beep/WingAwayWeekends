@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40"><meta name="description" content="A weekend flight-category forecast map of WingAway Weekends destinations: where the weather looks worth the flight on Saturday and Sunday.">
 <title>Weekend Weather Map | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/weekend-map/"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
 <style>
-.map-intro{max-width:820px;padding:56px 0 8px}.map-intro h1{margin:10px 0 12px}
+.map-intro{max-width:820px;padding:28px 0 8px}.back{margin:0 0 18px;font-size:15px}.back a{font-weight:700;text-decoration:none}.back a:hover{text-decoration:underline}.map-intro h1{margin:10px 0 12px}
 .map-bar{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;padding:16px 20px;background:#eef2f4;border:1px solid #dbe3e9;border-radius:3px;margin:14px 0 12px}
 .map-bar label,.map-bar .lab{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#526471;margin-bottom:6px}
 .map-bar select,.map-bar input{font-size:16px;padding:9px 11px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40}
@@ -28,7 +28,7 @@
 </style></head><body>
 <a class="skip" href="#main">Skip to the map</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:18px"><a class="header-link" href="../trips/">Trips</a><a class="header-link" href="../fly-to-lunch/">Fly to lunch</a><a class="header-link" href="../wx/">Weather</a><a class="header-link" href="../">All destinations</a></span></header>
 <main id="main">
-<div class="map-intro"><span class="eyebrow">Plan the weekend</span><h1>Weekend weather map</h1>
+<div class="map-intro"><p class="back"><a href="../" data-back>← Back to destinations</a></p><span class="eyebrow">Plan the weekend</span><h1>Weekend weather map</h1>
 <p class="lede">Where does the weather look worth the flight this weekend?</p>
 <p>Each dot is a WingAway destination, colored by its forecast flight category. Pick a day and a time; tap a dot for details.</p></div>
 <section class="map-bar" aria-label="Map settings">
@@ -41,7 +41,7 @@
 <div class="map-box" id="box"><svg id="m" viewBox="0 0 975 610" role="img" aria-label="Weekend weather map of WingAway Weekends destinations"></svg></div>
 <div class="legend" id="legend"><span><i style="background:#2e9b47"></i>VFR</span><span><i style="background:#2369c9"></i>MVFR</span><span><i style="background:#d0362b"></i>IFR</span><span><i style="background:#c23bc4"></i>LIFR</span><span><i style="background:#fff;border:3px solid #2e9b47;width:9px;height:9px"></i>Outlook only: good · <i style="background:#fff;border:3px solid #d99a26;width:9px;height:9px"></i>mixed · <i style="background:#fff;border:3px solid #d0362b;width:9px;height:9px"></i>poor</span><span><i style="background:#999"></i>No forecast</span><span>★ Your airport</span></div>
 <div class="info" id="info" aria-live="polite">Tap a dot to see its forecast.</div>
-<div id="list"></div>
+<div id="list"></div><p class="back"><a href="../" data-back>← Back to destinations</a></p>
 <p class="fine">Forecast flight categories come from NOAA’s National Blend of Models, updated hourly. Ceiling and visibility forecasts reach about three days ahead; beyond that, dots are an outlook from rain, storm and wind chances only (rings). Times are approximate local time at each airport. This is a planning outlook, not a weather briefing: always get an official briefing before you fly.</p>
 </main>
 <!--wa-newsletter--><style>.wa-nl{background:#eef2f4;border-top:1px solid #dbe3e9;padding:34px 16px}.wa-nl-in{max-width:760px;margin:0 auto;display:flex;flex-wrap:wrap;gap:14px 28px;align-items:center;justify-content:space-between}.wa-nl h2{font:400 1.5rem/1.2 Georgia,serif;color:#102d40;margin:0 0 4px}.wa-nl p{margin:0;color:#526471;font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}.wa-nl form{display:flex;gap:8px;flex:1 1 300px;max-width:400px}.wa-nl input[type=email]{flex:1;min-width:0;font-size:16px;padding:11px 12px;border:1px solid #bac9d4;border-radius:4px;background:#fff;color:#102d40}.wa-nl button{font:600 15px system-ui,sans-serif;padding:11px 16px;border:0;border-radius:4px;background:#102d40;color:#fff;cursor:pointer}.wa-nl button:hover{background:#ba7d2f}.wa-nl .wa-nl-note{font-size:12px;color:#7a8a96;margin-top:6px}</style><section class="wa-nl" aria-label="Newsletter signup"><div class="wa-nl-in"><div><h2>Get a new getaway in your inbox</h2><p>One fly-in weekend, a Fly to Lunch pick and the newest guides, about once a month.</p><p class="wa-nl-note">Free. Unsubscribe anytime.</p></div><form action="https://buttondown.com/api/emails/embed-subscribe/wingawayweekends" method="post" target="_blank" rel="noopener"><label for="wa-nl-email" style="position:absolute;left:-9999px">Email address</label><input id="wa-nl-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required><input type="hidden" name="embed" value="1"><button type="submit">Subscribe</button></form></div></section><!--/wa-newsletter--><footer><a class="brand" href="../">WingAway Weekends</a><p class="feedback"><strong>Help us improve and grow.</strong> <a href="mailto:hello@wingawayweekends.com?subject=WingAway%20feedback%3A%20Weekend%20weather%20map">Suggest a correction</a></p><p>Weekend weather map</p></footer>
@@ -149,6 +149,7 @@ $('days').addEventListener('click',e=>{const b=e.target.closest('button');if(b){
 $('times').addEventListener('click',e=>{const b=e.target.closest('button');if(b){hour=+b.dataset.h;draw()}});
 $('region').addEventListener('change',()=>{selKey=null;$('info').textContent='Tap a dot to see its forecast.';draw()});
 $('home').addEventListener('change',draw);
+document.querySelectorAll('[data-back]').forEach(a=>a.addEventListener('click',e=>{let same=false;try{same=new URL(document.referrer).origin===location.origin}catch(x){}if(same&&history.length>1){e.preventDefault();history.back()}}));
 Promise.all([d3.json('../map/states-10m.json'),getJSON(LIVE+'run.json').catch(()=>{BASE=LOCAL;return getJSON(LOCAL+'run.json')})]).then(([us,run])=>{
   states=topojson.feature(us,us.objects.states).features;RUN=run;
   if(Date.now()-Date.parse(run.run)>30*H){$('count').textContent='The forecast is out of date right now. Please check back soon.';return}
