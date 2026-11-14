@@ -46,7 +46,7 @@ GUIDE = {
         'intro': 'Beach days, salt marsh and some of the best-known golf on the East Coast.',
         'items': [
             ('Murrells Inlet MarshWalk', 'A boardwalk along the salt marsh lined with restaurants and live music; best at sunset.', 'https://www.marshwalk.com/', 'MarshWalk'),
-            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
+            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history near Murrells Inlet.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('The Market Common & Warbird Park', 'Shops and restaurants on the old air base next to the airport, and Warbird Park’s A-10 Warthog, F-100 and A-7 on display. The park is free and open in daylight.', 'https://www.marketcommonmb.com/', 'The Market Common'),
             ('Grande Dunes Resort Course', 'A public course high above the Intracoastal Waterway at Grande Dunes, in the Golf Capital of the World. Book tee times ahead.', 'https://www.grandedunesgolf.com/', 'Grande Dunes Golf'),
         ],
@@ -68,7 +68,7 @@ GUIDE = {
                 ('Evening', 'Dinner on the Intracoastal at 357 Raw Coastal Bar.')]),
             ('DAY 2', 'Gardens, beach & the MarshWalk', [
                 ('Morning', 'The Boardwalk, or a round of golf.'),
-                ('Afternoon', 'Brookgreen Gardens, across the road from the park.'),
+                ('Afternoon', 'Brookgreen Gardens.'),
                 ('Evening', 'Sunset and dinner on the Murrells Inlet MarshWalk at Wicked Tuna.')]),
             ('DAY 3', 'Beach & home', [
                 ('Morning', 'A beach walk and breakfast, or brunch at Sea Captain’s House.'),
