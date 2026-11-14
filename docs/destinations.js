@@ -6095,7 +6095,7 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
- "photo": {"slug": "panama-city-beach", "remote": "https://images.unsplash.com/photo-1703556891303-99ed089279e6?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg3ODIyfA&ixlib=rb-4.1.0", "alt": "Sunset over the Gulf at Panama City Beach, with the pier in the distance", "pos": "50% 50%"}
+ "photo": {"slug": "panama-city-beach", "remote": "https://images.unsplash.com/photo-1733503757951-651568cd52a4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njg3OTYxfA&ixlib=rb-4.1.0", "alt": "A bright orange sunset over the Gulf, with waves washing up the sand at Panama City Beach", "pos": "50% 50%"}
 },
 {
  "name": "Destin",

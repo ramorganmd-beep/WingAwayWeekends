@@ -2211,8 +2211,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Destin, Florida, USA
 
+
 ## Panama City Beach
 
-- Photo by Koushalya Karthikeyan on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-at-sunset-with-a-pier-in-the-distance-pO0iuJejZ1E
+- Photo by Matthew Hernandez on Unsplash — https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-on-the-beach-n8sDBf8qDIE
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Panama City Beach, FL, USA
