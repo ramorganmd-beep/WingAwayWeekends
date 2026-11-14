@@ -35,7 +35,7 @@ GUIDE = {
         'title': 'Seafood on the water.',
         'intro': 'Reserve weekend dinners in season.',
         'cards': [
-            ('Friday dinner · Seafood', 'Hook & Barrel', 'Local seafood and a raw bar in Myrtle Beach.', 'https://www.hookandbarrelrestaurant.com/'),
+            ('Friday dinner · Raw bar', '357 Raw Coastal Bar', 'Oysters and clams on the half shell, a lobster roll and cocktails, dockside on the Intracoastal at the Grande Dunes Marina. 8205 Marina Parkway.', 'https://www.357raw.com/'),
             ('Oceanfront · Classic', 'Sea Captain’s House', 'A Myrtle Beach classic with ocean views from the dining room.', 'https://www.seacaptains.com/'),
             ('Saturday dinner · MarshWalk', 'Wicked Tuna', 'Seafood and sushi over the marsh on the Murrells Inlet MarshWalk.', 'https://www.thewickedtuna.com/'),
             ('Lunch · Murrells Inlet', 'Drunken Jack’s', 'A long-time seafood spot overlooking the inlet.', 'https://www.drunkenjacks.com/'),
@@ -66,7 +66,7 @@ GUIDE = {
             ('DAY 1', 'Arrive & the Market Common', [
                 ('Arrival', 'Land at KMYR, subject to weather and your actual flight plan; check in at Grande Dunes or the oceanfront.'),
                 ('Afternoon', 'Walk the Market Common next to the airport, or straight to the beach.'),
-                ('Evening', 'Dinner at Hook & Barrel.')]),
+                ('Evening', 'Dinner on the Intracoastal at 357 Raw Coastal Bar.')]),
             ('DAY 2', 'Gardens, beach & the MarshWalk', [
                 ('Morning', 'Huntington Beach State Park, or a round of golf.'),
                 ('Afternoon', 'Brookgreen Gardens, across the road from the park.'),
