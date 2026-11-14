@@ -10,8 +10,8 @@ GUIDE = {
     'place': 'Myrtle Beach, South Carolina',
     'description': 'A curated Myrtle Beach getaway for GA pilots and their partners. Land at Myrtle Beach International, minutes from the sand, then stay on the Intracoastal or the oceanfront, eat seafood on the Murrells Inlet MarshWalk and play some of the Grand Strand’s famous golf.',
     'lede': 'Sixty miles of beach, golf and seafood, minutes from the runway.',
-    'intro': 'Myrtle Beach International sits on the old air force base at the south end of town, a few minutes from the ocean. Stay at a resort on the Intracoastal or right on the beach, walk the Market Common next to the airport, spend an evening on the Murrells Inlet MarshWalk and save a morning for Huntington Beach State Park or a round of golf.',
-    'pills': ['Beach', 'Golf', 'Seafood'],
+    'intro': 'Myrtle Beach International sits on the old air force base at the south end of town, a few minutes from the ocean. Next door at the Market Common, Warbird Park displays an A-10 Warthog, an F-100 and an A-7 from the base’s flying days. Stay at a resort at Grande Dunes, spend an evening on the Murrells Inlet MarshWalk and save a morning for the Boardwalk or a round of golf in the Golf Capital of the World.',
+    'pills': ['Beach', 'Golf Capital of the World', 'Seafood'],
     'flight': {
         'title': 'Land minutes from the beach.',
         'intro': 'KMYR, Myrtle Beach International, is a towered airport in Class C airspace with a 9,503 ft runway (18/36). The general aviation side is served by Myrtle Beach Aviation. Grand Strand Airport (KCRE) in North Myrtle Beach is a quieter alternative closer to the north end of the beach.',
@@ -48,8 +48,8 @@ GUIDE = {
             ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('Murrells Inlet MarshWalk', 'A boardwalk along the salt marsh lined with restaurants and live music; best at sunset.', 'https://www.marshwalk.com/', 'MarshWalk'),
             ('Huntington Beach State Park', 'An unspoiled beach, a salt-marsh boardwalk for birding and historic Atalaya.', 'https://southcarolinaparks.com/huntington-beach', 'SC State Parks'),
-            ('The Market Common', 'Shops, restaurants and a lakeside park on the old air base, next to the airport.', 'https://www.marketcommonmb.com/', 'The Market Common'),
-            ('Dunes Golf & Beach Club', 'A classic oceanside course on a coast known for its golf.', 'https://www.thedunesclub.net/', 'Dunes Club'),
+            ('The Market Common & Warbird Park', 'Shops and restaurants on the old air base next to the airport, and Warbird Park’s A-10 Warthog, F-100 and A-7 on display. The park is free and open in daylight.', 'https://www.marketcommonmb.com/', 'The Market Common'),
+            ('Dunes Golf & Beach Club', 'A classic oceanside course in the Golf Capital of the World.', 'https://www.thedunesclub.net/', 'Dunes Club'),
         ],
     },
     'events': {
@@ -68,7 +68,7 @@ GUIDE = {
                 ('Afternoon', 'Walk the Market Common next to the airport, or straight to the beach.'),
                 ('Evening', 'Dinner on the Intracoastal at 357 Raw Coastal Bar.')]),
             ('DAY 2', 'Gardens, beach & the MarshWalk', [
-                ('Morning', 'Huntington Beach State Park, or a round of golf.'),
+                ('Morning', 'The Boardwalk, or a round of golf.'),
                 ('Afternoon', 'Brookgreen Gardens, across the road from the park.'),
                 ('Evening', 'Sunset and dinner on the Murrells Inlet MarshWalk at Wicked Tuna.')]),
             ('DAY 3', 'Beach & home', [
