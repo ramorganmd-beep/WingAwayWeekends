@@ -152,7 +152,7 @@
       picks = '<p>Good at both ends ' + (days[di[1]].today ? 'today' : 'on ' + { Fri: 'Friday', Sat: 'Saturday', Sun: 'Sunday' }[days[di[1]].name]) + ': ' + names.join(', ') + (best[di[1]].length > 4 ? ' and ' + (best[di[1]].length - 4) + ' more below' : '') + '.</p>';
     } else picks = '<p>No destination in this list looks good at both ends this weekend. Try a different flight time or region, or check back: forecasts update every hour.</p>';
     box.innerHTML = '<h3>Is the weather good this weekend?</h3><p>At ' + home + ': ' + chips + (why ? ' <span class="wk-fine">(' + why + ')</span>' : '') + '</p>' + picks +
-      '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
+      '<p><a href="weekend-map/?from=' + encodeURIComponent(home) + (document.getElementById('region') && document.getElementById('region').value ? '&region=' + encodeURIComponent(document.getElementById('region').value) : '') + '">See the weekend weather map →</a></p>' + '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
     if (!box.isConnected) cards.prepend(box);
   }
   let timer = null;
