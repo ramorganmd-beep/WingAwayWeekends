@@ -22,7 +22,7 @@ GUIDE = {
         'around': 'Take an Uber or rent a car for the weekend: the Market Common is next to the airport, the oceanfront is a few minutes away and Murrells Inlet is about 20 minutes south. A car makes the gardens, state park and golf easy.',
     },
     'stay': {
-        'title': 'The Intracoastal or the oceanfront.',
+        'title': 'The Intracoastal or Oceanfront.',
         'intro': 'Rates and availability need travel dates. Summer weekends and spring golf season fill early.',
         'cards': [
             ('Oceanfront · Resort & spa', 'Marriott Myrtle Beach Resort & Spa at Grande Dunes', 'An oceanfront resort at Grande Dunes with indoor and outdoor pools and the Hibiscus Spa.', 'https://www.marriott.com/en-us/hotels/myrgd-marriott-myrtle-beach-resort-and-spa-at-grande-dunes/overview/'),
