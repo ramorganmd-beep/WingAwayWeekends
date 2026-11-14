@@ -6059,5 +6059,27 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Southeast",
  "family": true,
   "photo": {"slug": "knoxville", "remote": "https://images.unsplash.com/photo-1750569397248-e11c54d0d118?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NDg5MTMyfA&ixlib=rb-4.1.0", "alt": "The gold-glass Sunsphere in World’s Fair Park, Knoxville", "pos": "50% 45%"}
+},
+{
+ "name": "Myrtle Beach",
+ "state": "South Carolina",
+ "airport": "KMYR",
+ "lat": 33.6797,
+ "lon": -78.9283,
+ "desc": "Beach resorts, seafood on the Murrells Inlet MarshWalk and famous golf, minutes from the runway.",
+ "tags": [
+  "Beach",
+  "Golf",
+  "Dining",
+  "Outdoors"
+ ],
+ "guide": "myrtle-beach/",
+ "stateCode": "SC",
+ "region": "Southeast",
+ "family": true,
+  "photo": {
+  "slug": "cape-may-beach",
+  "alt": "Illustration of a wide beach and the Atlantic"
+ }
 }
 ];

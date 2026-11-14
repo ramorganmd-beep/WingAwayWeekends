@@ -3647,5 +3647,17 @@
     "caption": "The Sunsphere, Knoxville",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@elijahbcrouch?utm_source=wingaway_weekends&utm_medium=referral\">Elijah Crouch</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/the-sunsphere-of-knoxville-tennessee-stands-tall-ePOuR3NLUZs?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "myrtle-beach": {
+    "slug": "tavares-seaplane-landing",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A yellow Cub-style seaplane touching down on Lake Dora as a crowd watches from the Tavares waterfront",
+    "w": 960,
+    "h": 720,
+    "caption": "Myrtle Beach (illustration)",
+    "credit_html": "Photo courtesy of the <a href=\"https://www.tavaresfl.gov/\">City of Tavares</a>. Used with permission; cropped to 4:3 and resized."
   }
 }

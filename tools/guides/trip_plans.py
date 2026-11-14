@@ -1164,6 +1164,9 @@ PLANS = {
     'victoria-bc': {
         'day': [('Arrive', 'Land at CYYJ and clear Canadian customs.'), ('Midday', 'Fish and chips on the harbor.'), ('Afternoon', 'A short walk, then back to the airport.')],
         'extra': [('Morning', 'Butchart Gardens.'), ('Afternoon', 'Explore.'), ('Evening', 'Dinner in town.')]},
+    'myrtle-beach': {
+        'day': [('Morning', 'Land at KMYR and head to the beach.'), ('Lunch', 'Lunch at Drunken Jack’s on the inlet in Murrells Inlet.'), ('Afternoon', 'Huntington Beach State Park, then fly home before the afternoon storms in summer.')],
+        'extra': [('Morning', 'Brookgreen Gardens.'), ('Afternoon', 'The Market Common next to the airport.'), ('Evening', 'Dinner at Sea Captain’s House on the oceanfront.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
