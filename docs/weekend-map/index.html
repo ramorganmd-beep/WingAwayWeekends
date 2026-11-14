@@ -53,7 +53,7 @@ const AP=window.WINGAWAY_AIRPORTS||[],D=(window.WINGAWAY_DESTINATIONS||[]).filte
 const H=3600e3,DAY=24*H,NAMES=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 const CC={VFR:'#2e9b47',MVFR:'#2369c9',IFR:'#d0362b',LIFR:'#c23bc4'},OC={good:'#2e9b47',mixed:'#d99a26',poor:'#d0362b'};
 const $=id=>document.getElementById(id),svg=d3.select('#m'),W=975,HT=610;
-const q=new URLSearchParams(location.search);let home=(q.get('from')||'').toUpperCase(),hour=+(q.get('t')||12),dayKey=q.get('day')||'';
+const q=new URLSearchParams(location.search);let home=(q.get('from')||'').toUpperCase(),hour=+(q.get('t')||9),dayKey=q.get('day')||'';
 try{home=home||localStorage.getItem('wingaway-home')||''}catch(e){}
 $('home').value=home;
 const rad=x=>x*Math.PI/180,nm=(a,b,c,d)=>{const h=Math.sin(rad(c-a)/2)**2+Math.cos(rad(a))*Math.cos(rad(c))*Math.sin(rad(d-b)/2)**2;return 6880.13*Math.asin(Math.sqrt(h))};
