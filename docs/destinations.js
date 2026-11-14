@@ -6077,9 +6077,6 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "SC",
  "region": "Southeast",
  "family": true,
-  "photo": {
-  "slug": "cape-may-beach",
-  "alt": "Illustration of a wide beach and the Atlantic"
- }
+  "photo": {"slug": "myrtle-beach", "remote": "https://images.unsplash.com/photo-1727862210575-541700749bd2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njc4NTMzfA&ixlib=rb-4.1.0", "alt": "The Myrtle Beach oceanfront, with the pier, the SkyWheel and beachfront hotels", "pos": "50% 55%"}
 }
 ];

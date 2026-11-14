@@ -2197,3 +2197,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Elijah Crouch on Unsplash — https://unsplash.com/photos/the-sunsphere-of-knoxville-tennessee-stands-tall-ePOuR3NLUZs
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Knoxville, TN; photographer’s description: The Sunsphere in Knoxville
+
+## Myrtle Beach
+
+- Photo by High Tide Content on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-with-a-ferris-wheel-in-the-distance-T9Y61ABO2QY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Unsplash location tag: Myrtle Beach, SC, USA; shows the SkyWheel and oceanfront

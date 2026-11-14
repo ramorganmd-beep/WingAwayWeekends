@@ -10272,5 +10272,22 @@
   "date_taken": null,
   "files": [],
   "location": "Unsplash location tag: Knoxville, TN; photographer’s description: The Sunsphere in Knoxville"
+ },
+ {
+  "destination": "Myrtle Beach",
+  "title": "The Myrtle Beach oceanfront",
+  "photographer": "High Tide Content",
+  "source_page_url": "https://unsplash.com/photos/a-view-of-a-beach-with-a-ferris-wheel-in-the-distance-T9Y61ABO2QY",
+  "original_image_url": "https://images.unsplash.com/photo-1727862210575-541700749bd2?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0Njc4NTMzfA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-14",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Myrtle Beach oceanfront, with the pier, the SkyWheel and beachfront hotels",
+  "date_taken": null,
+  "files": [],
+  "location": "Unsplash location tag: Myrtle Beach, SC, USA; shows the SkyWheel and oceanfront"
  }
 ]
