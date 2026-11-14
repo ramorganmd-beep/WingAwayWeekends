@@ -1,7 +1,7 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40"><meta name="description" content="A weekend flight-category forecast map of WingAway Weekends destinations: where the weather looks worth the flight on Saturday and Sunday.">
 <title>Weekend Weather Map | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/weekend-map/"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
 <style>
-.map-intro{max-width:820px;padding:28px 0 8px}.back{margin:0 0 18px;font-size:15px}.back a{font-weight:700;text-decoration:none}.back a:hover{text-decoration:underline}.map-intro h1{margin:10px 0 12px}
+.map-intro{max-width:820px;padding:56px 0 8px}.pill-back{display:inline-block;font-size:14px;font-weight:600;padding:8px 16px;border:1px solid #102d40;border-radius:999px;background:#fff;color:#102d40;text-decoration:none;white-space:nowrap}.pill-back:hover,.pill-back:focus{background:#102d40;color:#fff}.back{margin:0 0 18px;font-size:15px}.back a{font-weight:700;text-decoration:none}.back a:hover{text-decoration:underline}.map-intro h1{margin:10px 0 12px}
 .map-bar{display:flex;flex-wrap:wrap;gap:14px 24px;align-items:flex-end;padding:16px 20px;background:#eef2f4;border:1px solid #dbe3e9;border-radius:3px;margin:14px 0 12px}
 .map-bar label,.map-bar .lab{display:block;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#526471;margin-bottom:6px}
 .map-bar select,.map-bar input{font-size:16px;padding:9px 11px;border:1px solid #bac9d4;border-radius:3px;background:#fff;color:#102d40}
@@ -24,18 +24,18 @@
 .fine{font-size:.82rem;color:#647784;margin:14px 0 40px;max-width:820px}
 .wl{columns:3 230px;column-gap:26px;margin:20px 0 10px;padding:0;list-style:none}.wl li{break-inside:avoid;margin:0 0 6px;font-size:15px}
 .wl h3{font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:#8a571c;margin:12px 0 6px}.wl small{color:#647784}
-@media (max-width:640px){.map-intro{padding-top:30px}.map-bar select{min-width:0;width:100%}.map-bar>div{width:100%}}
+@media (max-width:640px){.map-bar .lab[aria-hidden]{display:none}.map-intro{padding-top:30px}.map-bar select{min-width:0;width:100%}.map-bar>div{width:100%}}
 </style></head><body>
 <a class="skip" href="#main">Skip to the map</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:18px"><a class="header-link" href="../trips/">Trips</a><a class="header-link" href="../fly-to-lunch/">Fly to lunch</a><a class="header-link" href="../wx/">Weather</a><a class="header-link" href="../">All destinations</a></span></header>
 <main id="main">
-<div class="map-intro"><p class="back"><a href="../" data-back>← Back to destinations</a></p><span class="eyebrow">Plan the weekend</span><h1>Weekend weather map</h1>
+<div class="map-intro"><span class="eyebrow">Plan the weekend</span><h1>Weekend weather map</h1>
 <p class="lede">Where does the weather look worth the flight this weekend?</p>
 <p>Each dot is a WingAway destination, colored by its forecast flight category. Pick a day and a time; tap a dot for details.</p></div>
 <section class="map-bar" aria-label="Map settings">
 <div><label for="home">Home airport</label><input id="home" maxlength="4" autocomplete="off" placeholder="KMYR"></div>
 <div><label for="region">Region</label><select id="region"><option value="">The whole country</option></select></div>
 <div><span class="lab">Day</span><span class="seg" id="days" role="group" aria-label="Day"></span></div>
-<div><span class="lab">Time</span><span class="seg" id="times" role="group" aria-label="Time of day"><button type="button" data-h="9">Morning</button><button type="button" data-h="12">Midday</button><button type="button" data-h="15">Afternoon</button></span></div>
+<div><span class="lab">Time</span><span class="seg" id="times" role="group" aria-label="Time of day"><button type="button" data-h="9">Morning</button><button type="button" data-h="12">Midday</button><button type="button" data-h="15">Afternoon</button></span></div><div><span class="lab" aria-hidden="true">&nbsp;</span><a class="pill-back" href="../" data-back>← Back to destinations</a></div>
 </section>
 <p class="map-count" id="count" aria-live="polite">Loading the forecast…</p>
 <div class="map-box" id="box"><svg id="m" viewBox="0 0 975 610" role="img" aria-label="Weekend weather map of WingAway Weekends destinations"></svg></div>
