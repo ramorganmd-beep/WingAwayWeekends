@@ -56,8 +56,8 @@ GUIDE = {
         'url': 'https://myrtlebeachareachamber.com/', 'button': 'Browse Myrtle Beach events',
         'cards': [
             ('June 10–13, 2027', 'Carolina Country Music Fest', 'Four days of country music on the Myrtle Beach oceanfront. Hotels and the FBO get busy that week: book early.', 'https://carolinacountrymusicfest.com/'),
-            ('Spring & fall', 'Best seasons', 'Warm days, quieter beaches and prime golf weather.'),
-            ('Summer', 'Peak season', 'Busy beaches, packed roads and full hotels; book early and arrive in the morning.'),
+            ('Spring & fall', 'Best seasons', 'Definitely a golf mecca in spring and fall, with warm days and quieter beaches.'),
+            ('Summer', 'Peak beach season', 'Busy beaches, packed roads and full hotels; book early and arrive in the morning.'),
         ],
     },
     'itinerary': {
