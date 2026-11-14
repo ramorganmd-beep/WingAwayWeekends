@@ -19,7 +19,7 @@ GUIDE = {
         'notes': ['Confirm FBO fees, parking and ground transportation. No live fuel price is shown.',
                   'Class C airspace with airline traffic: contact approach before entering. Summer afternoons bring pop-up thunderstorms; plan morning arrivals.'],
         'around_title': 'Rental car or Uber.',
-        'around': 'Take an Uber or rent a car for the weekend: the Market Common is next to the airport, the oceanfront is a few minutes away and Murrells Inlet is about 20 minutes south. A car makes the gardens, state park and golf easy.',
+        'around': 'Take an Uber or rent a car for the weekend: the Market Common is next to the airport, the oceanfront is a few minutes away and Murrells Inlet is about 20 minutes south. A car makes the gardens, the MarshWalk and golf easy.',
     },
     'stay': {
         'title': 'The Intracoastal or Oceanfront.',
