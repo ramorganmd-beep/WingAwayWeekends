@@ -9,7 +9,7 @@ GUIDE = {
     'airport': 'KMYR', 'nm': 0, 'flight_time': 'Home field', 'style': 'Rental car or Uber',
     'place': 'Myrtle Beach, South Carolina',
     'description': 'A curated Myrtle Beach getaway for GA pilots and their partners. Land at Myrtle Beach International, minutes from the sand, then stay on the Intracoastal or the oceanfront, eat seafood on the Murrells Inlet MarshWalk and play some of the Grand Strand’s famous golf.',
-    'lede': 'Sixty miles of beach, golf and seafood, minutes from the runway.',
+    'lede': '60 miles of beach, the Golf Capital of the World, great seafood and lots of fun things to do.',
     'intro': 'Myrtle Beach International sits on the old air force base at the south end of town, a few minutes from the ocean. Next door at the Market Common, Warbird Park displays an A-10 Warthog, an F-100 and an A-7 from the base’s flying days. Stay at a resort at Grande Dunes, spend an evening on the Murrells Inlet MarshWalk and save a morning for the Boardwalk or a round of golf in the Golf Capital of the World.',
     'pills': ['Beach', 'Golf Capital of the World', 'Seafood'],
     'flight': {
