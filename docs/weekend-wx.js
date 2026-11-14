@@ -109,6 +109,11 @@
     const ha = AP.find(a => a[0] === home);
     if (!ha) return;
     const days = weekend(ha[6]);
+    // Open the weather page on these same days: leave the first morning (or in an hour or two today), back the last afternoon.
+    const nowH = local(Date.now(), ha[6]).getUTCHours(), first = days[0], last = days[days.length - 1];
+    const depH = first.today ? Math.min(Math.max(nowH + 2, 10), 16) : 10, retH = last === first ? Math.max(depH + 4, 16) : 14;
+    const pad = n => String(n).padStart(2, '0');
+    const when = '&dep=' + encodeURIComponent(first.key + 'T' + pad(depH) + ':00') + '&ret=' + encodeURIComponent(last.key + 'T' + pad(Math.min(retH, 20)) + ':00');
     const hrec = await stationFor(home, ha[5], ha[6]);
     if (my !== token) return;
     const hdays = days.map(d => hrec ? rateDay(hrec, ha[6], d) : null);
@@ -130,7 +135,7 @@
         p.append(' ', s);
       });
       const a = document.createElement('a');
-      a.href = 'wx/?from=' + encodeURIComponent(home) + '&to=' + encodeURIComponent((card.dataset.guide || apt).replace(/\/$/, ''));
+      a.href = 'wx/?from=' + encodeURIComponent(home) + '&to=' + encodeURIComponent((card.dataset.guide || apt).replace(/\/$/, '')) + when;
       a.textContent = 'Best times to fly →';
       p.append(a);
       const meta = card.querySelector('.card-meta'); if (meta) meta.after(p);
