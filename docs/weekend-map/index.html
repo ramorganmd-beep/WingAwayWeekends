@@ -88,9 +88,12 @@ function forecast(rec,lon,key){
 function category(p){const c=p.cig==null||p.cig<0?Infinity:p.cig*100,v=p.vis==null?10:p.vis/10;return c<500||v<1?'LIFR':c<1000||v<3?'IFR':c<=3000||v<=5?'MVFR':'VFR'}
 function outlook(p){const g=Math.max(p.gst||0,p.wsp||0);return p.tstm>=40||p.rain>=70?'poor':p.tstm>=15||p.rain>=40||g>=25?'mixed':'good'}
 // ---------- days ----------
-function weekend(lon){const now=local(Date.now(),lon),dow=now.getUTCDay(),mid=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate());
-  const offs=dow===0?[0]:dow===6?[0,1]:[5-dow,6-dow,7-dow];
-  return offs.filter(o=>o>0||now.getUTCHours()<15||offs.length===1).map(o=>{const k=new Date(mid+o*DAY).toISOString().slice(0,10);return{key:k,name:o===0?'Today':NAMES[(dow+o)%7].slice(0,3)}})}
+// Day trip = Saturday; Weekend = Fri–Sun; Longer stay = Thu–Mon. After 3 p.m. local, count from tomorrow.
+let trip=q.get('trip');try{trip=trip||localStorage.getItem('wingaway-trip')}catch(e){}if(!['Day trip','Weekend','Longer stay'].includes(trip))trip='Weekend';
+function weekend(lon){const now=local(Date.now(),lon),shift=now.getUTCHours()>=15?1:0,dow=(now.getUTCDay()+shift)%7,mid=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate())+shift*DAY;
+  const range=(a,b)=>Array.from({length:b-a+1},(_,i)=>a+i);
+  const offs=trip==='Day trip'?(dow===0||dow===6?[0]:[6-dow]):trip==='Longer stay'?(dow===0?[0,1]:range(Math.max(0,4-dow),8-dow)):(dow===0?[0]:range(Math.max(0,5-dow),7-dow));
+  return offs.map(o=>{const k=new Date(mid+o*DAY).toISOString().slice(0,10);return{key:k,name:o+shift===0?'Today':NAMES[(dow+o)%7].slice(0,3)}})}
 // ---------- map ----------
 let states=null,days=[],P=[],selKey=null;
 function homeApt(){const c=$('home').value.trim().toUpperCase();const a=AP.find(x=>x[0]===c||x[1]===c||x[0]==='K'+c);return a?{code:a[0],lat:a[5],lon:a[6]}:null}
@@ -104,7 +107,7 @@ let tok=0;
 async function draw(){
   if(!states||!RUN)return;const my=++tok,r=$('region').value,h=homeApt();
   days=weekend(h?h.lon:-80);if(!days.some(d=>d.key===dayKey))dayKey=days[0].key;setButtons();
-  history.replaceState(null,'','?'+new URLSearchParams(Object.assign(h?{from:h.code}:{},r?{region:r}:{},{day:dayKey,t:hour})));
+  history.replaceState(null,'','?'+new URLSearchParams(Object.assign(h?{from:h.code}:{},r?{region:r}:{},{trip,day:dayKey,t:hour})));
   const pts=r?D.filter(d=>d.region===r):D;
   const fit=r?bbox(pts.concat(h&&nm(h.lat,h.lon,pts[0].lat,pts[0].lon)<600?[h]:[])):null;
   let proj;if(!r)proj=d3.geoAlbersUsa().fitExtent([[10,10],[W-10,HT-10]],{type:'FeatureCollection',features:states.filter(f=>!['60','66','69','72','78'].includes(f.id))});

@@ -47,12 +47,18 @@
 
   // ---------- weekend days (local time, from the airport's longitude) ----------
   const local = (t, lon) => new Date(t + lon / 15 * H); // read with getUTC*
-  function weekend(lon) {
-    const now = local(Date.now(), lon), dow = now.getUTCDay();
-    const mid = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate());
-    const offs = dow === 0 ? [0] : dow === 6 ? [0, 1] : [5 - dow, 6 - dow, 7 - dow];
-    // Skip today once most of the flying day has passed.
-    return offs.filter(o => o > 0 || now.getUTCHours() < 15).map(o => ({ key: new Date(mid + o * DAY).toISOString().slice(0, 10), name: NAMES[(dow + o) % 7], today: o === 0 }));
+  // The days that matter for the trip length chosen on the homepage:
+  // Day trip = Saturday; Weekend = Fri–Sun; Longer stay = Thu–Mon. Once most of today's flying day has passed
+  // (3 p.m. local), count from tomorrow, so late Sunday rolls to next weekend.
+  const FULL = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  function weekend(lon, trip) {
+    const now = local(Date.now(), lon), shift = now.getUTCHours() >= 15 ? 1 : 0, dow = (now.getUTCDay() + shift) % 7;
+    const mid = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) + shift * DAY;
+    const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
+    const offs = trip === 'Day trip' ? (dow === 0 || dow === 6 ? [0] : [6 - dow])
+      : trip === 'Longer stay' ? (dow === 0 ? [0, 1] : range(Math.max(0, 4 - dow), 8 - dow))
+      : (dow === 0 ? [0] : range(Math.max(0, 5 - dow), 7 - dow));
+    return offs.map(o => ({ key: new Date(mid + o * DAY).toISOString().slice(0, 10), name: NAMES[(dow + o) % 7], full: FULL[(dow + o) % 7], today: o + shift === 0 }));
   }
 
   // ---------- rating ----------
@@ -108,7 +114,8 @@
     if (!home || !list.length || !(await ready)) { if (box) box.remove(); return; }
     const ha = AP.find(a => a[0] === home);
     if (!ha) return;
-    const days = weekend(ha[6]);
+    const trip = (document.getElementById('trip') || {}).value || 'Weekend', days = weekend(ha[6], trip);
+    const LABEL = { 'Day trip': ['Day trip:', 'for a day trip'], 'Longer stay': ['Long weekend:', 'for a long weekend'] }[trip] || ['This weekend:', 'this weekend'];
     // Open the weather page on these same days: leave the first morning (or in an hour or two today), back the last afternoon.
     const nowH = local(Date.now(), ha[6]).getUTCHours(), first = days[0], last = days[days.length - 1];
     const depH = first.today ? Math.min(Math.max(nowH + 2, 10), 16) : 10, retH = last === first ? Math.max(depH + 4, 16) : 14;
@@ -126,7 +133,7 @@
       if (!res.some(Boolean)) return;
       const old = card.querySelector('.wk-line'); if (old) old.remove();
       const p = document.createElement('p'); p.className = 'wk-line';
-      p.append('This weekend:');
+      p.append(LABEL[0]);
       res.forEach((r, i) => {
         if (!r) return;
         const s = document.createElement('span'); s.className = 'wk ' + r.level;
@@ -149,10 +156,10 @@
     const di = best.map((b, i) => [b.length, i]).sort((a, b) => b[0] - a[0] || a[1] - b[1])[0];
     if (di && di[0]) {
       const names = best[di[1]].slice(0, 4).map(c => '<a href="#' + c.id + '">' + c.querySelector('h3').textContent + '</a>');
-      picks = '<p>Good at both ends ' + (days[di[1]].today ? 'today' : 'on ' + { Fri: 'Friday', Sat: 'Saturday', Sun: 'Sunday' }[days[di[1]].name]) + ': ' + names.join(', ') + (best[di[1]].length > 4 ? ' and ' + (best[di[1]].length - 4) + ' more below' : '') + '.</p>';
-    } else picks = '<p>No destination in this list looks good at both ends this weekend. Try a different flight time or region, or check back: forecasts update every hour.</p>';
-    box.innerHTML = '<h3>Is the weather good this weekend?</h3><p>At ' + home + ': ' + chips + (why ? ' <span class="wk-fine">(' + why + ')</span>' : '') + '</p>' + picks +
-      '<p><a href="weekend-map/?from=' + encodeURIComponent(home) + (document.getElementById('region') && document.getElementById('region').value ? '&region=' + encodeURIComponent(document.getElementById('region').value) : '') + '">See the weekend weather map →</a></p>' + '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
+      picks = '<p>Good at both ends ' + (days[di[1]].today ? 'today' : 'on ' + days[di[1]].full) + ': ' + names.join(', ') + (best[di[1]].length > 4 ? ' and ' + (best[di[1]].length - 4) + ' more below' : '') + '.</p>';
+    } else picks = '<p>No destination in this list looks good at both ends ' + LABEL[1] + '. Try a different flight time or region, or check back: forecasts update every hour.</p>';
+    box.innerHTML = '<h3>Is the weather good ' + LABEL[1] + '?</h3><p>At ' + home + ': ' + chips + (why ? ' <span class="wk-fine">(' + why + ')</span>' : '') + '</p>' + picks +
+      '<p><a href="weekend-map/?from=' + encodeURIComponent(home) + '&trip=' + encodeURIComponent(trip) + (document.getElementById('region') && document.getElementById('region').value ? '&region=' + encodeURIComponent(document.getElementById('region').value) : '') + '">See the weekend weather map →</a></p>' + '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
     if (!box.isConnected) cards.prepend(box);
   }
   let timer = null;
