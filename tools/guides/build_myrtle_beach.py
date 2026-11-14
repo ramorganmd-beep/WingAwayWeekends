@@ -25,8 +25,8 @@ GUIDE = {
         'title': 'The Intracoastal or the oceanfront.',
         'intro': 'Rates and availability need travel dates. Summer weekends and spring golf season fill early.',
         'cards': [
-            ('Grande Dunes · Resort', 'Marina Inn at Grande Dunes', 'A full-service resort on the Intracoastal Waterway, with a marina, pools and the Grande Dunes golf nearby.', 'https://www.marinainnatgrandedunes.com/'),
             ('Oceanfront · Resort & spa', 'Marriott Myrtle Beach Resort & Spa at Grande Dunes', 'An oceanfront resort at Grande Dunes with indoor and outdoor pools and the Hibiscus Spa.', 'https://www.marriott.com/en-us/hotels/myrgd-marriott-myrtle-beach-resort-and-spa-at-grande-dunes/overview/'),
+            ('Grande Dunes · Resort', 'Marina Inn at Grande Dunes', 'A full-service resort on the Intracoastal Waterway, with a marina, pools and the Grande Dunes golf nearby.', 'https://www.marinainnatgrandedunes.com/'),
             ('Oceanfront · Resort', 'The Breakers Resort', 'A long-running resort with pools, right on the beach.', 'https://www.breakers.com/'),
             ('Oceanfront · Family', 'The Caravelle Resort', 'An oceanfront resort with breakfast on site and a poolside bar, popular with families.', 'https://www.thecaravelle.com/'),
         ],
@@ -45,9 +45,9 @@ GUIDE = {
         'title': 'The MarshWalk, the state park and the golf.',
         'intro': 'Beach days, salt marsh and some of the best-known golf on the East Coast.',
         'items': [
+            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('Murrells Inlet MarshWalk', 'A boardwalk along the salt marsh lined with restaurants and live music; best at sunset.', 'https://www.marshwalk.com/', 'MarshWalk'),
             ('Huntington Beach State Park', 'An unspoiled beach, a salt-marsh boardwalk for birding and historic Atalaya.', 'https://southcarolinaparks.com/huntington-beach', 'SC State Parks'),
-            ('Brookgreen Gardens', 'Sculpture gardens, a zoo and Lowcountry history across the road from the state park.', 'https://www.google.com/maps/search/?api=1&query=Brookgreen+Gardens+Murrells+Inlet+SC', 'Map'),
             ('The Market Common', 'Shops, restaurants and a lakeside park on the old air base, next to the airport.', 'https://www.marketcommonmb.com/', 'The Market Common'),
             ('Dunes Golf & Beach Club', 'A classic oceanside course on a coast known for its golf.', 'https://www.thedunesclub.net/', 'Dunes Club'),
         ],
@@ -55,9 +55,9 @@ GUIDE = {
     'events': {
         'url': 'https://myrtlebeachareachamber.com/', 'button': 'Browse Myrtle Beach events',
         'cards': [
-            ('Summer', 'Peak season', 'Busy beaches, packed roads and full hotels; book early and arrive in the morning.'),
+            ('June 10–13, 2027', 'Carolina Country Music Fest', 'Four days of country music on the Myrtle Beach oceanfront. Hotels and the FBO get busy that week: book early.', 'https://carolinacountrymusicfest.com/'),
             ('Spring & fall', 'Best seasons', 'Warm days, quieter beaches and prime golf weather.'),
-            ('Winter', 'Off season', 'Quiet beaches and lower rates; some seasonal restaurants close.'),
+            ('Summer', 'Peak season', 'Busy beaches, packed roads and full hotels; book early and arrive in the morning.'),
         ],
     },
     'itinerary': {
