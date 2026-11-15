@@ -34,8 +34,9 @@ Pilots report parking at Cutter Aviation and getting a ride over, so call ahead.
 
 ## New ways to plan
 
-Our guiding principle is simple: *powerful underneath, effortless on the surface.* Here’s what’s new in every guide:
+Our guiding principle is simple: *powerful underneath, effortless on the surface.* Here’s what’s new:
 
+- **Is the weather good this weekend?** Enter your home airport on the homepage and every destination gets a Good, Mixed or Poor rating for the weekend, plus a [weekend weather map](https://wingawayweekends.com/weekend-map/) of flight categories.
 - **Weekend weather forecast.** A timeline of your departure and return days, with your takeoff times marked, so you can see at a glance whether the weather will cooperate. [Try it →](https://wingawayweekends.com/wx/)
 - **Getting into town.** The FBO and its phone number, what to ask about crew cars and rentals, and whether you can skip the rental car altogether. Plus a short how-to: [have a rental car waiting at the FBO](https://wingawayweekends.com/rental-cars/).
 - **Passenger view.** Tap **Send to my passenger** and your co-traveler gets the same guide without the aviation detail: where you’re staying, dinner, things to do and a short what-to-pack list. *You handle the flight planning; they handle the fun planning.*
@@ -49,7 +50,8 @@ WingAway Weekends now has **309 guides in all 50 states** and **120 airport rest
 - **Arizona & New Mexico:** Scottsdale, Tucson, Bisbee, the Grand Canyon, Prescott, Taos, Albuquerque, Ruidoso and White Sands
 - **Texas:** Austin, Horseshoe Bay (with its own runway), Port Aransas, Jefferson, Palo Duro Canyon, New Braunfels, Waco and Granbury
 - **The Northwest:** Eugene, Seattle (land at Boeing Field next to the Museum of Flight), Walla Walla, Leavenworth, Lake Chelan, Port Townsend, Coeur d’Alene, McCall, Sandpoint, Cody, Sheridan and Saratoga
-- **Just added:** Solvang, Temecula wine country, Big Bear Lake, Ojai, Wickenburg’s dude ranches, Payson, Lake Havasu (fly in to see the London Bridge), Round Top, Crystal River’s manatees, Anna Maria Island, Bear Lake and Red Lodge
+- **California & the West:** Solvang, Temecula wine country, Big Bear Lake, Ojai, Wickenburg’s dude ranches, Payson, Lake Havasu (fly in to see the London Bridge), Bear Lake and Red Lodge
+- **Just added:** Florida’s Destin, Panama City Beach, St. Petersburg (land downtown at Albert Whitted), Vero Beach (home of Piper), Fort Lauderdale and Marathon in the Keys; Myrtle Beach; and Knoxville, where Cirrus delivers its airplanes
 
 There’s also a new **[destination map](https://wingawayweekends.com/map/)**. Pick a region to see every guide near you.
 
