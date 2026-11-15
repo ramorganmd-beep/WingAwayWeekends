@@ -3856,7 +3856,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "History",
   "Stays",
-  "Romance"
+  "Romance",
+  "No rental car"
  ],
  "guide": "santa-barbara/",
  "stateCode": "CA",
