@@ -34,7 +34,7 @@
 <section class="map-bar" aria-label="Map settings">
 <div><label for="home">Home airport</label><input id="home" maxlength="4" autocomplete="off" placeholder="KMYR"></div>
 <div><label for="region">Region</label><select id="region"><option value="">The whole country</option></select></div>
-<div><span class="lab">Day</span><span class="seg" id="days" role="group" aria-label="Day"></span></div>
+<div><span class="lab">Weekend</span><span class="seg" id="wks" role="group" aria-label="Which weekend"><button type="button" data-wk="this">This</button><button type="button" data-wk="next">Next</button></span></div><div><span class="lab">Day</span><span class="seg" id="days" role="group" aria-label="Day"></span></div>
 <div><span class="lab">Time</span><span class="seg" id="times" role="group" aria-label="Time of day"><button type="button" data-h="9">Morning</button><button type="button" data-h="12">Midday</button><button type="button" data-h="15">Afternoon</button></span></div><div><span class="lab" aria-hidden="true">&nbsp;</span><a class="pill-back" href="../" data-back>← Back to destinations</a></div>
 </section>
 <p class="map-count" id="count" aria-live="polite">Loading the forecast…</p>
@@ -90,10 +90,13 @@ function outlook(p){const g=Math.max(p.gst||0,p.wsp||0);return p.tstm>=40||p.rai
 // ---------- days ----------
 // Day trip = Saturday; Weekend = Fri–Sun; Longer stay = Thu–Mon. After 3 p.m. local, count from tomorrow.
 let trip=q.get('trip');try{trip=trip||localStorage.getItem('wingaway-trip')}catch(e){}if(!['Day trip','Weekend','Longer stay'].includes(trip))trip='Weekend';
-function weekend(lon){const now=local(Date.now(),lon),shift=now.getUTCHours()>=15?1:0,dow=(now.getUTCDay()+shift)%7,mid=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate())+shift*DAY;
+let NEXT=q.get('wk')==='next';
+function weekend(lon){const now=local(Date.now(),lon),shift=now.getUTCHours()>=15?1:0;let dow=(now.getUTCDay()+shift)%7,mid=Date.UTC(now.getUTCFullYear(),now.getUTCMonth(),now.getUTCDate())+shift*DAY,base=shift;
   const range=(a,b)=>Array.from({length:b-a+1},(_,i)=>a+i);
-  const offs=trip==='Day trip'?(dow===0||dow===6?[0]:[6-dow]):trip==='Longer stay'?(dow===0?[0,1]:range(Math.max(0,4-dow),8-dow)):(dow===0?[0]:range(Math.max(0,5-dow),7-dow));
-  return offs.map(o=>{const k=new Date(mid+o*DAY).toISOString().slice(0,10);return{key:k,name:o+shift===0?'Today':NAMES[(dow+o)%7].slice(0,3)}})}
+  const pick=d=>trip==='Day trip'?(d===0||d===6?[0]:[6-d]):trip==='Longer stay'?(d===0?[0,1]:range(Math.max(0,4-d),8-d)):(d===0?[0]:range(Math.max(0,5-d),7-d));
+  let offs=pick(dow);
+  if(NEXT){const last=offs[offs.length-1],ld=(dow+last)%7,toMon=((8-ld)%7)||7;mid+=(last+toMon)*DAY;base+=last+toMon;dow=1;offs=pick(1)}
+  return offs.map(o=>{const k=new Date(mid+o*DAY).toISOString().slice(0,10);return{key:k,name:o+base===0?'Today':NAMES[(dow+o)%7].slice(0,3)}})}
 // ---------- map ----------
 let states=null,days=[],P=[],selKey=null;
 function homeApt(){const c=$('home').value.trim().toUpperCase();const a=AP.find(x=>x[0]===c||x[1]===c||x[0]==='K'+c);return a?{code:a[0],lat:a[5],lon:a[6]}:null}
@@ -102,12 +105,12 @@ function bbox(pts){let x0=180,x1=-180,y0=90,y1=-90;pts.forEach(d=>{x0=Math.min(x
   return{type:'Feature',geometry:{type:'Polygon',coordinates:[[[x0,y0],[x0,y1],[x1,y1],[x1,y0],[x0,y0]]]}}}
 function setButtons(){
   $('days').innerHTML=days.map(d=>'<button type="button" data-k="'+d.key+'" aria-pressed="'+(d.key===dayKey)+'">'+d.name+'</button>').join('');
-  [...$('times').children].forEach(b=>b.setAttribute('aria-pressed',+b.dataset.h===hour));}
+  [...$('times').children].forEach(b=>b.setAttribute('aria-pressed',+b.dataset.h===hour));{const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],sp=ds=>{const x=ds[0].key.split('-').map(Number),y=ds[ds.length-1].key.split('-').map(Number);return M[x[1]-1]+' '+x[2]+(ds.length>1?'–'+(y[1]!==x[1]?M[y[1]-1]+' ':'')+y[2]:'')},h0=homeApt(),lo=h0?h0.lon:-80,keep=NEXT;NEXT=false;const t1=sp(weekend(lo));NEXT=true;const t2=sp(weekend(lo));NEXT=keep;const bs=$('wks').children;bs[0].textContent=t1;bs[1].textContent=t2;}[...$('wks').children].forEach(b=>b.setAttribute('aria-pressed',(b.dataset.wk==='next')===NEXT));}
 let tok=0;
 async function draw(){
   if(!states||!RUN)return;const my=++tok,r=$('region').value,h=homeApt();
   days=weekend(h?h.lon:-80);if(!days.some(d=>d.key===dayKey))dayKey=days[0].key;setButtons();
-  history.replaceState(null,'','?'+new URLSearchParams(Object.assign(h?{from:h.code}:{},r?{region:r}:{},{trip,day:dayKey,t:hour})));
+  history.replaceState(null,'','?'+new URLSearchParams(Object.assign(h?{from:h.code}:{},r?{region:r}:{},Object.assign({trip,day:dayKey,t:hour},NEXT?{wk:'next'}:{}))));
   const pts=r?D.filter(d=>d.region===r):D;
   const fit=r?bbox(pts.concat(h&&nm(h.lat,h.lon,pts[0].lat,pts[0].lon)<600?[h]:[])):null;
   let proj;if(!r)proj=d3.geoAlbersUsa().fitExtent([[10,10],[W-10,HT-10]],{type:'FeatureCollection',features:states.filter(f=>!['60','66','69','72','78'].includes(f.id))});
@@ -131,6 +134,7 @@ async function draw(){
   if(h){const xy=proj([h.lon,h.lat]);if(xy)g.append('text').attr('x',xy[0]).attr('y',xy[1]+6).attr('text-anchor','middle').attr('font-size',r?22:17).attr('fill','#102d40').attr('stroke','#fff').attr('stroke-width',1.2).attr('paint-order','stroke').text('★').append('title').text('Your airport: '+h.code)}
   const n=k=>P.filter(x=>x.cat===k).length,dn=days.find(d=>d.key===dayKey),tn={9:'morning',12:'midday',15:'afternoon'}[hour];
   const anyS=P.some(x=>x.cat);
+  if(!P.some(x=>x.p)){$('count').textContent=dn.name+' is beyond NOAA’s 7-day forecast. Check back closer to the weekend.';$('list').innerHTML='';return}
   $('count').textContent=anyS?(n('VFR')+' of '+P.length+' destinations VFR '+(dn.name==='Today'?'today':'on '+dn.name)+' '+tn+(n('MVFR')?' · '+n('MVFR')+' MVFR':'')+(n('IFR')+n('LIFR')?' · '+(n('IFR')+n('LIFR'))+' IFR or worse':'')+'.'):
     'Outlook for '+dn.name+': '+P.filter(x=>x.ol==='good').length+' of '+P.length+' look good. Flight categories appear about three days ahead.';
   const groups=anyS?[['VFR',P.filter(x=>x.cat==='VFR')],['MVFR',P.filter(x=>x.cat==='MVFR')],['IFR or worse',P.filter(x=>x.cat==='IFR'||x.cat==='LIFR')]]:[['Looks good',P.filter(x=>x.ol==='good')],['Mixed',P.filter(x=>x.ol==='mixed')],['Poor',P.filter(x=>x.ol==='poor')]];
@@ -149,6 +153,7 @@ function show(x,quiet){
 }
 function esc(s){return String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
 $('days').addEventListener('click',e=>{const b=e.target.closest('button');if(b){dayKey=b.dataset.k;draw()}});
+$('wks').addEventListener('click',e=>{const b=e.target.closest('button');if(b){NEXT=b.dataset.wk==='next';dayKey='';draw()}});
 $('times').addEventListener('click',e=>{const b=e.target.closest('button');if(b){hour=+b.dataset.h;draw()}});
 $('region').addEventListener('change',()=>{selKey=null;$('info').textContent='Tap a dot to see its forecast.';draw()});
 $('home').addEventListener('change',draw);

@@ -13,6 +13,7 @@
 
   const css = document.createElement('style');
   css.textContent = '.wk-box{grid-column:1/-1;margin:4px 0 10px;padding:14px 18px;background:#fff;border:1px solid #dbe3e9;border-left:4px solid #efbd70;border-radius:3px;font-size:.95rem;color:#33475a}' +
+    '.wk-seg{float:right;display:inline-flex;border:1px solid #102d40;border-radius:999px;overflow:hidden;margin:0 0 6px 10px}.wk-seg button{font:inherit;font-size:13px;font-weight:600;padding:5px 12px;border:0;background:#fff;color:#102d40;cursor:pointer}.wk-seg button+button{border-left:1px solid #102d40}.wk-seg button[aria-pressed=true]{background:#102d40;color:#fff}@media(max-width:560px){.wk-seg{float:none;margin:0 0 8px}}' +
     '.wk-box h3{margin:0 0 6px;font-size:1.05rem;color:#102d40}.wk-box p{margin:4px 0}.wk-box .wk-fine{font-size:.8rem;color:#647784}' +
     '.wk-box a{font-weight:600}.wk-line{margin:6px 0 0;font-size:.85rem;color:#33475a;display:flex;flex-wrap:wrap;gap:4px 6px;align-items:center}' +
     '.wk{display:inline-block;padding:1px 8px;border-radius:999px;font-size:.8rem;font-weight:600;border:1px solid}' +
@@ -51,15 +52,27 @@
   // Day trip = Saturday; Weekend = Fri–Sun; Longer stay = Thu–Mon. Once most of today's flying day has passed
   // (3 p.m. local), count from tomorrow, so late Sunday rolls to next weekend.
   const FULL = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-  function weekend(lon, trip) {
-    const now = local(Date.now(), lon), shift = now.getUTCHours() >= 15 ? 1 : 0, dow = (now.getUTCDay() + shift) % 7;
-    const mid = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) + shift * DAY;
+  function weekend(lon, trip, next) {
+    const now = local(Date.now(), lon), shift = now.getUTCHours() >= 15 ? 1 : 0;
+    let dow = (now.getUTCDay() + shift) % 7, mid = Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) + shift * DAY, base = shift;
     const range = (a, b) => Array.from({ length: b - a + 1 }, (_, i) => a + i);
-    const offs = trip === 'Day trip' ? (dow === 0 || dow === 6 ? [0] : [6 - dow])
-      : trip === 'Longer stay' ? (dow === 0 ? [0, 1] : range(Math.max(0, 4 - dow), 8 - dow))
-      : (dow === 0 ? [0] : range(Math.max(0, 5 - dow), 7 - dow));
-    return offs.map(o => ({ key: new Date(mid + o * DAY).toISOString().slice(0, 10), name: NAMES[(dow + o) % 7], full: FULL[(dow + o) % 7], today: o + shift === 0 }));
+    const pick = d => trip === 'Day trip' ? (d === 0 || d === 6 ? [0] : [6 - d])
+      : trip === 'Longer stay' ? (d === 0 ? [0, 1] : range(Math.max(0, 4 - d), 8 - d))
+      : (d === 0 ? [0] : range(Math.max(0, 5 - d), 7 - d));
+    let offs = pick(dow);
+    if (next) {
+      // The following weekend: count from the Monday after this one ends.
+      const last = offs[offs.length - 1], lastDow = (dow + last) % 7, toMon = ((8 - lastDow) % 7) || 7;
+      mid += (last + toMon) * DAY; base += last + toMon; dow = 1; offs = pick(1);
+    }
+    return offs.map(o => ({ key: new Date(mid + o * DAY).toISOString().slice(0, 10), name: NAMES[(dow + o) % 7], full: FULL[(dow + o) % 7], today: o + base === 0 }));
   }
+  let NEXT = false; try { NEXT = localStorage.getItem('wingaway-wk') === 'next'; } catch (e) {}
+  cards.addEventListener('click', e => {
+    const b = e.target.closest && e.target.closest('[data-wk]'); if (!b) return;
+    NEXT = b.dataset.wk === 'next'; try { localStorage.setItem('wingaway-wk', NEXT ? 'next' : 'this'); } catch (x) {}
+    update();
+  });
 
   // ---------- rating ----------
   function ratePoint(p, short) {
@@ -114,9 +127,14 @@
     if (!home || !list.length || !(await ready)) { if (box) box.remove(); return; }
     const ha = AP.find(a => a[0] === home);
     if (!ha) return;
-    const trip = (document.getElementById('trip') || {}).value || 'Weekend', days = weekend(ha[6], trip);
-    const LABEL = { 'Day trip': ['Day trip:', 'for a day trip'], 'Longer stay': ['Long weekend:', 'for a long weekend'] }[trip] || ['This weekend:', 'this weekend'];
+    const trip = (document.getElementById('trip') || {}).value || 'Weekend', days = weekend(ha[6], trip, NEXT);
+    const LABEL = NEXT ? ({ 'Day trip': ['Next Saturday:', 'for a day trip next Saturday'], 'Longer stay': ['Next long weekend:', 'for a long weekend next week'] }[trip] || ['Next weekend:', 'next weekend'])
+      : ({ 'Day trip': ['Day trip:', 'for a day trip'], 'Longer stay': ['Long weekend:', 'for a long weekend'] }[trip] || ['This weekend:', 'this weekend']);
     // Open the weather page on these same days: leave the first morning (or in an hour or two today), back the last afternoon.
+    const MON = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const span = ds => { const a = ds[0].key.split('-').map(Number), b = ds[ds.length - 1].key.split('-').map(Number);
+      return MON[a[1] - 1] + ' ' + a[2] + (ds.length > 1 ? '–' + (b[1] !== a[1] ? MON[b[1] - 1] + ' ' : '') + b[2] : ''); };
+    const SEG = '<div class="wk-seg" role="group" aria-label="Which weekend"><button type="button" data-wk="this" aria-pressed="' + !NEXT + '">' + span(weekend(ha[6], trip, false)) + '</button><button type="button" data-wk="next" aria-pressed="' + NEXT + '">' + span(weekend(ha[6], trip, true)) + '</button></div>';
     const nowH = local(Date.now(), ha[6]).getUTCHours(), first = days[0], last = days[days.length - 1];
     const depH = first.today ? Math.min(Math.max(nowH + 2, 10), 16) : 10, retH = last === first ? Math.max(depH + 4, 16) : 14;
     const pad = n => String(n).padStart(2, '0');
@@ -130,8 +148,8 @@
       const rec = await stationFor(apt, lat, lon);
       if (my !== token || !rec) return;
       const res = days.map((d, i) => { const r = worse(hdays[i], rateDay(rec, lon, d)); if (r && r.level === 'good') best[i].push(card); return r; });
-      if (!res.some(Boolean)) return;
       const old = card.querySelector('.wk-line'); if (old) old.remove();
+      if (!res.some(Boolean)) return;
       const p = document.createElement('p'); p.className = 'wk-line';
       p.append(LABEL[0]);
       res.forEach((r, i) => {
@@ -151,6 +169,7 @@
     if (!box) { box = document.createElement('div'); box.id = 'wk-box'; box.className = 'wk-box'; box.setAttribute('aria-live', 'polite'); }
     const chips = days.map((d, i) => hdays[i] ? '<span class="wk ' + hdays[i].level + '" title="' + (hdays[i].why || 'Good') + '">' + (d.today ? 'Today' : d.name) + ' · ' + WORD[hdays[i].level] + '</span>' : '').join(' ');
     const why = hdays.map((r, i) => r && r.why ? days[i].name + ': ' + r.why : '').filter(Boolean).join('; ');
+    const none = !hdays.some(Boolean);
     let picks = '';
     best.forEach(b => b.sort((x, y) => list.indexOf(x) - list.indexOf(y)));
     const di = best.map((b, i) => [b.length, i]).sort((a, b) => b[0] - a[0] || a[1] - b[1])[0];
@@ -158,8 +177,13 @@
       const names = best[di[1]].slice(0, 4).map(c => '<a href="#' + c.id + '">' + c.querySelector('h3').textContent + '</a>');
       picks = '<p>Good at both ends ' + (days[di[1]].today ? 'today' : 'on ' + days[di[1]].full) + ': ' + names.join(', ') + (best[di[1]].length > 4 ? ' and ' + (best[di[1]].length - 4) + ' more below' : '') + '.</p>';
     } else picks = '<p>No destination in this list looks good at both ends ' + LABEL[1] + '. Try a different flight time or region, or check back: forecasts update every hour.</p>';
-    box.innerHTML = '<h3>Is the weather good ' + LABEL[1] + '?</h3><p>At ' + home + ': ' + chips + (why ? ' <span class="wk-fine">(' + why + ')</span>' : '') + '</p>' + picks +
-      '<p><a href="weekend-map/?from=' + encodeURIComponent(home) + '&trip=' + encodeURIComponent(trip) + (document.getElementById('region') && document.getElementById('region').value ? '&region=' + encodeURIComponent(document.getElementById('region').value) : '') + '">See the weekend weather map →</a></p>' + '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
+    if (none) {
+      box.innerHTML = SEG + '<h3>Is the weather good ' + (trip === 'Day trip' ? 'for a day trip, ' : trip === 'Longer stay' ? 'for a long weekend, ' : 'for the weekend of ') + span(days) + '?</h3>' +
+        '<p>' + days.map(d => d.full).join(', ').replace(/, ([^,]*)$/, ' and $1') + ' ' + (days.length > 1 ? 'are' : 'is') + ' beyond NOAA’s 7-day forecast. Check back closer to the weekend.</p>';
+    } else {
+      box.innerHTML = SEG + '<h3>Is the weather good ' + (trip === 'Day trip' ? 'for a day trip, ' : trip === 'Longer stay' ? 'for a long weekend, ' : 'for the weekend of ') + span(days) + '?</h3><p>At ' + home + ': ' + chips + (why ? ' <span class="wk-fine">(' + why + ')</span>' : '') + '</p>' + picks +
+        '<p><a href="weekend-map/?from=' + encodeURIComponent(home) + '&trip=' + encodeURIComponent(trip) + (NEXT ? '&wk=next' : '') + (document.getElementById('region') && document.getElementById('region').value ? '&region=' + encodeURIComponent(document.getElementById('region').value) : '') + '">See the weekend weather map →</a></p>' + '<p class="wk-fine">Daytime outlook from NOAA’s National Blend of Models, updated hourly. Each card’s rating is the worse of your airport and the destination. Not a weather briefing: always get an official briefing before you fly.</p>';
+    }
     if (!box.isConnected) cards.prepend(box);
   }
   let timer = null;
