@@ -82,6 +82,59 @@ SHOP = {
              'https://www.mastgeneralstore.com/', 'Mast General Store, Biltmore Avenue, Asheville, NC'),
         ],
     },
+    'fort-lauderdale': {
+        'h2': 'Las Olas Boulevard.',
+        'intro': 'Fort Lauderdale’s shopping street runs from downtown toward the beach, lined with boutiques, galleries and cafés.',
+        'shops': [
+            ('Las Olas · Boutiques & galleries', 'Las Olas Boulevard',
+             'Independent boutiques, art galleries and sidewalk cafés along the boulevard between downtown and the Intracoastal.',
+             'https://www.lasolasboulevard.com/', 'Las Olas Boulevard, Fort Lauderdale, FL'),
+        ],
+    },
+    'st-petersburg': {
+        'h2': 'Local crafts and a taste of St. Pete.',
+        'intro': 'Downtown’s Central Avenue is lined with galleries and local shops, a short walk from the airport.',
+        'shops': [
+            ('Central Avenue · Fine craft', 'Florida CraftArt',
+             'A nonprofit gallery and shop selling work by Florida artists: ceramics, glass, jewelry and wood.',
+             'https://floridacraftart.org/', 'Florida CraftArt, Central Avenue, St. Petersburg, FL'),
+        ],
+        'food': [
+            ('Take home · Smoked fish', 'Ted Peters Famous Smoked Fish',
+             'Smoked fish spread from a St. Pete institution; ask them to pack it to travel.',
+             'https://www.tedpetersfish.com/', 'Ted Peters Famous Smoked Fish, St. Petersburg, FL'),
+        ],
+    },
+    'myrtle-beach': {
+        'h2': 'The Market Common, next to the airport.',
+        'intro': 'An easy stop before or after the flight: the shopping village on the old air base is minutes from the FBO.',
+        'shops': [
+            ('Next to the airport · Shopping village', 'The Market Common',
+             'Shops, restaurants and a lakeside park on the old air base, steps from Warbird Park.',
+             'https://www.marketcommonmb.com/', 'The Market Common, Myrtle Beach, SC'),
+        ],
+    },
+    'destin': {
+        'h2': 'Baytowne Wharf and the outlets.',
+        'intro': 'Village shops at Sandestin and a large outlet center along the beach road.',
+        'shops': [
+            ('Sandestin · Village shops', 'The Village of Baytowne Wharf',
+             'A pedestrian village of boutiques, galleries and candy shops on the bay at Sandestin.',
+             'https://www.baytownewharf.com/', 'The Village of Baytowne Wharf, Miramar Beach, FL'),
+            ('Miramar Beach · Outlets', 'Silver Sands Premium Outlets',
+             'A large outlet center on the beach road between Destin and Sandestin.',
+             '', 'Silver Sands Premium Outlets, Miramar Beach, FL'),
+        ],
+    },
+    'vero-beach': {
+        'h2': 'Ocean Drive boutiques.',
+        'intro': 'The shops and cafés along Ocean Drive are steps from the beachfront hotels.',
+        'shops': [
+            ('Beachside · Boutiques', 'Ocean Drive',
+             'Boutiques, galleries and cafés in the heart of the beach, by Humiston Park.',
+             '', 'Ocean Drive, Vero Beach, FL'),
+        ],
+    },
     'knoxville': {
         'h2': 'Market Square shops and Old City makers.',
         'intro': 'Downtown is compact: Market Square, Gay Street and the Old City are a short walk apart.',

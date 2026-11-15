@@ -6072,7 +6072,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Golf",
   "Dining",
-  "Outdoors"
+  "Outdoors",
+  "Shopping"
  ],
  "guide": "myrtle-beach/",
  "stateCode": "SC",
@@ -6109,7 +6110,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Dining",
   "Aviation museums",
-  "Golf"
+  "Golf",
+  "Shopping"
  ],
  "guide": "destin/",
  "stateCode": "FL",
@@ -6147,7 +6149,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "History",
   "Beach",
-  "No rental car"
+  "No rental car",
+  "Shopping"
  ],
  "guide": "st-petersburg/",
  "stateCode": "FL",
@@ -6166,7 +6169,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Dining",
   "Outdoors",
-  "Aviation museums"
+  "Aviation museums",
+  "Shopping"
  ],
  "guide": "vero-beach/",
  "stateCode": "FL",
@@ -6185,7 +6189,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Beach",
   "Dining",
   "Stays",
-  "No rental car"
+  "No rental car",
+  "Shopping"
  ],
  "guide": "fort-lauderdale/",
  "stateCode": "FL",
