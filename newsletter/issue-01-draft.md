@@ -1,4 +1,4 @@
-Subject: Issue #1: Desert season, a reader’s Prescott picks, and 302 places to fly
+Subject: Issue #1: Desert season, a reader’s Prescott picks, and 309 places to fly
 
 Preview text: Tucson’s aircraft boneyard, pie by the runway, and a seaplane landing in Tavares.
 
@@ -43,7 +43,7 @@ Our guiding principle is simple: *powerful underneath, effortless on the surface
 
 ## New on the site
 
-WingAway Weekends now has **302 guides in all 50 states** and **119 airport restaurants** on Fly to Lunch. Recent additions:
+WingAway Weekends now has **309 guides in all 50 states** and **120 airport restaurants** on Fly to Lunch. Recent additions:
 
 - **Colorado & Utah:** Telluride, Durango, Steamboat Springs, Colorado Springs, Estes Park, Crested Butte, Park City, Zion and Bryce Canyon
 - **Arizona & New Mexico:** Scottsdale, Tucson, Bisbee, the Grand Canyon, Prescott, Taos, Albuquerque, Ruidoso and White Sands
