@@ -10,6 +10,6 @@
 
 /* Weather link made the menu one item longer: tighter on small phones. */
 @media (max-width:430px){header .header-right{gap:9px!important}header .header-right .header-link{font-size:12.5px}}
-a.brand{font-size:0!important;color:transparent;width:200px;height:57px;flex:none;background:url(assets/logo-wingaway-navy.png) left center/contain no-repeat}
-@media(max-width:600px){a.brand{width:150px;height:43px}}
+a.brand{font-size:0!important;color:transparent;width:210px;height:57px;flex:none;background:url(assets/logo-wingaway-navy.svg) left center/contain no-repeat}
+@media(max-width:600px){a.brand{width:160px;height:43px}}
 a.brand>*{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;white-space:nowrap;margin:0!important;padding:0!important;border:0!important}
