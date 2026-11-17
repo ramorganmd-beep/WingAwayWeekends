@@ -56,7 +56,7 @@ def page_start(*, slug, name, state, number, description, lede, intro, pills, ph
             f'<meta name="theme-color" content="#102d40"><meta name="description" content="{description}">'
             f'{"" if reviewed else "<meta name=\"robots\" content=\"noindex\">"}'
             f'<title>{name} Couples Getaway | WingAway Weekends</title><link rel="canonical" href="https://wingawayweekends.com/{slug}/">'
-            f'<link rel="icon" type="image/svg+xml" href="{ICON}"><link rel="stylesheet" href="../style.css"></head><body>\n'
+            f'<link rel="icon" type="image/png" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../style.css"></head><body>\n'
             f'<a class="skip" href="#main">Skip to destination</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a>'
             f'<span class="header-note">{"Destination guide" if reviewed else "Destination prototype"} <span>{number:02d}</span></span></header>\n'
             f'<main id="main"><div class="destination"><div class="intro"><span class="eyebrow">{state} · Couples · Two nights</span><h1>{name}</h1>'

@@ -37,7 +37,7 @@ models = ''.join(f'<button type="button" class="cx-model" data-id="{i}">{e(n)}</
 
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#102d40">
 <meta name="robots" content="noindex,nofollow"><meta name="description" content="A preview of a WingAway Weekends page for Cirrus owners: aircraft profiles, a getaway collection and a sample group fly-in.">
-<title>For Cirrus Owners (Preview) | WingAway Weekends</title><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23102d40'/%3E%3Cpath d='M4 10l5 13 7-9 7 9 5-13' fill='none' stroke='%23efbd70' stroke-width='3'/%3E%3C/svg%3E"><link rel="stylesheet" href="../style.css">
+<title>For Cirrus Owners (Preview) | WingAway Weekends</title><link rel="icon" type="image/png" href="/favicon-32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="stylesheet" href="../style.css">
 <style>
 .cx{{max-width:1080px;padding:44px 0 70px}}.cx h1{{margin:10px 0 12px}}.cx h2{{margin:44px 0 6px}}.cx .sub{{margin:0 0 16px;color:#51666f}}
 .cx-preview{{display:inline-block;background:#fdf3e1;border:1px solid #efbd70;color:#6b4513;font-size:13px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:5px 10px;border-radius:3px}}
