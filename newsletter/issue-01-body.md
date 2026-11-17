@@ -1,3 +1,5 @@
+![WingAway Weekends](https://wingawayweekends.com/assets/logo-wingaway-banner.png)
+
 Welcome to the first WingAway Weekends newsletter. About once a month, you’ll get one fly-in getaway worth planning around, a Fly to Lunch pick, and what’s new on the site. Thanks for being here.
 
 ## This month’s getaway: Tucson
