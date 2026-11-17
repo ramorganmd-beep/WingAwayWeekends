@@ -119,7 +119,7 @@
   const worse = (a, b) => !a ? b : !b ? a : RANK[b.level] > RANK[a.level] ? b : a;
 
   // ---------- page ----------
-  let token = 0;
+  let token = 0, lastSig = '';
   async function update() {
     const my = ++token, home = cards.dataset.home || '';
     let box = document.getElementById('wk-box');
@@ -143,11 +143,13 @@
     if (my !== token) return;
     const hdays = days.map(d => hrec ? rateDay(hrec, ha[6], d) : null);
     const best = days.map(() => []);
+    const score = {};
     await Promise.all(list.map(async card => {
       const apt = card.dataset.apt, lat = +card.dataset.lat, lon = +card.dataset.lon;
       const rec = await stationFor(apt, lat, lon);
       if (my !== token || !rec) return;
       const res = days.map((d, i) => { const r = worse(hdays[i], rateDay(rec, lon, d)); if (r && r.level === 'good') best[i].push(card); return r; });
+      if (res.some(Boolean)) score[apt] = res.reduce((t, r) => t + (r ? RANK[r.level] * 10 : 15), 0);
       const old = card.querySelector('.wk-line'); if (old) old.remove();
       if (!res.some(Boolean)) return;
       const p = document.createElement('p'); p.className = 'wk-line';
@@ -166,6 +168,8 @@
       const meta = card.querySelector('.card-meta'); if (meta) meta.after(p);
     }));
     if (my !== token) return;
+    const sig = JSON.stringify(score);
+    if (sig !== lastSig) { lastSig = sig; window.WKSCORE = score; document.dispatchEvent(new Event('wk-scores')); }
     if (!box) { box = document.createElement('div'); box.id = 'wk-box'; box.className = 'wk-box'; box.setAttribute('aria-live', 'polite'); }
     const chips = days.map((d, i) => hdays[i] ? '<span class="wk ' + hdays[i].level + '" title="' + (hdays[i].why || 'Good') + '">' + (d.today ? 'Today' : d.name) + ' · ' + WORD[hdays[i].level] + '</span>' : '').join(' ');
     const why = hdays.map((r, i) => r && r.why ? days[i].name + ': ' + r.why : '').filter(Boolean).join('; ');
