@@ -1185,6 +1185,12 @@ PLANS = {
     'fort-lauderdale': {
         'day': [('Morning', 'Land at KFXE and Uber to the beach.'), ('Lunch', 'Lunch on Las Olas Boulevard.'), ('Afternoon', 'The water taxi, then fly home.')],
         'extra': [('Morning', 'Bonnet House Museum & Gardens.'), ('Afternoon', 'The beach promenade.'), ('Evening', 'Dinner at Shooters Waterfront.')]},
+    'carlsbad': {
+        'day': [('Morning', 'Land at KCRQ and drive a few minutes to LEGOLAND California.'), ('Lunch', 'Lunch in the park.'), ('Afternoon', 'Miniland and the SEA LIFE Aquarium, then fly home.')],
+        'extra': [('Morning', 'Carlsbad State Beach.'), ('Afternoon', 'The Flower Fields in spring, or the Museum of Making Music.'), ('Evening', 'Pizza in Carlsbad Village.')]},
+    'space-coast': {
+        'day': [('Morning', 'Land at KTIX and visit the Valiant Air Command Warbird Museum on the field.'), ('Lunch', 'Rock shrimp at Dixie Crossroads in Titusville.'), ('Afternoon', 'Black Point Wildlife Drive, then fly home before the afternoon storms in summer.')],
+        'extra': [('Morning', 'Kennedy Space Center Visitor Complex.'), ('Afternoon', 'Space Shuttle Atlantis and the rocket garden.'), ('Evening', 'Dinner at Port Canaveral, then the beach.')]},
     'galveston': {
         'day': [('Arrive', 'Land at KGLS mid-morning.'),
                 ('Midday', 'The Strand and lunch on the seawall.'),
