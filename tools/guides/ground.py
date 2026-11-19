@@ -122,6 +122,14 @@ GROUND = {
     },
 }
 
+GROUND['mackinac'] = {
+    'crew': 'None: there is no FBO, and cars are not allowed on the island',
+    'rental': 'None: no cars on Mackinac Island',
+    'town': 'Horse-drawn taxi from the airport into town; arrange it ahead of time',
+    'norental': 'Yes: horses, bikes and walking',
+    'checked': 'Nov 2026', 'nocars': True,
+}
+
 ROWS = [('crew', 'Crew car'), ('rental', 'Rental car'), ('ride', 'Rideshare'), ('town', 'Into town'),
         ('norental', 'No rental car needed?'), ('perks', 'Pilot perks')]
 MARK = re.compile(r'<!--wa-ground-->.*?<!--/wa-ground-->', re.S)
@@ -141,8 +149,11 @@ def block(g):
     rows = ''.join(f'<dt>{label}</dt><dd>{esc(g[k])}</dd>' for k, label in ROWS if g.get(k))
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
             f'<dl>{rows}</dl>'
-            f'<p>Checked {esc(g["checked"])}. Crew cars and pilot perks change often: call the FBO before you go. '
-            '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · Know something we missed? <a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
+            + (f'<p>Checked {esc(g["checked"])}. No cars on the island: plan on the taxi, bikes and your own two feet. '
+               if g.get('nocars') else
+               f'<p>Checked {esc(g["checked"])}. Crew cars and pilot perks change often: call the FBO before you go. '
+               '<a href="../rental-cars/">How to have a rental car waiting at the FBO</a> · ')
+            + 'Know something we missed? <a href="mailto:hello@wingawayweekends.com?subject=Getting%20into%20town">Tell us</a>.</p>'
             '</div><!--/wa-ground-->')
 
 
