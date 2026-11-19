@@ -6197,5 +6197,44 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
  "photo": {"slug": "fort-lauderdale", "remote": "https://images.unsplash.com/photo-1766373165231-8807829cd12b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk0NjkzOTgwfA&ixlib=rb-4.1.0", "alt": "Canals lined with boats and palms leading to the Fort Lauderdale skyline", "pos": "50% 50%"}
+},
+{
+ "name": "Carlsbad & LEGOLAND",
+ "state": "California",
+ "airport": "KCRQ",
+ "lat": 33.1283,
+ "lon": -117.2803,
+ "desc": "LEGOLAND California, the SEA LIFE Aquarium and the beach, a few minutes from the runway.",
+ "tags": [
+  "Beach",
+  "Dining",
+  "Stays",
+  "Outdoors"
+ ],
+ "guide": "carlsbad/",
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+  "photo": {"slug": "carlsbad", "remote": "https://images.unsplash.com/photo-1632074480971-19241d4d422b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MDk3MTU0fA&ixlib=rb-4.1.0", "alt": "Bluffs and a sandy beach along the Pacific in Carlsbad, California", "pos": "50% 60%"}
+},
+{
+ "name": "Space Coast & Kennedy Space Center",
+ "state": "Florida",
+ "airport": "KTIX",
+ "lat": 28.5148,
+ "lon": -80.7992,
+ "desc": "Kennedy Space Center, a warbird museum on the field, rocket launches and Cocoa Beach.",
+ "tags": [
+  "Aviation museums",
+  "Beach",
+  "History",
+  "Outdoors",
+  "Dining"
+ ],
+ "guide": "space-coast/",
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+  "photo": {"slug": "space-coast", "remote": "https://images.unsplash.com/photo-1782769757416-e5d362337e2c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MDk3MTQ4fA&ixlib=rb-4.1.0", "alt": "Rockets standing in the rocket garden behind the Explore sign at the Kennedy Space Center Visitor Complex", "pos": "50% 50%"}
 }
 ];

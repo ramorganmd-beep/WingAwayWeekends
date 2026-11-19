@@ -2241,3 +2241,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by MARTLEY U on Unsplash — https://unsplash.com/photos/city-skyline-over-a-canal-with-boats-and-boats-lj4KbgcOkWY
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Unsplash location tag: Fort Lauderdale
+
+## Carlsbad & LEGOLAND
+
+- Photo by Samantha Jean on Unsplash — https://unsplash.com/photos/a-view-of-a-beach-and-the-ocean-from-a-cliff-7QyFeYIOQAo
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Carlsbad, CA, USA (Unsplash location tag)
+
+## Space Coast & Kennedy Space Center
+
+- Photo by Tetiana Sapon on Unsplash — https://unsplash.com/photos/rockets-stand-tall-behind-an-explore-sign-under-cloudy-sky-3PxphcF7Rz8
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Kennedy Space Center, Florida, USA (Unsplash location tag)
