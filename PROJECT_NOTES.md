@@ -549,3 +549,5 @@ On the build page, the first-stop and add-stop pickers are text inputs with a da
 - 310 carlsbad (KCRQ, Atlantic Aviation 760-930-0123; Western Flight 760-438-6800). Photo Unsplash 7QyFeYIOQAo (Carlsbad tag).
 - 311 space-coast (KTIX, Space Coast Executive Jet Center 321-267-8355; Valiant Air Command museum on field). Photo Unsplash 3PxphcF7Rz8 (KSC tag).
 - Both built with a post-step that labels them "Families" instead of "Couples".
+- Best for kids: tools/guides/kids.py (KIDS dict, 15 family guides). Add it to the guide build loop after border: ... border kids wx_link ...
+- Mackinac has a hand-checked no-cars GROUND entry (no rental-car link).
