@@ -200,6 +200,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "greenville/",
+ "pets": true,
   "stateCode": "SC",
   "region": "Southeast",
   "family": true,
@@ -248,6 +249,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Beach"
   ],
   "guide": "outer-banks/",
+ "pets": true,
   "stateCode": "NC",
   "region": "Southeast",
   "family": true,
@@ -276,6 +278,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "amelia-island/",
+ "pets": true,
   "stateCode": "FL",
   "region": "Florida",
   "family": true,
@@ -464,6 +467,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance"
   ],
   "guide": "lake-lure/",
+ "pets": true,
   "stateCode": "NC",
   "region": "Southeast",
   "family": true,
@@ -489,6 +493,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Romance"
   ],
   "guide": "lake-keowee/",
+ "pets": true,
   "stateCode": "SC",
   "region": "Southeast",
   "family": true,
@@ -594,6 +599,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Shopping"
   ],
   "guide": "highlands-cashiers/",
+ "pets": true,
   "stateCode": "NC",
   "region": "Southeast",
   "family": false,
@@ -1749,6 +1755,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf"
  ],
  "guide": "golden-isles/",
+ "pets": true,
  "stateCode": "GA",
  "region": "Southeast",
  "family": true,
@@ -5642,6 +5649,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views"
  ],
  "guide": "southport/",
+ "pets": true,
  "stateCode": "NC",
  "region": "Southeast",
  "family": true,
@@ -5663,6 +5671,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "ocracoke/",
+ "pets": true,
  "stateCode": "NC",
  "region": "Southeast",
  "family": true,
@@ -5779,6 +5788,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf"
  ],
  "guide": "williamsburg/",
+ "pets": true,
  "kids": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",

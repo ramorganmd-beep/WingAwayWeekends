@@ -52,6 +52,41 @@ PETS = {
         'The Pearl Hotel': 'One pet under 30 lbs in designated rooms; request it when you book.',
         'Hotel Effie': 'Well-trained dogs up to 65 lbs welcome.',
     },
+    'southport': {
+        'The Marsh Harbour Inn': 'Approved dogs welcome, $75 pet fee; register your dog ahead.',
+    },
+    'ocracoke': {
+        'Blackbeard’s Lodge': 'Pet-friendly; see the lodge’s pet page before you book.',
+    },
+    'lake-lure': {
+        'Lake Lure Inn & Spa': 'Pets welcome, $60 per night, with a signed pet waiver before arrival.',
+        'Rumbling Bald on Lake Lure': 'Pet-friendly options; ask Guest Services when you book.',
+    },
+    'greenville': {
+        'Hotel Hartness': 'Dogs welcome (no cats) in limited rooms; book early by phone or email.',
+        'Hotel Domestique': 'Pet-friendly; mention your dog when you book.',
+    },
+    'golden-isles': {
+        'Jekyll Island Club Resort': 'One pet up to 30 lbs in a few designated rooms; book ahead.',
+        'The Cloister at Sea Island': 'Dogs welcome for a fee; not in the cottages.',
+    },
+    'lake-keowee': {
+        'Devils Fork State Park villas': 'Pets allowed in villas 1 to 5.',
+    },
+    'outer-banks': {
+        'The White Doe Inn': 'Pet-friendly rooms; see the inn’s pet page.',
+        'The Sanderling Resort': 'Dogs welcome in select rooms and rental homes.',
+    },
+    'amelia-island': {
+        'The Ritz-Carlton, Amelia Island': 'Up to two dogs, 50 lbs max, $250 per stay.',
+        'Elizabeth Pointe Lodge': 'Dogs welcome, $50 per night (two max, capped at $250 a stay).',
+    },
+    'highlands-cashiers': {
+        'Hotel Cashiers': 'Pet-friendly, with a pet welcome kit.',
+    },
+    'williamsburg': {
+        'Kingsmill Resort': 'Pet-friendly rooms available; book one ahead.',
+    },
 }
 MARK = re.compile(r'<p class="wa-pet"[^>]*>.*?</p>', re.S)
 
