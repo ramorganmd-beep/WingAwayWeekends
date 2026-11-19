@@ -28,6 +28,13 @@ Pilots report parking at Cutter Aviation and getting a ride over, so call ahead.
 
 [Read the Prescott guide →](https://wingawayweekends.com/prescott/)
 
+## Flying with the family, or the dog
+
+We asked Cirrus owners on the COPA forum who flies with them on overnight trips. Of 83 who answered, 86% bring a spouse or partner, about 1 in 4 bring kids and about 1 in 8 bring the dog. So we built for them:
+
+- **[Family fly-ins](https://wingawayweekends.com/family/):** 15 weekends built around kids, from LEGOLAND and Dollywood to Kennedy Space Center and Mackinac Island. Each guide has a **Best for kids** box with the best ages, the top three things to do and plain airport heads-ups, like a short runway or high density altitude.
+- **Built for kids** and **Bringing the dog** switches on the homepage. The dog filter shows guides with a hotel that confirms on its own website that it welcomes dogs, with the fee and any limits, now in 39 guides and growing.
+
 ## New ways to plan
 
 Our guiding principle is simple: *powerful underneath, effortless on the surface.* Here’s what’s new:
@@ -40,14 +47,14 @@ Our guiding principle is simple: *powerful underneath, effortless on the surface
 
 ## New on the site
 
-WingAway Weekends now has **309 guides in all 50 states** and **120 airport restaurants** on Fly to Lunch. Recent additions:
+WingAway Weekends now has **311 guides in all 50 states** and **120 airport restaurants** on Fly to Lunch. Recent additions:
 
 - **Colorado & Utah:** Telluride, Durango, Steamboat Springs, Colorado Springs, Estes Park, Crested Butte, Park City, Zion and Bryce Canyon
 - **Arizona & New Mexico:** Scottsdale, Tucson, Bisbee, the Grand Canyon, Prescott, Taos, Albuquerque, Ruidoso and White Sands
 - **Texas:** Austin, Horseshoe Bay (with its own runway), Port Aransas, Jefferson, Palo Duro Canyon, New Braunfels, Waco and Granbury
 - **The Northwest:** Eugene, Seattle (land at Boeing Field next to the Museum of Flight), Walla Walla, Leavenworth, Lake Chelan, Port Townsend, Coeur d’Alene, McCall, Sandpoint, Cody, Sheridan and Saratoga
 - **California & the West:** Solvang, Temecula wine country, Big Bear Lake, Ojai, Wickenburg’s dude ranches, Payson, Lake Havasu (fly in to see the London Bridge), Bear Lake and Red Lodge
-- **Just added:** Florida’s Destin, Panama City Beach, St. Petersburg (land downtown at Albert Whitted), Vero Beach (home of Piper), Fort Lauderdale and Marathon in the Keys; Myrtle Beach; and Knoxville, where Cirrus delivers its airplanes
+- **Just added:** Florida’s Destin, Panama City Beach, St. Petersburg (land downtown at Albert Whitted), Vero Beach (home of Piper), Fort Lauderdale and Marathon in the Keys; Myrtle Beach; Knoxville, where Cirrus delivers its airplanes; and for families, Carlsbad (LEGOLAND) and the Space Coast, with a warbird museum on the field
 
 There’s also a new **[destination map](https://wingawayweekends.com/map/)**. Pick a region to see every guide near you.
 
