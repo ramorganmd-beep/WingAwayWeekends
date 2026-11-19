@@ -334,6 +334,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Scenic views"
   ],
   "guide": "hunt-country/",
+ "pets": true,
   "stateCode": "VA",
   "region": "Mid-Atlantic",
   "family": false,
@@ -548,6 +549,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining"
   ],
   "guide": "harpers-ferry/",
+ "pets": true,
   "stateCode": "WV",
   "region": "Mid-Atlantic",
   "family": true,
@@ -658,6 +660,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "st-michaels/",
+ "pets": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
@@ -1877,6 +1880,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "annapolis/",
+ "pets": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
@@ -1896,6 +1900,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays"
  ],
  "guide": "ocean-city/",
+ "pets": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
@@ -1915,6 +1920,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays"
  ],
  "guide": "deep-creek-lake/",
+ "pets": true,
  "stateCode": "MD",
  "region": "Mid-Atlantic",
  "family": true,
@@ -3428,6 +3434,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa"
  ],
  "guide": "rehoboth-lewes/",
+ "pets": true,
  "stateCode": "DE",
  "region": "Mid-Atlantic",
  "family": true,

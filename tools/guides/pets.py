@@ -127,6 +127,29 @@ PETS = {
     'space-coast': {
         'Westgate Cocoa Beach Resort': 'Dogs welcome in pet-friendly suites.',
     },
+    'hunt-country': {
+        'Salamander Middleburg': 'Dog-friendly resort; a pet fee applies.',
+        'Goodstone Inn & Restaurant': 'Pet-friendly rooms; see the inn’s policies.',
+    },
+    'ocean-city': {
+        'SeaLoft Oceanfront Hotel': 'Pet-friendly oceanfront hotel.',
+    },
+    'annapolis': {
+        'Historic Inns of Annapolis': 'Pet-friendly.',
+    },
+    'st-michaels': {
+        'Inn at Perry Cabin': 'Dogs welcome in first-floor rooms, $200 fee plus $75 for each additional dog.',
+    },
+    'harpers-ferry': {
+        'Hillbrook Inn': 'Pet-friendly; see the inn’s pet page.',
+    },
+    'deep-creek-lake': {
+        'Lake Pointe Inn': 'Pet-friendly rooms available.',
+        'Railey Mountain Lake Vacations': 'Dog-friendly rental homes.',
+    },
+    'rehoboth-lewes': {
+        'Dogfish Inn': 'Seven dog-friendly rooms; give advance notice.',
+    },
 }
 MARK = re.compile(r'<p class="wa-pet"[^>]*>.*?</p>', re.S)
 
