@@ -87,6 +87,46 @@ PETS = {
     'williamsburg': {
         'Kingsmill Resort': 'Pet-friendly rooms available; book one ahead.',
     },
+    'lake-lanier': {
+        'Lanier Islands Legacy Lodge': 'Pet-friendly; see the resort’s pet policy.',
+        'Lanier Islands lake houses': 'Dog-friendly lake houses.',
+    },
+    'homestead': {
+        'The Inn at Gristmill Square': 'Select pet-friendly rooms.',
+    },
+    'greenbrier': {
+        'The Greenbrier': 'Pets welcome on a leash; not in restaurants, pools or on the golf courses, and never left alone in the room.',
+    },
+    'charlottesville': {
+        'Oakhurst Inn': 'Up to two dogs in a few rooms, $75 per pet; book with the inn directly.',
+        'The Clifton': 'Pets welcome in limited rooms, $75 per stay; call before booking.',
+        'Kimpton The Forum Hotel': 'Pet-friendly hotel.',
+    },
+    'new-river-gorge': {
+        'Adventures on the Gorge': 'Pet-friendly options in several cabin types; confirm when you book.',
+        'The Outpost': 'Dog-friendly premium cabins.',
+        'New River Cabins': 'Pet-friendly cabins (not the tiny houses).',
+    },
+    'knoxville': {
+        'The Tennessean Hotel': 'Dogs under 50 lbs welcome for a pet fee.',
+        'The Oliver Hotel': 'Dog-friendly rooms.',
+    },
+    'shenandoah': {
+        'Skyland': 'Pet-friendly rooms: up to two dogs or cats; not in public buildings.',
+        'Big Meadows Lodge': 'Pet-friendly rooms available.',
+    },
+    'callaway-gardens': {
+        'Mountain Top Inn & Resort': 'Dog-friendly select rooms and cabins.',
+    },
+    'elkins': {
+        'Tygart Hotel': 'Up to two pets, $75 per stay.',
+    },
+    'chattanooga': {
+        'The Read House': 'Pet-friendly hotel.',
+    },
+    'space-coast': {
+        'Westgate Cocoa Beach Resort': 'Dogs welcome in pet-friendly suites.',
+    },
 }
 MARK = re.compile(r'<p class="wa-pet"[^>]*>.*?</p>', re.S)
 

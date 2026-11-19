@@ -176,6 +176,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Shopping"
   ],
   "guide": "charlottesville/",
+ "pets": true,
   "stateCode": "VA",
   "region": "Mid-Atlantic",
   "family": true,
@@ -415,6 +416,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "chattanooga/",
+ "pets": true,
  "kids": true,
   "stateCode": "TN",
   "region": "Southeast",
@@ -519,6 +521,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Spa"
   ],
   "guide": "lake-lanier/",
+ "pets": true,
   "stateCode": "GA",
   "region": "Southeast",
   "family": true,
@@ -697,6 +700,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "shenandoah/",
+ "pets": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -719,6 +723,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "homestead/",
+ "pets": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -741,6 +746,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "greenbrier/",
+ "pets": true,
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
@@ -1928,6 +1934,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays"
  ],
  "guide": "new-river-gorge/",
+ "pets": true,
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
@@ -5731,6 +5738,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa"
  ],
  "guide": "callaway-gardens/",
+ "pets": true,
  "stateCode": "GA",
  "region": "Southeast",
  "family": true,
@@ -5888,6 +5896,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays"
  ],
  "guide": "elkins/",
+ "pets": true,
  "stateCode": "WV",
  "region": "Mid-Atlantic",
  "family": true,
@@ -6088,6 +6097,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "knoxville/",
+ "pets": true,
  "stateCode": "TN",
  "region": "Southeast",
  "family": true,
@@ -6267,6 +6277,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "space-coast/",
+ "pets": true,
  "kids": true,
  "stateCode": "FL",
  "region": "Florida",
