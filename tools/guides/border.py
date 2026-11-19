@@ -19,7 +19,8 @@ def li(items): return ''.join(f'<li>{x}</li>' for x in items)
 def block(slug, d):
     ret = RETURN.get(slug, 'a U.S. airport with customs')
     before = ['<b>Passports</b> for everyone aboard, plus your pilot certificate and medical.',
-              '<b>Radio paperwork:</b> an FCC Restricted Radiotelephone Operator Permit for the pilot and an aircraft radio station license for international flight.',
+              '<b>Radio paperwork:</b> an FCC Restricted Radiotelephone Operator Permit for the pilot and an aircraft radio station license for international flight. '
+              'To apply, get an FCC Registration Number (FRN) in <a href="https://apps.fcc.gov/cores/userLogin.do" target="_blank" rel="noopener">FCC CORES</a>, then file online. Allow time before the trip, and carry both on board.',
               '<b>Insurance:</b> proof of liability insurance that meets Canadian requirements, carried on board.',
               '<b>CBP user-fee decal</b> on the aircraft for the return to the U.S.',
               '<b>Flight plan:</b> file one for the border crossing and keep your transponder on with an assigned code.']
