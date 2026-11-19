@@ -30,6 +30,28 @@ PETS = {
     'smoky-mountains': {
         'Dancing Bear Lodge': 'Dogs welcome in the standalone cabins (two max), $75 per stay.',
     },
+    'savannah': {
+        'Olde Harbour Inn': 'Pet-friendly suites; ask about fees when you book.',
+        'Hotel Bardo Savannah': 'Dogs welcome: one up to 50 lbs, or two totaling 75 lbs; $200 nonrefundable fee.',
+    },
+    'asheville': {
+        'The Foundry Hotel': 'Pets welcome, $75 per pet per stay.',
+        'The Windsor Boutique Hotel': 'Dogs welcome in designated King Suites, $50 per pet per night.',
+    },
+    'st-augustine': {
+        'St. Francis Inn': 'Dog-friendly rooms; see the inn’s dog-friendly lodging page.',
+    },
+    'destin': {
+        'Henderson Beach Resort': 'Dogs welcome in select rooms; arrange it with the resort in advance.',
+        'Sandestin Golf and Beach Resort': 'Select pet-friendly units; limited, so book early.',
+    },
+    'beaufort': {
+        'Anchorage 1770': 'Dog-friendly inn; ask for details when you book.',
+    },
+    '30a': {
+        'The Pearl Hotel': 'One pet under 30 lbs in designated rooms; request it when you book.',
+        'Hotel Effie': 'Well-trained dogs up to 65 lbs welcome.',
+    },
 }
 MARK = re.compile(r'<p class="wa-pet"[^>]*>.*?</p>', re.S)
 

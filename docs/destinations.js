@@ -42,6 +42,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "savannah/",
+ "pets": true,
   "photo": {
    "slug": "savannah",
    "alt": "Forsyth Park fountain in Savannah"
@@ -95,6 +96,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "asheville/",
+ "pets": true,
   "stateCode": "NC",
   "region": "Southeast",
   "family": true,
@@ -121,6 +123,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "beaufort/",
+ "pets": true,
   "stateCode": "SC",
   "region": "Southeast",
   "family": true,
@@ -147,6 +150,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "st-augustine/",
+ "pets": true,
   "stateCode": "FL",
   "region": "Florida",
   "family": true,
@@ -1387,6 +1391,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Scenic views"
  ],
  "guide": "30a/",
+ "pets": true,
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
@@ -6119,6 +6124,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Shopping"
  ],
  "guide": "destin/",
+ "pets": true,
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
