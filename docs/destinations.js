@@ -412,6 +412,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "chattanooga/",
+ "kids": true,
   "stateCode": "TN",
   "region": "Southeast",
   "family": true,
@@ -437,6 +438,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Scenic views"
   ],
   "guide": "smoky-mountains/",
+ "kids": true,
  "pets": true,
   "stateCode": "TN",
   "region": "Southeast",
@@ -797,6 +799,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "bar-harbor/",
+ "kids": true,
  "pets": true,
  "stateCode": "ME",
  "region": "Northeast",
@@ -1082,6 +1085,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "mackinac/",
+ "kids": true,
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
@@ -1166,6 +1170,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf"
  ],
  "guide": "branson/",
+ "kids": true,
  "stateCode": "MO",
  "region": "Heartland",
  "family": true,
@@ -1434,6 +1439,7 @@ window.WINGAWAY_DESTINATIONS=[
   "No rental car"
  ],
  "guide": "san-antonio/",
+ "kids": true,
  "stateCode": "TX",
  "region": "Texas",
  "family": true,
@@ -2705,6 +2711,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "traverse-city/",
+ "kids": true,
  "stateCode": "MI",
  "region": "Midwest",
  "family": true,
@@ -3088,6 +3095,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Romance"
  ],
  "guide": "hershey/",
+ "kids": true,
  "stateCode": "PA",
  "region": "Northeast",
  "family": true,
@@ -3164,6 +3172,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "wisconsin-dells/",
+ "kids": true,
  "stateCode": "WI",
  "region": "Midwest",
  "family": true,
@@ -3953,6 +3962,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Shopping"
  ],
  "guide": "monterey-carmel/",
+ "kids": true,
  "stateCode": "CA",
  "region": "Central California",
  "family": true,
@@ -4654,6 +4664,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Romance"
  ],
  "guide": "colorado-springs/",
+ "kids": true,
  "stateCode": "CO",
  "region": "Mountain West",
  "family": true,
@@ -5768,6 +5779,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf"
  ],
  "guide": "williamsburg/",
+ "kids": true,
  "stateCode": "VA",
  "region": "Mid-Atlantic",
  "family": true,
@@ -6124,6 +6136,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Shopping"
  ],
  "guide": "destin/",
+ "kids": true,
  "pets": true,
  "stateCode": "FL",
  "region": "Florida",
@@ -6223,6 +6236,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors"
  ],
  "guide": "carlsbad/",
+ "kids": true,
  "stateCode": "CA",
  "region": "Southern California",
  "family": true,
@@ -6243,6 +6257,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "space-coast/",
+ "kids": true,
  "stateCode": "FL",
  "region": "Florida",
  "family": true,
