@@ -551,3 +551,4 @@ On the build page, the first-stop and add-stop pickers are text inputs with a da
 - Both built with a post-step that labels them "Families" instead of "Couples".
 - Best for kids: tools/guides/kids.py (KIDS dict, 15 family guides). Add it to the guide build loop after border: ... border kids wx_link ...
 - Mackinac has a hand-checked no-cars GROUND entry (no rental-car link).
+- Pets: tools/guides/pets.py (PETS dict, hotel-confirmed dog notes) — add to build loop after kids. destinations.js "pets": true drives the homepage "Bringing the dog" switch (?dog=1). Batch 1 (Nov 19): charleston, sedona, bar-harbor, key-west, smoky-mountains. No confirmed dog policy found yet for Jackson Hole or Santa Barbara hotels; Bar Harbor Inn, Marquesa, Blackberry Mountain say no pets.

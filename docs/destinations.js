@@ -67,6 +67,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "charleston/",
+ "pets": true,
   "stateCode": "SC",
   "region": "Southeast",
   "family": true,
@@ -432,6 +433,7 @@ window.WINGAWAY_DESTINATIONS=[
    "Scenic views"
   ],
   "guide": "smoky-mountains/",
+ "pets": true,
   "stateCode": "TN",
   "region": "Southeast",
   "family": true,
@@ -615,6 +617,7 @@ window.WINGAWAY_DESTINATIONS=[
    "No rental car"
   ],
   "guide": "key-west/",
+ "pets": true,
   "stateCode": "FL",
   "region": "Florida",
   "family": false,
@@ -790,6 +793,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining"
  ],
  "guide": "bar-harbor/",
+ "pets": true,
  "stateCode": "ME",
  "region": "Northeast",
  "family": true,
@@ -3726,6 +3730,7 @@ window.WINGAWAY_DESTINATIONS=[
   "Romance"
  ],
  "guide": "sedona/",
+ "pets": true,
  "stateCode": "AZ",
  "region": "Mountain West",
  "family": true,
