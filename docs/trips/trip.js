@@ -84,20 +84,23 @@ const short=d=>d.name.replace(/ & .*|,.*/,'');
 function sugBtn(d,attrs,from){return '<button type="button" class="tp-q" '+attrs+' data-addslug="'+SLUG(d)+'">+ '+esc(short(d))+' <small>'+Math.round(nm(from,d))+' nm</small></button>';}
 function regionHTML(from,ctx){const used=new Set(stops.map(x=>x.slug));const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r,Math.min(...NE.filter(d=>d.region===r&&!used.has(SLUG(d))).map(d=>nm(from,d)))]).filter(x=>isFinite(x[1])).sort((a,b)=>a[1]-b[1]);
   return '<div class="tp-reg"><b>'+(ctx==='first'?'Not sure where to start? Pick a region:':'Or head to another region:')+'</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'" data-ctx="'+ctx+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg-'+ctx+'"></div></div>';}
-function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home').value)||lookup('KMYR')):BY[stops[+ctx].slug],used=new Set(stops.map(x=>x.slug));
+function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home').value)||lookup('KMYR')):BY[stops[insertAt!=null&&insertAt<stops.length?insertAt:+ctx].slug],used=new Set(stops.map(x=>x.slug));
   const all=NE.filter(d=>d.region===r&&!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]),list=all.slice(0,10);
   $('tp-sugg-'+ctx).innerHTML='<p>'+esc(r)+', closest first from '+esc(first?from.code:short(from))+'. Tap one to '+(first?'make it your first stop':'add it next')+' (or tap a gold circle on the map):</p><div>'+list.map(([d])=>sugBtn(d,first?'data-first="1"':'data-after="'+ctx+'"',from)).join('')+'</div>'+(all.length>list.length?'<p>All '+all.length+' '+esc(r)+' destinations are on the map below.</p>':'');
   document.querySelectorAll('[data-reg][data-ctx="'+ctx+'"]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
   curReg=r;cand=all.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
 function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM){if(i!==stops.length-1)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop in between:')+'</li>';return '<li class="tp-add tp-addlast">'+pickHTML('add',i,from,'Add a stop:')+quickHTML(i,from,used)+regionHTML(from,i)+'</li>';}
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM){if(i!==stops.length-1)return '<li class="tp-add tp-between"><button type="button" class="tp-q" data-insert="'+i+'">+ Add a stop between '+esc(short(from))+' and '+esc(short(BY[stops[i+1].slug]))+'</button></li>';
+  const ins=insertAt!=null&&insertAt<stops.length-1,f=ins?BY[stops[insertAt].slug]:from,lab=ins?'Add a stop between '+esc(short(f))+' and '+esc(short(BY[stops[insertAt+1].slug]))+':':'Add a stop:';
+  return '<li class="tp-add tp-addlast'+(ins?' tp-inserting':'')+'">'+pickHTML('add',i,f,lab)+(ins?' <button type="button" class="tp-q" data-cancel="1">Cancel</button>':'')+quickHTML(i,f,used)+regionHTML(f,i)+'</li>';}
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
-let cand=[],candFirst=false,candRegion=false,lastL=[],curReg='';
+let cand=[],candFirst=false,candRegion=false,lastL=[],curReg='',insertAt=null;
+function target(def){if(insertAt!=null){const t=insertAt;insertAt=null;return t;}return def;}
 function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
-  if(CUSTOM&&!candFirst&&!candRegion){const last=stops.length?BY[stops[stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
+  if(CUSTOM&&!candFirst&&!candRegion){const last=stops.length?BY[stops[insertAt!=null&&insertAt<stops.length?insertAt:stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
   const H=startHome()||!stops.length;const pts0=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);const pts=pts0.concat(cand);if(!pts.length)return;
   const box=pts.length>1?pts:[{lon:pts[0].lon-6,lat:pts[0].lat-4},{lon:pts[0].lon+6,lat:pts[0].lat+4}];
   const fc={type:'FeatureCollection',features:box.map(p=>({type:'Feature',geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
@@ -114,7 +117,7 @@ function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.sele
     .on('click',()=>addCand(SLUG(d))).on('keydown',e=>{if(e.key==='Enter')addCand(SLUG(d))});
     a.append('title').text('Add '+short(d));a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',cr);const lab='+ '+short(d),w=lab.length*7.2;for(const [x,y,an] of [[p[0]+cr+4,p[1]+4,'start'],[p[0]-cr-4,p[1]+4,'end'],[p[0],p[1]-cr-5,'middle'],[p[0],p[1]+cr+14,'middle']]){const x0=an==='start'?x:an==='end'?x-w:x-w/2,bx=[x0,y-12,x0+w,y+3];if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;placed.push(bx);a.append('text').attr('class','nm cn').attr('x',x).attr('y',y).attr('text-anchor',an).text(lab);break}});
 }
-function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.push({slug,nights:1,alts:nearAlts(slug)});candFirst=false;candRegion=false;draw();}
+function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(stops.length-1)+1,0,{slug,nights:1,alts:nearAlts(slug)});candFirst=false;candRegion=false;draw();}
 // Controls
 const acSel=$('ac');const saved=A.load();
 acSel.innerHTML=(saved?'<option value="saved">My aircraft: '+esc(saved.label)+'</option>':'')+'<option value="default">Default (150 kt, no fuel check)</option>'+A.PRESETS.filter(p=>p.gear==='land').map(p=>'<option value="'+p.id+'">'+esc(p.label)+'</option>').join('');
@@ -135,9 +138,11 @@ $('days').addEventListener('change',e=>{const t=e.target;
   draw();});
 let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
-  inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
+  inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(+inp.dataset.add)+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
-$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg,q.dataset.ctx||'first');return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;candRegion=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
+$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg,q.dataset.ctx||'first');return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;candRegion=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(+q.dataset.after)+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}
+if(q.dataset.insert!=null){insertAt=+q.dataset.insert;curReg='';draw();const a=document.querySelector('.tp-addlast');if(a){a.scrollIntoView({behavior:'smooth',block:'start'});const inp=a.querySelector('input');if(inp)setTimeout(()=>inp.focus({preventScroll:true}),400);}return;}
+if(q.dataset.cancel){insertAt=null;draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
