@@ -177,8 +177,7 @@ def auto_block(s):
     else:
         norental = ''
     rows = [('Crew car', 'Ask when you call the FBO ahead'),
-            ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee'),
-            ('No rental car needed?', norental)]
+            ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee')]
     dl = ''.join(f'<dt>{k}</dt><dd>{esc(v)}</dd>' for k, v in rows if v)
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
             f'<dl>{dl}</dl>'
