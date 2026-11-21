@@ -187,7 +187,14 @@ def index(routes):
         img = (p['remote'] + '&w=600&h=450&fit=crop&q=75') if p.get('remote') else ('../assets/destinations/' + p.get('slug', '') + '-480.jpg')
         stops = ' → '.join(_re.sub(r' & .*|,.*', '', D[x[0]]['name']) for x in r['route'])
         nights = sum(x[1] for x in r['route'])
-        cards.append(f'<a class="tr-card" href="{r["id"]}/"><img src="{img}" alt="" loading="lazy"><span><b>{r["h1"]}</b><small>{nights} nights · {stops}</small><em>{r["lede"]}</em></span></a>')
+        import math as _m
+        pts = [(D[x[0]]['lat'], D[x[0]]['lon']) for x in r['route']]
+        def _nm(a, b):
+            la1, lo1, la2, lo2 = map(_m.radians, (*a, *b))
+            return 3440.065 * 2 * _m.asin(_m.sqrt(_m.sin((la2 - la1) / 2) ** 2 + _m.cos(la1) * _m.cos(la2) * _m.sin((lo2 - lo1) / 2) ** 2))
+        between = round(sum(_nm(pts[i], pts[i + 1]) for i in range(len(pts) - 1)))
+        dp = ';'.join(f'{a:.4f},{b:.4f}' for a, b in pts)
+        cards.append(f'<a class="tr-card" href="{r["id"]}/" data-pts="{dp}"><img src="{img}" alt="" loading="lazy"><span><b>{r["h1"]}</b><small>{nights} nights · {stops}</small><strong class="tr-tot">About {between:,} nm between stops</strong><em>{r["lede"]}</em></span></a>')
     tpl = (ROOT / 'tools/trips/index_template.html').read_text()
     (ROOT / 'docs/trips/index.html').write_text(tpl.replace('__CARDS__', '\n'.join(cards)))
     print('wrote docs/trips/index.html')
