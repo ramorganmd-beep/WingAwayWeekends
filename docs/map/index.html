@@ -24,7 +24,7 @@
 <main id="main">
 <div class="map-intro"><span class="eyebrow">Where we go</span><h1>Destination map</h1>
 <p class="lede">Every WingAway Weekends guide, across the country or one region at a time.</p>
-<p>Pick a region to zoom in. Tap a dot to open its guide.</p></div>
+<p>Pick a region to zoom in. Tap a dot to open its guide.</p><style>.map-tabs{display:inline-flex;border:1px solid #102d40;border-radius:999px;overflow:hidden;margin:14px 0 4px}.map-tabs a{padding:8px 16px;font:700 14px/1.2 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#102d40;text-decoration:none}.map-tabs a[aria-current]{background:#102d40;color:#fff}</style><nav class="map-tabs" aria-label="Map view"><a aria-current="page" href="./">Destinations</a><a id="tab-wx" href="../weekend-map/">Weekend weather</a></nav></div>
 <section class="map-bar" aria-label="Choose a region"><div><label for="region">Show</label><select id="region"><option value="">The whole country</option></select></div><p class="map-count" id="count" aria-live="polite"></p></section>
 <div class="map-box" id="box"><svg id="m" viewBox="0 0 975 610" role="img" aria-label="Map of WingAway Weekends destinations"></svg><div class="map-tip" id="tip"></div></div>
 <div class="map-legend" id="legend"></div>
@@ -48,10 +48,11 @@ Promise.all([d3.json('states-10m.json'),d3.json('canada-50m.json').catch(()=>nul
 function fromHash(){const m=decodeURIComponent(location.hash.replace(/^#/,''));if([...sel.options].some(o=>o.value===m))sel.value=m;}
 window.addEventListener('hashchange',()=>{fromHash();draw();});
 sel.addEventListener('change',()=>{history.replaceState(null,'',sel.value?'#'+encodeURIComponent(sel.value):location.pathname+location.search);draw();});
+function tabWx(){const t=document.getElementById('tab-wx');if(t)t.href='../weekend-map/'+(sel.value&&sel.value!=='Canada'?'?region='+encodeURIComponent(sel.value):'');}sel.addEventListener('change',tabWx);window.addEventListener('hashchange',tabWx);setTimeout(tabWx,0);
 function bbox(pts){let x0=180,x1=-180,y0=90,y1=-90;pts.forEach(d=>{x0=Math.min(x0,d.lon);x1=Math.max(x1,d.lon);y0=Math.min(y0,d.lat);y1=Math.max(y1,d.lat);});
   const px=Math.max(1.6,(x1-x0)*.18),py=Math.max(1.2,(y1-y0)*.18);x0-=px;x1+=px;y0-=py;y1+=py;
   return {type:'Feature',geometry:{type:'Polygon',coordinates:[[[x0,y0],[x0,y1],[x1,y1],[x1,y0],[x0,y0]]]}};}
-function draw(){
+function draw(){tabWx();
   if(!states)return;const r=sel.value;svg.selectAll('*').remove();
   const pts=r?D.filter(d=>d.region===r):D;
   let proj;
