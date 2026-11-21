@@ -555,7 +555,9 @@
     $('from').value = p.get('from') || home || 'KMYR';
     const tg = p.get('to'), td = tg && DEST.find(d => d.guide === tg.replace(/\/?$/, '/'));
     $('to').value = td ? destLabel(td) : tg || destLabel(DEST.find(d => d.guide === 'charleston/') || DEST[0]);
-    $('dep').value = p.get('dep') || d0; $('ret').value = p.has('ret') ? p.get('ret') : r0; $('win').value = p.get('win') || '3';
+    const q15 = v => { const m = /^(\d{4}-\d\d-\d\d)T(\d\d):(\d\d)/.exec(v || ''); if (!m) return v; const d = new Date(m[1] + 'T00:00:00'); d.setMinutes(Math.round((+m[2] * 60 + +m[3]) / 15) * 15); const z = n => String(n).padStart(2, '0'); return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()) + 'T' + z(d.getHours()) + ':' + z(d.getMinutes()); };
+    $('dep').value = q15(p.get('dep') || d0); $('ret').value = q15(p.has('ret') ? p.get('ret') : r0);
+    ['dep', 'ret'].forEach(k => $(k).addEventListener('change', () => { const v = q15($(k).value); if (v !== $(k).value) $(k).value = v; })); $('win').value = p.get('win') || '3';
     try { WHO = localStorage.getItem(WHO_KEY) || 'me'; } catch (e) {}
     if (SET_NAMES[p.get('who')]) WHO = p.get('who');
     if (!SET_NAMES[WHO]) WHO = 'me';
@@ -589,7 +591,7 @@
       (saved && saved.id === 'custom' ? '' : '<option value="custom">Custom aircraft (enter your numbers on the homepage)</option>') +
       '<option value="default">Default estimate (150 kt)</option>';
     ac.value = p.get('ac') && ac.querySelector('option[value="' + p.get('ac') + '"]') ? p.get('ac') : saved ? 'saved' : 'default';
-    $('out').addEventListener('click', e => { const b = e.target.closest('[data-pick]'); if (!b) return; $(b.dataset.pick).value = b.dataset.t; draw(); });
+    $('out').addEventListener('click', e => { const b = e.target.closest('[data-pick]'); if (!b) return; $(b.dataset.pick).value = q15(b.dataset.t); draw(); });
     // "Custom aircraft" with no saved numbers yet: open the homepage aircraft panel to enter them.
     ac.addEventListener('change', () => { if (ac.value === 'custom') location.href = '../#aircraft'; });
     ['from', 'to', 'dep', 'ret', 'win', 'ac'].forEach(id => $(id).addEventListener('change', draw));
