@@ -1,4 +1,4 @@
-"""Add a "Leave the driving to someone else" box of established wine-tour drivers.
+"""Add a "Leave the driving to the pros" box of established wine-tour drivers.
 
 Usage: python3 tools/guides/winetours.py docs/<slug>/index.html [...]
 Idempotent (replaces the wa-wine block). Goes at the end of the Wine section, or of Explore.
@@ -35,7 +35,7 @@ DRIVERS = {
 def block(items):
     lis = ''.join(f'<li><a href="{u}" target="_blank" rel="noopener"><b>{n}</b></a> · {t}</li>' for n, t, u in items)
     return (START + '<div class="wa-wine" style="margin:22px 0 0;padding:16px 20px;background:#f7f1f4;border:1px solid #e6d3dc;border-left:4px solid #7b2d4f;border-radius:3px">'
-            '<h3 style="margin:0 0 6px;font-size:1.05rem">Leave the driving to someone else</h3>'
+            '<h3 style="margin:0 0 6px;font-size:1.05rem">Leave the driving to the pros</h3>'
             '<p style="margin:0 0 8px;color:#51666f;font-size:.95rem">You flew in; let a local driver handle the wine roads. Established companies we found:</p>'
             f'<ul style="margin:0;padding-left:18px;line-height:1.6">{lis}</ul>'
             '<p style="margin:10px 0 0;font-size:.9rem;color:#33475a"><b>What to verify before booking:</b> a strong rating is reassuring, but it doesn’t prove current insurance, vehicle condition or availability. Confirm commercial transportation insurance, passenger capacity, whether winery reservations are coordinated, and whether tasting fees and gratuities are included.</p>'
