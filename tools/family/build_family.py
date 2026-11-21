@@ -1,4 +1,4 @@
-"""Generate docs/family/index.html: the 15 fly-in weekends built around kids.
+"""Generate docs/family/index.html: the 17 fly-in weekends built around kids.
 Ages come from tools/guides/kids.py; photos and coordinates from docs/destinations.js.
 Usage (repo root): python3 tools/family/build_family.py
 """
@@ -11,6 +11,8 @@ from kids import KIDS  # noqa: E402  (kids.py does nothing without file argument
 
 GROUPS = [
     ('Theme parks', 'Rides, characters and a park day the kids will talk about for months.', [
+        ('orlando', 'Walt Disney World, Universal and Gatorland', 'Year-round', 'Class B nearby; landing fee; summer storms'),
+        ('disneyland', 'Disneyland, California Adventure and Knott’s', 'Year-round', 'Short 3,121 ft runway; busy LA airspace'),
         ('carlsbad', 'LEGOLAND and Miniland USA', 'Year-round', 'Landing fee; morning marine layer'),
         ('smoky-mountains', 'Dollywood', 'Spring to fall', 'Mountain terrain; approaches to runway 10 only'),
         ('hershey', 'Hersheypark and the chocolate tour ride', 'Spring to fall', ''),

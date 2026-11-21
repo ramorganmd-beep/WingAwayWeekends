@@ -1188,6 +1188,12 @@ PLANS = {
     'carlsbad': {
         'day': [('Morning', 'Land at KCRQ and drive a few minutes to LEGOLAND California.'), ('Lunch', 'Lunch in the park.'), ('Afternoon', 'Miniland and the SEA LIFE Aquarium, then fly home.')],
         'extra': [('Morning', 'Carlsbad State Beach.'), ('Afternoon', 'The Flower Fields in spring, or the Museum of Making Music.'), ('Evening', 'Pizza in Carlsbad Village.')]},
+    'orlando': {
+        'day': [('Morning', 'Land at KISM and drive to Gatorland.'), ('Lunch', 'Lunch at Disney Springs.'), ('Afternoon', 'The LEGO store and a walk around Disney Springs, then fly home before any summer storms.')],
+        'extra': [('Morning', 'Be at a Disney park at opening.'), ('Afternoon', 'A pool break at the hotel.'), ('Evening', 'Back to the park for the fireworks.')]},
+    'disneyland': {
+        'day': [('Morning', 'Land at KFUL and drive a few minutes to Knott’s Berry Farm.'), ('Lunch', 'Lunch at the Anaheim Packing District.'), ('Afternoon', 'A walk through the Downtown Disney District, then fly home before the FBO closes.')],
+        'extra': [('Morning', 'Be at a Disney park at opening.'), ('Afternoon', 'A pool break at the hotel.'), ('Evening', 'Back to the park for the evening shows.')]},
     'space-coast': {
         'day': [('Morning', 'Land at KTIX and visit the Valiant Air Command Warbird Museum on the field.'), ('Lunch', 'Rock shrimp at Dixie Crossroads in Titusville.'), ('Afternoon', 'Black Point Wildlife Drive, then fly home before the afternoon storms in summer.')],
         'extra': [('Morning', 'Kennedy Space Center Visitor Complex.'), ('Afternoon', 'Space Shuttle Atlantis and the rocket garden.'), ('Evening', 'Dinner at Port Canaveral, then the beach.')]},

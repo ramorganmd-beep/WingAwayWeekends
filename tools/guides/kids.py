@@ -107,6 +107,20 @@ KIDS = {
              'The SEA LIFE Aquarium at the park.',
              'Carlsbad State Beach, and the Flower Fields in spring.'],
         airport='KCRQ is towered with a 4,897 ft runway and a landing fee. A morning marine layer is common in late spring and early summer.'),
+    'orlando': dict(
+        ages='4 to 12',
+        why='Walt Disney World is the classic family trip, and Kissimmee Gateway puts you closer to the parks than the airline airports.',
+        top=['One full day at a single Disney park: Magic Kingdom for the youngest.',
+             'An evening at Disney Springs, with the LEGO store and live music.',
+             'Gatorland: alligators, crocodiles and a calm half day away from the crowds.'],
+        airport='KISM is towered (7 a.m. to 10 p.m.) with 6,001 and 5,001 ft runways and a landing fee, just southwest of the Orlando Class B. Plan around summer afternoon storms.'),
+    'disneyland': dict(
+        ages='4 to 12',
+        why='The original Disney park, with a second park across the plaza and Knott’s Berry Farm a few minutes from the airport.',
+        top=['A day at Disneyland Park, or Pixar Pier and Avengers Campus at Disney California Adventure.',
+             'Knott’s Berry Farm, from gentle kids’ rides to big coasters for teens.',
+             'Discovery Cube Orange County, a hands-on science museum.'],
+        airport='KFUL is towered with a 3,121 ft runway under busy Los Angeles-area airspace. The FBO closes at 5 p.m.; check your performance numbers on warm days.'),
     'space-coast': dict(
         ages='5 to 12',
         why='Real rockets, a warbird museum on the field and, with luck, a launch.',

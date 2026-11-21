@@ -416,6 +416,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Scenic views",
    "No rental car"
   ],
+  "kidsWhy": "A walkable riverfront packed with things for kids, close together.",
+  "kidsAges": "3 to 12",
   "guide": "chattanooga/",
  "pets": true,
  "kids": true,
@@ -443,6 +445,8 @@ window.WINGAWAY_DESTINATIONS=[
    "Dining",
    "Scenic views"
   ],
+  "kidsWhy": "Dollywood, cabins with room for everyone and black bears in the national park.",
+  "kidsAges": "4 to 12",
   "guide": "smoky-mountains/",
  "kids": true,
  "pets": true,
@@ -813,6 +817,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays",
   "Dining"
  ],
+ "kidsWhy": "Tide pools, flat carriage roads and short hikes with big views.",
+ "kidsAges": "5 to 12",
  "guide": "bar-harbor/",
  "kids": true,
  "pets": true,
@@ -1099,6 +1105,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "No rental car"
  ],
+ "kidsWhy": "No cars on the island: kids can bike, ride in a horse-drawn carriage and walk everywhere.",
+ "kidsAges": "3 to 12",
  "guide": "mackinac/",
  "kids": true,
  "stateCode": "MI",
@@ -1184,6 +1192,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa",
   "Golf"
  ],
+ "kidsWhy": "Silver Dollar City, a lake and live family shows, all within a short drive.",
+ "kidsAges": "4 to 12",
  "guide": "branson/",
  "kids": true,
  "stateCode": "MO",
@@ -1453,6 +1463,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "No rental car"
  ],
+ "kidsWhy": "Boat rides through the middle of town and two big kid stops.",
+ "kidsAges": "3 to 12",
  "guide": "san-antonio/",
  "kids": true,
  "stateCode": "TX",
@@ -2730,6 +2742,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa",
   "Dining"
  ],
+ "kidsWhy": "Warm freshwater beaches with no salt or sharks, and a giant sand dune to run down.",
+ "kidsAges": "4 to 12",
  "guide": "traverse-city/",
  "kids": true,
  "stateCode": "MI",
@@ -3114,6 +3128,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Dining",
   "Romance"
  ],
+ "kidsWhy": "A whole town built around chocolate, with rides sized for every height.",
+ "kidsAges": "3 to 12",
  "guide": "hershey/",
  "kids": true,
  "stateCode": "PA",
@@ -3191,6 +3207,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Spa",
   "Dining"
  ],
+ "kidsWhy": "The self-styled Waterpark Capital of the World, with indoor waterparks that make it a year-round, rain-or-shine trip.",
+ "kidsAges": "3 to 12",
  "guide": "wisconsin-dells/",
  "kids": true,
  "stateCode": "WI",
@@ -3982,6 +4000,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Romance",
   "Shopping"
  ],
+ "kidsWhy": "One of the best aquariums anywhere, and sea otters you can watch from shore.",
+ "kidsAges": "3 to 12",
  "guide": "monterey-carmel/",
  "kids": true,
  "stateCode": "CA",
@@ -4684,6 +4704,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Aviation museums",
   "Romance"
  ],
+ "kidsWhy": "Big outdoors and a mountain zoo, with a train to the top of a 14,000-foot peak.",
+ "kidsAges": "5 to 12",
  "guide": "colorado-springs/",
  "kids": true,
  "stateCode": "CO",
@@ -5802,6 +5824,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays",
   "Golf"
  ],
+ "kidsWhy": "History kids can touch: costumed interpreters, ships to climb aboard and a big theme park nearby.",
+ "kidsAges": "5 to 12",
  "guide": "williamsburg/",
  "pets": true,
  "kids": true,
@@ -6162,6 +6186,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Golf",
   "Shopping"
  ],
+ "kidsWhy": "Calm, clear water and soft white sand, with almost nothing to plan.",
+ "kidsAges": "2 to 10",
  "guide": "destin/",
  "kids": true,
  "pets": true,
@@ -6262,6 +6288,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Stays",
   "Outdoors"
  ],
+ "kidsWhy": "LEGOLAND is built for exactly this age, and the beach is minutes away.",
+ "kidsAges": "3 to 12",
  "guide": "carlsbad/",
  "kids": true,
  "stateCode": "CA",
@@ -6283,6 +6311,8 @@ window.WINGAWAY_DESTINATIONS=[
   "Outdoors",
   "Dining"
  ],
+ "kidsWhy": "Real rockets, a warbird museum on the field and, with luck, a launch.",
+ "kidsAges": "5 to 12",
  "guide": "space-coast/",
  "pets": true,
  "kids": true,
@@ -6290,5 +6320,55 @@ window.WINGAWAY_DESTINATIONS=[
  "region": "Florida",
  "family": true,
   "photo": {"slug": "space-coast", "remote": "https://images.unsplash.com/photo-1782769757416-e5d362337e2c?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MDk3MTQ4fA&ixlib=rb-4.1.0", "alt": "Rockets standing in the rocket garden behind the Explore sign at the Kennedy Space Center Visitor Complex", "pos": "50% 50%"}
+},
+{
+ "name": "Orlando & Walt Disney World",
+ "state": "Florida",
+ "airport": "KISM",
+ "lat": 28.2898,
+ "lon": -81.4371,
+ "desc": "Walt Disney World, Universal and Gatorland, from the general aviation airport closest to the parks.",
+ "tags": [
+  "Dining",
+  "Stays"
+ ],
+ "kidsWhy": "Walt Disney World is the classic family trip, and Kissimmee Gateway puts you closer to the parks than the airline airports.",
+ "kidsAges": "4 to 12",
+ "guide": "orlando/",
+ "kids": true,
+ "stateCode": "FL",
+ "region": "Florida",
+ "family": true,
+ "photo": {
+  "slug": "orlando",
+  "remote": "https://images.unsplash.com/photo-1609184889233-eff6dd93def4?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1Mjk2MTkxfA&ixlib=rb-4.1.0",
+  "alt": "The downtown Orlando skyline reflected in Lake Eola at sunrise",
+  "pos": "50% 55%"
+ }
+},
+{
+ "name": "Anaheim & Disneyland",
+ "state": "California",
+ "airport": "KFUL",
+ "lat": 33.872,
+ "lon": -117.98,
+ "desc": "Disneyland, California Adventure and Knott’s Berry Farm, from a small towered airport a short drive away.",
+ "tags": [
+  "Dining",
+  "Stays"
+ ],
+ "kidsWhy": "The original Disney park, with a second park across the plaza and Knott’s Berry Farm a few minutes from the airport.",
+ "kidsAges": "4 to 12",
+ "guide": "disneyland/",
+ "kids": true,
+ "stateCode": "CA",
+ "region": "Southern California",
+ "family": true,
+ "photo": {
+  "slug": "disneyland",
+  "remote": "https://images.unsplash.com/photo-1682306359690-7f93057da38e?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1Mjk2MTkzfA&ixlib=rb-4.1.0",
+  "alt": "Pixar Pier's Ferris wheel and roller coaster reflected in the water at sunset, Disney California Adventure",
+  "pos": "50% 50%"
+ }
 }
 ];

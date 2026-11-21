@@ -31,7 +31,7 @@ for block in re.split(r'(?m)(?=^ ?\{$)', s):
             counts[t][2] += want
             if want and t not in tags:
                 tags.append(t); counts[t][0] += 1
-            elif not want and t in tags:
+            elif not want and t in tags and t != 'No rental car':  # the guide row was retired; keep tags already set
                 tags.remove(t); counts[t][1] += 1
         if tags != old:
             items = re.findall(r'(\s*)"([^"]+)"', m.group(1))

@@ -2253,3 +2253,15 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Tetiana Sapon on Unsplash — https://unsplash.com/photos/rockets-stand-tall-behind-an-explore-sign-under-cloudy-sky-3PxphcF7Rz8
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Kennedy Space Center, Florida, USA (Unsplash location tag)
+
+## Orlando
+
+- Photo by Mick Haupt on Unsplash — https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-Tyn3-Cljx-A
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Lake Eola, Orlando, FL (Unsplash location tag)
+
+## Anaheim & Disneyland
+
+- Photo by Kaine Crowhurst on Unsplash — https://unsplash.com/photos/a-ferris-wheel-sitting-next-to-a-body-of-water-3ks8WnGGL9c
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Disney California Adventure, Anaheim, CA (Unsplash location tag)
