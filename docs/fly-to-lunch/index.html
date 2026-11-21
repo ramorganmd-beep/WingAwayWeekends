@@ -21,13 +21,13 @@
 <a class="skip" href="#main">Skip to the list</a><header><a href="../" class="brand"><span class="mark">W</span><span>WingAway<span class="brand-small">WEEKENDS</span></span></a><span class="header-right" style="display:flex;gap:18px"><a class="header-link" href="../map/">Map</a><a class="header-link" href="wx/">Weather</a><a class="header-link" href="../trips/">Trips</a><a class="header-link" href="../">All destinations</a></span></header>
 <main id="main">
 <div class="lunch-intro"><span class="eyebrow">Short hops · Breakfast & lunch</span><h1>The $100 hamburger</h1>
-<p class="lede">Fly somewhere good for lunch, then fly home.</p>
+<p class="lede">Fly somewhere good for breakfast or lunch, then fly home.</p>
 <p>Airports with a well-reviewed restaurant on the field or an easy walk or short ride away. Sorted by flight time from your home airport, so the closest good meal is at the top. The list starts in the Southeast and grows with each new region.</p></div>
 
 <section aria-label="Filter the list" class="lunch-filters">
 <div><label for="from">Departure airport</label><input id="from" maxlength="40" spellcheck="false" autocomplete="off" list="airport-list" placeholder="e.g. KMYR"><datalist id="airport-list"></datalist></div>
 <div><label for="max">Maximum one-way flight</label><select id="max"><option value="0.75">45 minutes</option><option value="1">1 hour</option><option value="1.5" selected>1½ hours</option><option value="2">2 hours</option><option value="99">Any distance</option></select></div>
-<div><label for="meal">Meal</label><select id="meal"><option value="">Any meal</option><option>Breakfast</option><option>Lunch</option><option>Dinner</option></select></div>
+<div><label for="meal">Meal</label><select id="meal"><option value="">Breakfast or lunch</option><option>Breakfast</option><option>Lunch</option></select></div>
 <div><label for="gear">Landing gear</label><select id="gear"><option value="land">Landplane (wheels)</option><option value="float">Floatplane (water only)</option><option value="amphib">Amphibian (water or runway)</option></select></div>
 </section>
 <p class="lunch-status" id="status" aria-live="polite"></p>
@@ -454,9 +454,9 @@ const SPOTS = [
       return Object.assign({}, s, { apt, nm, est, drive: nm < 40 || home[0] === s.code });
     });
     const gear = gearSel.value, fits = s => gear === 'amphib' || (gear === 'float' ? !!s.water : !s.waterOnly);
-    let rows = all.filter(s => fits(s) && (s.drive || s.est.hours <= limit) && (!want || s.meals.includes(want))).sort((a, b) => a.nm - b.nm);
+    let rows = all.filter(s => fits(s) && (s.drive || s.est.hours <= limit) && (want ? s.meals.includes(want) : s.meals.some(m => m !== 'Dinner'))).sort((a, b) => a.nm - b.nm);
     let nearest = false;
-    if (!rows.length) { rows = all.filter(s => fits(s) && (!want || s.meals.includes(want))).sort((a, b) => a.nm - b.nm).slice(0, 3); nearest = rows.length > 0; }
+    if (!rows.length) { rows = all.filter(s => fits(s) && (want ? s.meals.includes(want) : s.meals.some(m => m !== 'Dinner'))).sort((a, b) => a.nm - b.nm).slice(0, 3); nearest = rows.length > 0; }
     status.textContent = rows.length + (rows.length === 1 ? ' place' : ' places') + ' from ' + home[0] + ' · ' + home[2] + ', ' + home[3] + ', ' + home[4] +
       (aircraft ? ' · using your ' + aircraft.label + ' profile' : ' · 150 KTAS default') + '.';
     if (gear !== 'land') list.append(el('div', 'lunch-empty water-note', (gear === 'float' ? 'Floatplane: showing dock-and-dine spots near a public-use seaplane base only. ' : 'Amphibian: runway spots plus dock-and-dine spots near a public-use seaplane base. ') + 'This list is new and small; water rules, docks and hours change, so call the base and the restaurant first.'));
