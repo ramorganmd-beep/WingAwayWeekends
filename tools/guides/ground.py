@@ -8,6 +8,7 @@ town is, and whether a downtown weekend works without a rental car. Pilot perks
 the month it was checked and a reminder to call the FBO, because crew cars and
 perks change often. Idempotent: the block sits between <!--wa-ground--> markers.
 """
+import json
 import re
 import sys
 from pathlib import Path
@@ -161,7 +162,18 @@ NEEDS_CAR = re.compile(r'rental|\bcar\b', re.I)
 NO_CAR = re.compile(r'walk|shuttle|rideshare|\bride\b|pickup|transfer|uber|lyft|taxi|trolley|bike|golf cart|boat|ferry|van|tram|resort', re.I)
 
 
-def auto_block(s):
+RIDES = json.load(open(Path(__file__).with_name('rideshare.json')))['guides']
+
+
+def rideshare(slug):
+    r = RIDES.get(slug)
+    if not r:
+        return ''
+    who = 'Uber and Lyft both list' if r['uber'] and r['lyft'] else ('Uber lists' if r['uber'] else 'Lyft lists')
+    return f"{who} service in {r['town']}; drivers can be few near a small airport, so ask the FBO"
+
+
+def auto_block(s, slug=''):
     """A plainer box for guides without hand-checked details, built from what the guide already says."""
     m = re.search(r'<div class="fbo"><div><strong>([^<]+)</strong>.*?</div>(?:<a href="(tel:[^"]+)">([^<]+)</a>)?', s, re.S)
     t = re.search(r'data-transport="([^"]+)"', s) or re.search(r'WEEKEND STYLE</span><strong[^>]*>[^<]*<small>· ([^<]+)</small>', s)
@@ -177,7 +189,8 @@ def auto_block(s):
     else:
         norental = ''
     rows = [('Crew car', 'Ask when you call the FBO ahead'),
-            ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee')]
+            ('Rental car', 'Ask the FBO which companies deliver there, and about any delivery fee'),
+            ('Rideshare', rideshare(slug))]
     dl = ''.join(f'<dt>{k}</dt><dd>{esc(v)}</dd>' for k, v in rows if v)
     return ('<!--wa-ground-->' + STYLE + '<div class="wa-ground" aria-label="Getting into town"><h3>Getting into town</h3>'
             f'<dl>{dl}</dl>'
@@ -200,7 +213,7 @@ def main(paths):
         if k < 0:
             print('ground: skipped (no aviation section):', p)
             continue
-        b = block(GROUND[key]) if key in GROUND else auto_block(s)
+        b = block(GROUND[key]) if key in GROUND else auto_block(s, key)
         if not b:
             print('ground: skipped (no FBO or transport found):', p)
             continue

@@ -1,0 +1,1196 @@
+{
+ "checked": "Nov 2026",
+ "source": "Uber and Lyft city listings on their own websites",
+ "guides": {
+  "savannah": {
+   "town": "Savannah",
+   "uber": true,
+   "lyft": true
+  },
+  "charleston": {
+   "town": "Charleston",
+   "uber": true,
+   "lyft": true
+  },
+  "asheville": {
+   "town": "Asheville",
+   "uber": true,
+   "lyft": true
+  },
+  "pinehurst": {
+   "town": "Pinehurst",
+   "uber": true,
+   "lyft": false
+  },
+  "beaufort": {
+   "town": "Beaufort",
+   "uber": true,
+   "lyft": false
+  },
+  "greenville": {
+   "town": "Greenville",
+   "uber": true,
+   "lyft": true
+  },
+  "charlottesville": {
+   "town": "Charlottesville",
+   "uber": true,
+   "lyft": true
+  },
+  "nashville": {
+   "town": "Nashville",
+   "uber": false,
+   "lyft": true
+  },
+  "outer-banks": {
+   "town": "Outer Banks",
+   "uber": false,
+   "lyft": true
+  },
+  "yadkin-valley": {
+   "town": "Elkin",
+   "uber": true,
+   "lyft": false
+  },
+  "hunt-country": {
+   "town": "Middleburg",
+   "uber": true,
+   "lyft": false
+  },
+  "dahlonega": {
+   "town": "Dahlonega",
+   "uber": true,
+   "lyft": true
+  },
+  "gulf-shores": {
+   "town": "Gulf Shores",
+   "uber": true,
+   "lyft": false
+  },
+  "chattanooga": {
+   "town": "Chattanooga",
+   "uber": false,
+   "lyft": true
+  },
+  "lake-lure": {
+   "town": "Lake Lure",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-keowee": {
+   "town": "Seneca",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-lanier": {
+   "town": "Gainesville",
+   "uber": true,
+   "lyft": false
+  },
+  "harpers-ferry": {
+   "town": "Harpers Ferry",
+   "uber": true,
+   "lyft": false
+  },
+  "hilton-head": {
+   "town": "Hilton Head Island",
+   "uber": true,
+   "lyft": false
+  },
+  "highlands-cashiers": {
+   "town": "Highlands",
+   "uber": true,
+   "lyft": false
+  },
+  "cape-may": {
+   "town": "Cape May",
+   "uber": true,
+   "lyft": false
+  },
+  "shenandoah": {
+   "town": "Luray",
+   "uber": true,
+   "lyft": false
+  },
+  "homestead": {
+   "town": "Hot Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "greenbrier": {
+   "town": "White Sulphur Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "newport": {
+   "town": "Newport",
+   "uber": true,
+   "lyft": true
+  },
+  "nantucket": {
+   "town": "Nantucket",
+   "uber": true,
+   "lyft": false
+  },
+  "bar-harbor": {
+   "town": "Bar Harbor",
+   "uber": true,
+   "lyft": false
+  },
+  "stowe": {
+   "town": "Stowe",
+   "uber": true,
+   "lyft": false
+  },
+  "saratoga": {
+   "town": "Saratoga Springs",
+   "uber": true,
+   "lyft": true
+  },
+  "gettysburg": {
+   "town": "Gettysburg",
+   "uber": true,
+   "lyft": false
+  },
+  "lancaster": {
+   "town": "Lancaster",
+   "uber": true,
+   "lyft": true
+  },
+  "hudson-valley": {
+   "town": "Rhinebeck",
+   "uber": true,
+   "lyft": false
+  },
+  "mystic": {
+   "town": "Mystic",
+   "uber": true,
+   "lyft": false
+  },
+  "portsmouth": {
+   "town": "Portsmouth",
+   "uber": true,
+   "lyft": true
+  },
+  "kennebunkport": {
+   "town": "Kennebunkport",
+   "uber": true,
+   "lyft": false
+  },
+  "berkshires": {
+   "town": "Lenox",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-placid": {
+   "town": "Lake Placid",
+   "uber": true,
+   "lyft": false
+  },
+  "marthas-vineyard": {
+   "town": "Edgartown",
+   "uber": true,
+   "lyft": false
+  },
+  "bardstown": {
+   "town": "Bardstown",
+   "uber": true,
+   "lyft": true
+  },
+  "dayton": {
+   "town": "Dayton",
+   "uber": true,
+   "lyft": true
+  },
+  "galena": {
+   "town": "Galena",
+   "uber": true,
+   "lyft": false
+  },
+  "branson": {
+   "town": "Branson",
+   "uber": true,
+   "lyft": true
+  },
+  "lake-ozarks": {
+   "town": "Osage Beach",
+   "uber": true,
+   "lyft": false
+  },
+  "hot-springs": {
+   "town": "Hot Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "bentonville": {
+   "town": "Bentonville",
+   "uber": true,
+   "lyft": true
+  },
+  "eureka-springs": {
+   "town": "Eureka Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "duluth": {
+   "town": "Duluth",
+   "uber": true,
+   "lyft": true
+  },
+  "naples": {
+   "town": "Naples",
+   "uber": false,
+   "lyft": true
+  },
+  "fredericksburg": {
+   "town": "Fredericksburg",
+   "uber": true,
+   "lyft": false
+  },
+  "san-antonio": {
+   "town": "San Antonio",
+   "uber": true,
+   "lyft": true
+  },
+  "fort-worth": {
+   "town": "Fort Worth",
+   "uber": true,
+   "lyft": false
+  },
+  "galveston": {
+   "town": "Galveston",
+   "uber": true,
+   "lyft": true
+  },
+  "new-orleans": {
+   "town": "New Orleans",
+   "uber": true,
+   "lyft": true
+  },
+  "space-coast": {
+   "town": "Titusville",
+   "uber": false,
+   "lyft": true
+  },
+  "carlsbad": {
+   "town": "Carlsbad",
+   "uber": true,
+   "lyft": true
+  },
+  "fort-lauderdale": {
+   "town": "Fort Lauderdale",
+   "uber": false,
+   "lyft": true
+  },
+  "st-petersburg": {
+   "town": "St. Petersburg",
+   "uber": false,
+   "lyft": true
+  },
+  "myrtle-beach": {
+   "town": "Myrtle Beach",
+   "uber": true,
+   "lyft": true
+  },
+  "smith-mountain-lake": {
+   "town": "Moneta",
+   "uber": true,
+   "lyft": false
+  },
+  "missoula": {
+   "town": "Missoula",
+   "uber": true,
+   "lyft": true
+  },
+  "elkins": {
+   "town": "Elkins",
+   "uber": true,
+   "lyft": false
+  },
+  "chincoteague": {
+   "town": "Chincoteague",
+   "uber": true,
+   "lyft": false
+  },
+  "thousand-islands": {
+   "town": "Clayton",
+   "uber": true,
+   "lyft": false
+  },
+  "cooperstown": {
+   "town": "Cooperstown",
+   "uber": true,
+   "lyft": false
+  },
+  "provincetown": {
+   "town": "Provincetown",
+   "uber": true,
+   "lyft": false
+  },
+  "williamsburg": {
+   "town": "Williamsburg",
+   "uber": true,
+   "lyft": false
+  },
+  "lubbock": {
+   "town": "Lubbock",
+   "uber": true,
+   "lyft": true
+  },
+  "guthrie": {
+   "town": "Guthrie",
+   "uber": true,
+   "lyft": false
+  },
+  "callaway-gardens": {
+   "town": "Pine Mountain",
+   "uber": true,
+   "lyft": false
+  },
+  "thomasville": {
+   "town": "Thomasville",
+   "uber": true,
+   "lyft": true
+  },
+  "brainerd-lakes": {
+   "town": "Nisswa",
+   "uber": true,
+   "lyft": false
+  },
+  "southport": {
+   "town": "Southport",
+   "uber": true,
+   "lyft": false
+  },
+  "hermann": {
+   "town": "Hermann",
+   "uber": true,
+   "lyft": false
+  },
+  "frankenmuth": {
+   "town": "Frankenmuth",
+   "uber": true,
+   "lyft": false
+  },
+  "marquette": {
+   "town": "Marquette",
+   "uber": true,
+   "lyft": true
+  },
+  "red-lodge": {
+   "town": "Red Lodge",
+   "uber": true,
+   "lyft": true
+  },
+  "bear-lake": {
+   "town": "Garden City",
+   "uber": true,
+   "lyft": false
+  },
+  "round-top": {
+   "town": "Round Top",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-havasu": {
+   "town": "Lake Havasu City",
+   "uber": true,
+   "lyft": true
+  },
+  "payson": {
+   "town": "Payson",
+   "uber": true,
+   "lyft": false
+  },
+  "wickenburg": {
+   "town": "Wickenburg",
+   "uber": true,
+   "lyft": true
+  },
+  "ojai": {
+   "town": "Ojai",
+   "uber": true,
+   "lyft": false
+  },
+  "big-bear": {
+   "town": "Big Bear Lake",
+   "uber": true,
+   "lyft": false
+  },
+  "temecula": {
+   "town": "Temecula",
+   "uber": true,
+   "lyft": false
+  },
+  "solvang": {
+   "town": "Solvang",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-chelan": {
+   "town": "Chelan",
+   "uber": true,
+   "lyft": false
+  },
+  "leavenworth": {
+   "town": "Leavenworth",
+   "uber": true,
+   "lyft": false
+  },
+  "walla-walla": {
+   "town": "Walla Walla",
+   "uber": true,
+   "lyft": false
+  },
+  "seattle": {
+   "town": "Seattle",
+   "uber": true,
+   "lyft": true
+  },
+  "sheridan": {
+   "town": "Sheridan",
+   "uber": true,
+   "lyft": true
+  },
+  "cody": {
+   "town": "Cody",
+   "uber": true,
+   "lyft": true
+  },
+  "sandpoint": {
+   "town": "Sandpoint",
+   "uber": true,
+   "lyft": false
+  },
+  "mccall": {
+   "town": "McCall",
+   "uber": true,
+   "lyft": false
+  },
+  "granbury": {
+   "town": "Granbury",
+   "uber": true,
+   "lyft": false
+  },
+  "waco": {
+   "town": "Waco",
+   "uber": true,
+   "lyft": false
+  },
+  "new-braunfels": {
+   "town": "New Braunfels",
+   "uber": true,
+   "lyft": false
+  },
+  "palo-duro-canyon": {
+   "town": "Canyon",
+   "uber": true,
+   "lyft": false
+  },
+  "jefferson": {
+   "town": "Jefferson",
+   "uber": true,
+   "lyft": false
+  },
+  "port-aransas": {
+   "town": "Port Aransas",
+   "uber": true,
+   "lyft": false
+  },
+  "horseshoe-bay": {
+   "town": "Horseshoe Bay",
+   "uber": true,
+   "lyft": false
+  },
+  "austin": {
+   "town": "Austin",
+   "uber": true,
+   "lyft": true
+  },
+  "white-sands": {
+   "town": "Alamogordo",
+   "uber": true,
+   "lyft": false
+  },
+  "ruidoso": {
+   "town": "Ruidoso",
+   "uber": true,
+   "lyft": false
+  },
+  "albuquerque": {
+   "town": "Albuquerque",
+   "uber": true,
+   "lyft": true
+  },
+  "taos": {
+   "town": "Taos",
+   "uber": true,
+   "lyft": true
+  },
+  "prescott": {
+   "town": "Prescott",
+   "uber": true,
+   "lyft": true
+  },
+  "grand-canyon": {
+   "town": "Grand Canyon Village",
+   "uber": true,
+   "lyft": false
+  },
+  "bisbee": {
+   "town": "Bisbee",
+   "uber": true,
+   "lyft": false
+  },
+  "tucson": {
+   "town": "Tucson",
+   "uber": true,
+   "lyft": true
+  },
+  "scottsdale": {
+   "town": "Scottsdale",
+   "uber": true,
+   "lyft": true
+  },
+  "eugene": {
+   "town": "Eugene",
+   "uber": true,
+   "lyft": true
+  },
+  "zion": {
+   "town": "Springdale",
+   "uber": true,
+   "lyft": false
+  },
+  "park-city": {
+   "town": "Park City",
+   "uber": true,
+   "lyft": true
+  },
+  "crested-butte": {
+   "town": "Crested Butte",
+   "uber": true,
+   "lyft": false
+  },
+  "estes-park": {
+   "town": "Estes Park",
+   "uber": true,
+   "lyft": false
+  },
+  "colorado-springs": {
+   "town": "Colorado Springs",
+   "uber": true,
+   "lyft": true
+  },
+  "steamboat-springs": {
+   "town": "Steamboat Springs",
+   "uber": true,
+   "lyft": true
+  },
+  "durango": {
+   "town": "Durango",
+   "uber": true,
+   "lyft": false
+  },
+  "telluride": {
+   "town": "Telluride",
+   "uber": true,
+   "lyft": true
+  },
+  "kauai": {
+   "town": "Lihue",
+   "uber": false,
+   "lyft": true
+  },
+  "ashland": {
+   "town": "Ashland",
+   "uber": true,
+   "lyft": true
+  },
+  "crater-lake": {
+   "town": "Klamath Falls",
+   "uber": true,
+   "lyft": false
+  },
+  "mount-shasta": {
+   "town": "Mount Shasta",
+   "uber": true,
+   "lyft": false
+  },
+  "redwood-coast": {
+   "town": "Eureka",
+   "uber": true,
+   "lyft": true
+  },
+  "reno-virginia-city": {
+   "town": "Reno",
+   "uber": false,
+   "lyft": true
+  },
+  "las-vegas": {
+   "town": "Las Vegas",
+   "uber": false,
+   "lyft": true
+  },
+  "fairbanks": {
+   "town": "Fairbanks",
+   "uber": true,
+   "lyft": true
+  },
+  "juneau": {
+   "town": "Juneau",
+   "uber": true,
+   "lyft": true
+  },
+  "ketchikan": {
+   "town": "Ketchikan",
+   "uber": true,
+   "lyft": false
+  },
+  "seward": {
+   "town": "Seward",
+   "uber": true,
+   "lyft": false
+  },
+  "homer": {
+   "town": "Homer",
+   "uber": false,
+   "lyft": true
+  },
+  "oregon-coast": {
+   "town": "Cannon Beach",
+   "uber": true,
+   "lyft": false
+  },
+  "willamette-valley": {
+   "town": "McMinnville",
+   "uber": true,
+   "lyft": false
+  },
+  "hood-river": {
+   "town": "Hood River",
+   "uber": true,
+   "lyft": false
+  },
+  "san-juan-islands": {
+   "town": "Friday Harbor",
+   "uber": true,
+   "lyft": false
+  },
+  "san-francisco": {
+   "town": "San Francisco",
+   "uber": true,
+   "lyft": true
+  },
+  "mendocino": {
+   "town": "Mendocino",
+   "uber": true,
+   "lyft": false
+  },
+  "lake-tahoe": {
+   "town": "Tahoe City",
+   "uber": true,
+   "lyft": false
+  },
+  "napa-sonoma": {
+   "town": "Yountville",
+   "uber": true,
+   "lyft": false
+  },
+  "yosemite": {
+   "town": "Mariposa",
+   "uber": true,
+   "lyft": false
+  },
+  "paso-robles": {
+   "town": "Paso Robles",
+   "uber": true,
+   "lyft": true
+  },
+  "san-diego": {
+   "town": "Coronado",
+   "uber": true,
+   "lyft": false
+  },
+  "palm-springs": {
+   "town": "Palm Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "santa-barbara": {
+   "town": "Santa Barbara",
+   "uber": true,
+   "lyft": true
+  },
+  "bozeman-big-sky": {
+   "town": "Bozeman",
+   "uber": true,
+   "lyft": true
+  },
+  "glacier-whitefish": {
+   "town": "Whitefish",
+   "uber": true,
+   "lyft": true
+  },
+  "bowling-green": {
+   "town": "Bowling Green",
+   "uber": true,
+   "lyft": true
+  },
+  "sedona": {
+   "town": "Sedona",
+   "uber": true,
+   "lyft": false
+  },
+  "moab": {
+   "town": "Moab",
+   "uber": true,
+   "lyft": false
+  },
+  "sun-valley": {
+   "town": "Ketchum",
+   "uber": true,
+   "lyft": false
+  },
+  "jackson-hole": {
+   "town": "Jackson",
+   "uber": true,
+   "lyft": true
+  },
+  "santa-fe": {
+   "town": "Santa Fe",
+   "uber": true,
+   "lyft": true
+  },
+  "aspen": {
+   "town": "Aspen",
+   "uber": true,
+   "lyft": true
+  },
+  "havre-de-grace": {
+   "town": "Havre de Grace",
+   "uber": true,
+   "lyft": false
+  },
+  "okoboji": {
+   "town": "Okoboji",
+   "uber": true,
+   "lyft": false
+  },
+  "des-moines": {
+   "town": "Des Moines",
+   "uber": true,
+   "lyft": true
+  },
+  "dubuque": {
+   "town": "Dubuque",
+   "uber": true,
+   "lyft": true
+  },
+  "amana-colonies": {
+   "town": "Amana",
+   "uber": true,
+   "lyft": false
+  },
+  "rehoboth-lewes": {
+   "town": "Rehoboth Beach",
+   "uber": true,
+   "lyft": true
+  },
+  "bethany-beach": {
+   "town": "Bethany Beach",
+   "uber": true,
+   "lyft": false
+  },
+  "brandywine-valley": {
+   "town": "Wilmington",
+   "uber": true,
+   "lyft": false
+  },
+  "dover-de": {
+   "town": "Dover",
+   "uber": true,
+   "lyft": true
+  },
+  "tulsa": {
+   "town": "Tulsa",
+   "uber": true,
+   "lyft": true
+  },
+  "oklahoma-city": {
+   "town": "Oklahoma City",
+   "uber": true,
+   "lyft": true
+  },
+  "broken-bow": {
+   "town": "Broken Bow",
+   "uber": true,
+   "lyft": false
+  },
+  "twin-cities": {
+   "town": "Minneapolis",
+   "uber": true,
+   "lyft": false
+  },
+  "stillwater": {
+   "town": "Stillwater",
+   "uber": true,
+   "lyft": false
+  },
+  "minocqua": {
+   "town": "Minocqua",
+   "uber": true,
+   "lyft": false
+  },
+  "elkhart-lake": {
+   "town": "Elkhart Lake",
+   "uber": true,
+   "lyft": false
+  },
+  "wisconsin-dells": {
+   "town": "Wisconsin Dells",
+   "uber": true,
+   "lyft": false
+  },
+  "bedford-springs": {
+   "town": "Bedford",
+   "uber": true,
+   "lyft": false
+  },
+  "laurel-highlands": {
+   "town": "Ligonier",
+   "uber": true,
+   "lyft": false
+  },
+  "pittsburgh": {
+   "town": "Pittsburgh",
+   "uber": true,
+   "lyft": true
+  },
+  "pine-creek-gorge": {
+   "town": "Wellsboro",
+   "uber": true,
+   "lyft": false
+  },
+  "hershey": {
+   "town": "Hershey",
+   "uber": true,
+   "lyft": false
+  },
+  "erie": {
+   "town": "Erie",
+   "uber": true,
+   "lyft": true
+  },
+  "hocking-hills": {
+   "town": "Logan",
+   "uber": true,
+   "lyft": false
+  },
+  "cleveland": {
+   "town": "Cleveland",
+   "uber": true,
+   "lyft": true
+  },
+  "indianapolis": {
+   "town": "Indianapolis",
+   "uber": false,
+   "lyft": true
+  },
+  "chicago": {
+   "town": "Chicago",
+   "uber": true,
+   "lyft": true
+  },
+  "starved-rock": {
+   "town": "Utica",
+   "uber": true,
+   "lyft": false
+  },
+  "madison": {
+   "town": "Madison",
+   "uber": true,
+   "lyft": true
+  },
+  "lake-geneva": {
+   "town": "Lake Geneva",
+   "uber": true,
+   "lyft": false
+  },
+  "kohler": {
+   "town": "Kohler",
+   "uber": true,
+   "lyft": false
+  },
+  "harbor-springs": {
+   "town": "Harbor Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "saugatuck": {
+   "town": "Saugatuck",
+   "uber": true,
+   "lyft": false
+  },
+  "traverse-city": {
+   "town": "Traverse City",
+   "uber": true,
+   "lyft": true
+  },
+  "lindsborg": {
+   "town": "Lindsborg",
+   "uber": true,
+   "lyft": false
+  },
+  "lawrence": {
+   "town": "Lawrence",
+   "uber": true,
+   "lyft": true
+  },
+  "wichita": {
+   "town": "Wichita",
+   "uber": true,
+   "lyft": true
+  },
+  "lincoln-ne": {
+   "town": "Lincoln",
+   "uber": true,
+   "lyft": true
+  },
+  "omaha": {
+   "town": "Omaha",
+   "uber": true,
+   "lyft": true
+  },
+  "bismarck": {
+   "town": "Bismarck",
+   "uber": true,
+   "lyft": true
+  },
+  "fargo": {
+   "town": "Fargo",
+   "uber": true,
+   "lyft": true
+  },
+  "sioux-falls": {
+   "town": "Sioux Falls",
+   "uber": true,
+   "lyft": true
+  },
+  "deadwood": {
+   "town": "Deadwood",
+   "uber": true,
+   "lyft": false
+  },
+  "black-hills": {
+   "town": "Custer",
+   "uber": true,
+   "lyft": false
+  },
+  "north-conway": {
+   "town": "North Conway",
+   "uber": true,
+   "lyft": true
+  },
+  "lake-winnipesaukee": {
+   "town": "Meredith",
+   "uber": true,
+   "lyft": true
+  },
+  "burlington-vt": {
+   "town": "Burlington",
+   "uber": true,
+   "lyft": true
+  },
+  "woodstock-vt": {
+   "town": "Woodstock",
+   "uber": true,
+   "lyft": false
+  },
+  "atlantic-city": {
+   "town": "Atlantic City",
+   "uber": true,
+   "lyft": true
+  },
+  "asbury-park": {
+   "town": "Asbury Park",
+   "uber": true,
+   "lyft": false
+  },
+  "essex-ct": {
+   "town": "Essex",
+   "uber": true,
+   "lyft": false
+  },
+  "new-haven": {
+   "town": "New Haven",
+   "uber": true,
+   "lyft": true
+  },
+  "providence": {
+   "town": "Providence",
+   "uber": true,
+   "lyft": true
+  },
+  "princeton": {
+   "town": "Princeton",
+   "uber": true,
+   "lyft": false
+  },
+  "chatham": {
+   "town": "Chatham",
+   "uber": true,
+   "lyft": false
+  },
+  "portland-maine": {
+   "town": "Portland",
+   "uber": true,
+   "lyft": true
+  },
+  "camden": {
+   "town": "Camden",
+   "uber": true,
+   "lyft": false
+  },
+  "poconos": {
+   "town": "Mount Pocono",
+   "uber": true,
+   "lyft": false
+  },
+  "bucks-county": {
+   "town": "New Hope",
+   "uber": true,
+   "lyft": false
+  },
+  "finger-lakes": {
+   "town": "Ithaca",
+   "uber": true,
+   "lyft": true
+  },
+  "paducah": {
+   "town": "Paducah",
+   "uber": true,
+   "lyft": false
+  },
+  "louisville": {
+   "town": "Louisville",
+   "uber": true,
+   "lyft": true
+  },
+  "lexington": {
+   "town": "Lexington",
+   "uber": true,
+   "lyft": true
+  },
+  "berkeley-springs": {
+   "town": "Berkeley Springs",
+   "uber": true,
+   "lyft": false
+  },
+  "new-river-gorge": {
+   "town": "Fayetteville",
+   "uber": true,
+   "lyft": false
+  },
+  "deep-creek-lake": {
+   "town": "Oakland",
+   "uber": true,
+   "lyft": false
+  },
+  "ocean-city": {
+   "town": "Ocean City",
+   "uber": true,
+   "lyft": true
+  },
+  "annapolis": {
+   "town": "Annapolis",
+   "uber": true,
+   "lyft": false
+  },
+  "kansas-city": {
+   "town": "Kansas City",
+   "uber": true,
+   "lyft": true
+  },
+  "little-rock": {
+   "town": "Little Rock",
+   "uber": true,
+   "lyft": true
+  },
+  "natchitoches": {
+   "town": "Natchitoches",
+   "uber": true,
+   "lyft": false
+  },
+  "clarksdale": {
+   "town": "Clarksdale",
+   "uber": true,
+   "lyft": false
+  },
+  "memphis": {
+   "town": "Memphis",
+   "uber": false,
+   "lyft": true
+  },
+  "birmingham": {
+   "town": "Birmingham",
+   "uber": true,
+   "lyft": true
+  },
+  "lake-martin": {
+   "town": "Dadeville",
+   "uber": true,
+   "lyft": false
+  },
+  "huntsville": {
+   "town": "Huntsville",
+   "uber": true,
+   "lyft": true
+  },
+  "fairhope": {
+   "town": "Fairhope",
+   "uber": true,
+   "lyft": false
+  },
+  "lafayette": {
+   "town": "Lafayette",
+   "uber": true,
+   "lyft": true
+  },
+  "st-francisville": {
+   "town": "St. Francisville",
+   "uber": true,
+   "lyft": false
+  },
+  "oxford": {
+   "town": "Oxford",
+   "uber": true,
+   "lyft": true
+  },
+  "natchez": {
+   "town": "Natchez",
+   "uber": true,
+   "lyft": false
+  },
+  "south-padre": {
+   "town": "South Padre Island",
+   "uber": true,
+   "lyft": false
+  },
+  "marfa": {
+   "town": "Marfa",
+   "uber": true,
+   "lyft": true
+  },
+  "plymouth": {
+   "town": "Plymouth",
+   "uber": true,
+   "lyft": false
+  },
+  "knoxville": {
+   "town": "Knoxville",
+   "uber": false,
+   "lyft": true
+  }
+ }
+}
