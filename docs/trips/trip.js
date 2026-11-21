@@ -86,15 +86,18 @@ function regionHTML(home){const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r
   return '<div class="tp-reg"><b>Not sure where to start? Pick a region:</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg"></div></div>';}
 function showRegion(r){const home=lookup($('home').value)||lookup('KMYR');const list=NE.filter(d=>d.region===r).map(d=>[d,nm(home,d)]).filter(x=>x[1]>=40).sort((a,b)=>a[1]-b[1]).slice(0,10);
   $('tp-sugg').innerHTML='<p>'+esc(r)+', closest first from '+esc(home.code)+'. Tap one to make it your first stop:</p><div>'+list.map(([d])=>sugBtn(d,'data-first="1"',home)).join('')+'</div>';
-  document.querySelectorAll('[data-reg]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));}
-function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
+  document.querySelectorAll('[data-reg]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
+  cand=list.map(x=>x[0]);candFirst=true;drawMap(lastL);}
+function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
 function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+'</li>';
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
-function drawMap(L){if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
-  const H=startHome()||!stops.length;const pts=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);if(!pts.length)return;
+let cand=[],candFirst=false,lastL=[];
+function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
+  if(CUSTOM&&!candFirst){const last=stops.length?BY[stops[stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
+  const H=startHome()||!stops.length;const pts0=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);const pts=pts0.concat(cand);if(!pts.length)return;
   const box=pts.length>1?pts:[{lon:pts[0].lon-6,lat:pts[0].lat-4},{lon:pts[0].lon+6,lat:pts[0].lat+4}];
   const fc={type:'FeatureCollection',features:box.map(p=>({type:'Feature',geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
   const lo=d3.extent(box,p=>p.lon),la=d3.extent(box,p=>p.lat);const proj=d3.geoConicConformal().parallels([la[0],la[1]+0.01]).rotate([-(lo[0]+lo[1])/2,0]).fitExtent([[40,40],[860,580]],fc);const path=d3.geoPath(proj);
@@ -106,7 +109,11 @@ function drawMap(L){if(!states)return;const svg=d3.select('#m');svg.selectAll('*
     g.append('text').attr('x',p[0]).attr('y',p[1]+4).attr('text-anchor','middle').text(i+1);
     const crowd=stops.some((o,j)=>{if(j===i)return false;const q=proj([BY[o.slug].lon,BY[o.slug].lat]);return q[0]>p[0]&&q[0]-p[0]<120&&Math.abs(q[1]-p[1])<16;});
     g.append('text').attr('class','nm').attr('x',crowd?p[0]-14:p[0]+14).attr('y',p[1]+4).attr('text-anchor',crowd?'end':'start').text(d.name.replace(/ & .*|,.*/,''));});
+  cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
+    .on('click',()=>addCand(SLUG(d))).on('keydown',e=>{if(e.key==='Enter')addCand(SLUG(d))});
+    a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',8);a.append('text').attr('class','nm cn').attr('x',p[0]+12).attr('y',p[1]+4).text('+ '+short(d));});
 }
+function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.push({slug,nights:1,alts:nearAlts(slug)});candFirst=false;draw();}
 // Controls
 const acSel=$('ac');const saved=A.load();
 acSel.innerHTML=(saved?'<option value="saved">My aircraft: '+esc(saved.label)+'</option>':'')+'<option value="default">Default (150 kt, no fuel check)</option>'+A.PRESETS.filter(p=>p.gear==='land').map(p=>'<option value="'+p.id+'">'+esc(p.label)+'</option>').join('');
@@ -114,6 +121,7 @@ const pref=['pa28','sr22'].find(id=>A.PRESETS.some(p=>p.id===id));acSel.value=sa
 let hc='';try{hc=localStorage.getItem('wingaway-home')||''}catch(e){}$('home').value=hc||'KMYR';
 if(window.WingAwaySuggest)WingAwaySuggest($('home'),$('home-list'),AP);
 (function(){let d=addDays(new Date(),7);for(let k=0;k<400&&!DEF.includes(d.getMonth()+1);k++)d=addDays(d,1);while(d.getDay()!==5)d=addDays(d,1);$('start').value=ymd(d);})();
+if(CUSTOM){const mp=document.querySelector('.tp-map'),dl=$('days');if(mp&&dl)dl.after(mp);}
 defaults();fromURL();
 ['home','start','ac','pace','mode'].forEach(id=>$(id).addEventListener('change',draw));
 $('days').addEventListener('change',e=>{const t=e.target;
@@ -126,7 +134,7 @@ let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
   inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
-$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg);return;}if(q.dataset.addslug){const slug=q.dataset.addslug;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
+$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg);return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
