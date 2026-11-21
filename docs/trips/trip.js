@@ -54,7 +54,7 @@ function draw(){
   const nights=stops.reduce((s,x)=>s+x.nights,0),totNm=L.reduce((s,l)=>s+l.d,0),totH=L.reduce((s,l)=>s+l.e.hours,0),fuel=L.filter(l=>l.e.stop).length;
   $('sum').innerHTML='<span><b>'+nights+'</b> nights · <b>'+stops.length+'</b> stop'+(stops.length===1?'':'s')+'</span><span><b>'+Math.round(totNm).toLocaleString()+'</b> nm total</span><span>About <b>'+A.formatTime(totH)+'</b> flying</span><span><b>'+fuel+'</b> leg'+(fuel===1?'':'s')+' likely need'+(fuel===1?'s':'')+' a fuel stop</span><span>'+esc(A.summary(profile()))+'</span>';
   if(!stops.length){$('sum').innerHTML='<span>Start by choosing your first stop below.</span><span>'+esc(A.summary(profile()))+'</span>';
-    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first">'+pickHTML('first',0,home,'Choose your first stop:')+'<p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p></li>';
+    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first">'+pickHTML('first',0,home,'Choose your first stop:')+'<p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p>'+regionHTML(home)+'</li>';
     drawMap([]);toURL();return;}
   const H=startHome();let day=start,html=H?'<li class="tp-home">Day 1 · '+fmtDate(day)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li>':'<li class="tp-home">Day 1 · '+fmtDate(day)+': trip starts at '+esc(BY[stops[0].slug].name)+' ('+esc(BY[stops[0].slug].airport)+')</li>';
   stops.forEach((s,i)=>{const d=BY[s.slug],l=H?L[i]:L[i-1];
@@ -78,7 +78,18 @@ function legHTML(l,dt){const p=profile();let w='';
   if(l.long)w+=' <span class="tp-warn">Longer than your daily limit; plan an overnight on the way'+((l.a===home||l.b===home)?', or set “Trip starts” to the first stop':'')+'.</span>';
   return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+(dt?' <a class="tp-wx" href="../../wx/?'+new URLSearchParams({from:l.a.code||l.a.airport,to:l.b.code||l.b.airport,dep:ymd(dt)+'T10:00',ret:''})+'">Weather for this leg →</a>':'')+'</span></li>';}
 function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat,lng:d.lon,address:d.name.replace(/ & .*|,.*/,'')+', '+d.state,checkin:ymd(a),checkout:ymd(b),campaign:'trip-'+T.id});return 'https://www.stay22.com/allez/roam?'+q.toString();}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+'</li>';
+
+// Quick-start helpers for "Build your own": region buttons and nearby-stop buttons.
+const short=d=>d.name.replace(/ & .*|,.*/,'');
+function sugBtn(d,attrs,from){return '<button type="button" class="tp-q" '+attrs+' data-addslug="'+SLUG(d)+'">+ '+esc(short(d))+' <small>'+Math.round(nm(from,d))+' nm</small></button>';}
+function regionHTML(home){const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r,Math.min(...NE.filter(d=>d.region===r).map(d=>nm(home,d)))]).sort((a,b)=>a[1]-b[1]);
+  return '<div class="tp-reg"><b>Not sure where to start? Pick a region:</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg"></div></div>';}
+function showRegion(r){const home=lookup($('home').value)||lookup('KMYR');const list=NE.filter(d=>d.region===r).map(d=>[d,nm(home,d)]).filter(x=>x[1]>=40).sort((a,b)=>a[1]-b[1]).slice(0,10);
+  $('tp-sugg').innerHTML='<p>'+esc(r)+', closest first from '+esc(home.code)+'. Tap one to make it your first stop:</p><div>'+list.map(([d])=>sugBtn(d,'data-first="1"',home)).join('')+'</div>';
+  document.querySelectorAll('[data-reg]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));}
+function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
+  return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+'</li>';
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
@@ -115,7 +126,7 @@ let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
   inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
-$('days').addEventListener('click',e=>{const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
+$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg);return;}if(q.dataset.addslug){const slug=q.dataset.addslug;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
