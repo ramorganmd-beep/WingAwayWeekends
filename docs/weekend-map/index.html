@@ -106,10 +106,11 @@ function bbox(pts){let x0=180,x1=-180,y0=90,y1=-90;pts.forEach(d=>{x0=Math.min(x
 function setButtons(){
   $('days').innerHTML=days.map(d=>'<button type="button" data-k="'+d.key+'" aria-pressed="'+(d.key===dayKey)+'">'+d.name+'</button>').join('');
   [...$('times').children].forEach(b=>b.setAttribute('aria-pressed',+b.dataset.h===hour));{const M=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],sp=ds=>{const x=ds[0].key.split('-').map(Number),y=ds[ds.length-1].key.split('-').map(Number);return M[x[1]-1]+' '+x[2]+(ds.length>1?'–'+(y[1]!==x[1]?M[y[1]-1]+' ':'')+y[2]:'')},h0=homeApt(),lo=h0?h0.lon:-80,keep=NEXT;NEXT=false;const t1=sp(weekend(lo));NEXT=true;const t2=sp(weekend(lo));NEXT=keep;const bs=$('wks').children;bs[0].textContent=t1;bs[1].textContent=t2;}[...$('wks').children].forEach(b=>b.setAttribute('aria-pressed',(b.dataset.wk==='next')===NEXT));}
-let tok=0;
+let tok=0,autoT=false;
 async function draw(){
   if(!states||!RUN)return;const my=++tok,r=$('region').value,h=homeApt();
-  days=weekend(h?h.lon:-80);if(!days.some(d=>d.key===dayKey))dayKey=days[0].key;setButtons();
+  days=weekend(h?h.lon:-80);if(!days.some(d=>d.key===dayKey))dayKey=days[0].key;
+  if(!autoT&&!q.has('t')&&days[0].name==='Today'&&dayKey===days[0].key){const lh=local(Date.now(),h?h.lon:-80).getUTCHours();if(lh>=10)hour=lh>=13?15:12}autoT=true;setButtons();
   {const td=$('tab-dest');if(td)td.href='../map/'+(r?'#'+encodeURIComponent(r):'');}
   history.replaceState(null,'','?'+new URLSearchParams(Object.assign(h?{from:h.code}:{},r?{region:r}:{},Object.assign({trip,day:dayKey,t:hour},NEXT?{wk:'next'}:{}))));
   const pts=r?D.filter(d=>d.region===r):D;
