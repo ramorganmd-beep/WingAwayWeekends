@@ -23,6 +23,8 @@ DRIVERS = {
     'charlottesville': [('Monticello Wine Tour & Coach Co.', 'Monticello Wine Trail tours from downtown Charlottesville.', 'https://www.monticellowinetour.com/')],
     'fredericksburg': [('Texas Wine Tours', 'One of the original Fredericksburg wine tour operators.', 'https://www.texaswinetours.com/')],
     'traverse-city': [('Blue Lakes By The Bay', 'Group and private wine tours on Old Mission and Leelanau, daily.', 'https://www.bluelakesbythebay.com/')],
+    'dahlonega': [('Dahlonega Wine Tours (DSH Transportation)', 'Private and shared winery tours in Dahlonega.', 'https://www.dshtransportation.com/'),
+                  ('North Georgia Wine Tours', 'Private tours to Dahlonega, Cleveland and Ellijay wineries.', 'https://www.northgawinetours.com/')],
     'yadkin-valley': [('Yadkin Valley Wine Tours', 'Private tours for two to thirty, plus airport transfers.', 'https://www.yadkinvalleywinetours.com/')],
 }
 
