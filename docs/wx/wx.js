@@ -517,7 +517,9 @@
     return A.PRESETS.find(x => x.id === v) || null;
   }
 
+  function syncDT() { ['dep', 'ret'].forEach(k => { const v = $(k).value || ''; $(k + '-d').value = v.slice(0, 10); $(k + '-t').value = v.slice(11, 16); }); }
   async function draw() {
+    syncDT();
     const from = findAirport($('from').value), to = findAirport($('to').value), out = $('out');
     if (!from || !to) { out.innerHTML = '<p class="wx-verdict">Enter a departure airport and a destination.</p>'; return; }
     const S = readSets();
@@ -557,7 +559,13 @@
     $('to').value = td ? destLabel(td) : tg || destLabel(DEST.find(d => d.guide === 'charleston/') || DEST[0]);
     const q15 = v => { const m = /^(\d{4}-\d\d-\d\d)T(\d\d):(\d\d)/.exec(v || ''); if (!m) return v; const d = new Date(m[1] + 'T00:00:00'); d.setMinutes(Math.round((+m[2] * 60 + +m[3]) / 15) * 15); const z = n => String(n).padStart(2, '0'); return d.getFullYear() + '-' + z(d.getMonth() + 1) + '-' + z(d.getDate()) + 'T' + z(d.getHours()) + ':' + z(d.getMinutes()); };
     $('dep').value = q15(p.get('dep') || d0); $('ret').value = q15(p.has('ret') ? p.get('ret') : r0);
-    ['dep', 'ret'].forEach(k => $(k).addEventListener('change', () => { const v = q15($(k).value); if (v !== $(k).value) $(k).value = v; })); $('win').value = p.get('win') || '3';
+    ['dep', 'ret'].forEach(k => {
+      const t = $(k + '-t'), z = n => String(n).padStart(2, '0');
+      for (let m = 0; m < 1440; m += 15) { const h = Math.floor(m / 60), o = document.createElement('option'); o.value = z(h) + ':' + z(m % 60); o.textContent = ((h + 11) % 12 + 1) + ':' + z(m % 60) + (h < 12 ? ' AM' : ' PM'); t.appendChild(o); }
+      const set = () => { const d = $(k + '-d').value; if (!d) return; $(k).value = d + 'T' + (t.value || '12:00'); $(k).dispatchEvent(new Event('change')); };
+      $(k + '-d').addEventListener('change', set); t.addEventListener('change', set);
+    });
+    syncDT(); $('win').value = p.get('win') || '3';
     try { WHO = localStorage.getItem(WHO_KEY) || 'me'; } catch (e) {}
     if (SET_NAMES[p.get('who')]) WHO = p.get('who');
     if (!SET_NAMES[WHO]) WHO = 'me';
