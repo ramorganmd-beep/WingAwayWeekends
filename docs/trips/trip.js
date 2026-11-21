@@ -88,14 +88,14 @@ function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home'
   const all=NE.filter(d=>d.region===r&&!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]),list=all.slice(0,10);
   $('tp-sugg-'+ctx).innerHTML='<p>'+esc(r)+', closest first from '+esc(first?from.code:short(from))+'. Tap one to '+(first?'make it your first stop':'add it next')+' (or tap a gold circle on the map):</p><div>'+list.map(([d])=>sugBtn(d,first?'data-first="1"':'data-after="'+ctx+'"',from)).join('')+'</div>'+(all.length>list.length?'<p>All '+all.length+' '+esc(r)+' destinations are on the map below.</p>':'');
   document.querySelectorAll('[data-reg][data-ctx="'+ctx+'"]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
-  cand=all.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
+  curReg=r;cand=all.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
 function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM){if(i!==stops.length-1)return '<li class="tp-add">'+pickHTML('add',i,from,'Insert a stop after '+esc(from.name)+':')+'</li>';return '<li class="tp-add tp-addlast">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+regionHTML(from,i)+'</li>';}
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM){if(i!==stops.length-1)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop in between:')+'</li>';return '<li class="tp-add tp-addlast">'+pickHTML('add',i,from,'Add a stop:')+quickHTML(i,from,used)+regionHTML(from,i)+'</li>';}
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
-let cand=[],candFirst=false,candRegion=false,lastL=[];
+let cand=[],candFirst=false,candRegion=false,lastL=[],curReg='';
 function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
   if(CUSTOM&&!candFirst&&!candRegion){const last=stops.length?BY[stops[stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
   const H=startHome()||!stops.length;const pts0=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);const pts=pts0.concat(cand);if(!pts.length)return;
@@ -110,7 +110,7 @@ function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.sele
     g.append('text').attr('x',p[0]).attr('y',p[1]+4).attr('text-anchor','middle').text(i+1);
     const crowd=stops.some((o,j)=>{if(j===i)return false;const q=proj([BY[o.slug].lon,BY[o.slug].lat]);return q[0]>p[0]&&q[0]-p[0]<120&&Math.abs(q[1]-p[1])<16;});
     g.append('text').attr('class','nm').attr('x',crowd?p[0]-14:p[0]+14).attr('y',p[1]+4).attr('text-anchor',crowd?'end':'start').text(d.name.replace(/ & .*|,.*/,''));});
-  const cr=cand.length>15?5.5:8,placed=cand.map(d=>proj([d.lon,d.lat])).filter(Boolean).map(p=>[p[0]-cr,p[1]-cr,p[0]+cr,p[1]+cr]);cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
+  const cr=cand.length>15?5.5:8,placed=cand.map(d=>proj([d.lon,d.lat])).filter(Boolean).map(p=>[p[0]-cr,p[1]-cr,p[0]+cr,p[1]+cr]);stops.forEach(x=>{const d=BY[x.slug],q=proj([d.lon,d.lat]);if(q)placed.push([q[0]-12,q[1]-12,q[0]+16+short(d).length*7.4,q[1]+12]);});cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
     .on('click',()=>addCand(SLUG(d))).on('keydown',e=>{if(e.key==='Enter')addCand(SLUG(d))});
     a.append('title').text('Add '+short(d));a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',cr);const lab='+ '+short(d),w=lab.length*7.2;for(const [x,y,an] of [[p[0]+cr+4,p[1]+4,'start'],[p[0]-cr-4,p[1]+4,'end'],[p[0],p[1]-cr-5,'middle'],[p[0],p[1]+cr+14,'middle']]){const x0=an==='start'?x:an==='end'?x-w:x-w/2,bx=[x0,y-12,x0+w,y+3];if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;placed.push(bx);a.append('text').attr('class','nm cn').attr('x',x).attr('y',y).attr('text-anchor',an).text(lab);break}});
 }
@@ -124,7 +124,7 @@ if(window.WingAwaySuggest)WingAwaySuggest($('home'),$('home-list'),AP);
 (function(){let d=addDays(new Date(),7);for(let k=0;k<400&&!DEF.includes(d.getMonth()+1);k++)d=addDays(d,1);while(d.getDay()!==5)d=addDays(d,1);$('start').value=ymd(d);})();
 if(CUSTOM){const mp=document.querySelector('.tp-map'),dl=$('days');if(mp&&dl)dl.after(mp);}
 if(CUSTOM){const _d=draw;draw=function(){{const m0=document.querySelector('.tp-map');if(m0&&m0.closest('#days'))$('days').after(m0);}_d();const ol=$('days'),add=ol.querySelector('.tp-first,.tp-addlast'),mp=document.querySelector('.tp-map');if(!add||!mp)return;
-  let li=document.getElementById('tp-mapli');if(!li){li=document.createElement('li');li.id='tp-mapli';li.className='tp-mapli';}li.appendChild(mp);ol.prepend(li);ol.prepend(add);};}
+  let li=document.getElementById('tp-mapli');if(!li){li=document.createElement('li');li.id='tp-mapli';li.className='tp-mapli';}li.appendChild(mp);ol.prepend(li);ol.prepend(add);if(curReg&&stops.length&&$('tp-sugg-'+(stops.length-1)))showRegion(curReg,String(stops.length-1));};}
 defaults();fromURL();
 ['home','start','ac','pace','mode'].forEach(id=>$(id).addEventListener('change',draw));
 $('days').addEventListener('change',e=>{const t=e.target;
