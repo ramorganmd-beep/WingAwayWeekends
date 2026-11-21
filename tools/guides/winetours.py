@@ -11,6 +11,8 @@ BLOCK = re.compile(re.escape(START) + '.*?' + re.escape(END), re.S)
 GRAPELINE = ('Grapeline Wine Tours', 'Private and shared tours, or a driver for your own plan.', 'https://www.gogrape.com/')
 FL = [('Quality Wine & Brew Tours', 'Driver-guides for the Finger Lakes wine trails.', 'https://www.qualitywineandbrewtours.com/'),
       ('Finger Lakes Winery Tours', 'Family-owned tours around Seneca, Cayuga and Keuka lakes.', 'https://www.fingerlakeswinerytours.com/')]
+SANTA_YNEZ = [('Wine Tours Santa Ynez Valley', 'Small-group tours of three wineries with a picnic lunch; pickups in Solvang and Santa Barbara.', 'https://winetourssantaynez.com/'),
+              ('Silk Road', 'Hourly wine chauffeur and all-inclusive tours in Santa Barbara and the Santa Ynez Valley.', 'https://www.sbsilkroad.com/')]
 DRIVERS = {
     'napa-sonoma': [('California Wine Tours & Transportation', 'Driving Napa and Sonoma since 1986, from sedans to small coaches.', 'https://www.californiawinetours.com/'),
                     ('Beau Wine Tours', 'Private chauffeured tours of Napa Valley and Sonoma.', 'https://www.beauwinetours.com/')],
@@ -25,6 +27,7 @@ DRIVERS = {
     'traverse-city': [('Blue Lakes By The Bay', 'Group and private wine tours on Old Mission and Leelanau, daily.', 'https://www.bluelakesbythebay.com/')],
     'dahlonega': [('Dahlonega Wine Tours (DSH Transportation)', 'Private and shared winery tours in Dahlonega.', 'https://www.dshtransportation.com/'),
                   ('North Georgia Wine Tours', 'Private tours to Dahlonega, Cleveland and Ellijay wineries.', 'https://www.northgawinetours.com/')],
+    'solvang': SANTA_YNEZ, 'santa-barbara': SANTA_YNEZ,
     'yadkin-valley': [('Yadkin Valley Wine Tours', 'Private tours for two to thirty, plus airport transfers.', 'https://www.yadkinvalleywinetours.com/')],
 }
 
