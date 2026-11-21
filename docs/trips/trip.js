@@ -54,7 +54,7 @@ function draw(){
   const nights=stops.reduce((s,x)=>s+x.nights,0),totNm=L.reduce((s,l)=>s+l.d,0),totH=L.reduce((s,l)=>s+l.e.hours,0),fuel=L.filter(l=>l.e.stop).length;
   $('sum').innerHTML='<span><b>'+nights+'</b> nights · <b>'+stops.length+'</b> stop'+(stops.length===1?'':'s')+'</span><span><b>'+Math.round(totNm).toLocaleString()+'</b> nm total</span><span>About <b>'+A.formatTime(totH)+'</b> flying</span><span><b>'+fuel+'</b> leg'+(fuel===1?'':'s')+' likely need'+(fuel===1?'s':'')+' a fuel stop</span><span>'+esc(A.summary(profile()))+'</span>';
   if(!stops.length){$('sum').innerHTML='<span>Start by choosing your first stop below.</span><span>'+esc(A.summary(profile()))+'</span>';
-    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first">'+pickHTML('first',0,home,'Choose your first stop:')+'<p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p>'+regionHTML(home)+'</li>';
+    $('days').innerHTML='<li class="tp-home">Day 1 · '+fmtDate(start)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li><li class="tp-add tp-first">'+pickHTML('first',0,home,'Choose your first stop:')+'<p>Closest first, from '+esc(home.code)+'. Then add more stops, set nights and see each leg.</p>'+regionHTML(home,'first')+'</li>';
     drawMap([]);toURL();return;}
   const H=startHome();let day=start,html=H?'<li class="tp-home">Day 1 · '+fmtDate(day)+': depart '+esc(home.code)+' ('+esc(home.city)+')</li>':'<li class="tp-home">Day 1 · '+fmtDate(day)+': trip starts at '+esc(BY[stops[0].slug].name)+' ('+esc(BY[stops[0].slug].airport)+')</li>';
   stops.forEach((s,i)=>{const d=BY[s.slug],l=H?L[i]:L[i-1];
@@ -82,21 +82,22 @@ function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat
 // Quick-start helpers for "Build your own": region buttons and nearby-stop buttons.
 const short=d=>d.name.replace(/ & .*|,.*/,'');
 function sugBtn(d,attrs,from){return '<button type="button" class="tp-q" '+attrs+' data-addslug="'+SLUG(d)+'">+ '+esc(short(d))+' <small>'+Math.round(nm(from,d))+' nm</small></button>';}
-function regionHTML(home){const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r,Math.min(...NE.filter(d=>d.region===r).map(d=>nm(home,d)))]).sort((a,b)=>a[1]-b[1]);
-  return '<div class="tp-reg"><b>Not sure where to start? Pick a region:</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg"></div></div>';}
-function showRegion(r){const home=lookup($('home').value)||lookup('KMYR');const list=NE.filter(d=>d.region===r).map(d=>[d,nm(home,d)]).filter(x=>x[1]>=40).sort((a,b)=>a[1]-b[1]).slice(0,10);
-  $('tp-sugg').innerHTML='<p>'+esc(r)+', closest first from '+esc(home.code)+'. Tap one to make it your first stop:</p><div>'+list.map(([d])=>sugBtn(d,'data-first="1"',home)).join('')+'</div>';
-  document.querySelectorAll('[data-reg]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
-  cand=list.map(x=>x[0]);candFirst=true;drawMap(lastL);}
+function regionHTML(from,ctx){const used=new Set(stops.map(x=>x.slug));const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r,Math.min(...NE.filter(d=>d.region===r&&!used.has(SLUG(d))).map(d=>nm(from,d)))]).filter(x=>isFinite(x[1])).sort((a,b)=>a[1]-b[1]);
+  return '<div class="tp-reg"><b>'+(ctx==='first'?'Not sure where to start? Pick a region:':'Or head to another region:')+'</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'" data-ctx="'+ctx+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg-'+ctx+'"></div></div>';}
+function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home').value)||lookup('KMYR')):BY[stops[+ctx].slug],used=new Set(stops.map(x=>x.slug));
+  const list=NE.filter(d=>d.region===r&&!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,10);
+  $('tp-sugg-'+ctx).innerHTML='<p>'+esc(r)+', closest first from '+esc(first?from.code:short(from))+'. Tap one to '+(first?'make it your first stop':'add it next')+' (or tap a gold circle on the map):</p><div>'+list.map(([d])=>sugBtn(d,first?'data-first="1"':'data-after="'+ctx+'"',from)).join('')+'</div>';
+  document.querySelectorAll('[data-reg][data-ctx="'+ctx+'"]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
+  cand=list.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
 function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+'</li>';
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+(i===stops.length-1?regionHTML(from,i):'')+'</li>';
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
-let cand=[],candFirst=false,lastL=[];
+let cand=[],candFirst=false,candRegion=false,lastL=[];
 function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.selectAll('*').remove();
-  if(CUSTOM&&!candFirst){const last=stops.length?BY[stops[stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
+  if(CUSTOM&&!candFirst&&!candRegion){const last=stops.length?BY[stops[stops.length-1].slug]:null,used=new Set(stops.map(x=>x.slug));cand=last?NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(last,d)]).sort((a,b)=>a[1]-b[1]).slice(0,6).map(x=>x[0]):[];}
   const H=startHome()||!stops.length;const pts0=H?[home,...stops.map(s=>BY[s.slug])]:stops.map(s=>BY[s.slug]);const pts=pts0.concat(cand);if(!pts.length)return;
   const box=pts.length>1?pts:[{lon:pts[0].lon-6,lat:pts[0].lat-4},{lon:pts[0].lon+6,lat:pts[0].lat+4}];
   const fc={type:'FeatureCollection',features:box.map(p=>({type:'Feature',geometry:{type:'Point',coordinates:[p.lon,p.lat]}}))};
@@ -109,11 +110,11 @@ function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.sele
     g.append('text').attr('x',p[0]).attr('y',p[1]+4).attr('text-anchor','middle').text(i+1);
     const crowd=stops.some((o,j)=>{if(j===i)return false;const q=proj([BY[o.slug].lon,BY[o.slug].lat]);return q[0]>p[0]&&q[0]-p[0]<120&&Math.abs(q[1]-p[1])<16;});
     g.append('text').attr('class','nm').attr('x',crowd?p[0]-14:p[0]+14).attr('y',p[1]+4).attr('text-anchor',crowd?'end':'start').text(d.name.replace(/ & .*|,.*/,''));});
-  cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
+  const placed=[];cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
     .on('click',()=>addCand(SLUG(d))).on('keydown',e=>{if(e.key==='Enter')addCand(SLUG(d))});
-    a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',8);a.append('text').attr('class','nm cn').attr('x',p[0]+12).attr('y',p[1]+4).text('+ '+short(d));});
+    a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',8);const lab='+ '+short(d),w=lab.length*7.2;for(const [x,y,an] of [[p[0]+12,p[1]+4,'start'],[p[0]-12,p[1]+4,'end'],[p[0],p[1]-13,'middle'],[p[0],p[1]+22,'middle']]){const x0=an==='start'?x:an==='end'?x-w:x-w/2,bx=[x0,y-12,x0+w,y+3];if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;placed.push(bx);a.append('text').attr('class','nm cn').attr('x',x).attr('y',y).attr('text-anchor',an).text(lab);break}});
 }
-function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.push({slug,nights:1,alts:nearAlts(slug)});candFirst=false;draw();}
+function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.push({slug,nights:1,alts:nearAlts(slug)});candFirst=false;candRegion=false;draw();}
 // Controls
 const acSel=$('ac');const saved=A.load();
 acSel.innerHTML=(saved?'<option value="saved">My aircraft: '+esc(saved.label)+'</option>':'')+'<option value="default">Default (150 kt, no fuel check)</option>'+A.PRESETS.filter(p=>p.gear==='land').map(p=>'<option value="'+p.id+'">'+esc(p.label)+'</option>').join('');
@@ -134,7 +135,7 @@ let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
   inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+inp.dataset.add+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
-$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg);return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
+$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg,q.dataset.ctx||'first');return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;candRegion=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(+q.dataset.after+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
 function copy(t,m){(navigator.clipboard?navigator.clipboard.writeText(t):Promise.reject()).then(()=>say(m),()=>{prompt('Copy this:',t);});}
 $('share').onclick=()=>copy(toURL(),'Trip link copied.');
