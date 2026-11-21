@@ -91,7 +91,7 @@ function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home'
   cand=all.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
 function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
-function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+(i===stops.length-1?regionHTML(from,i):'')+'</li>';
+function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM){if(i!==stops.length-1)return '';return '<li class="tp-add tp-addlast">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+regionHTML(from,i)+'</li>';}
   const near=NE.filter(d=>!used.has(d.guide.replace(/\/$/,''))).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,CUSTOM?20:10);
   return '<li class="tp-add"><label>Add a stop after '+esc(from.name)+': <select data-add="'+i+'"><option value="">Choose…</option>'+near.map(([d,n])=>'<option value="'+d.guide.replace(/\/$/,'')+'">'+esc(d.name)+' · '+Math.round(n)+' nm</option>').join('')+'</select></label></li>';}
 let states=null;
@@ -123,6 +123,8 @@ let hc='';try{hc=localStorage.getItem('wingaway-home')||''}catch(e){}$('home').v
 if(window.WingAwaySuggest)WingAwaySuggest($('home'),$('home-list'),AP);
 (function(){let d=addDays(new Date(),7);for(let k=0;k<400&&!DEF.includes(d.getMonth()+1);k++)d=addDays(d,1);while(d.getDay()!==5)d=addDays(d,1);$('start').value=ymd(d);})();
 if(CUSTOM){const mp=document.querySelector('.tp-map'),dl=$('days');if(mp&&dl)dl.after(mp);}
+if(CUSTOM){const _d=draw;draw=function(){{const m0=document.querySelector('.tp-map');if(m0&&m0.closest('#days'))$('days').after(m0);}_d();const ol=$('days'),add=ol.querySelector('.tp-first,.tp-addlast'),mp=document.querySelector('.tp-map');if(!add||!mp)return;
+  let li=document.getElementById('tp-mapli');if(!li){li=document.createElement('li');li.id='tp-mapli';li.className='tp-mapli';}li.appendChild(mp);ol.prepend(li);ol.prepend(add);};}
 defaults();fromURL();
 ['home','start','ac','pace','mode'].forEach(id=>$(id).addEventListener('change',draw));
 $('days').addEventListener('change',e=>{const t=e.target;
