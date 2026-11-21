@@ -135,7 +135,7 @@ async function draw(){
   if(h){const xy=proj([h.lon,h.lat]);if(xy)g.append('text').attr('x',xy[0]).attr('y',xy[1]+6).attr('text-anchor','middle').attr('font-size',r?22:17).attr('fill','#102d40').attr('stroke','#fff').attr('stroke-width',1.2).attr('paint-order','stroke').text('★').append('title').text('Your airport: '+h.code)}
   const n=k=>P.filter(x=>x.cat===k).length,dn=days.find(d=>d.key===dayKey),tn={9:'morning',12:'midday',15:'afternoon'}[hour];
   const anyS=P.some(x=>x.cat);
-  if(!P.some(x=>x.p)){$('count').textContent=dn.name+' is beyond NOAA’s 7-day forecast. Check back closer to the weekend.';$('list').innerHTML='';return}
+  if(!P.some(x=>x.p)){const [yy,mm,dd]=dayKey.split('-').map(Number),past=Date.UTC(yy,mm-1,dd,hour)-(h?h.lon:-80)/15*H<Date.now()-2*H;$('count').textContent=past?'That time has already passed. Pick a later time of day or another day.':dn.name+' is beyond NOAA’s 7-day forecast. Check back closer to the weekend.';$('list').innerHTML='';return}
   $('count').textContent=anyS?(n('VFR')+' of '+P.length+' destinations VFR '+(dn.name==='Today'?'today':'on '+dn.name)+' '+tn+(n('MVFR')?' · '+n('MVFR')+' MVFR':'')+(n('IFR')+n('LIFR')?' · '+(n('IFR')+n('LIFR'))+' IFR or worse':'')+'.'):
     'Outlook for '+dn.name+': '+P.filter(x=>x.ol==='good').length+' of '+P.length+' look good. Flight categories appear about three days ahead.';
   const groups=anyS?[['VFR',P.filter(x=>x.cat==='VFR')],['MVFR',P.filter(x=>x.cat==='MVFR')],['IFR or worse',P.filter(x=>x.cat==='IFR'||x.cat==='LIFR')]]:[['Looks good',P.filter(x=>x.ol==='good')],['Mixed',P.filter(x=>x.ol==='mixed')],['Poor',P.filter(x=>x.ol==='poor')]];
@@ -145,7 +145,8 @@ async function draw(){
 function show(x,quiet){
   selKey=x.d.airport;if(!quiet)svg.selectAll('circle').classed('sel',c=>c.d.airport===selKey);
   const h=homeApt(),p=x.p,dn=days.find(d=>d.key===dayKey);
-  let wx=x.st?'No forecast for this day and time yet. NOAA’s forecast for this airport may not reach that far; try an earlier day.':'No forecast here: NOAA’s forecast model has no data point at or within 30 nm of this airport. Check the airport’s own weather before you go.';
+  const [yy,mm,dd]=dayKey.split('-').map(Number),past=Date.UTC(yy,mm-1,dd,hour)-x.d.lon/15*H<Date.now()-2*H;
+  let wx=past?'That time has already passed; pick a later time or another day.':x.st?'No forecast for this day and time yet. NOAA’s forecast for this airport may not reach that far; try an earlier day.':'No forecast here: NOAA’s forecast model has no data point at or within 30 nm of this airport. Check the airport’s own weather before you go.';
   if(p&&p.kind==='s'){const c=p.cig==null||p.cig<0?'No ceiling':'Ceiling '+(p.cig*100).toLocaleString()+' ft',v=p.vis==null?'':' · Vis '+(p.vis>=100?'10+':p.vis/10)+' mi';
     wx='<span class="cat" style="background:'+CC[x.cat]+'">'+x.cat+'</span> '+c+v+(p.wsp!=null?' · Wind '+(p.wdr!=null?String(p.wdr*10).padStart(3,'0')+'° ':'')+p.wsp+' kt'+(p.gst>p.wsp+4?' gusting '+p.gst:''):'')+(p.tstm>=15?' · '+p.tstm+'% thunderstorm chance':'')}
   else if(p)wx='<strong>Outlook: '+({good:'looks good',mixed:'mixed',poor:'poor'})[x.ol]+'</strong> · '+(p.rain!=null?p.rain+'% chance of rain':'')+(p.tstm?' · '+p.tstm+'% thunderstorms':'')+(p.wsp!=null?' · wind '+p.wsp+' kt':'')+'. Ceiling and visibility forecasts reach about three days ahead.';
