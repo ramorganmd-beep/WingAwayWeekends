@@ -20,10 +20,10 @@ def mailto(subject):
 
 
 HOME_NOTE = '<span style="font-size:.8rem">Destination discovery · Beta</span>'
-HOME_LINK = ('<span class="home-right" style="display:flex;align-items:center;gap:18px"><a class="header-link" href="fly-to-lunch/" '
-             'style="font-size:.85rem;font-weight:700;color:#efbd70">$100 Hamburger</a>' + HOME_NOTE + '</span>')
+HOME_LINK = ('<span class="home-right" style="display:flex;align-items:center;gap:18px"><a class="header-link" href="map/" '
+             'style="font-size:.85rem;font-weight:700;color:#efbd70">Map</a>' + HOME_NOTE + '</span>')
 GUIDE_NOTE = re.compile(r'(<span class="header-note">.*?</span></span>)(?=</header>)')
-GUIDE_LINK = '<span class="header-right"><a class="header-link" href="../fly-to-lunch/">$100 Hamburger</a>'
+GUIDE_LINK = '<span class="header-right"><a class="header-link" href="../map/">Map</a>'
 
 
 for path in map(Path, sys.argv[1:]):
