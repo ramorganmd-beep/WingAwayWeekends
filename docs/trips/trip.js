@@ -85,10 +85,10 @@ function sugBtn(d,attrs,from){return '<button type="button" class="tp-q" '+attrs
 function regionHTML(from,ctx){const used=new Set(stops.map(x=>x.slug));const regs=[...new Set(NE.map(d=>d.region))].map(r=>[r,Math.min(...NE.filter(d=>d.region===r&&!used.has(SLUG(d))).map(d=>nm(from,d)))]).filter(x=>isFinite(x[1])).sort((a,b)=>a[1]-b[1]);
   return '<div class="tp-reg"><b>'+(ctx==='first'?'Not sure where to start? Pick a region:':'Or head to another region:')+'</b><div>'+regs.map(([r])=>'<button type="button" class="tp-q" data-reg="'+esc(r)+'" data-ctx="'+ctx+'">'+esc(r)+'</button>').join('')+'</div><div id="tp-sugg-'+ctx+'"></div></div>';}
 function showRegion(r,ctx){const first=ctx==='first',from=first?(lookup($('home').value)||lookup('KMYR')):BY[stops[+ctx].slug],used=new Set(stops.map(x=>x.slug));
-  const list=NE.filter(d=>d.region===r&&!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,10);
-  $('tp-sugg-'+ctx).innerHTML='<p>'+esc(r)+', closest first from '+esc(first?from.code:short(from))+'. Tap one to '+(first?'make it your first stop':'add it next')+' (or tap a gold circle on the map):</p><div>'+list.map(([d])=>sugBtn(d,first?'data-first="1"':'data-after="'+ctx+'"',from)).join('')+'</div>';
+  const all=NE.filter(d=>d.region===r&&!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]),list=all.slice(0,10);
+  $('tp-sugg-'+ctx).innerHTML='<p>'+esc(r)+', closest first from '+esc(first?from.code:short(from))+'. Tap one to '+(first?'make it your first stop':'add it next')+' (or tap a gold circle on the map):</p><div>'+list.map(([d])=>sugBtn(d,first?'data-first="1"':'data-after="'+ctx+'"',from)).join('')+'</div>'+(all.length>list.length?'<p>All '+all.length+' '+esc(r)+' destinations are on the map below.</p>':'');
   document.querySelectorAll('[data-reg][data-ctx="'+ctx+'"]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.reg===r));
-  cand=list.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
+  cand=all.map(x=>x[0]);candFirst=first;candRegion=!first;drawMap(lastL);}
 function quickHTML(i,from,used){const near=NE.filter(d=>!used.has(SLUG(d))&&nm(home,d)>=40).map(d=>[d,nm(from,d)]).sort((a,b)=>a[1]-b[1]).slice(0,4);
   return near.length?'<div class="tp-near"><span>Nearby:</span> '+near.map(([d])=>sugBtn(d,'data-after="'+i+'"',from)).join('')+'</div>':'';}
 function addHTML(i){const from=BY[stops[i].slug],used=new Set(stops.map(s=>s.slug));if(CUSTOM)return '<li class="tp-add">'+pickHTML('add',i,from,'Add a stop after '+esc(from.name)+':')+quickHTML(i,from,used)+(i===stops.length-1?regionHTML(from,i):'')+'</li>';
@@ -110,9 +110,9 @@ function drawMap(L){lastL=L;if(!states)return;const svg=d3.select('#m');svg.sele
     g.append('text').attr('x',p[0]).attr('y',p[1]+4).attr('text-anchor','middle').text(i+1);
     const crowd=stops.some((o,j)=>{if(j===i)return false;const q=proj([BY[o.slug].lon,BY[o.slug].lat]);return q[0]>p[0]&&q[0]-p[0]<120&&Math.abs(q[1]-p[1])<16;});
     g.append('text').attr('class','nm').attr('x',crowd?p[0]-14:p[0]+14).attr('y',p[1]+4).attr('text-anchor',crowd?'end':'start').text(d.name.replace(/ & .*|,.*/,''));});
-  const placed=[];cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
+  const cr=cand.length>15?5.5:8,placed=cand.map(d=>proj([d.lon,d.lat])).filter(Boolean).map(p=>[p[0]-cr,p[1]-cr,p[0]+cr,p[1]+cr]);cand.forEach(d=>{const p=proj([d.lon,d.lat]);if(!p)return;const a=g.append('g').attr('class','cand').attr('tabindex',0).attr('role','button').attr('aria-label','Add '+short(d)).style('cursor','pointer')
     .on('click',()=>addCand(SLUG(d))).on('keydown',e=>{if(e.key==='Enter')addCand(SLUG(d))});
-    a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',8);const lab='+ '+short(d),w=lab.length*7.2;for(const [x,y,an] of [[p[0]+12,p[1]+4,'start'],[p[0]-12,p[1]+4,'end'],[p[0],p[1]-13,'middle'],[p[0],p[1]+22,'middle']]){const x0=an==='start'?x:an==='end'?x-w:x-w/2,bx=[x0,y-12,x0+w,y+3];if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;placed.push(bx);a.append('text').attr('class','nm cn').attr('x',x).attr('y',y).attr('text-anchor',an).text(lab);break}});
+    a.append('title').text('Add '+short(d));a.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',cr);const lab='+ '+short(d),w=lab.length*7.2;for(const [x,y,an] of [[p[0]+cr+4,p[1]+4,'start'],[p[0]-cr-4,p[1]+4,'end'],[p[0],p[1]-cr-5,'middle'],[p[0],p[1]+cr+14,'middle']]){const x0=an==='start'?x:an==='end'?x-w:x-w/2,bx=[x0,y-12,x0+w,y+3];if(placed.some(q=>!(bx[2]<q[0]||bx[0]>q[2]||bx[3]<q[1]||bx[1]>q[3])))continue;placed.push(bx);a.append('text').attr('class','nm cn').attr('x',x).attr('y',y).attr('text-anchor',an).text(lab);break}});
 }
 function addCand(slug){if(candFirst||!stops.length)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.push({slug,nights:1,alts:nearAlts(slug)});candFirst=false;candRegion=false;draw();}
 // Controls
