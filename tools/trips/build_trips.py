@@ -197,6 +197,21 @@ def index(routes):
         cards.append(f'<a class="tr-card" href="{r["id"]}/" data-pts="{dp}"><img src="{img}" alt="" loading="lazy"><span><b>{r["h1"]}</b><small>{nights} nights · {stops}</small><strong class="tr-tot">About {between:,} nm between stops</strong><em>{r["lede"]}</em></span></a>')
     tpl = (ROOT / 'tools/trips/index_template.html').read_text()
     (ROOT / 'docs/trips/index.html').write_text(tpl.replace('__CARDS__', '\n'.join(cards)))
+    # The same route cards, below the map on the Build page.
+    import re as _re2
+    bp = ROOT / 'docs/trips/build/index.html'
+    bh = _re2.sub(r'<!--wa-routes-->.*?<!--/wa-routes-->', '', bp.read_text(), flags=_re2.S)
+    bc = '\n'.join(c.replace('href="', 'href="../', 1).replace('src="../assets/', 'src="../../assets/') for c in cards)
+    css = ('<style>.tr-h2{font-size:22px;margin:34px 0 4px}.tr-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;margin:14px 0 26px}'
+           '.tr-card{display:flex;flex-direction:column;background:#fff;border:1px solid #dbe3e9;border-radius:3px;overflow:hidden;color:#102d40;text-decoration:none}.tr-card:hover{border-color:#ba7d2f}'
+           '.tr-card img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:#eef2f4}.tr-card span{padding:12px 14px 16px;display:flex;flex-direction:column;gap:5px}'
+           '.tr-card b{font-size:18px}.tr-card small{font-size:13px;color:#8a571c;font-weight:700}.tr-card strong.tr-tot{font-size:13.5px}.tr-card em{font-style:normal;font-size:14.5px;line-height:1.45;color:#33475a}</style>')
+    block = ('<!--wa-routes-->' + css + '<section aria-label="Our routes"><h2 class="tr-h2">Or start from one of our routes</h2>'
+             '<p style="margin:0;color:#51666f">Open one, then swap stops, change nights or add stops to make it yours.</p>'
+             '<div class="tr-grid">' + bc + '</div></section><!--/wa-routes-->')
+    bh = bh.replace('<div class="tp-tips">', block + '<div class="tp-tips">', 1)
+    bp.write_text(bh)
+    print('added route cards to docs/trips/build/index.html')
     print('wrote docs/trips/index.html')
 
 if __name__ == '__main__':
