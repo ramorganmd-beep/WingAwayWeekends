@@ -35,6 +35,7 @@ def block(items):
             '<h3 style="margin:0 0 6px;font-size:1.05rem">Leave the driving to someone else</h3>'
             '<p style="margin:0 0 8px;color:#51666f;font-size:.95rem">You flew in; let a local driver handle the wine roads. Established companies we found:</p>'
             f'<ul style="margin:0;padding-left:18px;line-height:1.6">{lis}</ul>'
+            '<p style="margin:10px 0 0;font-size:.9rem;color:#33475a"><b>What to verify before booking:</b> a strong rating is reassuring, but it doesn’t prove current insurance, vehicle condition or availability. Confirm commercial transportation insurance, passenger capacity, whether winery reservations are coordinated, and whether tasting fees and gratuities are included.</p>'
             '<p style="margin:8px 0 0;font-size:.82rem;color:#647784">Checked Nov 2026. Book ahead for weekends; tours are often priced per hour or per person.</p></div>' + END)
 
 
