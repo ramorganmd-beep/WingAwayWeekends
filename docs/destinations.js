@@ -6388,5 +6388,22 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Central California",
  "photo": {"slug": "san-luis-obispo", "remote": "https://images.unsplash.com/photo-1653819164599-2bc6a800990b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MzgzOTg4fA&ixlib=rb-4.1.0", "alt": "The Pismo Beach pier at sunset, with the tide out", "pos": "50% 55%"}
+},
+{
+ "name": "Harris Ranch",
+ "state": "California",
+ "airport": "3O8",
+ "lat": 36.2481,
+ "lon": -120.2385,
+ "desc": "An overnight stop on the resort’s own airstrip: free tie-downs, a heated pool, a Prime steak dinner and the bakery, all a short walk away.",
+ "tags": [
+  "Dining",
+  "Stays",
+  "No rental car"
+ ],
+ "guide": "harris-ranch/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "photo": {"slug": "harris-ranch", "remote": "https://images.unsplash.com/photo-1644704265419-96ddaf628e71?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1Mzg0Mzg5fA&ixlib=rb-4.1.0", "alt": "A grilled steak with vegetables and a glass of red wine", "pos": "50% 50%"}
 }
 ];

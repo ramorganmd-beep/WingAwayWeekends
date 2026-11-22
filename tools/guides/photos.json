@@ -3803,5 +3803,18 @@
     "caption": "The Pismo Beach pier · About 15 minutes from KSBP",
     "remote": "unsplash",
     "credit_html": "Photo by <a href=\"https://unsplash.com/@peter_mc_greats?utm_source=wingaway_weekends&utm_medium=referral\">Pietro De Grandi</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-pier-on-a-beach-with-the-sun-setting-in-the-background-3HUIfGKE2ew?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
+  },
+  "harris-ranch": {
+    "slug": "https://images.unsplash.com/photo-1644704265419-96ddaf628e71?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1Mzg0Mzg5fA&ixlib=rb-4.1.0",
+    "widths": [
+      480,
+      960
+    ],
+    "alt": "A grilled steak with vegetables and a glass of red wine",
+    "w": 960,
+    "h": 720,
+    "caption": "Steak night · Illustrative photo, not taken at Harris Ranch",
+    "remote": "unsplash",
+    "credit_html": "Photo by <a href=\"https://unsplash.com/@clark_douglas?utm_source=wingaway_weekends&utm_medium=referral\">Clark Douglas</a> on <a href=\"https://unsplash.com/?utm_source=wingaway_weekends&utm_medium=referral\">Unsplash</a> (<a href=\"https://unsplash.com/photos/a-white-plate-topped-with-meat-and-veggies-next-to-a-glass-of-wine-7WJV-SDSj6c?utm_source=wingaway_weekends&utm_medium=referral\">source</a>). Shown from Unsplash under the Unsplash License."
   }
 }

@@ -2271,3 +2271,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Pietro De Grandi on Unsplash — https://unsplash.com/photos/a-pier-on-a-beach-with-the-sun-setting-in-the-background-3HUIfGKE2ew
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Pismo Beach, CA (Unsplash location tag)
+
+## Harris Ranch
+
+- Photo by Clark Douglas on Unsplash — https://unsplash.com/photos/a-white-plate-topped-with-meat-and-veggies-next-to-a-glass-of-wine-7WJV-SDSj6c
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Illustrative food photo; not taken at Harris Ranch

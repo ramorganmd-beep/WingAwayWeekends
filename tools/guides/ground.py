@@ -41,6 +41,14 @@ GROUND = {
         'norental': 'Possible for a downtown weekend by rideshare; you’ll want a car for Pismo and wine country',
         'checked': 'Nov 2026',
     },
+    'harris-ranch': {
+        'fbo': 'Harris Ranch Airport · 559-935-0717, ext. 6444',
+        'crew': 'None needed: the hotel and restaurants are a short walk from the tie-downs',
+        'rental': 'None on the field',
+        'town': 'Everything for an overnight stop is on the resort property',
+        'norental': 'Yes: walk from the airplane to your room and dinner',
+        'checked': 'Nov 2026',
+    },
     'asheville': {
         'fbo': 'Signature Asheville',
         'crew': 'Listed by Signature; ask when you call ahead',
