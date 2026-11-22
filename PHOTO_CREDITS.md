@@ -2265,3 +2265,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Kaine Crowhurst on Unsplash — https://unsplash.com/photos/a-ferris-wheel-sitting-next-to-a-body-of-water-3ks8WnGGL9c
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Disney California Adventure, Anaheim, CA (Unsplash location tag)
+
+## San Luis Obispo
+
+- Photo by Pietro De Grandi on Unsplash — https://unsplash.com/photos/a-pier-on-a-beach-with-the-sun-setting-in-the-background-3HUIfGKE2ew
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Pismo Beach, CA (Unsplash location tag)

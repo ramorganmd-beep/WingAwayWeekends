@@ -10459,5 +10459,22 @@
   "date_taken": null,
   "files": [],
   "location": "Disney California Adventure, Anaheim, CA (Unsplash location tag)"
+ },
+ {
+  "destination": "San Luis Obispo",
+  "title": "The Pismo Beach pier · About 15 minutes from KSBP",
+  "photographer": "Pietro De Grandi",
+  "source_page_url": "https://unsplash.com/photos/a-pier-on-a-beach-with-the-sun-setting-in-the-background-3HUIfGKE2ew",
+  "original_image_url": "https://images.unsplash.com/photo-1653819164599-2bc6a800990b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MzgzOTg4fA&ixlib=rb-4.1.0",
+  "license": "Unsplash License",
+  "license_url": "https://unsplash.com/license",
+  "commercial_reuse_verified": true,
+  "verification_date": "2026-11-22",
+  "requirements": "Unsplash API guidelines: hotlink from images.unsplash.com, credit the photographer and Unsplash with links, and register the download. Image is not stored in the repository.",
+  "changes": "Not copied; served from Unsplash with crop parameters.",
+  "alt": "The Pismo Beach pier at sunset, with the tide out",
+  "date_taken": null,
+  "files": [],
+  "location": "Pismo Beach, CA (Unsplash location tag)"
  }
 ]

@@ -32,6 +32,15 @@ GROUND = {
         'norental': 'No: plan on a rental car for the park and Gatlinburg',
         'checked': 'Nov 2026',
     },
+    'san-luis-obispo': {
+        'fbo': 'ACI Jet San Luis Obispo · 805-548-1330',
+        'crew': 'Not confirmed; ask when you call ahead',
+        'rental': 'Avis, Budget, Enterprise, Hertz and National at the airline terminal; the airport advises reserving ahead for evenings',
+        'ride': 'Uber and Lyft serve the airport, but the airport warns drivers can be scarce in the evening',
+        'town': 'About 10 minutes to downtown San Luis Obispo, 15 to Pismo Beach',
+        'norental': 'Possible for a downtown weekend by rideshare; you’ll want a car for Pismo and wine country',
+        'checked': 'Nov 2026',
+    },
     'asheville': {
         'fbo': 'Signature Asheville',
         'crew': 'Listed by Signature; ask when you call ahead',

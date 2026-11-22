@@ -6370,5 +6370,23 @@ window.WINGAWAY_DESTINATIONS=[
   "alt": "Pixar Pier's Ferris wheel and roller coaster reflected in the water at sunset, Disney California Adventure",
   "pos": "50% 50%"
  }
+},
+{
+ "name": "San Luis Obispo & Pismo Beach",
+ "state": "California",
+ "airport": "KSBP",
+ "lat": 35.2373,
+ "lon": -120.6426,
+ "desc": "A creekside downtown, the Madonna Inn, Edna Valley wine and Pismo Beach, with a beach airport and fly-in campground at Oceano.",
+ "tags": [
+  "Beach",
+  "Wine",
+  "Dining",
+  "Stays"
+ ],
+ "guide": "san-luis-obispo/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "photo": {"slug": "san-luis-obispo", "remote": "https://images.unsplash.com/photo-1653819164599-2bc6a800990b?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1MzgzOTg4fA&ixlib=rb-4.1.0", "alt": "The Pismo Beach pier at sunset, with the tide out", "pos": "50% 55%"}
 }
 ];

@@ -1194,6 +1194,9 @@ PLANS = {
     'disneyland': {
         'day': [('Morning', 'Land at KFUL and drive a few minutes to Knott’s Berry Farm.'), ('Lunch', 'Lunch at the Anaheim Packing District.'), ('Afternoon', 'A walk through the Downtown Disney District, then fly home before the FBO closes.')],
         'extra': [('Morning', 'Be at a Disney park at opening.'), ('Afternoon', 'A pool break at the hotel.'), ('Evening', 'Back to the park for the evening shows.')]},
+    'san-luis-obispo': {
+        'day': [('Morning', 'Land at KSBP and drive 15 minutes to Pismo Beach.'), ('Lunch', 'Clam chowder at Splash Cafe.'), ('Afternoon', 'A walk on the pier, cake at the Madonna Inn bakery, then fly home before the evening fog.')],
+        'extra': [('Morning', 'Edna Valley tasting rooms.'), ('Afternoon', 'Downtown San Luis Obispo along the creek.'), ('Evening', 'The Thursday farmers’ market, or dinner at Novo.')]},
     'space-coast': {
         'day': [('Morning', 'Land at KTIX and visit the Valiant Air Command Warbird Museum on the field.'), ('Lunch', 'Rock shrimp at Dixie Crossroads in Titusville.'), ('Afternoon', 'Black Point Wildlife Drive, then fly home before the afternoon storms in summer.')],
         'extra': [('Morning', 'Kennedy Space Center Visitor Complex.'), ('Afternoon', 'Space Shuttle Atlantis and the rocket garden.'), ('Evening', 'Dinner at Port Canaveral, then the beach.')]},
