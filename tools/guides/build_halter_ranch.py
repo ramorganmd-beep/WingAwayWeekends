@@ -78,6 +78,6 @@ GUIDE = {
 
 if __name__ == '__main__':
     build(GUIDE, sys.argv[1])
-    t = open(sys.argv[1]).read().replace(' · Couples · Two nights', ' · Fly-in winery · Lunch or one night').replace(' Couples Getaway |', ' Fly-In Winery |')
+    t = open(sys.argv[1]).read().replace(' · Couples · Two nights', ' · Fly-in winery · Lunch or one night').replace(' Couples Getaway |', ' |')
     t = t.replace('<span>WEEKEND STYLE</span><strong>Two nights ', '<span>VISIT</span><strong>Lunch or one night ')
     open(sys.argv[1], 'w').write(t)
