@@ -49,6 +49,14 @@ GROUND = {
         'norental': 'Yes: walk from the airplane to your room and dinner',
         'checked': 'Nov 2026',
     },
+    'halter-ranch': {
+        'fbo': 'Halter Ranch fly-in requests · 805-226-9455',
+        'crew': 'None needed for a visit: the tasting room and restaurant are on the estate',
+        'rental': 'None on the field; Paso Robles (KPRB) is 11 nm east',
+        'town': 'Paso Robles is about 11 nm east; arrange a car or taxi ahead',
+        'norental': 'Yes, for a fly-in lunch and tasting on the estate',
+        'checked': 'Nov 2026',
+    },
     'asheville': {
         'fbo': 'Signature Asheville',
         'crew': 'Listed by Signature; ask when you call ahead',
