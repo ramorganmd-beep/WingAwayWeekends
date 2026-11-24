@@ -72,11 +72,30 @@ function draw(){
   $('days').innerHTML=html;
   drawMap(L);toURL();
 }
-function legHTML(l,dt){const p=profile();let w='';
-  if(l.e.stop){const r=fuelStop(l.a,l.b,p);w+=' <span class="tp-warn">'+(r?(r.one?'Fuel stop needed. Suggested: ':'Needs more than one fuel stop. First suggestion: ')+fuelText(r)+'. Confirm fuel and hours before you go.':'Likely fuel stop; no suitable fuel airport found along the route.')+'</span>';}
+// Per-leg heads-ups: Class B airspace near either end or the direct line, field elevations along the route, a high
+// field and a short runway at the destination. Planning prompts only, never a briefing.
+const CLASSB=[['KATL','Atlanta'],['KBOS','Boston'],['KCLT','Charlotte'],['KORD','Chicago'],['KMDW','Chicago'],['KCVG','Cincinnati'],['KCLE','Cleveland'],['KDFW','Dallas–Fort Worth'],['KDAL','Dallas–Fort Worth'],['KDEN','Denver'],['KDTW','Detroit'],['KIAH','Houston'],['KHOU','Houston'],['KMCI','Kansas City'],['KLAS','Las Vegas'],['KLAX','Los Angeles'],['KMEM','Memphis'],['KMIA','Miami'],['KMSP','Minneapolis'],['KMSY','New Orleans'],['KJFK','New York'],['KLGA','New York'],['KEWR','New York'],['KMCO','Orlando'],['KPHL','Philadelphia'],['KPHX','Phoenix'],['KPIT','Pittsburgh'],['KSTL','St. Louis'],['KSLC','Salt Lake City'],['KSAN','San Diego'],['KSFO','San Francisco'],['KOAK','San Francisco'],['KSEA','Seattle'],['KTPA','Tampa'],['KDCA','Washington'],['KIAD','Washington'],['KBWI','Washington']].map(([c,n])=>{const a=(window.WINGAWAY_AIRPORTS||[]).find(x=>x[0]===c);return a?{c,n,lat:a[5],lon:a[6]}:null}).filter(Boolean);
+const HIGH=window.WINGAWAY_HIGH||[],ELEV=window.WINGAWAY_ELEV||{};
+function codeOf(x){return x.code||x.airport;}
+function along(a,b,step){const d=nm(a,b),n=Math.max(1,Math.ceil(d/step)),out=[];for(let i=0;i<=n;i++){const t=i/n;out.push({lat:a.lat+(b.lat-a.lat)*t,lon:a.lon+(b.lon-a.lon)*t,k:d*t,d});}return out;}
+function advisories(l){const out=[],a=l.a,b=l.b,seen=new Set();
+  for(const [pt,role] of [[a,'departure'],[b,'arrival']]){let best=null,bd=1e9;for(const c of CLASSB){const d=nm(pt,c);if(d<bd){bd=d;best=c;}}
+    if(best&&bd<=30&&!seen.has(best.n)){seen.add(best.n);out.push(esc(codeOf(pt))+' is '+(bd<2?'inside':'about '+Math.round(bd)+' nm from '+best.c+', under or near')+' the '+best.n+' Class B: brief the '+role+' and the shelf altitudes.');}}
+  const P=along(a,b,10).filter(p=>p.k>15&&p.d-p.k>15);
+  for(const c of CLASSB){if(seen.has(c.n))continue;if(P.some(p=>nm(p,c)<=20)){seen.add(c.n);out.push('The direct line passes near the '+c.n+' Class B ('+c.c+'): route around it or plan for a clearance.');}}
+  let hi=0,hiAp=null;if(HIGH.length){const box=P.length?P:[a,b];for(const h of HIGH){const o={lat:h[1],lon:h[2]};if(h[3]>hi&&box.some(p=>Math.abs(p.lat-o.lat)<0.3&&nm(p,o)<=15)){hi=h[3];hiAp=h[0];}}}
+  if(hi>=4000)out.push('Higher terrain likely: airports within 15 nm of the direct line sit as high as '+hi.toLocaleString()+' ft ('+esc(hiAp)+'). Check MEFs, plan your altitude and an escape route.');
+  const eb=ELEV[codeOf(b)];if(eb>=5000)out.push(esc(codeOf(b))+' field elevation '+eb.toLocaleString()+' ft: expect high density altitude on warm days.');
+  if(b.rwy&&b.rwy<3500)out.push(esc(codeOf(b))+' runway '+b.rwy.toLocaleString()+' ft: check your landing and takeoff numbers.');
+  return out;}
+const IOS=/iPad|iPhone|iPod/.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+function appLinks(l,r){const route=[codeOf(l.a),...(r?[r.f[0]]:[]),codeOf(l.b)];
+  return '<span class="tp-apps">'+(IOS?'<a href="foreflightmobile://maps/search?q='+route.map(encodeURIComponent).join('+')+'">Open in ForeFlight</a>':'')+'<button type="button" class="tp-copy" data-copy="'+esc(route.join(' '))+'">Copy route</button></span>';}
+function legHTML(l,dt){const p=profile();let w='';let fr=null;
+  if(l.e.stop){const r=fr=fuelStop(l.a,l.b,p);w+=' <span class="tp-warn">'+(r?(r.one?'Fuel stop needed. Suggested: ':'Needs more than one fuel stop. First suggestion: ')+fuelText(r)+'. Confirm fuel and hours before you go.':'Likely fuel stop; no suitable fuel airport found along the route.')+'</span>';}
   else if(!p)w+=' <span>Set an aircraft to check fuel.</span>';
   if(l.long)w+=' <span class="tp-warn">Longer than your daily limit; plan an overnight on the way'+((l.a===home||l.b===home)?', or set “Trip starts” to the first stop':'')+'.</span>';
-  return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+(dt?' <a class="tp-wx" href="../../wx/?'+new URLSearchParams({from:l.a.code||l.a.airport,to:l.b.code||l.b.airport,dep:ymd(dt)+'T10:00',ret:''})+'">Weather for this leg →</a>':'')+'</span></li>';}
+  return '<li class="tp-leg"><span aria-hidden="true">✈</span><span><b>'+esc(l.a.code||l.a.airport)+' → '+esc(l.b.code||l.b.airport)+'</b> · '+Math.round(l.d)+' nm · about '+A.formatTime(l.e.hours)+(l.e.gal?' · '+Math.round(l.e.gal)+' gal':'')+w+(dt?' <a class="tp-wx" href="../../wx/?'+new URLSearchParams({from:l.a.code||l.a.airport,to:l.b.code||l.b.airport,dep:ymd(dt)+'T10:00',ret:''})+'">Weather for this leg →</a>':'')+(()=>{const v=advisories(l);return v.length?'<ul class="tp-adv">'+v.map(x=>'<li>'+x+'</li>').join('')+'</ul>':''})()+appLinks(l,fr&&fr.one?fr:null)+'</span></li>';}
 function s22(d,a,b){const q=new URLSearchParams({aid:'wingawayweekend',lat:d.lat,lng:d.lon,address:d.name.replace(/ & .*|,.*/,'')+', '+d.state,checkin:ymd(a),checkout:ymd(b),campaign:'trip-'+T.id});return 'https://www.stay22.com/allez/roam?'+q.toString();}
 
 // Quick-start helpers for "Build your own": region buttons and nearby-stop buttons.
@@ -140,7 +159,7 @@ let resolveNote='';
 function pick(inp){resolveNote='';const d=resolve(inp.value);if(!d){if(inp.value.trim())say('No destination matches “'+inp.value.trim()+'”. Try a town, state or airport code.');return;}
   inp.value='';const slug=SLUG(d);if(inp.dataset.first!=null)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(+inp.dataset.add)+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();if(resolveNote){say(resolveNote,9000);$("msg").scrollIntoView({block:'nearest',behavior:'smooth'});}}
 $('days').addEventListener('keydown',e=>{const t=e.target;if(e.key==='Enter'&&t.tagName==='INPUT'){e.preventDefault();pick(t);}});
-$('days').addEventListener('click',e=>{const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg,q.dataset.ctx||'first');return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;candRegion=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(+q.dataset.after)+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}
+$('days').addEventListener('click',e=>{const cp=e.target.closest('.tp-copy');if(cp){const t=cp.dataset.copy;const done=()=>{cp.textContent='Copied: '+t;setTimeout(()=>cp.textContent='Copy route',2500);};if(navigator.clipboard&&navigator.clipboard.writeText)navigator.clipboard.writeText(t).then(done,()=>prompt('Copy this route:',t));else prompt('Copy this route:',t);return;}const q=e.target.closest('.tp-q');if(q){if(q.dataset.reg){showRegion(q.dataset.reg,q.dataset.ctx||'first');return;}if(q.dataset.addslug){const slug=q.dataset.addslug;candFirst=false;candRegion=false;if(q.dataset.first)stops=[{slug,nights:2,alts:nearAlts(slug)}];else stops.splice(target(+q.dataset.after)+1,0,{slug,nights:1,alts:nearAlts(slug)});draw();return;}
 if(q.dataset.insert!=null){insertAt=+q.dataset.insert;curReg='';draw();const a=document.querySelector('.tp-addlast');if(a){a.scrollIntoView({behavior:'smooth',block:'start'});const inp=a.querySelector('input');if(inp)setTimeout(()=>inp.focus({preventScroll:true}),400);}return;}
 if(q.dataset.cancel){insertAt=null;draw();return;}}const t=e.target;if(t.dataset.go){pick($('in-'+t.dataset.go+'-'+t.dataset.i));return;}if(t.dataset.rm!=null){stops.splice(+t.dataset.rm,1);draw();}});
 function say(m,ms){$('msg').textContent=m;setTimeout(()=>{if($('msg').textContent===m)$('msg').textContent='';},ms||4000);}
