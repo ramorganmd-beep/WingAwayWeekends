@@ -2277,3 +2277,9 @@ The current four replacement records are in `licenses/replacement-imageinfo-evid
 - Photo by Clark Douglas on Unsplash — https://unsplash.com/photos/a-white-plate-topped-with-meat-and-veggies-next-to-a-glass-of-wine-7WJV-SDSj6c
 - License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
 - Location: Illustrative food photo; not taken at Harris Ranch
+
+## Halter Ranch
+
+- Photo by Venti Views on Unsplash — https://unsplash.com/photos/aerial-view-of-green-field-during-daytime-cP1dce__FeY
+- License: Unsplash License — https://unsplash.com/license (served from Unsplash per API guidelines)
+- Location: Paso Robles, CA (Unsplash location tag); not specific to Halter Ranch

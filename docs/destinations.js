@@ -6405,5 +6405,23 @@ window.WINGAWAY_DESTINATIONS=[
  "stateCode": "CA",
  "region": "Central California",
  "photo": {"slug": "harris-ranch", "remote": "https://images.unsplash.com/photo-1644704265419-96ddaf628e71?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1Mzg0Mzg5fA&ixlib=rb-4.1.0", "alt": "A grilled steak with vegetables and a glass of red wine", "pos": "50% 50%"}
+},
+{
+ "name": "Halter Ranch Fly-In Winery",
+ "state": "California",
+ "airport": "89CA",
+ "rwy": 3353,
+ "lat": 35.6444,
+ "lon": -120.8502,
+ "desc": "A fly-in winery in Paso Robles: by prior permission, land on the private vineyard airstrip and walk to lunch and tastings.",
+ "tags": [
+  "Wine",
+  "Dining",
+  "No rental car"
+ ],
+ "guide": "halter-ranch/",
+ "stateCode": "CA",
+ "region": "Central California",
+ "photo": {"slug": "halter-ranch", "remote": "https://images.unsplash.com/photo-1596695346787-be03f89b1cdd?ixid=M3wxMTIxNjY2fDB8MXxhbGx8fHx8fHx8fHwxNzk1NTIyODc3fA&ixlib=rb-4.1.0", "alt": "Rows of vineyards curving over the hills near Paso Robles, seen from the air", "pos": "50% 50%"}
 }
 ];
