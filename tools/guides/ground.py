@@ -57,6 +57,15 @@ GROUND = {
         'norental': 'Yes, for a fly-in lunch and tasting on the estate',
         'checked': 'Nov 2026',
     },
+    'block-island': {
+        'fbo': 'No FBO. Airport parking and safety brief on 122.85, or call 401-466-5511',
+        'crew': 'None on the field (pilot report)',
+        'rental': 'Not at the airport; rental cars, scooters and bikes are in town',
+        'ride': 'Taxis are plentiful and meet the planes',
+        'town': 'A pleasant 20-minute walk into town',
+        'norental': 'Yes: walk or take a taxi into town, then rent bikes or a scooter',
+        'checked': 'Nov 2026; pilot report from a Cirrus SR20 owner',
+    },
     'asheville': {
         'fbo': 'Signature Asheville',
         'crew': 'Listed by Signature; ask when you call ahead',
