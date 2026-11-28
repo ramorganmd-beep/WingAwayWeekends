@@ -24,8 +24,24 @@ def destinations():
     return {d['guide'].strip('/'): d for d in json.loads(s) if d.get('guide')}
 
 
+# Islands reached only by air or ferry: hotel searches also show mainland hotels, so name the island's towns.
+ISLAND = {
+    'block-island': ('New Shoreham, Rhode Island', 'New Shoreham'),
+    'nantucket': ('Nantucket, Massachusetts', 'Nantucket or Siasconset'),
+    'marthas-vineyard': ('Edgartown, Massachusetts', 'Edgartown, Oak Bluffs, Vineyard Haven, West Tisbury, Chilmark or Aquinnah'),
+    'mackinac': ('Mackinac Island, Michigan', 'Mackinac Island'),
+    'catalina-island': ('Avalon, California', 'Avalon or Two Harbors'),
+    'put-in-bay': ('Put-in-Bay, Ohio', 'Put-in-Bay'),
+    'drummond-island': ('Drummond Island, Michigan', 'Drummond Island'),
+    'ocracoke': ('Ocracoke, North Carolina', 'Ocracoke'),
+    'lanai': ('Lanai City, Hawaii', 'Lanai City or Manele'),
+    'san-juan-islands': ('Friday Harbor, Washington', 'Friday Harbor, Orcas Island or Lopez Island'),
+}
+
+
 def link(d, slug):
-    q = {'aid': AID, 'lat': d['lat'], 'lng': d['lon'], 'address': re.sub(r' & .*|,.*| National Park.*', '', d['name']) + ', ' + d.get('state', ''), 'campaign': 'guide-' + slug}
+    addr = ISLAND[slug][0] if slug in ISLAND else re.sub(r' & .*|,.*| National Park.*', '', d['name']) + ', ' + d.get('state', '')
+    q = {'aid': AID, 'lat': d['lat'], 'lng': d['lon'], 'address': addr, 'campaign': 'guide-' + slug}
     return 'https://www.stay22.com/allez/roam?' + urllib.parse.urlencode(q)
 
 
@@ -34,7 +50,9 @@ def block(d, slug):
     return (START + '<div class="wa-s22" style="margin:18px 0 0;padding:14px 16px;border:1px solid #dbe3e9;border-radius:3px;background:#f7f9fa">'
             f'<a href="{link(d, slug)}" target="_blank" rel="sponsored noopener" style="font-weight:700">Compare hotel prices near {short} →</a>'
             '<p style="margin:6px 0 0;font-size:13px;color:#526471">Prices and availability for your dates, through our partner Stay22. '
-            'This is an affiliate link: we may earn a commission at no cost to you. The picks above are never paid.</p></div>' + END)
+            'This is an affiliate link: we may earn a commission at no cost to you. The picks above are never paid.</p>'
+            + (f'<p style="margin:6px 0 0;font-size:13px;color:#8a3b12;font-weight:600">Island stays only: listings outside {ISLAND[slug][1]} are on the mainland and need a flight or ferry.</p>' if slug in ISLAND else '')
+            + '</div>' + END)
 
 
 def main(paths):
