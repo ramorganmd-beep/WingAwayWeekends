@@ -183,7 +183,7 @@ PLANS = {
                   ('Evening', 'Dinner in Cashiers.')]},
     'st-michaels': {
         'day': [('Arrive', 'Land at KESN mid-morning and pick up the car.'),
-                ('Midday', 'The Chesapeake Bay Maritime Museum, then crabs at The Crab Claw.'),
+                ('Midday', 'The Chesapeake Bay Maritime Museum, then crabs on the harbor.'),
                 ('Afternoon', 'A stroll around the St. Michaels harbor, then back to the FBO.')],
         'extra': [('Morning', 'Bikes and the Oxford–Bellevue Ferry to Oxford.'),
                   ('Afternoon', 'A sunset sail or a skipjack cruise.'),
@@ -421,14 +421,14 @@ PLANS = {
                   ('Evening', 'Sunset in the sand at Morada Bay.')]},
     'palm-beach': {
         'day': [('Arrive', 'Land at KLNA mid-morning and drive to the island.'),
-                ('Midday', 'Lunch at Ta-boó and Worth Avenue.'),
+                ('Midday', 'Lunch on Worth Avenue.'),
                 ('Afternoon', 'The Flagler Museum, then back to the FBO.')],
         'extra': [('Morning', 'Polo in Wellington in season.'),
                   ('Afternoon', 'The Norton Museum of Art.'),
                   ('Evening', 'Dinner on Clematis Street in West Palm Beach.')]},
     'cedar-key': {
         'day': [('Arrive', 'Land at KCDK mid-morning and pick up a golf cart.'),
-                ('Midday', 'Chowder at Tony’s and Dock Street.'),
+                ('Midday', 'Clams and lunch on Dock Street.'),
                 ('Afternoon', 'A short kayak, then fly before afternoon storms.')],
         'extra': [('Morning', 'A boat tour of the refuge islands.'),
                   ('Afternoon', 'Bikes around the island.'),
@@ -704,7 +704,7 @@ PLANS = {
         'extra': [('Morning', 'Flight 93 National Memorial.'), ('Afternoon', 'Old Bedford Village.'), ('Evening', 'Dinner in the 1796 Room.')]},
     'laurel-highlands': {
         'day': [('Arrive', 'Land at KLBE early.'), ('Midday', 'Fallingwater.'), ('Afternoon', 'Kentuck Knob, then back to the airport.')],
-        'extra': [('Morning', 'Ohiopyle’s falls.'), ('Afternoon', 'Ligonier’s shops.'), ('Evening', 'Dinner at Ligonier Tavern.')]},
+        'extra': [('Morning', 'Ohiopyle’s falls.'), ('Afternoon', 'Ligonier’s shops.'), ('Evening', 'Dinner in Ligonier.')]},
     'pittsburgh': {
         'day': [('Arrive', 'Land at KAGC mid-morning.'), ('Midday', 'The Duquesne Incline and lunch on Mount Washington.'), ('Afternoon', 'The Warhol Museum, then back to the airport.')],
         'extra': [('Morning', 'The Strip District.'), ('Afternoon', 'Phipps Conservatory.'), ('Evening', 'Dinner at Eleven.')]},
@@ -779,7 +779,7 @@ PLANS = {
         'extra': [('Morning', 'A Katahdin cruise.'), ('Afternoon', 'Mount Kineo.'), ('Evening', 'Dinner at Blair Hill.')]},
     'rangeley': {
         'day': [('Arrive', 'Land at 8B0 or M57 early.'), ('Midday', 'A scenic floatplane flight.'), ('Afternoon', 'The Height of Land overlook, then back to the airport.')],
-        'extra': [('Morning', 'Paddle Rangeley Lake.'), ('Afternoon', 'Saddleback.'), ('Evening', 'Dinner at Forks in the Air.')]},
+        'extra': [('Morning', 'Paddle Rangeley Lake.'), ('Afternoon', 'Saddleback.'), ('Evening', 'Dinner in town.')]},
     'tavares': {
         'day': [('Arrive', 'Splash in at FA1 or land at KLEE mid-morning.'), ('Midday', 'Wooton Park and lunch downtown.'), ('Afternoon', 'Mount Dora’s antique shops, then back to the base.')],
         'extra': [('Morning', 'A day at Jack Brown’s.'), ('Afternoon', 'Downtown Mount Dora.'), ('Evening', 'Dinner at Pisces Rising.')]},
@@ -923,7 +923,7 @@ PLANS = {
         'extra': [('Morning', 'A boat tour to Wizard Island.'), ('Afternoon', 'Garfield Peak.'), ('Evening', 'Dinner at Crater Lake Lodge.')]},
     'ashland': {
         'day': [('Arrive', 'Land at S03 mid-morning.'), ('Midday', 'Lithia Park and lunch downtown.'), ('Afternoon', 'A matinee, then back to the airport.')],
-        'extra': [('Morning', 'Rogue Valley wineries.'), ('Afternoon', 'Jacksonville.'), ('Evening', 'Dinner at Amuse and a play.')]},
+        'extra': [('Morning', 'Rogue Valley wineries.'), ('Afternoon', 'Jacksonville.'), ('Evening', 'Dinner downtown and a play.')]},
     'bend-sunriver': {
         'day': [('Arrive', 'Land at S21 mid-morning.'), ('Midday', 'Lunch at the resort and a bike ride.'), ('Afternoon', 'The High Desert Museum, then back to the airport.')],
         'extra': [('Morning', 'Lava Butte.'), ('Afternoon', 'Mount Bachelor.'), ('Evening', 'Dinner at Pine Tavern in Bend.')]},
@@ -944,7 +944,7 @@ PLANS = {
         'extra': [('Morning', 'Drive to Hawaii Volcanoes National Park.'), ('Afternoon', 'Kilauea crater.'), ('Evening', 'A manta-ray night snorkel.')]},
     'telluride': {
         'day': [('Arrive', 'Land at KTEX in the morning.'), ('Midday', "Gondola to Mountain Village and lunch at Allred's."), ('Afternoon', 'Walk Colorado Avenue, then back to the airport.')],
-        'extra': [('Morning', 'Hike toward Bridal Veil Falls.'), ('Afternoon', 'A Jeep tour.'), ('Evening', 'Dinner at Cosmopolitan.')]},
+        'extra': [('Morning', 'Hike toward Bridal Veil Falls.'), ('Afternoon', 'A Jeep tour.'), ('Evening', 'Dinner on Colorado Avenue.')]},
     'durango': {
         'day': [('Arrive', 'Land at KDRO mid-morning.'), ('Midday', 'Lunch on Main Avenue.'), ('Afternoon', 'The Animas River Trail, then back to the airport.')],
         'extra': [('Morning', 'The steam train to Silverton.'), ('Afternoon', 'Mesa Verde National Park.'), ('Evening', 'Dinner at the Ore House.')]},

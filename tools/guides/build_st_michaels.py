@@ -50,9 +50,6 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One cra
     card('Saturday dinner · Perry Cabin', 'Stars',
          'Locally inspired cooking at Inn at Perry Cabin, inside or on the terrace overlooking the river. Go early for sunset.',
          'https://innatperrycabin.com/dining/stars/') +
-    card('Lunch · St. Michaels harbor', 'The Crab Claw',
-         'A St. Michaels institution on the harbor, where you pick steamed crabs at picnic tables by the water. Seasonal; check that it is open.',
-         'https://www.thecrabclaw.com/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Boats, a ferry and a lighthouse.',
@@ -97,7 +94,7 @@ P.append('<section id="itinerary">' + head('06', 'Suggested itinerary', 'Friday 
         ('Evening', 'Dinner at Bas Rouge.')]) +
     day('SAT', 'St. Michaels & the water', [
         ('Morning', 'The Chesapeake Bay Maritime Museum.'),
-        ('Afternoon', 'Crabs at The Crab Claw, then the spa or a sail.'),
+        ('Afternoon', 'Crabs on the St. Michaels harbor, then the spa or a sail.'),
         ('Evening', 'Sunset dinner at Stars.')]) +
     day('SUN', 'Oxford & home', [
         ('Morning', 'Drive or bike to Bellevue, ride the ferry to Oxford and stroll the town.'),

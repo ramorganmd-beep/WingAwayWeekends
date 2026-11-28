@@ -13,7 +13,9 @@ from pathlib import Path
 DOCS = Path(__file__).resolve().parents[2] / 'docs'
 import json
 _src = (DOCS / 'destinations.js').read_text()
-COORDS = {d['airport']: (d['lat'], d['lon']) for d in json.loads(_src[_src.index('=[') + 1:_src.rindex(';')])}
+_D = json.loads(_src[_src.index('=[') + 1:_src.rindex(';')])
+COORDS = {d['airport']: (d['lat'], d['lon']) for d in _D}
+BYSLUG = {d['guide'].strip('/'): (d['lat'], d['lon']) for d in _D if d.get('guide')}  # two guides can share an airport
 
 for path in map(Path, sys.argv[1:]):
     s = path.read_text()
@@ -24,7 +26,7 @@ for path in map(Path, sys.argv[1:]):
             continue
         sys.exit(f'route box not found in {path}')
     dest = m.group(1)
-    lat, lon = COORDS[dest]
+    lat, lon = BYSLUG.get(path.parent.name) or COORDS[dest]
     s = s.replace('<div class="snapshot" aria-label="Trip snapshot">',
                   f'<div class="snapshot" aria-label="Trip snapshot" data-dest="{dest}" data-lat="{lat}" data-lon="{lon}">', 1)
     s = s.replace('<span>YOUR ROUTE</span><strong>', '<span>YOUR ROUTE</span><strong data-route>', 1)

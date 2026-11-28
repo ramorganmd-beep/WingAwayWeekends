@@ -50,9 +50,6 @@ P.append('<section id="eat">' + head('03', 'Where to eat', 'Two dinners. One lon
     card('Saturday dinner · Cashiers', 'The Orchard',
          'A much-praised restaurant in a restored farmhouse near Cashiers. Diners call it one of the best meals in the mountains; reserve ahead.',
          'https://theorchardcashiers.com/') +
-    card('Lunch · Highlands', 'Wolfgang’s Restaurant & Wine Bistro',
-         'A long-running Highlands favorite with a wine list and a garden patio. Good for a long lunch between waterfalls.',
-         'https://www.wolfgangs.net/') +
     '</div></section>')
 
 P.append('<section id="explore">' + head('04', 'Things to do', 'Waterfalls and granite cliffs.',

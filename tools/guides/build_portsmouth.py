@@ -22,7 +22,7 @@ GUIDE = dict(
     stay=dict(title='Downtown or by the sea.', intro='Rates and availability need travel dates.',
         cards=[('New Castle · Grand hotel', 'Wentworth by the Sea', 'A restored 1874 grand hotel on an island at the harbor mouth, with a spa and ocean views. The romantic splurge.', 'https://www.opalcollection.com/wentworth/'),
                ('Downtown · Boutique', 'The Hotel Portsmouth', 'A boutique hotel in an 1881 Queen Anne mansion, a short walk from Market Square.', 'https://www.larkhotels.com/new-hampshire/portsmouth/the-hotel-portsmouth'),
-               ('Waterfront · Casual', 'Ale House Inn', 'A small, modern inn in an old brewery warehouse, next to Strawbery Banke.', 'https://www.larkhotels.com/hotels/ale-house-inn')]),
+               ('Waterfront · Casual', 'The Bow Hotel', 'A small, modern inn in an old brewery warehouse, next to Strawbery Banke.', 'https://www.thebowhotel.com/')]),
     eat=dict(title='Two dinners. One seafood lunch.', intro='Portsmouth has more good restaurants than most cities its size. Reserve weekends.',
         cards=[('Friday dinner · Tapas', 'Moxy', 'Inventive small plates of New England ingredients, a downtown favorite.', 'https://www.moxyportsmouth.com/'),
                ('Saturday dinner · Oysters', 'Row 34', 'Oysters, lobster and craft beer in a lively room by the river.', 'https://www.row34.com/'),

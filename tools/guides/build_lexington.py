@@ -21,7 +21,6 @@ GUIDE = dict(
         around='Horse farms, distilleries and Shaker Village are spread across the countryside.'),
     stay=dict(title='Art hotel, historic inn or the countryside.', intro='Rates and availability need travel dates. Race meets book early.',
         cards=[('Downtown · Art hotel', '21c Museum Hotel Lexington', 'A hotel with a contemporary art museum inside.', 'https://www.21cmuseumhotels.com/lexington/'),
-               ('Downtown · Historic', 'Gratz Park Inn', 'A boutique inn in a historic neighborhood.', 'https://www.gratzparkinn.com/'),
                ('Countryside · Inn', 'Shaker Village of Pleasant Hill', 'Rooms in restored Shaker buildings, about 45 minutes away.', 'https://www.shakervillageky.org/')]),
     eat=dict(title='Bluegrass cooking.', intro='Reserve weekend dinners.',
         cards=[('Saturday dinner · Countryside', 'Holly Hill Inn', 'Southern cooking in an 1845 house in Midway.', 'https://www.hollyhillinn.com/'),
